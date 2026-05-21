@@ -10,6 +10,11 @@
         2021,
         2022
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022
+      ],
       "first_date": "2020-05-20",
       "last_date": "2022-12-23",
       "status_inferred": "inactive_or_delisted_like"

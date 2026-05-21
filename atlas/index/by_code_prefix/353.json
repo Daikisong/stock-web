@@ -11,6 +11,12 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2020-12-16",
       "last_date": "2023-09-21",
       "status_inferred": "inactive_or_delisted_like"
@@ -25,6 +31,12 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2020-07-29",
       "last_date": "2023-03-09",
       "status_inferred": "inactive_or_delisted_like"
@@ -34,6 +46,15 @@
       "name": "휴럼",
       "profile_path": "atlas/symbol_profiles/353/353190.json",
       "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2020,
         2021,
         2022,
@@ -59,6 +80,15 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2020-05-21",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -68,6 +98,12 @@
       "name": "미래에셋대우스팩 5호",
       "profile_path": "atlas/symbol_profiles/353/353490.json",
       "available_years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "raw_available_years": [
         2020,
         2021,
         2022,
@@ -88,6 +124,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-01-20",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -97,6 +140,15 @@
       "name": "이지바이오",
       "profile_path": "atlas/symbol_profiles/353/353810.json",
       "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2020,
         2021,
         2022,

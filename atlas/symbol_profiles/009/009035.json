@@ -30,7 +30,10 @@
   ],
   "first_date": "1995-05-02",
   "last_date": "1999-11-19",
-  "trading_day_count": 1296,
+  "raw_first_date": "1995-05-02",
+  "raw_last_date": "1999-11-19",
+  "trading_day_count": 1104,
+  "raw_trading_day_count": 1296,
   "available_years": [
     1995,
     1996,
@@ -38,7 +41,28 @@
     1998,
     1999
   ],
+  "raw_available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/009/009035/1995.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/009/009035/1996.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/009/009035/1997.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/009/009035/1998.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/009/009035/1999.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/009/009035/1995.csv",
+    "atlas/ohlcv_raw_by_symbol_year/009/009035/1996.csv",
+    "atlas/ohlcv_raw_by_symbol_year/009/009035/1997.csv",
+    "atlas/ohlcv_raw_by_symbol_year/009/009035/1998.csv",
+    "atlas/ohlcv_raw_by_symbol_year/009/009035/1999.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/009/009035/1995.csv",
     "atlas/ohlcv_min_by_symbol_year/009/009035/1996.csv",
     "atlas/ohlcv_min_by_symbol_year/009/009035/1997.csv",
@@ -48,6 +72,28 @@
   "latest_close": 50,
   "latest_marcap": 50000000,
   "latest_market": "KOSPI",
+  "raw_latest_close": 50,
+  "raw_latest_marcap": 50000000,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 1104,
+    "non_tradable_zero_volume": 192,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_dates": [
+    "1997-12-17",
+    "1999-04-21",
+    "1999-10-11",
+    "1999-10-12",
+    "1999-10-19",
+    "1999-11-19"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

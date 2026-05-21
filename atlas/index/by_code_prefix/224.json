@@ -16,8 +16,19 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2016-07-25",
-      "last_date": "2024-03-28",
+      "last_date": "2024-03-05",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -25,6 +36,20 @@
       "name": "더코디",
       "profile_path": "atlas/symbol_profiles/224/224060.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -50,8 +75,12 @@
         2015,
         2016
       ],
+      "raw_available_years": [
+        2015,
+        2016
+      ],
       "first_date": "2015-07-31",
-      "last_date": "2016-06-28",
+      "last_date": "2016-05-19",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -59,6 +88,20 @@
       "name": "에이텍모빌리티",
       "profile_path": "atlas/symbol_profiles/224/224110.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -81,6 +124,18 @@
       "name": "엔에스컴퍼니",
       "profile_path": "atlas/symbol_profiles/224/224760.json",
       "available_years": [
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -94,8 +149,8 @@
         2025,
         2026
       ],
-      "first_date": "2015-07-31",
-      "last_date": "2026-02-20",
+      "first_date": "2016-03-23",
+      "last_date": "2026-02-19",
       "status_inferred": "active_like"
     },
     {
@@ -116,7 +171,21 @@
         2025,
         2026
       ],
-      "first_date": "2015-10-21",
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-11-12",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
     },
@@ -125,6 +194,13 @@
       "name": "SGA클라우드서비스",
       "profile_path": "atlas/symbol_profiles/224/224880.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,

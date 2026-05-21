@@ -12,11 +12,20 @@
         2022,
         2023,
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "first_date": "2019-09-20",
-      "last_date": "2026-02-20",
+      "last_date": "2025-04-07",
       "status_inferred": "active_like"
     },
     {
@@ -24,6 +33,19 @@
       "name": "나눔테크",
       "profile_path": "atlas/symbol_profiles/244/244880.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -45,6 +67,15 @@
       "name": "에이플러스에셋",
       "profile_path": "atlas/symbol_profiles/244/244920.json",
       "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2020,
         2021,
         2022,

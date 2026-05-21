@@ -13,6 +13,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-12-14",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -22,6 +30,12 @@
       "name": "우듬지팜",
       "profile_path": "atlas/symbol_profiles/403/403490.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,
@@ -42,6 +56,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-08-22",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -51,6 +72,10 @@
       "name": "아이엘로보틱스",
       "profile_path": "atlas/symbol_profiles/403/403810.json",
       "available_years": [
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2025,
         2026
       ],
@@ -66,6 +91,10 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2025,
+        2026
+      ],
       "first_date": "2025-11-18",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -75,6 +104,13 @@
       "name": "HPSP",
       "profile_path": "atlas/symbol_profiles/403/403870.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,

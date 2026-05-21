@@ -19,8 +19,11 @@
     }
   ],
   "first_date": "2015-09-04",
-  "last_date": "2019-09-11",
-  "trading_day_count": 986,
+  "last_date": "2019-08-22",
+  "raw_first_date": "2015-09-04",
+  "raw_last_date": "2019-09-11",
+  "trading_day_count": 972,
+  "raw_trading_day_count": 986,
   "available_years": [
     2015,
     2016,
@@ -28,7 +31,28 @@
     2018,
     2019
   ],
+  "raw_available_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/225/225650/2015.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/225/225650/2016.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/225/225650/2017.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/225/225650/2018.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/225/225650/2019.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/225/225650/2015.csv",
+    "atlas/ohlcv_raw_by_symbol_year/225/225650/2016.csv",
+    "atlas/ohlcv_raw_by_symbol_year/225/225650/2017.csv",
+    "atlas/ohlcv_raw_by_symbol_year/225/225650/2018.csv",
+    "atlas/ohlcv_raw_by_symbol_year/225/225650/2019.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/225/225650/2015.csv",
     "atlas/ohlcv_min_by_symbol_year/225/225650/2016.csv",
     "atlas/ohlcv_min_by_symbol_year/225/225650/2017.csv",
@@ -38,6 +62,21 @@
   "latest_close": 6560,
   "latest_marcap": 70101977120,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 6560,
+  "raw_latest_marcap": 70101977120,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 972,
+    "non_tradable_zero_volume": 14,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 0,
+  "corporate_action_candidate_dates": [],
+  "has_major_raw_discontinuity": false,
+  "calibration_caveat": "",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

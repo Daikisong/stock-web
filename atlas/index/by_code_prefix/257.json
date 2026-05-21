@@ -9,6 +9,14 @@
         2018,
         2019,
         2020,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
         2021,
         2022,
         2023,
@@ -32,6 +40,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-09-29",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -45,6 +61,11 @@
         2018,
         2019
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019
+      ],
       "first_date": "2017-02-23",
       "last_date": "2019-09-30",
       "status_inferred": "inactive_or_delisted_like"
@@ -54,6 +75,15 @@
       "name": "나우코스",
       "profile_path": "atlas/symbol_profiles/257/257990.json",
       "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2020,
         2021,
         2022,

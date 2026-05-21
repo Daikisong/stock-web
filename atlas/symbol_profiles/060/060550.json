@@ -20,7 +20,10 @@
   ],
   "first_date": "2002-02-28",
   "last_date": "2009-04-10",
-  "trading_day_count": 1761,
+  "raw_first_date": "2002-02-28",
+  "raw_last_date": "2009-04-10",
+  "trading_day_count": 1728,
+  "raw_trading_day_count": 1761,
   "available_years": [
     2002,
     2003,
@@ -31,7 +34,37 @@
     2008,
     2009
   ],
+  "raw_available_years": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/060/060550/2002.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/060/060550/2003.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/060/060550/2004.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/060/060550/2005.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/060/060550/2006.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/060/060550/2007.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/060/060550/2008.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/060/060550/2009.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/060/060550/2002.csv",
+    "atlas/ohlcv_raw_by_symbol_year/060/060550/2003.csv",
+    "atlas/ohlcv_raw_by_symbol_year/060/060550/2004.csv",
+    "atlas/ohlcv_raw_by_symbol_year/060/060550/2005.csv",
+    "atlas/ohlcv_raw_by_symbol_year/060/060550/2006.csv",
+    "atlas/ohlcv_raw_by_symbol_year/060/060550/2007.csv",
+    "atlas/ohlcv_raw_by_symbol_year/060/060550/2008.csv",
+    "atlas/ohlcv_raw_by_symbol_year/060/060550/2009.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/060/060550/2002.csv",
     "atlas/ohlcv_min_by_symbol_year/060/060550/2003.csv",
     "atlas/ohlcv_min_by_symbol_year/060/060550/2004.csv",
@@ -44,6 +77,28 @@
   "latest_close": 55,
   "latest_marcap": 113308470,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 55,
+  "raw_latest_marcap": 113308470,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 1728,
+    "non_tradable_zero_volume": 33,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_dates": [
+    "2002-07-29",
+    "2005-07-18",
+    "2006-07-07",
+    "2008-09-10",
+    "2009-02-25",
+    "2009-04-02"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

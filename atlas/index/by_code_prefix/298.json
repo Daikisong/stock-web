@@ -13,11 +13,21 @@
         2022,
         2023,
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "first_date": "2018-07-13",
-      "last_date": "2026-02-20",
+      "last_date": "2025-02-28",
       "status_inferred": "active_like"
     },
     {
@@ -25,6 +35,17 @@
       "name": "효성티앤씨",
       "profile_path": "atlas/symbol_profiles/298/298020.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -54,6 +75,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-07-13",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -63,6 +95,17 @@
       "name": "HS효성첨단소재",
       "profile_path": "atlas/symbol_profiles/298/298050.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -90,6 +133,15 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2020-06-17",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -99,6 +151,17 @@
       "name": "에이비엘바이오",
       "profile_path": "atlas/symbol_profiles/298/298380.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -126,6 +189,15 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2020-07-27",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -135,6 +207,17 @@
       "name": "에어부산",
       "profile_path": "atlas/symbol_profiles/298/298690.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -159,6 +242,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-04-28",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -172,8 +261,13 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2021-12-16",
-      "last_date": "2023-08-25",
+      "last_date": "2023-08-03",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

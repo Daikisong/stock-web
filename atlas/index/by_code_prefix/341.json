@@ -10,8 +10,13 @@
         2021,
         2022
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022
+      ],
       "first_date": "2020-01-30",
-      "last_date": "2022-12-22",
+      "last_date": "2022-12-01",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -19,6 +24,13 @@
       "name": "퓨쳐메디신",
       "profile_path": "atlas/symbol_profiles/341/341170.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,
@@ -34,6 +46,16 @@
       "name": "이앤에치",
       "profile_path": "atlas/symbol_profiles/341/341310.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,

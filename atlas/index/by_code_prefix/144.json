@@ -18,6 +18,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-06-23",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -38,8 +51,20 @@
         2020,
         2021
       ],
+      "raw_available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
       "first_date": "2012-04-05",
-      "last_date": "2021-11-04",
+      "last_date": "2021-08-02",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -52,8 +77,14 @@
         2016,
         2017
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
       "first_date": "2014-04-25",
-      "last_date": "2017-01-19",
+      "last_date": "2017-01-04",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -61,6 +92,14 @@
       "name": "피엠디아카데미",
       "profile_path": "atlas/symbol_profiles/144/144740.json",
       "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "raw_available_years": [
         2013,
         2014,
         2015,
@@ -77,6 +116,19 @@
       "name": "뉴파워프라즈마",
       "profile_path": "atlas/symbol_profiles/144/144960.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,

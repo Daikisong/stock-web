@@ -18,9 +18,12 @@
       "last_date": "2004-02-06"
     }
   ],
-  "first_date": "1996-07-01",
+  "first_date": "1996-07-16",
   "last_date": "2004-02-06",
-  "trading_day_count": 1981,
+  "raw_first_date": "1996-07-01",
+  "raw_last_date": "2004-02-06",
+  "trading_day_count": 1348,
+  "raw_trading_day_count": 1981,
   "available_years": [
     1996,
     1997,
@@ -32,7 +35,40 @@
     2003,
     2004
   ],
+  "raw_available_years": [
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/022/022610/1996.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/022/022610/1997.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/022/022610/1998.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/022/022610/1999.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/022/022610/2000.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/022/022610/2001.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/022/022610/2002.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/022/022610/2003.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/022/022610/2004.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/022/022610/1996.csv",
+    "atlas/ohlcv_raw_by_symbol_year/022/022610/1997.csv",
+    "atlas/ohlcv_raw_by_symbol_year/022/022610/1998.csv",
+    "atlas/ohlcv_raw_by_symbol_year/022/022610/1999.csv",
+    "atlas/ohlcv_raw_by_symbol_year/022/022610/2000.csv",
+    "atlas/ohlcv_raw_by_symbol_year/022/022610/2001.csv",
+    "atlas/ohlcv_raw_by_symbol_year/022/022610/2002.csv",
+    "atlas/ohlcv_raw_by_symbol_year/022/022610/2003.csv",
+    "atlas/ohlcv_raw_by_symbol_year/022/022610/2004.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/022/022610/1996.csv",
     "atlas/ohlcv_min_by_symbol_year/022/022610/1997.csv",
     "atlas/ohlcv_min_by_symbol_year/022/022610/1998.csv",
@@ -46,6 +82,25 @@
   "latest_close": 30500,
   "latest_marcap": 26985485000,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 30500,
+  "raw_latest_marcap": 26985485000,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 1348,
+    "non_tradable_zero_volume": 633,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_dates": [
+    "1997-12-27",
+    "1998-11-27",
+    "2000-05-17"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

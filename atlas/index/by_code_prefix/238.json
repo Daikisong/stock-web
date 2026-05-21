@@ -18,6 +18,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-10-12",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -39,15 +52,10 @@
         2025,
         2026
       ],
-      "first_date": "2016-11-03",
-      "last_date": "2026-02-20",
-      "status_inferred": "active_like"
-    },
-    {
-      "code": "238170",
-      "name": "엔에스엠",
-      "profile_path": "atlas/symbol_profiles/238/238170.json",
-      "available_years": [
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
         2019,
         2020,
         2021,
@@ -57,7 +65,34 @@
         2025,
         2026
       ],
-      "first_date": "2019-12-26",
+      "first_date": "2016-11-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "238170",
+      "name": "엔에스엠",
+      "profile_path": "atlas/symbol_profiles/238/238170.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-01-07",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
     },
@@ -66,6 +101,17 @@
       "name": "비피도",
       "profile_path": "atlas/symbol_profiles/238/238200.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -96,6 +142,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-07-20",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -114,11 +172,23 @@
         2022,
         2023,
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "first_date": "2016-04-20",
-      "last_date": "2026-02-20",
+      "last_date": "2025-04-04",
       "status_inferred": "active_like"
     }
   ]

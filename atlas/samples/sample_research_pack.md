@@ -9,13 +9,13 @@ This is a collector-generated OHLC artifact for historical calibration. It is no
 
 ## Item Summary
 
-| code | name | trigger_date | entry_date | calibration_usable | forward_days | MFE_90D | MAE_90D | warnings |
-|---|---|---|---|---:|---:|---:|---:|---|
-| 005930 | 삼성전자 | 2024-01-02 | 2024-01-03 | True | 504 | 11.69 | -8.18 | Drawdown after peak unavailable because no row exists after peak date. |
-| 000660 | SK하이닉스 | 2024-01-02 | 2024-01-03 | True | 504 | 41.81 | -5.7 | Drawdown after peak unavailable because no row exists after peak date. |
-| 298040 | 효성중공업 | 2024-01-02 | 2024-01-03 | True | 504 | 112.63 | -7.03 | Drawdown after peak unavailable because no row exists after peak date. |
-| 267260 | HD현대일렉트릭 | 2024-01-02 | 2024-01-03 | True | 504 | 219.93 | -5.24 |  |
-| 086520 | 에코프로 | 2024-01-02 | 2024-01-03 | True | 504 | 11.45 | -100 |  |
+| code | name | trigger_date | entry_date | calibration_usable | quality | forward_days | MFE_90D | MAE_90D | block_reasons |
+|---|---|---|---|---:|---|---:|---:|---:|---|
+| 005930 | 삼성전자 | 2024-01-02 | 2024-01-03 | True | usable_with_caveat | 504 | 11.69 | -8.18 |  |
+| 000660 | SK하이닉스 | 2024-01-02 | 2024-01-03 | True | usable_with_caveat | 504 | 41.81 | -5.7 |  |
+| 298040 | 효성중공업 | 2024-01-02 | 2024-01-03 | True | clean_tradable_path | 504 | 112.63 | -7.03 |  |
+| 267260 | HD현대일렉트릭 | 2024-01-02 | 2024-01-03 | True | clean_tradable_path | 504 | 219.93 | -5.24 |  |
+| 086520 | 에코프로 | 2024-01-02 | 2024-01-03 | False | blocked_by_corporate_action | 504 | None | None | corporate_action_within_180D; required_mfe_mae_window_unavailable |
 
 ## Path Summary
 
@@ -99,20 +99,24 @@ This is a collector-generated OHLC artifact for historical calibration. It is no
 | D+20 | 2024-01-31 | -19.03 | 7.26 | -22.58 | True |
 | D+30 | 2024-02-16 | 3.23 | 11.45 | -22.58 | True |
 | D+60 | 2024-04-01 | 2.26 | 11.45 | -22.58 | True |
-| D+90 | 2024-05-17 | -83.92 | 11.45 | -100 | True |
-| D+180 | 2024-09-27 | -85.23 | 11.45 | -100 | True |
-| D+252 | 2025-01-15 | -89.87 | 11.45 | -100 | True |
-| D+504 | 2026-01-29 | -72.26 | 11.45 | -100 | True |
+| D+90 | 2024-06-03 | -84.95 | 11.45 | -85.74 | True |
+| D+180 | 2024-10-17 | -87 | 11.45 | -88.29 | True |
+| D+252 | 2025-02-05 | -90.27 | 11.45 | -91.11 | True |
+| D+504 | 2026-02-13 | -75.74 | 11.45 | -93.91 | True |
 
 ## Machine-Readable JSON
 
 ```json
 {
   "pack_id": "smoke_005930_000660_298040_267260_086520",
-  "generated_at": "2026-05-21T15:40:27.448801+00:00",
+  "generated_at": "2026-05-21T16:28:40.013318+00:00",
   "source_name": "FinanceData/marcap",
   "source_repo_url": "https://github.com/FinanceData/marcap",
   "price_adjustment_status": "raw_unadjusted_marcap",
+  "research_pack_default_price_basis": "tradable_raw",
+  "price_basis": "tradable_raw",
+  "allow_raw_all": false,
+  "block_corporate_action_window": true,
   "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later.",
   "items": [
     {
@@ -120,10 +124,30 @@ This is a collector-generated OHLC artifact for historical calibration. It is no
       "name": "삼성전자",
       "trigger_date": "2024-01-02",
       "entry_mode": "next_trading_day_close",
+      "price_basis": "tradable_raw",
       "entry_date": "2024-01-03",
       "entry_price": 77000,
       "calibration_usable": true,
       "forward_window_trading_days": 504,
+      "tradable_row_count": 7761,
+      "raw_row_count": 7765,
+      "excluded_non_tradable_rows": 3,
+      "excluded_zero_ohlc_rows": 1,
+      "excluded_invalid_ohlc_rows": 0,
+      "corporate_action_within_180D": false,
+      "corporate_action_within_504D": false,
+      "corporate_action_candidate_dates": [
+        "1996-01-03",
+        "1997-01-03",
+        "2018-05-04"
+      ],
+      "calibration_block_reasons": [],
+      "data_quality_label": "usable_with_caveat",
+      "window_30D_corporate_action_contaminated": false,
+      "window_90D_corporate_action_contaminated": false,
+      "window_180D_corporate_action_contaminated": false,
+      "window_1Y_corporate_action_contaminated": false,
+      "window_2Y_corporate_action_contaminated": false,
       "MFE_30D_pct": 2.34,
       "MFE_90D_pct": 11.69,
       "MFE_180D_pct": 15.32,
@@ -552,10 +576,36 @@ This is a collector-generated OHLC artifact for historical calibration. It is no
       "name": "SK하이닉스",
       "trigger_date": "2024-01-02",
       "entry_mode": "next_trading_day_close",
+      "price_basis": "tradable_raw",
       "entry_date": "2024-01-03",
       "entry_price": 136800,
       "calibration_usable": true,
       "forward_window_trading_days": 504,
+      "tradable_row_count": 7263,
+      "raw_row_count": 7277,
+      "excluded_non_tradable_rows": 14,
+      "excluded_zero_ohlc_rows": 0,
+      "excluded_invalid_ohlc_rows": 0,
+      "corporate_action_within_180D": false,
+      "corporate_action_within_504D": false,
+      "corporate_action_candidate_dates": [
+        "1998-07-03",
+        "1999-01-07",
+        "1999-07-06",
+        "1999-10-27",
+        "2000-01-07",
+        "2001-06-27",
+        "2002-06-07",
+        "2003-04-14",
+        "2003-04-21"
+      ],
+      "calibration_block_reasons": [],
+      "data_quality_label": "usable_with_caveat",
+      "window_30D_corporate_action_contaminated": false,
+      "window_90D_corporate_action_contaminated": false,
+      "window_180D_corporate_action_contaminated": false,
+      "window_1Y_corporate_action_contaminated": false,
+      "window_2Y_corporate_action_contaminated": false,
       "MFE_30D_pct": 11.62,
       "MFE_90D_pct": 41.81,
       "MFE_180D_pct": 81.65,
@@ -984,10 +1034,26 @@ This is a collector-generated OHLC artifact for historical calibration. It is no
       "name": "효성중공업",
       "trigger_date": "2024-01-02",
       "entry_mode": "next_trading_day_close",
+      "price_basis": "tradable_raw",
       "entry_date": "2024-01-03",
       "entry_price": 167900,
       "calibration_usable": true,
       "forward_window_trading_days": 504,
+      "tradable_row_count": 1866,
+      "raw_row_count": 1866,
+      "excluded_non_tradable_rows": 0,
+      "excluded_zero_ohlc_rows": 0,
+      "excluded_invalid_ohlc_rows": 0,
+      "corporate_action_within_180D": false,
+      "corporate_action_within_504D": false,
+      "corporate_action_candidate_dates": [],
+      "calibration_block_reasons": [],
+      "data_quality_label": "clean_tradable_path",
+      "window_30D_corporate_action_contaminated": false,
+      "window_90D_corporate_action_contaminated": false,
+      "window_180D_corporate_action_contaminated": false,
+      "window_1Y_corporate_action_contaminated": false,
+      "window_2Y_corporate_action_contaminated": false,
       "MFE_30D_pct": 14.23,
       "MFE_90D_pct": 112.63,
       "MFE_180D_pct": 179.33,
@@ -1416,10 +1482,33 @@ This is a collector-generated OHLC artifact for historical calibration. It is no
       "name": "HD현대일렉트릭",
       "trigger_date": "2024-01-02",
       "entry_mode": "next_trading_day_close",
+      "price_basis": "tradable_raw",
       "entry_date": "2024-01-03",
       "entry_price": 85800,
       "calibration_usable": true,
       "forward_window_trading_days": 504,
+      "tradable_row_count": 2154,
+      "raw_row_count": 2154,
+      "excluded_non_tradable_rows": 0,
+      "excluded_zero_ohlc_rows": 0,
+      "excluded_invalid_ohlc_rows": 0,
+      "corporate_action_within_180D": false,
+      "corporate_action_within_504D": false,
+      "corporate_action_candidate_dates": [
+        "2017-11-17",
+        "2017-11-28",
+        "2017-12-11",
+        "2018-11-23",
+        "2018-12-18",
+        "2019-12-30"
+      ],
+      "calibration_block_reasons": [],
+      "data_quality_label": "clean_tradable_path",
+      "window_30D_corporate_action_contaminated": false,
+      "window_90D_corporate_action_contaminated": false,
+      "window_180D_corporate_action_contaminated": false,
+      "window_1Y_corporate_action_contaminated": false,
+      "window_2Y_corporate_action_contaminated": false,
       "MFE_30D_pct": 39.04,
       "MFE_90D_pct": 219.93,
       "MFE_180D_pct": 336.48,
@@ -1846,25 +1935,49 @@ This is a collector-generated OHLC artifact for historical calibration. It is no
       "name": "에코프로",
       "trigger_date": "2024-01-02",
       "entry_mode": "next_trading_day_close",
+      "price_basis": "tradable_raw",
       "entry_date": "2024-01-03",
       "entry_price": 620000,
-      "calibration_usable": true,
+      "calibration_usable": false,
       "forward_window_trading_days": 504,
+      "tradable_row_count": 4552,
+      "raw_row_count": 4582,
+      "excluded_non_tradable_rows": 30,
+      "excluded_zero_ohlc_rows": 0,
+      "excluded_invalid_ohlc_rows": 0,
+      "corporate_action_within_180D": true,
+      "corporate_action_within_504D": true,
+      "corporate_action_candidate_dates": [
+        "2007-08-02",
+        "2009-06-09",
+        "2021-11-19",
+        "2024-04-25"
+      ],
+      "calibration_block_reasons": [
+        "corporate_action_within_180D",
+        "required_mfe_mae_window_unavailable"
+      ],
+      "data_quality_label": "blocked_by_corporate_action",
+      "window_30D_corporate_action_contaminated": false,
+      "window_90D_corporate_action_contaminated": true,
+      "window_180D_corporate_action_contaminated": true,
+      "window_1Y_corporate_action_contaminated": true,
+      "window_2Y_corporate_action_contaminated": true,
       "MFE_30D_pct": 11.45,
-      "MFE_90D_pct": 11.45,
-      "MFE_180D_pct": 11.45,
-      "MFE_1Y_pct": 11.45,
-      "MFE_2Y_pct": 11.45,
+      "MFE_90D_pct": null,
+      "MFE_180D_pct": null,
+      "MFE_1Y_pct": null,
+      "MFE_2Y_pct": null,
       "MAE_30D_pct": -22.58,
-      "MAE_90D_pct": -100,
-      "MAE_180D_pct": -100,
-      "MAE_1Y_pct": -100,
-      "MAE_2Y_pct": -100,
+      "MAE_90D_pct": null,
+      "MAE_180D_pct": null,
+      "MAE_1Y_pct": null,
+      "MAE_2Y_pct": null,
       "below_entry_price_flag_30D": true,
       "below_entry_price_flag_90D": true,
       "peak_date": "2024-02-13",
       "peak_price": 691000,
-      "drawdown_after_peak_pct": -100,
+      "drawdown_after_peak_pct": -94.54,
       "path_summary": [
         {
           "label": "D+1",
@@ -1941,37 +2054,37 @@ This is a collector-generated OHLC artifact for historical calibration. It is no
         {
           "label": "D+90",
           "trading_day_offset": 90,
-          "date": "2024-05-17",
-          "close_return_pct": -83.92,
+          "date": "2024-06-03",
+          "close_return_pct": -84.95,
           "high_to_date_return_pct": 11.45,
-          "low_to_date_return_pct": -100,
+          "low_to_date_return_pct": -85.74,
           "available": true
         },
         {
           "label": "D+180",
           "trading_day_offset": 180,
-          "date": "2024-09-27",
-          "close_return_pct": -85.23,
+          "date": "2024-10-17",
+          "close_return_pct": -87,
           "high_to_date_return_pct": 11.45,
-          "low_to_date_return_pct": -100,
+          "low_to_date_return_pct": -88.29,
           "available": true
         },
         {
           "label": "D+252",
           "trading_day_offset": 252,
-          "date": "2025-01-15",
-          "close_return_pct": -89.87,
+          "date": "2025-02-05",
+          "close_return_pct": -90.27,
           "high_to_date_return_pct": 11.45,
-          "low_to_date_return_pct": -100,
+          "low_to_date_return_pct": -91.11,
           "available": true
         },
         {
           "label": "D+504",
           "trading_day_offset": 504,
-          "date": "2026-01-29",
-          "close_return_pct": -72.26,
+          "date": "2026-02-13",
+          "close_return_pct": -75.74,
           "high_to_date_return_pct": 11.45,
-          "low_to_date_return_pct": -100,
+          "low_to_date_return_pct": -93.91,
           "available": true
         }
       ],
@@ -2269,7 +2382,10 @@ This is a collector-generated OHLC artifact for historical calibration. It is no
           "volume": 896501
         }
       ],
-      "warnings": []
+      "warnings": [
+        "corporate_action_within_180D",
+        "required_mfe_mae_window_unavailable"
+      ]
     }
   ]
 }

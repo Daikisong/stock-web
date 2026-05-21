@@ -18,16 +18,37 @@
       "last_date": "2012-02-29"
     }
   ],
-  "first_date": "2009-10-01",
-  "last_date": "2012-02-29",
-  "trading_day_count": 603,
+  "first_date": "2009-11-23",
+  "last_date": "2012-02-13",
+  "raw_first_date": "2009-10-01",
+  "raw_last_date": "2012-02-29",
+  "trading_day_count": 63,
+  "raw_trading_day_count": 603,
   "available_years": [
     2009,
     2010,
     2011,
     2012
   ],
+  "raw_available_years": [
+    2009,
+    2010,
+    2011,
+    2012
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/114/114130/2009.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/114/114130/2010.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/114/114130/2011.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/114/114130/2012.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/114/114130/2009.csv",
+    "atlas/ohlcv_raw_by_symbol_year/114/114130/2010.csv",
+    "atlas/ohlcv_raw_by_symbol_year/114/114130/2011.csv",
+    "atlas/ohlcv_raw_by_symbol_year/114/114130/2012.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/114/114130/2009.csv",
     "atlas/ohlcv_min_by_symbol_year/114/114130/2010.csv",
     "atlas/ohlcv_min_by_symbol_year/114/114130/2011.csv",
@@ -36,6 +57,21 @@
   "latest_close": 5200,
   "latest_marcap": 8372000000,
   "latest_market": "KOSPI",
+  "raw_latest_close": 5200,
+  "raw_latest_marcap": 8372000000,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 63,
+    "non_tradable_zero_volume": 540,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 0,
+  "corporate_action_candidate_dates": [],
+  "has_major_raw_discontinuity": false,
+  "calibration_caveat": "",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

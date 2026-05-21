@@ -9,8 +9,12 @@
         2016,
         2017
       ],
+      "raw_available_years": [
+        2016,
+        2017
+      ],
       "first_date": "2016-12-23",
-      "last_date": "2017-11-28",
+      "last_date": "2017-11-23",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -18,6 +22,17 @@
       "name": "알리코제약",
       "profile_path": "atlas/symbol_profiles/260/260660.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -37,6 +52,18 @@
       "name": "SK시그넷",
       "profile_path": "atlas/symbol_profiles/260/260870.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -68,6 +95,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-12-07",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -77,6 +116,17 @@
       "name": "에스앤디",
       "profile_path": "atlas/symbol_profiles/260/260970.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -89,7 +139,7 @@
         2025,
         2026
       ],
-      "first_date": "2016-12-29",
+      "first_date": "2018-08-28",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
     }

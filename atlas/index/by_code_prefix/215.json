@@ -19,6 +19,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-04-03",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -38,6 +52,17 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2015-03-30",
       "last_date": "2023-04-20",
       "status_inferred": "inactive_or_delisted_like"
@@ -47,6 +72,18 @@
       "name": "솔디펜스",
       "profile_path": "atlas/symbol_profiles/215/215090.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -82,6 +119,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-04-22",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -91,6 +142,20 @@
       "name": "메가스터디교육",
       "profile_path": "atlas/symbol_profiles/215/215200.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -126,6 +191,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-05-06",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -135,6 +214,20 @@
       "name": "우정바이오",
       "profile_path": "atlas/symbol_profiles/215/215380.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -170,6 +263,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-05-13",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -179,6 +286,20 @@
       "name": "크로넥스",
       "profile_path": "atlas/symbol_profiles/215/215570.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -205,6 +326,11 @@
         2016,
         2017
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017
+      ],
       "first_date": "2015-05-19",
       "last_date": "2017-12-22",
       "status_inferred": "inactive_or_delisted_like"
@@ -214,6 +340,18 @@
       "name": "신라젠",
       "profile_path": "atlas/symbol_profiles/215/215600.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -240,6 +378,12 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "2015-05-22",
       "last_date": "2018-01-03",
       "status_inferred": "inactive_or_delisted_like"
@@ -249,6 +393,20 @@
       "name": "이노인스트루먼트",
       "profile_path": "atlas/symbol_profiles/215/215790.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,

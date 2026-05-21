@@ -10,6 +10,11 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2024-12-18",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -19,6 +24,14 @@
       "name": "지아이텍",
       "profile_path": "atlas/symbol_profiles/382/382480.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -42,6 +55,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-10-29",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -58,6 +79,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-10-07",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -67,6 +96,13 @@
       "name": "범한퓨얼셀",
       "profile_path": "atlas/symbol_profiles/382/382900.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,

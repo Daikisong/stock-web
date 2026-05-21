@@ -11,6 +11,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-11-21",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -24,6 +30,11 @@
         2024,
         2025
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025
+      ],
       "first_date": "2023-04-06",
       "last_date": "2025-11-12",
       "status_inferred": "inactive_or_delisted_like"
@@ -33,6 +44,12 @@
       "name": "코츠테크놀로지",
       "profile_path": "atlas/symbol_profiles/448/448710.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,
@@ -52,6 +69,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-04-10",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -61,6 +84,11 @@
       "name": "삼성스팩8호",
       "profile_path": "atlas/symbol_profiles/448/448740.json",
       "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025
@@ -78,8 +106,13 @@
         2024,
         2025
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025
+      ],
       "first_date": "2023-04-06",
-      "last_date": "2025-12-26",
+      "last_date": "2025-12-11",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -87,6 +120,13 @@
       "name": "마이크로엔엑스",
       "profile_path": "atlas/symbol_profiles/448/448780.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,
@@ -104,11 +144,16 @@
       "available_years": [
         2023,
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2023,
+        2024,
         2025,
         2026
       ],
       "first_date": "2023-04-07",
-      "last_date": "2026-01-13",
+      "last_date": "2025-12-17",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -116,6 +161,12 @@
       "name": "한국피아이엠",
       "profile_path": "atlas/symbol_profiles/448/448900.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,

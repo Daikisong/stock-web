@@ -19,8 +19,11 @@
     }
   ],
   "first_date": "2012-04-05",
-  "last_date": "2021-11-04",
-  "trading_day_count": 2358,
+  "last_date": "2021-08-02",
+  "raw_first_date": "2012-04-05",
+  "raw_last_date": "2021-11-04",
+  "trading_day_count": 2284,
+  "raw_trading_day_count": 2358,
   "available_years": [
     2012,
     2013,
@@ -33,7 +36,43 @@
     2020,
     2021
   ],
+  "raw_available_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/144/144620/2012.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/144/144620/2013.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/144/144620/2014.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/144/144620/2015.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/144/144620/2016.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/144/144620/2017.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/144/144620/2018.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/144/144620/2019.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/144/144620/2020.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/144/144620/2021.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/144/144620/2012.csv",
+    "atlas/ohlcv_raw_by_symbol_year/144/144620/2013.csv",
+    "atlas/ohlcv_raw_by_symbol_year/144/144620/2014.csv",
+    "atlas/ohlcv_raw_by_symbol_year/144/144620/2015.csv",
+    "atlas/ohlcv_raw_by_symbol_year/144/144620/2016.csv",
+    "atlas/ohlcv_raw_by_symbol_year/144/144620/2017.csv",
+    "atlas/ohlcv_raw_by_symbol_year/144/144620/2018.csv",
+    "atlas/ohlcv_raw_by_symbol_year/144/144620/2019.csv",
+    "atlas/ohlcv_raw_by_symbol_year/144/144620/2020.csv",
+    "atlas/ohlcv_raw_by_symbol_year/144/144620/2021.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/144/144620/2012.csv",
     "atlas/ohlcv_min_by_symbol_year/144/144620/2013.csv",
     "atlas/ohlcv_min_by_symbol_year/144/144620/2014.csv",
@@ -48,6 +87,25 @@
   "latest_close": 3075,
   "latest_marcap": 211125302625,
   "latest_market": "KOSPI",
+  "raw_latest_close": 3075,
+  "raw_latest_marcap": 211125302625,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 2284,
+    "non_tradable_zero_volume": 74,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_dates": [
+    "2017-05-18",
+    "2019-03-21",
+    "2019-05-14"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

@@ -1,38 +1,38 @@
 code,current_or_latest_name,first_date,last_date,trading_day_count,profile_path
-003380,하림지주,1996-07-01,2026-02-20,3108,atlas/symbol_profiles/003/003380.json
-009520,포스코엠텍,1997-11-10,2026-02-20,7023,atlas/symbol_profiles/009/009520.json
-022100,포스코DX,2000-11-28,2026-02-20,6221,atlas/symbol_profiles/022/022100.json
-025900,동화기업,1996-07-01,2026-02-20,7422,atlas/symbol_profiles/025/025900.json
-030190,NICE평가정보,2000-05-16,2026-02-20,6354,atlas/symbol_profiles/030/030190.json
-030520,한글과컴퓨터,1996-09-24,2026-02-20,7351,atlas/symbol_profiles/030/030520.json
-035760,CJ ENM,1999-11-23,2026-02-20,6468,atlas/symbol_profiles/035/035760.json
-035900,JYP Ent.,2001-08-30,2026-02-20,6038,atlas/symbol_profiles/035/035900.json
-036830,솔브레인홀딩스,2000-01-18,2026-02-20,6432,atlas/symbol_profiles/036/036830.json
-036930,주성엔지니어링,1999-12-24,2026-02-20,6445,atlas/symbol_profiles/036/036930.json
+003380,하림지주,1996-07-30,2026-02-20,2228,atlas/symbol_profiles/003/003380.json
+009520,포스코엠텍,1997-11-10,2026-02-20,6770,atlas/symbol_profiles/009/009520.json
+022100,포스코DX,2000-11-28,2026-02-20,6217,atlas/symbol_profiles/022/022100.json
+025900,동화기업,1996-07-04,2026-02-20,6536,atlas/symbol_profiles/025/025900.json
+030190,NICE평가정보,2000-05-16,2026-02-20,6293,atlas/symbol_profiles/030/030190.json
+030520,한글과컴퓨터,1996-09-24,2026-02-20,7226,atlas/symbol_profiles/030/030520.json
+035760,CJ ENM,1999-11-23,2026-02-20,6448,atlas/symbol_profiles/035/035760.json
+035900,JYP Ent.,2001-08-30,2026-02-20,5935,atlas/symbol_profiles/035/035900.json
+036830,솔브레인홀딩스,2000-01-18,2026-02-20,6400,atlas/symbol_profiles/036/036830.json
+036930,주성엔지니어링,1999-12-24,2026-02-20,6444,atlas/symbol_profiles/036/036930.json
 039030,이오테크닉스,2000-08-24,2026-02-20,6285,atlas/symbol_profiles/039/039030.json
 041510,에스엠,2000-04-27,2026-02-20,6364,atlas/symbol_profiles/041/041510.json
 046890,서울반도체,2002-01-17,2026-02-20,5944,atlas/symbol_profiles/046/046890.json
 049070,인탑스,2002-02-21,2026-02-20,5922,atlas/symbol_profiles/049/049070.json
 056190,에스에프에이,2001-12-18,2026-02-20,5963,atlas/symbol_profiles/056/056190.json
-058470,리노공업,2001-12-18,2026-02-20,5963,atlas/symbol_profiles/058/058470.json
-060250,NHN KCP,2002-01-08,2026-02-20,5951,atlas/symbol_profiles/060/060250.json
+058470,리노공업,2001-12-18,2026-02-20,5952,atlas/symbol_profiles/058/058470.json
+060250,NHN KCP,2002-01-08,2026-02-20,5930,atlas/symbol_profiles/060/060250.json
 064760,티씨케이,2003-08-18,2026-02-20,5556,atlas/symbol_profiles/064/064760.json
 066970,엘앤에프,2003-01-02,2026-02-20,5711,atlas/symbol_profiles/066/066970.json
-067160,SOOP,2003-12-19,2026-02-20,5471,atlas/symbol_profiles/067/067160.json
+067160,SOOP,2003-12-19,2026-02-20,5450,atlas/symbol_profiles/067/067160.json
 067310,하나마이크론,2005-10-11,2026-02-20,5024,atlas/symbol_profiles/067/067310.json
-069080,웹젠,2003-05-23,2026-02-20,5614,atlas/symbol_profiles/069/069080.json
+069080,웹젠,2003-05-23,2026-02-20,5612,atlas/symbol_profiles/069/069080.json
 074600,원익QnC,2003-12-12,2026-02-20,5476,atlas/symbol_profiles/074/074600.json
 078340,컴투스,2007-07-06,2026-02-20,4591,atlas/symbol_profiles/078/078340.json
 084370,유진테크,2006-01-17,2026-02-20,4955,atlas/symbol_profiles/084/084370.json
 084850,아이티엠반도체,2019-11-07,2026-02-20,1543,atlas/symbol_profiles/084/084850.json
-086450,동국제약,2007-05-29,2026-02-20,4618,atlas/symbol_profiles/086/086450.json
-086520,에코프로,2007-07-20,2026-02-20,4582,atlas/symbol_profiles/086/086520.json
+086450,동국제약,2007-05-29,2026-02-20,4605,atlas/symbol_profiles/086/086450.json
+086520,에코프로,2007-07-20,2026-02-20,4552,atlas/symbol_profiles/086/086520.json
 090460,비에이치,2007-01-26,2026-02-20,4701,atlas/symbol_profiles/090/090460.json
 091700,파트론,2006-12-13,2026-02-20,4730,atlas/symbol_profiles/091/091700.json
-091990,셀트리온헬스케어,2017-07-28,2024-01-11,1587,atlas/symbol_profiles/091/091990.json
+091990,셀트리온헬스케어,2017-07-28,2023-12-15,1571,atlas/symbol_profiles/091/091990.json
 095340,ISC,2007-10-01,2026-02-20,4535,atlas/symbol_profiles/095/095340.json
 095610,테스,2008-05-20,2026-02-20,4381,atlas/symbol_profiles/095/095610.json
-098460,고영,2008-06-03,2026-02-20,4371,atlas/symbol_profiles/098/098460.json
+098460,고영,2008-06-03,2026-02-20,4368,atlas/symbol_profiles/098/098460.json
 122870,와이지엔터테인먼트,2011-11-23,2026-02-20,3500,atlas/symbol_profiles/122/122870.json
 131290,티에스이,2011-01-05,2026-02-20,3719,atlas/symbol_profiles/131/131290.json
 131970,두산테스나,2013-10-22,2026-02-20,3027,atlas/symbol_profiles/131/131970.json
@@ -44,13 +44,13 @@ code,current_or_latest_name,first_date,last_date,trading_day_count,profile_path
 183300,코미코,2017-03-23,2026-02-20,2184,atlas/symbol_profiles/183/183300.json
 195940,HK이노엔,2021-08-09,2026-02-20,1108,atlas/symbol_profiles/195/195940.json
 196170,알테오젠,2014-12-12,2026-02-20,2745,atlas/symbol_profiles/196/196170.json
-200130,콜마비앤에이치,2014-07-23,2026-02-20,2841,atlas/symbol_profiles/200/200130.json
+200130,콜마비앤에이치,2014-07-23,2026-02-20,2793,atlas/symbol_profiles/200/200130.json
 213420,덕산네오룩스,2015-02-06,2026-02-20,2708,atlas/symbol_profiles/213/213420.json
-214150,클래시스,2015-04-03,2026-02-20,2671,atlas/symbol_profiles/214/214150.json
+214150,클래시스,2015-04-03,2026-02-20,2608,atlas/symbol_profiles/214/214150.json
 214450,파마리서치,2015-07-24,2026-02-20,2594,atlas/symbol_profiles/214/214450.json
-215000,골프존,2015-04-03,2026-02-20,2671,atlas/symbol_profiles/215/215000.json
-215200,메가스터디교육,2015-05-04,2026-02-20,2651,atlas/symbol_profiles/215/215200.json
-222080,씨아이에스,2015-09-02,2026-02-20,2567,atlas/symbol_profiles/222/222080.json
+215000,골프존,2015-04-03,2026-02-20,2670,atlas/symbol_profiles/215/215000.json
+215200,메가스터디교육,2015-05-04,2026-02-20,2642,atlas/symbol_profiles/215/215200.json
+222080,씨아이에스,2015-09-02,2026-02-20,2529,atlas/symbol_profiles/222/222080.json
 222800,심텍,2015-08-07,2026-02-20,2584,atlas/symbol_profiles/222/222800.json
 230360,에코마케팅,2016-08-08,2026-02-20,2338,atlas/symbol_profiles/230/230360.json
 237690,에스티팜,2016-06-23,2026-02-20,2370,atlas/symbol_profiles/237/237690.json
@@ -58,11 +58,11 @@ code,current_or_latest_name,first_date,last_date,trading_day_count,profile_path
 243070,휴온스,2016-06-03,2026-02-20,2383,atlas/symbol_profiles/243/243070.json
 247540,에코프로비엠,2019-03-05,2026-02-20,1712,atlas/symbol_profiles/247/247540.json
 253450,스튜디오드래곤,2017-11-24,2026-02-20,2020,atlas/symbol_profiles/253/253450.json
-263750,펄어비스,2017-09-14,2026-02-20,2065,atlas/symbol_profiles/263/263750.json
+263750,펄어비스,2017-09-14,2026-02-20,2062,atlas/symbol_profiles/263/263750.json
 267980,매일유업,2017-06-05,2026-02-20,2136,atlas/symbol_profiles/267/267980.json
 272290,이녹스첨단소재,2017-07-10,2026-02-20,2112,atlas/symbol_profiles/272/272290.json
 278280,천보,2019-02-11,2026-02-20,1727,atlas/symbol_profiles/278/278280.json
-287410,제이시스메디칼,2018-05-08,2024-11-06,1599,atlas/symbol_profiles/287/287410.json
+287410,제이시스메디칼,2018-05-08,2024-10-18,1486,atlas/symbol_profiles/287/287410.json
 293490,카카오게임즈,2020-09-10,2026-02-20,1333,atlas/symbol_profiles/293/293490.json
 319660,피에스케이,2019-05-10,2026-02-20,1666,atlas/symbol_profiles/319/319660.json
 348210,넥스틴,2020-10-08,2026-02-20,1316,atlas/symbol_profiles/348/348210.json

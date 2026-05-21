@@ -20,14 +20,35 @@
   ],
   "first_date": "2023-06-15",
   "last_date": "2026-02-20",
+  "raw_first_date": "2023-06-15",
+  "raw_last_date": "2026-02-20",
   "trading_day_count": 653,
+  "raw_trading_day_count": 653,
   "available_years": [
     2023,
     2024,
     2025,
     2026
   ],
+  "raw_available_years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/348/348080/2023.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/348/348080/2024.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/348/348080/2025.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/348/348080/2026.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/348/348080/2023.csv",
+    "atlas/ohlcv_raw_by_symbol_year/348/348080/2024.csv",
+    "atlas/ohlcv_raw_by_symbol_year/348/348080/2025.csv",
+    "atlas/ohlcv_raw_by_symbol_year/348/348080/2026.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/348/348080/2023.csv",
     "atlas/ohlcv_min_by_symbol_year/348/348080/2024.csv",
     "atlas/ohlcv_min_by_symbol_year/348/348080/2025.csv",
@@ -36,6 +57,24 @@
   "latest_close": 967,
   "latest_marcap": 79087829798,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 967,
+  "raw_latest_marcap": 79087829798,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 653,
+    "non_tradable_zero_volume": 0,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_dates": [
+    "2023-07-03",
+    "2025-04-01"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "active_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

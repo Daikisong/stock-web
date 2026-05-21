@@ -16,6 +16,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-07-23",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -34,11 +45,23 @@
         2022,
         2023,
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "first_date": "2016-09-22",
-      "last_date": "2026-02-20",
+      "last_date": "2025-02-11",
       "status_inferred": "active_like"
     },
     {
@@ -46,6 +69,15 @@
       "name": "제이앤티씨",
       "profile_path": "atlas/symbol_profiles/204/204270.json",
       "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2020,
         2021,
         2022,
@@ -77,6 +109,21 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2014-10-06",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -86,6 +133,12 @@
       "name": "대우스팩2호",
       "profile_path": "atlas/symbol_profiles/204/204440.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -106,6 +159,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-11-17",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -115,6 +175,21 @@
       "name": "글로벌텍스프리",
       "profile_path": "atlas/symbol_profiles/204/204620.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -148,12 +223,25 @@
         2021,
         2022,
         2023,
+        2024
+      ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
       ],
       "first_date": "2014-12-29",
-      "last_date": "2026-02-20",
+      "last_date": "2024-04-08",
       "status_inferred": "active_like"
     },
     {
@@ -161,6 +249,12 @@
       "name": "케이티비스팩1호",
       "profile_path": "atlas/symbol_profiles/204/204650.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -174,7 +268,8 @@
       "code": "204690",
       "name": "다린",
       "profile_path": "atlas/symbol_profiles/204/204690.json",
-      "available_years": [
+      "available_years": [],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -189,6 +284,12 @@
       "name": "현대에이블스팩1호",
       "profile_path": "atlas/symbol_profiles/204/204760.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -217,6 +318,21 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2014-11-20",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -226,6 +342,14 @@
       "name": "코썬바이오",
       "profile_path": "atlas/symbol_profiles/204/204990.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,

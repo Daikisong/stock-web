@@ -19,6 +19,22 @@ ATLAS_VERSION = "1.0.0"
 DEFAULT_WINDOWS = [30, 90, 180, 252, 504]
 DEFAULT_POINTS = [1, 2, 3, 5, 10, 20, 30, 60, 90, 180, 252, 504]
 WINDOW_LABELS = {252: "1Y", 504: "2Y"}
+ROW_STATUS_VALUES = [
+    "tradable_ohlcv",
+    "non_tradable_zero_volume",
+    "invalid_zero_ohlc",
+    "invalid_missing_ohlc",
+    "invalid_ohlc_inconsistent",
+    "suspicious_ohlc_repaired_candidate",
+]
+DATA_QUALITY_LABELS = [
+    "clean_tradable_path",
+    "usable_with_caveat",
+    "blocked_by_corporate_action",
+    "blocked_by_insufficient_forward_window",
+    "blocked_by_non_tradable_rows",
+    "blocked_by_invalid_ohlc",
+]
 
 NORMALIZED_COLUMNS = [
     "date",
@@ -203,6 +219,31 @@ def to_float(row: dict[str, Any], key: str) -> float | None:
     return number
 
 
+def classify_row(row: dict[str, Any]) -> str:
+    values = {key: to_float(row, key) for key in ["open", "high", "low", "close", "volume"]}
+    if any(values[key] is None for key in ["open", "high", "low", "close", "volume"]):
+        return "invalid_missing_ohlc"
+    open_price = values["open"]
+    high = values["high"]
+    low = values["low"]
+    close = values["close"]
+    volume = values["volume"]
+    assert open_price is not None and high is not None and low is not None and close is not None and volume is not None
+    if volume == 0:
+        return "non_tradable_zero_volume"
+    if any(value <= 0 for value in [open_price, high, low, close]):
+        return "invalid_zero_ohlc"
+    if high >= max(open_price, close) and low <= min(open_price, close) and high >= low:
+        return "tradable_ohlcv"
+    if high > 0 and low > 0 and volume > 0:
+        return "suspicious_ohlc_repaired_candidate"
+    return "invalid_ohlc_inconsistent"
+
+
+def is_tradable_ohlcv_row(row: dict[str, Any]) -> bool:
+    return classify_row(row) == "tradable_ohlcv"
+
+
 def sort_rows(rows: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted((dict(row) for row in rows), key=lambda item: item.get("date") or item.get("d") or "")
 
@@ -243,7 +284,8 @@ def compute_trigger_backtest(
     max_window: int = 504,
 ) -> dict[str, Any]:
     windows = windows or DEFAULT_WINDOWS
-    sorted_rows = sort_rows(rows)
+    input_rows = sort_rows(rows)
+    sorted_rows = [row for row in input_rows if is_tradable_ohlcv_row(row)]
     warnings: list[str] = []
     result: dict[str, Any] = {
         "trigger_date": trigger_date,
@@ -255,6 +297,8 @@ def compute_trigger_backtest(
         "peak_date": None,
         "peak_price": None,
         "drawdown_after_peak_pct": None,
+        "input_row_count": len(input_rows),
+        "tradable_row_count": len(sorted_rows),
         "warnings": warnings,
     }
     for window in DEFAULT_WINDOWS:
@@ -262,8 +306,10 @@ def compute_trigger_backtest(
         result.setdefault(metric_key("MAE", window), None)
     result["below_entry_price_flag_30D"] = None
     result["below_entry_price_flag_90D"] = None
+    if len(sorted_rows) != len(input_rows):
+        warnings.append(f"Excluded {len(input_rows) - len(sorted_rows)} non-tradable rows before MFE/MAE computation.")
     if not sorted_rows:
-        warnings.append("No OHLC rows available.")
+        warnings.append("No tradable OHLC rows available.")
         return result
     required = ["open", "high", "low", "close", "volume"]
     missing_required = [key for key in required if key not in sorted_rows[0]]
@@ -321,7 +367,7 @@ def compute_trigger_backtest(
 
 def compute_path_summary(rows: list[dict[str, Any]], entry_date: str, points: list[int] | None = None, entry_mode: str = "trigger_close") -> dict[str, Any]:
     points = points or DEFAULT_POINTS
-    sorted_rows = sort_rows(rows)
+    sorted_rows = [row for row in sort_rows(rows) if is_tradable_ohlcv_row(row)]
     result = {"entry_date": None, "entry_price": None, "entry_mode": entry_mode, "points": [], "warnings": []}
     entry = choose_entry_row(sorted_rows, entry_date, entry_mode)
     if entry is None:
@@ -363,7 +409,7 @@ def compute_path_summary(rows: list[dict[str, Any]], entry_date: str, points: li
 
 
 def compute_event_window(rows: list[dict[str, Any]], anchor_date: str, pre: int = 10, post: int = 10) -> list[dict[str, Any]]:
-    sorted_rows = sort_rows(rows)
+    sorted_rows = [row for row in sort_rows(rows) if is_tradable_ohlcv_row(row)]
     anchor_index = None
     for index, row in enumerate(sorted_rows):
         if str(row["date"]) >= anchor_date:
@@ -397,11 +443,19 @@ def load_profile(atlas_root: Path, code: str) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def load_symbol_rows(atlas_root: Path, code: str, start: str | None = None, end: str | None = None) -> list[dict[str, Any]]:
+def load_symbol_rows(atlas_root: Path, code: str, start: str | None = None, end: str | None = None, price_basis: str = "tradable_raw") -> list[dict[str, Any]]:
     code = normalize_code(code)
     profile = load_profile(atlas_root, code)
+    if price_basis in {"tradable_raw", "tradable", "calibration"}:
+        year_files = profile.get("year_files", [])
+    elif price_basis in {"raw_all", "raw"}:
+        year_files = profile.get("raw_year_files", [])
+    elif price_basis in {"compat", "ohlcv_min"}:
+        year_files = profile.get("compat_year_files", profile.get("year_files", []))
+    else:
+        raise ValueError(f"unsupported price_basis: {price_basis}")
     rows: list[dict[str, Any]] = []
-    for year_file in profile.get("year_files", []):
+    for year_file in year_files:
         path = atlas_root.parent / year_file
         if not path.exists():
             continue
@@ -432,9 +486,48 @@ def load_symbol_rows(atlas_root: Path, code: str, start: str | None = None, end:
                         "marcap": clean_scalar(float(row["mc"])) if row["mc"] else None,
                         "stocks": clean_scalar(float(row["s"])) if row["s"] else None,
                         "market": row.get("m") or None,
+                        "row_status": row.get("rs") or "tradable_ohlcv",
                     }
                 )
     return sort_rows(rows)
+
+
+def load_corporate_action_candidates(atlas_root: Path, code: str | None = None) -> list[dict[str, Any]]:
+    path = atlas_root / "corporate_actions" / "corporate_action_candidates.csv"
+    if not path.exists():
+        return []
+    output = []
+    normalized = normalize_code(code) if code else None
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            if normalized and row.get("code") != normalized:
+                continue
+            item = dict(row)
+            for key in ["prev_close", "close", "prev_stocks", "stocks", "price_ratio", "stocks_ratio"]:
+                item[key] = to_float(item, key)
+            output.append(item)
+    return output
+
+
+def corporate_action_window_flags(rows: list[dict[str, Any]], entry_date: str | None, candidate_dates: list[str], windows: list[int] | None = None) -> dict[int, bool]:
+    windows = windows or DEFAULT_WINDOWS
+    flags = {window: False for window in windows}
+    if not entry_date or not candidate_dates:
+        return flags
+    sorted_rows = [row for row in sort_rows(rows) if is_tradable_ohlcv_row(row)]
+    entry_index = None
+    for index, row in enumerate(sorted_rows):
+        if str(row.get("date")) == entry_date:
+            entry_index = index
+            break
+    if entry_index is None:
+        return flags
+    candidate_set = set(candidate_dates)
+    for window in windows:
+        window_rows = sorted_rows[entry_index : entry_index + window]
+        flags[window] = any(str(row.get("date")) in candidate_set for row in window_rows)
+    return flags
 
 
 def parse_int_list(raw: str, default: list[int]) -> list[int]:

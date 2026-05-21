@@ -7,11 +7,15 @@
       "profile_path": "atlas/symbol_profiles/404/404950.json",
       "available_years": [
         2022,
+        2023
+      ],
+      "raw_available_years": [
+        2022,
         2023,
         2024
       ],
       "first_date": "2022-01-20",
-      "last_date": "2024-01-03",
+      "last_date": "2023-12-07",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -19,6 +23,14 @@
       "name": "신한서부티엔디리츠",
       "profile_path": "atlas/symbol_profiles/404/404990.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,

@@ -25,7 +25,10 @@
   ],
   "first_date": "2019-06-19",
   "last_date": "2025-06-18",
-  "trading_day_count": 1474,
+  "raw_first_date": "2019-06-19",
+  "raw_last_date": "2025-06-18",
+  "trading_day_count": 1206,
+  "raw_trading_day_count": 1474,
   "available_years": [
     2019,
     2020,
@@ -35,7 +38,34 @@
     2024,
     2025
   ],
+  "raw_available_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/323/323230/2019.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/323/323230/2020.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/323/323230/2021.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/323/323230/2022.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/323/323230/2023.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/323/323230/2024.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/323/323230/2025.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/323/323230/2019.csv",
+    "atlas/ohlcv_raw_by_symbol_year/323/323230/2020.csv",
+    "atlas/ohlcv_raw_by_symbol_year/323/323230/2021.csv",
+    "atlas/ohlcv_raw_by_symbol_year/323/323230/2022.csv",
+    "atlas/ohlcv_raw_by_symbol_year/323/323230/2023.csv",
+    "atlas/ohlcv_raw_by_symbol_year/323/323230/2024.csv",
+    "atlas/ohlcv_raw_by_symbol_year/323/323230/2025.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/323/323230/2019.csv",
     "atlas/ohlcv_min_by_symbol_year/323/323230/2020.csv",
     "atlas/ohlcv_min_by_symbol_year/323/323230/2021.csv",
@@ -47,6 +77,27 @@
   "latest_close": 3,
   "latest_marcap": 129823476,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 3,
+  "raw_latest_marcap": 129823476,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 1206,
+    "non_tradable_zero_volume": 268,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_dates": [
+    "2020-12-30",
+    "2021-12-28",
+    "2025-06-10",
+    "2025-06-17",
+    "2025-06-18"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

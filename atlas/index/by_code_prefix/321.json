@@ -15,6 +15,16 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2019-05-31",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -24,6 +34,12 @@
       "name": "센서뷰",
       "profile_path": "atlas/symbol_profiles/321/321370.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,
@@ -47,6 +63,16 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2019-11-22",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -56,6 +82,14 @@
       "name": "아티스트컴퍼니",
       "profile_path": "atlas/symbol_profiles/321/321820.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,

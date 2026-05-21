@@ -20,7 +20,10 @@
   ],
   "first_date": "2020-12-11",
   "last_date": "2024-10-04",
-  "trading_day_count": 937,
+  "raw_first_date": "2020-12-11",
+  "raw_last_date": "2024-10-04",
+  "trading_day_count": 545,
+  "raw_trading_day_count": 937,
   "available_years": [
     2020,
     2021,
@@ -28,7 +31,28 @@
     2023,
     2024
   ],
+  "raw_available_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/286/286000/2020.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/286/286000/2021.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/286/286000/2022.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/286/286000/2023.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/286/286000/2024.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/286/286000/2020.csv",
+    "atlas/ohlcv_raw_by_symbol_year/286/286000/2021.csv",
+    "atlas/ohlcv_raw_by_symbol_year/286/286000/2022.csv",
+    "atlas/ohlcv_raw_by_symbol_year/286/286000/2023.csv",
+    "atlas/ohlcv_raw_by_symbol_year/286/286000/2024.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/286/286000/2020.csv",
     "atlas/ohlcv_min_by_symbol_year/286/286000/2021.csv",
     "atlas/ohlcv_min_by_symbol_year/286/286000/2022.csv",
@@ -38,6 +62,24 @@
   "latest_close": 1399,
   "latest_marcap": 8751283615,
   "latest_market": "KONEX",
+  "raw_latest_close": 1399,
+  "raw_latest_marcap": 8751283615,
+  "raw_latest_market": "KONEX",
+  "row_status_counts": {
+    "tradable_ohlcv": 545,
+    "non_tradable_zero_volume": 392,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_dates": [
+    "2024-09-24",
+    "2024-10-04"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

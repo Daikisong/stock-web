@@ -11,6 +11,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-03-03",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -20,6 +26,13 @@
       "name": "핑거스토리",
       "profile_path": "atlas/symbol_profiles/417/417180.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,
@@ -40,6 +53,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-12-12",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -49,6 +68,13 @@
       "name": "코람코더원리츠",
       "profile_path": "atlas/symbol_profiles/417/417310.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,
@@ -70,6 +96,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-11-04",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -79,6 +112,12 @@
       "name": "트루엔",
       "profile_path": "atlas/symbol_profiles/417/417790.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,
@@ -99,6 +138,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-10-28",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -113,6 +159,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-01-30",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -122,6 +174,13 @@
       "name": "모델솔루션",
       "profile_path": "atlas/symbol_profiles/417/417970.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,

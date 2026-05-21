@@ -21,7 +21,23 @@
         2025,
         2026
       ],
-      "first_date": "2013-07-01",
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-07-09",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
     },
@@ -30,6 +46,25 @@
       "name": "현대퓨처넷",
       "profile_path": "atlas/symbol_profiles/126/126560.json",
       "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2010,
         2011,
         2012,
@@ -75,6 +110,25 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2010-11-12",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -84,6 +138,25 @@
       "name": "화신정공",
       "profile_path": "atlas/symbol_profiles/126/126640.json",
       "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2010,
         2011,
         2012,
@@ -116,6 +189,12 @@
         2012,
         2013
       ],
+      "raw_available_years": [
+        2010,
+        2011,
+        2012,
+        2013
+      ],
       "first_date": "2010-12-22",
       "last_date": "2013-07-26",
       "status_inferred": "inactive_or_delisted_like"
@@ -125,6 +204,25 @@
       "name": "하이비젼시스템",
       "profile_path": "atlas/symbol_profiles/126/126700.json",
       "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2010,
         2011,
         2012,
@@ -158,6 +256,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-08-01",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -167,6 +272,11 @@
       "name": "코칩",
       "profile_path": "atlas/symbol_profiles/126/126730.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026
@@ -192,6 +302,19 @@
         2021,
         2022
       ],
+      "raw_available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
       "first_date": "2012-02-15",
       "last_date": "2022-10-25",
       "status_inferred": "inactive_or_delisted_like"
@@ -201,6 +324,24 @@
       "name": "제이엔케이글로벌",
       "profile_path": "atlas/symbol_profiles/126/126880.json",
       "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2011,
         2012,
         2013,

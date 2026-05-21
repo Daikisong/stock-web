@@ -23,6 +23,24 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2011-05-13",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -32,6 +50,24 @@
       "name": "신진에스엠",
       "profile_path": "atlas/symbol_profiles/138/138070.json",
       "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2011,
         2012,
         2013,
@@ -72,6 +108,21 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2014-02-27",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -90,8 +141,18 @@
         2021,
         2022
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
       "first_date": "2015-03-27",
-      "last_date": "2022-03-21",
+      "last_date": "2022-02-24",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -99,6 +160,12 @@
       "name": "지성이씨에스",
       "profile_path": "atlas/symbol_profiles/138/138290.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -113,6 +180,19 @@
       "name": "앤로보틱스",
       "profile_path": "atlas/symbol_profiles/138/138360.json",
       "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2013,
         2014,
         2015,
@@ -143,6 +223,13 @@
         2014,
         2015
       ],
+      "raw_available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
       "first_date": "2011-03-10",
       "last_date": "2015-09-15",
       "status_inferred": "inactive_or_delisted_like"
@@ -152,6 +239,24 @@
       "name": "코오롱ENP",
       "profile_path": "atlas/symbol_profiles/138/138490.json",
       "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2011,
         2012,
         2013,
@@ -187,8 +292,18 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2017-11-30",
-      "last_date": "2024-11-21",
+      "last_date": "2024-11-05",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -196,6 +311,24 @@
       "name": "나이벡",
       "profile_path": "atlas/symbol_profiles/138/138610.json",
       "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2011,
         2012,
         2013,
@@ -236,6 +369,21 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2011-06-02",
       "last_date": "2023-12-05",
       "status_inferred": "inactive_or_delisted_like"
@@ -245,6 +393,24 @@
       "name": "BNK금융지주",
       "profile_path": "atlas/symbol_profiles/138/138930.json",
       "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2011,
         2012,
         2013,

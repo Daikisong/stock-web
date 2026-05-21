@@ -10,8 +10,13 @@
         2021,
         2022
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022
+      ],
       "first_date": "2020-01-30",
-      "last_date": "2022-12-28",
+      "last_date": "2022-12-15",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -19,6 +24,10 @@
       "name": "오아",
       "profile_path": "atlas/symbol_profiles/342/342870.json",
       "available_years": [
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2025,
         2026
       ],

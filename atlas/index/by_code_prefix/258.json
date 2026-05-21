@@ -16,6 +16,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-07-13",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -35,6 +46,17 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2016-12-13",
       "last_date": "2024-08-29",
       "status_inferred": "inactive_or_delisted_like"
@@ -44,6 +66,18 @@
       "name": "에스엘테라퓨틱스",
       "profile_path": "atlas/symbol_profiles/258/258540.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -75,6 +109,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-08-22",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -84,6 +130,18 @@
       "name": "소프트캠프",
       "profile_path": "atlas/symbol_profiles/258/258790.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -110,12 +168,21 @@
         2021,
         2022,
         2023,
+        2024
+      ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
       ],
       "first_date": "2018-05-29",
-      "last_date": "2026-02-20",
+      "last_date": "2024-03-29",
       "status_inferred": "active_like"
     }
   ]

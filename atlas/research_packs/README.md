@@ -1,3 +1,3 @@
 # Research Packs
 
-Generated E2R-ready packs from atlas shards.
+Generated E2R-ready packs from calibration-safe tradable atlas shards.

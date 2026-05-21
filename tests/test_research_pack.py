@@ -6,6 +6,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from scripts.atlas_utils import compute_path_summary, compute_trigger_backtest
+from scripts.build_research_pack import build_pack
 
 ROOT = Path(__file__).resolve().parents[1]
 ATLAS = ROOT / "atlas"
@@ -63,9 +64,9 @@ def test_drawdown_after_peak_only_uses_rows_after_peak():
     rows = fixture_rows(10)
     rows[3]["high"] = 1000
     rows[2]["low"] = 1
-    rows[4]["low"] = 900
+    rows[4].update({"open": 920, "high": 950, "low": 900, "close": 930})
     for row in rows[5:]:
-        row["low"] = 950
+        row.update({"open": 960, "high": 970, "low": 950, "close": 965})
     result = compute_trigger_backtest(rows, rows[0]["date"], "trigger_close", [5], 9)
     assert result["peak_date"] == rows[3]["date"]
     assert result["drawdown_after_peak_pct"] == round((900 / 1000 - 1) * 100, 2)
@@ -97,3 +98,33 @@ def test_calibration_usable_requires_180_forward_trading_days():
     rows = fixture_rows(100)
     result = compute_trigger_backtest(rows, rows[0]["date"], "trigger_close", [30, 90, 180], 180)
     assert result["calibration_usable"] is False
+
+
+def test_smoke_005930_still_calibration_usable():
+    path = ATLAS / "research_packs" / "smoke" / "smoke_005930_000660_298040_267260_086520.json"
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    item = next(item for item in payload["items"] if item["code"] == "005930")
+    assert item["calibration_usable"] is True
+
+
+def test_smoke_ecopro_blocks_corporate_action_and_no_minus_100_mae():
+    path = ATLAS / "research_packs" / "smoke" / "smoke_005930_000660_298040_267260_086520.json"
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    item = next(item for item in payload["items"] if item["code"] == "086520")
+    assert item["MAE_90D_pct"] != -100.0
+    assert item["calibration_usable"] is False
+    assert "corporate_action_within_180D" in item["calibration_block_reasons"]
+
+
+def test_raw_all_price_basis_cannot_be_calibration_usable():
+    pack = build_pack([("005930", "2024-01-02")], price_basis="raw_all", pack_id="test_raw_all")
+    assert pack["items"][0]["calibration_usable"] is False
+    assert "raw_all_price_basis_not_allowed_for_calibration" in pack["items"][0]["calibration_block_reasons"]
+
+
+def test_compute_trigger_filters_non_tradable_rows():
+    rows = fixture_rows(220)
+    rows.insert(10, {"date": "2024-01-12", "open": 0, "high": 0, "low": 0, "close": 100, "volume": 0})
+    result = compute_trigger_backtest(rows, rows[0]["date"], "trigger_close", [30, 90, 180], 180)
+    assert result["tradable_row_count"] == 220
+    assert result["MAE_90D_pct"] != -100.0

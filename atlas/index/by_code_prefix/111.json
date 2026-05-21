@@ -17,6 +17,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-02-02",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -26,6 +38,12 @@
       "name": "동인기연",
       "profile_path": "atlas/symbol_profiles/111/111380.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,
@@ -45,6 +63,14 @@
         2012,
         2013,
         2014,
+        2016
+      ],
+      "raw_available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
         2015,
         2016
       ],
@@ -57,6 +83,17 @@
       "name": "남화산업",
       "profile_path": "atlas/symbol_profiles/111/111710.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -95,6 +132,26 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2009-07-30",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -104,6 +161,18 @@
       "name": "지유온",
       "profile_path": "atlas/symbol_profiles/111/111820.json",
       "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2021
+      ],
+      "raw_available_years": [
         2010,
         2011,
         2012,
@@ -126,6 +195,23 @@
       "name": "KH 미래물산",
       "profile_path": "atlas/symbol_profiles/111/111870.json",
       "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2026
+      ],
+      "raw_available_years": [
         2010,
         2011,
         2012,

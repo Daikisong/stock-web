@@ -15,11 +15,23 @@
         2022,
         2023,
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "first_date": "2016-07-26",
-      "last_date": "2026-02-20",
+      "last_date": "2025-04-07",
       "status_inferred": "active_like"
     },
     {
@@ -27,6 +39,20 @@
       "name": "네오오토",
       "profile_path": "atlas/symbol_profiles/212/212560.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -49,6 +75,10 @@
       "name": "아이에스티이",
       "profile_path": "atlas/symbol_profiles/212/212710.json",
       "available_years": [
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2025,
         2026
       ],

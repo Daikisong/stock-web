@@ -10,8 +10,13 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2021-09-17",
-      "last_date": "2023-03-15",
+      "last_date": "2023-02-22",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -19,6 +24,11 @@
       "name": "파인메딕스",
       "profile_path": "atlas/symbol_profiles/387/387570.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026

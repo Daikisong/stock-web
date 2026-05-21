@@ -14,6 +14,15 @@
         2012,
         2013
       ],
+      "raw_available_years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
       "first_date": "2007-08-17",
       "last_date": "2013-06-04",
       "status_inferred": "inactive_or_delisted_like"
@@ -23,6 +32,12 @@
       "name": "코웰이홀딩스",
       "profile_path": "atlas/symbol_profiles/900/900020.json",
       "available_years": [
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "raw_available_years": [
         2008,
         2009,
         2010,
@@ -43,6 +58,13 @@
         2011,
         2012
       ],
+      "raw_available_years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
       "first_date": "2008-12-04",
       "last_date": "2012-09-13",
       "status_inferred": "inactive_or_delisted_like"
@@ -52,6 +74,20 @@
       "name": "차이나그레이트",
       "profile_path": "atlas/symbol_profiles/900/900040.json",
       "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "raw_available_years": [
         2009,
         2010,
         2011,
@@ -84,6 +120,17 @@
         2016,
         2017
       ],
+      "raw_available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
       "first_date": "2009-05-22",
       "last_date": "2017-09-26",
       "status_inferred": "inactive_or_delisted_like"
@@ -99,6 +146,13 @@
         2012,
         2013
       ],
+      "raw_available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
       "first_date": "2009-03-27",
       "last_date": "2013-10-10",
       "status_inferred": "inactive_or_delisted_like"
@@ -108,6 +162,26 @@
       "name": "글로벌에스엠",
       "profile_path": "atlas/symbol_profiles/900/900070.json",
       "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2009,
         2010,
         2011,
@@ -150,6 +224,21 @@
         2020,
         2021
       ],
+      "raw_available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
       "first_date": "2009-12-04",
       "last_date": "2021-06-11",
       "status_inferred": "inactive_or_delisted_like"
@@ -169,6 +258,17 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "2010-02-05",
       "last_date": "2018-12-28",
       "status_inferred": "inactive_or_delisted_like"
@@ -178,6 +278,24 @@
       "name": "애머릿지",
       "profile_path": "atlas/symbol_profiles/900/900100.json",
       "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2010,
         2011,
         2012,
@@ -223,6 +341,25 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2010-04-23",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -232,6 +369,25 @@
       "name": "씨엑스아이",
       "profile_path": "atlas/symbol_profiles/900/900120.json",
       "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2010,
         2011,
         2012,
@@ -268,6 +424,16 @@
         2016,
         2017
       ],
+      "raw_available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
       "first_date": "2010-07-23",
       "last_date": "2017-07-24",
       "status_inferred": "inactive_or_delisted_like"
@@ -277,6 +443,25 @@
       "name": "엘브이엠씨홀딩스",
       "profile_path": "atlas/symbol_profiles/900/900140.json",
       "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2010,
         2011,
         2012,
@@ -308,6 +493,11 @@
         2011,
         2012
       ],
+      "raw_available_years": [
+        2010,
+        2011,
+        2012
+      ],
       "first_date": "2010-09-15",
       "last_date": "2012-09-25",
       "status_inferred": "inactive_or_delisted_like"
@@ -326,6 +516,16 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "2011-06-13",
       "last_date": "2018-05-21",
       "status_inferred": "inactive_or_delisted_like"
@@ -335,6 +535,19 @@
       "name": "크리스탈신소재",
       "profile_path": "atlas/symbol_profiles/900/900250.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -368,6 +581,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-06-30",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -377,6 +603,19 @@
       "name": "헝셩그룹",
       "profile_path": "atlas/symbol_profiles/900/900270.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -409,6 +648,18 @@
         2024,
         2025
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "first_date": "2016-10-19",
       "last_date": "2025-01-07",
       "status_inferred": "inactive_or_delisted_like"
@@ -418,6 +669,19 @@
       "name": "GRT",
       "profile_path": "atlas/symbol_profiles/900/900290.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -451,6 +715,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-11-04",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -471,6 +748,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-08-10",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -480,6 +769,17 @@
       "name": "윙입푸드",
       "profile_path": "atlas/symbol_profiles/900/900340.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,

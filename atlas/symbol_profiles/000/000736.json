@@ -1,7 +1,27 @@
 {
   "code": "000736",
-  "current_or_latest_name": "하나은행(8우B)",
+  "current_or_latest_name": "하나은행(4우B)",
   "name_history": [
+    {
+      "name": "하나은행(4우B)",
+      "first_date": "2000-05-29",
+      "last_date": "2000-12-13"
+    },
+    {
+      "name": "하나은행(5우B)",
+      "first_date": "2000-05-29",
+      "last_date": "2000-12-13"
+    },
+    {
+      "name": "하나은행(6우B)",
+      "first_date": "2000-05-29",
+      "last_date": "2000-07-31"
+    },
+    {
+      "name": "하나은행(7우B)",
+      "first_date": "2000-05-29",
+      "last_date": "2000-12-13"
+    },
     {
       "name": "하나은행(8우B)",
       "first_date": "2000-05-29",
@@ -20,16 +40,37 @@
   ],
   "first_date": "2000-05-29",
   "last_date": "2000-12-13",
-  "trading_day_count": 136,
-  "available_years": [
+  "raw_first_date": "2000-05-29",
+  "raw_last_date": "2000-12-13",
+  "trading_day_count": 0,
+  "raw_trading_day_count": 588,
+  "available_years": [],
+  "raw_available_years": [
     2000
   ],
-  "year_files": [
-    "atlas/ohlcv_min_by_symbol_year/000/000736/2000.csv"
+  "year_files": [],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/000/000736/2000.csv"
   ],
-  "latest_close": 0,
-  "latest_marcap": 774127300000,
-  "latest_market": "KOSPI",
+  "compat_year_files": [],
+  "latest_close": null,
+  "latest_marcap": null,
+  "latest_market": null,
+  "raw_latest_close": 0,
+  "raw_latest_marcap": 148530450000,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 0,
+    "non_tradable_zero_volume": 588,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 0,
+  "corporate_action_candidate_dates": [],
+  "has_major_raw_discontinuity": false,
+  "calibration_caveat": "",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

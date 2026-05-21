@@ -12,6 +12,13 @@
         2016,
         2017
       ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
       "first_date": "2013-12-10",
       "last_date": "2017-06-05",
       "status_inferred": "inactive_or_delisted_like"

@@ -31,8 +31,34 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "1995-05-02",
-      "last_date": "2018-03-19",
+      "last_date": "2018-02-21",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -42,7 +68,10 @@
       "available_years": [
         1995
       ],
-      "first_date": "1995-06-30",
+      "raw_available_years": [
+        1995
+      ],
+      "first_date": "1995-07-03",
       "last_date": "1995-12-27",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -53,7 +82,10 @@
       "available_years": [
         1995
       ],
-      "first_date": "1995-07-13",
+      "raw_available_years": [
+        1995
+      ],
+      "first_date": "1995-07-14",
       "last_date": "1995-12-27",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -66,8 +98,13 @@
         1997,
         1998
       ],
-      "first_date": "1996-07-01",
-      "last_date": "1998-12-10",
+      "raw_available_years": [
+        1996,
+        1997,
+        1998
+      ],
+      "first_date": "1996-07-08",
+      "last_date": "1998-11-24",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -75,6 +112,30 @@
       "name": "경남에너지",
       "profile_path": "atlas/symbol_profiles/008/008020.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -107,6 +168,14 @@
       "name": "아이텍스필",
       "profile_path": "atlas/symbol_profiles/008/008030.json",
       "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "raw_available_years": [
         2000,
         2001,
         2002,
@@ -156,6 +225,40 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "1995-05-02",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -170,8 +273,14 @@
         1998,
         1999
       ],
-      "first_date": "1996-07-01",
-      "last_date": "1999-03-10",
+      "raw_available_years": [
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "first_date": "1996-07-05",
+      "last_date": "1999-02-12",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -181,8 +290,11 @@
       "available_years": [
         1997
       ],
-      "first_date": "1997-03-31",
-      "last_date": "1997-06-27",
+      "raw_available_years": [
+        1997
+      ],
+      "first_date": "1997-04-07",
+      "last_date": "1997-04-07",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -190,6 +302,40 @@
       "name": "대덕",
       "profile_path": "atlas/symbol_profiles/008/008060.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -252,6 +398,27 @@
         2012,
         2013
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
       "first_date": "1995-05-02",
       "last_date": "2013-09-24",
       "status_inferred": "inactive_or_delisted_like"
@@ -261,6 +428,13 @@
       "name": "거성산업",
       "profile_path": "atlas/symbol_profiles/008/008100.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -282,7 +456,14 @@
         1998,
         1999
       ],
-      "first_date": "1995-05-02",
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "first_date": "1995-05-03",
       "last_date": "1999-10-01",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -320,12 +501,44 @@
         2021,
         2022,
         2023,
+        2024
+      ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2024-06-18",
       "status_inferred": "active_like"
     },
     {
@@ -333,6 +546,19 @@
       "name": "모토조이",
       "profile_path": "atlas/symbol_profiles/008/008120.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -356,7 +582,10 @@
       "available_years": [
         1995
       ],
-      "first_date": "1995-07-24",
+      "raw_available_years": [
+        1995
+      ],
+      "first_date": "1995-07-25",
       "last_date": "1995-12-27",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -364,7 +593,8 @@
       "code": "008124",
       "name": "북    두(1전1신)",
       "profile_path": "atlas/symbol_profiles/008/008124.json",
-      "available_years": [
+      "available_years": [],
+      "raw_available_years": [
         1996,
         1997
       ],
@@ -380,8 +610,12 @@
         1996,
         1997
       ],
-      "first_date": "1996-07-01",
-      "last_date": "1997-12-05",
+      "raw_available_years": [
+        1996,
+        1997
+      ],
+      "first_date": "1996-07-24",
+      "last_date": "1997-08-27",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -392,8 +626,12 @@
         1996,
         1997
       ],
-      "first_date": "1996-07-01",
-      "last_date": "1997-12-05",
+      "raw_available_years": [
+        1996,
+        1997
+      ],
+      "first_date": "1996-07-25",
+      "last_date": "1997-09-27",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -401,6 +639,13 @@
       "name": "신호전자",
       "profile_path": "atlas/symbol_profiles/008/008190.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -418,8 +663,11 @@
       "available_years": [
         1996
       ],
-      "first_date": "1996-08-07",
-      "last_date": "1996-12-27",
+      "raw_available_years": [
+        1996
+      ],
+      "first_date": "1996-09-05",
+      "last_date": "1996-10-22",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -427,6 +675,40 @@
       "name": "이건산업",
       "profile_path": "atlas/symbol_profiles/008/008250.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -502,6 +784,40 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "1995-05-02",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -510,7 +826,8 @@
       "code": "008264",
       "name": "동성철강(1전1신)",
       "profile_path": "atlas/symbol_profiles/008/008264.json",
-      "available_years": [
+      "available_years": [],
+      "raw_available_years": [
         1997,
         1998
       ],
@@ -535,8 +852,21 @@
         2004,
         2005
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
       "first_date": "1995-05-02",
-      "last_date": "2005-06-15",
+      "last_date": "2005-06-13",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -544,6 +874,38 @@
       "name": "원풍물산",
       "profile_path": "atlas/symbol_profiles/008/008290.json",
       "available_years": [
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1997,
         1998,
         1999,
@@ -601,6 +963,24 @@
         2009,
         2010
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
       "first_date": "1995-05-02",
       "last_date": "2010-03-10",
       "status_inferred": "inactive_or_delisted_like"
@@ -612,7 +992,10 @@
       "available_years": [
         1996
       ],
-      "first_date": "1996-08-29",
+      "raw_available_years": [
+        1996
+      ],
+      "first_date": "1996-08-30",
       "last_date": "1996-12-27",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -623,8 +1006,11 @@
       "available_years": [
         1996
       ],
-      "first_date": "1996-07-01",
-      "last_date": "1996-12-27",
+      "raw_available_years": [
+        1996
+      ],
+      "first_date": "1996-10-14",
+      "last_date": "1996-10-22",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -648,7 +1034,24 @@
         2009,
         2010
       ],
-      "first_date": "1996-07-01",
+      "raw_available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "first_date": "1996-07-18",
       "last_date": "2010-04-12",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -657,6 +1060,40 @@
       "name": "남선알미늄",
       "profile_path": "atlas/symbol_profiles/008/008350.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -701,6 +1138,9 @@
       "available_years": [
         1995
       ],
+      "raw_available_years": [
+        1995
+      ],
       "first_date": "1995-11-24",
       "last_date": "1995-12-27",
       "status_inferred": "inactive_or_delisted_like"
@@ -710,6 +1150,40 @@
       "name": "남선알미우",
       "profile_path": "atlas/symbol_profiles/008/008355.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -784,7 +1258,40 @@
         2025,
         2026
       ],
-      "first_date": "1996-07-01",
+      "raw_available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1996-07-26",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
     },
@@ -793,10 +1300,13 @@
       "name": "원풍1",
       "profile_path": "atlas/symbol_profiles/008/008371.json",
       "available_years": [
+        1999
+      ],
+      "raw_available_years": [
         1996,
         1999
       ],
-      "first_date": "1996-12-27",
+      "first_date": "1999-11-03",
       "last_date": "1999-12-28",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -805,6 +1315,23 @@
       "name": "C&중공업",
       "profile_path": "atlas/symbol_profiles/008/008400.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -846,6 +1373,23 @@
         2008,
         2009
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
       "first_date": "1995-05-02",
       "last_date": "2009-05-12",
       "status_inferred": "inactive_or_delisted_like"
@@ -858,8 +1402,12 @@
         1996,
         1997
       ],
-      "first_date": "1996-07-01",
-      "last_date": "1997-12-05",
+      "raw_available_years": [
+        1996,
+        1997
+      ],
+      "first_date": "1996-07-30",
+      "last_date": "1997-10-15",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -867,6 +1415,40 @@
       "name": "문배철강",
       "profile_path": "atlas/symbol_profiles/008/008420.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -908,7 +1490,8 @@
       "code": "008421",
       "name": "문배철강(1신)",
       "profile_path": "atlas/symbol_profiles/008/008421.json",
-      "available_years": [
+      "available_years": [],
+      "raw_available_years": [
         1995
       ],
       "first_date": "1995-05-17",
@@ -919,7 +1502,8 @@
       "code": "008430",
       "name": "성보섬유(장외)",
       "profile_path": "atlas/symbol_profiles/008/008430.json",
-      "available_years": [
+      "available_years": [],
+      "raw_available_years": [
         1996
       ],
       "first_date": "1996-07-01",
@@ -931,6 +1515,16 @@
       "name": "아이넥스",
       "profile_path": "atlas/symbol_profiles/008/008440.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -966,6 +1560,24 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2011-02-23",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -975,6 +1587,16 @@
       "name": "KEP전자",
       "profile_path": "atlas/symbol_profiles/008/008480.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -996,6 +1618,10 @@
         2001,
         2002
       ],
+      "raw_available_years": [
+        2001,
+        2002
+      ],
       "first_date": "2001-05-23",
       "last_date": "2002-04-18",
       "status_inferred": "inactive_or_delisted_like"
@@ -1005,6 +1631,40 @@
       "name": "서흥",
       "profile_path": "atlas/symbol_profiles/008/008490.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -1080,6 +1740,40 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "1995-05-02",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -1098,8 +1792,18 @@
         2001,
         2002
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002
+      ],
       "first_date": "1995-05-02",
-      "last_date": "2002-02-19",
+      "last_date": "2002-01-18",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1116,8 +1820,18 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2016-12-15",
-      "last_date": "2023-10-26",
+      "last_date": "2023-10-10",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1125,6 +1839,26 @@
       "name": "케이비물산",
       "profile_path": "atlas/symbol_profiles/008/008540.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -1153,6 +1887,10 @@
       "name": "태창(1신)",
       "profile_path": "atlas/symbol_profiles/008/008541.json",
       "available_years": [
+        1995,
+        1996
+      ],
+      "raw_available_years": [
         1995,
         1996
       ],
@@ -1195,8 +1933,39 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "1995-05-02",
-      "last_date": "2023-04-24",
+      "last_date": "2023-03-31",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1206,11 +1975,16 @@
       "available_years": [
         1996,
         1997,
+        1998
+      ],
+      "raw_available_years": [
+        1996,
+        1997,
         1998,
         1999
       ],
-      "first_date": "1996-07-01",
-      "last_date": "1999-02-11",
+      "first_date": "1996-07-23",
+      "last_date": "1998-12-24",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1220,8 +1994,11 @@
       "available_years": [
         1996
       ],
-      "first_date": "1996-07-01",
-      "last_date": "1996-12-27",
+      "raw_available_years": [
+        1996
+      ],
+      "first_date": "1996-09-17",
+      "last_date": "1996-12-20",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1229,6 +2006,40 @@
       "name": "윌비스",
       "profile_path": "atlas/symbol_profiles/008/008600.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -1279,6 +2090,15 @@
         2000,
         2001
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001
+      ],
       "first_date": "1995-05-02",
       "last_date": "2001-01-19",
       "status_inferred": "inactive_or_delisted_like"
@@ -1291,8 +2111,12 @@
         1995,
         1996
       ],
+      "raw_available_years": [
+        1995,
+        1996
+      ],
       "first_date": "1995-05-02",
-      "last_date": "1996-04-22",
+      "last_date": "1996-03-07",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1309,11 +2133,23 @@
         2001,
         2002,
         2003,
+        2004
+      ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
         2004,
         2005
       ],
       "first_date": "1995-05-02",
-      "last_date": "2005-01-04",
+      "last_date": "2004-12-20",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1330,18 +2166,31 @@
         2001,
         2002,
         2003,
+        2004
+      ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
         2004,
         2005
       ],
       "first_date": "1995-05-02",
-      "last_date": "2005-01-04",
+      "last_date": "2004-12-20",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "008680",
       "name": "남신",
       "profile_path": "atlas/symbol_profiles/008/008680.json",
-      "available_years": [
+      "available_years": [],
+      "raw_available_years": [
         1996
       ],
       "first_date": "1996-07-01",
@@ -1361,6 +2210,15 @@
         2000,
         2001
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001
+      ],
       "first_date": "1995-05-02",
       "last_date": "2001-02-06",
       "status_inferred": "inactive_or_delisted_like"
@@ -1369,7 +2227,8 @@
       "code": "008691",
       "name": "한    양(1신)",
       "profile_path": "atlas/symbol_profiles/008/008691.json",
-      "available_years": [
+      "available_years": [],
+      "raw_available_years": [
         1996
       ],
       "first_date": "1996-04-19",
@@ -1381,6 +2240,40 @@
       "name": "아남전자",
       "profile_path": "atlas/symbol_profiles/008/008700.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -1445,6 +2338,29 @@
         2014,
         2015
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
       "first_date": "1995-05-02",
       "last_date": "2015-07-14",
       "status_inferred": "inactive_or_delisted_like"
@@ -1475,8 +2391,30 @@
         2013,
         2014
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
       "first_date": "1995-05-02",
-      "last_date": "2014-12-29",
+      "last_date": "2014-11-26",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1488,7 +2426,12 @@
         1996,
         1997
       ],
-      "first_date": "1995-12-15",
+      "raw_available_years": [
+        1995,
+        1996,
+        1997
+      ],
+      "first_date": "1995-12-16",
       "last_date": "1997-06-27",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -1497,6 +2440,40 @@
       "name": "율촌화학",
       "profile_path": "atlas/symbol_profiles/008/008730.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -1549,7 +2526,18 @@
         2002,
         2003
       ],
-      "first_date": "1995-05-02",
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "first_date": "1995-05-18",
       "last_date": "2003-12-26",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -1558,6 +2546,40 @@
       "name": "호텔신라",
       "profile_path": "atlas/symbol_profiles/008/008770.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -1633,6 +2655,40 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "1995-05-02",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -1651,7 +2707,17 @@
         2002,
         2003
       ],
-      "first_date": "1996-07-01",
+      "raw_available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "first_date": "1996-08-22",
       "last_date": "2003-11-07",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -1684,10 +2750,37 @@
         2017,
         2018,
         2019,
+        2021
+      ],
+      "raw_available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
         2020,
         2021
       ],
-      "first_date": "1996-07-01",
+      "first_date": "1996-07-15",
       "last_date": "2021-06-04",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -1702,8 +2795,15 @@
         1998,
         1999
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
       "first_date": "1995-05-02",
-      "last_date": "1999-10-29",
+      "last_date": "1999-09-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1711,6 +2811,10 @@
       "name": "엘지종금(1신)",
       "profile_path": "atlas/symbol_profiles/008/008811.json",
       "available_years": [
+        1996,
+        1997
+      ],
+      "raw_available_years": [
         1996,
         1997
       ],
@@ -1755,7 +2859,40 @@
         2025,
         2026
       ],
-      "first_date": "1996-07-01",
+      "raw_available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1996-07-09",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
     },
@@ -1768,8 +2905,13 @@
         1997,
         1998
       ],
-      "first_date": "1996-07-01",
-      "last_date": "1998-12-10",
+      "raw_available_years": [
+        1996,
+        1997,
+        1998
+      ],
+      "first_date": "1996-11-11",
+      "last_date": "1998-03-25",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1777,6 +2919,40 @@
       "name": "금비",
       "profile_path": "atlas/symbol_profiles/008/008870.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -1822,11 +2998,17 @@
         1995,
         1996,
         1997,
+        1998
+      ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
         1998,
         1999
       ],
       "first_date": "1995-05-02",
-      "last_date": "1999-01-25",
+      "last_date": "1998-12-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1834,6 +3016,9 @@
       "name": "보람은행(1신)",
       "profile_path": "atlas/symbol_profiles/008/008891.json",
       "available_years": [
+        1996
+      ],
+      "raw_available_years": [
         1996
       ],
       "first_date": "1996-08-29",
@@ -1848,11 +3033,17 @@
         1995,
         1996,
         1997,
+        1998
+      ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
         1998,
         1999
       ],
       "first_date": "1995-05-02",
-      "last_date": "1999-01-25",
+      "last_date": "1998-12-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1883,8 +3074,32 @@
         2015,
         2016
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
       "first_date": "1995-05-02",
-      "last_date": "2016-05-16",
+      "last_date": "2016-04-27",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1895,11 +3110,17 @@
         1996,
         1997,
         1998,
+        1999
+      ],
+      "raw_available_years": [
+        1996,
+        1997,
+        1998,
         1999,
         2000
       ],
-      "first_date": "1996-07-01",
-      "last_date": "2000-01-27",
+      "first_date": "1996-07-03",
+      "last_date": "1999-12-22",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1909,8 +3130,11 @@
       "available_years": [
         1996
       ],
-      "first_date": "1996-07-11",
-      "last_date": "1996-12-27",
+      "raw_available_years": [
+        1996
+      ],
+      "first_date": "1996-08-12",
+      "last_date": "1996-12-23",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1918,6 +3142,40 @@
       "name": "한미사이언스",
       "profile_path": "atlas/symbol_profiles/008/008930.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -1962,6 +3220,9 @@
       "available_years": [
         1995
       ],
+      "raw_available_years": [
+        1995
+      ],
       "first_date": "1995-12-13",
       "last_date": "1995-12-27",
       "status_inferred": "inactive_or_delisted_like"
@@ -1975,8 +3236,13 @@
         1996,
         1997
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997
+      ],
       "first_date": "1995-05-02",
-      "last_date": "1997-03-31",
+      "last_date": "1997-02-26",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1985,11 +3251,15 @@
       "profile_path": "atlas/symbol_profiles/008/008960.json",
       "available_years": [
         1996,
+        1997
+      ],
+      "raw_available_years": [
+        1996,
         1997,
         1998
       ],
-      "first_date": "1996-07-01",
-      "last_date": "1998-08-08",
+      "first_date": "1996-07-19",
+      "last_date": "1997-07-18",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -1997,6 +3267,40 @@
       "name": "KBI동양철관",
       "profile_path": "atlas/symbol_profiles/008/008970.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -2041,6 +3345,9 @@
       "available_years": [
         1996
       ],
+      "raw_available_years": [
+        1996
+      ],
       "first_date": "1996-09-12",
       "last_date": "1996-12-27",
       "status_inferred": "inactive_or_delisted_like"
@@ -2050,6 +3357,28 @@
       "name": "동양철관우",
       "profile_path": "atlas/symbol_profiles/008/008975.json",
       "available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "raw_available_years": [
         1995,
         1996,
         1997,
@@ -2088,8 +3417,17 @@
         2000,
         2001
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001
+      ],
       "first_date": "1995-05-02",
-      "last_date": "2001-12-19",
+      "last_date": "2001-11-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -2105,8 +3443,17 @@
         2000,
         2001
       ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001
+      ],
       "first_date": "1995-05-02",
-      "last_date": "2001-12-19",
+      "last_date": "2001-11-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -2119,11 +3466,19 @@
         1997,
         1998,
         1999,
+        2000
+      ],
+      "raw_available_years": [
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
         2000,
         2001
       ],
       "first_date": "1995-05-02",
-      "last_date": "2001-02-09",
+      "last_date": "2000-10-20",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

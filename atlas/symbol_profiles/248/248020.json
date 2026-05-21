@@ -20,14 +20,35 @@
   ],
   "first_date": "2021-10-22",
   "last_date": "2024-04-04",
-  "trading_day_count": 606,
+  "raw_first_date": "2021-10-22",
+  "raw_last_date": "2024-04-04",
+  "trading_day_count": 375,
+  "raw_trading_day_count": 606,
   "available_years": [
     2021,
     2022,
     2023,
     2024
   ],
+  "raw_available_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/248/248020/2021.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/248/248020/2022.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/248/248020/2023.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/248/248020/2024.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/248/248020/2021.csv",
+    "atlas/ohlcv_raw_by_symbol_year/248/248020/2022.csv",
+    "atlas/ohlcv_raw_by_symbol_year/248/248020/2023.csv",
+    "atlas/ohlcv_raw_by_symbol_year/248/248020/2024.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/248/248020/2021.csv",
     "atlas/ohlcv_min_by_symbol_year/248/248020/2022.csv",
     "atlas/ohlcv_min_by_symbol_year/248/248020/2023.csv",
@@ -36,6 +57,26 @@
   "latest_close": 27,
   "latest_marcap": 128818350,
   "latest_market": "KONEX",
+  "raw_latest_close": 27,
+  "raw_latest_marcap": 128818350,
+  "raw_latest_market": "KONEX",
+  "row_status_counts": {
+    "tradable_ohlcv": 375,
+    "non_tradable_zero_volume": 231,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_dates": [
+    "2022-09-13",
+    "2024-03-27",
+    "2024-04-03",
+    "2024-04-04"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

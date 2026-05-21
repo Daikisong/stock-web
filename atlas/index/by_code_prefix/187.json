@@ -20,6 +20,21 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2014-12-17",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -29,6 +44,21 @@
       "name": "신화콘텍",
       "profile_path": "atlas/symbol_profiles/187/187270.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -65,6 +95,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-05-29",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -74,6 +118,14 @@
       "name": "현대ADM",
       "profile_path": "atlas/symbol_profiles/187/187660.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -93,8 +145,12 @@
         2013,
         2014
       ],
+      "raw_available_years": [
+        2013,
+        2014
+      ],
       "first_date": "2013-12-12",
-      "last_date": "2014-11-07",
+      "last_date": "2014-09-24",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -102,6 +158,21 @@
       "name": "나노",
       "profile_path": "atlas/symbol_profiles/187/187790.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -125,6 +196,18 @@
       "name": "디바이스",
       "profile_path": "atlas/symbol_profiles/187/187870.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,

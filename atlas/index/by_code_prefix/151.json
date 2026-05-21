@@ -11,8 +11,14 @@
         2015,
         2016
       ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016
+      ],
       "first_date": "2013-07-01",
-      "last_date": "2016-02-22",
+      "last_date": "2016-01-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -20,6 +26,22 @@
       "name": "KG에코솔루션",
       "profile_path": "atlas/symbol_profiles/151/151860.json",
       "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2013,
         2014,
         2015,
@@ -44,6 +66,22 @@
       "name": "퓨처코어",
       "profile_path": "atlas/symbol_profiles/151/151910.json",
       "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "raw_available_years": [
         2012,
         2013,
         2014,

@@ -16,6 +16,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-12-28",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -25,6 +36,12 @@
       "name": "키움제5호스팩",
       "profile_path": "atlas/symbol_profiles/311/311270.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -46,6 +63,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-11-11",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -55,6 +80,16 @@
       "name": "네오크레마",
       "profile_path": "atlas/symbol_profiles/311/311390.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,
@@ -82,6 +117,16 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2019-12-26",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -90,7 +135,8 @@
       "code": "311840",
       "name": "대원모방",
       "profile_path": "atlas/symbol_profiles/311/311840.json",
-      "available_years": [
+      "available_years": [],
+      "raw_available_years": [
         2018,
         2019,
         2020
@@ -104,6 +150,13 @@
       "name": "인터로이드",
       "profile_path": "atlas/symbol_profiles/311/311960.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,

@@ -10,8 +10,13 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2022-02-25",
-      "last_date": "2024-12-24",
+      "last_date": "2024-12-05",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -19,6 +24,12 @@
       "name": "뷰티스킨",
       "profile_path": "atlas/symbol_profiles/406/406820.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,

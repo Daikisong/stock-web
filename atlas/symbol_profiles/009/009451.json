@@ -20,16 +20,43 @@
   ],
   "first_date": "1995-11-28",
   "last_date": "1995-12-27",
+  "raw_first_date": "1995-11-28",
+  "raw_last_date": "1995-12-27",
   "trading_day_count": 25,
+  "raw_trading_day_count": 25,
   "available_years": [
     1995
   ],
+  "raw_available_years": [
+    1995
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/009/009451/1995.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/009/009451/1995.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/009/009451/1995.csv"
   ],
   "latest_close": 31000,
   "latest_marcap": 11904000000,
   "latest_market": "KOSPI",
+  "raw_latest_close": 31000,
+  "raw_latest_marcap": 11904000000,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 25,
+    "non_tradable_zero_volume": 0,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 0,
+  "corporate_action_candidate_dates": [],
+  "has_major_raw_discontinuity": false,
+  "calibration_caveat": "",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

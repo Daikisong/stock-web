@@ -13,6 +13,14 @@
         2020,
         2021
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
       "first_date": "2016-12-21",
       "last_date": "2021-06-09",
       "status_inferred": "inactive_or_delisted_like"
@@ -22,6 +30,16 @@
       "name": "마니커에프앤지",
       "profile_path": "atlas/symbol_profiles/195/195500.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,
@@ -52,6 +70,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-06-24",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -61,6 +92,14 @@
       "name": "HK이노엔",
       "profile_path": "atlas/symbol_profiles/195/195940.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -90,8 +129,22 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-04-13",
-      "last_date": "2026-02-20",
+      "last_date": "2026-02-19",
       "status_inferred": "active_like"
     }
   ]

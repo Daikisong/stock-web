@@ -4,7 +4,7 @@ import csv
 import json
 from pathlib import Path
 
-from scripts.atlas_utils import compute_trigger_backtest, load_profile
+from scripts.atlas_utils import classify_row, compute_trigger_backtest, load_profile, load_symbol_rows
 
 ROOT = Path(__file__).resolve().parents[1]
 ATLAS = ROOT / "atlas"
@@ -78,5 +78,41 @@ def test_chatgpt_bundle_contains_required_sections():
 
 def test_manifest_records_atlas_normalization():
     manifest = json.loads((ATLAS / "manifest.json").read_text(encoding="utf-8"))
-    assert manifest["ohlc_consistency_repair_applied"] is True
-    assert "duplicate_code_date_rows_dropped" in manifest
+    assert manifest["ohlc_consistency_repair_applied_for_calibration"] is False
+    assert manifest["calibration_shard_root"] == "atlas/ohlcv_tradable_by_symbol_year"
+    assert manifest["raw_shard_root"] == "atlas/ohlcv_raw_by_symbol_year"
+
+
+def test_classify_row_tradable():
+    row = {"open": 100, "high": 110, "low": 95, "close": 105, "volume": 10}
+    assert classify_row(row) == "tradable_ohlcv"
+
+
+def test_classify_row_zero_volume():
+    row = {"open": 100, "high": 110, "low": 95, "close": 105, "volume": 0}
+    assert classify_row(row) == "non_tradable_zero_volume"
+
+
+def test_classify_row_zero_ohlc():
+    row = {"open": 0, "high": 110, "low": 95, "close": 105, "volume": 10}
+    assert classify_row(row) == "invalid_zero_ohlc"
+
+
+def test_classify_row_suspicious_repair_candidate():
+    row = {"open": 100, "high": 99, "low": 95, "close": 105, "volume": 10}
+    assert classify_row(row) == "suspicious_ohlc_repaired_candidate"
+
+
+def test_ecopro_zero_volume_raw_row_excluded_from_tradable():
+    raw_rows = load_symbol_rows(ATLAS, "086520", "2024-04-09", "2024-04-09", price_basis="raw_all")
+    tradable_rows = load_symbol_rows(ATLAS, "086520", "2024-04-09", "2024-04-09")
+    assert raw_rows
+    assert raw_rows[0]["row_status"] in {"non_tradable_zero_volume", "invalid_zero_ohlc"}
+    assert tradable_rows == []
+
+
+def test_ecopro_corporate_action_candidate_detected():
+    rows = []
+    with (ATLAS / "corporate_actions" / "corporate_action_candidates.csv").open("r", encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    assert any(row["code"] == "086520" and row["date"] == "2024-04-25" for row in rows)

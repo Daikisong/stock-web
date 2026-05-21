@@ -10,6 +10,11 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2024-05-07",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -19,6 +24,11 @@
       "name": "유안타제15호스팩",
       "profile_path": "atlas/symbol_profiles/473/473050.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026
@@ -36,6 +46,11 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2024-03-05",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -49,6 +64,11 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2024-07-25",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -58,6 +78,11 @@
       "name": "노머스",
       "profile_path": "atlas/symbol_profiles/473/473980.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026

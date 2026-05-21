@@ -14,6 +14,15 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2017-08-24",
       "last_date": "2023-04-17",
       "status_inferred": "inactive_or_delisted_like"
@@ -24,11 +33,15 @@
       "profile_path": "atlas/symbol_profiles/267/267080.json",
       "available_years": [
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2024,
         2025,
         2026
       ],
       "first_date": "2024-01-17",
-      "last_date": "2026-02-20",
+      "last_date": "2025-05-28",
       "status_inferred": "active_like"
     },
     {
@@ -36,6 +49,18 @@
       "name": "HD현대",
       "profile_path": "atlas/symbol_profiles/267/267250.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -67,6 +92,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-05-10",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -76,6 +113,18 @@
       "name": "HD건설기계",
       "profile_path": "atlas/symbol_profiles/267/267270.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -107,6 +156,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-05-12",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -116,6 +177,18 @@
       "name": "나인테크",
       "profile_path": "atlas/symbol_profiles/267/267320.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -146,6 +219,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-02-01",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -155,6 +239,15 @@
       "name": "앙츠",
       "profile_path": "atlas/symbol_profiles/267/267810.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -182,6 +275,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-11-23",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -191,6 +295,18 @@
       "name": "매일유업",
       "profile_path": "atlas/symbol_profiles/267/267980.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,

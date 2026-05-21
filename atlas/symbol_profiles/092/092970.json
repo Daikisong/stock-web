@@ -19,23 +19,61 @@
     }
   ],
   "first_date": "2006-11-07",
-  "last_date": "2009-10-15",
-  "trading_day_count": 731,
+  "last_date": "2009-09-24",
+  "raw_first_date": "2006-11-07",
+  "raw_last_date": "2009-10-15",
+  "trading_day_count": 146,
+  "raw_trading_day_count": 731,
   "available_years": [
     2006,
     2007,
     2008,
     2009
   ],
+  "raw_available_years": [
+    2006,
+    2007,
+    2008,
+    2009
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/092/092970/2006.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/092/092970/2007.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/092/092970/2008.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/092/092970/2009.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/092/092970/2006.csv",
+    "atlas/ohlcv_raw_by_symbol_year/092/092970/2007.csv",
+    "atlas/ohlcv_raw_by_symbol_year/092/092970/2008.csv",
+    "atlas/ohlcv_raw_by_symbol_year/092/092970/2009.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/092/092970/2006.csv",
     "atlas/ohlcv_min_by_symbol_year/092/092970/2007.csv",
     "atlas/ohlcv_min_by_symbol_year/092/092970/2008.csv",
     "atlas/ohlcv_min_by_symbol_year/092/092970/2009.csv"
   ],
-  "latest_close": 4935,
-  "latest_marcap": 4915260000,
+  "latest_close": 4905,
+  "latest_marcap": 4885380000,
   "latest_market": "KOSPI",
+  "raw_latest_close": 4935,
+  "raw_latest_marcap": 4915260000,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 146,
+    "non_tradable_zero_volume": 585,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_dates": [
+    "2009-08-07"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

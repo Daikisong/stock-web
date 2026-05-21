@@ -11,6 +11,12 @@
         2021,
         2022
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
       "first_date": "2019-07-15",
       "last_date": "2022-02-16",
       "status_inferred": "inactive_or_delisted_like"
@@ -28,6 +34,15 @@
         2024,
         2025
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "first_date": "2019-06-19",
       "last_date": "2025-06-18",
       "status_inferred": "inactive_or_delisted_like"
@@ -37,6 +52,16 @@
       "name": "태성",
       "profile_path": "atlas/symbol_profiles/323/323280.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,
@@ -64,6 +89,16 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2019-05-21",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -73,6 +108,14 @@
       "name": "카카오뱅크",
       "profile_path": "atlas/symbol_profiles/323/323410.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -94,6 +137,12 @@
         2021,
         2022
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
       "first_date": "2019-06-24",
       "last_date": "2022-02-03",
       "status_inferred": "inactive_or_delisted_like"
@@ -103,6 +152,15 @@
       "name": "박셀바이오",
       "profile_path": "atlas/symbol_profiles/323/323990.json",
       "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2020,
         2021,
         2022,

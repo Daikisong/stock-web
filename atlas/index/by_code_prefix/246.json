@@ -15,11 +15,23 @@
         2022,
         2023,
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "first_date": "2016-06-29",
-      "last_date": "2026-02-20",
+      "last_date": "2025-06-09",
       "status_inferred": "active_like"
     },
     {
@@ -27,6 +39,19 @@
       "name": "TS인베스트먼트",
       "profile_path": "atlas/symbol_profiles/246/246690.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -58,6 +83,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-11-28",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -67,6 +103,18 @@
       "name": "아스타",
       "profile_path": "atlas/symbol_profiles/246/246720.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -91,7 +139,12 @@
         2017,
         2018
       ],
-      "first_date": "2016-07-13",
+      "raw_available_years": [
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2016-07-22",
       "last_date": "2018-05-11",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -100,6 +153,16 @@
       "name": "SCL사이언스",
       "profile_path": "atlas/symbol_profiles/246/246960.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,

@@ -19,6 +19,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-12-16",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -28,6 +42,20 @@
       "name": "씨아이에스",
       "profile_path": "atlas/symbol_profiles/222/222080.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -62,6 +90,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-03-11",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -79,12 +120,23 @@
         2021,
         2022,
         2023,
+        2024
+      ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
       ],
-      "first_date": "2016-03-10",
-      "last_date": "2026-02-20",
+      "first_date": "2016-03-29",
+      "last_date": "2024-02-14",
       "status_inferred": "active_like"
     },
     {
@@ -92,6 +144,12 @@
       "name": "케이비제8호스팩",
       "profile_path": "atlas/symbol_profiles/222/222390.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -119,6 +177,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-08-06",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -131,8 +203,12 @@
         2015,
         2016
       ],
+      "raw_available_years": [
+        2015,
+        2016
+      ],
       "first_date": "2015-07-08",
-      "last_date": "2016-12-02",
+      "last_date": "2016-10-26",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -153,8 +229,22 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-07-28",
-      "last_date": "2026-02-20",
+      "last_date": "2026-02-19",
       "status_inferred": "active_like"
     },
     {
@@ -162,6 +252,20 @@
       "name": "심텍",
       "profile_path": "atlas/symbol_profiles/222/222800.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -193,12 +297,24 @@
         2021,
         2022,
         2023,
+        2024
+      ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
       ],
       "first_date": "2015-08-13",
-      "last_date": "2026-02-20",
+      "last_date": "2024-04-04",
       "status_inferred": "active_like"
     },
     {
@@ -206,6 +322,20 @@
       "name": "한국맥널티",
       "profile_path": "atlas/symbol_profiles/222/222980.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,

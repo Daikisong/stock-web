@@ -13,6 +13,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-07-27",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -22,6 +30,14 @@
       "name": "디앤디플랫폼리츠",
       "profile_path": "atlas/symbol_profiles/377/377190.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -45,6 +61,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-09-28",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -54,6 +78,14 @@
       "name": "카카오페이",
       "profile_path": "atlas/symbol_profiles/377/377300.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -76,6 +108,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-02-04",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -90,8 +129,14 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2021-05-10",
-      "last_date": "2024-01-24",
+      "last_date": "2024-01-04",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -99,6 +144,14 @@
       "name": "리파인",
       "profile_path": "atlas/symbol_profiles/377/377450.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -116,13 +169,17 @@
       "profile_path": "atlas/symbol_profiles/377/377460.json",
       "available_years": [
         2022,
+        2023
+      ],
+      "raw_available_years": [
+        2022,
         2023,
         2024,
         2025,
         2026
       ],
       "first_date": "2022-06-23",
-      "last_date": "2026-02-20",
+      "last_date": "2023-11-27",
       "status_inferred": "active_like"
     },
     {
@@ -130,6 +187,14 @@
       "name": "마음AI",
       "profile_path": "atlas/symbol_profiles/377/377480.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -150,6 +215,11 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2021-05-21",
       "last_date": "2023-12-26",
       "status_inferred": "inactive_or_delisted_like"
@@ -159,6 +229,13 @@
       "name": "바이오노트",
       "profile_path": "atlas/symbol_profiles/377/377740.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,

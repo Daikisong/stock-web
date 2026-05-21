@@ -11,6 +11,12 @@
         2018,
         2019
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019
+      ],
       "first_date": "2016-06-03",
       "last_date": "2019-02-26",
       "status_inferred": "inactive_or_delisted_like"
@@ -32,7 +38,20 @@
         2025,
         2026
       ],
-      "first_date": "2016-06-24",
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-10-31",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
     },
@@ -47,12 +66,21 @@
         2021,
         2022,
         2023,
+        2024
+      ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
       ],
       "first_date": "2018-06-26",
-      "last_date": "2026-02-20",
+      "last_date": "2024-04-05",
       "status_inferred": "active_like"
     }
   ]

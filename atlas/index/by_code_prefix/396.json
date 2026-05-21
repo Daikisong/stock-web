@@ -12,6 +12,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-07-01",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -27,6 +34,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-03-24",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -36,6 +50,12 @@
       "name": "워트",
       "profile_path": "atlas/symbol_profiles/396/396470.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,
@@ -57,6 +77,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-12-03",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -70,8 +98,13 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2021-12-24",
-      "last_date": "2023-04-27",
+      "last_date": "2023-04-06",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

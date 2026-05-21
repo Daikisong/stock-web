@@ -10,6 +10,13 @@
         2017,
         2018,
         2019,
+        2021
+      ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
         2020,
         2021
       ],
@@ -22,6 +29,19 @@
       "name": "DSC인베스트먼트",
       "profile_path": "atlas/symbol_profiles/241/241520.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -55,6 +75,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-11-18",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -64,6 +97,19 @@
       "name": "화승엔터프라이즈",
       "profile_path": "atlas/symbol_profiles/241/241590.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -97,6 +143,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-09-20",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -106,6 +165,19 @@
       "name": "코스메카코리아",
       "profile_path": "atlas/symbol_profiles/241/241710.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -138,6 +210,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-12-06",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -147,6 +231,19 @@
       "name": "티이엠씨씨엔에스",
       "profile_path": "atlas/symbol_profiles/241/241790.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -176,11 +273,22 @@
         2022,
         2023,
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "first_date": "2017-02-23",
-      "last_date": "2026-02-20",
+      "last_date": "2025-03-21",
       "status_inferred": "active_like"
     },
     {
@@ -188,6 +296,16 @@
       "name": "에이스토리",
       "profile_path": "atlas/symbol_profiles/241/241840.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,

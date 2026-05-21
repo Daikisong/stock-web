@@ -20,13 +20,31 @@
   ],
   "first_date": "2010-09-15",
   "last_date": "2012-09-25",
-  "trading_day_count": 506,
+  "raw_first_date": "2010-09-15",
+  "raw_last_date": "2012-09-25",
+  "trading_day_count": 409,
+  "raw_trading_day_count": 506,
   "available_years": [
     2010,
     2011,
     2012
   ],
+  "raw_available_years": [
+    2010,
+    2011,
+    2012
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/900/900150/2010.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/900/900150/2011.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/900/900150/2012.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/900/900150/2010.csv",
+    "atlas/ohlcv_raw_by_symbol_year/900/900150/2011.csv",
+    "atlas/ohlcv_raw_by_symbol_year/900/900150/2012.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/900/900150/2010.csv",
     "atlas/ohlcv_min_by_symbol_year/900/900150/2011.csv",
     "atlas/ohlcv_min_by_symbol_year/900/900150/2012.csv"
@@ -34,6 +52,24 @@
   "latest_close": 20,
   "latest_marcap": 1605807160,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 20,
+  "raw_latest_marcap": 1605807160,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 409,
+    "non_tradable_zero_volume": 97,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_dates": [
+    "2012-09-17",
+    "2012-09-20"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

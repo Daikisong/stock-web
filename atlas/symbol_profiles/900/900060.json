@@ -20,7 +20,10 @@
   ],
   "first_date": "2009-03-27",
   "last_date": "2013-10-10",
-  "trading_day_count": 1133,
+  "raw_first_date": "2009-03-27",
+  "raw_last_date": "2013-10-10",
+  "trading_day_count": 1121,
+  "raw_trading_day_count": 1133,
   "available_years": [
     2009,
     2010,
@@ -28,7 +31,28 @@
     2012,
     2013
   ],
+  "raw_available_years": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2013
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/900/900060/2009.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/900/900060/2010.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/900/900060/2011.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/900/900060/2012.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/900/900060/2013.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/900/900060/2009.csv",
+    "atlas/ohlcv_raw_by_symbol_year/900/900060/2010.csv",
+    "atlas/ohlcv_raw_by_symbol_year/900/900060/2011.csv",
+    "atlas/ohlcv_raw_by_symbol_year/900/900060/2012.csv",
+    "atlas/ohlcv_raw_by_symbol_year/900/900060/2013.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/900/900060/2009.csv",
     "atlas/ohlcv_min_by_symbol_year/900/900060/2010.csv",
     "atlas/ohlcv_min_by_symbol_year/900/900060/2011.csv",
@@ -38,6 +62,21 @@
   "latest_close": 4500,
   "latest_marcap": 106270510500,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 4500,
+  "raw_latest_marcap": 106270510500,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 1121,
+    "non_tradable_zero_volume": 12,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 0,
+  "corporate_action_candidate_dates": [],
+  "has_major_raw_discontinuity": false,
+  "calibration_caveat": "",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

@@ -19,15 +19,36 @@
     }
   ],
   "first_date": "2019-11-29",
-  "last_date": "2022-12-15",
-  "trading_day_count": 753,
+  "last_date": "2022-11-25",
+  "raw_first_date": "2019-11-29",
+  "raw_last_date": "2022-12-15",
+  "trading_day_count": 739,
+  "raw_trading_day_count": 753,
   "available_years": [
     2019,
     2020,
     2021,
     2022
   ],
+  "raw_available_years": [
+    2019,
+    2020,
+    2021,
+    2022
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/290/290510/2019.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/290/290510/2020.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/290/290510/2021.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/290/290510/2022.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/290/290510/2019.csv",
+    "atlas/ohlcv_raw_by_symbol_year/290/290510/2020.csv",
+    "atlas/ohlcv_raw_by_symbol_year/290/290510/2021.csv",
+    "atlas/ohlcv_raw_by_symbol_year/290/290510/2022.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/290/290510/2019.csv",
     "atlas/ohlcv_min_by_symbol_year/290/290510/2020.csv",
     "atlas/ohlcv_min_by_symbol_year/290/290510/2021.csv",
@@ -36,6 +57,25 @@
   "latest_close": 5380,
   "latest_marcap": 616195319480,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 5380,
+  "raw_latest_marcap": 616195319480,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 739,
+    "non_tradable_zero_volume": 14,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_dates": [
+    "2020-10-29",
+    "2020-11-20",
+    "2022-04-12"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

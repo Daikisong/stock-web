@@ -10,6 +10,11 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2024-07-15",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -19,6 +24,10 @@
       "name": "데이원컴퍼니",
       "profile_path": "atlas/symbol_profiles/373/373160.json",
       "available_years": [
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2025,
         2026
       ],
@@ -36,6 +45,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-08-04",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -45,6 +60,14 @@
       "name": "엑스플러스",
       "profile_path": "atlas/symbol_profiles/373/373200.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -67,6 +90,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-01-27",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -76,6 +106,11 @@
       "name": "유진스팩6호",
       "profile_path": "atlas/symbol_profiles/373/373340.json",
       "available_years": [
+        2021,
+        2022,
+        2023
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023

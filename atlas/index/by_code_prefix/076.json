@@ -26,6 +26,27 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2008-07-18",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -42,6 +63,14 @@
         2009,
         2010
       ],
+      "raw_available_years": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
       "first_date": "2005-07-26",
       "last_date": "2010-04-22",
       "status_inferred": "inactive_or_delisted_like"
@@ -51,6 +80,14 @@
       "name": "GBS",
       "profile_path": "atlas/symbol_profiles/076/076170.json",
       "available_years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "raw_available_years": [
         2004,
         2005,
         2006,
@@ -80,8 +117,22 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-05-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-02-19",
       "status_inferred": "active_like"
     },
     {
@@ -89,6 +140,22 @@
       "name": "해성옵틱스",
       "profile_path": "atlas/symbol_profiles/076/076610.json",
       "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2013,
         2014,
         2015,
@@ -120,8 +187,16 @@
         2008,
         2009
       ],
+      "raw_available_years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
       "first_date": "2004-01-08",
-      "last_date": "2009-10-08",
+      "last_date": "2009-09-28",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

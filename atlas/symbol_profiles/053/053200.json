@@ -20,14 +20,35 @@
   ],
   "first_date": "2001-12-26",
   "last_date": "2004-04-02",
-  "trading_day_count": 556,
+  "raw_first_date": "2001-12-26",
+  "raw_last_date": "2004-04-02",
+  "trading_day_count": 515,
+  "raw_trading_day_count": 556,
   "available_years": [
     2001,
     2002,
     2003,
     2004
   ],
+  "raw_available_years": [
+    2001,
+    2002,
+    2003,
+    2004
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/053/053200/2001.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/053/053200/2002.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/053/053200/2003.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/053/053200/2004.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/053/053200/2001.csv",
+    "atlas/ohlcv_raw_by_symbol_year/053/053200/2002.csv",
+    "atlas/ohlcv_raw_by_symbol_year/053/053200/2003.csv",
+    "atlas/ohlcv_raw_by_symbol_year/053/053200/2004.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/053/053200/2001.csv",
     "atlas/ohlcv_min_by_symbol_year/053/053200/2002.csv",
     "atlas/ohlcv_min_by_symbol_year/053/053200/2003.csv",
@@ -36,6 +57,24 @@
   "latest_close": 35,
   "latest_marcap": 215600000,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 35,
+  "raw_latest_marcap": 215600000,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 515,
+    "non_tradable_zero_volume": 41,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_dates": [
+    "2003-11-13",
+    "2004-03-25"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

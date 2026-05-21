@@ -1,39 +1,59 @@
 {
-  "generated_at": "2026-05-21T15:41:01.811585+00:00",
+  "generated_at": "2026-05-21T16:31:47.737033+00:00",
   "status": "pass",
-  "total_paths": 14,
-  "ok_paths": 14,
+  "total_paths": 18,
+  "ok_paths": 18,
   "failed_paths": [],
   "results": [
     {
       "path": "atlas/manifest.json",
       "exists": true,
-      "bytes": 1653
+      "bytes": 2315
     },
     {
       "path": "atlas/source_manifest.json",
       "exists": true,
-      "bytes": 2722
+      "bytes": 3386
     },
     {
       "path": "atlas/schema.json",
       "exists": true,
-      "bytes": 1354
+      "bytes": 2691
     },
     {
       "path": "atlas/universe/all_symbols.csv",
       "exists": true,
-      "bytes": 721249
+      "bytes": 756190
+    },
+    {
+      "path": "atlas/corporate_actions/corporate_action_candidates.csv",
+      "exists": true,
+      "bytes": 2024220
     },
     {
       "path": "atlas/index/by_code_prefix/005.json",
       "exists": true,
-      "bytes": 61357
+      "bytes": 93206
     },
     {
       "path": "atlas/symbol_profiles/005/005930.json",
       "exists": true,
-      "bytes": 3213
+      "bytes": 8190
+    },
+    {
+      "path": "atlas/ohlcv_raw_by_symbol_year/086/086520/2024.csv",
+      "exists": true,
+      "bytes": 28373
+    },
+    {
+      "path": "atlas/ohlcv_tradable_by_symbol_year/086/086520/2024.csv",
+      "exists": true,
+      "bytes": 23797
+    },
+    {
+      "path": "atlas/ohlcv_tradable_by_symbol_year/005/005930/2024.csv",
+      "exists": true,
+      "bytes": 25588
     },
     {
       "path": "atlas/ohlcv_min_by_symbol_year/005/005930/2024.csv",
@@ -43,38 +63,38 @@
     {
       "path": "atlas/research_packs/smoke/smoke_005930_000660_298040_267260_086520.json",
       "exists": true,
-      "bytes": 58287
+      "bytes": 62762
     },
     {
       "path": "atlas/research_packs/smoke/smoke_005930_000660_298040_267260_086520.md",
       "exists": true,
-      "bytes": 63499
+      "bytes": 67969
     },
     {
       "path": "diagnostics/chatgpt_bundle.txt",
       "exists": true,
-      "bytes": 3090
+      "bytes": 3343
     },
     {
       "path": "diagnostics/chatgpt_bundle.json",
       "exists": true,
-      "bytes": 10789
+      "bytes": 74486
     },
     {
       "path": "diagnostics/atlas_build_report.md",
       "exists": true,
-      "bytes": 496
+      "bytes": 600
     },
     {
       "path": "diagnostics/atlas_validation_report.md",
       "exists": true,
-      "bytes": 366
+      "bytes": 476
     },
     {
       "path": "diagnostics/atlas_size_report.md",
       "exists": true,
-      "bytes": 128
+      "bytes": 164
     }
   ],
-  "bundle_preview": "CHATGPT_MARCAP_BUNDLE\ngenerated_at=2026-05-21T15:40:27.492126+00:00\nsource_name=FinanceData/marcap\nsource_repo_url=https://github.com/FinanceData/marcap\nprice_adjustment_status=raw_unadjusted_marcap\nmin_date=1995-05-02\nmax_date=2026-02-20\nrow_count=15203785\nsymbol_count=5414\nactive_like_symbol_count=2868\ninactive_or_delisted_like_symbol_count=2546\nSELFTEST|005930|삼성전자|244|2024-01-02|2024-12-30|true|true|504|2.34|11.69|15.32|-8.18|-8.18|-19.22|true|ok|Drawdown after peak unavailable because no row exists after peak date.\nSELFTEST|000660|SK하이닉스|244|2024-01-02|2024-12-30|true|true|504|11.62|41.81|81.65|-5.7|-5.7|-5.7|true|ok|Drawdown after peak unavailable because no row exists after peak date.\nSELFTEST|298040|효성중공업|244|2024-01-02|2024-12-30|true|true|504|14.23|112.63|179.33|-7.03|-7.03|-7.03|true|ok|Drawdown after peak unavailable because no row exists after peak date.\nSELFTEST|267260|HD현대일렉트릭|244|2024-01-02|2024-12-30|true|true|504|39.04|219.93|336.48|-5.24|-5.24|-5.24|true|ok|\nSELFTEST"
+  "bundle_preview": "CHATGPT_MARCAP_BUNDLE\ngenerated_at=2026-05-21T16:28:40.024733+00:00\nsource_name=FinanceData/marcap\nsource_repo_url=https://github.com/FinanceData/marcap\nprice_adjustment_status=raw_unadjusted_marcap\nmin_date=1995-05-02\nmax_date=2026-02-20\nraw_row_count=15214118\ntradable_row_count=14354401\nnon_tradable_zero_volume_row_count=852418\ninvalid_zero_ohlc_row_count=673\ncorporate_action_candidate_count=14435\nsymbol_count=5414\nactive_like_symbol_count=2868\ninactive_or_delisted_like_symbol_count=2546\nSELFTEST|005930|삼성전자|244|2024-01-02|2024-12-30|true|true|504|2.34|11.69|15.32|-8.18|-8.18|-19.22|true|usable_with_caveat|\nSELFTEST|000660|SK하이닉스|244|2024-01-02|2024-12-30|true|true|504|11.62|41.81|81.65|-5.7|-5.7|-5.7|true|usable_with_caveat|\nSELFTEST|298040|효성중공업|244|2024-01-02|2024-12-30|true|true|504|14.23|112.63|179.33|-7.03|-7.03|-7.03|true|clean_tradable_path|\nSELFTEST|267260|HD현대일렉트릭|244|2024-01-02|2024-12-30|true|true|504|39.04|219.93|336.48|-5.24|-5.24|-5.24|true|clean_tradable_path|\nSELFTES"
 }

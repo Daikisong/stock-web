@@ -10,6 +10,11 @@
         2011,
         2012
       ],
+      "raw_available_years": [
+        2010,
+        2011,
+        2012
+      ],
       "first_date": "2010-02-02",
       "last_date": "2012-08-13",
       "status_inferred": "inactive_or_delisted_like"
@@ -19,6 +24,26 @@
       "name": "케이엔더블유",
       "profile_path": "atlas/symbol_profiles/105/105330.json",
       "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2009,
         2010,
         2011,
@@ -50,6 +75,10 @@
         2010,
         2011
       ],
+      "raw_available_years": [
+        2010,
+        2011
+      ],
       "first_date": "2010-09-09",
       "last_date": "2011-06-23",
       "status_inferred": "inactive_or_delisted_like"
@@ -73,6 +102,21 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2014-07-11",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -82,6 +126,27 @@
       "name": "KB금융",
       "profile_path": "atlas/symbol_profiles/105/105560.json",
       "available_years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2008,
         2009,
         2010,
@@ -130,6 +195,26 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2009-03-20",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -139,6 +224,25 @@
       "name": "디케이락",
       "profile_path": "atlas/symbol_profiles/105/105740.json",
       "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2010,
         2011,
         2012,
@@ -170,6 +274,11 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2024-01-29",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -179,6 +288,25 @@
       "name": "우진",
       "profile_path": "atlas/symbol_profiles/105/105840.json",
       "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2010,
         2011,
         2012,

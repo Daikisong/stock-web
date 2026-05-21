@@ -21,6 +21,22 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2013-10-31",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -30,6 +46,13 @@
       "name": "펨트론",
       "profile_path": "atlas/symbol_profiles/168/168360.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,
@@ -59,8 +82,23 @@
         2024,
         2025
       ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "first_date": "2013-04-19",
-      "last_date": "2025-03-31",
+      "last_date": "2025-03-27",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

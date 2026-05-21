@@ -24,8 +24,11 @@
     }
   ],
   "first_date": "2015-10-22",
-  "last_date": "2020-08-06",
-  "trading_day_count": 1178,
+  "last_date": "2020-07-14",
+  "raw_first_date": "2015-10-22",
+  "raw_last_date": "2020-08-06",
+  "trading_day_count": 1045,
+  "raw_trading_day_count": 1178,
   "available_years": [
     2015,
     2016,
@@ -34,7 +37,31 @@
     2019,
     2020
   ],
+  "raw_available_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/228/228180/2015.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/228/228180/2016.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/228/228180/2017.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/228/228180/2018.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/228/228180/2019.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/228/228180/2020.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/228/228180/2015.csv",
+    "atlas/ohlcv_raw_by_symbol_year/228/228180/2016.csv",
+    "atlas/ohlcv_raw_by_symbol_year/228/228180/2017.csv",
+    "atlas/ohlcv_raw_by_symbol_year/228/228180/2018.csv",
+    "atlas/ohlcv_raw_by_symbol_year/228/228180/2019.csv",
+    "atlas/ohlcv_raw_by_symbol_year/228/228180/2020.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/228/228180/2015.csv",
     "atlas/ohlcv_min_by_symbol_year/228/228180/2016.csv",
     "atlas/ohlcv_min_by_symbol_year/228/228180/2017.csv",
@@ -45,6 +72,24 @@
   "latest_close": 15750,
   "latest_marcap": 51446902500,
   "latest_market": "KONEX",
+  "raw_latest_close": 15750,
+  "raw_latest_marcap": 51446902500,
+  "raw_latest_market": "KONEX",
+  "row_status_counts": {
+    "tradable_ohlcv": 1045,
+    "non_tradable_zero_volume": 133,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_dates": [
+    "2016-05-12",
+    "2019-07-12"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

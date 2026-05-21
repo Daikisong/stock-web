@@ -13,6 +13,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-03-24",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -22,6 +30,14 @@
       "name": "알비더블유",
       "profile_path": "atlas/symbol_profiles/361/361570.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -45,6 +61,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-05-11",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -54,6 +78,14 @@
       "name": "삼영에스앤씨",
       "profile_path": "atlas/symbol_profiles/361/361670.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,

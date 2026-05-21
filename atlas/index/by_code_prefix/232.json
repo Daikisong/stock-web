@@ -19,6 +19,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-12-24",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -28,6 +42,11 @@
       "name": "케이비제9호스팩",
       "profile_path": "atlas/symbol_profiles/232/232270.json",
       "available_years": [
+        2016,
+        2017,
+        2018
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018
@@ -44,8 +63,12 @@
         2016,
         2017
       ],
+      "raw_available_years": [
+        2016,
+        2017
+      ],
       "first_date": "2016-03-30",
-      "last_date": "2017-12-21",
+      "last_date": "2017-09-21",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -53,6 +76,12 @@
       "name": "SK3호스팩",
       "profile_path": "atlas/symbol_profiles/232/232330.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -71,6 +100,11 @@
         2016,
         2017
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017
+      ],
       "first_date": "2015-12-22",
       "last_date": "2017-07-24",
       "status_inferred": "inactive_or_delisted_like"
@@ -79,6 +113,41 @@
       "code": "232530",
       "name": "이엠티",
       "profile_path": "atlas/symbol_profiles/232/232530.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-01-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "232680",
+      "name": "라온로보틱스",
+      "profile_path": "atlas/symbol_profiles/232/232680.json",
       "available_years": [
         2015,
         2016,
@@ -93,15 +162,7 @@
         2025,
         2026
       ],
-      "first_date": "2015-12-30",
-      "last_date": "2026-02-20",
-      "status_inferred": "active_like"
-    },
-    {
-      "code": "232680",
-      "name": "라온로보틱스",
-      "profile_path": "atlas/symbol_profiles/232/232680.json",
-      "available_years": [
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -124,6 +185,19 @@
       "name": "아이티센피엔에스",
       "profile_path": "atlas/symbol_profiles/232/232830.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,

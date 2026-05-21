@@ -19,19 +19,49 @@
     }
   ],
   "first_date": "2015-07-31",
-  "last_date": "2016-06-28",
-  "trading_day_count": 223,
+  "last_date": "2016-05-19",
+  "raw_first_date": "2015-07-31",
+  "raw_last_date": "2016-06-28",
+  "trading_day_count": 16,
+  "raw_trading_day_count": 223,
   "available_years": [
     2015,
     2016
   ],
+  "raw_available_years": [
+    2015,
+    2016
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/224/224090/2015.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/224/224090/2016.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/224/224090/2015.csv",
+    "atlas/ohlcv_raw_by_symbol_year/224/224090/2016.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/224/224090/2015.csv",
     "atlas/ohlcv_min_by_symbol_year/224/224090/2016.csv"
   ],
-  "latest_close": 8500,
-  "latest_marcap": 37315000000,
+  "latest_close": 8940,
+  "latest_marcap": 39246600000,
   "latest_market": "KONEX",
+  "raw_latest_close": 8500,
+  "raw_latest_marcap": 37315000000,
+  "raw_latest_market": "KONEX",
+  "row_status_counts": {
+    "tradable_ohlcv": 16,
+    "non_tradable_zero_volume": 206,
+    "invalid_zero_ohlc": 1,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 0,
+  "corporate_action_candidate_dates": [],
+  "has_major_raw_discontinuity": false,
+  "calibration_caveat": "",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

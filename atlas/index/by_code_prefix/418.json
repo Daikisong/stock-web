@@ -10,8 +10,13 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2022-05-26",
-      "last_date": "2024-12-18",
+      "last_date": "2024-11-29",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -19,6 +24,12 @@
       "name": "신한제10호스팩",
       "profile_path": "atlas/symbol_profiles/418/418210.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,
@@ -34,12 +45,16 @@
       "profile_path": "atlas/symbol_profiles/418/418250.json",
       "available_years": [
         2023,
+        2024
+      ],
+      "raw_available_years": [
+        2023,
         2024,
         2025,
         2026
       ],
       "first_date": "2023-08-24",
-      "last_date": "2026-02-20",
+      "last_date": "2024-04-05",
       "status_inferred": "active_like"
     },
     {
@@ -47,6 +62,12 @@
       "name": "라온텍",
       "profile_path": "atlas/symbol_profiles/418/418420.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,
@@ -66,6 +87,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-09-27",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -80,6 +107,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-02-16",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -89,6 +122,11 @@
       "name": "E8",
       "profile_path": "atlas/symbol_profiles/418/418620.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026

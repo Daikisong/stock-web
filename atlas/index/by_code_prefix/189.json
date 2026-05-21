@@ -18,6 +18,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-10-18",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -42,15 +55,7 @@
         2025,
         2026
       ],
-      "first_date": "2013-12-24",
-      "last_date": "2026-02-20",
-      "status_inferred": "active_like"
-    },
-    {
-      "code": "189350",
-      "name": "코셋",
-      "profile_path": "atlas/symbol_profiles/189/189350.json",
-      "available_years": [
+      "raw_available_years": [
         2013,
         2014,
         2015,
@@ -71,10 +76,59 @@
       "status_inferred": "active_like"
     },
     {
+      "code": "189350",
+      "name": "코셋",
+      "profile_path": "atlas/symbol_profiles/189/189350.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-01-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
       "code": "189540",
       "name": "씨티네트웍스",
       "profile_path": "atlas/symbol_profiles/189/189540.json",
       "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "raw_available_years": [
         2013,
         2014,
         2015,
@@ -106,6 +160,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-02-11",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -115,6 +183,12 @@
       "name": "디피앤케이",
       "profile_path": "atlas/symbol_profiles/189/189700.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -143,6 +217,21 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2014-12-24",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -152,6 +241,20 @@
       "name": "흥국에프엔비",
       "profile_path": "atlas/symbol_profiles/189/189980.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,

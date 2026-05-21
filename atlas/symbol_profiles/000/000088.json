@@ -1,7 +1,12 @@
 {
   "code": "000088",
-  "current_or_latest_name": "한화3우B",
+  "current_or_latest_name": "메리츠제1호스팩",
   "name_history": [
+    {
+      "name": "메리츠제1호스팩",
+      "first_date": "2025-12-15",
+      "last_date": "2026-02-20"
+    },
     {
       "name": "한화3우B",
       "first_date": "2016-10-19",
@@ -9,9 +14,15 @@
     }
   ],
   "markets": [
+    "KOSDAQ",
     "KOSPI"
   ],
   "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2025-12-15",
+      "last_date": "2026-02-20"
+    },
     {
       "market": "KOSPI",
       "first_date": "2016-10-19",
@@ -20,7 +31,10 @@
   ],
   "first_date": "2016-10-19",
   "last_date": "2026-02-20",
+  "raw_first_date": "2016-10-19",
+  "raw_last_date": "2026-02-20",
   "trading_day_count": 2291,
+  "raw_trading_day_count": 2335,
   "available_years": [
     2016,
     2017,
@@ -34,7 +48,46 @@
     2025,
     2026
   ],
+  "raw_available_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/000/000088/2016.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000088/2017.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000088/2018.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000088/2019.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000088/2020.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000088/2021.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000088/2022.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000088/2023.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000088/2024.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000088/2025.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000088/2026.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/000/000088/2016.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000088/2017.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000088/2018.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000088/2019.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000088/2020.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000088/2021.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000088/2022.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000088/2023.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000088/2024.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000088/2025.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000088/2026.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/000/000088/2016.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000088/2017.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000088/2018.csv",
@@ -50,6 +103,21 @@
   "latest_close": 49500,
   "latest_marcap": 960519829500,
   "latest_market": "KOSPI",
+  "raw_latest_close": 2195,
+  "raw_latest_marcap": 12720025000,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 2335,
+    "non_tradable_zero_volume": 0,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 0,
+  "corporate_action_candidate_dates": [],
+  "has_major_raw_discontinuity": false,
+  "calibration_caveat": "",
   "status_inferred": "active_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

@@ -16,6 +16,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-12-12",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -25,6 +36,14 @@
       "name": "SK바이오사이언스",
       "profile_path": "atlas/symbol_profiles/302/302440.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -51,6 +70,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-08-14",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -60,6 +90,17 @@
       "name": "더콘텐츠온",
       "profile_path": "atlas/symbol_profiles/302/302920.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,

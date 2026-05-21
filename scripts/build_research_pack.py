@@ -14,12 +14,15 @@ from scripts.atlas_utils import (
     CAVEAT,
     DEFAULT_POINTS,
     DEFAULT_WINDOWS,
+    WINDOW_LABELS,
+    corporate_action_window_flags,
     PRICE_ADJUSTMENT_STATUS,
     SOURCE_NAME,
     SOURCE_REPO_URL,
     compute_event_window,
     compute_path_summary,
     compute_trigger_backtest,
+    load_corporate_action_candidates,
     load_profile,
     load_symbol_rows,
     normalize_code,
@@ -74,6 +77,9 @@ def build_pack(
     event_window_post: int = 10,
     include_ohlcv_sample: bool = True,
     include_event_window: bool = True,
+    price_basis: str = "tradable_raw",
+    allow_raw_all: bool = False,
+    block_corporate_action_window: bool = True,
     pack_id: str = "research_pack",
     atlas_root: Path = ATLAS_ROOT,
 ) -> dict[str, Any]:
@@ -82,21 +88,76 @@ def build_pack(
     output_items = []
     for code, trigger_date in items:
         profile = load_profile(atlas_root, code)
-        rows = load_symbol_rows(atlas_root, code)
+        rows = load_symbol_rows(atlas_root, code, price_basis="tradable_raw")
+        raw_rows = load_symbol_rows(atlas_root, code, price_basis="raw_all")
         trigger = compute_trigger_backtest(rows, trigger_date, entry_mode, windows, max(windows))
         entry_date = trigger.get("entry_date") or trigger_date
         path = compute_path_summary(rows, entry_date, points, "trigger_close")
         event_rows = compute_event_window(rows, trigger_date, event_window_pre, event_window_post) if include_event_window else []
         year_rows = load_symbol_rows(atlas_root, code, f"{trigger_date[:4]}-01-01", f"{trigger_date[:4]}-12-31")
+        candidates = load_corporate_action_candidates(atlas_root, code)
+        candidate_dates = [str(item.get("date")) for item in candidates if item.get("date")]
+        flags_by_window = corporate_action_window_flags(rows, trigger.get("entry_date"), candidate_dates, windows)
+        contamination_fields = {}
+        for window in DEFAULT_WINDOWS:
+            label = WINDOW_LABELS.get(window, f"{window}D")
+            contaminated = bool(flags_by_window.get(window, False))
+            contamination_fields[f"window_{label}_corporate_action_contaminated"] = contaminated
+            if contaminated:
+                trigger[f"MFE_{label}_pct"] = None
+                trigger[f"MAE_{label}_pct"] = None
+        corporate_action_within_180d = bool(flags_by_window.get(180, False))
+        corporate_action_within_504d = bool(flags_by_window.get(504, False))
+        raw_counts = profile.get("row_status_counts", {})
+        block_reasons = []
+        if price_basis == "raw_all" and not allow_raw_all:
+            block_reasons.append("raw_all_price_basis_not_allowed_for_calibration")
+        if trigger.get("forward_window_trading_days", 0) < 180:
+            block_reasons.append("insufficient_forward_window")
+        if block_corporate_action_window and corporate_action_within_180d:
+            block_reasons.append("corporate_action_within_180D")
+        required_metrics = ["MFE_30D_pct", "MFE_90D_pct", "MFE_180D_pct", "MAE_30D_pct", "MAE_90D_pct", "MAE_180D_pct"]
+        if any(trigger.get(key) is None for key in required_metrics):
+            block_reasons.append("required_mfe_mae_window_unavailable")
+        if price_basis != "tradable_raw":
+            block_reasons.append("non_default_price_basis")
+        calibration_usable = price_basis == "tradable_raw" and not block_reasons
+        if "corporate_action_within_180D" in block_reasons:
+            data_quality_label = "blocked_by_corporate_action"
+        elif "insufficient_forward_window" in block_reasons:
+            data_quality_label = "blocked_by_insufficient_forward_window"
+        elif raw_counts.get("invalid_zero_ohlc", 0) or raw_counts.get("invalid_missing_ohlc", 0) or raw_counts.get("invalid_ohlc_inconsistent", 0):
+            data_quality_label = "blocked_by_invalid_ohlc" if not calibration_usable else "usable_with_caveat"
+        elif raw_counts.get("non_tradable_zero_volume", 0):
+            data_quality_label = "blocked_by_non_tradable_rows" if not calibration_usable else "usable_with_caveat"
+        elif corporate_action_within_504d:
+            data_quality_label = "usable_with_caveat"
+        else:
+            data_quality_label = "clean_tradable_path"
+        trigger["calibration_usable"] = calibration_usable
         item = {
             "code": code,
             "name": profile.get("current_or_latest_name"),
             "trigger_date": trigger_date,
             "entry_mode": entry_mode,
+            "price_basis": price_basis,
             "entry_date": trigger.get("entry_date"),
             "entry_price": trigger.get("entry_price"),
-            "calibration_usable": trigger.get("calibration_usable"),
+            "calibration_usable": calibration_usable,
             "forward_window_trading_days": trigger.get("forward_window_trading_days"),
+            "tradable_row_count": len(rows),
+            "raw_row_count": len(raw_rows),
+            "excluded_non_tradable_rows": raw_counts.get("non_tradable_zero_volume", 0),
+            "excluded_zero_ohlc_rows": raw_counts.get("invalid_zero_ohlc", 0),
+            "excluded_invalid_ohlc_rows": raw_counts.get("invalid_missing_ohlc", 0)
+            + raw_counts.get("invalid_ohlc_inconsistent", 0)
+            + raw_counts.get("suspicious_ohlc_repaired_candidate", 0),
+            "corporate_action_within_180D": corporate_action_within_180d,
+            "corporate_action_within_504D": corporate_action_within_504d,
+            "corporate_action_candidate_dates": candidate_dates,
+            "calibration_block_reasons": sorted(set(block_reasons)),
+            "data_quality_label": data_quality_label,
+            **contamination_fields,
             "MFE_30D_pct": trigger.get("MFE_30D_pct"),
             "MFE_90D_pct": trigger.get("MFE_90D_pct"),
             "MFE_180D_pct": trigger.get("MFE_180D_pct"),
@@ -126,7 +187,7 @@ def build_pack(
             ],
             "event_window_pre10_post10": event_rows,
             "ohlcv_sample": first_last_sample(year_rows) if include_ohlcv_sample else [],
-            "warnings": trigger.get("warnings", []) + path.get("warnings", []),
+            "warnings": trigger.get("warnings", []) + path.get("warnings", []) + sorted(set(block_reasons)),
         }
         output_items.append(item)
     return safe_json(
@@ -136,6 +197,10 @@ def build_pack(
             "source_name": SOURCE_NAME,
             "source_repo_url": SOURCE_REPO_URL,
             "price_adjustment_status": PRICE_ADJUSTMENT_STATUS,
+            "research_pack_default_price_basis": "tradable_raw",
+            "price_basis": price_basis,
+            "allow_raw_all": allow_raw_all,
+            "block_corporate_action_window": block_corporate_action_window,
             "caveat": CAVEAT,
             "items": output_items,
         }
@@ -155,13 +220,13 @@ def write_pack_md(path: Path, pack: dict[str, Any]) -> None:
         "",
         "## Item Summary",
         "",
-        "| code | name | trigger_date | entry_date | calibration_usable | forward_days | MFE_90D | MAE_90D | warnings |",
-        "|---|---|---|---|---:|---:|---:|---:|---|",
+        "| code | name | trigger_date | entry_date | calibration_usable | quality | forward_days | MFE_90D | MAE_90D | block_reasons |",
+        "|---|---|---|---|---:|---|---:|---:|---:|---|",
     ]
     for item in pack["items"]:
         lines.append(
-            "| {code} | {name} | {trigger_date} | {entry_date} | {calibration_usable} | {forward_window_trading_days} | {MFE_90D_pct} | {MAE_90D_pct} | {warnings} |".format(
-                **{**item, "warnings": "; ".join(item.get("warnings", []))}
+            "| {code} | {name} | {trigger_date} | {entry_date} | {calibration_usable} | {data_quality_label} | {forward_window_trading_days} | {MFE_90D_pct} | {MAE_90D_pct} | {calibration_block_reasons} |".format(
+                **{**item, "calibration_block_reasons": "; ".join(item.get("calibration_block_reasons", []))}
             )
         )
     lines.extend(["", "## Path Summary"])
@@ -194,6 +259,9 @@ def main() -> int:
     parser.add_argument("--event-window-post", type=int, default=10)
     parser.add_argument("--include-ohlcv-sample", default="true")
     parser.add_argument("--include-event-window", default="true")
+    parser.add_argument("--price-basis", default="tradable_raw", choices=["tradable_raw", "raw_all"])
+    parser.add_argument("--allow-raw-all", default="false")
+    parser.add_argument("--block-corporate-action-window", default="true")
     parser.add_argument("--out-json", required=True)
     parser.add_argument("--out-md", required=True)
     args = parser.parse_args()
@@ -209,6 +277,9 @@ def main() -> int:
         event_window_post=args.event_window_post,
         include_ohlcv_sample=args.include_ohlcv_sample.lower() == "true",
         include_event_window=args.include_event_window.lower() == "true",
+        price_basis=args.price_basis,
+        allow_raw_all=args.allow_raw_all.lower() == "true",
+        block_corporate_action_window=args.block_corporate_action_window.lower() == "true",
         pack_id=out_json.stem,
     )
     write_json(out_json, pack)

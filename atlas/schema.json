@@ -1,5 +1,18 @@
 {
-  "shard_columns": {
+  "raw_shard_columns": {
+    "d": "date",
+    "o": "open",
+    "h": "high",
+    "l": "low",
+    "c": "close",
+    "v": "volume",
+    "a": "amount",
+    "mc": "marcap",
+    "s": "stocks",
+    "m": "market",
+    "rs": "row_status"
+  },
+  "tradable_shard_columns": {
     "d": "date",
     "o": "open",
     "h": "high",
@@ -11,22 +24,53 @@
     "s": "stocks",
     "m": "market"
   },
+  "row_status_values": [
+    "tradable_ohlcv",
+    "non_tradable_zero_volume",
+    "invalid_zero_ohlc",
+    "invalid_missing_ohlc",
+    "invalid_ohlc_inconsistent",
+    "suspicious_ohlc_repaired_candidate"
+  ],
+  "data_quality_label_values": [
+    "clean_tradable_path",
+    "usable_with_caveat",
+    "blocked_by_corporate_action",
+    "blocked_by_insufficient_forward_window",
+    "blocked_by_non_tradable_rows",
+    "blocked_by_invalid_ohlc"
+  ],
   "price_adjustment_status": "raw_unadjusted_marcap",
   "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later.",
+  "calibration_basis": "tradable_raw",
   "normalization": [
-    "Code is preserved as a zero-padded 6-digit string.",
-    "Each shard has at most one row per code/date.",
-    "Rows missing close or volume are excluded from OHLCV shards.",
-    "If the source has duplicate code/date rows, the atlas keeps the deterministic row with the largest marcap/amount/volume sort order.",
-    "OHLC consistency repair is applied: high=max(raw high, open, close), low=min(raw low, open, close)."
+    "Raw rows are preserved with row_status under atlas/ohlcv_raw_by_symbol_year.",
+    "Tradable shards include only rows with volume>0, positive OHLC, and OHLC consistency.",
+    "No high/low repair is applied for calibration.",
+    "Duplicate tradable code/date rows are deterministically reduced to one row by marcap/amount/volume sort order."
   ],
-  "MFE_N_pct": "(max high from entry_date through N trading rows / entry_price - 1) * 100",
-  "MAE_N_pct": "(min low from entry_date through N trading rows / entry_price - 1) * 100",
+  "corporate_action_candidate_logic": [
+    "stocks changes by >=20% from previous tradable row",
+    "close/prev_close <= 0.6 or >= 1.8",
+    "stocks_ratio roughly 5:1 or 1:5",
+    "price_ratio roughly inverse to stocks_ratio within tolerance"
+  ],
+  "MFE_N_pct": "(max high from entry_date through N tradable rows / entry_price - 1) * 100",
+  "MAE_N_pct": "(min low from entry_date through N tradable rows / entry_price - 1) * 100",
   "calibration_usable_rules": [
-    "open/high/low/close/volume are present",
+    "price_basis is tradable_raw",
+    "open/high/low/close/volume are positive and present",
     "entry row exists",
-    "at least 180 forward trading days are available",
-    "MFE and MAE 30/90/180D are computed"
+    "at least 180 forward tradable days are available",
+    "MFE and MAE 30/90/180D are computed",
+    "window_180D_corporate_action_contaminated is false when block_corporate_action_window=true"
+  ],
+  "window_level_contamination_flags": [
+    "window_30D_corporate_action_contaminated",
+    "window_90D_corporate_action_contaminated",
+    "window_180D_corporate_action_contaminated",
+    "window_1Y_corporate_action_contaminated",
+    "window_2Y_corporate_action_contaminated"
   ],
   "status_inferred_note": "active/inactive-like status is inferred only from row presence and is not official listing status."
 }

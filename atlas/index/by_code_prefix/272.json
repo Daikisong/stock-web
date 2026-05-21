@@ -15,6 +15,16 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2019-10-25",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -24,6 +34,16 @@
       "name": "한화시스템",
       "profile_path": "atlas/symbol_profiles/272/272210.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,
@@ -53,6 +73,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-07-10",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -61,7 +93,8 @@
       "code": "272420",
       "name": "극동자동화",
       "profile_path": "atlas/symbol_profiles/272/272420.json",
-      "available_years": [
+      "available_years": [],
+      "raw_available_years": [
         2017,
         2018
       ],
@@ -85,6 +118,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-12-08",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -94,6 +139,18 @@
       "name": "삼양패키징",
       "profile_path": "atlas/symbol_profiles/272/272550.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,

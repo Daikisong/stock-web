@@ -19,9 +19,20 @@
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2003-04-15",
-  "trading_day_count": 2127,
+  "last_date": "2000-12-15",
+  "raw_first_date": "1995-05-02",
+  "raw_last_date": "2003-04-15",
+  "trading_day_count": 1558,
+  "raw_trading_day_count": 2127,
   "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000
+  ],
+  "raw_available_years": [
     1995,
     1996,
     1997,
@@ -33,19 +44,54 @@
     2003
   ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/005/005770/1995.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/005/005770/1996.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/005/005770/1997.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/005/005770/1998.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/005/005770/1999.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/005/005770/2000.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/005/005770/1995.csv",
+    "atlas/ohlcv_raw_by_symbol_year/005/005770/1996.csv",
+    "atlas/ohlcv_raw_by_symbol_year/005/005770/1997.csv",
+    "atlas/ohlcv_raw_by_symbol_year/005/005770/1998.csv",
+    "atlas/ohlcv_raw_by_symbol_year/005/005770/1999.csv",
+    "atlas/ohlcv_raw_by_symbol_year/005/005770/2000.csv",
+    "atlas/ohlcv_raw_by_symbol_year/005/005770/2001.csv",
+    "atlas/ohlcv_raw_by_symbol_year/005/005770/2002.csv",
+    "atlas/ohlcv_raw_by_symbol_year/005/005770/2003.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/005/005770/1995.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005770/1996.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005770/1997.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005770/1998.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005770/1999.csv",
-    "atlas/ohlcv_min_by_symbol_year/005/005770/2000.csv",
-    "atlas/ohlcv_min_by_symbol_year/005/005770/2001.csv",
-    "atlas/ohlcv_min_by_symbol_year/005/005770/2002.csv",
-    "atlas/ohlcv_min_by_symbol_year/005/005770/2003.csv"
+    "atlas/ohlcv_min_by_symbol_year/005/005770/2000.csv"
   ],
   "latest_close": 500,
-  "latest_marcap": 17040258500,
+  "latest_marcap": 43793294000,
   "latest_market": "KOSPI",
+  "raw_latest_close": 500,
+  "raw_latest_marcap": 17040258500,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 1558,
+    "non_tradable_zero_volume": 569,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_dates": [
+    "1996-01-03",
+    "1998-07-08",
+    "1999-07-09"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

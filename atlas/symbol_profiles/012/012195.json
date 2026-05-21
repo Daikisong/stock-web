@@ -34,15 +34,36 @@
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "1998-06-27",
-  "trading_day_count": 926,
+  "last_date": "1998-06-02",
+  "raw_first_date": "1995-05-02",
+  "raw_last_date": "1998-06-27",
+  "trading_day_count": 899,
+  "raw_trading_day_count": 926,
   "available_years": [
     1995,
     1996,
     1997,
     1998
   ],
+  "raw_available_years": [
+    1995,
+    1996,
+    1997,
+    1998
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/012/012195/1995.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/012/012195/1996.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/012/012195/1997.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/012/012195/1998.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/012/012195/1995.csv",
+    "atlas/ohlcv_raw_by_symbol_year/012/012195/1996.csv",
+    "atlas/ohlcv_raw_by_symbol_year/012/012195/1997.csv",
+    "atlas/ohlcv_raw_by_symbol_year/012/012195/1998.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/012/012195/1995.csv",
     "atlas/ohlcv_min_by_symbol_year/012/012195/1996.csv",
     "atlas/ohlcv_min_by_symbol_year/012/012195/1997.csv",
@@ -51,6 +72,23 @@
   "latest_close": 280,
   "latest_marcap": 835840320,
   "latest_market": "KOSPI",
+  "raw_latest_close": 280,
+  "raw_latest_marcap": 835840320,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 899,
+    "non_tradable_zero_volume": 26,
+    "invalid_zero_ohlc": 1,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_dates": [
+    "1996-08-14"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

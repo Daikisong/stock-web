@@ -11,8 +11,14 @@
         2018,
         2019
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019
+      ],
       "first_date": "2016-07-08",
-      "last_date": "2019-12-05",
+      "last_date": "2019-10-10",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -20,6 +26,16 @@
       "name": "에코프로비엠",
       "profile_path": "atlas/symbol_profiles/247/247540.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,
@@ -38,6 +54,14 @@
       "name": "나노씨엠에스",
       "profile_path": "atlas/symbol_profiles/247/247660.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,

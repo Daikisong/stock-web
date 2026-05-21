@@ -19,19 +19,49 @@
     }
   ],
   "first_date": "2018-08-09",
-  "last_date": "2019-07-03",
-  "trading_day_count": 219,
+  "last_date": "2019-06-11",
+  "raw_first_date": "2018-08-09",
+  "raw_last_date": "2019-07-03",
+  "trading_day_count": 203,
+  "raw_trading_day_count": 219,
   "available_years": [
     2018,
     2019
   ],
+  "raw_available_years": [
+    2018,
+    2019
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/262/262760/2018.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/262/262760/2019.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/262/262760/2018.csv",
+    "atlas/ohlcv_raw_by_symbol_year/262/262760/2019.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/262/262760/2018.csv",
     "atlas/ohlcv_min_by_symbol_year/262/262760/2019.csv"
   ],
   "latest_close": 8300,
   "latest_marcap": 139606000000,
   "latest_market": "KONEX",
+  "raw_latest_close": 8300,
+  "raw_latest_marcap": 139606000000,
+  "raw_latest_market": "KONEX",
+  "row_status_counts": {
+    "tradable_ohlcv": 203,
+    "non_tradable_zero_volume": 16,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 0,
+  "corporate_action_candidate_dates": [],
+  "has_major_raw_discontinuity": false,
+  "calibration_caveat": "",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

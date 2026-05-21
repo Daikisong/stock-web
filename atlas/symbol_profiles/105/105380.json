@@ -20,18 +20,50 @@
   ],
   "first_date": "2010-09-09",
   "last_date": "2011-06-23",
-  "trading_day_count": 195,
+  "raw_first_date": "2010-09-09",
+  "raw_last_date": "2011-06-23",
+  "trading_day_count": 168,
+  "raw_trading_day_count": 195,
   "available_years": [
     2010,
     2011
   ],
+  "raw_available_years": [
+    2010,
+    2011
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/105/105380/2010.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/105/105380/2011.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/105/105380/2010.csv",
+    "atlas/ohlcv_raw_by_symbol_year/105/105380/2011.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/105/105380/2010.csv",
     "atlas/ohlcv_min_by_symbol_year/105/105380/2011.csv"
   ],
   "latest_close": 13,
   "latest_marcap": 286000000,
   "latest_market": "KOSPI",
+  "raw_latest_close": 13,
+  "raw_latest_marcap": 286000000,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 168,
+    "non_tradable_zero_volume": 26,
+    "invalid_zero_ohlc": 1,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_dates": [
+    "2011-06-15"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

@@ -25,8 +25,19 @@
   ],
   "first_date": "2018-12-03",
   "last_date": "2025-02-13",
-  "trading_day_count": 1523,
+  "raw_first_date": "2018-12-03",
+  "raw_last_date": "2025-02-13",
+  "trading_day_count": 791,
+  "raw_trading_day_count": 1523,
   "available_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2025
+  ],
+  "raw_available_years": [
     2018,
     2019,
     2020,
@@ -37,18 +48,53 @@
     2025
   ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/299/299910/2018.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/299/299910/2019.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/299/299910/2020.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/299/299910/2021.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/299/299910/2022.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/299/299910/2025.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/299/299910/2018.csv",
+    "atlas/ohlcv_raw_by_symbol_year/299/299910/2019.csv",
+    "atlas/ohlcv_raw_by_symbol_year/299/299910/2020.csv",
+    "atlas/ohlcv_raw_by_symbol_year/299/299910/2021.csv",
+    "atlas/ohlcv_raw_by_symbol_year/299/299910/2022.csv",
+    "atlas/ohlcv_raw_by_symbol_year/299/299910/2023.csv",
+    "atlas/ohlcv_raw_by_symbol_year/299/299910/2024.csv",
+    "atlas/ohlcv_raw_by_symbol_year/299/299910/2025.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/299/299910/2018.csv",
     "atlas/ohlcv_min_by_symbol_year/299/299910/2019.csv",
     "atlas/ohlcv_min_by_symbol_year/299/299910/2020.csv",
     "atlas/ohlcv_min_by_symbol_year/299/299910/2021.csv",
     "atlas/ohlcv_min_by_symbol_year/299/299910/2022.csv",
-    "atlas/ohlcv_min_by_symbol_year/299/299910/2023.csv",
-    "atlas/ohlcv_min_by_symbol_year/299/299910/2024.csv",
     "atlas/ohlcv_min_by_symbol_year/299/299910/2025.csv"
   ],
   "latest_close": 80,
   "latest_marcap": 377710720,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 80,
+  "raw_latest_marcap": 377710720,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 791,
+    "non_tradable_zero_volume": 732,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_dates": [
+    "2025-02-05",
+    "2025-02-06",
+    "2025-02-10"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

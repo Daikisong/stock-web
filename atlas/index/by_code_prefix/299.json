@@ -14,6 +14,15 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2020-11-25",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -23,6 +32,17 @@
       "name": "더블유에스아이",
       "profile_path": "atlas/symbol_profiles/299/299170.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -52,6 +72,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-06-29",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -70,6 +101,16 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2019-02-20",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -79,6 +120,15 @@
       "name": "에스엠비나",
       "profile_path": "atlas/symbol_profiles/299/299670.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -106,6 +156,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-12-20",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -115,6 +176,14 @@
       "name": "애닉",
       "profile_path": "atlas/symbol_profiles/299/299910.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2025
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,

@@ -19,6 +19,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-11-04",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -32,8 +46,13 @@
         2015,
         2016
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016
+      ],
       "first_date": "2014-02-28",
-      "last_date": "2016-12-22",
+      "last_date": "2016-12-09",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -41,6 +60,21 @@
       "name": "케이사인",
       "profile_path": "atlas/symbol_profiles/192/192250.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -78,6 +112,21 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2014-07-25",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -101,6 +150,21 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2014-08-06",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -110,6 +174,20 @@
       "name": "오늘이엔엠",
       "profile_path": "atlas/symbol_profiles/192/192410.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -147,6 +225,21 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2014-11-05",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -159,8 +252,12 @@
         2014,
         2015
       ],
+      "raw_available_years": [
+        2014,
+        2015
+      ],
       "first_date": "2014-05-22",
-      "last_date": "2015-06-22",
+      "last_date": "2015-06-01",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -174,8 +271,15 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "2014-05-22",
-      "last_date": "2018-10-25",
+      "last_date": "2018-10-04",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -183,6 +287,16 @@
       "name": "드림텍",
       "profile_path": "atlas/symbol_profiles/192/192650.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,
@@ -201,6 +315,21 @@
       "name": "코스맥스",
       "profile_path": "atlas/symbol_profiles/192/192820.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,

@@ -1,19 +1,23 @@
 CHATGPT_MARCAP_BUNDLE
-generated_at=2026-05-21T15:40:27.492126+00:00
+generated_at=2026-05-21T16:28:40.024733+00:00
 source_name=FinanceData/marcap
 source_repo_url=https://github.com/FinanceData/marcap
 price_adjustment_status=raw_unadjusted_marcap
 min_date=1995-05-02
 max_date=2026-02-20
-row_count=15203785
+raw_row_count=15214118
+tradable_row_count=14354401
+non_tradable_zero_volume_row_count=852418
+invalid_zero_ohlc_row_count=673
+corporate_action_candidate_count=14435
 symbol_count=5414
 active_like_symbol_count=2868
 inactive_or_delisted_like_symbol_count=2546
-SELFTEST|005930|삼성전자|244|2024-01-02|2024-12-30|true|true|504|2.34|11.69|15.32|-8.18|-8.18|-19.22|true|ok|Drawdown after peak unavailable because no row exists after peak date.
-SELFTEST|000660|SK하이닉스|244|2024-01-02|2024-12-30|true|true|504|11.62|41.81|81.65|-5.7|-5.7|-5.7|true|ok|Drawdown after peak unavailable because no row exists after peak date.
-SELFTEST|298040|효성중공업|244|2024-01-02|2024-12-30|true|true|504|14.23|112.63|179.33|-7.03|-7.03|-7.03|true|ok|Drawdown after peak unavailable because no row exists after peak date.
-SELFTEST|267260|HD현대일렉트릭|244|2024-01-02|2024-12-30|true|true|504|39.04|219.93|336.48|-5.24|-5.24|-5.24|true|ok|
-SELFTEST|086520|에코프로|244|2024-01-02|2024-12-30|true|true|504|11.45|11.45|11.45|-22.58|-100.0|-100.0|true|ok|
+SELFTEST|005930|삼성전자|244|2024-01-02|2024-12-30|true|true|504|2.34|11.69|15.32|-8.18|-8.18|-19.22|true|usable_with_caveat|
+SELFTEST|000660|SK하이닉스|244|2024-01-02|2024-12-30|true|true|504|11.62|41.81|81.65|-5.7|-5.7|-5.7|true|usable_with_caveat|
+SELFTEST|298040|효성중공업|244|2024-01-02|2024-12-30|true|true|504|14.23|112.63|179.33|-7.03|-7.03|-7.03|true|clean_tradable_path|
+SELFTEST|267260|HD현대일렉트릭|244|2024-01-02|2024-12-30|true|true|504|39.04|219.93|336.48|-5.24|-5.24|-5.24|true|clean_tradable_path|
+SELFTEST|086520|에코프로|233|2024-01-02|2024-12-30|true|false|504|11.45|None|None|-22.58|None|None|true|blocked_by_corporate_action|corporate_action_within_180D;required_mfe_mae_window_unavailable
 OHLC_SAMPLE|005930|2024-01-02|78200|79800|78200|79600|17142847|1356958225913|475194690980000|KOSPI
 OHLC_SAMPLE|005930|2024-01-03|78500|78800|77000|77000|21753644|1691690834824|459673256350000|KOSPI
 OHLC_SAMPLE|005930|2024-01-04|76100|77300|76100|76600|15324439|1173912901977|457285343330000|KOSPI
@@ -37,3 +41,5 @@ PATH_SAMPLE|005930|2024-01-03|D+90|2024-05-17|0.52|11.69|-8.18|true
 PATH_SAMPLE|005930|2024-01-03|D+180|2024-09-27|-16.62|15.32|-19.22|true
 PATH_SAMPLE|005930|2024-01-03|D+252|2025-01-15|-30.26|15.32|-35.19|true
 PATH_SAMPLE|005930|2024-01-03|D+504|2026-01-29|108.7|116.36|-35.19|true
+ECOPRO_ZERO_ROW_CHECK|086520|2024-04-09|raw_has_zero_ohlc=true|tradable_excluded=true
+ECOPRO_CORP_ACTION_CHECK|086520|2024-04-25|detected=true|calibration_blocked=true

@@ -11,6 +11,12 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2021-10-22",
       "last_date": "2024-04-04",
       "status_inferred": "inactive_or_delisted_like"
@@ -27,6 +33,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-02-02",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -36,6 +50,19 @@
       "name": "샘표식품",
       "profile_path": "atlas/symbol_profiles/248/248170.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,

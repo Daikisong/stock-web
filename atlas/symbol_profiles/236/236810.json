@@ -20,7 +20,10 @@
   ],
   "first_date": "2021-01-21",
   "last_date": "2026-02-20",
+  "raw_first_date": "2021-01-21",
+  "raw_last_date": "2026-02-20",
   "trading_day_count": 1245,
+  "raw_trading_day_count": 1245,
   "available_years": [
     2021,
     2022,
@@ -29,7 +32,31 @@
     2025,
     2026
   ],
+  "raw_available_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/236/236810/2021.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/236/236810/2022.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/236/236810/2023.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/236/236810/2024.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/236/236810/2025.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/236/236810/2026.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/236/236810/2021.csv",
+    "atlas/ohlcv_raw_by_symbol_year/236/236810/2022.csv",
+    "atlas/ohlcv_raw_by_symbol_year/236/236810/2023.csv",
+    "atlas/ohlcv_raw_by_symbol_year/236/236810/2024.csv",
+    "atlas/ohlcv_raw_by_symbol_year/236/236810/2025.csv",
+    "atlas/ohlcv_raw_by_symbol_year/236/236810/2026.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/236/236810/2021.csv",
     "atlas/ohlcv_min_by_symbol_year/236/236810/2022.csv",
     "atlas/ohlcv_min_by_symbol_year/236/236810/2023.csv",
@@ -40,6 +67,24 @@
   "latest_close": 1842,
   "latest_marcap": 31268734692,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 1842,
+  "raw_latest_marcap": 31268734692,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 1245,
+    "non_tradable_zero_volume": 0,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_dates": [
+    "2022-05-30",
+    "2022-06-21"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "active_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

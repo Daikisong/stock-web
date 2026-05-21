@@ -10,6 +10,11 @@
         2014,
         2015
       ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015
+      ],
       "first_date": "2013-07-01",
       "last_date": "2015-04-29",
       "status_inferred": "inactive_or_delisted_like"
@@ -19,6 +24,17 @@
       "name": "엠아이텍",
       "profile_path": "atlas/symbol_profiles/179/179290.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -42,8 +58,13 @@
         2015,
         2016
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016
+      ],
       "first_date": "2014-02-28",
-      "last_date": "2016-07-06",
+      "last_date": "2016-06-14",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -51,6 +72,16 @@
       "name": "애드바이오텍",
       "profile_path": "atlas/symbol_profiles/179/179530.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,
@@ -84,8 +115,24 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2013-07-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-02-13",
       "status_inferred": "active_like"
     },
     {
@@ -93,6 +140,18 @@
       "name": "유티아이",
       "profile_path": "atlas/symbol_profiles/179/179900.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,

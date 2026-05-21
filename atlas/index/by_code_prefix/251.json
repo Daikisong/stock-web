@@ -12,6 +12,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-02-21",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -21,6 +28,18 @@
       "name": "넷마블",
       "profile_path": "atlas/symbol_profiles/251/251270.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -53,6 +72,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-10-25",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -62,6 +94,18 @@
       "name": "와이엠티",
       "profile_path": "atlas/symbol_profiles/251/251370.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -85,6 +129,10 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2017,
+        2018
+      ],
       "first_date": "2017-05-02",
       "last_date": "2018-09-06",
       "status_inferred": "inactive_or_delisted_like"
@@ -94,6 +142,18 @@
       "name": "브이원텍",
       "profile_path": "atlas/symbol_profiles/251/251630.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -120,8 +180,15 @@
         2019,
         2020
       ],
-      "first_date": "2016-09-08",
-      "last_date": "2020-12-29",
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2016-09-29",
+      "last_date": "2020-11-09",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -129,6 +196,16 @@
       "name": "펌텍코리아",
       "profile_path": "atlas/symbol_profiles/251/251970.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,

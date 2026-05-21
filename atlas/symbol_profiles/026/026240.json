@@ -18,9 +18,12 @@
       "last_date": "2000-07-27"
     }
   ],
-  "first_date": "1996-07-01",
+  "first_date": "1996-07-29",
   "last_date": "2000-07-27",
-  "trading_day_count": 1119,
+  "raw_first_date": "1996-07-01",
+  "raw_last_date": "2000-07-27",
+  "trading_day_count": 350,
+  "raw_trading_day_count": 1119,
   "available_years": [
     1996,
     1997,
@@ -28,7 +31,28 @@
     1999,
     2000
   ],
+  "raw_available_years": [
+    1996,
+    1997,
+    1998,
+    1999,
+    2000
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/026/026240/1996.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/026/026240/1997.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/026/026240/1998.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/026/026240/1999.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/026/026240/2000.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/026/026240/1996.csv",
+    "atlas/ohlcv_raw_by_symbol_year/026/026240/1997.csv",
+    "atlas/ohlcv_raw_by_symbol_year/026/026240/1998.csv",
+    "atlas/ohlcv_raw_by_symbol_year/026/026240/1999.csv",
+    "atlas/ohlcv_raw_by_symbol_year/026/026240/2000.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/026/026240/1996.csv",
     "atlas/ohlcv_min_by_symbol_year/026/026240/1997.csv",
     "atlas/ohlcv_min_by_symbol_year/026/026240/1998.csv",
@@ -38,6 +62,25 @@
   "latest_close": 160,
   "latest_marcap": 640000000,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 160,
+  "raw_latest_marcap": 640000000,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 350,
+    "non_tradable_zero_volume": 769,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_dates": [
+    "1996-11-18",
+    "1998-02-27",
+    "1998-12-07"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

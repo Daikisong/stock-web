@@ -19,6 +19,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-09-25",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -41,6 +55,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-06-18",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -50,6 +78,19 @@
       "name": "썬테크",
       "profile_path": "atlas/symbol_profiles/217/217320.json",
       "available_years": [
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -82,6 +123,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-11-22",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -97,13 +149,22 @@
         2020,
         2021,
         2022,
+        2023
+      ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
         2023,
         2024,
         2025,
         2026
       ],
       "first_date": "2017-03-02",
-      "last_date": "2026-02-20",
+      "last_date": "2023-03-22",
       "status_inferred": "active_like"
     },
     {
@@ -111,6 +172,20 @@
       "name": "러셀",
       "profile_path": "atlas/symbol_profiles/217/217500.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -136,6 +211,10 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2025,
+        2026
+      ],
       "first_date": "2025-12-15",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -154,8 +233,18 @@
         2021,
         2022
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
       "first_date": "2015-06-26",
-      "last_date": "2022-12-15",
+      "last_date": "2022-11-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -172,12 +261,24 @@
         2021,
         2022,
         2023,
+        2024
+      ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
       ],
       "first_date": "2015-06-10",
-      "last_date": "2026-02-20",
+      "last_date": "2024-03-26",
       "status_inferred": "active_like"
     },
     {
@@ -185,6 +286,20 @@
       "name": "강스템바이오텍",
       "profile_path": "atlas/symbol_profiles/217/217730.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -212,6 +327,12 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "2015-06-12",
       "last_date": "2018-01-18",
       "status_inferred": "inactive_or_delisted_like"
@@ -221,6 +342,20 @@
       "name": "원익피앤이",
       "profile_path": "atlas/symbol_profiles/217/217820.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -256,6 +391,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-05-28",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -275,6 +424,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-04-27",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -284,6 +444,20 @@
       "name": "파마리서치바이오",
       "profile_path": "atlas/symbol_profiles/217/217950.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,

@@ -11,11 +11,19 @@
         2022,
         2023,
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
         2025,
         2026
       ],
       "first_date": "2020-04-24",
-      "last_date": "2026-01-15",
+      "last_date": "2025-12-26",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -23,6 +31,12 @@
       "name": "하나금융16호스팩",
       "profile_path": "atlas/symbol_profiles/343/343510.json",
       "available_years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "raw_available_years": [
         2020,
         2021,
         2022,

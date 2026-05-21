@@ -11,8 +11,14 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2020-02-12",
-      "last_date": "2023-02-16",
+      "last_date": "2023-01-27",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -20,6 +26,15 @@
       "name": "KCC글라스",
       "profile_path": "atlas/symbol_profiles/344/344820.json",
       "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2020,
         2021,
         2022,
@@ -37,6 +52,15 @@
       "name": "이노진",
       "profile_path": "atlas/symbol_profiles/344/344860.json",
       "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2020,
         2021,
         2022,

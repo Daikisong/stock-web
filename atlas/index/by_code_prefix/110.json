@@ -16,6 +16,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-12-14",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -25,6 +36,14 @@
       "name": "모린스",
       "profile_path": "atlas/symbol_profiles/110/110310.json",
       "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "raw_available_years": [
         2009,
         2010,
         2011,
@@ -46,6 +65,12 @@
         2013,
         2014
       ],
+      "raw_available_years": [
+        2011,
+        2012,
+        2013,
+        2014
+      ],
       "first_date": "2011-06-17",
       "last_date": "2014-09-01",
       "status_inferred": "inactive_or_delisted_like"
@@ -55,6 +80,15 @@
       "name": "넥솔론",
       "profile_path": "atlas/symbol_profiles/110/110570.json",
       "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "raw_available_years": [
         2011,
         2012,
         2013,
@@ -78,8 +112,15 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "2014-12-08",
-      "last_date": "2018-10-10",
+      "last_date": "2018-10-08",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -87,6 +128,17 @@
       "name": "크리스에프앤씨",
       "profile_path": "atlas/symbol_profiles/110/110790.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -106,6 +158,17 @@
       "name": "디아이티",
       "profile_path": "atlas/symbol_profiles/110/110990.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,

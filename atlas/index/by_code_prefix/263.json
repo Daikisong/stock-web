@@ -16,6 +16,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-11-20",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -35,8 +46,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-12-24",
-      "last_date": "2026-02-20",
+      "last_date": "2026-02-06",
       "status_inferred": "active_like"
     },
     {
@@ -44,6 +66,13 @@
       "name": "어스앤에어로스페이스",
       "profile_path": "atlas/symbol_profiles/263/263540.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2024
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -62,6 +91,18 @@
       "name": "덕우전자",
       "profile_path": "atlas/symbol_profiles/263/263600.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -92,6 +133,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-11-22",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -111,6 +163,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-03-28",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -120,6 +183,18 @@
       "name": "디앤씨미디어",
       "profile_path": "atlas/symbol_profiles/263/263720.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -151,6 +226,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-09-14",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -160,6 +247,18 @@
       "name": "유에스티",
       "profile_path": "atlas/symbol_profiles/263/263770.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -191,6 +290,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-08-03",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -200,6 +311,18 @@
       "name": "상신전자",
       "profile_path": "atlas/symbol_profiles/263/263810.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -231,6 +354,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-08-02",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -240,6 +375,17 @@
       "name": "휴엠앤씨",
       "profile_path": "atlas/symbol_profiles/263/263920.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,

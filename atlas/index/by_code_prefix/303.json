@@ -16,6 +16,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-08-30",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -25,6 +36,17 @@
       "name": "프로티아",
       "profile_path": "atlas/symbol_profiles/303/303360.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -51,6 +73,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-06-18",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -60,6 +90,10 @@
       "name": "동국생명과학",
       "profile_path": "atlas/symbol_profiles/303/303810.json",
       "available_years": [
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2025,
         2026
       ],

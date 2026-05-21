@@ -10,8 +10,13 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "2016-11-28",
-      "last_date": "2018-12-10",
+      "last_date": "2018-11-22",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

@@ -25,22 +25,64 @@
   ],
   "first_date": "1999-05-27",
   "last_date": "2002-08-09",
-  "trading_day_count": 787,
+  "raw_first_date": "1999-05-27",
+  "raw_last_date": "2002-08-09",
+  "trading_day_count": 22,
+  "raw_trading_day_count": 787,
   "available_years": [
+    1999,
+    2000,
+    2002
+  ],
+  "raw_available_years": [
     1999,
     2000,
     2001,
     2002
   ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/001/001035/1999.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/001/001035/2000.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/001/001035/2002.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/001/001035/1999.csv",
+    "atlas/ohlcv_raw_by_symbol_year/001/001035/2000.csv",
+    "atlas/ohlcv_raw_by_symbol_year/001/001035/2001.csv",
+    "atlas/ohlcv_raw_by_symbol_year/001/001035/2002.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/001/001035/1999.csv",
     "atlas/ohlcv_min_by_symbol_year/001/001035/2000.csv",
-    "atlas/ohlcv_min_by_symbol_year/001/001035/2001.csv",
     "atlas/ohlcv_min_by_symbol_year/001/001035/2002.csv"
   ],
   "latest_close": 25,
   "latest_marcap": 25000000,
   "latest_market": "KOSPI",
+  "raw_latest_close": 25,
+  "raw_latest_marcap": 25000000,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 22,
+    "non_tradable_zero_volume": 765,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 8,
+  "corporate_action_candidate_dates": [
+    "1999-11-12",
+    "1999-12-28",
+    "2002-07-18",
+    "2002-07-23",
+    "2002-07-24",
+    "2002-07-26",
+    "2002-08-08",
+    "2002-08-09"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

@@ -13,6 +13,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-11-17",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -22,6 +30,17 @@
       "name": "DH오토리드",
       "profile_path": "atlas/symbol_profiles/290/290120.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -51,6 +70,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-08-02",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -60,6 +90,15 @@
       "name": "대유",
       "profile_path": "atlas/symbol_profiles/290/290380.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -83,8 +122,14 @@
         2021,
         2022
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
       "first_date": "2019-11-29",
-      "last_date": "2022-12-15",
+      "last_date": "2022-11-25",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -92,6 +137,15 @@
       "name": "신도기연",
       "profile_path": "atlas/symbol_profiles/290/290520.json",
       "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2020,
         2021,
         2022,
@@ -119,6 +173,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-12-21",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -133,8 +198,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-11-03",
-      "last_date": "2026-02-20",
+      "last_date": "2026-01-29",
       "status_inferred": "active_like"
     },
     {
@@ -142,6 +213,17 @@
       "name": "엘앤씨바이오",
       "profile_path": "atlas/symbol_profiles/290/290650.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -171,6 +253,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-11-28",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -180,6 +273,17 @@
       "name": "대보마그네틱",
       "profile_path": "atlas/symbol_profiles/290/290670.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -207,6 +311,15 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2020-11-06",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -226,6 +339,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-10-04",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -235,6 +359,17 @@
       "name": "액트로",
       "profile_path": "atlas/symbol_profiles/290/290740.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,

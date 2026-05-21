@@ -10,6 +10,11 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2024-10-21",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -19,6 +24,11 @@
       "name": "유안타제16호스팩",
       "profile_path": "atlas/symbol_profiles/474/474490.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026
@@ -36,6 +46,11 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2024-11-19",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -45,6 +60,10 @@
       "name": "링크솔루션",
       "profile_path": "atlas/symbol_profiles/474/474650.json",
       "available_years": [
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2025,
         2026
       ],
@@ -58,11 +77,15 @@
       "profile_path": "atlas/symbol_profiles/474/474660.json",
       "available_years": [
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2024,
         2025,
         2026
       ],
       "first_date": "2024-04-15",
-      "last_date": "2026-02-20",
+      "last_date": "2025-11-26",
       "status_inferred": "active_like"
     },
     {
@@ -70,6 +93,11 @@
       "name": "신한제13호스팩",
       "profile_path": "atlas/symbol_profiles/474/474930.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026

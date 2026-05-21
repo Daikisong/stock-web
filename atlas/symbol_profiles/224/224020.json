@@ -19,8 +19,11 @@
     }
   ],
   "first_date": "2016-07-25",
-  "last_date": "2024-03-28",
-  "trading_day_count": 1889,
+  "last_date": "2024-03-05",
+  "raw_first_date": "2016-07-25",
+  "raw_last_date": "2024-03-28",
+  "trading_day_count": 1235,
+  "raw_trading_day_count": 1889,
   "available_years": [
     2016,
     2017,
@@ -32,7 +35,40 @@
     2023,
     2024
   ],
+  "raw_available_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/224/224020/2016.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/224/224020/2017.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/224/224020/2018.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/224/224020/2019.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/224/224020/2020.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/224/224020/2021.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/224/224020/2022.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/224/224020/2023.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/224/224020/2024.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/224/224020/2016.csv",
+    "atlas/ohlcv_raw_by_symbol_year/224/224020/2017.csv",
+    "atlas/ohlcv_raw_by_symbol_year/224/224020/2018.csv",
+    "atlas/ohlcv_raw_by_symbol_year/224/224020/2019.csv",
+    "atlas/ohlcv_raw_by_symbol_year/224/224020/2020.csv",
+    "atlas/ohlcv_raw_by_symbol_year/224/224020/2021.csv",
+    "atlas/ohlcv_raw_by_symbol_year/224/224020/2022.csv",
+    "atlas/ohlcv_raw_by_symbol_year/224/224020/2023.csv",
+    "atlas/ohlcv_raw_by_symbol_year/224/224020/2024.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/224/224020/2016.csv",
     "atlas/ohlcv_min_by_symbol_year/224/224020/2017.csv",
     "atlas/ohlcv_min_by_symbol_year/224/224020/2018.csv",
@@ -43,9 +79,28 @@
     "atlas/ohlcv_min_by_symbol_year/224/224020/2023.csv",
     "atlas/ohlcv_min_by_symbol_year/224/224020/2024.csv"
   ],
-  "latest_close": 694,
-  "latest_marcap": 3866258038,
+  "latest_close": 709,
+  "latest_marcap": 3949822693,
   "latest_market": "KONEX",
+  "raw_latest_close": 694,
+  "raw_latest_marcap": 3866258038,
+  "raw_latest_market": "KONEX",
+  "row_status_counts": {
+    "tradable_ohlcv": 1235,
+    "non_tradable_zero_volume": 653,
+    "invalid_zero_ohlc": 1,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_dates": [
+    "2017-08-14",
+    "2017-08-22",
+    "2023-10-24"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

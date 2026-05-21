@@ -12,6 +12,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-06-24",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -22,11 +29,15 @@
       "profile_path": "atlas/symbol_profiles/412/412540.json",
       "available_years": [
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2024,
         2025,
         2026
       ],
       "first_date": "2024-04-30",
-      "last_date": "2026-02-20",
+      "last_date": "2025-04-04",
       "status_inferred": "active_like"
     },
     {
@@ -36,11 +47,16 @@
       "available_years": [
         2022,
         2023,
+        2024
+      ],
+      "raw_available_years": [
+        2022,
+        2023,
         2024,
         2025
       ],
       "first_date": "2022-04-21",
-      "last_date": "2025-01-20",
+      "last_date": "2024-12-27",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

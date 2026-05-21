@@ -11,6 +11,14 @@
         2018,
         2019,
         2020,
+        2022
+      ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
         2021,
         2022
       ],
@@ -27,8 +35,13 @@
         2018,
         2019
       ],
-      "first_date": "2017-08-14",
-      "last_date": "2019-07-15",
+      "raw_available_years": [
+        2017,
+        2018,
+        2019
+      ],
+      "first_date": "2017-08-18",
+      "last_date": "2019-06-26",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -36,6 +49,13 @@
       "name": "코나솔",
       "profile_path": "atlas/symbol_profiles/176/176590.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,
@@ -51,6 +71,21 @@
       "name": "듀켐바이오",
       "profile_path": "atlas/symbol_profiles/176/176750.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,

@@ -12,6 +12,15 @@
         2020,
         2021,
         2022,
+        2024
+      ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
         2023,
         2024
       ],
@@ -24,6 +33,22 @@
       "name": "NHN",
       "profile_path": "atlas/symbol_profiles/181/181710.json",
       "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2013,
         2014,
         2015,
@@ -52,8 +77,13 @@
         2014,
         2015
       ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015
+      ],
       "first_date": "2013-08-14",
-      "last_date": "2015-04-14",
+      "last_date": "2015-03-17",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

@@ -35,7 +35,10 @@
   ],
   "first_date": "2007-11-26",
   "last_date": "2015-11-04",
-  "trading_day_count": 1972,
+  "raw_first_date": "2007-11-26",
+  "raw_last_date": "2015-11-04",
+  "trading_day_count": 1691,
+  "raw_trading_day_count": 1972,
   "available_years": [
     2007,
     2008,
@@ -47,7 +50,40 @@
     2014,
     2015
   ],
+  "raw_available_years": [
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/950/950010/2007.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/950/950010/2008.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/950/950010/2009.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/950/950010/2010.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/950/950010/2011.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/950/950010/2012.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/950/950010/2013.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/950/950010/2014.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/950/950010/2015.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/950/950010/2007.csv",
+    "atlas/ohlcv_raw_by_symbol_year/950/950010/2008.csv",
+    "atlas/ohlcv_raw_by_symbol_year/950/950010/2009.csv",
+    "atlas/ohlcv_raw_by_symbol_year/950/950010/2010.csv",
+    "atlas/ohlcv_raw_by_symbol_year/950/950010/2011.csv",
+    "atlas/ohlcv_raw_by_symbol_year/950/950010/2012.csv",
+    "atlas/ohlcv_raw_by_symbol_year/950/950010/2013.csv",
+    "atlas/ohlcv_raw_by_symbol_year/950/950010/2014.csv",
+    "atlas/ohlcv_raw_by_symbol_year/950/950010/2015.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/950/950010/2007.csv",
     "atlas/ohlcv_min_by_symbol_year/950/950010/2008.csv",
     "atlas/ohlcv_min_by_symbol_year/950/950010/2009.csv",
@@ -61,6 +97,28 @@
   "latest_close": 295,
   "latest_marcap": 1417031615,
   "latest_market": "KOSPI",
+  "raw_latest_close": 295,
+  "raw_latest_marcap": 1417031615,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 1691,
+    "non_tradable_zero_volume": 281,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_dates": [
+    "2008-05-02",
+    "2015-10-27",
+    "2015-10-29",
+    "2015-10-30",
+    "2015-11-03",
+    "2015-11-04"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

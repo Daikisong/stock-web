@@ -10,6 +10,11 @@
         2020,
         2021
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021
+      ],
       "first_date": "2019-03-21",
       "last_date": "2021-12-06",
       "status_inferred": "inactive_or_delisted_like"
@@ -19,6 +24,16 @@
       "name": "캐리",
       "profile_path": "atlas/symbol_profiles/313/313760.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,

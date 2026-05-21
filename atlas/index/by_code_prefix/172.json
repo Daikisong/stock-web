@@ -16,8 +16,19 @@
         2020,
         2021
       ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
       "first_date": "2013-07-12",
-      "last_date": "2021-12-30",
+      "last_date": "2021-12-14",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -25,6 +36,12 @@
       "name": "에이엘티",
       "profile_path": "atlas/symbol_profiles/172/172670.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,

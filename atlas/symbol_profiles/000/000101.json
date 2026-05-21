@@ -31,13 +31,31 @@
   ],
   "first_date": "1996-02-02",
   "last_date": "2026-02-20",
-  "trading_day_count": 306,
+  "raw_first_date": "1996-02-02",
+  "raw_last_date": "2026-02-20",
+  "trading_day_count": 264,
+  "raw_trading_day_count": 306,
   "available_years": [
     1996,
     2025,
     2026
   ],
+  "raw_available_years": [
+    1996,
+    2025,
+    2026
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/000/000101/1996.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000101/2025.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000101/2026.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/000/000101/1996.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000101/2025.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000101/2026.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/000/000101/1996.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000101/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000101/2026.csv"
@@ -45,6 +63,23 @@
   "latest_close": 2020,
   "latest_marcap": 15634800000,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 2020,
+  "raw_latest_marcap": 15634800000,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 264,
+    "non_tradable_zero_volume": 42,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_dates": [
+    "2025-12-22"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "active_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

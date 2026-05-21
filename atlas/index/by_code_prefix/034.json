@@ -21,6 +21,22 @@
         2012,
         2013
       ],
+      "raw_available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
       "first_date": "2000-04-27",
       "last_date": "2013-02-20",
       "status_inferred": "inactive_or_delisted_like"
@@ -30,6 +46,35 @@
       "name": "두산에너빌리티",
       "profile_path": "atlas/symbol_profiles/034/034020.json",
       "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2000,
         2001,
         2002,
@@ -96,7 +141,37 @@
         2025,
         2026
       ],
-      "first_date": "1999-05-14",
+      "raw_available_years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1999-05-25",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
     },
@@ -105,6 +180,9 @@
       "name": "서울방송1",
       "profile_path": "atlas/symbol_profiles/034/034121.json",
       "available_years": [
+        1999
+      ],
+      "raw_available_years": [
         1999
       ],
       "first_date": "1999-05-14",
@@ -118,8 +196,11 @@
       "available_years": [
         1999
       ],
-      "first_date": "1999-04-16",
-      "last_date": "1999-12-22",
+      "raw_available_years": [
+        1999
+      ],
+      "first_date": "1999-04-19",
+      "last_date": "1999-12-07",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -129,8 +210,11 @@
       "available_years": [
         1999
       ],
-      "first_date": "1999-04-16",
-      "last_date": "1999-12-22",
+      "raw_available_years": [
+        1999
+      ],
+      "first_date": "1999-04-19",
+      "last_date": "1999-12-07",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -140,8 +224,11 @@
       "available_years": [
         1999
       ],
-      "first_date": "1999-04-29",
-      "last_date": "1999-12-09",
+      "raw_available_years": [
+        1999
+      ],
+      "first_date": "1999-04-30",
+      "last_date": "1999-12-07",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -153,8 +240,13 @@
         2000,
         2001
       ],
+      "raw_available_years": [
+        1999,
+        2000,
+        2001
+      ],
       "first_date": "1999-02-09",
-      "last_date": "2001-03-13",
+      "last_date": "2001-03-09",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -164,8 +256,11 @@
       "available_years": [
         1999
       ],
+      "raw_available_years": [
+        1999
+      ],
       "first_date": "1999-04-29",
-      "last_date": "1999-12-13",
+      "last_date": "1999-12-09",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -173,6 +268,31 @@
       "name": "LG디스플레이",
       "profile_path": "atlas/symbol_profiles/034/034220.json",
       "available_years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2004,
         2005,
         2006,
@@ -232,6 +352,33 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2002-11-05",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -241,11 +388,14 @@
       "name": "삼성다이나믹",
       "profile_path": "atlas/symbol_profiles/034/034260.json",
       "available_years": [
+        1999
+      ],
+      "raw_available_years": [
         1999,
         2000
       ],
       "first_date": "1999-03-12",
-      "last_date": "2000-01-10",
+      "last_date": "1999-12-20",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -253,11 +403,14 @@
       "name": "삼성 프라임",
       "profile_path": "atlas/symbol_profiles/034/034270.json",
       "available_years": [
+        1999
+      ],
+      "raw_available_years": [
         1999,
         2000
       ],
       "first_date": "1999-03-12",
-      "last_date": "2000-01-10",
+      "last_date": "1999-12-20",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -265,11 +418,14 @@
       "name": "박현주 4호",
       "profile_path": "atlas/symbol_profiles/034/034280.json",
       "available_years": [
+        1999
+      ],
+      "raw_available_years": [
         1999,
         2000
       ],
-      "first_date": "1999-04-16",
-      "last_date": "2000-01-10",
+      "first_date": "1999-04-19",
+      "last_date": "1999-12-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -277,11 +433,14 @@
       "name": "박현주 5호",
       "profile_path": "atlas/symbol_profiles/034/034290.json",
       "available_years": [
+        1999
+      ],
+      "raw_available_years": [
         1999,
         2000
       ],
-      "first_date": "1999-04-16",
-      "last_date": "2000-01-10",
+      "first_date": "1999-04-19",
+      "last_date": "1999-12-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -317,8 +476,37 @@
         2024,
         2025
       ],
+      "raw_available_years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "first_date": "1999-06-25",
-      "last_date": "2025-02-21",
+      "last_date": "2025-01-24",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -326,6 +514,31 @@
       "name": "NICE",
       "profile_path": "atlas/symbol_profiles/034/034310.json",
       "available_years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2004,
         2005,
         2006,
@@ -359,11 +572,14 @@
       "name": "에머랄드 1호",
       "profile_path": "atlas/symbol_profiles/034/034320.json",
       "available_years": [
+        1999
+      ],
+      "raw_available_years": [
         1999,
         2000
       ],
-      "first_date": "1999-04-16",
-      "last_date": "2000-01-10",
+      "first_date": "1999-04-26",
+      "last_date": "1999-12-20",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -374,8 +590,12 @@
         1999,
         2000
       ],
-      "first_date": "1999-08-13",
-      "last_date": "2000-07-18",
+      "raw_available_years": [
+        1999,
+        2000
+      ],
+      "first_date": "1999-08-16",
+      "last_date": "2000-06-21",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -386,8 +606,12 @@
         1999,
         2000
       ],
-      "first_date": "1999-08-13",
-      "last_date": "2000-07-18",
+      "raw_available_years": [
+        1999,
+        2000
+      ],
+      "first_date": "1999-08-16",
+      "last_date": "2000-06-21",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -395,11 +619,14 @@
       "name": "트윈스챌린지",
       "profile_path": "atlas/symbol_profiles/034/034350.json",
       "available_years": [
+        1999
+      ],
+      "raw_available_years": [
         1999,
         2000
       ],
-      "first_date": "1999-02-18",
-      "last_date": "2000-01-26",
+      "first_date": "1999-02-22",
+      "last_date": "1999-12-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -410,8 +637,12 @@
         1999,
         2000
       ],
-      "first_date": "1999-03-12",
-      "last_date": "2000-01-26",
+      "raw_available_years": [
+        1999,
+        2000
+      ],
+      "first_date": "1999-04-21",
+      "last_date": "2000-01-11",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -422,8 +653,12 @@
         1999,
         2000
       ],
-      "first_date": "1999-03-12",
-      "last_date": "2000-01-26",
+      "raw_available_years": [
+        1999,
+        2000
+      ],
+      "first_date": "1999-04-22",
+      "last_date": "2000-01-12",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -434,8 +669,12 @@
         1999,
         2000
       ],
-      "first_date": "1999-04-16",
-      "last_date": "2000-01-26",
+      "raw_available_years": [
+        1999,
+        2000
+      ],
+      "first_date": "1999-04-20",
+      "last_date": "2000-01-04",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -443,11 +682,14 @@
       "name": "이글 2호",
       "profile_path": "atlas/symbol_profiles/034/034460.json",
       "available_years": [
+        1999
+      ],
+      "raw_available_years": [
         1999,
         2000
       ],
-      "first_date": "1999-04-16",
-      "last_date": "2000-01-26",
+      "first_date": "1999-04-20",
+      "last_date": "1999-12-21",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -458,8 +700,12 @@
         1999,
         2000
       ],
+      "raw_available_years": [
+        1999,
+        2000
+      ],
       "first_date": "1999-02-18",
-      "last_date": "2000-01-26",
+      "last_date": "2000-01-04",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -467,6 +713,21 @@
       "name": "무한투자",
       "profile_path": "atlas/symbol_profiles/034/034510.json",
       "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "raw_available_years": [
         2000,
         2001,
         2002,
@@ -490,11 +751,14 @@
       "name": "이글3호",
       "profile_path": "atlas/symbol_profiles/034/034560.json",
       "available_years": [
+        1999
+      ],
+      "raw_available_years": [
         1999,
         2000
       ],
-      "first_date": "1999-06-11",
-      "last_date": "2000-01-26",
+      "first_date": "1999-06-14",
+      "last_date": "1999-12-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -505,8 +769,12 @@
         1999,
         2000
       ],
+      "raw_available_years": [
+        1999,
+        2000
+      ],
       "first_date": "1999-07-16",
-      "last_date": "2000-04-19",
+      "last_date": "2000-04-04",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -517,8 +785,12 @@
         1999,
         2000
       ],
+      "raw_available_years": [
+        1999,
+        2000
+      ],
       "first_date": "1999-03-16",
-      "last_date": "2000-01-14",
+      "last_date": "2000-01-12",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -526,6 +798,29 @@
       "name": "인천도시가스",
       "profile_path": "atlas/symbol_profiles/034/034590.json",
       "available_years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2006,
         2007,
         2008,
@@ -571,6 +866,21 @@
         2010,
         2011
       ],
+      "raw_available_years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
       "first_date": "1999-12-07",
       "last_date": "2011-06-28",
       "status_inferred": "inactive_or_delisted_like"
@@ -579,7 +889,8 @@
       "code": "034607",
       "name": "로커스우",
       "profile_path": "atlas/symbol_profiles/034/034607.json",
-      "available_years": [
+      "available_years": [],
+      "raw_available_years": [
         1999,
         2000
       ],
@@ -595,8 +906,12 @@
         1999,
         2000
       ],
-      "first_date": "1999-03-12",
-      "last_date": "2000-02-23",
+      "raw_available_years": [
+        1999,
+        2000
+      ],
+      "first_date": "1999-03-18",
+      "last_date": "2000-01-21",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -617,7 +932,21 @@
         2009,
         2010
       ],
-      "first_date": "1999-05-14",
+      "raw_available_years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "first_date": "1999-05-19",
       "last_date": "2010-04-14",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -626,6 +955,26 @@
       "name": "SK",
       "profile_path": "atlas/symbol_profiles/034/034730.json",
       "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2009,
         2010,
         2011,
@@ -665,6 +1014,18 @@
         2007,
         2008
       ],
+      "raw_available_years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
       "first_date": "1999-06-11",
       "last_date": "2008-07-11",
       "status_inferred": "inactive_or_delisted_like"
@@ -677,8 +1038,12 @@
         1999,
         2000
       ],
+      "raw_available_years": [
+        1999,
+        2000
+      ],
       "first_date": "1999-05-14",
-      "last_date": "2000-09-18",
+      "last_date": "2000-08-31",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -689,8 +1054,12 @@
         1999,
         2000
       ],
+      "raw_available_years": [
+        1999,
+        2000
+      ],
       "first_date": "1999-04-27",
-      "last_date": "2000-02-24",
+      "last_date": "2000-02-22",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -698,6 +1067,36 @@
       "name": "해성산업",
       "profile_path": "atlas/symbol_profiles/034/034810.json",
       "available_years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1999,
         2000,
         2001,
@@ -739,8 +1138,12 @@
         1999,
         2000
       ],
+      "raw_available_years": [
+        1999,
+        2000
+      ],
       "first_date": "1999-06-11",
-      "last_date": "2000-03-29",
+      "last_date": "2000-03-15",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -748,6 +1151,34 @@
       "name": "한국토지신탁",
       "profile_path": "atlas/symbol_profiles/034/034830.json",
       "available_years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2001,
         2002,
         2003,
@@ -787,8 +1218,12 @@
         1999,
         2000
       ],
+      "raw_available_years": [
+        1999,
+        2000
+      ],
       "first_date": "1999-04-27",
-      "last_date": "2000-03-23",
+      "last_date": "2000-03-21",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -799,8 +1234,12 @@
         1999,
         2000
       ],
+      "raw_available_years": [
+        1999,
+        2000
+      ],
       "first_date": "1999-06-09",
-      "last_date": "2000-03-24",
+      "last_date": "2000-03-22",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -811,8 +1250,12 @@
         1999,
         2000
       ],
+      "raw_available_years": [
+        1999,
+        2000
+      ],
       "first_date": "1999-05-14",
-      "last_date": "2000-03-29",
+      "last_date": "2000-03-15",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -820,6 +1263,36 @@
       "name": "조아제약",
       "profile_path": "atlas/symbol_profiles/034/034940.json",
       "available_years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         1999,
         2000,
         2001,
@@ -884,6 +1357,33 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2002-02-07",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -896,8 +1396,12 @@
         1999,
         2000
       ],
+      "raw_available_years": [
+        1999,
+        2000
+      ],
       "first_date": "1999-07-16",
-      "last_date": "2000-04-19",
+      "last_date": "2000-04-07",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -905,6 +1409,13 @@
       "name": "올에버",
       "profile_path": "atlas/symbol_profiles/034/034970.json",
       "available_years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "raw_available_years": [
         1999,
         2000,
         2001,
@@ -925,6 +1436,12 @@
         2002,
         2003
       ],
+      "raw_available_years": [
+        2000,
+        2001,
+        2002,
+        2003
+      ],
       "first_date": "2000-07-13",
       "last_date": "2003-04-29",
       "status_inferred": "inactive_or_delisted_like"
@@ -937,8 +1454,12 @@
         1999,
         2000
       ],
+      "raw_available_years": [
+        1999,
+        2000
+      ],
       "first_date": "1999-06-17",
-      "last_date": "2000-04-14",
+      "last_date": "2000-04-11",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

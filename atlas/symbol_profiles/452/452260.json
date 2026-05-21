@@ -20,14 +20,35 @@
   ],
   "first_date": "2023-03-31",
   "last_date": "2026-02-20",
+  "raw_first_date": "2023-03-31",
+  "raw_last_date": "2026-02-20",
   "trading_day_count": 703,
+  "raw_trading_day_count": 703,
   "available_years": [
     2023,
     2024,
     2025,
     2026
   ],
+  "raw_available_years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/452/452260/2023.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/452/452260/2024.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/452/452260/2025.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/452/452260/2026.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/452/452260/2023.csv",
+    "atlas/ohlcv_raw_by_symbol_year/452/452260/2024.csv",
+    "atlas/ohlcv_raw_by_symbol_year/452/452260/2025.csv",
+    "atlas/ohlcv_raw_by_symbol_year/452/452260/2026.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/452/452260/2023.csv",
     "atlas/ohlcv_min_by_symbol_year/452/452260/2024.csv",
     "atlas/ohlcv_min_by_symbol_year/452/452260/2025.csv",
@@ -36,6 +57,21 @@
   "latest_close": 2930,
   "latest_marcap": 568008657300,
   "latest_market": "KOSPI",
+  "raw_latest_close": 2930,
+  "raw_latest_marcap": 568008657300,
+  "raw_latest_market": "KOSPI",
+  "row_status_counts": {
+    "tradable_ohlcv": 703,
+    "non_tradable_zero_volume": 0,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 0,
+  "corporate_action_candidate_dates": [],
+  "has_major_raw_discontinuity": false,
+  "calibration_caveat": "",
   "status_inferred": "active_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

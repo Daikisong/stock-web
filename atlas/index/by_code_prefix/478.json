@@ -10,6 +10,11 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2024-07-12",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -22,6 +27,10 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2025,
+        2026
+      ],
       "first_date": "2025-12-17",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -31,6 +40,11 @@
       "name": "KB제29호스팩",
       "profile_path": "atlas/symbol_profiles/478/478390.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026
@@ -48,6 +62,11 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2024-06-24",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -57,6 +76,10 @@
       "name": "블랙야크아이앤씨",
       "profile_path": "atlas/symbol_profiles/478/478560.json",
       "available_years": [
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2025,
         2026
       ],
@@ -70,11 +93,15 @@
       "profile_path": "atlas/symbol_profiles/478/478780.json",
       "available_years": [
         2024,
+        2025
+      ],
+      "raw_available_years": [
+        2024,
         2025,
         2026
       ],
       "first_date": "2024-08-22",
-      "last_date": "2026-01-13",
+      "last_date": "2025-12-19",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

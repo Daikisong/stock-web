@@ -20,13 +20,31 @@
   ],
   "first_date": "2013-07-01",
   "last_date": "2015-04-29",
-  "trading_day_count": 450,
+  "raw_first_date": "2013-07-01",
+  "raw_last_date": "2015-04-29",
+  "trading_day_count": 204,
+  "raw_trading_day_count": 450,
   "available_years": [
     2013,
     2014,
     2015
   ],
+  "raw_available_years": [
+    2013,
+    2014,
+    2015
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/179/179280/2013.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/179/179280/2014.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/179/179280/2015.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/179/179280/2013.csv",
+    "atlas/ohlcv_raw_by_symbol_year/179/179280/2014.csv",
+    "atlas/ohlcv_raw_by_symbol_year/179/179280/2015.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/179/179280/2013.csv",
     "atlas/ohlcv_min_by_symbol_year/179/179280/2014.csv",
     "atlas/ohlcv_min_by_symbol_year/179/179280/2015.csv"
@@ -34,6 +52,25 @@
   "latest_close": 50,
   "latest_marcap": 330000000,
   "latest_market": "KONEX",
+  "raw_latest_close": 50,
+  "raw_latest_marcap": 330000000,
+  "raw_latest_market": "KONEX",
+  "row_status_counts": {
+    "tradable_ohlcv": 204,
+    "non_tradable_zero_volume": 246,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_dates": [
+    "2015-04-21",
+    "2015-04-22",
+    "2015-04-27"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

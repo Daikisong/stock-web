@@ -6,6 +6,17 @@
       "name": "씨알푸드",
       "profile_path": "atlas/symbol_profiles/236/236030.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -17,7 +28,7 @@
         2025,
         2026
       ],
-      "first_date": "2017-12-14",
+      "first_date": "2018-01-15",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
     },
@@ -26,6 +37,19 @@
       "name": "슈프리마",
       "profile_path": "atlas/symbol_profiles/236/236200.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -59,6 +83,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-01-26",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -68,6 +105,14 @@
       "name": "엔비티",
       "profile_path": "atlas/symbol_profiles/236/236810.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,

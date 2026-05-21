@@ -13,6 +13,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-05-21",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -22,6 +30,14 @@
       "name": "에코프로에이치엔",
       "profile_path": "atlas/symbol_profiles/383/383310.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,
@@ -45,6 +61,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-05-27",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -54,6 +78,13 @@
       "name": "디티앤씨알오",
       "profile_path": "atlas/symbol_profiles/383/383930.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,

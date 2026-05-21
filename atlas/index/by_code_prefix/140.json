@@ -17,6 +17,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-01-25",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -38,7 +50,20 @@
         2022,
         2023
       ],
-      "first_date": "2013-12-20",
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2013-12-24",
       "last_date": "2023-05-04",
       "status_inferred": "inactive_or_delisted_like"
     },
@@ -47,6 +72,23 @@
       "name": "메지온",
       "profile_path": "atlas/symbol_profiles/140/140410.json",
       "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2012,
         2013,
         2014,
@@ -76,6 +118,11 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2024-05-03",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -99,6 +146,21 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2014-12-05",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -108,6 +170,17 @@
       "name": "엔솔바이오사이언스",
       "profile_path": "atlas/symbol_profiles/140/140610.json",
       "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2018,
         2019,
         2020,
@@ -142,8 +215,24 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2013-12-26",
-      "last_date": "2026-02-20",
+      "last_date": "2026-02-13",
       "status_inferred": "active_like"
     },
     {
@@ -151,6 +240,18 @@
       "name": "알에스오토메이션",
       "profile_path": "atlas/symbol_profiles/140/140670.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -184,6 +285,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-12-17",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -203,8 +318,19 @@
         2018,
         2019
       ],
+      "raw_available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
       "first_date": "2011-09-30",
-      "last_date": "2019-05-03",
+      "last_date": "2019-04-12",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -225,12 +351,28 @@
         2021,
         2022,
         2023,
+        2024
+      ],
+      "raw_available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
       ],
       "first_date": "2011-07-14",
-      "last_date": "2026-02-20",
+      "last_date": "2024-02-02",
       "status_inferred": "active_like"
     }
   ]

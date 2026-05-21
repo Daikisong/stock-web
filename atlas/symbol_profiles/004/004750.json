@@ -18,22 +18,60 @@
       "last_date": "1998-08-08"
     }
   ],
-  "first_date": "1996-07-01",
-  "last_date": "1998-08-08",
-  "trading_day_count": 618,
+  "first_date": "1996-07-15",
+  "last_date": "1998-07-30",
+  "raw_first_date": "1996-07-01",
+  "raw_last_date": "1998-08-08",
+  "trading_day_count": 141,
+  "raw_trading_day_count": 618,
   "available_years": [
     1996,
     1997,
     1998
   ],
+  "raw_available_years": [
+    1996,
+    1997,
+    1998
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/004/004750/1996.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/004/004750/1997.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/004/004750/1998.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/004/004750/1996.csv",
+    "atlas/ohlcv_raw_by_symbol_year/004/004750/1997.csv",
+    "atlas/ohlcv_raw_by_symbol_year/004/004750/1998.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/004/004750/1996.csv",
     "atlas/ohlcv_min_by_symbol_year/004/004750/1997.csv",
     "atlas/ohlcv_min_by_symbol_year/004/004750/1998.csv"
   ],
-  "latest_close": 3180,
-  "latest_marcap": 127200000,
+  "latest_close": 2300,
+  "latest_marcap": 92000000,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 3180,
+  "raw_latest_marcap": 127200000,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 141,
+    "non_tradable_zero_volume": 477,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_dates": [
+    "1998-01-22",
+    "1998-03-07",
+    "1998-04-01",
+    "1998-05-30"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

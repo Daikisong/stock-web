@@ -12,6 +12,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-09-27",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -21,6 +28,11 @@
       "name": "엠오티",
       "profile_path": "atlas/symbol_profiles/413/413390.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026
@@ -39,8 +51,14 @@
         2024,
         2025
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "first_date": "2022-04-07",
-      "last_date": "2025-02-27",
+      "last_date": "2025-02-05",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -48,6 +66,13 @@
       "name": "씨피시스템",
       "profile_path": "atlas/symbol_profiles/413/413630.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,
@@ -63,6 +88,12 @@
       "name": "비아이매트릭스",
       "profile_path": "atlas/symbol_profiles/413/413640.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,

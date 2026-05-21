@@ -12,6 +12,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-09-26",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -21,6 +28,11 @@
       "name": "쓰리빌리언",
       "profile_path": "atlas/symbol_profiles/394/394800.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026

@@ -11,6 +11,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-06-28",
       "last_date": "2026-02-03",
       "status_inferred": "inactive_or_delisted_like"
@@ -24,8 +30,13 @@
         2024,
         2025
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025
+      ],
       "first_date": "2023-08-10",
-      "last_date": "2025-10-24",
+      "last_date": "2025-10-01",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -33,6 +44,12 @@
       "name": "두산로보틱스",
       "profile_path": "atlas/symbol_profiles/454/454910.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,

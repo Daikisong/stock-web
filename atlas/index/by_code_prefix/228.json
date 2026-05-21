@@ -13,8 +13,16 @@
         2019,
         2020
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
       "first_date": "2015-10-22",
-      "last_date": "2020-08-06",
+      "last_date": "2020-07-14",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -22,6 +30,19 @@
       "name": "동양파일",
       "profile_path": "atlas/symbol_profiles/228/228340.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,
@@ -52,6 +73,16 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2019-08-08",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -73,6 +104,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-07-19",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -82,6 +126,19 @@
       "name": "레이언스",
       "profile_path": "atlas/symbol_profiles/228/228850.json",
       "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2016,
         2017,
         2018,

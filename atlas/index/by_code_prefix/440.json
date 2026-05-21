@@ -11,6 +11,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-08-07",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -23,8 +29,12 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2022,
+        2023
+      ],
       "first_date": "2022-11-03",
-      "last_date": "2023-11-02",
+      "last_date": "2023-10-13",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -32,6 +42,11 @@
       "name": "HB인베스트먼트",
       "profile_path": "atlas/symbol_profiles/440/440290.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026
@@ -45,6 +60,12 @@
       "name": "오픈놀",
       "profile_path": "atlas/symbol_profiles/440/440320.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,
@@ -64,6 +85,12 @@
         2024,
         2025
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
       "first_date": "2022-11-02",
       "last_date": "2025-07-10",
       "status_inferred": "inactive_or_delisted_like"
@@ -73,6 +100,12 @@
       "name": "엔에이치스팩27호",
       "profile_path": "atlas/symbol_profiles/440/440820.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,

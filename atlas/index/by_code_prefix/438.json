@@ -10,8 +10,13 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2022-11-28",
-      "last_date": "2024-11-19",
+      "last_date": "2024-10-28",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -19,6 +24,12 @@
       "name": "엔에이치스팩25호",
       "profile_path": "atlas/symbol_profiles/438/438580.json",
       "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "raw_available_years": [
         2022,
         2023,
         2024,
@@ -33,6 +44,12 @@
       "name": "버넥트",
       "profile_path": "atlas/symbol_profiles/438/438700.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,

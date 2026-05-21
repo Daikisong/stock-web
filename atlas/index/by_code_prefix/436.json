@@ -10,8 +10,13 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2022-09-22",
-      "last_date": "2024-05-02",
+      "last_date": "2024-04-15",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -23,8 +28,13 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2022-10-20",
-      "last_date": "2024-09-26",
+      "last_date": "2024-08-29",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

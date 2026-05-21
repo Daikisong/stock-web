@@ -11,6 +11,12 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2021-10-05",
       "last_date": "2024-05-13",
       "status_inferred": "inactive_or_delisted_like"
@@ -20,6 +26,14 @@
       "name": "코닉오토메이션",
       "profile_path": "atlas/symbol_profiles/391/391710.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,

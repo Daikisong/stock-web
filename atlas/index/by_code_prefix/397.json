@@ -12,6 +12,13 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2022-07-28",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -25,8 +32,13 @@
         2022,
         2023
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023
+      ],
       "first_date": "2021-12-02",
-      "last_date": "2023-03-08",
+      "last_date": "2023-02-15",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -34,6 +46,10 @@
       "name": "애드포러스",
       "profile_path": "atlas/symbol_profiles/397/397810.json",
       "available_years": [
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2025,
         2026
       ],
@@ -51,8 +67,14 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2021-12-20",
-      "last_date": "2024-03-22",
+      "last_date": "2024-02-29",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

@@ -17,6 +17,18 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2017-06-02",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -26,6 +38,20 @@
       "name": "제놀루션",
       "profile_path": "atlas/symbol_profiles/225/225220.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -56,8 +82,17 @@
         2021,
         2022
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
       "first_date": "2016-04-07",
-      "last_date": "2022-03-16",
+      "last_date": "2022-02-24",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -65,6 +100,20 @@
       "name": "케이엠제약",
       "profile_path": "atlas/symbol_profiles/225/225430.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -92,6 +141,12 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "2015-10-19",
       "last_date": "2018-05-25",
       "status_inferred": "inactive_or_delisted_like"
@@ -101,6 +156,20 @@
       "name": "HC보광산업",
       "profile_path": "atlas/symbol_profiles/225/225530.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -136,6 +205,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-09-25",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -145,6 +228,20 @@
       "name": "패션플랫폼",
       "profile_path": "atlas/symbol_profiles/225/225590.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -173,8 +270,15 @@
         2018,
         2019
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
       "first_date": "2015-09-04",
-      "last_date": "2019-09-11",
+      "last_date": "2019-08-22",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -182,6 +286,16 @@
       "name": "미애부",
       "profile_path": "atlas/symbol_profiles/225/225850.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -200,6 +314,14 @@
       "name": "엠앤씨생명과학",
       "profile_path": "atlas/symbol_profiles/225/225860.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,

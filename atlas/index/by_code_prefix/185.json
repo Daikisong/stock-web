@@ -21,6 +21,22 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2013-10-29",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -35,8 +51,14 @@
         2015,
         2016
       ],
+      "raw_available_years": [
+        2013,
+        2014,
+        2015,
+        2016
+      ],
       "first_date": "2013-11-12",
-      "last_date": "2016-12-02",
+      "last_date": "2016-11-25",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -44,6 +66,22 @@
       "name": "아이진",
       "profile_path": "atlas/symbol_profiles/185/185490.json",
       "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2013,
         2014,
         2015,
@@ -68,6 +106,22 @@
       "name": "종근당",
       "profile_path": "atlas/symbol_profiles/185/185750.json",
       "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2013,
         2014,
         2015,

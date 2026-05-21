@@ -6,12 +6,15 @@
       "name": "알로이스",
       "profile_path": "atlas/symbol_profiles/271/271400.json",
       "available_years": [
+        2019
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019
       ],
-      "first_date": "2017-07-07",
-      "last_date": "2019-09-30",
+      "first_date": "2019-07-23",
+      "last_date": "2019-07-24",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -19,6 +22,18 @@
       "name": "오리온",
       "profile_path": "atlas/symbol_profiles/271/271560.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -44,6 +59,12 @@
         2019,
         2020
       ],
+      "raw_available_years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
       "first_date": "2017-07-24",
       "last_date": "2020-03-02",
       "status_inferred": "inactive_or_delisted_like"
@@ -52,7 +73,8 @@
       "code": "271780",
       "name": "비엔에프코퍼레이션",
       "profile_path": "atlas/symbol_profiles/271/271780.json",
-      "available_years": [
+      "available_years": [],
+      "raw_available_years": [
         2018,
         2019,
         2020
@@ -71,6 +93,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-05-23",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -80,6 +108,15 @@
       "name": "다이오진",
       "profile_path": "atlas/symbol_profiles/271/271850.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -104,6 +141,14 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2021-09-01",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -113,6 +158,18 @@
       "name": "제일약품",
       "profile_path": "atlas/symbol_profiles/271/271980.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,

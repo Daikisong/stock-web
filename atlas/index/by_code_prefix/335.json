@@ -14,6 +14,15 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2020-12-22",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -32,6 +41,16 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2019-12-09",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -41,6 +60,15 @@
       "name": "비올",
       "profile_path": "atlas/symbol_profiles/335/335890.json",
       "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "raw_available_years": [
         2019,
         2020,
         2021,

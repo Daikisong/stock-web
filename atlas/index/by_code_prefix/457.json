@@ -11,6 +11,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-05-31",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -20,6 +26,11 @@
       "name": "한켐",
       "profile_path": "atlas/symbol_profiles/457/457370.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026
@@ -37,8 +48,13 @@
         2024,
         2025
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025
+      ],
       "first_date": "2023-08-30",
-      "last_date": "2025-05-14",
+      "last_date": "2025-04-23",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -46,6 +62,11 @@
       "name": "우진엔텍",
       "profile_path": "atlas/symbol_profiles/457/457550.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026
@@ -59,6 +80,11 @@
       "name": "벡트",
       "profile_path": "atlas/symbol_profiles/457/457600.json",
       "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2024,
         2025,
         2026
@@ -77,6 +103,12 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2023-09-04",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -86,6 +118,12 @@
       "name": "에스케이증권제10호스팩",
       "profile_path": "atlas/symbol_profiles/457/457940.json",
       "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2023,
         2024,
         2025,

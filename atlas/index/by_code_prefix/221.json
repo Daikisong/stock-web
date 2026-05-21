@@ -11,6 +11,12 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "2015-09-09",
       "last_date": "2018-04-16",
       "status_inferred": "inactive_or_delisted_like"
@@ -28,6 +34,15 @@
         2021,
         2022
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
       "first_date": "2016-01-27",
       "last_date": "2022-01-04",
       "status_inferred": "inactive_or_delisted_like"
@@ -37,6 +52,11 @@
       "name": "주노콜렉션",
       "profile_path": "atlas/symbol_profiles/221/221670.json",
       "available_years": [
+        2017,
+        2018,
+        2019
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019
@@ -63,8 +83,22 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-06-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-02-19",
       "status_inferred": "active_like"
     },
     {
@@ -72,6 +106,20 @@
       "name": "하이즈항공",
       "profile_path": "atlas/symbol_profiles/221/221840.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,
@@ -99,6 +147,12 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "2015-08-21",
       "last_date": "2018-03-29",
       "status_inferred": "inactive_or_delisted_like"
@@ -108,6 +162,20 @@
       "name": "케이디켐",
       "profile_path": "atlas/symbol_profiles/221/221980.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,

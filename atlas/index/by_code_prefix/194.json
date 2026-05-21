@@ -18,6 +18,19 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2016-02-04",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -27,6 +40,21 @@
       "name": "데브시스터즈",
       "profile_path": "atlas/symbol_profiles/194/194480.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -55,6 +83,14 @@
         2016,
         2017,
         2018,
+        2020
+      ],
+      "raw_available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
         2019,
         2020
       ],
@@ -67,6 +103,13 @@
       "name": "우성아이비",
       "profile_path": "atlas/symbol_profiles/194/194610.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,
@@ -92,6 +135,17 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2018-11-14",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -101,6 +155,12 @@
       "name": "SY이노베이션",
       "profile_path": "atlas/symbol_profiles/194/194860.json",
       "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "raw_available_years": [
         2014,
         2015,
         2016,

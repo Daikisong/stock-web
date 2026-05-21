@@ -12,8 +12,15 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2020-08-06",
-      "last_date": "2024-10-21",
+      "last_date": "2024-09-26",
       "status_inferred": "inactive_or_delisted_like"
     }
   ]

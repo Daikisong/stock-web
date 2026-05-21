@@ -19,6 +19,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-06-18",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -41,6 +55,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-06-30",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -50,6 +78,12 @@
       "name": "키움스팩3호",
       "profile_path": "atlas/symbol_profiles/218/218710.json",
       "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "raw_available_years": [
         2015,
         2016,
         2017,

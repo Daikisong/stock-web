@@ -19,12 +19,28 @@
         2021,
         2022,
         2023,
+        2024
+      ],
+      "raw_available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
         2024,
         2025,
         2026
       ],
       "first_date": "2011-07-29",
-      "last_date": "2026-02-20",
+      "last_date": "2024-04-05",
       "status_inferred": "active_like"
     },
     {
@@ -32,6 +48,24 @@
       "name": "iM금융지주",
       "profile_path": "atlas/symbol_profiles/139/139130.json",
       "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2011,
         2012,
         2013,
@@ -61,8 +95,12 @@
         2013,
         2014
       ],
+      "raw_available_years": [
+        2013,
+        2014
+      ],
       "first_date": "2013-07-01",
-      "last_date": "2014-10-29",
+      "last_date": "2014-08-27",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -75,11 +113,19 @@
         2013,
         2014,
         2015,
+        2016
+      ],
+      "raw_available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
         2016,
         2017
       ],
       "first_date": "2011-04-15",
-      "last_date": "2017-01-10",
+      "last_date": "2016-12-20",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -87,6 +133,24 @@
       "name": "이마트",
       "profile_path": "atlas/symbol_profiles/139/139480.json",
       "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2011,
         2012,
         2013,
@@ -130,6 +194,24 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2011-12-02",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -139,6 +221,14 @@
       "name": "아주스틸",
       "profile_path": "atlas/symbol_profiles/139/139990.json",
       "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2021,
         2022,
         2023,

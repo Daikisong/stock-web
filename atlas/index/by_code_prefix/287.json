@@ -14,8 +14,17 @@
         2023,
         2024
       ],
+      "raw_available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
       "first_date": "2018-05-08",
-      "last_date": "2024-11-06",
+      "last_date": "2024-10-18",
       "status_inferred": "inactive_or_delisted_like"
     },
     {
@@ -23,6 +32,10 @@
       "name": "인투셀",
       "profile_path": "atlas/symbol_profiles/287/287840.json",
       "available_years": [
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2025,
         2026
       ],

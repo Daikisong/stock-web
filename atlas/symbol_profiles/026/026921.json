@@ -18,18 +18,45 @@
       "last_date": "1997-12-27"
     }
   ],
-  "first_date": "1997-08-12",
-  "last_date": "1997-12-27",
-  "trading_day_count": 112,
+  "first_date": "1997-08-25",
+  "last_date": "1997-08-25",
+  "raw_first_date": "1997-08-12",
+  "raw_last_date": "1997-12-27",
+  "trading_day_count": 1,
+  "raw_trading_day_count": 112,
   "available_years": [
     1997
   ],
+  "raw_available_years": [
+    1997
+  ],
   "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/026/026921/1997.csv"
+  ],
+  "raw_year_files": [
+    "atlas/ohlcv_raw_by_symbol_year/026/026921/1997.csv"
+  ],
+  "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/026/026921/1997.csv"
   ],
   "latest_close": 16600,
   "latest_marcap": 6640000000,
   "latest_market": "KOSDAQ",
+  "raw_latest_close": 16600,
+  "raw_latest_marcap": 6640000000,
+  "raw_latest_market": "KOSDAQ",
+  "row_status_counts": {
+    "tradable_ohlcv": 1,
+    "non_tradable_zero_volume": 111,
+    "invalid_zero_ohlc": 0,
+    "invalid_missing_ohlc": 0,
+    "invalid_ohlc_inconsistent": 0,
+    "suspicious_ohlc_repaired_candidate": 0
+  },
+  "corporate_action_candidate_count": 0,
+  "corporate_action_candidate_dates": [],
+  "has_major_raw_discontinuity": false,
+  "calibration_caveat": "",
   "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

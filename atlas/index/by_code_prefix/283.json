@@ -10,6 +10,11 @@
         2024,
         2025
       ],
+      "raw_available_years": [
+        2023,
+        2024,
+        2025
+      ],
       "first_date": "2023-04-19",
       "last_date": "2025-05-27",
       "status_inferred": "inactive_or_delisted_like"

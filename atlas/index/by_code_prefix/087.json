@@ -19,6 +19,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-07-22",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -39,6 +53,18 @@
         2017,
         2018
       ],
+      "raw_available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
       "first_date": "2009-10-27",
       "last_date": "2018-05-04",
       "status_inferred": "inactive_or_delisted_like"
@@ -48,6 +74,18 @@
       "name": "모바일어플라이언스",
       "profile_path": "atlas/symbol_profiles/087/087260.json",
       "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "raw_available_years": [
         2017,
         2018,
         2019,
@@ -81,6 +119,20 @@
         2025,
         2026
       ],
+      "raw_available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
       "first_date": "2015-06-12",
       "last_date": "2026-02-20",
       "status_inferred": "active_like"
@@ -90,6 +142,22 @@
       "name": "이엠네트웍스",
       "profile_path": "atlas/symbol_profiles/087/087730.json",
       "available_years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "raw_available_years": [
         2008,
         2009,
         2010,
