@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>marcap-price-gateway</title>
+  <style>
+    body { font-family: Georgia, "Times New Roman", serif; margin: 2rem; line-height: 1.4; color: #172018; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+    th, td { border: 1px solid #b8c2b3; padding: 0.45rem; text-align: left; vertical-align: top; }
+    th { background: #eef2e6; }
+    code { background: #f3f5ee; padding: 0.1rem 0.25rem; }
+  </style>
+</head>
+<body>
+  <h1>marcap-price-gateway</h1>
+  <p>Read-only research gateway for FinanceData/marcap OHLC rows and trigger-level backtest summaries.</p>
+  <p><strong>Source:</strong> {{ metadata.price_data_source }} / {{ metadata.source_repo_url }}</p>
+  <p><strong>Adjustment:</strong> {{ metadata.price_adjustment_status }}</p>
+  <p><strong>Caveat:</strong> {{ metadata.caveat }}</p>
+
+  <h2>Health</h2>
+  <table>
+    <tbody>
+      <tr><th>Status</th><td>{{ health.status }}</td></tr>
+      <tr><th>Min date</th><td>{{ health.min_date }}</td></tr>
+      <tr><th>Max date</th><td>{{ health.max_date }}</td></tr>
+      <tr><th>Rows</th><td>{{ health.row_count }}</td></tr>
+      <tr><th>Cache path</th><td>{{ health.cache_path }}</td></tr>
+      <tr><th>Access mode</th><td>{{ health.access_mode }}</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Example links</h2>
+  <table>
+    <thead>
+      <tr><th>Name</th><th>URL</th></tr>
+    </thead>
+    <tbody>
+      {% for name, url in examples.items() %}
+      <tr><td>{{ name }}</td><td><a href="{{ url }}">{{ url }}</a></td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

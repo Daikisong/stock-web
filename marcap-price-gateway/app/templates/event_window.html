@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Event window {{ code }}</title>
+  <style>
+    body { font-family: Georgia, "Times New Roman", serif; margin: 2rem; line-height: 1.4; color: #172018; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1rem; font-size: 0.92rem; }
+    th, td { border: 1px solid #b8c2b3; padding: 0.35rem; text-align: right; }
+    th { background: #eef2e6; }
+  </style>
+</head>
+<body>
+  <h1>Event window {{ code }}</h1>
+  <p><strong>Source:</strong> {{ metadata.price_data_source }} / {{ metadata.source_repo_url }}</p>
+  <p><strong>Adjustment:</strong> {{ metadata.price_adjustment_status }}</p>
+  <table>
+    <thead>
+      <tr><th>Relative day</th><th>Date</th><th>Open</th><th>High</th><th>Low</th><th>Close</th><th>Volume</th></tr>
+    </thead>
+    <tbody>
+      {% for row in rows %}
+      <tr>
+        <td>{{ row.relative_day_index }}</td>
+        <td>{{ row.date }}</td>
+        <td>{{ row.open }}</td>
+        <td>{{ row.high }}</td>
+        <td>{{ row.low }}</td>
+        <td>{{ row.close }}</td>
+        <td>{{ row.volume }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Trigger backtest {{ code }}</title>
+  <style>
+    body { font-family: Georgia, "Times New Roman", serif; margin: 2rem; line-height: 1.4; color: #172018; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1rem; font-size: 0.92rem; }
+    th, td { border: 1px solid #b8c2b3; padding: 0.35rem; text-align: right; }
+    th { background: #eef2e6; }
+    td:first-child, th:first-child, td:nth-child(2), th:nth-child(2) { text-align: left; }
+    pre { background: #f3f5ee; border: 1px solid #b8c2b3; padding: 1rem; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <h1>Trigger backtest {{ code }}</h1>
+  <p>Trigger date: {{ trigger_date }}</p>
+  <p><strong>Source:</strong> {{ metadata.price_data_source }} / {{ metadata.source_repo_url }}</p>
+  <p><strong>Adjustment:</strong> {{ metadata.price_adjustment_status }}</p>
+  <p><strong>Caveat:</strong> {{ metadata.caveat }}</p>
+
+  <h2>Direct API links</h2>
+  <ul>
+    {% for name, url in api_links.items() %}
+    <li><a href="{{ url }}">{{ name }}: {{ url }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h2>JSON-like summary</h2>
+  <pre>{{ summary }}</pre>
+
+  <h2>MFE / MAE</h2>
+  <table>
+    <thead>
+      <tr><th>Window</th><th>MFE pct</th><th>MAE pct</th><th>Below entry flag</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>30D</td><td>{{ summary.MFE_30D_pct }}</td><td>{{ summary.MAE_30D_pct }}</td><td>{{ summary.below_entry_price_flag_30D }}</td></tr>
+      <tr><td>90D</td><td>{{ summary.MFE_90D_pct }}</td><td>{{ summary.MAE_90D_pct }}</td><td>{{ summary.below_entry_price_flag_90D }}</td></tr>
+      <tr><td>180D</td><td>{{ summary.MFE_180D_pct }}</td><td>{{ summary.MAE_180D_pct }}</td><td></td></tr>
+      <tr><td>1Y</td><td>{{ summary.MFE_1Y_pct }}</td><td>{{ summary.MAE_1Y_pct }}</td><td></td></tr>
+      <tr><td>2Y</td><td>{{ summary.MFE_2Y_pct }}</td><td>{{ summary.MAE_2Y_pct }}</td><td></td></tr>
+    </tbody>
+  </table>
+
+  <h2>D+ path summary</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Label</th><th>Date</th><th>Close</th><th>High to date</th><th>Low to date</th>
+        <th>Close return pct</th><th>High return pct</th><th>Low return pct</th><th>Available</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for point in path_summary.points %}
+      <tr>
+        <td>{{ point.label }}</td>
+        <td>{{ point.date }}</td>
+        <td>{{ point.close }}</td>
+        <td>{{ point.high_to_date }}</td>
+        <td>{{ point.low_to_date }}</td>
+        <td>{{ point.close_return_pct }}</td>
+        <td>{{ point.high_to_date_return_pct }}</td>
+        <td>{{ point.low_to_date_return_pct }}</td>
+        <td>{{ point.available }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <h2>Event window</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Relative day</th><th>Date</th><th>Open</th><th>High</th><th>Low</th><th>Close</th>
+        <th>Volume</th><th>Amount</th><th>Marcap</th><th>Anchor close return pct</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in event_window.rows %}
+      <tr>
+        <td>{{ row.relative_day_index }}</td>
+        <td>{{ row.date }}</td>
+        <td>{{ row.open }}</td>
+        <td>{{ row.high }}</td>
+        <td>{{ row.low }}</td>
+        <td>{{ row.close }}</td>
+        <td>{{ row.volume }}</td>
+        <td>{{ row.amount }}</td>
+        <td>{{ row.marcap }}</td>
+        <td>{{ row.close_return_from_anchor_pct }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

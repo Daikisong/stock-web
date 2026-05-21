@@ -1,0 +1,36 @@
+CHATGPT_ROUTE_PROBE_REPORT
+generated_at=2026-05-21T14:43:49.842059+00:00
+base_url=https://meeting-pants-printers-emma.trycloudflare.com
+total_routes=24
+ok_routes=24
+failed_routes=0
+
+ROUTE|status|bytes|content_type|ok|url
+https://meeting-pants-printers-emma.trycloudflare.com/|200|6326|text/html; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/
+https://meeting-pants-printers-emma.trycloudflare.com/__ping|200|2|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/__ping
+https://meeting-pants-printers-emma.trycloudflare.com/__health|200|1061|application/json|true|https://meeting-pants-printers-emma.trycloudflare.com/__health
+https://meeting-pants-printers-emma.trycloudflare.com/__chatgpt_bundle.txt|200|3110|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/__chatgpt_bundle.txt
+https://meeting-pants-printers-emma.trycloudflare.com/chatgpt_bundle.txt|200|3110|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/chatgpt_bundle.txt
+https://meeting-pants-printers-emma.trycloudflare.com/_chatgpt/bundle.txt|200|3110|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/_chatgpt/bundle.txt
+https://meeting-pants-printers-emma.trycloudflare.com/public/chatgpt_bundle.txt|200|3110|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/public/chatgpt_bundle.txt
+https://meeting-pants-printers-emma.trycloudflare.com/static/chatgpt_bundle.txt|200|3057|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/static/chatgpt_bundle.txt
+https://meeting-pants-printers-emma.trycloudflare.com/__chatgpt_bundle.json|200|7901|application/json|true|https://meeting-pants-printers-emma.trycloudflare.com/__chatgpt_bundle.json
+https://meeting-pants-printers-emma.trycloudflare.com/_chatgpt/bundle.json|200|7901|application/json|true|https://meeting-pants-printers-emma.trycloudflare.com/_chatgpt/bundle.json
+https://meeting-pants-printers-emma.trycloudflare.com/static/chatgpt_bundle.json|200|7849|application/json|true|https://meeting-pants-printers-emma.trycloudflare.com/static/chatgpt_bundle.json
+https://meeting-pants-printers-emma.trycloudflare.com/__selftest.txt|200|772|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/__selftest.txt
+https://meeting-pants-printers-emma.trycloudflare.com/selftest.txt|200|772|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/selftest.txt
+https://meeting-pants-printers-emma.trycloudflare.com/_chatgpt/selftest.txt|200|772|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/_chatgpt/selftest.txt
+https://meeting-pants-printers-emma.trycloudflare.com/static/selftest.txt|200|772|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/static/selftest.txt
+https://meeting-pants-printers-emma.trycloudflare.com/__sample-005930.txt|200|578|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/__sample-005930.txt
+https://meeting-pants-printers-emma.trycloudflare.com/__sample-trigger-005930.txt|200|344|text/plain; charset=utf-8|true|https://meeting-pants-printers-emma.trycloudflare.com/__sample-trigger-005930.txt
+https://meeting-pants-printers-emma.trycloudflare.com/__sample-ohlcv.json?code=005930&start=2024-01-01&end=2024-12-31|200|130869|application/json|true|https://meeting-pants-printers-emma.trycloudflare.com/__sample-ohlcv.json?code=005930&start=2024-01-01&end=2024-12-31
+https://meeting-pants-printers-emma.trycloudflare.com/__sample-trigger.json?code=005930&trigger_date=2024-01-02|200|789|application/json|true|https://meeting-pants-printers-emma.trycloudflare.com/__sample-trigger.json?code=005930&trigger_date=2024-01-02
+https://meeting-pants-printers-emma.trycloudflare.com/__sample-path.json?code=005930&entry_date=2024-01-03|200|3077|application/json|true|https://meeting-pants-printers-emma.trycloudflare.com/__sample-path.json?code=005930&entry_date=2024-01-03
+https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/__health|200|1061|application/json|true|https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/__health
+https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/api/ohlcv?code=005930&start=2024-01-01&end=2024-12-31|200|130869|application/json|true|https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/api/ohlcv?code=005930&start=2024-01-01&end=2024-12-31
+https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/api/trigger-backtest?code=005930&trigger_date=2024-01-02|200|1325|application/json|true|https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/api/trigger-backtest?code=005930&trigger_date=2024-01-02
+https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/api/path-summary?code=005930&entry_date=2024-01-03|200|3077|application/json|true|https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/api/path-summary?code=005930&entry_date=2024-01-03
+
+BUNDLE_PREVIEW_BEGIN
+CHATGPT_MARCAP_BUNDLE\ngenerated_at=2026-05-21T14:43:58.525691+00:00\npublic_base_url=https://meeting-pants-printers-emma.trycloudflare.com\nsource_name=FinanceData/marcap\nsource_repo_url=https://github.
+BUNDLE_PREVIEW_END

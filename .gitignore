@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Local data/cache generated from FinanceData/marcap
+marcap-price-gateway/data/
+data/
+
+# Local environment files
+.env
+
+# OS/editor noise
+.DS_Store

@@ -1,0 +1,202 @@
+{
+  "generated_at": "2026-05-21T14:43:49.842059+00:00",
+  "base_url": "https://meeting-pants-printers-emma.trycloudflare.com",
+  "total_routes": 24,
+  "ok_routes": 24,
+  "failed_routes": 0,
+  "results": [
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "byte_count": 6326,
+      "first_200_chars": "<!doctype html>\\n<html lang=\"en\">\\n<head>\\n  <meta charset=\"utf-8\">\\n  <title>marcap-price-gateway</title>\\n  <style>\\n    body { font-family: Georgia, \"Times New Roman\", serif; margin: 2rem; line-height: 1",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/__ping",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 2,
+      "first_200_chars": "ok",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/__health",
+      "status_code": 200,
+      "content_type": "application/json",
+      "byte_count": 1061,
+      "first_200_chars": "{\"status\":\"ok\",\"source_name\":\"FinanceData/marcap\",\"source_repo_url\":\"https://github.com/FinanceData/marcap\",\"cache_path\":\"data/cache/marcap.duckdb\",\"price_adjustment_status\":\"raw_unadjusted_marcap\",\"b",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/__chatgpt_bundle.txt",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 3110,
+      "first_200_chars": "CHATGPT_MARCAP_BUNDLE\\ngenerated_at=2026-05-21T14:43:57.407487+00:00\\npublic_base_url=https://meeting-pants-printers-emma.trycloudflare.com\\nsource_name=FinanceData/marcap\\nsource_repo_url=https://github.",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/chatgpt_bundle.txt",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 3110,
+      "first_200_chars": "CHATGPT_MARCAP_BUNDLE\\ngenerated_at=2026-05-21T14:43:57.675047+00:00\\npublic_base_url=https://meeting-pants-printers-emma.trycloudflare.com\\nsource_name=FinanceData/marcap\\nsource_repo_url=https://github.",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/_chatgpt/bundle.txt",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 3110,
+      "first_200_chars": "CHATGPT_MARCAP_BUNDLE\\ngenerated_at=2026-05-21T14:43:57.653200+00:00\\npublic_base_url=https://meeting-pants-printers-emma.trycloudflare.com\\nsource_name=FinanceData/marcap\\nsource_repo_url=https://github.",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/public/chatgpt_bundle.txt",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 3110,
+      "first_200_chars": "CHATGPT_MARCAP_BUNDLE\\ngenerated_at=2026-05-21T14:43:57.463939+00:00\\npublic_base_url=https://meeting-pants-printers-emma.trycloudflare.com\\nsource_name=FinanceData/marcap\\nsource_repo_url=https://github.",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/static/chatgpt_bundle.txt",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 3057,
+      "first_200_chars": "CHATGPT_MARCAP_BUNDLE\\ngenerated_at=2026-05-21T14:43:10.163526+00:00\\npublic_base_url=\\nsource_name=FinanceData/marcap\\nsource_repo_url=https://github.com/FinanceData/marcap\\nprice_adjustment_status=raw_un",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/__chatgpt_bundle.json",
+      "status_code": 200,
+      "content_type": "application/json",
+      "byte_count": 7901,
+      "first_200_chars": "{\"price_data_source\":\"FinanceData/marcap\",\"source_repo_url\":\"https://github.com/FinanceData/marcap\",\"price_adjustment_status\":\"raw_unadjusted_marcap\",\"caveat\":\"FinanceData/marcap OHLC appears raw/unad",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/_chatgpt/bundle.json",
+      "status_code": 200,
+      "content_type": "application/json",
+      "byte_count": 7901,
+      "first_200_chars": "{\"price_data_source\":\"FinanceData/marcap\",\"source_repo_url\":\"https://github.com/FinanceData/marcap\",\"price_adjustment_status\":\"raw_unadjusted_marcap\",\"caveat\":\"FinanceData/marcap OHLC appears raw/unad",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/static/chatgpt_bundle.json",
+      "status_code": 200,
+      "content_type": "application/json",
+      "byte_count": 7849,
+      "first_200_chars": "{\"price_data_source\":\"FinanceData/marcap\",\"source_repo_url\":\"https://github.com/FinanceData/marcap\",\"price_adjustment_status\":\"raw_unadjusted_marcap\",\"caveat\":\"FinanceData/marcap OHLC appears raw/unad",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/__selftest.txt",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 772,
+      "first_200_chars": "code|name|ohlcv_2024_count|first_date|last_date|calibration_usable|forward_window_trading_days|MFE_90D_pct|MAE_90D_pct|path_D180_available|status|warnings\\n005930|삼성전자|244|2024-01-02|2024-12-30|true|50",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/selftest.txt",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 772,
+      "first_200_chars": "code|name|ohlcv_2024_count|first_date|last_date|calibration_usable|forward_window_trading_days|MFE_90D_pct|MAE_90D_pct|path_D180_available|status|warnings\\n005930|삼성전자|244|2024-01-02|2024-12-30|true|50",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/_chatgpt/selftest.txt",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 772,
+      "first_200_chars": "code|name|ohlcv_2024_count|first_date|last_date|calibration_usable|forward_window_trading_days|MFE_90D_pct|MAE_90D_pct|path_D180_available|status|warnings\\n005930|삼성전자|244|2024-01-02|2024-12-30|true|50",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/static/selftest.txt",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 772,
+      "first_200_chars": "code|name|ohlcv_2024_count|first_date|last_date|calibration_usable|forward_window_trading_days|MFE_90D_pct|MAE_90D_pct|path_D180_available|status|warnings\\n005930|삼성전자|244|2024-01-02|2024-12-30|true|50",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/__sample-005930.txt",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 578,
+      "first_200_chars": "code=005930\\nname=삼성전자\\nsource=FinanceData/marcap\\nprice_adjustment_status=raw_unadjusted_marcap\\ndate|open|high|low|close|volume\\n2024-01-02|78200|79800|78200|79600|17142847\\n2024-01-03|78500|78800|77000|7",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/__sample-trigger-005930.txt",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "byte_count": 344,
+      "first_200_chars": "code=005930\\nname=삼성전자\\ntrigger_date=2024-01-02\\nentry_date=2024-01-03\\nentry_price=77000\\ncalibration_usable=true\\nforward_window_trading_days=504\\nMFE_30D_pct=2.34\\nMFE_90D_pct=11.69\\nMFE_180D_pct=15.32\\nMAE_",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/__sample-ohlcv.json?code=005930&start=2024-01-01&end=2024-12-31",
+      "status_code": 200,
+      "content_type": "application/json",
+      "byte_count": 130869,
+      "first_200_chars": "{\"price_data_source\":\"FinanceData/marcap\",\"source_repo_url\":\"https://github.com/FinanceData/marcap\",\"price_adjustment_status\":\"raw_unadjusted_marcap\",\"caveat\":\"FinanceData/marcap OHLC appears raw/unad",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/__sample-trigger.json?code=005930&trigger_date=2024-01-02",
+      "status_code": 200,
+      "content_type": "application/json",
+      "byte_count": 789,
+      "first_200_chars": "{\"price_data_source\":\"FinanceData/marcap\",\"source_repo_url\":\"https://github.com/FinanceData/marcap\",\"price_adjustment_status\":\"raw_unadjusted_marcap\",\"caveat\":\"FinanceData/marcap OHLC appears raw/unad",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/__sample-path.json?code=005930&entry_date=2024-01-03",
+      "status_code": 200,
+      "content_type": "application/json",
+      "byte_count": 3077,
+      "first_200_chars": "{\"price_data_source\":\"FinanceData/marcap\",\"source_repo_url\":\"https://github.com/FinanceData/marcap\",\"price_adjustment_status\":\"raw_unadjusted_marcap\",\"caveat\":\"FinanceData/marcap OHLC appears raw/unad",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/__health",
+      "status_code": 200,
+      "content_type": "application/json",
+      "byte_count": 1061,
+      "first_200_chars": "{\"status\":\"ok\",\"source_name\":\"FinanceData/marcap\",\"source_repo_url\":\"https://github.com/FinanceData/marcap\",\"cache_path\":\"data/cache/marcap.duckdb\",\"price_adjustment_status\":\"raw_unadjusted_marcap\",\"b",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/api/ohlcv?code=005930&start=2024-01-01&end=2024-12-31",
+      "status_code": 200,
+      "content_type": "application/json",
+      "byte_count": 130869,
+      "first_200_chars": "{\"price_data_source\":\"FinanceData/marcap\",\"source_repo_url\":\"https://github.com/FinanceData/marcap\",\"price_adjustment_status\":\"raw_unadjusted_marcap\",\"caveat\":\"FinanceData/marcap OHLC appears raw/unad",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/api/trigger-backtest?code=005930&trigger_date=2024-01-02",
+      "status_code": 200,
+      "content_type": "application/json",
+      "byte_count": 1325,
+      "first_200_chars": "{\"code\":\"005930\",\"name\":\"삼성전자\",\"trigger_date\":\"2024-01-02\",\"entry_mode\":\"next_trading_day_close\",\"entry_date\":\"2024-01-03\",\"entry_price\":77000,\"price_data_source\":\"FinanceData/marcap\",\"source_repo_url",
+      "ok": true
+    },
+    {
+      "url": "https://meeting-pants-printers-emma.trycloudflare.com/g/c4y4YZWNot-gUs_pSFrb1RXvXFMcld9d/api/path-summary?code=005930&entry_date=2024-01-03",
+      "status_code": 200,
+      "content_type": "application/json",
+      "byte_count": 3077,
+      "first_200_chars": "{\"code\":\"005930\",\"name\":\"삼성전자\",\"entry_date\":\"2024-01-03\",\"entry_price\":77000,\"entry_mode\":\"trigger_close\",\"points\":[{\"label\":\"D+1\",\"trading_day_offset\":1,\"date\":\"2024-01-04\",\"close\":76600,\"high_to_dat",
+      "ok": true
+    }
+  ],
+  "bundle_preview": "CHATGPT_MARCAP_BUNDLE\\ngenerated_at=2026-05-21T14:43:58.525691+00:00\\npublic_base_url=https://meeting-pants-printers-emma.trycloudflare.com\\nsource_name=FinanceData/marcap\\nsource_repo_url=https://github."
+}

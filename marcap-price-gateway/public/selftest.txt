@@ -1,0 +1,6 @@
+code|name|ohlcv_2024_count|first_date|last_date|calibration_usable|forward_window_trading_days|MFE_90D_pct|MAE_90D_pct|path_D180_available|status|warnings
+005930|삼성전자|244|2024-01-02|2024-12-30|true|504|11.69|-8.18|true|ok|Drawdown after peak unavailable because no row exists after the peak date.
+000660|SK하이닉스|244|2024-01-02|2024-12-30|true|504|41.81|-5.7|true|ok|Drawdown after peak unavailable because no row exists after the peak date.
+298040|효성중공업|244|2024-01-02|2024-12-30|true|504|112.63|-7.03|true|ok|Drawdown after peak unavailable because no row exists after the peak date.
+267260|HD현대일렉트릭|244|2024-01-02|2024-12-30|true|504|219.93|-5.24|true|ok|
+086520|에코프로|244|2024-01-02|2024-12-30|true|504|11.45|-100.0|true|ok|

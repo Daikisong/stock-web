@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marcap-price-gateway"
+version = "0.1.0"
+description = "Public-read FinanceData/marcap OHLC gateway for research calibration"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "duckdb>=0.10",
+  "fastapi>=0.110",
+  "httpx>=0.27",
+  "jinja2>=3.1",
+  "pandas>=2.1",
+  "uvicorn[standard]>=0.29",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+parquet = [
+  "pyarrow>=15.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
