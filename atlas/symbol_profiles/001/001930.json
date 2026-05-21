@@ -1,0 +1,45 @@
+{
+  "code": "001930",
+  "current_or_latest_name": "효성물산",
+  "name_history": [
+    {
+      "name": "효성물산",
+      "first_date": "1995-05-02",
+      "last_date": "1998-12-11"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "1998-12-11"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "1998-12-11",
+  "trading_day_count": 1064,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/001/001930/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001930/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001930/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001930/1998.csv"
+  ],
+  "latest_close": 670,
+  "latest_marcap": 6459529630,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

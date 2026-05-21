@@ -1,0 +1,76 @@
+{
+  "prefix": "281",
+  "codes": [
+    {
+      "code": "281310",
+      "name": "바이오시네틱스",
+      "profile_path": "atlas/symbol_profiles/281/281310.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2017-12-15",
+      "last_date": "2023-06-09",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "281410",
+      "name": "한국제6호스팩",
+      "profile_path": "atlas/symbol_profiles/281/281410.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2017-12-21",
+      "last_date": "2020-07-24",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "281740",
+      "name": "레이크머티리얼즈",
+      "profile_path": "atlas/symbol_profiles/281/281740.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-12-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "281820",
+      "name": "케이씨텍",
+      "profile_path": "atlas/symbol_profiles/281/281820.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-12-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

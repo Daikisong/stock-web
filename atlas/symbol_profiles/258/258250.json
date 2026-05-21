@@ -1,0 +1,60 @@
+{
+  "code": "258250",
+  "current_or_latest_name": "셀젠텍",
+  "name_history": [
+    {
+      "name": "셀젠텍",
+      "first_date": "2018-06-28",
+      "last_date": "2024-08-29"
+    },
+    {
+      "name": "피시피아비아이티",
+      "first_date": "2016-12-13",
+      "last_date": "2018-06-27"
+    }
+  ],
+  "markets": [
+    "KONEX"
+  ],
+  "market_history": [
+    {
+      "market": "KONEX",
+      "first_date": "2016-12-13",
+      "last_date": "2024-08-29"
+    }
+  ],
+  "first_date": "2016-12-13",
+  "last_date": "2024-08-29",
+  "trading_day_count": 1897,
+  "available_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/258/258250/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/258/258250/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/258/258250/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/258/258250/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/258/258250/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/258/258250/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/258/258250/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/258/258250/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/258/258250/2024.csv"
+  ],
+  "latest_close": 23,
+  "latest_marcap": 114755625,
+  "latest_market": "KONEX",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

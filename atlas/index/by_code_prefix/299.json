@@ -1,0 +1,132 @@
+{
+  "prefix": "299",
+  "codes": [
+    {
+      "code": "299030",
+      "name": "하나기술",
+      "profile_path": "atlas/symbol_profiles/299/299030.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-11-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "299170",
+      "name": "더블유에스아이",
+      "profile_path": "atlas/symbol_profiles/299/299170.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-09-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "299480",
+      "name": "지앤이헬스케어",
+      "profile_path": "atlas/symbol_profiles/299/299480.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-06-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "299660",
+      "name": "셀리드",
+      "profile_path": "atlas/symbol_profiles/299/299660.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-02-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "299670",
+      "name": "에스엠비나",
+      "profile_path": "atlas/symbol_profiles/299/299670.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2018-06-25",
+      "last_date": "2024-08-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "299900",
+      "name": "위지윅스튜디오",
+      "profile_path": "atlas/symbol_profiles/299/299900.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "299910",
+      "name": "애닉",
+      "profile_path": "atlas/symbol_profiles/299/299910.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2018-12-03",
+      "last_date": "2025-02-13",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

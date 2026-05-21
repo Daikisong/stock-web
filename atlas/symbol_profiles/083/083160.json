@@ -1,0 +1,45 @@
+{
+  "code": "083160",
+  "current_or_latest_name": "현대경매일호",
+  "name_history": [
+    {
+      "name": "현대경매일호",
+      "first_date": "2005-04-21",
+      "last_date": "2008-12-05"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2005-04-21",
+      "last_date": "2008-12-05"
+    }
+  ],
+  "first_date": "2005-04-21",
+  "last_date": "2008-12-05",
+  "trading_day_count": 901,
+  "available_years": [
+    2005,
+    2006,
+    2007,
+    2008
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/083/083160/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/083/083160/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/083/083160/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/083/083160/2008.csv"
+  ],
+  "latest_close": 3300,
+  "latest_marcap": 99396000000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

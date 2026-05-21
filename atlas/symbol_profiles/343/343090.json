@@ -1,0 +1,61 @@
+{
+  "code": "343090",
+  "current_or_latest_name": "HLB사이언스",
+  "name_history": [
+    {
+      "name": "HLB사이언스",
+      "first_date": "2022-04-27",
+      "last_date": "2026-01-15"
+    },
+    {
+      "name": "단디바이오",
+      "first_date": "2020-05-06",
+      "last_date": "2022-04-26"
+    },
+    {
+      "name": "단디바이오사이언스",
+      "first_date": "2020-04-24",
+      "last_date": "2020-05-04"
+    }
+  ],
+  "markets": [
+    "KONEX"
+  ],
+  "market_history": [
+    {
+      "market": "KONEX",
+      "first_date": "2020-04-24",
+      "last_date": "2026-01-15"
+    }
+  ],
+  "first_date": "2020-04-24",
+  "last_date": "2026-01-15",
+  "trading_day_count": 1405,
+  "available_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/343/343090/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/343/343090/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/343/343090/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/343/343090/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/343/343090/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/343/343090/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/343/343090/2026.csv"
+  ],
+  "latest_close": 2080,
+  "latest_marcap": 39436284160,
+  "latest_market": "KONEX",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

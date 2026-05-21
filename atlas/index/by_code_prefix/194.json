@@ -1,0 +1,114 @@
+{
+  "prefix": "194",
+  "codes": [
+    {
+      "code": "194370",
+      "name": "제이에스코퍼레이션",
+      "profile_path": "atlas/symbol_profiles/194/194370.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-02-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "194480",
+      "name": "데브시스터즈",
+      "profile_path": "atlas/symbol_profiles/194/194480.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-10-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "194510",
+      "name": "파티게임즈",
+      "profile_path": "atlas/symbol_profiles/194/194510.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2014-11-21",
+      "last_date": "2020-09-08",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "194610",
+      "name": "우성아이비",
+      "profile_path": "atlas/symbol_profiles/194/194610.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2014-06-10",
+      "last_date": "2018-10-11",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "194700",
+      "name": "노바렉스",
+      "profile_path": "atlas/symbol_profiles/194/194700.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "194860",
+      "name": "SY이노베이션",
+      "profile_path": "atlas/symbol_profiles/194/194860.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "first_date": "2014-04-25",
+      "last_date": "2017-04-11",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

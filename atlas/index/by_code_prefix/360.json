@@ -1,0 +1,33 @@
+{
+  "prefix": "360",
+  "codes": [
+    {
+      "code": "360070",
+      "name": "탑머티리얼",
+      "profile_path": "atlas/symbol_profiles/360/360070.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-10-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "360350",
+      "name": "코셈",
+      "profile_path": "atlas/symbol_profiles/360/360350.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-02-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

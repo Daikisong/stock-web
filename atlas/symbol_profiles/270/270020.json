@@ -1,0 +1,54 @@
+{
+  "code": "270020",
+  "current_or_latest_name": "이십일스토어",
+  "name_history": [
+    {
+      "name": "두원석재",
+      "first_date": "2017-09-08",
+      "last_date": "2020-01-17"
+    },
+    {
+      "name": "이십일스토어",
+      "first_date": "2020-01-20",
+      "last_date": "2022-04-13"
+    }
+  ],
+  "markets": [
+    "KONEX"
+  ],
+  "market_history": [
+    {
+      "market": "KONEX",
+      "first_date": "2017-09-08",
+      "last_date": "2022-04-13"
+    }
+  ],
+  "first_date": "2017-09-08",
+  "last_date": "2022-04-13",
+  "trading_day_count": 1127,
+  "available_years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/270/270020/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/270/270020/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/270/270020/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/270/270020/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/270/270020/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/270/270020/2022.csv"
+  ],
+  "latest_close": 2040,
+  "latest_marcap": 6423998760,
+  "latest_market": "KONEX",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

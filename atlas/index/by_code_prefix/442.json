@@ -1,0 +1,60 @@
+{
+  "prefix": "442",
+  "codes": [
+    {
+      "code": "442130",
+      "name": "유진스팩9호",
+      "profile_path": "atlas/symbol_profiles/442/442130.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-12-01",
+      "last_date": "2025-07-08",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "442310",
+      "name": "대신밸런스제14호스팩",
+      "profile_path": "atlas/symbol_profiles/442/442310.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-12-05",
+      "last_date": "2025-07-10",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "442770",
+      "name": "IBKS제21호스팩",
+      "profile_path": "atlas/symbol_profiles/442/442770.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-12-16",
+      "last_date": "2025-11-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "442900",
+      "name": "미래에셋드림스팩1호",
+      "profile_path": "atlas/symbol_profiles/442/442900.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-03-15",
+      "last_date": "2025-10-22",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

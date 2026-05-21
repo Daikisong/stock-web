@@ -1,0 +1,101 @@
+{
+  "prefix": "170",
+  "codes": [
+    {
+      "code": "170030",
+      "name": "현대공업",
+      "profile_path": "atlas/symbol_profiles/170/170030.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-12-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "170790",
+      "name": "파이오링크",
+      "profile_path": "atlas/symbol_profiles/170/170790.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-08-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "170900",
+      "name": "동아에스티",
+      "profile_path": "atlas/symbol_profiles/170/170900.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-04-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "170920",
+      "name": "엘티씨",
+      "profile_path": "atlas/symbol_profiles/170/170920.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-10-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

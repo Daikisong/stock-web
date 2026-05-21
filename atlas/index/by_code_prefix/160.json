@@ -1,0 +1,97 @@
+{
+  "prefix": "160",
+  "codes": [
+    {
+      "code": "160190",
+      "name": "하이젠알앤엠",
+      "profile_path": "atlas/symbol_profiles/160/160190.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-06-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "160350",
+      "name": "웹솔루스",
+      "profile_path": "atlas/symbol_profiles/160/160350.json",
+      "available_years": [
+        2013,
+        2014,
+        2015
+      ],
+      "first_date": "2013-07-01",
+      "last_date": "2015-04-29",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "160550",
+      "name": "NEW",
+      "profile_path": "atlas/symbol_profiles/160/160550.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-12-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "160600",
+      "name": "이큐셀",
+      "profile_path": "atlas/symbol_profiles/160/160600.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2015-06-26",
+      "last_date": "2025-02-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "160980",
+      "name": "싸이맥스",
+      "profile_path": "atlas/symbol_profiles/160/160980.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-06-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

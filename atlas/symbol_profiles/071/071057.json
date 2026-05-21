@@ -1,0 +1,63 @@
+{
+  "code": "071057",
+  "current_or_latest_name": "한국금융지주2우B",
+  "name_history": [
+    {
+      "name": "동원금융지주(2우B)",
+      "first_date": "2003-07-21",
+      "last_date": "2005-05-30"
+    },
+    {
+      "name": "한국금융지주(2우B)",
+      "first_date": "2005-05-31",
+      "last_date": "2008-08-01"
+    },
+    {
+      "name": "한국금융지주2우B",
+      "first_date": "2008-08-04",
+      "last_date": "2010-06-03"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2003-07-21",
+      "last_date": "2010-06-03"
+    }
+  ],
+  "first_date": "2003-07-21",
+  "last_date": "2010-06-03",
+  "trading_day_count": 1707,
+  "available_years": [
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/071/071057/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/071/071057/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/071/071057/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/071/071057/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/071/071057/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/071/071057/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/071/071057/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/071/071057/2010.csv"
+  ],
+  "latest_close": 30650,
+  "latest_marcap": 87345971550,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

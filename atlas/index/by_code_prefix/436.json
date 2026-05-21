@@ -1,0 +1,31 @@
+{
+  "prefix": "436",
+  "codes": [
+    {
+      "code": "436530",
+      "name": "케이비제22호스팩",
+      "profile_path": "atlas/symbol_profiles/436/436530.json",
+      "available_years": [
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2022-09-22",
+      "last_date": "2024-05-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "436610",
+      "name": "한국제11호스팩",
+      "profile_path": "atlas/symbol_profiles/436/436610.json",
+      "available_years": [
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2022-10-20",
+      "last_date": "2024-09-26",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

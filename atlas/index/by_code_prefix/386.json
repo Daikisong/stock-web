@@ -1,0 +1,19 @@
+{
+  "prefix": "386",
+  "codes": [
+    {
+      "code": "386580",
+      "name": "한화플러스제2호스팩",
+      "profile_path": "atlas/symbol_profiles/386/386580.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2021-08-05",
+      "last_date": "2024-06-14",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "code": "114410",
+  "current_or_latest_name": "현대푸드",
+  "name_history": [
+    {
+      "name": "현대푸드",
+      "first_date": "2009-12-17",
+      "last_date": "2010-07-15"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2009-12-17",
+      "last_date": "2010-07-15"
+    }
+  ],
+  "first_date": "2009-12-17",
+  "last_date": "2010-07-15",
+  "trading_day_count": 143,
+  "available_years": [
+    2009,
+    2010
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/114/114410/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114410/2010.csv"
+  ],
+  "latest_close": 18000,
+  "latest_marcap": 308592000000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,70 @@
+{
+  "prefix": "291",
+  "codes": [
+    {
+      "code": "291210",
+      "name": "한국제7호스팩",
+      "profile_path": "atlas/symbol_profiles/291/291210.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2018-05-11",
+      "last_date": "2021-01-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "291230",
+      "name": "엔피",
+      "profile_path": "atlas/symbol_profiles/291/291230.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-09-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "291650",
+      "name": "압타머사이언스",
+      "profile_path": "atlas/symbol_profiles/291/291650.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-09-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "291810",
+      "name": "핀텔",
+      "profile_path": "atlas/symbol_profiles/291/291810.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-10-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

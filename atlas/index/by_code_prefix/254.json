@@ -1,0 +1,56 @@
+{
+  "prefix": "254",
+  "codes": [
+    {
+      "code": "254120",
+      "name": "자비스",
+      "profile_path": "atlas/symbol_profiles/254/254120.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-12-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "254160",
+      "name": "제이엠멀티",
+      "profile_path": "atlas/symbol_profiles/254/254160.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-12-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "254490",
+      "name": "미래반도체",
+      "profile_path": "atlas/symbol_profiles/254/254490.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-01-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

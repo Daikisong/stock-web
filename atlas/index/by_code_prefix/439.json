@@ -1,0 +1,87 @@
+{
+  "prefix": "439",
+  "codes": [
+    {
+      "code": "439090",
+      "name": "마녀공장",
+      "profile_path": "atlas/symbol_profiles/439/439090.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-06-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "439250",
+      "name": "삼성스팩7호",
+      "profile_path": "atlas/symbol_profiles/439/439250.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-10-26",
+      "last_date": "2025-05-30",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "439260",
+      "name": "대한조선",
+      "profile_path": "atlas/symbol_profiles/439/439260.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-08-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "439410",
+      "name": "엔에이치스팩26호",
+      "profile_path": "atlas/symbol_profiles/439/439410.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-12-01",
+      "last_date": "2025-07-07",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "439580",
+      "name": "블루엠텍",
+      "profile_path": "atlas/symbol_profiles/439/439580.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-12-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "439730",
+      "name": "IBKS제20호스팩",
+      "profile_path": "atlas/symbol_profiles/439/439730.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-10-28",
+      "last_date": "2025-05-30",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

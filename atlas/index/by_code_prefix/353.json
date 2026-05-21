@@ -1,0 +1,113 @@
+{
+  "prefix": "353",
+  "codes": [
+    {
+      "code": "353060",
+      "name": "에이치엠씨제5호스팩",
+      "profile_path": "atlas/symbol_profiles/353/353060.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2020-12-16",
+      "last_date": "2023-09-21",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "353070",
+      "name": "에이치엠씨제4호스팩",
+      "profile_path": "atlas/symbol_profiles/353/353070.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2020-07-29",
+      "last_date": "2023-03-09",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "353190",
+      "name": "휴럼",
+      "profile_path": "atlas/symbol_profiles/353/353190.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-06-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "353200",
+      "name": "대덕전자",
+      "profile_path": "atlas/symbol_profiles/353/353200.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-05-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "353490",
+      "name": "미래에셋대우스팩 5호",
+      "profile_path": "atlas/symbol_profiles/353/353490.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2020-08-28",
+      "last_date": "2023-05-16",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "353590",
+      "name": "오토앤",
+      "profile_path": "atlas/symbol_profiles/353/353590.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-01-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "353810",
+      "name": "이지바이오",
+      "profile_path": "atlas/symbol_profiles/353/353810.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-06-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

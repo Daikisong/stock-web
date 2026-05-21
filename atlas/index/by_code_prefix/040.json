@@ -1,0 +1,437 @@
+{
+  "prefix": "040",
+  "codes": [
+    {
+      "code": "040020",
+      "name": "사라콤",
+      "profile_path": "atlas/symbol_profiles/040/040020.json",
+      "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "first_date": "2000-07-13",
+      "last_date": "2009-05-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040130",
+      "name": "엔플렉스",
+      "profile_path": "atlas/symbol_profiles/040/040130.json",
+      "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "first_date": "2000-05-03",
+      "last_date": "2004-04-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040160",
+      "name": "누리플렉스",
+      "profile_path": "atlas/symbol_profiles/040/040160.json",
+      "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2000-08-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "040180",
+      "name": "대양글로벌",
+      "profile_path": "atlas/symbol_profiles/040/040180.json",
+      "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "first_date": "2000-07-20",
+      "last_date": "2011-10-24",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040260",
+      "name": "미래아이티2",
+      "profile_path": "atlas/symbol_profiles/040/040260.json",
+      "available_years": [
+        2000,
+        2001
+      ],
+      "first_date": "2000-04-28",
+      "last_date": "2001-02-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040270",
+      "name": "미래하이3",
+      "profile_path": "atlas/symbol_profiles/040/040270.json",
+      "available_years": [
+        2000,
+        2001
+      ],
+      "first_date": "2000-04-28",
+      "last_date": "2001-02-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040300",
+      "name": "YTN",
+      "profile_path": "atlas/symbol_profiles/040/040300.json",
+      "available_years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2001-09-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "040350",
+      "name": "크레오에스지",
+      "profile_path": "atlas/symbol_profiles/040/040350.json",
+      "available_years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2002-01-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "040380",
+      "name": "한가족주식",
+      "profile_path": "atlas/symbol_profiles/040/040380.json",
+      "available_years": [
+        2000,
+        2001
+      ],
+      "first_date": "2000-04-21",
+      "last_date": "2001-02-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040420",
+      "name": "정상제이엘에스",
+      "profile_path": "atlas/symbol_profiles/040/040420.json",
+      "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2000-08-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "040520",
+      "name": "마이다스테3",
+      "profile_path": "atlas/symbol_profiles/040/040520.json",
+      "available_years": [
+        2000,
+        2001
+      ],
+      "first_date": "2000-04-21",
+      "last_date": "2001-02-05",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040610",
+      "name": "SG&G",
+      "profile_path": "atlas/symbol_profiles/040/040610.json",
+      "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2000-04-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "040670",
+      "name": "와이즈파워",
+      "profile_path": "atlas/symbol_profiles/040/040670.json",
+      "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "first_date": "2000-08-18",
+      "last_date": "2015-07-15",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040740",
+      "name": "아인스M&M",
+      "profile_path": "atlas/symbol_profiles/040/040740.json",
+      "available_years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "first_date": "2004-01-28",
+      "last_date": "2012-04-30",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040750",
+      "name": "벨로체피아노",
+      "profile_path": "atlas/symbol_profiles/040/040750.json",
+      "available_years": [
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "first_date": "2000-12-05",
+      "last_date": "2003-04-23",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040780",
+      "name": "유니씨앤티",
+      "profile_path": "atlas/symbol_profiles/040/040780.json",
+      "available_years": [
+        2000,
+        2001,
+        2002
+      ],
+      "first_date": "2000-06-27",
+      "last_date": "2002-10-17",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040785",
+      "name": "유니씨앤티우",
+      "profile_path": "atlas/symbol_profiles/040/040785.json",
+      "available_years": [
+        2002
+      ],
+      "first_date": "2002-06-25",
+      "last_date": "2002-10-17",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040860",
+      "name": "마이다스코코",
+      "profile_path": "atlas/symbol_profiles/040/040860.json",
+      "available_years": [
+        2000,
+        2001
+      ],
+      "first_date": "2000-04-28",
+      "last_date": "2001-03-12",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040910",
+      "name": "아이씨디",
+      "profile_path": "atlas/symbol_profiles/040/040910.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-08-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "040940",
+      "name": "미래아이티3",
+      "profile_path": "atlas/symbol_profiles/040/040940.json",
+      "available_years": [
+        2000,
+        2001
+      ],
+      "first_date": "2000-05-15",
+      "last_date": "2001-03-12",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "040950",
+      "name": "미래하이4",
+      "profile_path": "atlas/symbol_profiles/040/040950.json",
+      "available_years": [
+        2000,
+        2001
+      ],
+      "first_date": "2000-05-15",
+      "last_date": "2001-03-12",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

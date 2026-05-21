@@ -1,0 +1,69 @@
+{
+  "prefix": "477",
+  "codes": [
+    {
+      "code": "477340",
+      "name": "에이치엠씨제7호스팩",
+      "profile_path": "atlas/symbol_profiles/477/477340.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-06-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "477380",
+      "name": "미래에셋비전스팩4호",
+      "profile_path": "atlas/symbol_profiles/477/477380.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-05-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "477470",
+      "name": "미래에셋비전스팩5호",
+      "profile_path": "atlas/symbol_profiles/477/477470.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-06-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "477530",
+      "name": "한국제14호스팩",
+      "profile_path": "atlas/symbol_profiles/477/477530.json",
+      "available_years": [
+        2024,
+        2025
+      ],
+      "first_date": "2024-06-19",
+      "last_date": "2025-04-28",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "477760",
+      "name": "DB금융스팩12호",
+      "profile_path": "atlas/symbol_profiles/477/477760.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-06-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

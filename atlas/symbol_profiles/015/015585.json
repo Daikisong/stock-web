@@ -1,0 +1,43 @@
+{
+  "code": "015585",
+  "current_or_latest_name": "신한은행(1우C)",
+  "name_history": [
+    {
+      "name": "신한은행(1우C)",
+      "first_date": "1999-03-26",
+      "last_date": "2001-09-07"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1999-03-26",
+      "last_date": "2001-09-07"
+    }
+  ],
+  "first_date": "1999-03-26",
+  "last_date": "2001-09-07",
+  "trading_day_count": 605,
+  "available_years": [
+    1999,
+    2000,
+    2001
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/015/015585/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/015/015585/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/015/015585/2001.csv"
+  ],
+  "latest_close": 44150,
+  "latest_marcap": 2582775000000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

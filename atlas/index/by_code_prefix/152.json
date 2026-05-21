@@ -1,0 +1,46 @@
+{
+  "prefix": "152",
+  "codes": [
+    {
+      "code": "152330",
+      "name": "코리아오토글라스",
+      "profile_path": "atlas/symbol_profiles/152/152330.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2015-12-29",
+      "last_date": "2020-12-17",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "152550",
+      "name": "한국ANKOR유전",
+      "profile_path": "atlas/symbol_profiles/152/152550.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2012-03-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

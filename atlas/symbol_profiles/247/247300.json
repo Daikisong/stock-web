@@ -1,0 +1,45 @@
+{
+  "code": "247300",
+  "current_or_latest_name": "인프라웨어테크놀러지",
+  "name_history": [
+    {
+      "name": "인프라웨어테크놀러지",
+      "first_date": "2016-07-08",
+      "last_date": "2019-12-05"
+    }
+  ],
+  "markets": [
+    "KONEX"
+  ],
+  "market_history": [
+    {
+      "market": "KONEX",
+      "first_date": "2016-07-08",
+      "last_date": "2019-12-05"
+    }
+  ],
+  "first_date": "2016-07-08",
+  "last_date": "2019-12-05",
+  "trading_day_count": 837,
+  "available_years": [
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/247/247300/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/247/247300/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/247/247300/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/247/247300/2019.csv"
+  ],
+  "latest_close": 370,
+  "latest_marcap": 2263733260,
+  "latest_market": "KONEX",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

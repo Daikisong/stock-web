@@ -1,0 +1,48 @@
+{
+  "prefix": "211",
+  "codes": [
+    {
+      "code": "211050",
+      "name": "인카금융서비스",
+      "profile_path": "atlas/symbol_profiles/211/211050.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-11-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "211270",
+      "name": "AP위성",
+      "profile_path": "atlas/symbol_profiles/211/211270.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-03-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

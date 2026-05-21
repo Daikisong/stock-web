@@ -1,0 +1,180 @@
+{
+  "prefix": "298",
+  "codes": [
+    {
+      "code": "298000",
+      "name": "효성화학",
+      "profile_path": "atlas/symbol_profiles/298/298000.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-07-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "298020",
+      "name": "효성티앤씨",
+      "profile_path": "atlas/symbol_profiles/298/298020.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-07-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "298040",
+      "name": "효성중공업",
+      "profile_path": "atlas/symbol_profiles/298/298040.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-07-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "298050",
+      "name": "HS효성첨단소재",
+      "profile_path": "atlas/symbol_profiles/298/298050.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-07-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "298060",
+      "name": "에스씨엠생명과학",
+      "profile_path": "atlas/symbol_profiles/298/298060.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-06-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "298380",
+      "name": "에이비엘바이오",
+      "profile_path": "atlas/symbol_profiles/298/298380.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "298540",
+      "name": "더네이쳐홀딩스",
+      "profile_path": "atlas/symbol_profiles/298/298540.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-07-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "298690",
+      "name": "에어부산",
+      "profile_path": "atlas/symbol_profiles/298/298690.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "298830",
+      "name": "슈어소프트테크",
+      "profile_path": "atlas/symbol_profiles/298/298830.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-04-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "298870",
+      "name": "우리벤처파트너스",
+      "profile_path": "atlas/symbol_profiles/298/298870.json",
+      "available_years": [
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2021-12-16",
+      "last_date": "2023-08-25",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

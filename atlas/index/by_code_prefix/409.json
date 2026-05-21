@@ -1,0 +1,17 @@
+{
+  "prefix": "409",
+  "codes": [
+    {
+      "code": "409570",
+      "name": "한국제10호스팩",
+      "profile_path": "atlas/symbol_profiles/409/409570.json",
+      "available_years": [
+        2022,
+        2023
+      ],
+      "first_date": "2022-02-21",
+      "last_date": "2023-08-30",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

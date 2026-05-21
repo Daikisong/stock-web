@@ -1,0 +1,127 @@
+{
+  "prefix": "130",
+  "codes": [
+    {
+      "code": "130500",
+      "name": "GH신소재",
+      "profile_path": "atlas/symbol_profiles/130/130500.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-08-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "130580",
+      "name": "나이스디앤비",
+      "profile_path": "atlas/symbol_profiles/130/130580.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-12-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "130660",
+      "name": "한전산업",
+      "profile_path": "atlas/symbol_profiles/130/130660.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-12-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "130740",
+      "name": "티피씨글로벌",
+      "profile_path": "atlas/symbol_profiles/130/130740.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-02-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "130960",
+      "name": "CJ E&M",
+      "profile_path": "atlas/symbol_profiles/130/130960.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2010-10-15",
+      "last_date": "2018-07-17",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

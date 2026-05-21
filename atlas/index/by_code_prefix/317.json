@@ -1,0 +1,240 @@
+{
+  "prefix": "317",
+  "codes": [
+    {
+      "code": "317030",
+      "name": "케이비17호스팩",
+      "profile_path": "atlas/symbol_profiles/317/317030.json",
+      "available_years": [
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2019-03-27",
+      "last_date": "2021-11-03",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "317120",
+      "name": "라닉스",
+      "profile_path": "atlas/symbol_profiles/317/317120.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-09-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "317240",
+      "name": "TS트릴리온",
+      "profile_path": "atlas/symbol_profiles/317/317240.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-04-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "317320",
+      "name": "한화에스비아이스팩",
+      "profile_path": "atlas/symbol_profiles/317/317320.json",
+      "available_years": [
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2019-05-03",
+      "last_date": "2021-12-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "317330",
+      "name": "덕산테코피아",
+      "profile_path": "atlas/symbol_profiles/317/317330.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-08-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "317400",
+      "name": "자이에스앤디",
+      "profile_path": "atlas/symbol_profiles/317/317400.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-11-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "317450",
+      "name": "명인제약",
+      "profile_path": "atlas/symbol_profiles/317/317450.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-10-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "317530",
+      "name": "캐리소프트",
+      "profile_path": "atlas/symbol_profiles/317/317530.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-10-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "317690",
+      "name": "퀀타매트릭스",
+      "profile_path": "atlas/symbol_profiles/317/317690.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-12-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "317770",
+      "name": "엑스페릭스",
+      "profile_path": "atlas/symbol_profiles/317/317770.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-08-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "317830",
+      "name": "에스피시스템스",
+      "profile_path": "atlas/symbol_profiles/317/317830.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-08-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "317850",
+      "name": "대모",
+      "profile_path": "atlas/symbol_profiles/317/317850.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-07-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "317860",
+      "name": "노드메이슨",
+      "profile_path": "atlas/symbol_profiles/317/317860.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "317870",
+      "name": "엔바이오니아",
+      "profile_path": "atlas/symbol_profiles/317/317870.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-10-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

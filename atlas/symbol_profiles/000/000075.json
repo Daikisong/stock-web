@@ -1,0 +1,124 @@
+{
+  "code": "000075",
+  "current_or_latest_name": "삼양홀딩스우",
+  "name_history": [
+    {
+      "name": "삼 양 사(1우)",
+      "first_date": "1996-11-25",
+      "last_date": "2000-04-18"
+    },
+    {
+      "name": "삼양사(1우 )",
+      "first_date": "2001-06-28",
+      "last_date": "2001-07-04"
+    },
+    {
+      "name": "삼양사(1우)",
+      "first_date": "1995-05-02",
+      "last_date": "2006-12-19"
+    },
+    {
+      "name": "삼양사(1우B)",
+      "first_date": "2006-12-20",
+      "last_date": "2008-08-01"
+    },
+    {
+      "name": "삼양사우",
+      "first_date": "2008-08-04",
+      "last_date": "2011-12-02"
+    },
+    {
+      "name": "삼양홀딩스우",
+      "first_date": "2011-12-05",
+      "last_date": "2025-08-19"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2025-08-19"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2025-08-19",
+  "trading_day_count": 7643,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/000/000075/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000075/2025.csv"
+  ],
+  "latest_close": 83500,
+  "latest_marcap": 12599649000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

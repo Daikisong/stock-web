@@ -1,0 +1,74 @@
+{
+  "prefix": "150",
+  "codes": [
+    {
+      "code": "150440",
+      "name": "피노텍",
+      "profile_path": "atlas/symbol_profiles/150/150440.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2014-12-05",
+      "last_date": "2024-03-20",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "150840",
+      "name": "인트로메딕",
+      "profile_path": "atlas/symbol_profiles/150/150840.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-12-19",
+      "last_date": "2026-01-23",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "150900",
+      "name": "파수",
+      "profile_path": "atlas/symbol_profiles/150/150900.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-10-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

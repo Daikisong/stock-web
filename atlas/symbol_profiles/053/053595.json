@@ -1,0 +1,73 @@
+{
+  "code": "053595",
+  "current_or_latest_name": "한국테크놀로지우",
+  "name_history": [
+    {
+      "name": "비젼텔레콤우",
+      "first_date": "2003-06-04",
+      "last_date": "2004-04-27"
+    },
+    {
+      "name": "케이앤컴퍼니우",
+      "first_date": "2004-04-28",
+      "last_date": "2012-03-26"
+    },
+    {
+      "name": "한국테크놀로지우",
+      "first_date": "2012-03-27",
+      "last_date": "2015-07-10"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2003-06-04",
+      "last_date": "2015-07-10"
+    }
+  ],
+  "first_date": "2003-06-04",
+  "last_date": "2015-07-10",
+  "trading_day_count": 3003,
+  "available_years": [
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/053/053595/2015.csv"
+  ],
+  "latest_close": 9900,
+  "latest_marcap": 382793400,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

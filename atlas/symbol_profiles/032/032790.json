@@ -1,0 +1,132 @@
+{
+  "code": "032790",
+  "current_or_latest_name": "엠젠솔루션",
+  "name_history": [
+    {
+      "name": "BNGT",
+      "first_date": "2021-12-01",
+      "last_date": "2022-12-02"
+    },
+    {
+      "name": "비엔지티",
+      "first_date": "2022-12-05",
+      "last_date": "2023-04-07"
+    },
+    {
+      "name": "에스인포텍",
+      "first_date": "2004-07-19",
+      "last_date": "2010-04-20"
+    },
+    {
+      "name": "엠젠",
+      "first_date": "2015-04-16",
+      "last_date": "2016-01-20"
+    },
+    {
+      "name": "엠젠솔루션",
+      "first_date": "2023-04-10",
+      "last_date": "2026-02-20"
+    },
+    {
+      "name": "엠젠플러스",
+      "first_date": "2016-01-21",
+      "last_date": "2021-11-30"
+    },
+    {
+      "name": "지아이블루",
+      "first_date": "2010-04-21",
+      "last_date": "2015-04-15"
+    },
+    {
+      "name": "지이티",
+      "first_date": "1997-06-26",
+      "last_date": "2004-07-16"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1997-06-26",
+      "last_date": "2026-02-20"
+    }
+  ],
+  "first_date": "1997-06-26",
+  "last_date": "2026-02-20",
+  "trading_day_count": 7134,
+  "available_years": [
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/032/032790/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032790/2026.csv"
+  ],
+  "latest_close": 748,
+  "latest_marcap": 38417438576,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "active_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,64 @@
+{
+  "code": "000041",
+  "current_or_latest_name": "하나35호스팩",
+  "name_history": [
+    {
+      "name": "엘에스스팩1호",
+      "first_date": "2025-07-22",
+      "last_date": "2025-08-05"
+    },
+    {
+      "name": "하나35호스팩",
+      "first_date": "2025-08-06",
+      "last_date": "2026-02-20"
+    },
+    {
+      "name": "효성기계(1신)",
+      "first_date": "1996-11-25",
+      "last_date": "1996-12-27"
+    },
+    {
+      "name": "효성기계공업(1신)",
+      "first_date": "1996-05-02",
+      "last_date": "1996-11-22"
+    }
+  ],
+  "markets": [
+    "KOSDAQ",
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2025-07-22",
+      "last_date": "2026-02-20"
+    },
+    {
+      "market": "KOSPI",
+      "first_date": "1996-05-02",
+      "last_date": "1996-12-27"
+    }
+  ],
+  "first_date": "1996-05-02",
+  "last_date": "2026-02-20",
+  "trading_day_count": 338,
+  "available_years": [
+    1996,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/000/000041/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000041/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000041/2026.csv"
+  ],
+  "latest_close": 2030,
+  "latest_marcap": 12240900000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "active_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

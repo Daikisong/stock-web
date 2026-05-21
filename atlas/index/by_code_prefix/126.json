@@ -1,0 +1,226 @@
+{
+  "prefix": "126",
+  "codes": [
+    {
+      "code": "126340",
+      "name": "비나텍",
+      "profile_path": "atlas/symbol_profiles/126/126340.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-07-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "126560",
+      "name": "현대퓨처넷",
+      "profile_path": "atlas/symbol_profiles/126/126560.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-12-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "126600",
+      "name": "BGF에코머티리얼즈",
+      "profile_path": "atlas/symbol_profiles/126/126600.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-11-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "126640",
+      "name": "화신정공",
+      "profile_path": "atlas/symbol_profiles/126/126640.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-08-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "126680",
+      "name": "IBKS스팩1호",
+      "profile_path": "atlas/symbol_profiles/126/126680.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "first_date": "2010-12-22",
+      "last_date": "2013-07-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "126700",
+      "name": "하이비젼시스템",
+      "profile_path": "atlas/symbol_profiles/126/126700.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-09-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "126720",
+      "name": "수산인더스트리",
+      "profile_path": "atlas/symbol_profiles/126/126720.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-08-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "126730",
+      "name": "코칩",
+      "profile_path": "atlas/symbol_profiles/126/126730.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-05-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "126870",
+      "name": "뉴로스",
+      "profile_path": "atlas/symbol_profiles/126/126870.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2012-02-15",
+      "last_date": "2022-10-25",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "126880",
+      "name": "제이엔케이글로벌",
+      "profile_path": "atlas/symbol_profiles/126/126880.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-01-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "prefix": "277",
+  "codes": [
+    {
+      "code": "277070",
+      "name": "린드먼아시아",
+      "profile_path": "atlas/symbol_profiles/277/277070.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-03-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "277410",
+      "name": "인산가",
+      "profile_path": "atlas/symbol_profiles/277/277410.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-09-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "277480",
+      "name": "신한제4호스팩",
+      "profile_path": "atlas/symbol_profiles/277/277480.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2017-10-20",
+      "last_date": "2020-08-19",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "277810",
+      "name": "레인보우로보틱스",
+      "profile_path": "atlas/symbol_profiles/277/277810.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-02-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "277880",
+      "name": "티에스아이",
+      "profile_path": "atlas/symbol_profiles/277/277880.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-10-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

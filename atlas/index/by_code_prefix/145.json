@@ -1,0 +1,159 @@
+{
+  "prefix": "145",
+  "codes": [
+    {
+      "code": "145020",
+      "name": "휴젤",
+      "profile_path": "atlas/symbol_profiles/145/145020.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-12-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "145170",
+      "name": "노브랜드",
+      "profile_path": "atlas/symbol_profiles/145/145170.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-05-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "145210",
+      "name": "다이나믹디자인",
+      "profile_path": "atlas/symbol_profiles/145/145210.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-03-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "145270",
+      "name": "케이탑리츠",
+      "profile_path": "atlas/symbol_profiles/145/145270.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2012-01-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "145720",
+      "name": "덴티움",
+      "profile_path": "atlas/symbol_profiles/145/145720.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-03-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "145990",
+      "name": "삼양사",
+      "profile_path": "atlas/symbol_profiles/145/145990.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-12-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "145995",
+      "name": "삼양사우",
+      "profile_path": "atlas/symbol_profiles/145/145995.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-12-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

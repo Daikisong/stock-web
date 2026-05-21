@@ -1,0 +1,55 @@
+{
+  "prefix": "327",
+  "codes": [
+    {
+      "code": "327260",
+      "name": "RF머트리얼즈",
+      "profile_path": "atlas/symbol_profiles/327/327260.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "327610",
+      "name": "펨토바이오메드",
+      "profile_path": "atlas/symbol_profiles/327/327610.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-07-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "327970",
+      "name": "케어룸의료산업",
+      "profile_path": "atlas/symbol_profiles/327/327970.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2019-08-05",
+      "last_date": "2022-03-10",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

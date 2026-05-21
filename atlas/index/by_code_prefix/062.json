@@ -1,0 +1,96 @@
+{
+  "prefix": "062",
+  "codes": [
+    {
+      "code": "062040",
+      "name": "산일전기",
+      "profile_path": "atlas/symbol_profiles/062/062040.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-07-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "062580",
+      "name": "인산가",
+      "profile_path": "atlas/symbol_profiles/062/062580.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-12-21",
+      "last_date": "2018-09-10",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "062730",
+      "name": "케너텍",
+      "profile_path": "atlas/symbol_profiles/062/062730.json",
+      "available_years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "first_date": "2003-05-23",
+      "last_date": "2009-12-22",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "062860",
+      "name": "티엘아이",
+      "profile_path": "atlas/symbol_profiles/062/062860.json",
+      "available_years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2006-07-25",
+      "last_date": "2024-11-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "062970",
+      "name": "한국첨단소재",
+      "profile_path": "atlas/symbol_profiles/062/062970.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

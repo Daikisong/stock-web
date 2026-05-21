@@ -1,0 +1,36 @@
+{
+  "prefix": "343",
+  "codes": [
+    {
+      "code": "343090",
+      "name": "HLB사이언스",
+      "profile_path": "atlas/symbol_profiles/343/343090.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-04-24",
+      "last_date": "2026-01-15",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "343510",
+      "name": "하나금융16호스팩",
+      "profile_path": "atlas/symbol_profiles/343/343510.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2020-07-23",
+      "last_date": "2023-02-28",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

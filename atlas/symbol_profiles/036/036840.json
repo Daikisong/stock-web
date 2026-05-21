@@ -1,0 +1,73 @@
+{
+  "code": "036840",
+  "current_or_latest_name": "히스토스템",
+  "name_history": [
+    {
+      "name": "텍슨",
+      "first_date": "1999-12-24",
+      "last_date": "2009-06-23"
+    },
+    {
+      "name": "퓨비트",
+      "first_date": "2009-06-24",
+      "last_date": "2010-04-09"
+    },
+    {
+      "name": "히스토스템",
+      "first_date": "2010-04-12",
+      "last_date": "2011-09-14"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1999-12-24",
+      "last_date": "2011-09-14"
+    }
+  ],
+  "first_date": "1999-12-24",
+  "last_date": "2011-09-14",
+  "trading_day_count": 2897,
+  "available_years": [
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/036/036840/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036840/2011.csv"
+  ],
+  "latest_close": 55,
+  "latest_marcap": 1632138475,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,146 @@
+{
+  "prefix": "251",
+  "codes": [
+    {
+      "code": "251120",
+      "name": "바이오에프디엔씨",
+      "profile_path": "atlas/symbol_profiles/251/251120.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-02-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "251270",
+      "name": "넷마블",
+      "profile_path": "atlas/symbol_profiles/251/251270.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-05-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "251280",
+      "name": "안지오랩",
+      "profile_path": "atlas/symbol_profiles/251/251280.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-10-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "251370",
+      "name": "와이엠티",
+      "profile_path": "atlas/symbol_profiles/251/251370.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-04-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "251540",
+      "name": "에스와이제이",
+      "profile_path": "atlas/symbol_profiles/251/251540.json",
+      "available_years": [
+        2017,
+        2018
+      ],
+      "first_date": "2017-05-02",
+      "last_date": "2018-09-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "251630",
+      "name": "브이원텍",
+      "profile_path": "atlas/symbol_profiles/251/251630.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-07-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "251960",
+      "name": "엠에프엠코리아",
+      "profile_path": "atlas/symbol_profiles/251/251960.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2016-09-08",
+      "last_date": "2020-12-29",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "251970",
+      "name": "펌텍코리아",
+      "profile_path": "atlas/symbol_profiles/251/251970.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-07-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

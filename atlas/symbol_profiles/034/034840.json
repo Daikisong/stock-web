@@ -1,0 +1,41 @@
+{
+  "code": "034840",
+  "current_or_latest_name": "트윈스비전일",
+  "name_history": [
+    {
+      "name": "트윈스비전일",
+      "first_date": "1999-04-27",
+      "last_date": "2000-03-23"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1999-04-27",
+      "last_date": "2000-03-23"
+    }
+  ],
+  "first_date": "1999-04-27",
+  "last_date": "2000-03-23",
+  "trading_day_count": 229,
+  "available_years": [
+    1999,
+    2000
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/034/034840/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/034/034840/2000.csv"
+  ],
+  "latest_close": 6100,
+  "latest_marcap": 165596547500,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

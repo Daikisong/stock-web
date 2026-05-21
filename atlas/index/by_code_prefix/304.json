@@ -1,0 +1,53 @@
+{
+  "prefix": "304",
+  "codes": [
+    {
+      "code": "304100",
+      "name": "솔트룩스",
+      "profile_path": "atlas/symbol_profiles/304/304100.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-07-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "304360",
+      "name": "에스바이오메딕스",
+      "profile_path": "atlas/symbol_profiles/304/304360.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-05-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "304840",
+      "name": "피플바이오",
+      "profile_path": "atlas/symbol_profiles/304/304840.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-10-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

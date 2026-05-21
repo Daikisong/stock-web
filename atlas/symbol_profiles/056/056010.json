@@ -1,0 +1,69 @@
+{
+  "code": "056010",
+  "current_or_latest_name": "아이스테이션",
+  "name_history": [
+    {
+      "name": "디지털큐브",
+      "first_date": "2004-08-27",
+      "last_date": "2009-09-28"
+    },
+    {
+      "name": "아이스테이션",
+      "first_date": "2009-09-29",
+      "last_date": "2012-04-12"
+    },
+    {
+      "name": "콜린스",
+      "first_date": "2002-08-13",
+      "last_date": "2004-08-26"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2002-08-13",
+      "last_date": "2012-04-12"
+    }
+  ],
+  "first_date": "2002-08-13",
+  "last_date": "2012-04-12",
+  "trading_day_count": 2403,
+  "available_years": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/056/056010/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/056/056010/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/056/056010/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/056/056010/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/056/056010/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/056/056010/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/056/056010/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/056/056010/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/056/056010/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/056/056010/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/056/056010/2012.csv"
+  ],
+  "latest_close": 4,
+  "latest_marcap": 94029348,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,69 @@
+{
+  "code": "092870",
+  "current_or_latest_name": "엑시콘",
+  "name_history": [
+    {
+      "name": "엑시콘",
+      "first_date": "2014-12-24",
+      "last_date": "2026-02-20"
+    }
+  ],
+  "markets": [
+    "KONEX",
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KONEX",
+      "first_date": "2014-12-24",
+      "last_date": "2015-10-21"
+    },
+    {
+      "market": "KOSDAQ",
+      "first_date": "2015-10-22",
+      "last_date": "2026-02-20"
+    }
+  ],
+  "first_date": "2014-12-24",
+  "last_date": "2026-02-20",
+  "trading_day_count": 2737,
+  "available_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/092/092870/2026.csv"
+  ],
+  "latest_close": 29600,
+  "latest_marcap": 386303591200,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "active_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,99 @@
+{
+  "prefix": "365",
+  "codes": [
+    {
+      "code": "365270",
+      "name": "큐라클",
+      "profile_path": "atlas/symbol_profiles/365/365270.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-07-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "365330",
+      "name": "에스와이스틸텍",
+      "profile_path": "atlas/symbol_profiles/365/365330.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "365340",
+      "name": "성일하이텍",
+      "profile_path": "atlas/symbol_profiles/365/365340.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-07-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "365550",
+      "name": "ESR켄달스퀘어리츠",
+      "profile_path": "atlas/symbol_profiles/365/365550.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-12-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "365590",
+      "name": "하이딥",
+      "profile_path": "atlas/symbol_profiles/365/365590.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-12-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "365900",
+      "name": "브이씨",
+      "profile_path": "atlas/symbol_profiles/365/365900.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-02-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

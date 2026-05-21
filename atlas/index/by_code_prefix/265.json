@@ -1,0 +1,90 @@
+{
+  "prefix": "265",
+  "codes": [
+    {
+      "code": "265480",
+      "name": "미래에셋대우스팩1호",
+      "profile_path": "atlas/symbol_profiles/265/265480.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2017-05-26",
+      "last_date": "2020-01-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "265520",
+      "name": "AP시스템",
+      "profile_path": "atlas/symbol_profiles/265/265520.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-04-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "265560",
+      "name": "영화테크",
+      "profile_path": "atlas/symbol_profiles/265/265560.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-10-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "265740",
+      "name": "엔에프씨",
+      "profile_path": "atlas/symbol_profiles/265/265740.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-12-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "265920",
+      "name": "한화수성스팩",
+      "profile_path": "atlas/symbol_profiles/265/265920.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2017-06-08",
+      "last_date": "2020-01-14",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

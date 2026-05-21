@@ -1,0 +1,119 @@
+{
+  "prefix": "128",
+  "codes": [
+    {
+      "code": "128540",
+      "name": "에코캡",
+      "profile_path": "atlas/symbol_profiles/128/128540.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "128660",
+      "name": "피제이메탈",
+      "profile_path": "atlas/symbol_profiles/128/128660.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-12-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "128820",
+      "name": "대성산업",
+      "profile_path": "atlas/symbol_profiles/128/128820.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-07-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "128910",
+      "name": "동부티에스블랙펄스팩",
+      "profile_path": "atlas/symbol_profiles/128/128910.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "first_date": "2010-12-08",
+      "last_date": "2013-07-12",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "128940",
+      "name": "한미약품",
+      "profile_path": "atlas/symbol_profiles/128/128940.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-07-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

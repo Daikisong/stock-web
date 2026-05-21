@@ -1,0 +1,270 @@
+{
+  "prefix": "215",
+  "codes": [
+    {
+      "code": "215000",
+      "name": "골프존",
+      "profile_path": "atlas/symbol_profiles/215/215000.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-04-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "215050",
+      "name": "비엔디생활건강",
+      "profile_path": "atlas/symbol_profiles/215/215050.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2015-03-30",
+      "last_date": "2023-04-20",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "215090",
+      "name": "솔디펜스",
+      "profile_path": "atlas/symbol_profiles/215/215090.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-04-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "215100",
+      "name": "로보로보",
+      "profile_path": "atlas/symbol_profiles/215/215100.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-04-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "215200",
+      "name": "메가스터디교육",
+      "profile_path": "atlas/symbol_profiles/215/215200.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-05-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "215360",
+      "name": "우리산업",
+      "profile_path": "atlas/symbol_profiles/215/215360.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-05-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "215380",
+      "name": "우정바이오",
+      "profile_path": "atlas/symbol_profiles/215/215380.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-05-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "215480",
+      "name": "토박스코리아",
+      "profile_path": "atlas/symbol_profiles/215/215480.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-05-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "215570",
+      "name": "크로넥스",
+      "profile_path": "atlas/symbol_profiles/215/215570.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-12-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "215580",
+      "name": "대우스팩3호",
+      "profile_path": "atlas/symbol_profiles/215/215580.json",
+      "available_years": [
+        2015,
+        2016,
+        2017
+      ],
+      "first_date": "2015-05-19",
+      "last_date": "2017-12-22",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "215600",
+      "name": "신라젠",
+      "profile_path": "atlas/symbol_profiles/215/215600.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-12-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "215750",
+      "name": "미래에셋제3호스팩",
+      "profile_path": "atlas/symbol_profiles/215/215750.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-05-22",
+      "last_date": "2018-01-03",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "215790",
+      "name": "이노인스트루먼트",
+      "profile_path": "atlas/symbol_profiles/215/215790.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-05-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "code": "009360",
+  "current_or_latest_name": "베네데스하이텍",
+  "name_history": [
+    {
+      "name": "베네데스",
+      "first_date": "2000-04-17",
+      "last_date": "2004-10-26"
+    },
+    {
+      "name": "베네데스하이텍",
+      "first_date": "2004-10-27",
+      "last_date": "2005-04-14"
+    },
+    {
+      "name": "청    산",
+      "first_date": "1996-11-25",
+      "last_date": "2000-04-14"
+    },
+    {
+      "name": "청산",
+      "first_date": "1995-05-02",
+      "last_date": "1996-11-22"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2005-04-14"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2005-04-14",
+  "trading_day_count": 2619,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/009/009360/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/009/009360/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/009/009360/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/009/009360/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/009/009360/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/009/009360/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/009/009360/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/009/009360/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/009/009360/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/009/009360/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/009/009360/2005.csv"
+  ],
+  "latest_close": 5,
+  "latest_marcap": 60488280,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

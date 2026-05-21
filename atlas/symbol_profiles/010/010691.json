@@ -1,0 +1,56 @@
+{
+  "code": "010691",
+  "current_or_latest_name": "화    신(1신)",
+  "name_history": [
+    {
+      "name": "화    신(1신)",
+      "first_date": "1996-11-25",
+      "last_date": "1996-12-27"
+    },
+    {
+      "name": "화신(1신)",
+      "first_date": "1996-10-16",
+      "last_date": "1996-11-22"
+    },
+    {
+      "name": "화신제작소",
+      "first_date": "1995-05-02",
+      "last_date": "1995-11-13"
+    },
+    {
+      "name": "화신제작소(1신)",
+      "first_date": "1995-11-14",
+      "last_date": "1995-12-27"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "1996-12-27"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "1996-12-27",
+  "trading_day_count": 258,
+  "available_years": [
+    1995,
+    1996
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/010/010691/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/010/010691/1996.csv"
+  ],
+  "latest_close": 14200,
+  "latest_marcap": 9297364800,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

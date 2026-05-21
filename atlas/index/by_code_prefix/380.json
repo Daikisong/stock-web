@@ -1,0 +1,59 @@
+{
+  "prefix": "380",
+  "codes": [
+    {
+      "code": "380320",
+      "name": "삼성머스트스팩5호",
+      "profile_path": "atlas/symbol_profiles/380/380320.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2021-06-17",
+      "last_date": "2024-01-22",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "380440",
+      "name": "엔에이치스팩19호",
+      "profile_path": "atlas/symbol_profiles/380/380440.json",
+      "available_years": [
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2021-05-21",
+      "last_date": "2023-12-28",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "380540",
+      "name": "옵티코어",
+      "profile_path": "atlas/symbol_profiles/380/380540.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-12-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "380550",
+      "name": "뉴로핏",
+      "profile_path": "atlas/symbol_profiles/380/380550.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-07-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

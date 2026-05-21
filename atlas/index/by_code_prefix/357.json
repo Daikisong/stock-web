@@ -1,0 +1,136 @@
+{
+  "prefix": "357",
+  "codes": [
+    {
+      "code": "357120",
+      "name": "코람코라이프인프라리츠",
+      "profile_path": "atlas/symbol_profiles/357/357120.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-08-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "357230",
+      "name": "에이치피오",
+      "profile_path": "atlas/symbol_profiles/357/357230.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-05-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "357250",
+      "name": "미래에셋맵스리츠",
+      "profile_path": "atlas/symbol_profiles/357/357250.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-08-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "357430",
+      "name": "마스턴프리미어리츠",
+      "profile_path": "atlas/symbol_profiles/357/357430.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-05-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "357550",
+      "name": "석경에이티",
+      "profile_path": "atlas/symbol_profiles/357/357550.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-12-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "357580",
+      "name": "아모센스",
+      "profile_path": "atlas/symbol_profiles/357/357580.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-06-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "357780",
+      "name": "솔브레인",
+      "profile_path": "atlas/symbol_profiles/357/357780.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-08-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "357880",
+      "name": "SKAI",
+      "profile_path": "atlas/symbol_profiles/357/357880.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-11-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

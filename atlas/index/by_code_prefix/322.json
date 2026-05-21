@@ -1,0 +1,125 @@
+{
+  "prefix": "322",
+  "codes": [
+    {
+      "code": "322000",
+      "name": "HD현대에너지솔루션",
+      "profile_path": "atlas/symbol_profiles/322/322000.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-11-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "322180",
+      "name": "LS티라유텍",
+      "profile_path": "atlas/symbol_profiles/322/322180.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-10-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "322190",
+      "name": "베른",
+      "profile_path": "atlas/symbol_profiles/322/322190.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2020-12-29",
+      "last_date": "2024-04-24",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "322310",
+      "name": "오로스테크놀로지",
+      "profile_path": "atlas/symbol_profiles/322/322310.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-02-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "322510",
+      "name": "제이엘케이",
+      "profile_path": "atlas/symbol_profiles/322/322510.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "322780",
+      "name": "코퍼스코리아",
+      "profile_path": "atlas/symbol_profiles/322/322780.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-05-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "322970",
+      "name": "무진메디",
+      "profile_path": "atlas/symbol_profiles/322/322970.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-06-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

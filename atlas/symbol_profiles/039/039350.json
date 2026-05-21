@@ -1,0 +1,76 @@
+{
+  "code": "039350",
+  "current_or_latest_name": "헤파호프",
+  "name_history": [
+    {
+      "name": "네오시안",
+      "first_date": "2006-04-26",
+      "last_date": "2006-07-31"
+    },
+    {
+      "name": "엔틱스소프트",
+      "first_date": "2004-04-12",
+      "last_date": "2006-04-25"
+    },
+    {
+      "name": "타프시스템",
+      "first_date": "2000-12-07",
+      "last_date": "2004-04-09"
+    },
+    {
+      "name": "헤파호프",
+      "first_date": "2006-08-01",
+      "last_date": "2011-06-15"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2000-12-07",
+      "last_date": "2011-06-15"
+    }
+  ],
+  "first_date": "2000-12-07",
+  "last_date": "2011-06-15",
+  "trading_day_count": 2604,
+  "available_years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039350/2011.csv"
+  ],
+  "latest_close": 20,
+  "latest_marcap": 682404420,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

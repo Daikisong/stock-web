@@ -1,0 +1,54 @@
+{
+  "prefix": "363",
+  "codes": [
+    {
+      "code": "363250",
+      "name": "진시스템",
+      "profile_path": "atlas/symbol_profiles/363/363250.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-05-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "363260",
+      "name": "모비데이즈",
+      "profile_path": "atlas/symbol_profiles/363/363260.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-02-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "363280",
+      "name": "티와이홀딩스",
+      "profile_path": "atlas/symbol_profiles/363/363280.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-09-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

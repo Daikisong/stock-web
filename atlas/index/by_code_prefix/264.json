@@ -1,0 +1,97 @@
+{
+  "prefix": "264",
+  "codes": [
+    {
+      "code": "264290",
+      "name": "한화에이스스팩3호",
+      "profile_path": "atlas/symbol_profiles/264/264290.json",
+      "available_years": [
+        2017,
+        2018,
+        2019
+      ],
+      "first_date": "2017-05-02",
+      "last_date": "2019-12-05",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "264450",
+      "name": "유비쿼스",
+      "profile_path": "atlas/symbol_profiles/264/264450.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-03-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "264660",
+      "name": "씨앤지하이테크",
+      "profile_path": "atlas/symbol_profiles/264/264660.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-01-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "264850",
+      "name": "이랜시스",
+      "profile_path": "atlas/symbol_profiles/264/264850.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-06-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "264900",
+      "name": "크라운제과",
+      "profile_path": "atlas/symbol_profiles/264/264900.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-04-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "prefix": "114",
+  "codes": [
+    {
+      "code": "114090",
+      "name": "GKL",
+      "profile_path": "atlas/symbol_profiles/114/114090.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2009-11-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "114120",
+      "name": "크루셜텍",
+      "profile_path": "atlas/symbol_profiles/114/114120.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2010-07-21",
+      "last_date": "2024-02-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "114130",
+      "name": "거북선5호",
+      "profile_path": "atlas/symbol_profiles/114/114130.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "first_date": "2009-10-01",
+      "last_date": "2012-02-29",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "114140",
+      "name": "거북선6호",
+      "profile_path": "atlas/symbol_profiles/114/114140.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "first_date": "2009-10-01",
+      "last_date": "2012-02-29",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "114190",
+      "name": "강원에너지",
+      "profile_path": "atlas/symbol_profiles/114/114190.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2009-11-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "114410",
+      "name": "현대푸드",
+      "profile_path": "atlas/symbol_profiles/114/114410.json",
+      "available_years": [
+        2009,
+        2010
+      ],
+      "first_date": "2009-12-17",
+      "last_date": "2010-07-15",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "114450",
+      "name": "그린생명과학",
+      "profile_path": "atlas/symbol_profiles/114/114450.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2009-12-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "114570",
+      "name": "지스마트글로벌",
+      "profile_path": "atlas/symbol_profiles/114/114570.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2010-02-04",
+      "last_date": "2022-02-22",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "114630",
+      "name": "폴라리스우노",
+      "profile_path": "atlas/symbol_profiles/114/114630.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-01-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "114810",
+      "name": "한솔아이원스",
+      "profile_path": "atlas/symbol_profiles/114/114810.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-02-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "114840",
+      "name": "아이패밀리에스씨",
+      "profile_path": "atlas/symbol_profiles/114/114840.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-10-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "114920",
+      "name": "대주이엔티",
+      "profile_path": "atlas/symbol_profiles/114/114920.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-07-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

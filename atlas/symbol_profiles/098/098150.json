@@ -1,0 +1,49 @@
+{
+  "code": "098150",
+  "current_or_latest_name": "한국아태특별",
+  "name_history": [
+    {
+      "name": "한국아태특별",
+      "first_date": "2007-09-05",
+      "last_date": "2012-04-20"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2007-09-05",
+      "last_date": "2012-04-20"
+    }
+  ],
+  "first_date": "2007-09-05",
+  "last_date": "2012-04-20",
+  "trading_day_count": 1153,
+  "available_years": [
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/098/098150/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/098/098150/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/098/098150/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/098/098150/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/098/098150/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/098/098150/2012.csv"
+  ],
+  "latest_close": 173,
+  "latest_marcap": 1267808529,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

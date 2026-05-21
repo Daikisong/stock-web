@@ -1,0 +1,107 @@
+{
+  "prefix": "207",
+  "codes": [
+    {
+      "code": "207230",
+      "name": "디와이엘엔제이",
+      "profile_path": "atlas/symbol_profiles/207/207230.json",
+      "available_years": [
+        2015,
+        2016
+      ],
+      "first_date": "2015-09-14",
+      "last_date": "2016-07-25",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "207490",
+      "name": "에이펙스인텍",
+      "profile_path": "atlas/symbol_profiles/207/207490.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "207720",
+      "name": "엔에이치SL스팩",
+      "profile_path": "atlas/symbol_profiles/207/207720.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "first_date": "2014-12-17",
+      "last_date": "2017-10-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "207760",
+      "name": "미스터블루",
+      "profile_path": "atlas/symbol_profiles/207/207760.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-12-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "207930",
+      "name": "SK1호스팩",
+      "profile_path": "atlas/symbol_profiles/207/207930.json",
+      "available_years": [
+        2015,
+        2016,
+        2017
+      ],
+      "first_date": "2015-03-31",
+      "last_date": "2017-11-03",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "207940",
+      "name": "삼성바이오로직스",
+      "profile_path": "atlas/symbol_profiles/207/207940.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-11-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

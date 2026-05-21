@@ -1,0 +1,62 @@
+{
+  "prefix": "393",
+  "codes": [
+    {
+      "code": "393210",
+      "name": "토마토시스템",
+      "profile_path": "atlas/symbol_profiles/393/393210.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-10-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "393360",
+      "name": "신한제8호스팩",
+      "profile_path": "atlas/symbol_profiles/393/393360.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2021-09-27",
+      "last_date": "2024-04-29",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "393890",
+      "name": "더블유씨피",
+      "profile_path": "atlas/symbol_profiles/393/393890.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-09-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "393970",
+      "name": "대진첨단소재",
+      "profile_path": "atlas/symbol_profiles/393/393970.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-03-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "code": "020860",
+  "current_or_latest_name": "리타워텍",
+  "name_history": [
+    {
+      "name": "리타워텍",
+      "first_date": "1996-07-01",
+      "last_date": "2003-04-10"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1996-07-01",
+      "last_date": "2003-04-10"
+    }
+  ],
+  "first_date": "1996-07-01",
+  "last_date": "2003-04-10",
+  "trading_day_count": 1781,
+  "available_years": [
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/020/020860/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/020/020860/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/020/020860/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/020/020860/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/020/020860/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/020/020860/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/020/020860/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/020/020860/2003.csv"
+  ],
+  "latest_close": 20,
+  "latest_marcap": 603653560,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

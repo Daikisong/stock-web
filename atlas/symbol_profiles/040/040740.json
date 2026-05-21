@@ -1,0 +1,70 @@
+{
+  "code": "040740",
+  "current_or_latest_name": "아인스M&M",
+  "name_history": [
+    {
+      "name": "스펙트럼",
+      "first_date": "2005-03-17",
+      "last_date": "2006-04-07"
+    },
+    {
+      "name": "스펙트럼DVD",
+      "first_date": "2004-01-28",
+      "last_date": "2005-03-16"
+    },
+    {
+      "name": "아인스M&M",
+      "first_date": "2008-12-23",
+      "last_date": "2012-04-30"
+    },
+    {
+      "name": "태원엔터테인",
+      "first_date": "2006-04-10",
+      "last_date": "2008-12-22"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2004-01-28",
+      "last_date": "2012-04-30"
+    }
+  ],
+  "first_date": "2004-01-28",
+  "last_date": "2012-04-30",
+  "trading_day_count": 2058,
+  "available_years": [
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/040/040740/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/040/040740/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/040/040740/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/040/040740/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/040/040740/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/040/040740/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/040/040740/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/040/040740/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/040/040740/2012.csv"
+  ],
+  "latest_close": 9,
+  "latest_marcap": 262956627,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

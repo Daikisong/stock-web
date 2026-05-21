@@ -1,0 +1,59 @@
+{
+  "code": "038980",
+  "current_or_latest_name": "이지클럽",
+  "name_history": [
+    {
+      "name": "넥시즈",
+      "first_date": "2001-10-11",
+      "last_date": "2003-04-16"
+    },
+    {
+      "name": "이지클럽",
+      "first_date": "2003-04-17",
+      "last_date": "2005-09-09"
+    },
+    {
+      "name": "태창메텍",
+      "first_date": "2000-07-04",
+      "last_date": "2001-10-10"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2000-07-04",
+      "last_date": "2005-09-09"
+    }
+  ],
+  "first_date": "2000-07-04",
+  "last_date": "2005-09-09",
+  "trading_day_count": 1277,
+  "available_years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/038/038980/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038980/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038980/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038980/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038980/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038980/2005.csv"
+  ],
+  "latest_close": 5,
+  "latest_marcap": 13461685,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

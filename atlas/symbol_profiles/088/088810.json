@@ -1,0 +1,59 @@
+{
+  "code": "088810",
+  "current_or_latest_name": "맥스브로",
+  "name_history": [
+    {
+      "name": "맥스브로",
+      "first_date": "2010-05-25",
+      "last_date": "2011-04-28"
+    },
+    {
+      "name": "베리앤모어",
+      "first_date": "2008-04-21",
+      "last_date": "2010-05-24"
+    },
+    {
+      "name": "에스에이치텍",
+      "first_date": "2006-04-17",
+      "last_date": "2008-04-18"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2006-04-17",
+      "last_date": "2011-04-28"
+    }
+  ],
+  "first_date": "2006-04-17",
+  "last_date": "2011-04-28",
+  "trading_day_count": 1252,
+  "available_years": [
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/088/088810/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/088/088810/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/088/088810/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/088/088810/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/088/088810/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/088/088810/2011.csv"
+  ],
+  "latest_close": 30,
+  "latest_marcap": 235499010,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

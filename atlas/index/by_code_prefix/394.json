@@ -1,0 +1,33 @@
+{
+  "prefix": "394",
+  "codes": [
+    {
+      "code": "394280",
+      "name": "오픈엣지테크놀로지",
+      "profile_path": "atlas/symbol_profiles/394/394280.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-09-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "394800",
+      "name": "쓰리빌리언",
+      "profile_path": "atlas/symbol_profiles/394/394800.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

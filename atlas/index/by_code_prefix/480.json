@@ -1,0 +1,17 @@
+{
+  "prefix": "480",
+  "codes": [
+    {
+      "code": "480370",
+      "name": "씨케이솔루션",
+      "profile_path": "atlas/symbol_profiles/480/480370.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-03-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

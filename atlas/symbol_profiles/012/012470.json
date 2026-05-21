@@ -1,0 +1,57 @@
+{
+  "code": "012470",
+  "current_or_latest_name": "영진테크",
+  "name_history": [
+    {
+      "name": "동양섬유",
+      "first_date": "1995-05-02",
+      "last_date": "1997-04-22"
+    },
+    {
+      "name": "동양테크",
+      "first_date": "1997-04-23",
+      "last_date": "1997-10-22"
+    },
+    {
+      "name": "영진테크",
+      "first_date": "1997-10-23",
+      "last_date": "1999-10-26"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "1999-10-26"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "1999-10-26",
+  "trading_day_count": 1278,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/012/012470/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012470/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012470/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012470/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012470/1999.csv"
+  ],
+  "latest_close": 50,
+  "latest_marcap": 245500000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,75 @@
+{
+  "prefix": "432",
+  "codes": [
+    {
+      "code": "432320",
+      "name": "KB스타리츠",
+      "profile_path": "atlas/symbol_profiles/432/432320.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-10-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "432430",
+      "name": "와이랩",
+      "profile_path": "atlas/symbol_profiles/432/432430.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "432470",
+      "name": "케이엔에스",
+      "profile_path": "atlas/symbol_profiles/432/432470.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-12-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "432720",
+      "name": "퀄리타스반도체",
+      "profile_path": "atlas/symbol_profiles/432/432720.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-10-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "432980",
+      "name": "엠에프씨",
+      "profile_path": "atlas/symbol_profiles/432/432980.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-12-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

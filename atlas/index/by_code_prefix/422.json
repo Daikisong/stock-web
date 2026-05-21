@@ -1,0 +1,19 @@
+{
+  "prefix": "422",
+  "codes": [
+    {
+      "code": "422040",
+      "name": "엔에이치스팩23호",
+      "profile_path": "atlas/symbol_profiles/422/422040.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-06-28",
+      "last_date": "2025-02-07",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

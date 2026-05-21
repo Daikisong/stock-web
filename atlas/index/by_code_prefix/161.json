@@ -1,0 +1,122 @@
+{
+  "prefix": "161",
+  "codes": [
+    {
+      "code": "161000",
+      "name": "애경케미칼",
+      "profile_path": "atlas/symbol_profiles/161/161000.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2012-09-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "161390",
+      "name": "한국타이어앤테크놀로지",
+      "profile_path": "atlas/symbol_profiles/161/161390.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2012-10-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "161570",
+      "name": "THE MIDONG",
+      "profile_path": "atlas/symbol_profiles/161/161570.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2013-11-13",
+      "last_date": "2024-06-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "161580",
+      "name": "필옵틱스",
+      "profile_path": "atlas/symbol_profiles/161/161580.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-06-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "161890",
+      "name": "한국콜마",
+      "profile_path": "atlas/symbol_profiles/161/161890.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2012-10-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "prefix": "352",
+  "codes": [
+    {
+      "code": "352090",
+      "name": "스톰테크",
+      "profile_path": "atlas/symbol_profiles/352/352090.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "352480",
+      "name": "씨앤씨인터내셔널",
+      "profile_path": "atlas/symbol_profiles/352/352480.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-05-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "352700",
+      "name": "씨앤투스",
+      "profile_path": "atlas/symbol_profiles/352/352700.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-01-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "352770",
+      "name": "셀레스트라",
+      "profile_path": "atlas/symbol_profiles/352/352770.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-12-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "352820",
+      "name": "하이브",
+      "profile_path": "atlas/symbol_profiles/352/352820.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-10-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "352910",
+      "name": "오비고",
+      "profile_path": "atlas/symbol_profiles/352/352910.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-07-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "352940",
+      "name": "인바이오",
+      "profile_path": "atlas/symbol_profiles/352/352940.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-12-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prefix": "181",
+  "codes": [
+    {
+      "code": "181340",
+      "name": "이즈미디어",
+      "profile_path": "atlas/symbol_profiles/181/181340.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2017-07-26",
+      "last_date": "2024-07-09",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "181710",
+      "name": "NHN",
+      "profile_path": "atlas/symbol_profiles/181/181710.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-08-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "181980",
+      "name": "힘스인터내셔널",
+      "profile_path": "atlas/symbol_profiles/181/181980.json",
+      "available_years": [
+        2013,
+        2014,
+        2015
+      ],
+      "first_date": "2013-08-14",
+      "last_date": "2015-04-14",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

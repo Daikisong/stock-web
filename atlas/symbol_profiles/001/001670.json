@@ -1,0 +1,59 @@
+{
+  "code": "001670",
+  "current_or_latest_name": "경남모직",
+  "name_history": [
+    {
+      "name": "경남모직",
+      "first_date": "1995-05-02",
+      "last_date": "2005-04-27"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2005-04-27"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2005-04-27",
+  "trading_day_count": 2628,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/001/001670/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001670/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001670/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001670/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001670/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001670/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001670/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001670/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001670/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001670/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001670/2005.csv"
+  ],
+  "latest_close": 950,
+  "latest_marcap": 3398710500,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

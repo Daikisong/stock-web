@@ -1,0 +1,82 @@
+{
+  "prefix": "474",
+  "codes": [
+    {
+      "code": "474170",
+      "name": "루미르",
+      "profile_path": "atlas/symbol_profiles/474/474170.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-10-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "474490",
+      "name": "유안타제16호스팩",
+      "profile_path": "atlas/symbol_profiles/474/474490.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-05-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "474610",
+      "name": "RF시스템즈",
+      "profile_path": "atlas/symbol_profiles/474/474610.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "474650",
+      "name": "링크솔루션",
+      "profile_path": "atlas/symbol_profiles/474/474650.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-06-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "474660",
+      "name": "신한제12호스팩",
+      "profile_path": "atlas/symbol_profiles/474/474660.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-04-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "474930",
+      "name": "신한제13호스팩",
+      "profile_path": "atlas/symbol_profiles/474/474930.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-04-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

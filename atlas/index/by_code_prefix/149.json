@@ -1,0 +1,128 @@
+{
+  "prefix": "149",
+  "codes": [
+    {
+      "code": "149010",
+      "name": "아이케이세미콘",
+      "profile_path": "atlas/symbol_profiles/149/149010.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-11-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "149130",
+      "name": "케이비부국위탁리츠",
+      "profile_path": "atlas/symbol_profiles/149/149130.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "first_date": "2012-06-12",
+      "last_date": "2015-02-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "149300",
+      "name": "아퓨어스",
+      "profile_path": "atlas/symbol_profiles/149/149300.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-09-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "149940",
+      "name": "모다",
+      "profile_path": "atlas/symbol_profiles/149/149940.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2012-09-25",
+      "last_date": "2020-07-09",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "149950",
+      "name": "아바텍",
+      "profile_path": "atlas/symbol_profiles/149/149950.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2012-11-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "149980",
+      "name": "하이로닉",
+      "profile_path": "atlas/symbol_profiles/149/149980.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-07-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "prefix": "255",
+  "codes": [
+    {
+      "code": "255220",
+      "name": "SG",
+      "profile_path": "atlas/symbol_profiles/255/255220.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-01-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "255440",
+      "name": "야스",
+      "profile_path": "atlas/symbol_profiles/255/255440.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-09-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

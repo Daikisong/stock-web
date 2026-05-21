@@ -1,0 +1,45 @@
+{
+  "code": "290510",
+  "current_or_latest_name": "코리아센터",
+  "name_history": [
+    {
+      "name": "코리아센터",
+      "first_date": "2019-11-29",
+      "last_date": "2022-12-15"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2019-11-29",
+      "last_date": "2022-12-15"
+    }
+  ],
+  "first_date": "2019-11-29",
+  "last_date": "2022-12-15",
+  "trading_day_count": 753,
+  "available_years": [
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/290/290510/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/290/290510/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/290/290510/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/290/290510/2022.csv"
+  ],
+  "latest_close": 5380,
+  "latest_marcap": 616195319480,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

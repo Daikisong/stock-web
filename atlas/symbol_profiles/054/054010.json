@@ -1,0 +1,79 @@
+{
+  "code": "054010",
+  "current_or_latest_name": "선팩테크",
+  "name_history": [
+    {
+      "name": "선팩테크",
+      "first_date": "2011-07-08",
+      "last_date": "2011-10-05"
+    },
+    {
+      "name": "유비트론",
+      "first_date": "2005-04-12",
+      "last_date": "2011-07-07"
+    },
+    {
+      "name": "평화미디어",
+      "first_date": "2004-02-27",
+      "last_date": "2004-03-03"
+    },
+    {
+      "name": "평화미디어컴",
+      "first_date": "2004-03-04",
+      "last_date": "2005-04-11"
+    },
+    {
+      "name": "평화일렉콤",
+      "first_date": "2001-10-23",
+      "last_date": "2004-02-26"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2001-10-23",
+      "last_date": "2011-10-05"
+    }
+  ],
+  "first_date": "2001-10-23",
+  "last_date": "2011-10-05",
+  "trading_day_count": 2469,
+  "available_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/054/054010/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054010/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054010/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054010/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054010/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054010/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054010/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054010/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054010/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054010/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054010/2011.csv"
+  ],
+  "latest_close": 3,
+  "latest_marcap": 85838253,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,18 @@
+{
+  "prefix": "398",
+  "codes": [
+    {
+      "code": "398120",
+      "name": "에스지헬스케어",
+      "profile_path": "atlas/symbol_profiles/398/398120.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-12-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

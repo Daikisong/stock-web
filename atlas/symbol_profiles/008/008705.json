@@ -1,0 +1,94 @@
+{
+  "code": "008705",
+  "current_or_latest_name": "아남전자우",
+  "name_history": [
+    {
+      "name": "아남전자(1우 )",
+      "first_date": "2001-06-28",
+      "last_date": "2001-07-04"
+    },
+    {
+      "name": "아남전자(1우)",
+      "first_date": "1995-05-02",
+      "last_date": "2006-12-19"
+    },
+    {
+      "name": "아남전자(1우B)",
+      "first_date": "2006-12-20",
+      "last_date": "2008-08-01"
+    },
+    {
+      "name": "아남전자우",
+      "first_date": "2008-08-04",
+      "last_date": "2015-07-14"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2015-07-14"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2015-07-14",
+  "trading_day_count": 5164,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/008/008705/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008705/2015.csv"
+  ],
+  "latest_close": 2390,
+  "latest_marcap": 66179100,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

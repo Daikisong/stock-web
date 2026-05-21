@@ -1,0 +1,45 @@
+{
+  "code": "446150",
+  "current_or_latest_name": "유안타제12호스팩",
+  "name_history": [
+    {
+      "name": "유안타제12호스팩",
+      "first_date": "2023-03-17",
+      "last_date": "2026-01-27"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2023-03-17",
+      "last_date": "2026-01-27"
+    }
+  ],
+  "first_date": "2023-03-17",
+  "last_date": "2026-01-27",
+  "trading_day_count": 698,
+  "available_years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/446/446150/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/446/446150/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/446/446150/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/446/446150/2026.csv"
+  ],
+  "latest_close": 2150,
+  "latest_marcap": 10255500000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

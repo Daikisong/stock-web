@@ -1,0 +1,65 @@
+{
+  "code": "002610",
+  "current_or_latest_name": "LGEI",
+  "name_history": [
+    {
+      "name": "LGEI",
+      "first_date": "2002-04-22",
+      "last_date": "2003-03-10"
+    },
+    {
+      "name": "LG전자",
+      "first_date": "1997-05-15",
+      "last_date": "2002-04-19"
+    },
+    {
+      "name": "엘지전자",
+      "first_date": "1995-05-02",
+      "last_date": "1997-05-13"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2003-03-10"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2003-03-10",
+  "trading_day_count": 2101,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/002/002610/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002610/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002610/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002610/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002610/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002610/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002610/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002610/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002610/2003.csv"
+  ],
+  "latest_close": 12700,
+  "latest_marcap": 1179387938400,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

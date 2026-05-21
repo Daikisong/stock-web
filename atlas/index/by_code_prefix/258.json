@@ -1,0 +1,122 @@
+{
+  "prefix": "258",
+  "codes": [
+    {
+      "code": "258050",
+      "name": "테크트랜스",
+      "profile_path": "atlas/symbol_profiles/258/258050.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-07-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "258250",
+      "name": "셀젠텍",
+      "profile_path": "atlas/symbol_profiles/258/258250.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2016-12-13",
+      "last_date": "2024-08-29",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "258540",
+      "name": "에스엘테라퓨틱스",
+      "profile_path": "atlas/symbol_profiles/258/258540.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2016-11-29",
+      "last_date": "2025-05-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "258610",
+      "name": "케일럼",
+      "profile_path": "atlas/symbol_profiles/258/258610.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-08-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "258790",
+      "name": "소프트캠프",
+      "profile_path": "atlas/symbol_profiles/258/258790.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-04-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "258830",
+      "name": "세종메디칼",
+      "profile_path": "atlas/symbol_profiles/258/258830.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-05-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

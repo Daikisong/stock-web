@@ -1,0 +1,20 @@
+{
+  "prefix": "371",
+  "codes": [
+    {
+      "code": "371950",
+      "name": "풍원정밀",
+      "profile_path": "atlas/symbol_profiles/371/371950.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-02-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

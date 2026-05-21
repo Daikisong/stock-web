@@ -1,0 +1,22 @@
+{
+  "prefix": "326",
+  "codes": [
+    {
+      "code": "326030",
+      "name": "SK바이오팜",
+      "profile_path": "atlas/symbol_profiles/326/326030.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-07-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

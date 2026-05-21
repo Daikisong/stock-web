@@ -1,0 +1,218 @@
+{
+  "prefix": "208",
+  "codes": [
+    {
+      "code": "208140",
+      "name": "정다운",
+      "profile_path": "atlas/symbol_profiles/208/208140.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-12-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "208340",
+      "name": "파멥신",
+      "profile_path": "atlas/symbol_profiles/208/208340.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-21",
+      "last_date": "2026-01-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "208350",
+      "name": "지란지교시큐리티",
+      "profile_path": "atlas/symbol_profiles/208/208350.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-12-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "208370",
+      "name": "셀바스헬스케어",
+      "profile_path": "atlas/symbol_profiles/208/208370.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-12-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "208640",
+      "name": "썸에이지",
+      "profile_path": "atlas/symbol_profiles/208/208640.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-12-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "208710",
+      "name": "포톤",
+      "profile_path": "atlas/symbol_profiles/208/208710.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-12-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "208850",
+      "name": "이비테크",
+      "profile_path": "atlas/symbol_profiles/208/208850.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-06-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "208860",
+      "name": "다산디엠씨",
+      "profile_path": "atlas/symbol_profiles/208/208860.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-07-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "208870",
+      "name": "하나머스트3호스팩",
+      "profile_path": "atlas/symbol_profiles/208/208870.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "first_date": "2014-12-24",
+      "last_date": "2017-07-28",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "208890",
+      "name": "미래엔에듀파트너",
+      "profile_path": "atlas/symbol_profiles/208/208890.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-12-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

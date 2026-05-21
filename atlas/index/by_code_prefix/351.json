@@ -1,0 +1,79 @@
+{
+  "prefix": "351",
+  "codes": [
+    {
+      "code": "351020",
+      "name": "미쥬",
+      "profile_path": "atlas/symbol_profiles/351/351020.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-10-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "351320",
+      "name": "넥사다이내믹스",
+      "profile_path": "atlas/symbol_profiles/351/351320.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-06-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "351330",
+      "name": "이삭엔지니어링",
+      "profile_path": "atlas/symbol_profiles/351/351330.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-04-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "351340",
+      "name": "IBKS제13호스팩",
+      "profile_path": "atlas/symbol_profiles/351/351340.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2020-07-15",
+      "last_date": "2023-02-20",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "351870",
+      "name": "차이커뮤니케이션",
+      "profile_path": "atlas/symbol_profiles/351/351870.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-09-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

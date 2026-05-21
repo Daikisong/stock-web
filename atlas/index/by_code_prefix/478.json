@@ -1,0 +1,81 @@
+{
+  "prefix": "478",
+  "codes": [
+    {
+      "code": "478110",
+      "name": "이베스트스팩6호",
+      "profile_path": "atlas/symbol_profiles/478/478110.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-07-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "478340",
+      "name": "나라스페이스테크놀로지",
+      "profile_path": "atlas/symbol_profiles/478/478340.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-12-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "478390",
+      "name": "KB제29호스팩",
+      "profile_path": "atlas/symbol_profiles/478/478390.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-06-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "478440",
+      "name": "미래에셋비전스팩6호",
+      "profile_path": "atlas/symbol_profiles/478/478440.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-06-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "478560",
+      "name": "블랙야크아이앤씨",
+      "profile_path": "atlas/symbol_profiles/478/478560.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-01-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "478780",
+      "name": "대신밸런스제18호스팩",
+      "profile_path": "atlas/symbol_profiles/478/478780.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-08-22",
+      "last_date": "2026-01-13",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

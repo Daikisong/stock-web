@@ -1,0 +1,42 @@
+{
+  "prefix": "459",
+  "codes": [
+    {
+      "code": "459100",
+      "name": "위츠",
+      "profile_path": "atlas/symbol_profiles/459/459100.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "459510",
+      "name": "나우로보틱스",
+      "profile_path": "atlas/symbol_profiles/459/459510.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-05-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "459550",
+      "name": "알트",
+      "profile_path": "atlas/symbol_profiles/459/459550.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-11-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "prefix": "335",
+  "codes": [
+    {
+      "code": "335810",
+      "name": "프리시젼바이오",
+      "profile_path": "atlas/symbol_profiles/335/335810.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-12-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "335870",
+      "name": "윙스풋",
+      "profile_path": "atlas/symbol_profiles/335/335870.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "335890",
+      "name": "비올",
+      "profile_path": "atlas/symbol_profiles/335/335890.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2019-12-03",
+      "last_date": "2025-12-09",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

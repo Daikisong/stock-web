@@ -1,0 +1,45 @@
+{
+  "code": "348840",
+  "current_or_latest_name": "데이드림엔터",
+  "name_history": [
+    {
+      "name": "데이드림엔터",
+      "first_date": "2020-08-18",
+      "last_date": "2023-08-09"
+    }
+  ],
+  "markets": [
+    "KONEX"
+  ],
+  "market_history": [
+    {
+      "market": "KONEX",
+      "first_date": "2020-08-18",
+      "last_date": "2023-08-09"
+    }
+  ],
+  "first_date": "2020-08-18",
+  "last_date": "2023-08-09",
+  "trading_day_count": 737,
+  "available_years": [
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/348/348840/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/348/348840/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/348/348840/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/348/348840/2023.csv"
+  ],
+  "latest_close": 4020,
+  "latest_marcap": 3386850000,
+  "latest_market": "KONEX",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

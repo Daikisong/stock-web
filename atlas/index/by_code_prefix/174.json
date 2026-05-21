@@ -1,0 +1,46 @@
+{
+  "prefix": "174",
+  "codes": [
+    {
+      "code": "174880",
+      "name": "장원테크",
+      "profile_path": "atlas/symbol_profiles/174/174880.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-07-15",
+      "last_date": "2026-01-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "174900",
+      "name": "앱클론",
+      "profile_path": "atlas/symbol_profiles/174/174900.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-09-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

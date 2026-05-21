@@ -1,0 +1,43 @@
+{
+  "code": "048150",
+  "current_or_latest_name": "모닷텔",
+  "name_history": [
+    {
+      "name": "모닷텔",
+      "first_date": "2002-11-05",
+      "last_date": "2004-04-28"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2002-11-05",
+      "last_date": "2004-04-28"
+    }
+  ],
+  "first_date": "2002-11-05",
+  "last_date": "2004-04-28",
+  "trading_day_count": 363,
+  "available_years": [
+    2002,
+    2003,
+    2004
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/048/048150/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048150/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048150/2004.csv"
+  ],
+  "latest_close": 5,
+  "latest_marcap": 86208950,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

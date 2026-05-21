@@ -1,0 +1,215 @@
+{
+  "prefix": "225",
+  "codes": [
+    {
+      "code": "225190",
+      "name": "LK삼양",
+      "profile_path": "atlas/symbol_profiles/225/225190.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-06-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "225220",
+      "name": "제놀루션",
+      "profile_path": "atlas/symbol_profiles/225/225220.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-08-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "225330",
+      "name": "씨엠에스에듀",
+      "profile_path": "atlas/symbol_profiles/225/225330.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2016-04-07",
+      "last_date": "2022-03-16",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "225430",
+      "name": "케이엠제약",
+      "profile_path": "atlas/symbol_profiles/225/225430.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-10-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "225440",
+      "name": "이베스트스팩3호",
+      "profile_path": "atlas/symbol_profiles/225/225440.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-10-19",
+      "last_date": "2018-05-25",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "225530",
+      "name": "HC보광산업",
+      "profile_path": "atlas/symbol_profiles/225/225530.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-12-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "225570",
+      "name": "넥슨게임즈",
+      "profile_path": "atlas/symbol_profiles/225/225570.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-09-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "225590",
+      "name": "패션플랫폼",
+      "profile_path": "atlas/symbol_profiles/225/225590.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-10-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "225650",
+      "name": "쿠첸",
+      "profile_path": "atlas/symbol_profiles/225/225650.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "first_date": "2015-09-04",
+      "last_date": "2019-09-11",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "225850",
+      "name": "미애부",
+      "profile_path": "atlas/symbol_profiles/225/225850.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2015-12-08",
+      "last_date": "2022-04-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "225860",
+      "name": "엠앤씨생명과학",
+      "profile_path": "atlas/symbol_profiles/225/225860.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2017-04-25",
+      "last_date": "2022-04-26",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "prefix": "445",
+  "codes": [
+    {
+      "code": "445090",
+      "name": "에이직랜드",
+      "profile_path": "atlas/symbol_profiles/445/445090.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "445180",
+      "name": "퓨릿",
+      "profile_path": "atlas/symbol_profiles/445/445180.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-10-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "445360",
+      "name": "비엔케이제1호스팩",
+      "profile_path": "atlas/symbol_profiles/445/445360.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-12-22",
+      "last_date": "2025-07-25",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "445680",
+      "name": "큐리옥스바이오시스템즈",
+      "profile_path": "atlas/symbol_profiles/445/445680.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-08-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "445970",
+      "name": "신영스팩9호",
+      "profile_path": "atlas/symbol_profiles/445/445970.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-12-27",
+      "last_date": "2025-07-31",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

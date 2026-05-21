@@ -1,0 +1,51 @@
+{
+  "code": "037650",
+  "current_or_latest_name": "성진산업",
+  "name_history": [
+    {
+      "name": "성진산업",
+      "first_date": "1999-12-24",
+      "last_date": "2005-04-04"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1999-12-24",
+      "last_date": "2005-04-04"
+    }
+  ],
+  "first_date": "1999-12-24",
+  "last_date": "2005-04-04",
+  "trading_day_count": 1292,
+  "available_years": [
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/037/037650/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/037/037650/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/037/037650/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/037/037650/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/037/037650/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/037/037650/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/037/037650/2005.csv"
+  ],
+  "latest_close": 30,
+  "latest_marcap": 25705080,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

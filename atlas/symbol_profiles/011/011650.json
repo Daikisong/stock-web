@@ -1,0 +1,59 @@
+{
+  "code": "011650",
+  "current_or_latest_name": "LG정보",
+  "name_history": [
+    {
+      "name": "LG정보",
+      "first_date": "1997-05-15",
+      "last_date": "2000-09-19"
+    },
+    {
+      "name": "엘지정보",
+      "first_date": "1996-11-25",
+      "last_date": "1997-05-13"
+    },
+    {
+      "name": "엘지정보통신",
+      "first_date": "1995-08-18",
+      "last_date": "1996-11-22"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-08-18",
+      "last_date": "2000-09-19"
+    }
+  ],
+  "first_date": "1995-08-18",
+  "last_date": "2000-09-19",
+  "trading_day_count": 1408,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/011/011650/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/011/011650/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/011/011650/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/011/011650/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/011/011650/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/011/011650/2000.csv"
+  ],
+  "latest_close": 59500,
+  "latest_marcap": 1838550000000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

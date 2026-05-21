@@ -1,0 +1,89 @@
+{
+  "prefix": "159",
+  "codes": [
+    {
+      "code": "159010",
+      "name": "아스플로",
+      "profile_path": "atlas/symbol_profiles/159/159010.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-10-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "159580",
+      "name": "제로투세븐",
+      "profile_path": "atlas/symbol_profiles/159/159580.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-02-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "159650",
+      "name": "하이골드8호",
+      "profile_path": "atlas/symbol_profiles/159/159650.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2012-09-17",
+      "last_date": "2020-04-24",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "159910",
+      "name": "에코글로우",
+      "profile_path": "atlas/symbol_profiles/159/159910.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2012-12-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "prefix": "294",
+  "codes": [
+    {
+      "code": "294090",
+      "name": "이오플로우",
+      "profile_path": "atlas/symbol_profiles/294/294090.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-09-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "294140",
+      "name": "레몬",
+      "profile_path": "atlas/symbol_profiles/294/294140.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-02-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "294570",
+      "name": "쿠콘",
+      "profile_path": "atlas/symbol_profiles/294/294570.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-04-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "294630",
+      "name": "서남",
+      "profile_path": "atlas/symbol_profiles/294/294630.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-02-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "294870",
+      "name": "HDC현대산업개발",
+      "profile_path": "atlas/symbol_profiles/294/294870.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-06-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

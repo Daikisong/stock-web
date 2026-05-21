@@ -1,0 +1,71 @@
+{
+  "code": "220260",
+  "current_or_latest_name": "켐트로스",
+  "name_history": [
+    {
+      "name": "엘아이지이에스스팩",
+      "first_date": "2015-07-27",
+      "last_date": "2016-12-29"
+    },
+    {
+      "name": "케이프이에스스팩",
+      "first_date": "2017-01-02",
+      "last_date": "2017-10-10"
+    },
+    {
+      "name": "켐트로스",
+      "first_date": "2017-10-11",
+      "last_date": "2026-02-20"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2015-07-27",
+      "last_date": "2026-02-20"
+    }
+  ],
+  "first_date": "2015-07-27",
+  "last_date": "2026-02-20",
+  "trading_day_count": 2593,
+  "available_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/220/220260/2026.csv"
+  ],
+  "latest_close": 5810,
+  "latest_marcap": 154303763670,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "active_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

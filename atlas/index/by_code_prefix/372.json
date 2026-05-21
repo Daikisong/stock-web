@@ -1,0 +1,80 @@
+{
+  "prefix": "372",
+  "codes": [
+    {
+      "code": "372170",
+      "name": "윤성에프앤씨",
+      "profile_path": "atlas/symbol_profiles/372/372170.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-11-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "372290",
+      "name": "하나머스트7호스팩",
+      "profile_path": "atlas/symbol_profiles/372/372290.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2021-03-05",
+      "last_date": "2024-02-16",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "372320",
+      "name": "큐로셀",
+      "profile_path": "atlas/symbol_profiles/372/372320.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "372800",
+      "name": "아이티아이즈",
+      "profile_path": "atlas/symbol_profiles/372/372800.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-11-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "372910",
+      "name": "한컴라이프케어",
+      "profile_path": "atlas/symbol_profiles/372/372910.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-08-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

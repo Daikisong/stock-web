@@ -1,0 +1,50 @@
+{
+  "code": "103155",
+  "current_or_latest_name": "하이트맥주우",
+  "name_history": [
+    {
+      "name": "하이트맥주(1우)",
+      "first_date": "2008-07-30",
+      "last_date": "2008-08-01"
+    },
+    {
+      "name": "하이트맥주우",
+      "first_date": "2008-08-04",
+      "last_date": "2011-09-23"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2008-07-30",
+      "last_date": "2011-09-23"
+    }
+  ],
+  "first_date": "2008-07-30",
+  "last_date": "2011-09-23",
+  "trading_day_count": 790,
+  "available_years": [
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/103/103155/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103155/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103155/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103155/2011.csv"
+  ],
+  "latest_close": 44900,
+  "latest_marcap": 16744781500,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

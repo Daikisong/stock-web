@@ -1,0 +1,67 @@
+{
+  "prefix": "484",
+  "codes": [
+    {
+      "code": "484120",
+      "name": "도우인시스",
+      "profile_path": "atlas/symbol_profiles/484/484120.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-07-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "484130",
+      "name": "하나34호스팩",
+      "profile_path": "atlas/symbol_profiles/484/484130.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "484590",
+      "name": "삼양컴텍",
+      "profile_path": "atlas/symbol_profiles/484/484590.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-08-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "484810",
+      "name": "티엑스알로보틱스",
+      "profile_path": "atlas/symbol_profiles/484/484810.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-03-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "484870",
+      "name": "엠앤씨솔루션",
+      "profile_path": "atlas/symbol_profiles/484/484870.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-12-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

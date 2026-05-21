@@ -1,0 +1,318 @@
+{
+  "prefix": "029",
+  "codes": [
+    {
+      "code": "029460",
+      "name": "케이씨",
+      "profile_path": "atlas/symbol_profiles/029/029460.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1996-09-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "029461",
+      "name": "케이씨텍1신",
+      "profile_path": "atlas/symbol_profiles/029/029461.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-09-02",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "029462",
+      "name": "케이씨텍2신",
+      "profile_path": "atlas/symbol_profiles/029/029462.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-09-02",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "029463",
+      "name": "케이씨텍3신",
+      "profile_path": "atlas/symbol_profiles/029/029463.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-09-02",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "029464",
+      "name": "케이씨텍전환",
+      "profile_path": "atlas/symbol_profiles/029/029464.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-10-01",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "029470",
+      "name": "한국대아진공",
+      "profile_path": "atlas/symbol_profiles/029/029470.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "first_date": "1996-09-02",
+      "last_date": "1999-04-09",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "029471",
+      "name": "한국대아진공1신",
+      "profile_path": "atlas/symbol_profiles/029/029471.json",
+      "available_years": [
+        1996,
+        1998
+      ],
+      "first_date": "1996-09-02",
+      "last_date": "1998-12-28",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "029472",
+      "name": "한국대아진공2신",
+      "profile_path": "atlas/symbol_profiles/029/029472.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-12-19",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "029480",
+      "name": "광무",
+      "profile_path": "atlas/symbol_profiles/029/029480.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1996-08-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "029481",
+      "name": "케이디씨1신",
+      "profile_path": "atlas/symbol_profiles/029/029481.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-08-27",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "029530",
+      "name": "신도리코",
+      "profile_path": "atlas/symbol_profiles/029/029530.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1996-12-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "029531",
+      "name": "신도리코(1신)",
+      "profile_path": "atlas/symbol_profiles/029/029531.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-12-24",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "029532",
+      "name": "신도리코(2신)",
+      "profile_path": "atlas/symbol_profiles/029/029532.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-12-24",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "029780",
+      "name": "삼성카드",
+      "profile_path": "atlas/symbol_profiles/029/029780.json",
+      "available_years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2007-06-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "029890",
+      "name": "현대반도체",
+      "profile_path": "atlas/symbol_profiles/029/029890.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "first_date": "1996-11-09",
+      "last_date": "1999-10-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "029960",
+      "name": "코엔텍",
+      "profile_path": "atlas/symbol_profiles/029/029960.json",
+      "available_years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2004-06-18",
+      "last_date": "2025-06-13",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

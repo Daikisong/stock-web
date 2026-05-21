@@ -1,0 +1,98 @@
+{
+  "prefix": "237",
+  "codes": [
+    {
+      "code": "237690",
+      "name": "에스티팜",
+      "profile_path": "atlas/symbol_profiles/237/237690.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-06-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "237720",
+      "name": "케이엠제약",
+      "profile_path": "atlas/symbol_profiles/237/237720.json",
+      "available_years": [
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2016-02-24",
+      "last_date": "2018-09-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "237750",
+      "name": "피앤씨테크",
+      "profile_path": "atlas/symbol_profiles/237/237750.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-07-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "237820",
+      "name": "플레이디",
+      "profile_path": "atlas/symbol_profiles/237/237820.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-03-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "237880",
+      "name": "클리오",
+      "profile_path": "atlas/symbol_profiles/237/237880.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-11-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

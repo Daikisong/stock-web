@@ -1,0 +1,53 @@
+{
+  "code": "268600",
+  "current_or_latest_name": "셀리버리",
+  "name_history": [
+    {
+      "name": "셀리버리",
+      "first_date": "2018-11-09",
+      "last_date": "2025-03-06"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2018-11-09",
+      "last_date": "2025-03-06"
+    }
+  ],
+  "first_date": "2018-11-09",
+  "last_date": "2025-03-06",
+  "trading_day_count": 1553,
+  "available_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/268/268600/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/268/268600/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/268/268600/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/268/268600/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/268/268600/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/268/268600/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/268/268600/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/268/268600/2025.csv"
+  ],
+  "latest_close": 16,
+  "latest_marcap": 594931744,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

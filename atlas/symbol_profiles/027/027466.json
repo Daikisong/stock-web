@@ -1,0 +1,39 @@
+{
+  "code": "027466",
+  "current_or_latest_name": "주택은행(2우B)",
+  "name_history": [
+    {
+      "name": "주택은행(2우B)",
+      "first_date": "2000-01-21",
+      "last_date": "2000-05-26"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2000-01-21",
+      "last_date": "2000-05-26"
+    }
+  ],
+  "first_date": "2000-01-21",
+  "last_date": "2000-05-26",
+  "trading_day_count": 84,
+  "available_years": [
+    2000
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/027/027466/2000.csv"
+  ],
+  "latest_close": 0,
+  "latest_marcap": 415693000000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

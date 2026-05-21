@@ -1,0 +1,41 @@
+{
+  "prefix": "319",
+  "codes": [
+    {
+      "code": "319400",
+      "name": "현대무벡스",
+      "profile_path": "atlas/symbol_profiles/319/319400.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-05-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "319660",
+      "name": "피에스케이",
+      "profile_path": "atlas/symbol_profiles/319/319660.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-05-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

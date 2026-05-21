@@ -1,0 +1,40 @@
+{
+  "prefix": "339",
+  "codes": [
+    {
+      "code": "339770",
+      "name": "교촌에프앤비",
+      "profile_path": "atlas/symbol_profiles/339/339770.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-11-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "339950",
+      "name": "아이비김영",
+      "profile_path": "atlas/symbol_profiles/339/339950.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

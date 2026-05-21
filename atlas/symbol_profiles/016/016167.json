@@ -1,0 +1,50 @@
+{
+  "code": "016167",
+  "current_or_latest_name": "오라바이오틱스2우B",
+  "name_history": [
+    {
+      "name": "오라바이오틱스2우B",
+      "first_date": "2009-04-20",
+      "last_date": "2011-04-25"
+    },
+    {
+      "name": "오라에너지2우B",
+      "first_date": "2008-10-14",
+      "last_date": "2009-04-17"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2008-10-14",
+      "last_date": "2011-04-25"
+    }
+  ],
+  "first_date": "2008-10-14",
+  "last_date": "2011-04-25",
+  "trading_day_count": 636,
+  "available_years": [
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/016/016167/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016167/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016167/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016167/2011.csv"
+  ],
+  "latest_close": 610,
+  "latest_marcap": 16699360,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

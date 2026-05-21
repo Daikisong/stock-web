@@ -1,0 +1,69 @@
+{
+  "prefix": "276",
+  "codes": [
+    {
+      "code": "276040",
+      "name": "스코넥",
+      "profile_path": "atlas/symbol_profiles/276/276040.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-02-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "276240",
+      "name": "엘리비젼",
+      "profile_path": "atlas/symbol_profiles/276/276240.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-07-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "276730",
+      "name": "한울앤제주",
+      "profile_path": "atlas/symbol_profiles/276/276730.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-05-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "276920",
+      "name": "IBKS제7호스팩",
+      "profile_path": "atlas/symbol_profiles/276/276920.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2017-11-10",
+      "last_date": "2020-06-17",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

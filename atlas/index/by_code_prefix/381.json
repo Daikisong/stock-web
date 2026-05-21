@@ -1,0 +1,34 @@
+{
+  "prefix": "381",
+  "codes": [
+    {
+      "code": "381620",
+      "name": "제닉스로보틱스",
+      "profile_path": "atlas/symbol_profiles/381/381620.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-09-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "381970",
+      "name": "케이카",
+      "profile_path": "atlas/symbol_profiles/381/381970.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-10-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

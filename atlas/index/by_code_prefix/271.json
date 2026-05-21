@@ -1,0 +1,132 @@
+{
+  "prefix": "271",
+  "codes": [
+    {
+      "code": "271400",
+      "name": "알로이스",
+      "profile_path": "atlas/symbol_profiles/271/271400.json",
+      "available_years": [
+        2017,
+        2018,
+        2019
+      ],
+      "first_date": "2017-07-07",
+      "last_date": "2019-09-30",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "271560",
+      "name": "오리온",
+      "profile_path": "atlas/symbol_profiles/271/271560.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-07-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "271740",
+      "name": "한국제5호스팩",
+      "profile_path": "atlas/symbol_profiles/271/271740.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2017-07-24",
+      "last_date": "2020-03-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "271780",
+      "name": "비엔에프코퍼레이션",
+      "profile_path": "atlas/symbol_profiles/271/271780.json",
+      "available_years": [
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2018-11-30",
+      "last_date": "2020-11-04",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "271830",
+      "name": "팸텍",
+      "profile_path": "atlas/symbol_profiles/271/271830.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-05-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "271850",
+      "name": "다이오진",
+      "profile_path": "atlas/symbol_profiles/271/271850.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2017-06-19",
+      "last_date": "2023-04-11",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "271940",
+      "name": "일진하이솔루스",
+      "profile_path": "atlas/symbol_profiles/271/271940.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-09-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "271980",
+      "name": "제일약품",
+      "profile_path": "atlas/symbol_profiles/271/271980.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-07-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "code": "036760",
+  "current_or_latest_name": "KNS홀딩스",
+  "name_history": [
+    {
+      "name": "KNS홀딩스",
+      "first_date": "2008-05-23",
+      "last_date": "2009-04-22"
+    },
+    {
+      "name": "골든프레임",
+      "first_date": "2006-04-28",
+      "last_date": "2008-05-22"
+    },
+    {
+      "name": "베넥스",
+      "first_date": "2005-08-23",
+      "last_date": "2006-04-27"
+    },
+    {
+      "name": "제이스텍",
+      "first_date": "1999-12-10",
+      "last_date": "2005-08-22"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1999-12-10",
+      "last_date": "2009-04-22"
+    }
+  ],
+  "first_date": "1999-12-10",
+  "last_date": "2009-04-22",
+  "trading_day_count": 2307,
+  "available_years": [
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/036/036760/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036760/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036760/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036760/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036760/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036760/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036760/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036760/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036760/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036760/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036760/2009.csv"
+  ],
+  "latest_close": 10,
+  "latest_marcap": 140478190,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

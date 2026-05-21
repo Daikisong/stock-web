@@ -1,0 +1,121 @@
+{
+  "prefix": "220",
+  "codes": [
+    {
+      "code": "220100",
+      "name": "퓨쳐켐",
+      "profile_path": "atlas/symbol_profiles/220/220100.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-08-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "220110",
+      "name": "드림티엔터테인먼트",
+      "profile_path": "atlas/symbol_profiles/220/220110.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2015-06-24",
+      "last_date": "2020-04-09",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "220180",
+      "name": "핸디소프트",
+      "profile_path": "atlas/symbol_profiles/220/220180.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-06-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "220250",
+      "name": "카이노스메드",
+      "profile_path": "atlas/symbol_profiles/220/220250.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2015-09-10",
+      "last_date": "2020-06-05",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "220260",
+      "name": "켐트로스",
+      "profile_path": "atlas/symbol_profiles/220/220260.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-07-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "220630",
+      "name": "맘스터치",
+      "profile_path": "atlas/symbol_profiles/220/220630.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2015-08-28",
+      "last_date": "2022-05-30",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

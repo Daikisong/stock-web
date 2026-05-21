@@ -1,0 +1,31 @@
+{
+  "prefix": "444",
+  "codes": [
+    {
+      "code": "444530",
+      "name": "심플랫폼",
+      "profile_path": "atlas/symbol_profiles/444/444530.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-03-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "444920",
+      "name": "유안타제11호스팩",
+      "profile_path": "atlas/symbol_profiles/444/444920.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-09-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

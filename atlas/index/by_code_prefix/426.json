@@ -1,0 +1,30 @@
+{
+  "prefix": "426",
+  "codes": [
+    {
+      "code": "426550",
+      "name": "IBKS제19호스팩",
+      "profile_path": "atlas/symbol_profiles/426/426550.json",
+      "available_years": [
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2022-08-26",
+      "last_date": "2024-02-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "426670",
+      "name": "대신밸런스제12호스팩",
+      "profile_path": "atlas/symbol_profiles/426/426670.json",
+      "available_years": [
+        2022,
+        2023
+      ],
+      "first_date": "2022-07-14",
+      "last_date": "2023-04-19",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

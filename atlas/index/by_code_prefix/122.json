@@ -1,0 +1,283 @@
+{
+  "prefix": "122",
+  "codes": [
+    {
+      "code": "122050",
+      "name": "아이엘사이언스",
+      "profile_path": "atlas/symbol_profiles/122/122050.json",
+      "available_years": [
+        2018,
+        2019
+      ],
+      "first_date": "2018-11-16",
+      "last_date": "2019-12-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "122290",
+      "name": "동양밸류스팩",
+      "profile_path": "atlas/symbol_profiles/122/122290.json",
+      "available_years": [
+        2010,
+        2011,
+        2012
+      ],
+      "first_date": "2010-03-25",
+      "last_date": "2012-11-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "122310",
+      "name": "제노레이",
+      "profile_path": "atlas/symbol_profiles/122/122310.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-05-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "122350",
+      "name": "삼기",
+      "profile_path": "atlas/symbol_profiles/122/122350.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-03-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "122450",
+      "name": "KX",
+      "profile_path": "atlas/symbol_profiles/122/122450.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-05-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "122640",
+      "name": "예스티",
+      "profile_path": "atlas/symbol_profiles/122/122640.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-12-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "122690",
+      "name": "서진오토모티브",
+      "profile_path": "atlas/symbol_profiles/122/122690.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-05-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "122750",
+      "name": "우리스팩1호",
+      "profile_path": "atlas/symbol_profiles/122/122750.json",
+      "available_years": [
+        2010,
+        2011,
+        2012
+      ],
+      "first_date": "2010-05-11",
+      "last_date": "2012-12-20",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "122800",
+      "name": "썬텍",
+      "profile_path": "atlas/symbol_profiles/122/122800.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2010-11-26",
+      "last_date": "2020-02-11",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "122830",
+      "name": "원포유",
+      "profile_path": "atlas/symbol_profiles/122/122830.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-10-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "122870",
+      "name": "와이지엔터테인먼트",
+      "profile_path": "atlas/symbol_profiles/122/122870.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-11-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "122900",
+      "name": "아이마켓코리아",
+      "profile_path": "atlas/symbol_profiles/122/122900.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-07-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "122990",
+      "name": "와이솔",
+      "profile_path": "atlas/symbol_profiles/122/122990.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-09-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

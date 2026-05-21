@@ -1,0 +1,21 @@
+{
+  "prefix": "375",
+  "codes": [
+    {
+      "code": "375500",
+      "name": "DL이앤씨",
+      "profile_path": "atlas/symbol_profiles/375/375500.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-01-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

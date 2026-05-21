@@ -1,0 +1,101 @@
+{
+  "prefix": "418",
+  "codes": [
+    {
+      "code": "418170",
+      "name": "하나금융22호스팩",
+      "profile_path": "atlas/symbol_profiles/418/418170.json",
+      "available_years": [
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2022-05-26",
+      "last_date": "2024-12-18",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "418210",
+      "name": "신한제10호스팩",
+      "profile_path": "atlas/symbol_profiles/418/418210.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-07-29",
+      "last_date": "2025-04-03",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "418250",
+      "name": "시큐레터",
+      "profile_path": "atlas/symbol_profiles/418/418250.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-08-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "418420",
+      "name": "라온텍",
+      "profile_path": "atlas/symbol_profiles/418/418420.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-03-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "418470",
+      "name": "KT밀리의서재",
+      "profile_path": "atlas/symbol_profiles/418/418470.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-09-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "418550",
+      "name": "제이오",
+      "profile_path": "atlas/symbol_profiles/418/418550.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-02-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "418620",
+      "name": "E8",
+      "profile_path": "atlas/symbol_profiles/418/418620.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-02-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

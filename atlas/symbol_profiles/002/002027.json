@@ -1,0 +1,69 @@
+{
+  "code": "002027",
+  "current_or_latest_name": "코오롱2우B",
+  "name_history": [
+    {
+      "name": "코 오 롱(2우B)",
+      "first_date": "1999-05-28",
+      "last_date": "2000-04-18"
+    },
+    {
+      "name": "코오롱(2우B)",
+      "first_date": "2000-04-19",
+      "last_date": "2008-08-01"
+    },
+    {
+      "name": "코오롱2우B",
+      "first_date": "2008-08-04",
+      "last_date": "2009-05-25"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1999-05-28",
+      "last_date": "2009-05-25"
+    }
+  ],
+  "first_date": "1999-05-28",
+  "last_date": "2009-05-25",
+  "trading_day_count": 2466,
+  "available_years": [
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/002/002027/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002027/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002027/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002027/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002027/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002027/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002027/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002027/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002027/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002027/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002027/2009.csv"
+  ],
+  "latest_close": 35400,
+  "latest_marcap": 6157369800,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

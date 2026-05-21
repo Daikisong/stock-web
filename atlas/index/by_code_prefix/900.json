@@ -1,0 +1,498 @@
+{
+  "prefix": "900",
+  "codes": [
+    {
+      "code": "900010",
+      "name": "3노드디지탈",
+      "profile_path": "atlas/symbol_profiles/900/900010.json",
+      "available_years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "first_date": "2007-08-17",
+      "last_date": "2013-06-04",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900020",
+      "name": "코웰이홀딩스",
+      "profile_path": "atlas/symbol_profiles/900/900020.json",
+      "available_years": [
+        2008,
+        2009,
+        2010,
+        2011
+      ],
+      "first_date": "2008-01-29",
+      "last_date": "2011-11-25",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900030",
+      "name": "연합과기",
+      "profile_path": "atlas/symbol_profiles/900/900030.json",
+      "available_years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "first_date": "2008-12-04",
+      "last_date": "2012-09-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900040",
+      "name": "차이나그레이트",
+      "profile_path": "atlas/symbol_profiles/900/900040.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2009-05-29",
+      "last_date": "2020-05-21",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900050",
+      "name": "중국원양자원",
+      "profile_path": "atlas/symbol_profiles/900/900050.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "first_date": "2009-05-22",
+      "last_date": "2017-09-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900060",
+      "name": "중국식품포장",
+      "profile_path": "atlas/symbol_profiles/900/900060.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "first_date": "2009-03-27",
+      "last_date": "2013-10-10",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900070",
+      "name": "글로벌에스엠",
+      "profile_path": "atlas/symbol_profiles/900/900070.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2009-12-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "900080",
+      "name": "에스앤씨엔진그룹",
+      "profile_path": "atlas/symbol_profiles/900/900080.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2009-12-04",
+      "last_date": "2021-06-11",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900090",
+      "name": "차이나하오란",
+      "profile_path": "atlas/symbol_profiles/900/900090.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2010-02-05",
+      "last_date": "2018-12-28",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900100",
+      "name": "애머릿지",
+      "profile_path": "atlas/symbol_profiles/900/900100.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-04-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "900110",
+      "name": "이스트아시아홀딩스",
+      "profile_path": "atlas/symbol_profiles/900/900110.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-04-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "900120",
+      "name": "씨엑스아이",
+      "profile_path": "atlas/symbol_profiles/900/900120.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-03-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "900130",
+      "name": "웨이포트",
+      "profile_path": "atlas/symbol_profiles/900/900130.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "first_date": "2010-07-23",
+      "last_date": "2017-07-24",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900140",
+      "name": "엘브이엠씨홀딩스",
+      "profile_path": "atlas/symbol_profiles/900/900140.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-11-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "900150",
+      "name": "성융광전투자",
+      "profile_path": "atlas/symbol_profiles/900/900150.json",
+      "available_years": [
+        2010,
+        2011,
+        2012
+      ],
+      "first_date": "2010-09-15",
+      "last_date": "2012-09-25",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900180",
+      "name": "완리",
+      "profile_path": "atlas/symbol_profiles/900/900180.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2011-06-13",
+      "last_date": "2018-05-21",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900250",
+      "name": "크리스탈신소재",
+      "profile_path": "atlas/symbol_profiles/900/900250.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-01-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "900260",
+      "name": "로스웰",
+      "profile_path": "atlas/symbol_profiles/900/900260.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-06-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "900270",
+      "name": "헝셩그룹",
+      "profile_path": "atlas/symbol_profiles/900/900270.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-08-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "900280",
+      "name": "골든센츄리",
+      "profile_path": "atlas/symbol_profiles/900/900280.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2016-10-19",
+      "last_date": "2025-01-07",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "900290",
+      "name": "GRT",
+      "profile_path": "atlas/symbol_profiles/900/900290.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-10-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "900300",
+      "name": "오가닉티코스메틱",
+      "profile_path": "atlas/symbol_profiles/900/900300.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-11-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "900310",
+      "name": "컬러레이",
+      "profile_path": "atlas/symbol_profiles/900/900310.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-08-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "900340",
+      "name": "윙입푸드",
+      "profile_path": "atlas/symbol_profiles/900/900340.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

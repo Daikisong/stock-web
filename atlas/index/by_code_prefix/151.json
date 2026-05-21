@@ -1,0 +1,67 @@
+{
+  "prefix": "151",
+  "codes": [
+    {
+      "code": "151750",
+      "name": "테라텍",
+      "profile_path": "atlas/symbol_profiles/151/151750.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "first_date": "2013-07-01",
+      "last_date": "2016-02-22",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "151860",
+      "name": "KG에코솔루션",
+      "profile_path": "atlas/symbol_profiles/151/151860.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-07-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "151910",
+      "name": "퓨처코어",
+      "profile_path": "atlas/symbol_profiles/151/151910.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2012-08-02",
+      "last_date": "2025-11-25",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

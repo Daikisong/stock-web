@@ -1,0 +1,63 @@
+{
+  "prefix": "198",
+  "codes": [
+    {
+      "code": "198080",
+      "name": "캐프",
+      "profile_path": "atlas/symbol_profiles/198/198080.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-03-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "198440",
+      "name": "강동씨앤엘",
+      "profile_path": "atlas/symbol_profiles/198/198440.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-08-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "198940",
+      "name": "한주라이트메탈",
+      "profile_path": "atlas/symbol_profiles/198/198940.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-08-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

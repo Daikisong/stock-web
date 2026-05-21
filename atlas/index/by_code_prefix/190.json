@@ -1,0 +1,45 @@
+{
+  "prefix": "190",
+  "codes": [
+    {
+      "code": "190510",
+      "name": "나무가",
+      "profile_path": "atlas/symbol_profiles/190/190510.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-11-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "190650",
+      "name": "코리아에셋투자증권",
+      "profile_path": "atlas/symbol_profiles/190/190650.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-11-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

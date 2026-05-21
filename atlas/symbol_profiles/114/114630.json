@@ -1,0 +1,81 @@
+{
+  "code": "114630",
+  "current_or_latest_name": "폴라리스우노",
+  "name_history": [
+    {
+      "name": "우노",
+      "first_date": "2010-01-15",
+      "last_date": "2010-01-20"
+    },
+    {
+      "name": "우노앤컴퍼니",
+      "first_date": "2010-01-21",
+      "last_date": "2021-06-16"
+    },
+    {
+      "name": "폴라리스우노",
+      "first_date": "2021-06-17",
+      "last_date": "2026-02-20"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2010-01-15",
+      "last_date": "2026-02-20"
+    }
+  ],
+  "first_date": "2010-01-15",
+  "last_date": "2026-02-20",
+  "trading_day_count": 3963,
+  "available_years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/114/114630/2026.csv"
+  ],
+  "latest_close": 535,
+  "latest_marcap": 47051938180,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "active_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

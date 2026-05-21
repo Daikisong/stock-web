@@ -1,0 +1,45 @@
+{
+  "code": "380320",
+  "current_or_latest_name": "삼성머스트스팩5호",
+  "name_history": [
+    {
+      "name": "삼성머스트스팩5호",
+      "first_date": "2021-06-17",
+      "last_date": "2024-01-22"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2021-06-17",
+      "last_date": "2024-01-22"
+    }
+  ],
+  "first_date": "2021-06-17",
+  "last_date": "2024-01-22",
+  "trading_day_count": 641,
+  "available_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/380/380320/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/380/380320/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/380/380320/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/380/380320/2024.csv"
+  ],
+  "latest_close": 2045,
+  "latest_marcap": 9836450000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

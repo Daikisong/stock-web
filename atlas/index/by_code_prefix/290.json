@@ -1,0 +1,253 @@
+{
+  "prefix": "290",
+  "codes": [
+    {
+      "code": "290090",
+      "name": "트윔",
+      "profile_path": "atlas/symbol_profiles/290/290090.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-11-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "290120",
+      "name": "DH오토리드",
+      "profile_path": "atlas/symbol_profiles/290/290120.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "290270",
+      "name": "휴네시온",
+      "profile_path": "atlas/symbol_profiles/290/290270.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-08-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "290380",
+      "name": "대유",
+      "profile_path": "atlas/symbol_profiles/290/290380.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2018-08-10",
+      "last_date": "2025-08-20",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "290510",
+      "name": "코리아센터",
+      "profile_path": "atlas/symbol_profiles/290/290510.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2019-11-29",
+      "last_date": "2022-12-15",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "290520",
+      "name": "신도기연",
+      "profile_path": "atlas/symbol_profiles/290/290520.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-07-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "290550",
+      "name": "디케이티",
+      "profile_path": "atlas/symbol_profiles/290/290550.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "290560",
+      "name": "신시웨이",
+      "profile_path": "atlas/symbol_profiles/290/290560.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "290650",
+      "name": "엘앤씨바이오",
+      "profile_path": "atlas/symbol_profiles/290/290650.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "290660",
+      "name": "네오펙트",
+      "profile_path": "atlas/symbol_profiles/290/290660.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "290670",
+      "name": "대보마그네틱",
+      "profile_path": "atlas/symbol_profiles/290/290670.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "290690",
+      "name": "소룩스",
+      "profile_path": "atlas/symbol_profiles/290/290690.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-11-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "290720",
+      "name": "푸드나무",
+      "profile_path": "atlas/symbol_profiles/290/290720.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-10-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "290740",
+      "name": "액트로",
+      "profile_path": "atlas/symbol_profiles/290/290740.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-08-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

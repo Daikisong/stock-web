@@ -1,0 +1,66 @@
+{
+  "code": "082390",
+  "current_or_latest_name": "피엘에이",
+  "name_history": [
+    {
+      "name": "케이엘테크",
+      "first_date": "2005-07-26",
+      "last_date": "2008-03-17"
+    },
+    {
+      "name": "피엘에이",
+      "first_date": "2008-03-18",
+      "last_date": "2016-07-22"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2005-07-26",
+      "last_date": "2016-07-22"
+    }
+  ],
+  "first_date": "2005-07-26",
+  "last_date": "2016-07-22",
+  "trading_day_count": 2728,
+  "available_years": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/082/082390/2016.csv"
+  ],
+  "latest_close": 65,
+  "latest_marcap": 4304805375,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

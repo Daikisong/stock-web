@@ -1,0 +1,96 @@
+{
+  "prefix": "141",
+  "codes": [
+    {
+      "code": "141000",
+      "name": "비아트론",
+      "profile_path": "atlas/symbol_profiles/141/141000.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2012-05-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "141020",
+      "name": "디에스앤엘",
+      "profile_path": "atlas/symbol_profiles/141/141020.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2013-01-29",
+      "last_date": "2024-01-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "141070",
+      "name": "맥스로텍",
+      "profile_path": "atlas/symbol_profiles/141/141070.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2012-11-16",
+      "last_date": "2021-09-15",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "141080",
+      "name": "리가켐바이오",
+      "profile_path": "atlas/symbol_profiles/141/141080.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-05-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

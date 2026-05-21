@@ -1,0 +1,63 @@
+{
+  "code": "035405",
+  "current_or_latest_name": "브이에스에스티우",
+  "name_history": [
+    {
+      "name": "브이에스에스티우",
+      "first_date": "2008-04-14",
+      "last_date": "2010-09-30"
+    },
+    {
+      "name": "비에스지우",
+      "first_date": "2005-04-19",
+      "last_date": "2008-04-11"
+    },
+    {
+      "name": "삼보정보통신우",
+      "first_date": "2003-09-23",
+      "last_date": "2005-04-18"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2003-09-23",
+      "last_date": "2010-09-30"
+    }
+  ],
+  "first_date": "2003-09-23",
+  "last_date": "2010-09-30",
+  "trading_day_count": 1747,
+  "available_years": [
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/035/035405/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035405/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035405/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035405/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035405/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035405/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035405/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035405/2010.csv"
+  ],
+  "latest_close": 90,
+  "latest_marcap": 2340000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,87 @@
+{
+  "code": "003990",
+  "current_or_latest_name": "BHK",
+  "name_history": [
+    {
+      "name": "BHK",
+      "first_date": "2007-02-21",
+      "last_date": "2009-04-29"
+    },
+    {
+      "name": "비에이치케이",
+      "first_date": "2006-07-25",
+      "last_date": "2007-02-20"
+    },
+    {
+      "name": "사보이",
+      "first_date": "2004-04-13",
+      "last_date": "2004-11-15"
+    },
+    {
+      "name": "신성디엔케이",
+      "first_date": "2004-11-16",
+      "last_date": "2006-07-24"
+    },
+    {
+      "name": "신성무역",
+      "first_date": "1995-05-02",
+      "last_date": "2004-04-12"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2009-04-29"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2009-04-29",
+  "trading_day_count": 3622,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/003/003990/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003990/2009.csv"
+  ],
+  "latest_close": 5,
+  "latest_marcap": 246323115,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

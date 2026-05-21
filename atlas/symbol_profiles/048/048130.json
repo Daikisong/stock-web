@@ -1,0 +1,82 @@
+{
+  "code": "048130",
+  "current_or_latest_name": "에스피코프",
+  "name_history": [
+    {
+      "name": "남애인터",
+      "first_date": "2007-02-09",
+      "last_date": "2007-08-27"
+    },
+    {
+      "name": "씨피엔",
+      "first_date": "2003-12-09",
+      "last_date": "2007-02-08"
+    },
+    {
+      "name": "에스피코프",
+      "first_date": "2008-05-16",
+      "last_date": "2010-04-19"
+    },
+    {
+      "name": "이코인",
+      "first_date": "2001-11-22",
+      "last_date": "2002-09-06"
+    },
+    {
+      "name": "제네틱스",
+      "first_date": "2002-09-09",
+      "last_date": "2003-12-08"
+    },
+    {
+      "name": "호비지수",
+      "first_date": "2007-08-28",
+      "last_date": "2008-05-15"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2001-11-22",
+      "last_date": "2010-04-19"
+    }
+  ],
+  "first_date": "2001-11-22",
+  "last_date": "2010-04-19",
+  "trading_day_count": 2083,
+  "available_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/048/048130/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048130/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048130/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048130/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048130/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048130/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048130/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048130/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048130/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048130/2010.csv"
+  ],
+  "latest_close": 5,
+  "latest_marcap": 223822225,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

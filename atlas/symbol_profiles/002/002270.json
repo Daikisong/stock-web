@@ -1,0 +1,98 @@
+{
+  "code": "002270",
+  "current_or_latest_name": "롯데푸드",
+  "name_history": [
+    {
+      "name": "롯데삼강",
+      "first_date": "1995-05-02",
+      "last_date": "2013-04-17"
+    },
+    {
+      "name": "롯데푸드",
+      "first_date": "2013-04-18",
+      "last_date": "2022-07-19"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2022-07-19"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2022-07-19",
+  "trading_day_count": 6889,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/002/002270/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/002/002270/2022.csv"
+  ],
+  "latest_close": 311000,
+  "latest_marcap": 376016105000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

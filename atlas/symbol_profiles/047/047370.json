@@ -1,0 +1,70 @@
+{
+  "code": "047370",
+  "current_or_latest_name": "에프아이투어",
+  "name_history": [
+    {
+      "name": "액슬론",
+      "first_date": "2006-06-16",
+      "last_date": "2008-08-06"
+    },
+    {
+      "name": "에프아이투어",
+      "first_date": "2008-08-07",
+      "last_date": "2009-04-10"
+    },
+    {
+      "name": "인컴",
+      "first_date": "2001-05-29",
+      "last_date": "2004-06-22"
+    },
+    {
+      "name": "케이컴스",
+      "first_date": "2004-06-23",
+      "last_date": "2006-06-15"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2001-05-29",
+      "last_date": "2009-04-10"
+    }
+  ],
+  "first_date": "2001-05-29",
+  "last_date": "2009-04-10",
+  "trading_day_count": 1946,
+  "available_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/047/047370/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/047/047370/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/047/047370/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/047/047370/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/047/047370/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/047/047370/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/047/047370/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/047/047370/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/047/047370/2009.csv"
+  ],
+  "latest_close": 25,
+  "latest_marcap": 291651425,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

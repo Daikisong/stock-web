@@ -1,0 +1,108 @@
+{
+  "prefix": "462",
+  "codes": [
+    {
+      "code": "462020",
+      "name": "에이치엠씨제6호스팩",
+      "profile_path": "atlas/symbol_profiles/462/462020.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-10-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "462310",
+      "name": "뉴키즈온",
+      "profile_path": "atlas/symbol_profiles/462/462310.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-07-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "462350",
+      "name": "이노스페이스",
+      "profile_path": "atlas/symbol_profiles/462/462350.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-07-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "462510",
+      "name": "라메디텍",
+      "profile_path": "atlas/symbol_profiles/462/462510.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-06-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "462520",
+      "name": "조선내화",
+      "profile_path": "atlas/symbol_profiles/462/462520.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "462860",
+      "name": "더즌",
+      "profile_path": "atlas/symbol_profiles/462/462860.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-03-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "462870",
+      "name": "시프트업",
+      "profile_path": "atlas/symbol_profiles/462/462870.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-07-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "462980",
+      "name": "아이지넷",
+      "profile_path": "atlas/symbol_profiles/462/462980.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-02-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "code": "065310",
+  "current_or_latest_name": "JH코오스",
+  "name_history": [
+    {
+      "name": "JH코오스",
+      "first_date": "2006-08-17",
+      "last_date": "2012-05-30"
+    },
+    {
+      "name": "디테크놀로지",
+      "first_date": "2011-04-13",
+      "last_date": "2012-04-12"
+    },
+    {
+      "name": "정호코리아",
+      "first_date": "2002-07-19",
+      "last_date": "2006-08-16"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2002-07-19",
+      "last_date": "2012-05-30"
+    }
+  ],
+  "first_date": "2002-07-19",
+  "last_date": "2012-05-30",
+  "trading_day_count": 2452,
+  "available_years": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/065/065310/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/065/065310/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/065/065310/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/065/065310/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/065/065310/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/065/065310/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/065/065310/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/065/065310/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/065/065310/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/065/065310/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/065/065310/2012.csv"
+  ],
+  "latest_close": 34,
+  "latest_marcap": 1304825582,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

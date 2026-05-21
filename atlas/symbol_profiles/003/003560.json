@@ -1,0 +1,121 @@
+{
+  "code": "003560",
+  "current_or_latest_name": "IHQ",
+  "name_history": [
+    {
+      "name": "IHQ",
+      "first_date": "2003-12-22",
+      "last_date": "2026-01-14"
+    },
+    {
+      "name": "거평패션",
+      "first_date": "1997-05-02",
+      "last_date": "1999-08-05"
+    },
+    {
+      "name": "라보라",
+      "first_date": "1999-08-06",
+      "last_date": "2003-12-18"
+    },
+    {
+      "name": "아이에이치큐",
+      "first_date": "2003-12-19",
+      "last_date": "2003-12-19"
+    },
+    {
+      "name": "태평양패션",
+      "first_date": "1995-05-02",
+      "last_date": "1997-04-30"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2026-01-14"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2026-01-14",
+  "trading_day_count": 7741,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/003/003560/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003560/2026.csv"
+  ],
+  "latest_close": 245,
+  "latest_marcap": 1735513850,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

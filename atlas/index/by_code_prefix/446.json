@@ -1,0 +1,116 @@
+{
+  "prefix": "446",
+  "codes": [
+    {
+      "code": "446070",
+      "name": "유니드비티플러스",
+      "profile_path": "atlas/symbol_profiles/446/446070.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-11-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "446150",
+      "name": "유안타제12호스팩",
+      "profile_path": "atlas/symbol_profiles/446/446150.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-03-17",
+      "last_date": "2026-01-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "446190",
+      "name": "미래에셋비전스팩2호",
+      "profile_path": "atlas/symbol_profiles/446/446190.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-02-24",
+      "last_date": "2025-09-08",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "446440",
+      "name": "에피바이오텍",
+      "profile_path": "atlas/symbol_profiles/446/446440.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "446540",
+      "name": "메가터치",
+      "profile_path": "atlas/symbol_profiles/446/446540.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "446600",
+      "name": "카이바이오텍",
+      "profile_path": "atlas/symbol_profiles/446/446600.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-12-23",
+      "last_date": "2025-02-24",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "446750",
+      "name": "하나26호스팩",
+      "profile_path": "atlas/symbol_profiles/446/446750.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-03-07",
+      "last_date": "2025-10-15",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "446840",
+      "name": "지슨",
+      "profile_path": "atlas/symbol_profiles/446/446840.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-05-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

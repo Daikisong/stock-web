@@ -1,0 +1,112 @@
+{
+  "prefix": "179",
+  "codes": [
+    {
+      "code": "179280",
+      "name": "스탠다드펌",
+      "profile_path": "atlas/symbol_profiles/179/179280.json",
+      "available_years": [
+        2013,
+        2014,
+        2015
+      ],
+      "first_date": "2013-07-01",
+      "last_date": "2015-04-29",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "179290",
+      "name": "엠아이텍",
+      "profile_path": "atlas/symbol_profiles/179/179290.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "179440",
+      "name": "피엠에스",
+      "profile_path": "atlas/symbol_profiles/179/179440.json",
+      "available_years": [
+        2014,
+        2015,
+        2016
+      ],
+      "first_date": "2014-02-28",
+      "last_date": "2016-07-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "179530",
+      "name": "애드바이오텍",
+      "profile_path": "atlas/symbol_profiles/179/179530.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "179720",
+      "name": "머니무브",
+      "profile_path": "atlas/symbol_profiles/179/179720.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-07-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "179900",
+      "name": "유티아이",
+      "profile_path": "atlas/symbol_profiles/179/179900.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-09-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

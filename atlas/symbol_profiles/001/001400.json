@@ -1,0 +1,56 @@
+{
+  "code": "001400",
+  "current_or_latest_name": "동산씨앤지",
+  "name_history": [
+    {
+      "name": "동산씨앤지",
+      "first_date": "1996-11-25",
+      "last_date": "2001-04-23"
+    },
+    {
+      "name": "동산씨엔지",
+      "first_date": "1995-05-02",
+      "last_date": "1996-11-22"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2001-04-23"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2001-04-23",
+  "trading_day_count": 1639,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/001/001400/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001400/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001400/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001400/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001400/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001400/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/001/001400/2001.csv"
+  ],
+  "latest_close": 15,
+  "latest_marcap": 258000000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

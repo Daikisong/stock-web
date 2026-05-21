@@ -1,0 +1,121 @@
+{
+  "prefix": "389",
+  "codes": [
+    {
+      "code": "389020",
+      "name": "자람테크놀로지",
+      "profile_path": "atlas/symbol_profiles/389/389020.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-03-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "389030",
+      "name": "지니너스",
+      "profile_path": "atlas/symbol_profiles/389/389030.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-11-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "389140",
+      "name": "포바이포",
+      "profile_path": "atlas/symbol_profiles/389/389140.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-04-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "389260",
+      "name": "대명에너지",
+      "profile_path": "atlas/symbol_profiles/389/389260.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-05-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "389470",
+      "name": "인벤티지랩",
+      "profile_path": "atlas/symbol_profiles/389/389470.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-11-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "389500",
+      "name": "에스비비테크",
+      "profile_path": "atlas/symbol_profiles/389/389500.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-10-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "389650",
+      "name": "넥스트바이오메디컬",
+      "profile_path": "atlas/symbol_profiles/389/389650.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-08-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "389680",
+      "name": "유디엠텍",
+      "profile_path": "atlas/symbol_profiles/389/389680.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

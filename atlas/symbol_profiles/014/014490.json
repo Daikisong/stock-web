@@ -1,0 +1,55 @@
+{
+  "code": "014490",
+  "current_or_latest_name": "쌍용종금",
+  "name_history": [
+    {
+      "name": "쌍용종금",
+      "first_date": "1996-11-25",
+      "last_date": "1998-07-14"
+    },
+    {
+      "name": "쌍용종합금융",
+      "first_date": "1996-07-31",
+      "last_date": "1996-11-22"
+    },
+    {
+      "name": "인천투자금융",
+      "first_date": "1995-05-02",
+      "last_date": "1996-08-03"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "1998-07-14"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "1998-07-14",
+  "trading_day_count": 940,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/014/014490/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/014/014490/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/014/014490/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/014/014490/1998.csv"
+  ],
+  "latest_close": 5,
+  "latest_marcap": 30000000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

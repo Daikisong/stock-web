@@ -1,0 +1,157 @@
+{
+  "prefix": "136",
+  "codes": [
+    {
+      "code": "136150",
+      "name": "원일티엔아이",
+      "profile_path": "atlas/symbol_profiles/136/136150.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-05-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "136410",
+      "name": "아셈스",
+      "profile_path": "atlas/symbol_profiles/136/136410.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-02-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "136480",
+      "name": "하림",
+      "profile_path": "atlas/symbol_profiles/136/136480.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-05-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "136490",
+      "name": "선진",
+      "profile_path": "atlas/symbol_profiles/136/136490.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-02-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "136510",
+      "name": "스마트솔루션즈",
+      "profile_path": "atlas/symbol_profiles/136/136510.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2011-11-18",
+      "last_date": "2024-07-24",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "136540",
+      "name": "윈스테크넷",
+      "profile_path": "atlas/symbol_profiles/136/136540.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-05-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "136660",
+      "name": "큐엠씨",
+      "profile_path": "atlas/symbol_profiles/136/136660.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-07-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

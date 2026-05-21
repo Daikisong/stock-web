@@ -1,0 +1,74 @@
+{
+  "code": "035500",
+  "current_or_latest_name": "써니트렌드",
+  "name_history": [
+    {
+      "name": "디지탈임팩트",
+      "first_date": "1999-07-16",
+      "last_date": "2001-04-04"
+    },
+    {
+      "name": "써니트렌드",
+      "first_date": "2009-06-19",
+      "last_date": "2009-09-03"
+    },
+    {
+      "name": "엔터원",
+      "first_date": "2001-04-06",
+      "last_date": "2008-04-16"
+    },
+    {
+      "name": "팍스메듀",
+      "first_date": "2008-04-17",
+      "last_date": "2009-06-18"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1999-07-16",
+      "last_date": "2009-09-03"
+    }
+  ],
+  "first_date": "1999-07-16",
+  "last_date": "2009-09-03",
+  "trading_day_count": 2504,
+  "available_years": [
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/035/035500/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035500/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035500/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035500/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035500/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035500/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035500/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035500/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035500/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035500/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/035/035500/2009.csv"
+  ],
+  "latest_close": 5,
+  "latest_marcap": 257098665,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

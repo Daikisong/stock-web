@@ -1,0 +1,45 @@
+{
+  "code": "329560",
+  "current_or_latest_name": "상상인이안제2호스팩",
+  "name_history": [
+    {
+      "name": "상상인이안제2호스팩",
+      "first_date": "2019-08-30",
+      "last_date": "2022-04-01"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2019-08-30",
+      "last_date": "2022-04-01"
+    }
+  ],
+  "first_date": "2019-08-30",
+  "last_date": "2022-04-01",
+  "trading_day_count": 638,
+  "available_years": [
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/329/329560/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/329/329560/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/329/329560/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/329/329560/2022.csv"
+  ],
+  "latest_close": 2035,
+  "latest_marcap": 7834750000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

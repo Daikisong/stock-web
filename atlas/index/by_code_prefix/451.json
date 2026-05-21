@@ -1,0 +1,74 @@
+{
+  "prefix": "451",
+  "codes": [
+    {
+      "code": "451220",
+      "name": "아이엠티",
+      "profile_path": "atlas/symbol_profiles/451/451220.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-10-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "451250",
+      "name": "삐아",
+      "profile_path": "atlas/symbol_profiles/451/451250.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-04-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "451700",
+      "name": "엔에이치스팩29호",
+      "profile_path": "atlas/symbol_profiles/451/451700.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-06-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "451760",
+      "name": "컨텍",
+      "profile_path": "atlas/symbol_profiles/451/451760.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "451800",
+      "name": "한화리츠",
+      "profile_path": "atlas/symbol_profiles/451/451800.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-03-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

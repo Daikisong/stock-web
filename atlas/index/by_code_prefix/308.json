@@ -1,0 +1,89 @@
+{
+  "prefix": "308",
+  "codes": [
+    {
+      "code": "308080",
+      "name": "바이젠셀",
+      "profile_path": "atlas/symbol_profiles/308/308080.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-08-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "308100",
+      "name": "형지글로벌",
+      "profile_path": "atlas/symbol_profiles/308/308100.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-06-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "308170",
+      "name": "씨티알모빌리티",
+      "profile_path": "atlas/symbol_profiles/308/308170.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-11-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "308430",
+      "name": "셀비온",
+      "profile_path": "atlas/symbol_profiles/308/308430.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-10-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "308700",
+      "name": "테크엔",
+      "profile_path": "atlas/symbol_profiles/308/308700.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-21",
+      "last_date": "2026-01-13",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

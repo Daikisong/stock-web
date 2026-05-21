@@ -1,0 +1,67 @@
+{
+  "prefix": "243",
+  "codes": [
+    {
+      "code": "243070",
+      "name": "휴온스",
+      "profile_path": "atlas/symbol_profiles/243/243070.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-06-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "243840",
+      "name": "신흥에스이씨",
+      "profile_path": "atlas/symbol_profiles/243/243840.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-09-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "243870",
+      "name": "아이티센코어",
+      "profile_path": "atlas/symbol_profiles/243/243870.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-10-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

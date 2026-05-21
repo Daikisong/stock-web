@@ -1,0 +1,40 @@
+{
+  "prefix": "135",
+  "codes": [
+    {
+      "code": "135160",
+      "name": "무송지오씨",
+      "profile_path": "atlas/symbol_profiles/135/135160.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2015-12-28",
+      "last_date": "2023-04-28",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "135270",
+      "name": "세종머티리얼즈",
+      "profile_path": "atlas/symbol_profiles/135/135270.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "first_date": "2014-12-17",
+      "last_date": "2019-10-01",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

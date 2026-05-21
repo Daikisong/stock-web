@@ -1,0 +1,84 @@
+{
+  "code": "012580",
+  "current_or_latest_name": "톰보이",
+  "name_history": [
+    {
+      "name": "성    도",
+      "first_date": "1997-07-02",
+      "last_date": "2000-04-18"
+    },
+    {
+      "name": "성도",
+      "first_date": "1997-04-12",
+      "last_date": "2004-07-26"
+    },
+    {
+      "name": "성도어패럴",
+      "first_date": "1995-05-02",
+      "last_date": "1997-04-11"
+    },
+    {
+      "name": "톰보이",
+      "first_date": "2004-07-27",
+      "last_date": "2010-07-29"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2010-07-29"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2010-07-29",
+  "trading_day_count": 3937,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/012/012580/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012580/2010.csv"
+  ],
+  "latest_close": 10,
+  "latest_marcap": 696237500,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,21 @@
+{
+  "prefix": "315",
+  "codes": [
+    {
+      "code": "315640",
+      "name": "딥노이드",
+      "profile_path": "atlas/symbol_profiles/315/315640.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-08-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

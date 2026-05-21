@@ -1,0 +1,70 @@
+{
+  "prefix": "252",
+  "codes": [
+    {
+      "code": "252370",
+      "name": "유쎌",
+      "profile_path": "atlas/symbol_profiles/252/252370.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2016-09-29",
+      "last_date": "2020-02-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "252500",
+      "name": "세화피앤씨",
+      "profile_path": "atlas/symbol_profiles/252/252500.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-11-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "252940",
+      "name": "에스엠로보틱스",
+      "profile_path": "atlas/symbol_profiles/252/252940.json",
+      "available_years": [
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2016-09-30",
+      "last_date": "2018-04-24",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "252990",
+      "name": "샘씨엔에스",
+      "profile_path": "atlas/symbol_profiles/252/252990.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-05-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

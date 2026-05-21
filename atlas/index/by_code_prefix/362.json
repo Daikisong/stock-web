@@ -1,0 +1,33 @@
+{
+  "prefix": "362",
+  "codes": [
+    {
+      "code": "362320",
+      "name": "청담글로벌",
+      "profile_path": "atlas/symbol_profiles/362/362320.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-06-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "362990",
+      "name": "드림인사이트",
+      "profile_path": "atlas/symbol_profiles/362/362990.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-01-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

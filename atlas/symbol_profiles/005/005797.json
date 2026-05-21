@@ -1,0 +1,43 @@
+{
+  "code": "005797",
+  "current_or_latest_name": "만도기계(2우B)",
+  "name_history": [
+    {
+      "name": "만도기계(2우B)",
+      "first_date": "1998-01-12",
+      "last_date": "2000-02-11"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1998-01-12",
+      "last_date": "2000-02-11"
+    }
+  ],
+  "first_date": "1998-01-12",
+  "last_date": "2000-02-11",
+  "trading_day_count": 562,
+  "available_years": [
+    1998,
+    1999,
+    2000
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/005/005797/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/005/005797/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/005/005797/2000.csv"
+  ],
+  "latest_close": 7490,
+  "latest_marcap": 4360161190,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

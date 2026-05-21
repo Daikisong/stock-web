@@ -1,0 +1,46 @@
+{
+  "prefix": "453",
+  "codes": [
+    {
+      "code": "453340",
+      "name": "현대그린푸드",
+      "profile_path": "atlas/symbol_profiles/453/453340.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-04-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "453450",
+      "name": "그리드위즈",
+      "profile_path": "atlas/symbol_profiles/453/453450.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-06-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "453860",
+      "name": "에이에스텍",
+      "profile_path": "atlas/symbol_profiles/453/453860.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

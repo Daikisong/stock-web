@@ -1,0 +1,49 @@
+{
+  "prefix": "235",
+  "codes": [
+    {
+      "code": "235010",
+      "name": "하이에이아이1호스팩",
+      "profile_path": "atlas/symbol_profiles/235/235010.json",
+      "available_years": [
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2016-03-04",
+      "last_date": "2018-10-11",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "235090",
+      "name": "태경피엔에스",
+      "profile_path": "atlas/symbol_profiles/235/235090.json",
+      "available_years": [
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2016-03-16",
+      "last_date": "2018-05-08",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "235980",
+      "name": "메드팩토",
+      "profile_path": "atlas/symbol_profiles/235/235980.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "prefix": "457",
+  "codes": [
+    {
+      "code": "457190",
+      "name": "이수스페셜티케미컬",
+      "profile_path": "atlas/symbol_profiles/457/457190.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-05-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "457370",
+      "name": "한켐",
+      "profile_path": "atlas/symbol_profiles/457/457370.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-10-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "457390",
+      "name": "대신밸런스제15호스팩",
+      "profile_path": "atlas/symbol_profiles/457/457390.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-08-30",
+      "last_date": "2025-05-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "457550",
+      "name": "우진엔텍",
+      "profile_path": "atlas/symbol_profiles/457/457550.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-01-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "457600",
+      "name": "벡트",
+      "profile_path": "atlas/symbol_profiles/457/457600.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-12-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "457630",
+      "name": "대신밸런스제16호스팩",
+      "profile_path": "atlas/symbol_profiles/457/457630.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-09-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "457940",
+      "name": "에스케이증권제10호스팩",
+      "profile_path": "atlas/symbol_profiles/457/457940.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-08-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

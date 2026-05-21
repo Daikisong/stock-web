@@ -1,0 +1,57 @@
+{
+  "code": "224880",
+  "current_or_latest_name": "SGA클라우드서비스",
+  "name_history": [
+    {
+      "name": "SGA임베디드",
+      "first_date": "2017-06-02",
+      "last_date": "2020-09-28"
+    },
+    {
+      "name": "SGA클라우드서비스",
+      "first_date": "2020-09-29",
+      "last_date": "2021-05-04"
+    },
+    {
+      "name": "에스지에이임베디드",
+      "first_date": "2017-05-23",
+      "last_date": "2017-06-01"
+    }
+  ],
+  "markets": [
+    "KONEX"
+  ],
+  "market_history": [
+    {
+      "market": "KONEX",
+      "first_date": "2017-05-23",
+      "last_date": "2021-05-04"
+    }
+  ],
+  "first_date": "2017-05-23",
+  "last_date": "2021-05-04",
+  "trading_day_count": 971,
+  "available_years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/224/224880/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/224/224880/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/224/224880/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/224/224880/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/224/224880/2021.csv"
+  ],
+  "latest_close": 296,
+  "latest_marcap": 1603776840,
+  "latest_market": "KONEX",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

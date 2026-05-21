@@ -1,0 +1,57 @@
+{
+  "code": "010730",
+  "current_or_latest_name": "금강화섬",
+  "name_history": [
+    {
+      "name": "금강화섬",
+      "first_date": "1995-05-02",
+      "last_date": "2004-07-21"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2004-07-21"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2004-07-21",
+  "trading_day_count": 2437,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/010/010730/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/010/010730/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/010/010730/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/010/010730/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/010/010730/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/010/010730/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/010/010730/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/010/010730/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/010/010730/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/010/010730/2004.csv"
+  ],
+  "latest_close": 5,
+  "latest_marcap": 291982570,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

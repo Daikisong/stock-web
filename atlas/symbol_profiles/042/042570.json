@@ -1,0 +1,60 @@
+{
+  "code": "042570",
+  "current_or_latest_name": "퓨쳐비젼",
+  "name_history": [
+    {
+      "name": "가야전자",
+      "first_date": "2000-10-19",
+      "last_date": "2005-04-22"
+    },
+    {
+      "name": "퓨쳐비젼",
+      "first_date": "2005-04-25",
+      "last_date": "2008-04-11"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2000-10-19",
+      "last_date": "2008-04-11"
+    }
+  ],
+  "first_date": "2000-10-19",
+  "last_date": "2008-04-11",
+  "trading_day_count": 1845,
+  "available_years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/042/042570/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/042/042570/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/042/042570/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/042/042570/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/042/042570/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/042/042570/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/042/042570/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/042/042570/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/042/042570/2008.csv"
+  ],
+  "latest_close": 20,
+  "latest_marcap": 231991920,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

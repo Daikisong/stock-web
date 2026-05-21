@@ -1,0 +1,47 @@
+{
+  "prefix": "412",
+  "codes": [
+    {
+      "code": "412350",
+      "name": "레이저쎌",
+      "profile_path": "atlas/symbol_profiles/412/412350.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-06-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "412540",
+      "name": "제일엠앤에스",
+      "profile_path": "atlas/symbol_profiles/412/412540.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-04-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "412930",
+      "name": "미래에셋비전스팩1호",
+      "profile_path": "atlas/symbol_profiles/412/412930.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-04-21",
+      "last_date": "2025-01-20",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

@@ -1,0 +1,2166 @@
+{
+  "pack_id": "smoke_005930_000660_298040_267260_086520",
+  "generated_at": "2026-05-21T15:40:27.448801+00:00",
+  "source_name": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later.",
+  "items": [
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "trigger_date": "2024-01-02",
+      "entry_mode": "next_trading_day_close",
+      "entry_date": "2024-01-03",
+      "entry_price": 77000,
+      "calibration_usable": true,
+      "forward_window_trading_days": 504,
+      "MFE_30D_pct": 2.34,
+      "MFE_90D_pct": 11.69,
+      "MFE_180D_pct": 15.32,
+      "MFE_1Y_pct": 15.32,
+      "MFE_2Y_pct": 112.08,
+      "MAE_30D_pct": -8.18,
+      "MAE_90D_pct": -8.18,
+      "MAE_180D_pct": -19.22,
+      "MAE_1Y_pct": -35.19,
+      "MAE_2Y_pct": -35.19,
+      "below_entry_price_flag_30D": true,
+      "below_entry_price_flag_90D": true,
+      "peak_date": "2026-01-29",
+      "peak_price": 166600,
+      "drawdown_after_peak_pct": null,
+      "path_summary": [
+        {
+          "label": "D+1",
+          "trading_day_offset": 1,
+          "date": "2024-01-04",
+          "close_return_pct": -0.52,
+          "high_to_date_return_pct": 2.34,
+          "low_to_date_return_pct": -1.17,
+          "available": true
+        },
+        {
+          "label": "D+2",
+          "trading_day_offset": 2,
+          "date": "2024-01-05",
+          "close_return_pct": -0.52,
+          "high_to_date_return_pct": 2.34,
+          "low_to_date_return_pct": -1.17,
+          "available": true
+        },
+        {
+          "label": "D+3",
+          "trading_day_offset": 3,
+          "date": "2024-01-08",
+          "close_return_pct": -0.65,
+          "high_to_date_return_pct": 2.34,
+          "low_to_date_return_pct": -1.17,
+          "available": true
+        },
+        {
+          "label": "D+5",
+          "trading_day_offset": 5,
+          "date": "2024-01-10",
+          "close_return_pct": -4.42,
+          "high_to_date_return_pct": 2.34,
+          "low_to_date_return_pct": -4.94,
+          "available": true
+        },
+        {
+          "label": "D+10",
+          "trading_day_offset": 10,
+          "date": "2024-01-17",
+          "close_return_pct": -7.79,
+          "high_to_date_return_pct": 2.34,
+          "low_to_date_return_pct": -7.79,
+          "available": true
+        },
+        {
+          "label": "D+20",
+          "trading_day_offset": 20,
+          "date": "2024-01-31",
+          "close_return_pct": -5.58,
+          "high_to_date_return_pct": 2.34,
+          "low_to_date_return_pct": -8.18,
+          "available": true
+        },
+        {
+          "label": "D+30",
+          "trading_day_offset": 30,
+          "date": "2024-02-16",
+          "close_return_pct": -5.45,
+          "high_to_date_return_pct": 2.34,
+          "low_to_date_return_pct": -8.18,
+          "available": true
+        },
+        {
+          "label": "D+60",
+          "trading_day_offset": 60,
+          "date": "2024-04-01",
+          "close_return_pct": 6.49,
+          "high_to_date_return_pct": 8.18,
+          "low_to_date_return_pct": -8.18,
+          "available": true
+        },
+        {
+          "label": "D+90",
+          "trading_day_offset": 90,
+          "date": "2024-05-17",
+          "close_return_pct": 0.52,
+          "high_to_date_return_pct": 11.69,
+          "low_to_date_return_pct": -8.18,
+          "available": true
+        },
+        {
+          "label": "D+180",
+          "trading_day_offset": 180,
+          "date": "2024-09-27",
+          "close_return_pct": -16.62,
+          "high_to_date_return_pct": 15.32,
+          "low_to_date_return_pct": -19.22,
+          "available": true
+        },
+        {
+          "label": "D+252",
+          "trading_day_offset": 252,
+          "date": "2025-01-15",
+          "close_return_pct": -30.26,
+          "high_to_date_return_pct": 15.32,
+          "low_to_date_return_pct": -35.19,
+          "available": true
+        },
+        {
+          "label": "D+504",
+          "trading_day_offset": 504,
+          "date": "2026-01-29",
+          "close_return_pct": 108.7,
+          "high_to_date_return_pct": 116.36,
+          "low_to_date_return_pct": -35.19,
+          "available": true
+        }
+      ],
+      "event_window_pre10_post10": [
+        {
+          "relative_day_index": -10,
+          "date": "2023-12-14",
+          "open": 74100,
+          "high": 74300,
+          "low": 72500,
+          "close": 73100,
+          "volume": 27567593,
+          "close_return_from_anchor_pct": -8.17
+        },
+        {
+          "relative_day_index": -9,
+          "date": "2023-12-15",
+          "open": 73800,
+          "high": 74000,
+          "low": 73200,
+          "close": 73300,
+          "volume": 15419815,
+          "close_return_from_anchor_pct": -7.91
+        },
+        {
+          "relative_day_index": -8,
+          "date": "2023-12-18",
+          "open": 73300,
+          "high": 73400,
+          "low": 72800,
+          "close": 72900,
+          "volume": 9690551,
+          "close_return_from_anchor_pct": -8.42
+        },
+        {
+          "relative_day_index": -7,
+          "date": "2023-12-19",
+          "open": 73000,
+          "high": 73400,
+          "low": 72800,
+          "close": 73400,
+          "volume": 8907632,
+          "close_return_from_anchor_pct": -7.79
+        },
+        {
+          "relative_day_index": -6,
+          "date": "2023-12-20",
+          "open": 74200,
+          "high": 74900,
+          "low": 73800,
+          "close": 74800,
+          "volume": 16870156,
+          "close_return_from_anchor_pct": -6.03
+        },
+        {
+          "relative_day_index": -5,
+          "date": "2023-12-21",
+          "open": 74600,
+          "high": 75000,
+          "low": 74300,
+          "close": 75000,
+          "volume": 13478766,
+          "close_return_from_anchor_pct": -5.78
+        },
+        {
+          "relative_day_index": -4,
+          "date": "2023-12-22",
+          "open": 75800,
+          "high": 76300,
+          "low": 75400,
+          "close": 75900,
+          "volume": 14515608,
+          "close_return_from_anchor_pct": -4.65
+        },
+        {
+          "relative_day_index": -3,
+          "date": "2023-12-26",
+          "open": 76100,
+          "high": 76700,
+          "low": 75700,
+          "close": 76600,
+          "volume": 13164909,
+          "close_return_from_anchor_pct": -3.77
+        },
+        {
+          "relative_day_index": -2,
+          "date": "2023-12-27",
+          "open": 76700,
+          "high": 78000,
+          "low": 76500,
+          "close": 78000,
+          "volume": 20651042,
+          "close_return_from_anchor_pct": -2.01
+        },
+        {
+          "relative_day_index": -1,
+          "date": "2023-12-28",
+          "open": 77700,
+          "high": 78500,
+          "low": 77500,
+          "close": 78500,
+          "volume": 17797536,
+          "close_return_from_anchor_pct": -1.38
+        },
+        {
+          "relative_day_index": 0,
+          "date": "2024-01-02",
+          "open": 78200,
+          "high": 79800,
+          "low": 78200,
+          "close": 79600,
+          "volume": 17142847,
+          "close_return_from_anchor_pct": 0
+        },
+        {
+          "relative_day_index": 1,
+          "date": "2024-01-03",
+          "open": 78500,
+          "high": 78800,
+          "low": 77000,
+          "close": 77000,
+          "volume": 21753644,
+          "close_return_from_anchor_pct": -3.27
+        },
+        {
+          "relative_day_index": 2,
+          "date": "2024-01-04",
+          "open": 76100,
+          "high": 77300,
+          "low": 76100,
+          "close": 76600,
+          "volume": 15324439,
+          "close_return_from_anchor_pct": -3.77
+        },
+        {
+          "relative_day_index": 3,
+          "date": "2024-01-05",
+          "open": 76700,
+          "high": 77100,
+          "low": 76400,
+          "close": 76600,
+          "volume": 11304316,
+          "close_return_from_anchor_pct": -3.77
+        },
+        {
+          "relative_day_index": 4,
+          "date": "2024-01-08",
+          "open": 77000,
+          "high": 77500,
+          "low": 76400,
+          "close": 76500,
+          "volume": 11088724,
+          "close_return_from_anchor_pct": -3.89
+        },
+        {
+          "relative_day_index": 5,
+          "date": "2024-01-09",
+          "open": 77400,
+          "high": 77700,
+          "low": 74300,
+          "close": 74700,
+          "volume": 26019249,
+          "close_return_from_anchor_pct": -6.16
+        },
+        {
+          "relative_day_index": 6,
+          "date": "2024-01-10",
+          "open": 75000,
+          "high": 75200,
+          "low": 73200,
+          "close": 73600,
+          "volume": 20259529,
+          "close_return_from_anchor_pct": -7.54
+        },
+        {
+          "relative_day_index": 7,
+          "date": "2024-01-11",
+          "open": 72900,
+          "high": 73600,
+          "low": 72700,
+          "close": 73200,
+          "volume": 57691266,
+          "close_return_from_anchor_pct": -8.04
+        },
+        {
+          "relative_day_index": 8,
+          "date": "2024-01-12",
+          "open": 73000,
+          "high": 74100,
+          "low": 72800,
+          "close": 73100,
+          "volume": 13038939,
+          "close_return_from_anchor_pct": -8.17
+        },
+        {
+          "relative_day_index": 9,
+          "date": "2024-01-15",
+          "open": 73200,
+          "high": 74000,
+          "low": 73200,
+          "close": 73900,
+          "volume": 13212339,
+          "close_return_from_anchor_pct": -7.16
+        },
+        {
+          "relative_day_index": 10,
+          "date": "2024-01-16",
+          "open": 73500,
+          "high": 73700,
+          "low": 72500,
+          "close": 72600,
+          "volume": 14760415,
+          "close_return_from_anchor_pct": -8.79
+        }
+      ],
+      "ohlcv_sample": [
+        {
+          "date": "2024-01-02",
+          "open": 78200,
+          "high": 79800,
+          "low": 78200,
+          "close": 79600,
+          "volume": 17142847
+        },
+        {
+          "date": "2024-01-03",
+          "open": 78500,
+          "high": 78800,
+          "low": 77000,
+          "close": 77000,
+          "volume": 21753644
+        },
+        {
+          "date": "2024-01-04",
+          "open": 76100,
+          "high": 77300,
+          "low": 76100,
+          "close": 76600,
+          "volume": 15324439
+        },
+        {
+          "date": "2024-01-05",
+          "open": 76700,
+          "high": 77100,
+          "low": 76400,
+          "close": 76600,
+          "volume": 11304316
+        },
+        {
+          "date": "2024-01-08",
+          "open": 77000,
+          "high": 77500,
+          "low": 76400,
+          "close": 76500,
+          "volume": 11088724
+        },
+        {
+          "date": "2024-12-23",
+          "open": 53400,
+          "high": 54000,
+          "low": 53300,
+          "close": 53500,
+          "volume": 13672650
+        },
+        {
+          "date": "2024-12-24",
+          "open": 53700,
+          "high": 54500,
+          "low": 53600,
+          "close": 54400,
+          "volume": 11634677
+        },
+        {
+          "date": "2024-12-26",
+          "open": 54500,
+          "high": 54600,
+          "low": 53500,
+          "close": 53600,
+          "volume": 10517075
+        },
+        {
+          "date": "2024-12-27",
+          "open": 53500,
+          "high": 54100,
+          "low": 53200,
+          "close": 53700,
+          "volume": 10747196
+        },
+        {
+          "date": "2024-12-30",
+          "open": 53300,
+          "high": 54000,
+          "low": 53100,
+          "close": 53200,
+          "volume": 12624702
+        }
+      ],
+      "warnings": [
+        "Drawdown after peak unavailable because no row exists after peak date."
+      ]
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "trigger_date": "2024-01-02",
+      "entry_mode": "next_trading_day_close",
+      "entry_date": "2024-01-03",
+      "entry_price": 136800,
+      "calibration_usable": true,
+      "forward_window_trading_days": 504,
+      "MFE_30D_pct": 11.62,
+      "MFE_90D_pct": 41.81,
+      "MFE_180D_pct": 81.65,
+      "MFE_1Y_pct": 81.65,
+      "MFE_2Y_pct": 524.27,
+      "MAE_30D_pct": -5.7,
+      "MAE_90D_pct": -5.7,
+      "MAE_180D_pct": -5.7,
+      "MAE_1Y_pct": -5.7,
+      "MAE_2Y_pct": -5.7,
+      "below_entry_price_flag_30D": true,
+      "below_entry_price_flag_90D": true,
+      "peak_date": "2026-01-29",
+      "peak_price": 884000,
+      "drawdown_after_peak_pct": null,
+      "path_summary": [
+        {
+          "label": "D+1",
+          "trading_day_offset": 1,
+          "date": "2024-01-04",
+          "close_return_pct": -0.29,
+          "high_to_date_return_pct": 2.92,
+          "low_to_date_return_pct": -0.73,
+          "available": true
+        },
+        {
+          "label": "D+2",
+          "trading_day_offset": 2,
+          "date": "2024-01-05",
+          "close_return_pct": 0.51,
+          "high_to_date_return_pct": 2.92,
+          "low_to_date_return_pct": -0.73,
+          "available": true
+        },
+        {
+          "label": "D+3",
+          "trading_day_offset": 3,
+          "date": "2024-01-08",
+          "close_return_pct": -0.58,
+          "high_to_date_return_pct": 2.92,
+          "low_to_date_return_pct": -1.02,
+          "available": true
+        },
+        {
+          "label": "D+5",
+          "trading_day_offset": 5,
+          "date": "2024-01-10",
+          "close_return_pct": -2.41,
+          "high_to_date_return_pct": 2.92,
+          "low_to_date_return_pct": -3.44,
+          "available": true
+        },
+        {
+          "label": "D+10",
+          "trading_day_offset": 10,
+          "date": "2024-01-17",
+          "close_return_pct": -4.24,
+          "high_to_date_return_pct": 2.92,
+          "low_to_date_return_pct": -5.7,
+          "available": true
+        },
+        {
+          "label": "D+20",
+          "trading_day_offset": 20,
+          "date": "2024-01-31",
+          "close_return_pct": -1.54,
+          "high_to_date_return_pct": 6.29,
+          "low_to_date_return_pct": -5.7,
+          "available": true
+        },
+        {
+          "label": "D+30",
+          "trading_day_offset": 30,
+          "date": "2024-02-16",
+          "close_return_pct": 7.31,
+          "high_to_date_return_pct": 11.62,
+          "low_to_date_return_pct": -5.7,
+          "available": true
+        },
+        {
+          "label": "D+60",
+          "trading_day_offset": 60,
+          "date": "2024-04-01",
+          "close_return_pct": 35.6,
+          "high_to_date_return_pct": 39.25,
+          "low_to_date_return_pct": -5.7,
+          "available": true
+        },
+        {
+          "label": "D+90",
+          "trading_day_offset": 90,
+          "date": "2024-05-17",
+          "close_return_pct": 38.82,
+          "high_to_date_return_pct": 41.81,
+          "low_to_date_return_pct": -5.7,
+          "available": true
+        },
+        {
+          "label": "D+180",
+          "trading_day_offset": 180,
+          "date": "2024-09-27",
+          "close_return_pct": 34.36,
+          "high_to_date_return_pct": 81.65,
+          "low_to_date_return_pct": -5.7,
+          "available": true
+        },
+        {
+          "label": "D+252",
+          "trading_day_offset": 252,
+          "date": "2025-01-15",
+          "close_return_pct": 44.88,
+          "high_to_date_return_pct": 81.65,
+          "low_to_date_return_pct": -5.7,
+          "available": true
+        },
+        {
+          "label": "D+504",
+          "trading_day_offset": 504,
+          "date": "2026-01-29",
+          "close_return_pct": 529.39,
+          "high_to_date_return_pct": 546.2,
+          "low_to_date_return_pct": -5.7,
+          "available": true
+        }
+      ],
+      "event_window_pre10_post10": [
+        {
+          "relative_day_index": -10,
+          "date": "2023-12-14",
+          "open": 133700,
+          "high": 138300,
+          "low": 133600,
+          "close": 136700,
+          "volume": 8217135,
+          "close_return_from_anchor_pct": -4
+        },
+        {
+          "relative_day_index": -9,
+          "date": "2023-12-15",
+          "open": 137000,
+          "high": 140000,
+          "low": 137000,
+          "close": 140000,
+          "volume": 5011719,
+          "close_return_from_anchor_pct": -1.69
+        },
+        {
+          "relative_day_index": -8,
+          "date": "2023-12-18",
+          "open": 139000,
+          "high": 140800,
+          "low": 138900,
+          "close": 140000,
+          "volume": 2540812,
+          "close_return_from_anchor_pct": -1.69
+        },
+        {
+          "relative_day_index": -7,
+          "date": "2023-12-19",
+          "open": 140000,
+          "high": 140800,
+          "low": 138100,
+          "close": 138200,
+          "volume": 2309721,
+          "close_return_from_anchor_pct": -2.95
+        },
+        {
+          "relative_day_index": -6,
+          "date": "2023-12-20",
+          "open": 139900,
+          "high": 140800,
+          "low": 139300,
+          "close": 140500,
+          "volume": 3108011,
+          "close_return_from_anchor_pct": -1.33
+        },
+        {
+          "relative_day_index": -5,
+          "date": "2023-12-21",
+          "open": 139200,
+          "high": 140600,
+          "low": 138100,
+          "close": 140500,
+          "volume": 2737124,
+          "close_return_from_anchor_pct": -1.33
+        },
+        {
+          "relative_day_index": -4,
+          "date": "2023-12-22",
+          "open": 142700,
+          "high": 143700,
+          "low": 140600,
+          "close": 140600,
+          "volume": 3183709,
+          "close_return_from_anchor_pct": -1.26
+        },
+        {
+          "relative_day_index": -3,
+          "date": "2023-12-26",
+          "open": 142000,
+          "high": 142000,
+          "low": 139400,
+          "close": 140900,
+          "volume": 2239789,
+          "close_return_from_anchor_pct": -1.05
+        },
+        {
+          "relative_day_index": -2,
+          "date": "2023-12-27",
+          "open": 140800,
+          "high": 141600,
+          "low": 139200,
+          "close": 140400,
+          "volume": 2336777,
+          "close_return_from_anchor_pct": -1.4
+        },
+        {
+          "relative_day_index": -1,
+          "date": "2023-12-28",
+          "open": 140900,
+          "high": 141600,
+          "low": 139500,
+          "close": 141500,
+          "volume": 2459473,
+          "close_return_from_anchor_pct": -0.63
+        },
+        {
+          "relative_day_index": 0,
+          "date": "2024-01-02",
+          "open": 139700,
+          "high": 142800,
+          "low": 139700,
+          "close": 142400,
+          "volume": 2147458,
+          "close_return_from_anchor_pct": 0
+        },
+        {
+          "relative_day_index": 1,
+          "date": "2024-01-03",
+          "open": 140000,
+          "high": 140800,
+          "low": 136800,
+          "close": 136800,
+          "volume": 3257820,
+          "close_return_from_anchor_pct": -3.93
+        },
+        {
+          "relative_day_index": 2,
+          "date": "2024-01-04",
+          "open": 136800,
+          "high": 138800,
+          "low": 135800,
+          "close": 136400,
+          "volume": 2661970,
+          "close_return_from_anchor_pct": -4.21
+        },
+        {
+          "relative_day_index": 3,
+          "date": "2024-01-05",
+          "open": 135800,
+          "high": 137500,
+          "low": 135800,
+          "close": 137500,
+          "volume": 1846781,
+          "close_return_from_anchor_pct": -3.44
+        },
+        {
+          "relative_day_index": 4,
+          "date": "2024-01-08",
+          "open": 137500,
+          "high": 137900,
+          "low": 135400,
+          "close": 136000,
+          "volume": 2498302,
+          "close_return_from_anchor_pct": -4.49
+        },
+        {
+          "relative_day_index": 5,
+          "date": "2024-01-09",
+          "open": 139000,
+          "high": 139500,
+          "low": 136600,
+          "close": 137400,
+          "volume": 3473806,
+          "close_return_from_anchor_pct": -3.51
+        },
+        {
+          "relative_day_index": 6,
+          "date": "2024-01-10",
+          "open": 137700,
+          "high": 138100,
+          "low": 132100,
+          "close": 133500,
+          "volume": 3769252,
+          "close_return_from_anchor_pct": -6.25
+        },
+        {
+          "relative_day_index": 7,
+          "date": "2024-01-11",
+          "open": 132400,
+          "high": 137100,
+          "low": 132400,
+          "close": 136000,
+          "volume": 3594909,
+          "close_return_from_anchor_pct": -4.49
+        },
+        {
+          "relative_day_index": 8,
+          "date": "2024-01-12",
+          "open": 136400,
+          "high": 137300,
+          "low": 133400,
+          "close": 134100,
+          "volume": 1878915,
+          "close_return_from_anchor_pct": -5.83
+        },
+        {
+          "relative_day_index": 9,
+          "date": "2024-01-15",
+          "open": 134800,
+          "high": 135100,
+          "low": 133300,
+          "close": 134100,
+          "volume": 1858867,
+          "close_return_from_anchor_pct": -5.83
+        },
+        {
+          "relative_day_index": 10,
+          "date": "2024-01-16",
+          "open": 132600,
+          "high": 133700,
+          "low": 131100,
+          "close": 132100,
+          "volume": 3670169,
+          "close_return_from_anchor_pct": -7.23
+        }
+      ],
+      "ohlcv_sample": [
+        {
+          "date": "2024-01-02",
+          "open": 139700,
+          "high": 142800,
+          "low": 139700,
+          "close": 142400,
+          "volume": 2147458
+        },
+        {
+          "date": "2024-01-03",
+          "open": 140000,
+          "high": 140800,
+          "low": 136800,
+          "close": 136800,
+          "volume": 3257820
+        },
+        {
+          "date": "2024-01-04",
+          "open": 136800,
+          "high": 138800,
+          "low": 135800,
+          "close": 136400,
+          "volume": 2661970
+        },
+        {
+          "date": "2024-01-05",
+          "open": 135800,
+          "high": 137500,
+          "low": 135800,
+          "close": 137500,
+          "volume": 1846781
+        },
+        {
+          "date": "2024-01-08",
+          "open": 137500,
+          "high": 137900,
+          "low": 135400,
+          "close": 136000,
+          "volume": 2498302
+        },
+        {
+          "date": "2024-12-23",
+          "open": 170000,
+          "high": 173300,
+          "low": 169600,
+          "close": 169600,
+          "volume": 3287596
+        },
+        {
+          "date": "2024-12-24",
+          "open": 171700,
+          "high": 171900,
+          "low": 168300,
+          "close": 168500,
+          "volume": 1844961
+        },
+        {
+          "date": "2024-12-26",
+          "open": 170000,
+          "high": 172000,
+          "low": 169400,
+          "close": 170100,
+          "volume": 2022727
+        },
+        {
+          "date": "2024-12-27",
+          "open": 170100,
+          "high": 176000,
+          "low": 170000,
+          "close": 174500,
+          "volume": 2643523
+        },
+        {
+          "date": "2024-12-30",
+          "open": 174000,
+          "high": 175800,
+          "low": 172400,
+          "close": 173900,
+          "volume": 1434202
+        }
+      ],
+      "warnings": [
+        "Drawdown after peak unavailable because no row exists after peak date."
+      ]
+    },
+    {
+      "code": "298040",
+      "name": "효성중공업",
+      "trigger_date": "2024-01-02",
+      "entry_mode": "next_trading_day_close",
+      "entry_date": "2024-01-03",
+      "entry_price": 167900,
+      "calibration_usable": true,
+      "forward_window_trading_days": 504,
+      "MFE_30D_pct": 14.23,
+      "MFE_90D_pct": 112.63,
+      "MFE_180D_pct": 179.33,
+      "MFE_1Y_pct": 208.52,
+      "MFE_2Y_pct": 1414,
+      "MAE_30D_pct": -7.03,
+      "MAE_90D_pct": -7.03,
+      "MAE_180D_pct": -7.03,
+      "MAE_1Y_pct": -7.03,
+      "MAE_2Y_pct": -7.03,
+      "below_entry_price_flag_30D": true,
+      "below_entry_price_flag_90D": true,
+      "peak_date": "2026-01-29",
+      "peak_price": 2600000,
+      "drawdown_after_peak_pct": null,
+      "path_summary": [
+        {
+          "label": "D+1",
+          "trading_day_offset": 1,
+          "date": "2024-01-04",
+          "close_return_pct": 0.06,
+          "high_to_date_return_pct": 1.91,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        },
+        {
+          "label": "D+2",
+          "trading_day_offset": 2,
+          "date": "2024-01-05",
+          "close_return_pct": 0.89,
+          "high_to_date_return_pct": 3.34,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        },
+        {
+          "label": "D+3",
+          "trading_day_offset": 3,
+          "date": "2024-01-08",
+          "close_return_pct": 4.05,
+          "high_to_date_return_pct": 5.72,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        },
+        {
+          "label": "D+5",
+          "trading_day_offset": 5,
+          "date": "2024-01-10",
+          "close_return_pct": 5.06,
+          "high_to_date_return_pct": 7.68,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        },
+        {
+          "label": "D+10",
+          "trading_day_offset": 10,
+          "date": "2024-01-17",
+          "close_return_pct": 0.66,
+          "high_to_date_return_pct": 10.18,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        },
+        {
+          "label": "D+20",
+          "trading_day_offset": 20,
+          "date": "2024-01-31",
+          "close_return_pct": 2.32,
+          "high_to_date_return_pct": 14.23,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        },
+        {
+          "label": "D+30",
+          "trading_day_offset": 30,
+          "date": "2024-02-16",
+          "close_return_pct": 1.01,
+          "high_to_date_return_pct": 14.23,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        },
+        {
+          "label": "D+60",
+          "trading_day_offset": 60,
+          "date": "2024-04-01",
+          "close_return_pct": 71.53,
+          "high_to_date_return_pct": 74.81,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        },
+        {
+          "label": "D+90",
+          "trading_day_offset": 90,
+          "date": "2024-05-17",
+          "close_return_pct": 120.67,
+          "high_to_date_return_pct": 143.3,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        },
+        {
+          "label": "D+180",
+          "trading_day_offset": 180,
+          "date": "2024-09-27",
+          "close_return_pct": 111.44,
+          "high_to_date_return_pct": 179.33,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        },
+        {
+          "label": "D+252",
+          "trading_day_offset": 252,
+          "date": "2025-01-15",
+          "close_return_pct": 168.02,
+          "high_to_date_return_pct": 208.52,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        },
+        {
+          "label": "D+504",
+          "trading_day_offset": 504,
+          "date": "2026-01-29",
+          "close_return_pct": 1416.38,
+          "high_to_date_return_pct": 1448.54,
+          "low_to_date_return_pct": -7.03,
+          "available": true
+        }
+      ],
+      "event_window_pre10_post10": [
+        {
+          "relative_day_index": -10,
+          "date": "2023-12-14",
+          "open": 169500,
+          "high": 170700,
+          "low": 157100,
+          "close": 163200,
+          "volume": 300981,
+          "close_return_from_anchor_pct": 3.49
+        },
+        {
+          "relative_day_index": -9,
+          "date": "2023-12-15",
+          "open": 164500,
+          "high": 168900,
+          "low": 164500,
+          "close": 165900,
+          "volume": 167422,
+          "close_return_from_anchor_pct": 5.2
+        },
+        {
+          "relative_day_index": -8,
+          "date": "2023-12-18",
+          "open": 167900,
+          "high": 175400,
+          "low": 166700,
+          "close": 175100,
+          "volume": 132859,
+          "close_return_from_anchor_pct": 11.03
+        },
+        {
+          "relative_day_index": -7,
+          "date": "2023-12-19",
+          "open": 176700,
+          "high": 177300,
+          "low": 167800,
+          "close": 169100,
+          "volume": 94138,
+          "close_return_from_anchor_pct": 7.23
+        },
+        {
+          "relative_day_index": -6,
+          "date": "2023-12-20",
+          "open": 169100,
+          "high": 170900,
+          "low": 166000,
+          "close": 169100,
+          "volume": 82030,
+          "close_return_from_anchor_pct": 7.23
+        },
+        {
+          "relative_day_index": -5,
+          "date": "2023-12-21",
+          "open": 169100,
+          "high": 169500,
+          "low": 166100,
+          "close": 166900,
+          "volume": 64763,
+          "close_return_from_anchor_pct": 5.83
+        },
+        {
+          "relative_day_index": -4,
+          "date": "2023-12-22",
+          "open": 168300,
+          "high": 169400,
+          "low": 165300,
+          "close": 165900,
+          "volume": 49901,
+          "close_return_from_anchor_pct": 5.2
+        },
+        {
+          "relative_day_index": -3,
+          "date": "2023-12-26",
+          "open": 165900,
+          "high": 166600,
+          "low": 162500,
+          "close": 163200,
+          "volume": 42475,
+          "close_return_from_anchor_pct": 3.49
+        },
+        {
+          "relative_day_index": -2,
+          "date": "2023-12-27",
+          "open": 162000,
+          "high": 164000,
+          "low": 160400,
+          "close": 162600,
+          "volume": 51834,
+          "close_return_from_anchor_pct": 3.11
+        },
+        {
+          "relative_day_index": -1,
+          "date": "2023-12-28",
+          "open": 162800,
+          "high": 163400,
+          "low": 157500,
+          "close": 161900,
+          "volume": 80175,
+          "close_return_from_anchor_pct": 2.66
+        },
+        {
+          "relative_day_index": 0,
+          "date": "2024-01-02",
+          "open": 161900,
+          "high": 162700,
+          "low": 156800,
+          "close": 157700,
+          "volume": 80790,
+          "close_return_from_anchor_pct": 0
+        },
+        {
+          "relative_day_index": 1,
+          "date": "2024-01-03",
+          "open": 157100,
+          "high": 171100,
+          "low": 156100,
+          "close": 167900,
+          "volume": 192115,
+          "close_return_from_anchor_pct": 6.47
+        },
+        {
+          "relative_day_index": 2,
+          "date": "2024-01-04",
+          "open": 168000,
+          "high": 170000,
+          "low": 163500,
+          "close": 168000,
+          "volume": 72334,
+          "close_return_from_anchor_pct": 6.53
+        },
+        {
+          "relative_day_index": 3,
+          "date": "2024-01-05",
+          "open": 169000,
+          "high": 173500,
+          "low": 165700,
+          "close": 169400,
+          "volume": 74251,
+          "close_return_from_anchor_pct": 7.42
+        },
+        {
+          "relative_day_index": 4,
+          "date": "2024-01-08",
+          "open": 170000,
+          "high": 177500,
+          "low": 166600,
+          "close": 174700,
+          "volume": 105214,
+          "close_return_from_anchor_pct": 10.78
+        },
+        {
+          "relative_day_index": 5,
+          "date": "2024-01-09",
+          "open": 178000,
+          "high": 180000,
+          "low": 172900,
+          "close": 177000,
+          "volume": 82743,
+          "close_return_from_anchor_pct": 12.24
+        },
+        {
+          "relative_day_index": 6,
+          "date": "2024-01-10",
+          "open": 179000,
+          "high": 180800,
+          "low": 176100,
+          "close": 176400,
+          "volume": 52620,
+          "close_return_from_anchor_pct": 11.86
+        },
+        {
+          "relative_day_index": 7,
+          "date": "2024-01-11",
+          "open": 176400,
+          "high": 181400,
+          "low": 175700,
+          "close": 177300,
+          "volume": 46879,
+          "close_return_from_anchor_pct": 12.43
+        },
+        {
+          "relative_day_index": 8,
+          "date": "2024-01-12",
+          "open": 177000,
+          "high": 184500,
+          "low": 171900,
+          "close": 181000,
+          "volume": 79552,
+          "close_return_from_anchor_pct": 14.77
+        },
+        {
+          "relative_day_index": 9,
+          "date": "2024-01-15",
+          "open": 181600,
+          "high": 185000,
+          "low": 178300,
+          "close": 181500,
+          "volume": 53083,
+          "close_return_from_anchor_pct": 15.09
+        },
+        {
+          "relative_day_index": 10,
+          "date": "2024-01-16",
+          "open": 182200,
+          "high": 183500,
+          "low": 173000,
+          "close": 173000,
+          "volume": 74310,
+          "close_return_from_anchor_pct": 9.7
+        }
+      ],
+      "ohlcv_sample": [
+        {
+          "date": "2024-01-02",
+          "open": 161900,
+          "high": 162700,
+          "low": 156800,
+          "close": 157700,
+          "volume": 80790
+        },
+        {
+          "date": "2024-01-03",
+          "open": 157100,
+          "high": 171100,
+          "low": 156100,
+          "close": 167900,
+          "volume": 192115
+        },
+        {
+          "date": "2024-01-04",
+          "open": 168000,
+          "high": 170000,
+          "low": 163500,
+          "close": 168000,
+          "volume": 72334
+        },
+        {
+          "date": "2024-01-05",
+          "open": 169000,
+          "high": 173500,
+          "low": 165700,
+          "close": 169400,
+          "volume": 74251
+        },
+        {
+          "date": "2024-01-08",
+          "open": 170000,
+          "high": 177500,
+          "low": 166600,
+          "close": 174700,
+          "volume": 105214
+        },
+        {
+          "date": "2024-12-23",
+          "open": 417500,
+          "high": 432500,
+          "low": 417000,
+          "close": 424500,
+          "volume": 57347
+        },
+        {
+          "date": "2024-12-24",
+          "open": 425000,
+          "high": 425000,
+          "low": 366000,
+          "close": 393000,
+          "volume": 368872
+        },
+        {
+          "date": "2024-12-26",
+          "open": 397500,
+          "high": 398500,
+          "low": 381000,
+          "close": 389500,
+          "volume": 82489
+        },
+        {
+          "date": "2024-12-27",
+          "open": 391000,
+          "high": 397000,
+          "low": 386000,
+          "close": 386500,
+          "volume": 49114
+        },
+        {
+          "date": "2024-12-30",
+          "open": 380500,
+          "high": 398500,
+          "low": 375500,
+          "close": 393000,
+          "volume": 47974
+        }
+      ],
+      "warnings": [
+        "Drawdown after peak unavailable because no row exists after peak date."
+      ]
+    },
+    {
+      "code": "267260",
+      "name": "HD현대일렉트릭",
+      "trigger_date": "2024-01-02",
+      "entry_mode": "next_trading_day_close",
+      "entry_date": "2024-01-03",
+      "entry_price": 85800,
+      "calibration_usable": true,
+      "forward_window_trading_days": 504,
+      "MFE_30D_pct": 39.04,
+      "MFE_90D_pct": 219.93,
+      "MFE_180D_pct": 336.48,
+      "MFE_1Y_pct": 386.6,
+      "MFE_2Y_pct": 1037.53,
+      "MAE_30D_pct": -5.24,
+      "MAE_90D_pct": -5.24,
+      "MAE_180D_pct": -5.24,
+      "MAE_1Y_pct": -5.24,
+      "MAE_2Y_pct": -5.24,
+      "below_entry_price_flag_30D": false,
+      "below_entry_price_flag_90D": false,
+      "peak_date": "2025-11-04",
+      "peak_price": 976000,
+      "drawdown_after_peak_pct": -24.59,
+      "path_summary": [
+        {
+          "label": "D+1",
+          "trading_day_offset": 1,
+          "date": "2024-01-04",
+          "close_return_pct": 1.52,
+          "high_to_date_return_pct": 4.9,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        },
+        {
+          "label": "D+2",
+          "trading_day_offset": 2,
+          "date": "2024-01-05",
+          "close_return_pct": 5.24,
+          "high_to_date_return_pct": 7.93,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        },
+        {
+          "label": "D+3",
+          "trading_day_offset": 3,
+          "date": "2024-01-08",
+          "close_return_pct": 8.16,
+          "high_to_date_return_pct": 9.21,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        },
+        {
+          "label": "D+5",
+          "trading_day_offset": 5,
+          "date": "2024-01-10",
+          "close_return_pct": 5.59,
+          "high_to_date_return_pct": 10.14,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        },
+        {
+          "label": "D+10",
+          "trading_day_offset": 10,
+          "date": "2024-01-17",
+          "close_return_pct": 8.39,
+          "high_to_date_return_pct": 12.35,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        },
+        {
+          "label": "D+20",
+          "trading_day_offset": 20,
+          "date": "2024-01-31",
+          "close_return_pct": 19.7,
+          "high_to_date_return_pct": 26.34,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        },
+        {
+          "label": "D+30",
+          "trading_day_offset": 30,
+          "date": "2024-02-16",
+          "close_return_pct": 35.08,
+          "high_to_date_return_pct": 40.21,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        },
+        {
+          "label": "D+60",
+          "trading_day_offset": 60,
+          "date": "2024-04-01",
+          "close_return_pct": 111.54,
+          "high_to_date_return_pct": 115.62,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        },
+        {
+          "label": "D+90",
+          "trading_day_offset": 90,
+          "date": "2024-05-17",
+          "close_return_pct": 191.38,
+          "high_to_date_return_pct": 219.93,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        },
+        {
+          "label": "D+180",
+          "trading_day_offset": 180,
+          "date": "2024-09-27",
+          "close_return_pct": 272.38,
+          "high_to_date_return_pct": 336.48,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        },
+        {
+          "label": "D+252",
+          "trading_day_offset": 252,
+          "date": "2025-01-15",
+          "close_return_pct": 369.7,
+          "high_to_date_return_pct": 386.6,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        },
+        {
+          "label": "D+504",
+          "trading_day_offset": 504,
+          "date": "2026-01-29",
+          "close_return_pct": 945.45,
+          "high_to_date_return_pct": 1037.53,
+          "low_to_date_return_pct": -5.24,
+          "available": true
+        }
+      ],
+      "event_window_pre10_post10": [
+        {
+          "relative_day_index": -10,
+          "date": "2023-12-14",
+          "open": 82000,
+          "high": 83400,
+          "low": 80300,
+          "close": 82200,
+          "volume": 735643,
+          "close_return_from_anchor_pct": 2.62
+        },
+        {
+          "relative_day_index": -9,
+          "date": "2023-12-15",
+          "open": 82100,
+          "high": 85300,
+          "low": 81600,
+          "close": 82000,
+          "volume": 261559,
+          "close_return_from_anchor_pct": 2.37
+        },
+        {
+          "relative_day_index": -8,
+          "date": "2023-12-18",
+          "open": 82000,
+          "high": 85500,
+          "low": 82000,
+          "close": 84500,
+          "volume": 209596,
+          "close_return_from_anchor_pct": 5.49
+        },
+        {
+          "relative_day_index": -7,
+          "date": "2023-12-19",
+          "open": 85000,
+          "high": 85000,
+          "low": 83400,
+          "close": 84100,
+          "volume": 133653,
+          "close_return_from_anchor_pct": 4.99
+        },
+        {
+          "relative_day_index": -6,
+          "date": "2023-12-20",
+          "open": 84300,
+          "high": 86200,
+          "low": 83900,
+          "close": 84500,
+          "volume": 144766,
+          "close_return_from_anchor_pct": 5.49
+        },
+        {
+          "relative_day_index": -5,
+          "date": "2023-12-21",
+          "open": 83400,
+          "high": 85500,
+          "low": 83300,
+          "close": 84500,
+          "volume": 128991,
+          "close_return_from_anchor_pct": 5.49
+        },
+        {
+          "relative_day_index": -4,
+          "date": "2023-12-22",
+          "open": 84900,
+          "high": 84900,
+          "low": 82500,
+          "close": 82500,
+          "volume": 118030,
+          "close_return_from_anchor_pct": 3
+        },
+        {
+          "relative_day_index": -3,
+          "date": "2023-12-26",
+          "open": 83200,
+          "high": 83200,
+          "low": 79500,
+          "close": 80000,
+          "volume": 194187,
+          "close_return_from_anchor_pct": -0.12
+        },
+        {
+          "relative_day_index": -2,
+          "date": "2023-12-27",
+          "open": 80300,
+          "high": 81100,
+          "low": 79000,
+          "close": 80400,
+          "volume": 103438,
+          "close_return_from_anchor_pct": 0.37
+        },
+        {
+          "relative_day_index": -1,
+          "date": "2023-12-28",
+          "open": 80400,
+          "high": 83000,
+          "low": 79900,
+          "close": 82200,
+          "volume": 145124,
+          "close_return_from_anchor_pct": 2.62
+        },
+        {
+          "relative_day_index": 0,
+          "date": "2024-01-02",
+          "open": 82200,
+          "high": 82400,
+          "low": 79400,
+          "close": 80100,
+          "volume": 183124,
+          "close_return_from_anchor_pct": 0
+        },
+        {
+          "relative_day_index": 1,
+          "date": "2024-01-03",
+          "open": 82500,
+          "high": 90000,
+          "low": 81300,
+          "close": 85800,
+          "volume": 767960,
+          "close_return_from_anchor_pct": 7.12
+        },
+        {
+          "relative_day_index": 2,
+          "date": "2024-01-04",
+          "open": 85500,
+          "high": 88900,
+          "low": 83400,
+          "close": 87100,
+          "volume": 288759,
+          "close_return_from_anchor_pct": 8.74
+        },
+        {
+          "relative_day_index": 3,
+          "date": "2024-01-05",
+          "open": 87200,
+          "high": 92600,
+          "low": 86500,
+          "close": 90300,
+          "volume": 455850,
+          "close_return_from_anchor_pct": 12.73
+        },
+        {
+          "relative_day_index": 4,
+          "date": "2024-01-08",
+          "open": 90200,
+          "high": 93700,
+          "low": 89100,
+          "close": 92800,
+          "volume": 338984,
+          "close_return_from_anchor_pct": 15.86
+        },
+        {
+          "relative_day_index": 5,
+          "date": "2024-01-09",
+          "open": 93200,
+          "high": 94500,
+          "low": 90400,
+          "close": 91100,
+          "volume": 226227,
+          "close_return_from_anchor_pct": 13.73
+        },
+        {
+          "relative_day_index": 6,
+          "date": "2024-01-10",
+          "open": 90900,
+          "high": 93800,
+          "low": 90100,
+          "close": 90600,
+          "volume": 137921,
+          "close_return_from_anchor_pct": 13.11
+        },
+        {
+          "relative_day_index": 7,
+          "date": "2024-01-11",
+          "open": 90700,
+          "high": 93000,
+          "low": 89600,
+          "close": 89600,
+          "volume": 159879,
+          "close_return_from_anchor_pct": 11.86
+        },
+        {
+          "relative_day_index": 8,
+          "date": "2024-01-12",
+          "open": 89500,
+          "high": 93800,
+          "low": 88500,
+          "close": 92900,
+          "volume": 226453,
+          "close_return_from_anchor_pct": 15.98
+        },
+        {
+          "relative_day_index": 9,
+          "date": "2024-01-15",
+          "open": 93200,
+          "high": 96400,
+          "low": 92200,
+          "close": 95600,
+          "volume": 275298,
+          "close_return_from_anchor_pct": 19.35
+        },
+        {
+          "relative_day_index": 10,
+          "date": "2024-01-16",
+          "open": 95700,
+          "high": 96400,
+          "low": 93000,
+          "close": 93000,
+          "volume": 124471,
+          "close_return_from_anchor_pct": 16.1
+        }
+      ],
+      "ohlcv_sample": [
+        {
+          "date": "2024-01-02",
+          "open": 82200,
+          "high": 82400,
+          "low": 79400,
+          "close": 80100,
+          "volume": 183124
+        },
+        {
+          "date": "2024-01-03",
+          "open": 82500,
+          "high": 90000,
+          "low": 81300,
+          "close": 85800,
+          "volume": 767960
+        },
+        {
+          "date": "2024-01-04",
+          "open": 85500,
+          "high": 88900,
+          "low": 83400,
+          "close": 87100,
+          "volume": 288759
+        },
+        {
+          "date": "2024-01-05",
+          "open": 87200,
+          "high": 92600,
+          "low": 86500,
+          "close": 90300,
+          "volume": 455850
+        },
+        {
+          "date": "2024-01-08",
+          "open": 90200,
+          "high": 93700,
+          "low": 89100,
+          "close": 92800,
+          "volume": 338984
+        },
+        {
+          "date": "2024-12-23",
+          "open": 374000,
+          "high": 384000,
+          "low": 371000,
+          "close": 383500,
+          "volume": 260888
+        },
+        {
+          "date": "2024-12-24",
+          "open": 383500,
+          "high": 396000,
+          "low": 371000,
+          "close": 389500,
+          "volume": 313560
+        },
+        {
+          "date": "2024-12-26",
+          "open": 391500,
+          "high": 392500,
+          "low": 384500,
+          "close": 391000,
+          "volume": 140205
+        },
+        {
+          "date": "2024-12-27",
+          "open": 387500,
+          "high": 394500,
+          "low": 382500,
+          "close": 391500,
+          "volume": 138317
+        },
+        {
+          "date": "2024-12-30",
+          "open": 386500,
+          "high": 388500,
+          "low": 377500,
+          "close": 382000,
+          "volume": 137571
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "code": "086520",
+      "name": "에코프로",
+      "trigger_date": "2024-01-02",
+      "entry_mode": "next_trading_day_close",
+      "entry_date": "2024-01-03",
+      "entry_price": 620000,
+      "calibration_usable": true,
+      "forward_window_trading_days": 504,
+      "MFE_30D_pct": 11.45,
+      "MFE_90D_pct": 11.45,
+      "MFE_180D_pct": 11.45,
+      "MFE_1Y_pct": 11.45,
+      "MFE_2Y_pct": 11.45,
+      "MAE_30D_pct": -22.58,
+      "MAE_90D_pct": -100,
+      "MAE_180D_pct": -100,
+      "MAE_1Y_pct": -100,
+      "MAE_2Y_pct": -100,
+      "below_entry_price_flag_30D": true,
+      "below_entry_price_flag_90D": true,
+      "peak_date": "2024-02-13",
+      "peak_price": 691000,
+      "drawdown_after_peak_pct": -100,
+      "path_summary": [
+        {
+          "label": "D+1",
+          "trading_day_offset": 1,
+          "date": "2024-01-04",
+          "close_return_pct": 2.26,
+          "high_to_date_return_pct": 3.71,
+          "low_to_date_return_pct": -2.26,
+          "available": true
+        },
+        {
+          "label": "D+2",
+          "trading_day_offset": 2,
+          "date": "2024-01-05",
+          "close_return_pct": 5.81,
+          "high_to_date_return_pct": 7.26,
+          "low_to_date_return_pct": -2.26,
+          "available": true
+        },
+        {
+          "label": "D+3",
+          "trading_day_offset": 3,
+          "date": "2024-01-08",
+          "close_return_pct": 3.06,
+          "high_to_date_return_pct": 7.26,
+          "low_to_date_return_pct": -2.26,
+          "available": true
+        },
+        {
+          "label": "D+5",
+          "trading_day_offset": 5,
+          "date": "2024-01-10",
+          "close_return_pct": 0,
+          "high_to_date_return_pct": 7.26,
+          "low_to_date_return_pct": -2.26,
+          "available": true
+        },
+        {
+          "label": "D+10",
+          "trading_day_offset": 10,
+          "date": "2024-01-17",
+          "close_return_pct": -4.03,
+          "high_to_date_return_pct": 7.26,
+          "low_to_date_return_pct": -4.03,
+          "available": true
+        },
+        {
+          "label": "D+20",
+          "trading_day_offset": 20,
+          "date": "2024-01-31",
+          "close_return_pct": -19.03,
+          "high_to_date_return_pct": 7.26,
+          "low_to_date_return_pct": -22.58,
+          "available": true
+        },
+        {
+          "label": "D+30",
+          "trading_day_offset": 30,
+          "date": "2024-02-16",
+          "close_return_pct": 3.23,
+          "high_to_date_return_pct": 11.45,
+          "low_to_date_return_pct": -22.58,
+          "available": true
+        },
+        {
+          "label": "D+60",
+          "trading_day_offset": 60,
+          "date": "2024-04-01",
+          "close_return_pct": 2.26,
+          "high_to_date_return_pct": 11.45,
+          "low_to_date_return_pct": -22.58,
+          "available": true
+        },
+        {
+          "label": "D+90",
+          "trading_day_offset": 90,
+          "date": "2024-05-17",
+          "close_return_pct": -83.92,
+          "high_to_date_return_pct": 11.45,
+          "low_to_date_return_pct": -100,
+          "available": true
+        },
+        {
+          "label": "D+180",
+          "trading_day_offset": 180,
+          "date": "2024-09-27",
+          "close_return_pct": -85.23,
+          "high_to_date_return_pct": 11.45,
+          "low_to_date_return_pct": -100,
+          "available": true
+        },
+        {
+          "label": "D+252",
+          "trading_day_offset": 252,
+          "date": "2025-01-15",
+          "close_return_pct": -89.87,
+          "high_to_date_return_pct": 11.45,
+          "low_to_date_return_pct": -100,
+          "available": true
+        },
+        {
+          "label": "D+504",
+          "trading_day_offset": 504,
+          "date": "2026-01-29",
+          "close_return_pct": -72.26,
+          "high_to_date_return_pct": 11.45,
+          "low_to_date_return_pct": -100,
+          "available": true
+        }
+      ],
+      "event_window_pre10_post10": [
+        {
+          "relative_day_index": -10,
+          "date": "2023-12-14",
+          "open": 647000,
+          "high": 649000,
+          "low": 603000,
+          "close": 610000,
+          "volume": 640681,
+          "close_return_from_anchor_pct": -4.39
+        },
+        {
+          "relative_day_index": -9,
+          "date": "2023-12-15",
+          "open": 628000,
+          "high": 663000,
+          "low": 623000,
+          "close": 644000,
+          "volume": 779921,
+          "close_return_from_anchor_pct": 0.94
+        },
+        {
+          "relative_day_index": -8,
+          "date": "2023-12-18",
+          "open": 673000,
+          "high": 719000,
+          "low": 661000,
+          "close": 697000,
+          "volume": 1172403,
+          "close_return_from_anchor_pct": 9.25
+        },
+        {
+          "relative_day_index": -7,
+          "date": "2023-12-19",
+          "open": 707000,
+          "high": 733000,
+          "low": 697000,
+          "close": 733000,
+          "volume": 720476,
+          "close_return_from_anchor_pct": 14.89
+        },
+        {
+          "relative_day_index": -6,
+          "date": "2023-12-20",
+          "open": 741000,
+          "high": 742000,
+          "low": 718000,
+          "close": 727000,
+          "volume": 407576,
+          "close_return_from_anchor_pct": 13.95
+        },
+        {
+          "relative_day_index": -5,
+          "date": "2023-12-21",
+          "open": 716000,
+          "high": 734000,
+          "low": 686000,
+          "close": 692000,
+          "volume": 696543,
+          "close_return_from_anchor_pct": 8.46
+        },
+        {
+          "relative_day_index": -4,
+          "date": "2023-12-22",
+          "open": 702000,
+          "high": 705000,
+          "low": 666000,
+          "close": 668000,
+          "volume": 411793,
+          "close_return_from_anchor_pct": 4.7
+        },
+        {
+          "relative_day_index": -3,
+          "date": "2023-12-26",
+          "open": 657000,
+          "high": 667000,
+          "low": 634000,
+          "close": 642000,
+          "volume": 520156,
+          "close_return_from_anchor_pct": 0.63
+        },
+        {
+          "relative_day_index": -2,
+          "date": "2023-12-27",
+          "open": 644000,
+          "high": 665000,
+          "low": 635000,
+          "close": 643000,
+          "volume": 443047,
+          "close_return_from_anchor_pct": 0.78
+        },
+        {
+          "relative_day_index": -1,
+          "date": "2023-12-28",
+          "open": 653000,
+          "high": 656000,
+          "low": 631000,
+          "close": 647000,
+          "volume": 260282,
+          "close_return_from_anchor_pct": 1.41
+        },
+        {
+          "relative_day_index": 0,
+          "date": "2024-01-02",
+          "open": 648000,
+          "high": 660000,
+          "low": 637000,
+          "close": 638000,
+          "volume": 249955,
+          "close_return_from_anchor_pct": 0
+        },
+        {
+          "relative_day_index": 1,
+          "date": "2024-01-03",
+          "open": 630000,
+          "high": 636000,
+          "low": 619000,
+          "close": 620000,
+          "volume": 275558,
+          "close_return_from_anchor_pct": -2.82
+        },
+        {
+          "relative_day_index": 2,
+          "date": "2024-01-04",
+          "open": 606000,
+          "high": 643000,
+          "low": 606000,
+          "close": 634000,
+          "volume": 351924,
+          "close_return_from_anchor_pct": -0.63
+        },
+        {
+          "relative_day_index": 3,
+          "date": "2024-01-05",
+          "open": 634000,
+          "high": 665000,
+          "low": 620000,
+          "close": 656000,
+          "volume": 570112,
+          "close_return_from_anchor_pct": 2.82
+        },
+        {
+          "relative_day_index": 4,
+          "date": "2024-01-08",
+          "open": 657000,
+          "high": 658000,
+          "low": 637000,
+          "close": 639000,
+          "volume": 231479,
+          "close_return_from_anchor_pct": 0.16
+        },
+        {
+          "relative_day_index": 5,
+          "date": "2024-01-09",
+          "open": 642000,
+          "high": 656000,
+          "low": 634000,
+          "close": 634000,
+          "volume": 211208,
+          "close_return_from_anchor_pct": -0.63
+        },
+        {
+          "relative_day_index": 6,
+          "date": "2024-01-10",
+          "open": 633000,
+          "high": 639000,
+          "low": 620000,
+          "close": 620000,
+          "volume": 205162,
+          "close_return_from_anchor_pct": -2.82
+        },
+        {
+          "relative_day_index": 7,
+          "date": "2024-01-11",
+          "open": 625000,
+          "high": 654000,
+          "low": 625000,
+          "close": 649000,
+          "volume": 379152,
+          "close_return_from_anchor_pct": 1.72
+        },
+        {
+          "relative_day_index": 8,
+          "date": "2024-01-12",
+          "open": 640000,
+          "high": 642000,
+          "low": 629000,
+          "close": 632000,
+          "volume": 181048,
+          "close_return_from_anchor_pct": -0.94
+        },
+        {
+          "relative_day_index": 9,
+          "date": "2024-01-15",
+          "open": 622000,
+          "high": 638000,
+          "low": 617000,
+          "close": 623000,
+          "volume": 202089,
+          "close_return_from_anchor_pct": -2.35
+        },
+        {
+          "relative_day_index": 10,
+          "date": "2024-01-16",
+          "open": 618000,
+          "high": 626000,
+          "low": 611000,
+          "close": 616000,
+          "volume": 200009,
+          "close_return_from_anchor_pct": -3.45
+        }
+      ],
+      "ohlcv_sample": [
+        {
+          "date": "2024-01-02",
+          "open": 648000,
+          "high": 660000,
+          "low": 637000,
+          "close": 638000,
+          "volume": 249955
+        },
+        {
+          "date": "2024-01-03",
+          "open": 630000,
+          "high": 636000,
+          "low": 619000,
+          "close": 620000,
+          "volume": 275558
+        },
+        {
+          "date": "2024-01-04",
+          "open": 606000,
+          "high": 643000,
+          "low": 606000,
+          "close": 634000,
+          "volume": 351924
+        },
+        {
+          "date": "2024-01-05",
+          "open": 634000,
+          "high": 665000,
+          "low": 620000,
+          "close": 656000,
+          "volume": 570112
+        },
+        {
+          "date": "2024-01-08",
+          "open": 657000,
+          "high": 658000,
+          "low": 637000,
+          "close": 639000,
+          "volume": 231479
+        },
+        {
+          "date": "2024-12-23",
+          "open": 64100,
+          "high": 64500,
+          "low": 61000,
+          "close": 63100,
+          "volume": 991972
+        },
+        {
+          "date": "2024-12-24",
+          "open": 63400,
+          "high": 64500,
+          "low": 61400,
+          "close": 61500,
+          "volume": 862807
+        },
+        {
+          "date": "2024-12-26",
+          "open": 62100,
+          "high": 62300,
+          "low": 58700,
+          "close": 58700,
+          "volume": 1253061
+        },
+        {
+          "date": "2024-12-27",
+          "open": 58700,
+          "high": 59600,
+          "low": 56400,
+          "close": 57000,
+          "volume": 1384361
+        },
+        {
+          "date": "2024-12-30",
+          "open": 57000,
+          "high": 59400,
+          "low": 56700,
+          "close": 57500,
+          "volume": 896501
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}

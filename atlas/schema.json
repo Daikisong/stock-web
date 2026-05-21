@@ -1,0 +1,32 @@
+{
+  "shard_columns": {
+    "d": "date",
+    "o": "open",
+    "h": "high",
+    "l": "low",
+    "c": "close",
+    "v": "volume",
+    "a": "amount",
+    "mc": "marcap",
+    "s": "stocks",
+    "m": "market"
+  },
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later.",
+  "normalization": [
+    "Code is preserved as a zero-padded 6-digit string.",
+    "Each shard has at most one row per code/date.",
+    "Rows missing close or volume are excluded from OHLCV shards.",
+    "If the source has duplicate code/date rows, the atlas keeps the deterministic row with the largest marcap/amount/volume sort order.",
+    "OHLC consistency repair is applied: high=max(raw high, open, close), low=min(raw low, open, close)."
+  ],
+  "MFE_N_pct": "(max high from entry_date through N trading rows / entry_price - 1) * 100",
+  "MAE_N_pct": "(min low from entry_date through N trading rows / entry_price - 1) * 100",
+  "calibration_usable_rules": [
+    "open/high/low/close/volume are present",
+    "entry row exists",
+    "at least 180 forward trading days are available",
+    "MFE and MAE 30/90/180D are computed"
+  ],
+  "status_inferred_note": "active/inactive-like status is inferred only from row presence and is not official listing status."
+}

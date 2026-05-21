@@ -1,0 +1,51 @@
+{
+  "prefix": "341",
+  "codes": [
+    {
+      "code": "341160",
+      "name": "하나금융15호스팩",
+      "profile_path": "atlas/symbol_profiles/341/341160.json",
+      "available_years": [
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2020-01-30",
+      "last_date": "2022-12-22",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "341170",
+      "name": "퓨쳐메디신",
+      "profile_path": "atlas/symbol_profiles/341/341170.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-07-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "341310",
+      "name": "이앤에치",
+      "profile_path": "atlas/symbol_profiles/341/341310.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

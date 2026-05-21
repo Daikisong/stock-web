@@ -1,0 +1,724 @@
+{
+  "prefix": "027",
+  "codes": [
+    {
+      "code": "027040",
+      "name": "서울전자통신",
+      "profile_path": "atlas/symbol_profiles/027/027040.json",
+      "available_years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1999-12-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "027050",
+      "name": "코리아나",
+      "profile_path": "atlas/symbol_profiles/027/027050.json",
+      "available_years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1999-12-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "027350",
+      "name": "텔슨전자",
+      "profile_path": "atlas/symbol_profiles/027/027350.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "first_date": "1996-07-06",
+      "last_date": "2004-08-09",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027351",
+      "name": "텔슨전자1신",
+      "profile_path": "atlas/symbol_profiles/027/027351.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-07-06",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027352",
+      "name": "텔슨전자2신",
+      "profile_path": "atlas/symbol_profiles/027/027352.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-08-16",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027353",
+      "name": "텔슨전자3신",
+      "profile_path": "atlas/symbol_profiles/027/027353.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-08-31",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027354",
+      "name": "텔슨전자전환",
+      "profile_path": "atlas/symbol_profiles/027/027354.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-07-06",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027360",
+      "name": "아주IB투자",
+      "profile_path": "atlas/symbol_profiles/027/027360.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "027390",
+      "name": "한화갤러리아타임월드",
+      "profile_path": "atlas/symbol_profiles/027/027390.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "1996-01-30",
+      "last_date": "2020-04-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027410",
+      "name": "BGF",
+      "profile_path": "atlas/symbol_profiles/027/027410.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-05-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "027440",
+      "name": "코리아이앤디",
+      "profile_path": "atlas/symbol_profiles/027/027440.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "2004-04-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027450",
+      "name": "한보상호신용금고",
+      "profile_path": "atlas/symbol_profiles/027/027450.json",
+      "available_years": [
+        1996,
+        1997,
+        1998
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "1998-04-10",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027460",
+      "name": "주택은행",
+      "profile_path": "atlas/symbol_profiles/027/027460.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001
+      ],
+      "first_date": "1996-03-07",
+      "last_date": "2001-11-08",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027461",
+      "name": "주택은행(1신)",
+      "profile_path": "atlas/symbol_profiles/027/027461.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-03-07",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027465",
+      "name": "주택은행(1우B)",
+      "profile_path": "atlas/symbol_profiles/027/027465.json",
+      "available_years": [
+        2000,
+        2001
+      ],
+      "first_date": "2000-01-21",
+      "last_date": "2001-11-08",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027466",
+      "name": "주택은행(2우B)",
+      "profile_path": "atlas/symbol_profiles/027/027466.json",
+      "available_years": [
+        2000
+      ],
+      "first_date": "2000-01-21",
+      "last_date": "2000-05-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027467",
+      "name": "주택은행(2우B)",
+      "profile_path": "atlas/symbol_profiles/027/027467.json",
+      "available_years": [
+        2000,
+        2001
+      ],
+      "first_date": "2000-01-21",
+      "last_date": "2001-11-08",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027469",
+      "name": "주택은행(3우B)",
+      "profile_path": "atlas/symbol_profiles/027/027469.json",
+      "available_years": [
+        2000,
+        2001
+      ],
+      "first_date": "2000-05-29",
+      "last_date": "2001-11-08",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027560",
+      "name": "케이디엠",
+      "profile_path": "atlas/symbol_profiles/027/027560.json",
+      "available_years": [
+        2001,
+        2002
+      ],
+      "first_date": "2001-01-11",
+      "last_date": "2002-05-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027580",
+      "name": "상보",
+      "profile_path": "atlas/symbol_profiles/027/027580.json",
+      "available_years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2007-10-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "027610",
+      "name": "대륭",
+      "profile_path": "atlas/symbol_profiles/027/027610.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "first_date": "1996-09-24",
+      "last_date": "2000-06-05",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027611",
+      "name": "대륭1신",
+      "profile_path": "atlas/symbol_profiles/027/027611.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-09-24",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027612",
+      "name": "대륭2신",
+      "profile_path": "atlas/symbol_profiles/027/027612.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-09-24",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027613",
+      "name": "대륭3신",
+      "profile_path": "atlas/symbol_profiles/027/027613.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-09-24",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027614",
+      "name": "대륭전환",
+      "profile_path": "atlas/symbol_profiles/027/027614.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-09-24",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027700",
+      "name": "대백쇼핑",
+      "profile_path": "atlas/symbol_profiles/027/027700.json",
+      "available_years": [
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "first_date": "1997-01-17",
+      "last_date": "2004-06-17",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027710",
+      "name": "팜스토리",
+      "profile_path": "atlas/symbol_profiles/027/027710.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1996-07-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "027711",
+      "name": "도드람사료1신",
+      "profile_path": "atlas/symbol_profiles/027/027711.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-07-06",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027712",
+      "name": "도드람사료2신",
+      "profile_path": "atlas/symbol_profiles/027/027712.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-07-06",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027740",
+      "name": "마니커",
+      "profile_path": "atlas/symbol_profiles/027/027740.json",
+      "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2000-12-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "027830",
+      "name": "대성창투",
+      "profile_path": "atlas/symbol_profiles/027/027830.json",
+      "available_years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1999-11-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "027840",
+      "name": "고덴시",
+      "profile_path": "atlas/symbol_profiles/027/027840.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "2010-07-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027841",
+      "name": "한국고덴시1신",
+      "profile_path": "atlas/symbol_profiles/027/027841.json",
+      "available_years": [
+        1996,
+        1997
+      ],
+      "first_date": "1996-09-17",
+      "last_date": "1997-03-28",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027890",
+      "name": "스탠더드텔레",
+      "profile_path": "atlas/symbol_profiles/027/027890.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "2003-04-04",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027891",
+      "name": "스탠더드텔레1신",
+      "profile_path": "atlas/symbol_profiles/027/027891.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027892",
+      "name": "스탠더드텔레2신",
+      "profile_path": "atlas/symbol_profiles/027/027892.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027893",
+      "name": "스탠더드텔레3신",
+      "profile_path": "atlas/symbol_profiles/027/027893.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-07-29",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027894",
+      "name": "스탠더드텔레전환",
+      "profile_path": "atlas/symbol_profiles/027/027894.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-09-05",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "027970",
+      "name": "한국제지",
+      "profile_path": "atlas/symbol_profiles/027/027970.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1996-07-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

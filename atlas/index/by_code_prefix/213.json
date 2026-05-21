@@ -1,0 +1,66 @@
+{
+  "prefix": "213",
+  "codes": [
+    {
+      "code": "213090",
+      "name": "미래테크놀로지",
+      "profile_path": "atlas/symbol_profiles/213/213090.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2015-12-01",
+      "last_date": "2021-10-01",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "213420",
+      "name": "덕산네오룩스",
+      "profile_path": "atlas/symbol_profiles/213/213420.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-02-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "213500",
+      "name": "한솔제지",
+      "profile_path": "atlas/symbol_profiles/213/213500.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-01-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

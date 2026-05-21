@@ -1,0 +1,242 @@
+{
+  "prefix": "022",
+  "codes": [
+    {
+      "code": "022020",
+      "name": "삼경기전",
+      "profile_path": "atlas/symbol_profiles/022/022020.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "1996-08-09",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "022060",
+      "name": "삼성투신증권",
+      "profile_path": "atlas/symbol_profiles/022/022060.json",
+      "available_years": [
+        1999,
+        2000
+      ],
+      "first_date": "1999-08-13",
+      "last_date": "2000-12-12",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "022061",
+      "name": "삼성투신증권1",
+      "profile_path": "atlas/symbol_profiles/022/022061.json",
+      "available_years": [
+        1999,
+        2000
+      ],
+      "first_date": "1999-12-03",
+      "last_date": "2000-03-29",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "022100",
+      "name": "포스코DX",
+      "profile_path": "atlas/symbol_profiles/022/022100.json",
+      "available_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2000-11-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "022130",
+      "name": "건영종합건설",
+      "profile_path": "atlas/symbol_profiles/022/022130.json",
+      "available_years": [
+        1996
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "1996-12-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "022220",
+      "name": "티케이지애강",
+      "profile_path": "atlas/symbol_profiles/022/022220.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "022510",
+      "name": "동호전기",
+      "profile_path": "atlas/symbol_profiles/022/022510.json",
+      "available_years": [
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "first_date": "1997-08-18",
+      "last_date": "2000-06-05",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "022520",
+      "name": "코오롱아이넷",
+      "profile_path": "atlas/symbol_profiles/022/022520.json",
+      "available_years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "first_date": "2001-09-13",
+      "last_date": "2012-01-10",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "022610",
+      "name": "한일",
+      "profile_path": "atlas/symbol_profiles/022/022610.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "2004-02-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "022770",
+      "name": "금강정공",
+      "profile_path": "atlas/symbol_profiles/022/022770.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "2000-06-05",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "022780",
+      "name": "옵셔널벤처스",
+      "profile_path": "atlas/symbol_profiles/022/022780.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "2002-07-30",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "022870",
+      "name": "평화은행",
+      "profile_path": "atlas/symbol_profiles/022/022870.json",
+      "available_years": [
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001
+      ],
+      "first_date": "1996-07-01",
+      "last_date": "2001-07-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "022875",
+      "name": "평화은행우선",
+      "profile_path": "atlas/symbol_profiles/022/022875.json",
+      "available_years": [
+        1999,
+        2000,
+        2001
+      ],
+      "first_date": "1999-04-19",
+      "last_date": "2001-01-22",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

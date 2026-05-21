@@ -1,0 +1,57 @@
+{
+  "prefix": "466",
+  "codes": [
+    {
+      "code": "466100",
+      "name": "클로봇",
+      "profile_path": "atlas/symbol_profiles/466/466100.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-10-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "466410",
+      "name": "사이냅소프트",
+      "profile_path": "atlas/symbol_profiles/466/466410.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "466690",
+      "name": "키움히어로제1호스팩",
+      "profile_path": "atlas/symbol_profiles/466/466690.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-12-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "466910",
+      "name": "엔에이치스팩30호",
+      "profile_path": "atlas/symbol_profiles/466/466910.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-12-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

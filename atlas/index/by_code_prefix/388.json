@@ -1,0 +1,119 @@
+{
+  "prefix": "388",
+  "codes": [
+    {
+      "code": "388050",
+      "name": "지투파워",
+      "profile_path": "atlas/symbol_profiles/388/388050.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-04-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "388210",
+      "name": "씨엠티엑스",
+      "profile_path": "atlas/symbol_profiles/388/388210.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-11-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "388220",
+      "name": "하나금융19호스팩",
+      "profile_path": "atlas/symbol_profiles/388/388220.json",
+      "available_years": [
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2021-10-07",
+      "last_date": "2023-05-22",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "388610",
+      "name": "지에프씨생명과학",
+      "profile_path": "atlas/symbol_profiles/388/388610.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-12-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "388720",
+      "name": "유일로보틱스",
+      "profile_path": "atlas/symbol_profiles/388/388720.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-03-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "388790",
+      "name": "라이콤",
+      "profile_path": "atlas/symbol_profiles/388/388790.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-09-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "388800",
+      "name": "유진스팩7호",
+      "profile_path": "atlas/symbol_profiles/388/388800.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2021-09-13",
+      "last_date": "2024-07-01",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "388870",
+      "name": "파로스아이바이오",
+      "profile_path": "atlas/symbol_profiles/388/388870.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

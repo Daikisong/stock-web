@@ -1,0 +1,70 @@
+{
+  "prefix": "473",
+  "codes": [
+    {
+      "code": "473000",
+      "name": "에스케이증권제12호스팩",
+      "profile_path": "atlas/symbol_profiles/473/473000.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-05-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "473050",
+      "name": "유안타제15호스팩",
+      "profile_path": "atlas/symbol_profiles/473/473050.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-02-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "473370",
+      "name": "비엔케이제2호스팩",
+      "profile_path": "atlas/symbol_profiles/473/473370.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-03-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "473950",
+      "name": "에스케이증권제13호스팩",
+      "profile_path": "atlas/symbol_profiles/473/473950.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-07-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "473980",
+      "name": "노머스",
+      "profile_path": "atlas/symbol_profiles/473/473980.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

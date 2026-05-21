@@ -1,0 +1,31 @@
+{
+  "prefix": "387",
+  "codes": [
+    {
+      "code": "387310",
+      "name": "대신밸런스제10호스팩",
+      "profile_path": "atlas/symbol_profiles/387/387310.json",
+      "available_years": [
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2021-09-17",
+      "last_date": "2023-03-15",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "387570",
+      "name": "파인메딕스",
+      "profile_path": "atlas/symbol_profiles/387/387570.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-12-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "prefix": "452",
+  "codes": [
+    {
+      "code": "452160",
+      "name": "제이엔비",
+      "profile_path": "atlas/symbol_profiles/452/452160.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "452190",
+      "name": "한빛레이저",
+      "profile_path": "atlas/symbol_profiles/452/452190.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-01-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "452200",
+      "name": "민테크",
+      "profile_path": "atlas/symbol_profiles/452/452200.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-05-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "452260",
+      "name": "한화갤러리아",
+      "profile_path": "atlas/symbol_profiles/452/452260.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-03-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "452280",
+      "name": "한선엔지니어링",
+      "profile_path": "atlas/symbol_profiles/452/452280.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "452300",
+      "name": "캡스톤파트너스",
+      "profile_path": "atlas/symbol_profiles/452/452300.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "452400",
+      "name": "이닉스",
+      "profile_path": "atlas/symbol_profiles/452/452400.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-02-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "452430",
+      "name": "사피엔반도체",
+      "profile_path": "atlas/symbol_profiles/452/452430.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-02-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "452450",
+      "name": "피아이이",
+      "profile_path": "atlas/symbol_profiles/452/452450.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-02-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "452670",
+      "name": "상상인제4호스팩",
+      "profile_path": "atlas/symbol_profiles/452/452670.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-09-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "452980",
+      "name": "신한제11호스팩",
+      "profile_path": "atlas/symbol_profiles/452/452980.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-10-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

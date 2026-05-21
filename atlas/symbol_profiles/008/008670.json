@@ -1,0 +1,74 @@
+{
+  "code": "008670",
+  "current_or_latest_name": "굿모닝신한증권",
+  "name_history": [
+    {
+      "name": "굿모닝신한증권",
+      "first_date": "2002-08-20",
+      "last_date": "2005-01-04"
+    },
+    {
+      "name": "굿모닝증권",
+      "first_date": "1999-05-17",
+      "last_date": "2002-08-19"
+    },
+    {
+      "name": "쌍용증권",
+      "first_date": "1996-11-25",
+      "last_date": "1999-05-14"
+    },
+    {
+      "name": "쌍용투자증권",
+      "first_date": "1995-05-02",
+      "last_date": "1996-11-22"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2005-01-04"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2005-01-04",
+  "trading_day_count": 2552,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/008/008670/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008670/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008670/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008670/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008670/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008670/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008670/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008670/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008670/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008670/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/008/008670/2005.csv"
+  ],
+  "latest_close": 3450,
+  "latest_marcap": 536738407500,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,19 @@
+{
+  "prefix": "433",
+  "codes": [
+    {
+      "code": "433530",
+      "name": "키움제7호스팩",
+      "profile_path": "atlas/symbol_profiles/433/433530.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-09-07",
+      "last_date": "2025-03-06",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

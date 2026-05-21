@@ -1,0 +1,41 @@
+{
+  "code": "262760",
+  "current_or_latest_name": "엔케이맥스",
+  "name_history": [
+    {
+      "name": "엔케이맥스",
+      "first_date": "2018-08-09",
+      "last_date": "2019-07-03"
+    }
+  ],
+  "markets": [
+    "KONEX"
+  ],
+  "market_history": [
+    {
+      "market": "KONEX",
+      "first_date": "2018-08-09",
+      "last_date": "2019-07-03"
+    }
+  ],
+  "first_date": "2018-08-09",
+  "last_date": "2019-07-03",
+  "trading_day_count": 219,
+  "available_years": [
+    2018,
+    2019
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/262/262760/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/262/262760/2019.csv"
+  ],
+  "latest_close": 8300,
+  "latest_marcap": 139606000000,
+  "latest_market": "KONEX",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

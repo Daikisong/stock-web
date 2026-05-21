@@ -1,0 +1,76 @@
+{
+  "prefix": "158",
+  "codes": [
+    {
+      "code": "158300",
+      "name": "에스에이티이엔지",
+      "profile_path": "atlas/symbol_profiles/158/158300.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2013-07-01",
+      "last_date": "2021-12-08",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "158310",
+      "name": "참존글로벌",
+      "profile_path": "atlas/symbol_profiles/158/158310.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2013-04-03",
+      "last_date": "2022-11-08",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "158380",
+      "name": "삼목강업",
+      "profile_path": "atlas/symbol_profiles/158/158380.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "first_date": "2013-04-30",
+      "last_date": "2016-04-20",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "158430",
+      "name": "아톤",
+      "profile_path": "atlas/symbol_profiles/158/158430.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-10-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "code": "000306",
+  "current_or_latest_name": "삼선공업(1우1신)",
+  "name_history": [
+    {
+      "name": "삼선공업(1우1신)",
+      "first_date": "1996-12-13",
+      "last_date": "1997-03-28"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1996-12-13",
+      "last_date": "1997-03-28"
+    }
+  ],
+  "first_date": "1996-12-13",
+  "last_date": "1997-03-28",
+  "trading_day_count": 82,
+  "available_years": [
+    1996,
+    1997
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/000/000306/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000306/1997.csv"
+  ],
+  "latest_close": 7600,
+  "latest_marcap": 3806080000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

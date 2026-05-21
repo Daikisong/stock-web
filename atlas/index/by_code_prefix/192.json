@@ -1,0 +1,223 @@
+{
+  "prefix": "192",
+  "codes": [
+    {
+      "code": "192080",
+      "name": "더블유게임즈",
+      "profile_path": "atlas/symbol_profiles/192/192080.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-11-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "192240",
+      "name": "나이코",
+      "profile_path": "atlas/symbol_profiles/192/192240.json",
+      "available_years": [
+        2014,
+        2015,
+        2016
+      ],
+      "first_date": "2014-02-28",
+      "last_date": "2016-12-22",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "192250",
+      "name": "케이사인",
+      "profile_path": "atlas/symbol_profiles/192/192250.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-04-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "192390",
+      "name": "윈하이텍",
+      "profile_path": "atlas/symbol_profiles/192/192390.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-07-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "192400",
+      "name": "쿠쿠홀딩스",
+      "profile_path": "atlas/symbol_profiles/192/192400.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-08-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "192410",
+      "name": "오늘이엔엠",
+      "profile_path": "atlas/symbol_profiles/192/192410.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-08-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "192440",
+      "name": "슈피겐코리아",
+      "profile_path": "atlas/symbol_profiles/192/192440.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-11-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "192520",
+      "name": "경남은행",
+      "profile_path": "atlas/symbol_profiles/192/192520.json",
+      "available_years": [
+        2014,
+        2015
+      ],
+      "first_date": "2014-05-22",
+      "last_date": "2015-06-22",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "192530",
+      "name": "광주은행",
+      "profile_path": "atlas/symbol_profiles/192/192530.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2014-05-22",
+      "last_date": "2018-10-25",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "192650",
+      "name": "드림텍",
+      "profile_path": "atlas/symbol_profiles/192/192650.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-03-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "192820",
+      "name": "코스맥스",
+      "profile_path": "atlas/symbol_profiles/192/192820.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-04-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "prefix": "270",
+  "codes": [
+    {
+      "code": "270020",
+      "name": "이십일스토어",
+      "profile_path": "atlas/symbol_profiles/270/270020.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2017-09-08",
+      "last_date": "2022-04-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "270210",
+      "name": "에스알바이오텍",
+      "profile_path": "atlas/symbol_profiles/270/270210.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-06-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "270520",
+      "name": "앱튼",
+      "profile_path": "atlas/symbol_profiles/270/270520.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-08-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "270660",
+      "name": "에브리봇",
+      "profile_path": "atlas/symbol_profiles/270/270660.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-07-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "270870",
+      "name": "뉴트리",
+      "profile_path": "atlas/symbol_profiles/270/270870.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

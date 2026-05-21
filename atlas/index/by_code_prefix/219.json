@@ -1,0 +1,134 @@
+{
+  "prefix": "219",
+  "codes": [
+    {
+      "code": "219130",
+      "name": "타이거일렉",
+      "profile_path": "atlas/symbol_profiles/219/219130.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-09-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "219420",
+      "name": "링크제니시스",
+      "profile_path": "atlas/symbol_profiles/219/219420.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-07-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "219550",
+      "name": "디와이디",
+      "profile_path": "atlas/symbol_profiles/219/219550.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-07-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "219580",
+      "name": "골든브릿지제3호스팩",
+      "profile_path": "atlas/symbol_profiles/219/219580.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-06-30",
+      "last_date": "2018-02-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "219750",
+      "name": "한국비티비",
+      "profile_path": "atlas/symbol_profiles/219/219750.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-06-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "219860",
+      "name": "한화에이스스팩2호",
+      "profile_path": "atlas/symbol_profiles/219/219860.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-07-20",
+      "last_date": "2018-02-28",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "219960",
+      "name": "유안타제2호스팩",
+      "profile_path": "atlas/symbol_profiles/219/219960.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-07-17",
+      "last_date": "2018-02-22",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

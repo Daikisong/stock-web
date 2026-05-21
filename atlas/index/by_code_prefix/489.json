@@ -1,0 +1,81 @@
+{
+  "prefix": "489",
+  "codes": [
+    {
+      "code": "489210",
+      "name": "교보17호스팩",
+      "profile_path": "atlas/symbol_profiles/489/489210.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "489460",
+      "name": "바이오비쥬",
+      "profile_path": "atlas/symbol_profiles/489/489460.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-05-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "489480",
+      "name": "키움제11호스팩",
+      "profile_path": "atlas/symbol_profiles/489/489480.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-12-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "489500",
+      "name": "엘케이켐",
+      "profile_path": "atlas/symbol_profiles/489/489500.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-02-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "489730",
+      "name": "디비금융제13호스팩",
+      "profile_path": "atlas/symbol_profiles/489/489730.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "489790",
+      "name": "한화비전",
+      "profile_path": "atlas/symbol_profiles/489/489790.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-09-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

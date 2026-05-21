@@ -1,0 +1,34 @@
+{
+  "prefix": "287",
+  "codes": [
+    {
+      "code": "287410",
+      "name": "제이시스메디칼",
+      "profile_path": "atlas/symbol_profiles/287/287410.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2018-05-08",
+      "last_date": "2024-11-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "287840",
+      "name": "인투셀",
+      "profile_path": "atlas/symbol_profiles/287/287840.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-05-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

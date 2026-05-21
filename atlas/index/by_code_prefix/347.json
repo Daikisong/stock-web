@@ -1,0 +1,132 @@
+{
+  "prefix": "347",
+  "codes": [
+    {
+      "code": "347000",
+      "name": "센코",
+      "profile_path": "atlas/symbol_profiles/347/347000.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-10-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "347140",
+      "name": "케이프이에스제4호",
+      "profile_path": "atlas/symbol_profiles/347/347140.json",
+      "available_years": [
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2020-03-24",
+      "last_date": "2022-10-28",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "347700",
+      "name": "스피어",
+      "profile_path": "atlas/symbol_profiles/347/347700.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-03-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "347740",
+      "name": "피엔케이피부임상연구센타",
+      "profile_path": "atlas/symbol_profiles/347/347740.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-09-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "347770",
+      "name": "핌스",
+      "profile_path": "atlas/symbol_profiles/347/347770.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-09-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "347850",
+      "name": "디앤디파마텍",
+      "profile_path": "atlas/symbol_profiles/347/347850.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-05-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "347860",
+      "name": "알체라",
+      "profile_path": "atlas/symbol_profiles/347/347860.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-12-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "347890",
+      "name": "엠투아이",
+      "profile_path": "atlas/symbol_profiles/347/347890.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-07-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "prefix": "226",
+  "codes": [
+    {
+      "code": "226320",
+      "name": "잇츠한불",
+      "profile_path": "atlas/symbol_profiles/226/226320.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-12-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "226330",
+      "name": "신테카바이오",
+      "profile_path": "atlas/symbol_profiles/226/226330.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "226340",
+      "name": "본느",
+      "profile_path": "atlas/symbol_profiles/226/226340.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-11-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "226350",
+      "name": "아이엠텍",
+      "profile_path": "atlas/symbol_profiles/226/226350.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2016-02-03",
+      "last_date": "2021-06-10",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "226360",
+      "name": "KH 건설",
+      "profile_path": "atlas/symbol_profiles/226/226360.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-10-22",
+      "last_date": "2026-01-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "226400",
+      "name": "오스테오닉",
+      "profile_path": "atlas/symbol_profiles/226/226400.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-05-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "226440",
+      "name": "한송네오텍",
+      "profile_path": "atlas/symbol_profiles/226/226440.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2015-10-06",
+      "last_date": "2025-06-18",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "226590",
+      "name": "엠디바이스",
+      "profile_path": "atlas/symbol_profiles/226/226590.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-03-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "226610",
+      "name": "한국비엔씨",
+      "profile_path": "atlas/symbol_profiles/226/226610.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "first_date": "2015-12-18",
+      "last_date": "2019-12-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "226850",
+      "name": "키움스팩4호",
+      "profile_path": "atlas/symbol_profiles/226/226850.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-10-29",
+      "last_date": "2018-06-04",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "226950",
+      "name": "올릭스",
+      "profile_path": "atlas/symbol_profiles/226/226950.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-07-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

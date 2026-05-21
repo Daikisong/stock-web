@@ -1,0 +1,47 @@
+{
+  "code": "900030",
+  "current_or_latest_name": "연합과기",
+  "name_history": [
+    {
+      "name": "연합과기",
+      "first_date": "2008-12-04",
+      "last_date": "2012-09-13"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2008-12-04",
+      "last_date": "2012-09-13"
+    }
+  ],
+  "first_date": "2008-12-04",
+  "last_date": "2012-09-13",
+  "trading_day_count": 946,
+  "available_years": [
+    2008,
+    2009,
+    2010,
+    2011,
+    2012
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/900/900030/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900030/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900030/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900030/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900030/2012.csv"
+  ],
+  "latest_close": 3,
+  "latest_marcap": 60000000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

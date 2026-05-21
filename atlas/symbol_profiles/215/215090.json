@@ -1,0 +1,96 @@
+{
+  "code": "215090",
+  "current_or_latest_name": "솔디펜스",
+  "name_history": [
+    {
+      "name": "리퓨어유니맥스",
+      "first_date": "2019-06-25",
+      "last_date": "2019-09-02"
+    },
+    {
+      "name": "솔디펜스",
+      "first_date": "2025-04-25",
+      "last_date": "2026-02-20"
+    },
+    {
+      "name": "유니맥스글로벌",
+      "first_date": "2019-09-03",
+      "last_date": "2020-04-16"
+    },
+    {
+      "name": "유니맥스정보시스템",
+      "first_date": "2018-03-23",
+      "last_date": "2018-04-26"
+    },
+    {
+      "name": "유진에이씨피씨스팩2호",
+      "first_date": "2015-04-28",
+      "last_date": "2018-03-22"
+    },
+    {
+      "name": "이디티",
+      "first_date": "2020-04-17",
+      "last_date": "2021-08-06"
+    },
+    {
+      "name": "한컴유니맥스",
+      "first_date": "2018-04-27",
+      "last_date": "2019-06-24"
+    },
+    {
+      "name": "휴센텍",
+      "first_date": "2021-08-09",
+      "last_date": "2025-04-24"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2015-04-28",
+      "last_date": "2026-02-20"
+    }
+  ],
+  "first_date": "2015-04-28",
+  "last_date": "2026-02-20",
+  "trading_day_count": 2654,
+  "available_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/215/215090/2026.csv"
+  ],
+  "latest_close": 3265,
+  "latest_marcap": 75603233165,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "active_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

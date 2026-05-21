@@ -1,0 +1,60 @@
+{
+  "code": "012190",
+  "current_or_latest_name": "신호페이퍼",
+  "name_history": [
+    {
+      "name": "신호 페이퍼",
+      "first_date": "1996-09-30",
+      "last_date": "1996-11-22"
+    },
+    {
+      "name": "신호페이퍼",
+      "first_date": "1996-11-25",
+      "last_date": "1998-06-27"
+    },
+    {
+      "name": "온양팔프",
+      "first_date": "1995-05-02",
+      "last_date": "1996-01-25"
+    },
+    {
+      "name": "온양펄프",
+      "first_date": "1996-01-26",
+      "last_date": "1996-10-02"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "1998-06-27"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "1998-06-27",
+  "trading_day_count": 926,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/012/012190/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012190/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012190/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/012/012190/1998.csv"
+  ],
+  "latest_close": 610,
+  "latest_marcap": 12401460430,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

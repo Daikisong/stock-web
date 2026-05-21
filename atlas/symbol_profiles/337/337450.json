@@ -1,0 +1,45 @@
+{
+  "code": "337450",
+  "current_or_latest_name": "SK5호스팩",
+  "name_history": [
+    {
+      "name": "SK5호스팩",
+      "first_date": "2019-12-04",
+      "last_date": "2022-10-17"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2019-12-04",
+      "last_date": "2022-10-17"
+    }
+  ],
+  "first_date": "2019-12-04",
+  "last_date": "2022-10-17",
+  "trading_day_count": 707,
+  "available_years": [
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/337/337450/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/337/337450/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/337/337450/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/337/337450/2022.csv"
+  ],
+  "latest_close": 3200,
+  "latest_marcap": 13792000000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

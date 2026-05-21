@@ -1,0 +1,113 @@
+{
+  "prefix": "272",
+  "codes": [
+    {
+      "code": "272110",
+      "name": "케이엔제이",
+      "profile_path": "atlas/symbol_profiles/272/272110.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-10-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "272210",
+      "name": "한화시스템",
+      "profile_path": "atlas/symbol_profiles/272/272210.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-11-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "272290",
+      "name": "이녹스첨단소재",
+      "profile_path": "atlas/symbol_profiles/272/272290.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-07-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "272420",
+      "name": "극동자동화",
+      "profile_path": "atlas/symbol_profiles/272/272420.json",
+      "available_years": [
+        2017,
+        2018
+      ],
+      "first_date": "2017-06-28",
+      "last_date": "2018-11-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "272450",
+      "name": "진에어",
+      "profile_path": "atlas/symbol_profiles/272/272450.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-12-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "272550",
+      "name": "삼양패키징",
+      "profile_path": "atlas/symbol_profiles/272/272550.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-11-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

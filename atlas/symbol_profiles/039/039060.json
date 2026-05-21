@@ -1,0 +1,58 @@
+{
+  "code": "039060",
+  "current_or_latest_name": "아이비진",
+  "name_history": [
+    {
+      "name": "아이비진",
+      "first_date": "2008-07-31",
+      "last_date": "2008-12-19"
+    },
+    {
+      "name": "인바이오넷",
+      "first_date": "2001-06-19",
+      "last_date": "2008-07-30"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2001-06-19",
+      "last_date": "2008-12-19"
+    }
+  ],
+  "first_date": "2001-06-19",
+  "last_date": "2008-12-19",
+  "trading_day_count": 1857,
+  "available_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/039/039060/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039060/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039060/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039060/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039060/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039060/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039060/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/039/039060/2008.csv"
+  ],
+  "latest_close": 10,
+  "latest_marcap": 148216400,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

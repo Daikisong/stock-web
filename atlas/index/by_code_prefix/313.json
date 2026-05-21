@@ -1,0 +1,36 @@
+{
+  "prefix": "313",
+  "codes": [
+    {
+      "code": "313750",
+      "name": "유안타제4호스팩",
+      "profile_path": "atlas/symbol_profiles/313/313750.json",
+      "available_years": [
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2019-03-21",
+      "last_date": "2021-12-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "313760",
+      "name": "캐리",
+      "profile_path": "atlas/symbol_profiles/313/313760.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-07-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

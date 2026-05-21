@@ -1,0 +1,56 @@
+{
+  "code": "000071",
+  "current_or_latest_name": "삼성스팩11호",
+  "name_history": [
+    {
+      "name": "삼성스팩11호",
+      "first_date": "2025-09-30",
+      "last_date": "2026-02-20"
+    },
+    {
+      "name": "삼양사(1신)",
+      "first_date": "1995-12-12",
+      "last_date": "1996-06-27"
+    }
+  ],
+  "markets": [
+    "KOSDAQ",
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2025-09-30",
+      "last_date": "2026-02-20"
+    },
+    {
+      "market": "KOSPI",
+      "first_date": "1995-12-12",
+      "last_date": "1996-06-27"
+    }
+  ],
+  "first_date": "1995-12-12",
+  "last_date": "2026-02-20",
+  "trading_day_count": 250,
+  "available_years": [
+    1995,
+    1996,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/000/000071/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000071/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000071/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000071/2026.csv"
+  ],
+  "latest_close": 2050,
+  "latest_marcap": 11808000000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "active_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

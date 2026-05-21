@@ -1,0 +1,38 @@
+{
+  "prefix": "172",
+  "codes": [
+    {
+      "code": "172580",
+      "name": "하이골드12호",
+      "profile_path": "atlas/symbol_profiles/172/172580.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2013-07-12",
+      "last_date": "2021-12-30",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "172670",
+      "name": "에이엘티",
+      "profile_path": "atlas/symbol_profiles/172/172670.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

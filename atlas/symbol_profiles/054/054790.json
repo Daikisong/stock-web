@@ -1,0 +1,51 @@
+{
+  "code": "054790",
+  "current_or_latest_name": "제이엠피",
+  "name_history": [
+    {
+      "name": "제이엠피",
+      "first_date": "2001-12-06",
+      "last_date": "2007-04-23"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2001-12-06",
+      "last_date": "2007-04-23"
+    }
+  ],
+  "first_date": "2001-12-06",
+  "last_date": "2007-04-23",
+  "trading_day_count": 1330,
+  "available_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/054/054790/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054790/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054790/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054790/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054790/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054790/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/054/054790/2007.csv"
+  ],
+  "latest_close": 40,
+  "latest_marcap": 1831062240,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

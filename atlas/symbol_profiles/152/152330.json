@@ -1,0 +1,49 @@
+{
+  "code": "152330",
+  "current_or_latest_name": "코리아오토글라스",
+  "name_history": [
+    {
+      "name": "코리아오토글라스",
+      "first_date": "2015-12-29",
+      "last_date": "2020-12-17"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2015-12-29",
+      "last_date": "2020-12-17"
+    }
+  ],
+  "first_date": "2015-12-29",
+  "last_date": "2020-12-17",
+  "trading_day_count": 1221,
+  "available_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/152/152330/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/152/152330/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/152/152330/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/152/152330/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/152/152330/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/152/152330/2020.csv"
+  ],
+  "latest_close": 16550,
+  "latest_marcap": 331000000000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

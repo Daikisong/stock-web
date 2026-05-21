@@ -1,0 +1,61 @@
+{
+  "code": "048760",
+  "current_or_latest_name": "VK",
+  "name_history": [
+    {
+      "name": "VK",
+      "first_date": "2002-04-18",
+      "last_date": "2006-07-21"
+    },
+    {
+      "name": "바이어블",
+      "first_date": "2000-10-12",
+      "last_date": "2002-04-11"
+    },
+    {
+      "name": "브이케이",
+      "first_date": "2002-04-12",
+      "last_date": "2002-04-17"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2000-10-12",
+      "last_date": "2006-07-21"
+    }
+  ],
+  "first_date": "2000-10-12",
+  "last_date": "2006-07-21",
+  "trading_day_count": 1426,
+  "available_years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/048/048760/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048760/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048760/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048760/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048760/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048760/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/048/048760/2006.csv"
+  ],
+  "latest_close": 15,
+  "latest_marcap": 1107711390,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

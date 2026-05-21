@@ -1,0 +1,88 @@
+{
+  "prefix": "331",
+  "codes": [
+    {
+      "code": "331380",
+      "name": "포커스에이아이",
+      "profile_path": "atlas/symbol_profiles/331/331380.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-10-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "331520",
+      "name": "밸로프",
+      "profile_path": "atlas/symbol_profiles/331/331520.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-10-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "331660",
+      "name": "한국미라클피플사",
+      "profile_path": "atlas/symbol_profiles/331/331660.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-10-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "331740",
+      "name": "아우토크립트",
+      "profile_path": "atlas/symbol_profiles/331/331740.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-07-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "331920",
+      "name": "셀레믹스",
+      "profile_path": "atlas/symbol_profiles/331/331920.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-08-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

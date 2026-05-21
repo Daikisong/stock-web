@@ -1,0 +1,112 @@
+{
+  "prefix": "112",
+  "codes": [
+    {
+      "code": "112040",
+      "name": "위메이드",
+      "profile_path": "atlas/symbol_profiles/112/112040.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2009-12-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "112190",
+      "name": "KC산업",
+      "profile_path": "atlas/symbol_profiles/112/112190.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-05-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "112240",
+      "name": "에스에프씨",
+      "profile_path": "atlas/symbol_profiles/112/112240.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2011-11-30",
+      "last_date": "2020-06-29",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "112290",
+      "name": "와이씨켐",
+      "profile_path": "atlas/symbol_profiles/112/112290.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-07-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "112610",
+      "name": "씨에스윈드",
+      "profile_path": "atlas/symbol_profiles/112/112610.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-11-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

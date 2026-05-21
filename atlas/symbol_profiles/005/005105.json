@@ -1,0 +1,47 @@
+{
+  "code": "005105",
+  "current_or_latest_name": "쌍용제지(1우)",
+  "name_history": [
+    {
+      "name": "쌍용제지(1우)",
+      "first_date": "1995-05-02",
+      "last_date": "1999-06-15"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "1999-06-15"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "1999-06-15",
+  "trading_day_count": 1185,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/005/005105/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/005/005105/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/005/005105/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/005/005105/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/005/005105/1999.csv"
+  ],
+  "latest_close": 50000,
+  "latest_marcap": 28583650000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

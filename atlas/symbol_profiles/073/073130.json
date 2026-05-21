@@ -1,0 +1,58 @@
+{
+  "code": "073130",
+  "current_or_latest_name": "인스프리트",
+  "name_history": [
+    {
+      "name": "인스프리트",
+      "first_date": "2008-02-21",
+      "last_date": "2012-10-11"
+    },
+    {
+      "name": "인프라밸리",
+      "first_date": "2005-01-19",
+      "last_date": "2008-02-20"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2005-01-19",
+      "last_date": "2012-10-11"
+    }
+  ],
+  "first_date": "2005-01-19",
+  "last_date": "2012-10-11",
+  "trading_day_count": 1924,
+  "available_years": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/073/073130/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/073/073130/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/073/073130/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/073/073130/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/073/073130/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/073/073130/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/073/073130/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/073/073130/2012.csv"
+  ],
+  "latest_close": 7,
+  "latest_marcap": 273596932,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

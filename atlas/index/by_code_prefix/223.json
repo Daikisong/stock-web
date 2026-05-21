@@ -1,0 +1,80 @@
+{
+  "prefix": "223",
+  "codes": [
+    {
+      "code": "223040",
+      "name": "교보5호스팩",
+      "profile_path": "atlas/symbol_profiles/223/223040.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-08-27",
+      "last_date": "2018-03-29",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "223220",
+      "name": "로지스몬",
+      "profile_path": "atlas/symbol_profiles/223/223220.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-07-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "223250",
+      "name": "드림씨아이에스",
+      "profile_path": "atlas/symbol_profiles/223/223250.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-05-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "223310",
+      "name": "사토시홀딩스",
+      "profile_path": "atlas/symbol_profiles/223/223310.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-12-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

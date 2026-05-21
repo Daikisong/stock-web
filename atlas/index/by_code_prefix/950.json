@@ -1,0 +1,264 @@
+{
+  "prefix": "950",
+  "codes": [
+    {
+      "code": "950010",
+      "name": "평산차업 KDR",
+      "profile_path": "atlas/symbol_profiles/950/950010.json",
+      "available_years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "first_date": "2007-11-26",
+      "last_date": "2015-11-04",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "950030",
+      "name": "네프로아이티",
+      "profile_path": "atlas/symbol_profiles/950/950030.json",
+      "available_years": [
+        2009,
+        2010,
+        2011
+      ],
+      "first_date": "2009-04-24",
+      "last_date": "2011-11-04",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "950070",
+      "name": "중국고섬",
+      "profile_path": "atlas/symbol_profiles/950/950070.json",
+      "available_years": [
+        2011,
+        2012,
+        2013
+      ],
+      "first_date": "2011-01-25",
+      "last_date": "2013-10-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "950100",
+      "name": "SBI모기지",
+      "profile_path": "atlas/symbol_profiles/950/950100.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "first_date": "2012-04-30",
+      "last_date": "2015-01-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "950110",
+      "name": "SBI핀테크솔루션즈",
+      "profile_path": "atlas/symbol_profiles/950/950110.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2012-12-17",
+      "last_date": "2025-07-23",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "950130",
+      "name": "엑세스바이오",
+      "profile_path": "atlas/symbol_profiles/950/950130.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-05-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "950140",
+      "name": "잉글우드랩",
+      "profile_path": "atlas/symbol_profiles/950/950140.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-10-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "950160",
+      "name": "코오롱티슈진",
+      "profile_path": "atlas/symbol_profiles/950/950160.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-11-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "950170",
+      "name": "JTC",
+      "profile_path": "atlas/symbol_profiles/950/950170.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-04-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "950180",
+      "name": "SNK",
+      "profile_path": "atlas/symbol_profiles/950/950180.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2019-05-07",
+      "last_date": "2022-05-17",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "950190",
+      "name": "고스트스튜디오",
+      "profile_path": "atlas/symbol_profiles/950/950190.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-08-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "950200",
+      "name": "소마젠",
+      "profile_path": "atlas/symbol_profiles/950/950200.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-07-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "950210",
+      "name": "프레스티지바이오파마",
+      "profile_path": "atlas/symbol_profiles/950/950210.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-02-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "950220",
+      "name": "네오이뮨텍",
+      "profile_path": "atlas/symbol_profiles/950/950220.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-03-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "950250",
+      "name": "테라뷰",
+      "profile_path": "atlas/symbol_profiles/950/950250.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-12-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "prefix": "450",
+  "codes": [
+    {
+      "code": "450050",
+      "name": "하이제8호스팩",
+      "profile_path": "atlas/symbol_profiles/450/450050.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-06-22",
+      "last_date": "2026-01-28",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "450080",
+      "name": "에코프로머티",
+      "profile_path": "atlas/symbol_profiles/450/450080.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "450140",
+      "name": "코오롱모빌리티그룹",
+      "profile_path": "atlas/symbol_profiles/450/450140.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-01-31",
+      "last_date": "2026-01-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "450330",
+      "name": "하스",
+      "profile_path": "atlas/symbol_profiles/450/450330.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-07-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "450410",
+      "name": "엔에이치스팩28호",
+      "profile_path": "atlas/symbol_profiles/450/450410.json",
+      "available_years": [
+        2023
+      ],
+      "first_date": "2023-03-09",
+      "last_date": "2023-12-20",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "450520",
+      "name": "인스웨이브",
+      "profile_path": "atlas/symbol_profiles/450/450520.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-09-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "450940",
+      "name": "유안타제14호스팩",
+      "profile_path": "atlas/symbol_profiles/450/450940.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "450950",
+      "name": "아스테라시스",
+      "profile_path": "atlas/symbol_profiles/450/450950.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-01-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

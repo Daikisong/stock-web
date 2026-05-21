@@ -1,0 +1,68 @@
+{
+  "code": "900080",
+  "current_or_latest_name": "에스앤씨엔진그룹",
+  "name_history": [
+    {
+      "name": "에스앤씨엔진그룹",
+      "first_date": "2012-06-08",
+      "last_date": "2021-06-11"
+    },
+    {
+      "name": "중국엔진집단",
+      "first_date": "2009-12-04",
+      "last_date": "2012-06-07"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2009-12-04",
+      "last_date": "2021-06-11"
+    }
+  ],
+  "first_date": "2009-12-04",
+  "last_date": "2021-06-11",
+  "trading_day_count": 2842,
+  "available_years": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/900/900080/2021.csv"
+  ],
+  "latest_close": 21,
+  "latest_marcap": 2598951453,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

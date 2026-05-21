@@ -1,0 +1,117 @@
+{
+  "prefix": "246",
+  "codes": [
+    {
+      "code": "246250",
+      "name": "에스엘에스바이오",
+      "profile_path": "atlas/symbol_profiles/246/246250.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-06-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "246690",
+      "name": "TS인베스트먼트",
+      "profile_path": "atlas/symbol_profiles/246/246690.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-12-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "246710",
+      "name": "티앤알바이오팹",
+      "profile_path": "atlas/symbol_profiles/246/246710.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "246720",
+      "name": "아스타",
+      "profile_path": "atlas/symbol_profiles/246/246720.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-03-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "246830",
+      "name": "시냅스엠",
+      "profile_path": "atlas/symbol_profiles/246/246830.json",
+      "available_years": [
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2016-07-13",
+      "last_date": "2018-05-11",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "246960",
+      "name": "SCL사이언스",
+      "profile_path": "atlas/symbol_profiles/246/246960.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-02-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

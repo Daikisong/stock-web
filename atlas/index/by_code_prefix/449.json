@@ -1,0 +1,18 @@
+{
+  "prefix": "449",
+  "codes": [
+    {
+      "code": "449020",
+      "name": "유안타제13호스팩",
+      "profile_path": "atlas/symbol_profiles/449/449020.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-02-28",
+      "last_date": "2025-10-02",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

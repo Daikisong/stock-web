@@ -1,0 +1,43 @@
+{
+  "code": "122290",
+  "current_or_latest_name": "동양밸류스팩",
+  "name_history": [
+    {
+      "name": "동양밸류스팩",
+      "first_date": "2010-03-25",
+      "last_date": "2012-11-06"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2010-03-25",
+      "last_date": "2012-11-06"
+    }
+  ],
+  "first_date": "2010-03-25",
+  "last_date": "2012-11-06",
+  "trading_day_count": 655,
+  "available_years": [
+    2010,
+    2011,
+    2012
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/122/122290/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/122/122290/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/122/122290/2012.csv"
+  ],
+  "latest_close": 10200,
+  "latest_marcap": 50388000000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,232 @@
+{
+  "prefix": "108",
+  "codes": [
+    {
+      "code": "108070",
+      "name": "삼성이미징",
+      "profile_path": "atlas/symbol_profiles/108/108070.json",
+      "available_years": [
+        2009,
+        2010
+      ],
+      "first_date": "2009-03-10",
+      "last_date": "2010-04-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "108230",
+      "name": "톱텍",
+      "profile_path": "atlas/symbol_profiles/108/108230.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2009-09-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "108320",
+      "name": "LX세미콘",
+      "profile_path": "atlas/symbol_profiles/108/108320.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-06-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "108380",
+      "name": "대양전기공업",
+      "profile_path": "atlas/symbol_profiles/108/108380.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-07-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "108490",
+      "name": "로보티즈",
+      "profile_path": "atlas/symbol_profiles/108/108490.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-10-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "108670",
+      "name": "LX하우시스",
+      "profile_path": "atlas/symbol_profiles/108/108670.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2009-04-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "108675",
+      "name": "LX하우시스우",
+      "profile_path": "atlas/symbol_profiles/108/108675.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2009-04-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "108790",
+      "name": "인터파크",
+      "profile_path": "atlas/symbol_profiles/108/108790.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2014-02-06",
+      "last_date": "2020-07-15",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "108860",
+      "name": "셀바스AI",
+      "profile_path": "atlas/symbol_profiles/108/108860.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2009-12-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "108890",
+      "name": "거북선4호",
+      "profile_path": "atlas/symbol_profiles/108/108890.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012
+      ],
+      "first_date": "2009-03-06",
+      "last_date": "2012-05-23",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

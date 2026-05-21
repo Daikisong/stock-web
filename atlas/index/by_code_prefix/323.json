@@ -1,0 +1,119 @@
+{
+  "prefix": "323",
+  "codes": [
+    {
+      "code": "323210",
+      "name": "이베스트이안스팩1호",
+      "profile_path": "atlas/symbol_profiles/323/323210.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2019-07-15",
+      "last_date": "2022-02-16",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "323230",
+      "name": "엠에프엠코리아",
+      "profile_path": "atlas/symbol_profiles/323/323230.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2019-06-19",
+      "last_date": "2025-06-18",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "323280",
+      "name": "태성",
+      "profile_path": "atlas/symbol_profiles/323/323280.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-06-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "323350",
+      "name": "다원넥스뷰",
+      "profile_path": "atlas/symbol_profiles/323/323350.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-05-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "323410",
+      "name": "카카오뱅크",
+      "profile_path": "atlas/symbol_profiles/323/323410.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-08-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "323940",
+      "name": "케이비제18호스팩",
+      "profile_path": "atlas/symbol_profiles/323/323940.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2019-06-24",
+      "last_date": "2022-02-03",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "323990",
+      "name": "박셀바이오",
+      "profile_path": "atlas/symbol_profiles/323/323990.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-09-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

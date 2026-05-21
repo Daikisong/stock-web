@@ -1,0 +1,57 @@
+{
+  "prefix": "286",
+  "codes": [
+    {
+      "code": "286000",
+      "name": "씨엔티드림",
+      "profile_path": "atlas/symbol_profiles/286/286000.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2020-12-11",
+      "last_date": "2024-10-04",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "286750",
+      "name": "나노실리칸첨단소재",
+      "profile_path": "atlas/symbol_profiles/286/286750.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-08-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "286940",
+      "name": "롯데이노베이트",
+      "profile_path": "atlas/symbol_profiles/286/286940.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-07-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

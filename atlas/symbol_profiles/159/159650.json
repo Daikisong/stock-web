@@ -1,0 +1,55 @@
+{
+  "code": "159650",
+  "current_or_latest_name": "하이골드8호",
+  "name_history": [
+    {
+      "name": "하이골드8호",
+      "first_date": "2012-09-17",
+      "last_date": "2020-04-24"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2012-09-17",
+      "last_date": "2020-04-24"
+    }
+  ],
+  "first_date": "2012-09-17",
+  "last_date": "2020-04-24",
+  "trading_day_count": 1869,
+  "available_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/159/159650/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/159/159650/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/159/159650/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/159/159650/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/159/159650/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/159/159650/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/159/159650/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/159/159650/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/159/159650/2020.csv"
+  ],
+  "latest_close": 1940,
+  "latest_marcap": 28917502260,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

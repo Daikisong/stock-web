@@ -1,0 +1,41 @@
+{
+  "code": "024820",
+  "current_or_latest_name": "동부상호신용금고",
+  "name_history": [
+    {
+      "name": "동부상호신용금고",
+      "first_date": "1996-07-01",
+      "last_date": "1997-12-05"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1996-07-01",
+      "last_date": "1997-12-05"
+    }
+  ],
+  "first_date": "1996-07-01",
+  "last_date": "1997-12-05",
+  "trading_day_count": 422,
+  "available_years": [
+    1996,
+    1997
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/024/024820/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/024/024820/1997.csv"
+  ],
+  "latest_close": 12300,
+  "latest_marcap": 24600000000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

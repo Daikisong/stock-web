@@ -1,0 +1,74 @@
+{
+  "prefix": "424",
+  "codes": [
+    {
+      "code": "424140",
+      "name": "케이비제21호스팩",
+      "profile_path": "atlas/symbol_profiles/424/424140.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-06-23",
+      "last_date": "2025-02-03",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "424760",
+      "name": "벨로크",
+      "profile_path": "atlas/symbol_profiles/424/424760.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-07-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "424870",
+      "name": "이뮨온시아",
+      "profile_path": "atlas/symbol_profiles/424/424870.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-05-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "424960",
+      "name": "스마트레이더시스템",
+      "profile_path": "atlas/symbol_profiles/424/424960.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-08-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "424980",
+      "name": "마이크로투나노",
+      "profile_path": "atlas/symbol_profiles/424/424980.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-04-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

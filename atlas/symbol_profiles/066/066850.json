@@ -1,0 +1,61 @@
+{
+  "code": "066850",
+  "current_or_latest_name": "아이드림",
+  "name_history": [
+    {
+      "name": "미광콘택트",
+      "first_date": "2003-08-06",
+      "last_date": "2008-07-07"
+    },
+    {
+      "name": "아이드림",
+      "first_date": "2009-06-02",
+      "last_date": "2009-10-06"
+    },
+    {
+      "name": "아이오셀",
+      "first_date": "2008-07-08",
+      "last_date": "2009-06-01"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2003-08-06",
+      "last_date": "2009-10-06"
+    }
+  ],
+  "first_date": "2003-08-06",
+  "last_date": "2009-10-06",
+  "trading_day_count": 1531,
+  "available_years": [
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/066/066850/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066850/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066850/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066850/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066850/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066850/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066850/2009.csv"
+  ],
+  "latest_close": 10,
+  "latest_marcap": 57374420,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

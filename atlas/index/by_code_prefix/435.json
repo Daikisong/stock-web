@@ -1,0 +1,59 @@
+{
+  "prefix": "435",
+  "codes": [
+    {
+      "code": "435380",
+      "name": "유안타제10호스팩",
+      "profile_path": "atlas/symbol_profiles/435/435380.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-10-06",
+      "last_date": "2025-05-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "435570",
+      "name": "에르코스",
+      "profile_path": "atlas/symbol_profiles/435/435570.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-02-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "435620",
+      "name": "하나금융25호스팩",
+      "profile_path": "atlas/symbol_profiles/435/435620.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-10-20",
+      "last_date": "2025-05-23",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "435870",
+      "name": "에스케이증권제8호스팩",
+      "profile_path": "atlas/symbol_profiles/435/435870.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-10-06",
+      "last_date": "2025-05-15",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

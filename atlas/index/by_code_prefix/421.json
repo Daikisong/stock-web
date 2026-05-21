@@ -1,0 +1,18 @@
+{
+  "prefix": "421",
+  "codes": [
+    {
+      "code": "421800",
+      "name": "교보12호스팩",
+      "profile_path": "atlas/symbol_profiles/421/421800.json",
+      "available_years": [
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2022-06-24",
+      "last_date": "2024-11-18",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

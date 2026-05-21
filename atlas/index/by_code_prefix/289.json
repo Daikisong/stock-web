@@ -1,0 +1,98 @@
+{
+  "prefix": "289",
+  "codes": [
+    {
+      "code": "289010",
+      "name": "아이스크림에듀",
+      "profile_path": "atlas/symbol_profiles/289/289010.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-07-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "289080",
+      "name": "SV인베스트먼트",
+      "profile_path": "atlas/symbol_profiles/289/289080.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-07-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "289170",
+      "name": "바이오텐",
+      "profile_path": "atlas/symbol_profiles/289/289170.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-10-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "289220",
+      "name": "자이언트스텝",
+      "profile_path": "atlas/symbol_profiles/289/289220.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-03-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "289860",
+      "name": "지슨",
+      "profile_path": "atlas/symbol_profiles/289/289860.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-01-26",
+      "last_date": "2025-08-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "289930",
+      "name": "웨이비스",
+      "profile_path": "atlas/symbol_profiles/289/289930.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-10-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

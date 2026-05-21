@@ -1,0 +1,86 @@
+{
+  "prefix": "440",
+  "codes": [
+    {
+      "code": "440110",
+      "name": "파두",
+      "profile_path": "atlas/symbol_profiles/440/440110.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-08-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "440200",
+      "name": "케이비제23호스팩",
+      "profile_path": "atlas/symbol_profiles/440/440200.json",
+      "available_years": [
+        2022,
+        2023
+      ],
+      "first_date": "2022-11-03",
+      "last_date": "2023-11-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "440290",
+      "name": "HB인베스트먼트",
+      "profile_path": "atlas/symbol_profiles/440/440290.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-01-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "440320",
+      "name": "오픈놀",
+      "profile_path": "atlas/symbol_profiles/440/440320.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-06-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "440790",
+      "name": "교보13호스팩",
+      "profile_path": "atlas/symbol_profiles/440/440790.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-11-02",
+      "last_date": "2025-07-10",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "440820",
+      "name": "엔에이치스팩27호",
+      "profile_path": "atlas/symbol_profiles/440/440820.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-12-16",
+      "last_date": "2025-07-18",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

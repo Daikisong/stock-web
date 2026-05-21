@@ -1,0 +1,41 @@
+{
+  "code": "036950",
+  "current_or_latest_name": "유리중립일",
+  "name_history": [
+    {
+      "name": "유리중립일",
+      "first_date": "1999-11-12",
+      "last_date": "2000-10-02"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1999-11-12",
+      "last_date": "2000-10-02"
+    }
+  ],
+  "first_date": "1999-11-12",
+  "last_date": "2000-10-02",
+  "trading_day_count": 215,
+  "available_years": [
+    1999,
+    2000
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/036/036950/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036950/2000.csv"
+  ],
+  "latest_close": 5340,
+  "latest_marcap": 15381870000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

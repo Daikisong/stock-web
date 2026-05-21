@@ -1,0 +1,41 @@
+{
+  "atlas_version": "1.0.0",
+  "generated_at": "2026-05-21T15:40:27.255547+00:00",
+  "source_name": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "min_date": "1995-05-02",
+  "max_date": "2026-02-20",
+  "row_count": 15203785,
+  "source_raw_row_count": 15214118,
+  "duplicate_code_date_rows_dropped": 10331,
+  "invalid_required_ohlcv_rows_dropped": 2,
+  "ohlc_consistency_repair_applied": true,
+  "ohlc_consistency_repaired_rows": 813762,
+  "symbol_count": 5414,
+  "active_like_symbol_count": 2868,
+  "inactive_or_delisted_like_symbol_count": 2546,
+  "markets": [
+    "KONEX",
+    "KOSDAQ",
+    "KOSDAQ GLOBAL",
+    "KOSPI"
+  ],
+  "shard_type": "symbol_year_min_csv",
+  "ohlcv_shard_root": "atlas/ohlcv_min_by_symbol_year",
+  "schema_path": "atlas/schema.json",
+  "universe_path": "atlas/universe/all_symbols.csv",
+  "research_pack_generator": "scripts/build_research_pack.py",
+  "full_ohlcv_atlas_committed_to_main": true,
+  "full_ohlcv_atlas_branch": "",
+  "data_branch_if_used": "",
+  "notes": [
+    "Raw/unadjusted OHLC. Corporate actions are not adjusted.",
+    "Atlas enforces one code/date row and OHLC path consistency for browser-readable backtests.",
+    "OHLC consistency repair: high=max(raw high, open, close), low=min(raw low, open, close).",
+    "Rows missing close or volume are excluded because they are not usable 1D OHLCV rows.",
+    "Original FinanceData/marcap data files are not committed directly.",
+    "Assistant-readable files are compact text shards.",
+    "Use generated research packs for E2R calibration whenever possible."
+  ]
+}

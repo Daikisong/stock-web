@@ -1,0 +1,70 @@
+{
+  "code": "033030",
+  "current_or_latest_name": "지오엠씨",
+  "name_history": [
+    {
+      "name": "대양이앤씨",
+      "first_date": "1997-08-18",
+      "last_date": "2008-04-22"
+    },
+    {
+      "name": "지오엠씨",
+      "first_date": "2008-04-23",
+      "last_date": "2010-09-24"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1997-08-18",
+      "last_date": "2010-09-24"
+    }
+  ],
+  "first_date": "1997-08-18",
+  "last_date": "2010-09-24",
+  "trading_day_count": 3301,
+  "available_years": [
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/033/033030/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/033/033030/2010.csv"
+  ],
+  "latest_close": 20,
+  "latest_marcap": 1362234720,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

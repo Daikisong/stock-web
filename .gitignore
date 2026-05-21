@@ -5,8 +5,15 @@ __pycache__/
 .venv/
 
 # Local data/cache generated from FinanceData/marcap
+.cache/
 marcap-price-gateway/data/
 data/
+data/raw/
+data/cache/
+*.duckdb
+*.duckdb.wal
+FinanceData_marcap/
+marcap/
 
 # Local environment files
 .env

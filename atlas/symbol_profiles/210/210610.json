@@ -1,0 +1,49 @@
+{
+  "code": "210610",
+  "current_or_latest_name": "소프트캠프",
+  "name_history": [
+    {
+      "name": "소프트캠프",
+      "first_date": "2014-12-18",
+      "last_date": "2019-12-27"
+    }
+  ],
+  "markets": [
+    "KONEX"
+  ],
+  "market_history": [
+    {
+      "market": "KONEX",
+      "first_date": "2014-12-18",
+      "last_date": "2019-12-27"
+    }
+  ],
+  "first_date": "2014-12-18",
+  "last_date": "2019-12-27",
+  "trading_day_count": 1234,
+  "available_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/210/210610/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/210/210610/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/210/210610/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/210/210610/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/210/210610/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/210/210610/2019.csv"
+  ],
+  "latest_close": 8230,
+  "latest_marcap": 36765483960,
+  "latest_market": "KONEX",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,63 @@
+{
+  "code": "168490",
+  "current_or_latest_name": "한국패러랠",
+  "name_history": [
+    {
+      "name": "한국패러랠",
+      "first_date": "2013-04-19",
+      "last_date": "2025-03-31"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2013-04-19",
+      "last_date": "2025-03-31"
+    }
+  ],
+  "first_date": "2013-04-19",
+  "last_date": "2025-03-31",
+  "trading_day_count": 2933,
+  "available_years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/168/168490/2025.csv"
+  ],
+  "latest_close": 103,
+  "latest_marcap": 8242060000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,70 @@
+{
+  "code": "052560",
+  "current_or_latest_name": "삼성수산",
+  "name_history": [
+    {
+      "name": "사이어스",
+      "first_date": "2001-07-10",
+      "last_date": "2005-11-28"
+    },
+    {
+      "name": "삼성수산",
+      "first_date": "2007-11-02",
+      "last_date": "2009-06-30"
+    },
+    {
+      "name": "시스맘네트웍",
+      "first_date": "2005-11-29",
+      "last_date": "2006-08-21"
+    },
+    {
+      "name": "티에스엠홀딩",
+      "first_date": "2006-08-22",
+      "last_date": "2007-11-01"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2001-07-10",
+      "last_date": "2009-06-30"
+    }
+  ],
+  "first_date": "2001-07-10",
+  "last_date": "2009-06-30",
+  "trading_day_count": 1972,
+  "available_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/052/052560/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/052/052560/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/052/052560/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/052/052560/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/052/052560/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/052/052560/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/052/052560/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/052/052560/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/052/052560/2009.csv"
+  ],
+  "latest_close": 55,
+  "latest_marcap": 245302090,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,129 @@
+{
+  "prefix": "448",
+  "codes": [
+    {
+      "code": "448280",
+      "name": "에코아이",
+      "profile_path": "atlas/symbol_profiles/448/448280.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "448370",
+      "name": "하나27호스팩",
+      "profile_path": "atlas/symbol_profiles/448/448370.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-04-06",
+      "last_date": "2025-11-12",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "448710",
+      "name": "코츠테크놀로지",
+      "profile_path": "atlas/symbol_profiles/448/448710.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-08-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "448730",
+      "name": "삼성FN리츠",
+      "profile_path": "atlas/symbol_profiles/448/448730.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-04-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "448740",
+      "name": "삼성스팩8호",
+      "profile_path": "atlas/symbol_profiles/448/448740.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-03-02",
+      "last_date": "2025-10-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "448760",
+      "name": "IBKS제22호스팩",
+      "profile_path": "atlas/symbol_profiles/448/448760.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-04-06",
+      "last_date": "2025-12-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "448780",
+      "name": "마이크로엔엑스",
+      "profile_path": "atlas/symbol_profiles/448/448780.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-12-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "448830",
+      "name": "미래에셋비전스팩3호",
+      "profile_path": "atlas/symbol_profiles/448/448830.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-04-07",
+      "last_date": "2026-01-13",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "448900",
+      "name": "한국피아이엠",
+      "profile_path": "atlas/symbol_profiles/448/448900.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-08-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

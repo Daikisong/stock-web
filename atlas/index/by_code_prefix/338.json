@@ -1,0 +1,53 @@
+{
+  "prefix": "338",
+  "codes": [
+    {
+      "code": "338100",
+      "name": "NH프라임리츠",
+      "profile_path": "atlas/symbol_profiles/338/338100.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "338220",
+      "name": "뷰노",
+      "profile_path": "atlas/symbol_profiles/338/338220.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-02-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "338840",
+      "name": "와이바이오로직스",
+      "profile_path": "atlas/symbol_profiles/338/338840.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-12-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

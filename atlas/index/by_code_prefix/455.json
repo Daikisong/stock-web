@@ -1,0 +1,72 @@
+{
+  "prefix": "455",
+  "codes": [
+    {
+      "code": "455180",
+      "name": "케이지에이",
+      "profile_path": "atlas/symbol_profiles/455/455180.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-06-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "455250",
+      "name": "KB제25호스팩",
+      "profile_path": "atlas/symbol_profiles/455/455250.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-06-23",
+      "last_date": "2026-01-27",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "455310",
+      "name": "한화플러스제4호스팩",
+      "profile_path": "atlas/symbol_profiles/455/455310.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-09-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "455900",
+      "name": "엔젤로보틱스",
+      "profile_path": "atlas/symbol_profiles/455/455900.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-03-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "455910",
+      "name": "에스케이증권제9호스팩",
+      "profile_path": "atlas/symbol_profiles/455/455910.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

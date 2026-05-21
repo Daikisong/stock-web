@@ -1,0 +1,18 @@
+{
+  "prefix": "349",
+  "codes": [
+    {
+      "code": "349720",
+      "name": "이베스트스팩5호",
+      "profile_path": "atlas/symbol_profiles/349/349720.json",
+      "available_years": [
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2020-05-20",
+      "last_date": "2022-12-23",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

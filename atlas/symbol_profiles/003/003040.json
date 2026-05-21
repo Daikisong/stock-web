@@ -1,0 +1,61 @@
+{
+  "code": "003040",
+  "current_or_latest_name": "한일약품",
+  "name_history": [
+    {
+      "name": "한일약품",
+      "first_date": "1995-05-02",
+      "last_date": "2006-11-20"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2006-11-20"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2006-11-20",
+  "trading_day_count": 3019,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/003/003040/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003040/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003040/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003040/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003040/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003040/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003040/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003040/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003040/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003040/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003040/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003040/2006.csv"
+  ],
+  "latest_close": 12000,
+  "latest_marcap": 105600000000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

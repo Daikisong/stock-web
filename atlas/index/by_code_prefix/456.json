@@ -1,0 +1,125 @@
+{
+  "prefix": "456",
+  "codes": [
+    {
+      "code": "456010",
+      "name": "아이씨티케이",
+      "profile_path": "atlas/symbol_profiles/456/456010.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-05-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "456040",
+      "name": "OCI",
+      "profile_path": "atlas/symbol_profiles/456/456040.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-05-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "456070",
+      "name": "이엔셀",
+      "profile_path": "atlas/symbol_profiles/456/456070.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-08-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "456160",
+      "name": "지투지바이오",
+      "profile_path": "atlas/symbol_profiles/456/456160.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-08-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "456190",
+      "name": "큐라켐",
+      "profile_path": "atlas/symbol_profiles/456/456190.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-05-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "456440",
+      "name": "DB금융스팩11호",
+      "profile_path": "atlas/symbol_profiles/456/456440.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-07-12",
+      "last_date": "2025-05-15",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "456490",
+      "name": "교보14호스팩",
+      "profile_path": "atlas/symbol_profiles/456/456490.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-06",
+      "last_date": "2026-02-09",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "456570",
+      "name": "아이엠지티",
+      "profile_path": "atlas/symbol_profiles/456/456570.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "456700",
+      "name": "길교이앤씨",
+      "profile_path": "atlas/symbol_profiles/456/456700.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-07-26",
+      "last_date": "2025-12-15",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

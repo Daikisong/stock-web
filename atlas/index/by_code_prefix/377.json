@@ -1,0 +1,173 @@
+{
+  "prefix": "377",
+  "codes": [
+    {
+      "code": "377030",
+      "name": "비트맥스",
+      "profile_path": "atlas/symbol_profiles/377/377030.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-07-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "377190",
+      "name": "디앤디플랫폼리츠",
+      "profile_path": "atlas/symbol_profiles/377/377190.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-08-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "377220",
+      "name": "프롬바이오",
+      "profile_path": "atlas/symbol_profiles/377/377220.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-09-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "377300",
+      "name": "카카오페이",
+      "profile_path": "atlas/symbol_profiles/377/377300.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-11-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "377330",
+      "name": "이지트로닉스",
+      "profile_path": "atlas/symbol_profiles/377/377330.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-02-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "377400",
+      "name": "하이제6호스팩",
+      "profile_path": "atlas/symbol_profiles/377/377400.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2021-05-10",
+      "last_date": "2024-01-24",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "377450",
+      "name": "리파인",
+      "profile_path": "atlas/symbol_profiles/377/377450.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-10-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "377460",
+      "name": "위니아에이드",
+      "profile_path": "atlas/symbol_profiles/377/377460.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-06-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "377480",
+      "name": "마음AI",
+      "profile_path": "atlas/symbol_profiles/377/377480.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-11-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "377630",
+      "name": "삼성스팩4호",
+      "profile_path": "atlas/symbol_profiles/377/377630.json",
+      "available_years": [
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2021-05-21",
+      "last_date": "2023-12-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "377740",
+      "name": "바이오노트",
+      "profile_path": "atlas/symbol_profiles/377/377740.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-12-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

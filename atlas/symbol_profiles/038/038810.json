@@ -1,0 +1,62 @@
+{
+  "code": "038810",
+  "current_or_latest_name": "포이보스",
+  "name_history": [
+    {
+      "name": "대영에이브이",
+      "first_date": "2000-05-09",
+      "last_date": "2003-09-04"
+    },
+    {
+      "name": "포이보스",
+      "first_date": "2003-09-05",
+      "last_date": "2009-04-10"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2000-05-09",
+      "last_date": "2009-04-10"
+    }
+  ],
+  "first_date": "2000-05-09",
+  "last_date": "2009-04-10",
+  "trading_day_count": 2202,
+  "available_years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/038/038810/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038810/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038810/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038810/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038810/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038810/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038810/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038810/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038810/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038810/2009.csv"
+  ],
+  "latest_close": 25,
+  "latest_marcap": 128644625,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

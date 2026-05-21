@@ -1,0 +1,63 @@
+{
+  "prefix": "218",
+  "codes": [
+    {
+      "code": "218150",
+      "name": "미래생명자원",
+      "profile_path": "atlas/symbol_profiles/218/218150.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-06-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "218410",
+      "name": "RFHIC",
+      "profile_path": "atlas/symbol_profiles/218/218410.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-06-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "218710",
+      "name": "키움스팩3호",
+      "profile_path": "atlas/symbol_profiles/218/218710.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-07-06",
+      "last_date": "2018-02-13",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

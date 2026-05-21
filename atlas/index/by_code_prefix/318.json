@@ -1,0 +1,117 @@
+{
+  "prefix": "318",
+  "codes": [
+    {
+      "code": "318000",
+      "name": "KBG",
+      "profile_path": "atlas/symbol_profiles/318/318000.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-08-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "318010",
+      "name": "팜스빌",
+      "profile_path": "atlas/symbol_profiles/318/318010.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-10-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "318020",
+      "name": "포인트모바일",
+      "profile_path": "atlas/symbol_profiles/318/318020.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-12-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "318060",
+      "name": "그래피",
+      "profile_path": "atlas/symbol_profiles/318/318060.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-08-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "318160",
+      "name": "셀바이오휴먼텍",
+      "profile_path": "atlas/symbol_profiles/318/318160.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-04-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "318410",
+      "name": "비비씨",
+      "profile_path": "atlas/symbol_profiles/318/318410.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-09-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "318660",
+      "name": "타임기술",
+      "profile_path": "atlas/symbol_profiles/318/318660.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-06-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

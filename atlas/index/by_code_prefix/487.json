@@ -1,0 +1,57 @@
+{
+  "prefix": "487",
+  "codes": [
+    {
+      "code": "487360",
+      "name": "신한제14호스팩",
+      "profile_path": "atlas/symbol_profiles/487/487360.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-12-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "487570",
+      "name": "HS효성",
+      "profile_path": "atlas/symbol_profiles/487/487570.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-07-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "487720",
+      "name": "키움제10호스팩",
+      "profile_path": "atlas/symbol_profiles/487/487720.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-12-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "487830",
+      "name": "신한제15호스팩",
+      "profile_path": "atlas/symbol_profiles/487/487830.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

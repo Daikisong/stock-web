@@ -21,7 +21,7 @@ from app.marcap_store import MarcapStore, normalize_code, parse_date
 from app.schemas import CAVEAT, PRICE_ADJUSTMENT_STATUS, PRICE_DATA_SOURCE, SOURCE_REPO_URL, source_metadata
 from app.settings import Settings
 
-templates = Jinja2Templates(directory="app/templates")
+templates = Jinja2Templates(directory=str(Path(__file__).resolve().parent / "templates"))
 APP_VERSION = "0.1.0"
 
 SELFTEST_SYMBOLS = [

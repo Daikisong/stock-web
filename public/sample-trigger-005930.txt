@@ -1,0 +1,14 @@
+code=005930
+name=삼성전자
+trigger_date=2024-01-02
+entry_date=2024-01-03
+entry_price=70151
+calibration_usable=true
+forward_window_trading_days=504
+MFE_30D_pct=4.42
+MFE_90D_pct=12.97
+MFE_180D_pct=25.8
+MAE_30D_pct=-0.29
+MAE_90D_pct=-0.29
+MAE_180D_pct=-0.29
+warnings=Drawdown after peak unavailable because no row exists after the peak date.

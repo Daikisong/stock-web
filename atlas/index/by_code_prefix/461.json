@@ -1,0 +1,31 @@
+{
+  "prefix": "461",
+  "codes": [
+    {
+      "code": "461030",
+      "name": "아이엠비디엑스",
+      "profile_path": "atlas/symbol_profiles/461/461030.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-04-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "461300",
+      "name": "아이스크림미디어",
+      "profile_path": "atlas/symbol_profiles/461/461300.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-08-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

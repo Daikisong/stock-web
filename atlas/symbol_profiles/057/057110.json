@@ -1,0 +1,45 @@
+{
+  "code": "057110",
+  "current_or_latest_name": "아이티센",
+  "name_history": [
+    {
+      "name": "아이티센",
+      "first_date": "2002-01-10",
+      "last_date": "2005-10-21"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2002-01-10",
+      "last_date": "2005-10-21"
+    }
+  ],
+  "first_date": "2002-01-10",
+  "last_date": "2005-10-21",
+  "trading_day_count": 934,
+  "available_years": [
+    2002,
+    2003,
+    2004,
+    2005
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/057/057110/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/057/057110/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/057/057110/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/057/057110/2005.csv"
+  ],
+  "latest_close": 5,
+  "latest_marcap": 172811815,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

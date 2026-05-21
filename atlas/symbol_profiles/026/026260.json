@@ -1,0 +1,118 @@
+{
+  "code": "026260",
+  "current_or_latest_name": "위너지스",
+  "name_history": [
+    {
+      "name": "M플러스텍",
+      "first_date": "1997-01-03",
+      "last_date": "2003-06-23"
+    },
+    {
+      "name": "가산전자",
+      "first_date": "2003-06-24",
+      "last_date": "2004-07-27"
+    },
+    {
+      "name": "모티스",
+      "first_date": "1996-09-24",
+      "last_date": "2008-10-13"
+    },
+    {
+      "name": "보타바이오",
+      "first_date": "2014-12-19",
+      "last_date": "2017-06-15"
+    },
+    {
+      "name": "붕주",
+      "first_date": "2008-10-14",
+      "last_date": "2009-09-28"
+    },
+    {
+      "name": "아이디엔",
+      "first_date": "2009-09-29",
+      "last_date": "2014-12-18"
+    },
+    {
+      "name": "위너지스",
+      "first_date": "2018-05-04",
+      "last_date": "2018-10-10"
+    },
+    {
+      "name": "카테아",
+      "first_date": "2017-06-16",
+      "last_date": "2018-05-03"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1996-09-24",
+      "last_date": "2018-10-10"
+    }
+  ],
+  "first_date": "1996-09-24",
+  "last_date": "2018-10-10",
+  "trading_day_count": 5543,
+  "available_years": [
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/026/026260/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/026/026260/2018.csv"
+  ],
+  "latest_close": 104,
+  "latest_marcap": 675480832,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

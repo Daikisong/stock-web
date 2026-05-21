@@ -1,0 +1,48 @@
+{
+  "code": "097957",
+  "current_or_latest_name": "CJ제일제당 2우B",
+  "name_history": [
+    {
+      "name": "CJ제일제당 2우B",
+      "first_date": "2008-08-04",
+      "last_date": "2009-03-19"
+    },
+    {
+      "name": "CJ제일제당(2우B)",
+      "first_date": "2007-09-28",
+      "last_date": "2008-08-01"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2007-09-28",
+      "last_date": "2009-03-19"
+    }
+  ],
+  "first_date": "2007-09-28",
+  "last_date": "2009-03-19",
+  "trading_day_count": 364,
+  "available_years": [
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/097/097957/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/097/097957/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/097/097957/2009.csv"
+  ],
+  "latest_close": 129000,
+  "latest_marcap": 77204565000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

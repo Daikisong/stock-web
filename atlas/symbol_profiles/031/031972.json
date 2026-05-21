@@ -1,0 +1,39 @@
+{
+  "code": "031972",
+  "current_or_latest_name": "엠바이엔2신",
+  "name_history": [
+    {
+      "name": "엠바이엔2신",
+      "first_date": "1997-01-07",
+      "last_date": "1997-06-27"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1997-01-07",
+      "last_date": "1997-06-27"
+    }
+  ],
+  "first_date": "1997-01-07",
+  "last_date": "1997-06-27",
+  "trading_day_count": 140,
+  "available_years": [
+    1997
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/031/031972/1997.csv"
+  ],
+  "latest_close": 26100,
+  "latest_marcap": 18792000000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

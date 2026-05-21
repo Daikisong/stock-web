@@ -1,0 +1,113 @@
+{
+  "prefix": "087",
+  "codes": [
+    {
+      "code": "087010",
+      "name": "펩트론",
+      "profile_path": "atlas/symbol_profiles/087/087010.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-07-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "087220",
+      "name": "스틸플라워",
+      "profile_path": "atlas/symbol_profiles/087/087220.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2009-10-27",
+      "last_date": "2018-05-04",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "087260",
+      "name": "모바일어플라이언스",
+      "profile_path": "atlas/symbol_profiles/087/087260.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-02-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "087600",
+      "name": "픽셀플러스",
+      "profile_path": "atlas/symbol_profiles/087/087600.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-06-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "087730",
+      "name": "이엠네트웍스",
+      "profile_path": "atlas/symbol_profiles/087/087730.json",
+      "available_years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2008-04-04",
+      "last_date": "2021-10-07",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

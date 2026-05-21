@@ -1,0 +1,91 @@
+{
+  "prefix": "185",
+  "codes": [
+    {
+      "code": "185190",
+      "name": "수프로",
+      "profile_path": "atlas/symbol_profiles/185/185190.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-10-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "185280",
+      "name": "이푸른",
+      "profile_path": "atlas/symbol_profiles/185/185280.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "first_date": "2013-11-12",
+      "last_date": "2016-12-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "185490",
+      "name": "아이진",
+      "profile_path": "atlas/symbol_profiles/185/185490.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-11-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "185750",
+      "name": "종근당",
+      "profile_path": "atlas/symbol_profiles/185/185750.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-12-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

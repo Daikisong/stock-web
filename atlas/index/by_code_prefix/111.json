@@ -1,0 +1,152 @@
+{
+  "prefix": "111",
+  "codes": [
+    {
+      "code": "111110",
+      "name": "호전실업",
+      "profile_path": "atlas/symbol_profiles/111/111110.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-02-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "111380",
+      "name": "동인기연",
+      "profile_path": "atlas/symbol_profiles/111/111380.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-11-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "111610",
+      "name": "승화프리텍",
+      "profile_path": "atlas/symbol_profiles/111/111610.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "first_date": "2010-01-06",
+      "last_date": "2016-01-22",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "111710",
+      "name": "남화산업",
+      "profile_path": "atlas/symbol_profiles/111/111710.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "111770",
+      "name": "영원무역",
+      "profile_path": "atlas/symbol_profiles/111/111770.json",
+      "available_years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2009-07-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "111820",
+      "name": "지유온",
+      "profile_path": "atlas/symbol_profiles/111/111820.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2010-06-18",
+      "last_date": "2021-09-29",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "111870",
+      "name": "KH 미래물산",
+      "profile_path": "atlas/symbol_profiles/111/111870.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-11-05",
+      "last_date": "2026-01-13",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

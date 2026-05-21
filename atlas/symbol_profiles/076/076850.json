@@ -1,0 +1,49 @@
+{
+  "code": "076850",
+  "current_or_latest_name": "맥쿼리센트럴",
+  "name_history": [
+    {
+      "name": "맥쿼리센트럴",
+      "first_date": "2004-01-08",
+      "last_date": "2009-10-08"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2004-01-08",
+      "last_date": "2009-10-08"
+    }
+  ],
+  "first_date": "2004-01-08",
+  "last_date": "2009-10-08",
+  "trading_day_count": 1430,
+  "available_years": [
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/076/076850/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/076/076850/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/076/076850/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/076/076850/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/076/076850/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/076/076850/2009.csv"
+  ],
+  "latest_close": 4230,
+  "latest_marcap": 64552338000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

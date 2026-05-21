@@ -1,0 +1,200 @@
+{
+  "prefix": "121",
+  "codes": [
+    {
+      "code": "121060",
+      "name": "유니포인트",
+      "profile_path": "atlas/symbol_profiles/121/121060.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-10-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "121440",
+      "name": "골프존홀딩스",
+      "profile_path": "atlas/symbol_profiles/121/121440.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-05-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "121550",
+      "name": "코크렙15호",
+      "profile_path": "atlas/symbol_profiles/121/121550.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "first_date": "2010-01-29",
+      "last_date": "2015-10-15",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "121600",
+      "name": "나노신소재",
+      "profile_path": "atlas/symbol_profiles/121/121600.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-02-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "121800",
+      "name": "비덴트",
+      "profile_path": "atlas/symbol_profiles/121/121800.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-12-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "121850",
+      "name": "코이즈",
+      "profile_path": "atlas/symbol_profiles/121/121850.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2012-09-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "121890",
+      "name": "에스디시스템",
+      "profile_path": "atlas/symbol_profiles/121/121890.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-07-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "121910",
+      "name": "대우증권스팩",
+      "profile_path": "atlas/symbol_profiles/121/121910.json",
+      "available_years": [
+        2010,
+        2011,
+        2012
+      ],
+      "first_date": "2010-03-03",
+      "last_date": "2012-10-12",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "121950",
+      "name": "미래에셋스팩1호",
+      "profile_path": "atlas/symbol_profiles/121/121950.json",
+      "available_years": [
+        2010,
+        2011,
+        2012
+      ],
+      "first_date": "2010-03-12",
+      "last_date": "2012-10-22",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

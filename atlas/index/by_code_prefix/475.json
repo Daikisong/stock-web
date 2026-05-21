@@ -1,0 +1,157 @@
+{
+  "prefix": "475",
+  "codes": [
+    {
+      "code": "475150",
+      "name": "SK이터닉스",
+      "profile_path": "atlas/symbol_profiles/475/475150.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-03-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "475230",
+      "name": "엔알비",
+      "profile_path": "atlas/symbol_profiles/475/475230.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-07-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "475240",
+      "name": "하나32호스팩",
+      "profile_path": "atlas/symbol_profiles/475/475240.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-03-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "475250",
+      "name": "하나33호스팩",
+      "profile_path": "atlas/symbol_profiles/475/475250.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-04-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "475400",
+      "name": "씨메스",
+      "profile_path": "atlas/symbol_profiles/475/475400.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-10-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "475430",
+      "name": "키스트론",
+      "profile_path": "atlas/symbol_profiles/475/475430.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-06-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "475460",
+      "name": "미트박스",
+      "profile_path": "atlas/symbol_profiles/475/475460.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-01-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "475560",
+      "name": "더본코리아",
+      "profile_path": "atlas/symbol_profiles/475/475560.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "475580",
+      "name": "에이럭스",
+      "profile_path": "atlas/symbol_profiles/475/475580.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "475660",
+      "name": "에스켐",
+      "profile_path": "atlas/symbol_profiles/475/475660.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "475830",
+      "name": "오름테라퓨틱",
+      "profile_path": "atlas/symbol_profiles/475/475830.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-02-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "475960",
+      "name": "토모큐브",
+      "profile_path": "atlas/symbol_profiles/475/475960.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-11-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

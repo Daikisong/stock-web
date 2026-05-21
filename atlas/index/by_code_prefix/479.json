@@ -1,0 +1,30 @@
+{
+  "prefix": "479",
+  "codes": [
+    {
+      "code": "479880",
+      "name": "한국제15호스팩",
+      "profile_path": "atlas/symbol_profiles/479/479880.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-06-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "479960",
+      "name": "위너스",
+      "profile_path": "atlas/symbol_profiles/479/479960.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-02-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

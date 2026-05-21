@@ -1,0 +1,39 @@
+{
+  "code": "034170",
+  "current_or_latest_name": "박현주 2호",
+  "name_history": [
+    {
+      "name": "박현주 2호",
+      "first_date": "1999-04-16",
+      "last_date": "1999-12-22"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1999-04-16",
+      "last_date": "1999-12-22"
+    }
+  ],
+  "first_date": "1999-04-16",
+  "last_date": "1999-12-22",
+  "trading_day_count": 176,
+  "available_years": [
+    1999
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/034/034170/1999.csv"
+  ],
+  "latest_close": 8430,
+  "latest_marcap": 84959285010,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,53 @@
+{
+  "prefix": "261",
+  "codes": [
+    {
+      "code": "261200",
+      "name": "덴티스",
+      "profile_path": "atlas/symbol_profiles/261/261200.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-06-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "261520",
+      "name": "이지스",
+      "profile_path": "atlas/symbol_profiles/261/261520.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-12-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "261780",
+      "name": "차백신연구소",
+      "profile_path": "atlas/symbol_profiles/261/261780.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-10-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

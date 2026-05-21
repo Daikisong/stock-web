@@ -1,0 +1,80 @@
+{
+  "code": "038120",
+  "current_or_latest_name": "AD모터스",
+  "name_history": [
+    {
+      "name": "AD모터스",
+      "first_date": "2010-03-08",
+      "last_date": "2013-01-29"
+    },
+    {
+      "name": "리노셀",
+      "first_date": "2008-09-12",
+      "last_date": "2009-07-20"
+    },
+    {
+      "name": "엑스콘",
+      "first_date": "2009-07-21",
+      "last_date": "2010-03-05"
+    },
+    {
+      "name": "프로소닉",
+      "first_date": "2000-08-24",
+      "last_date": "2008-09-11"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2000-08-24",
+      "last_date": "2013-01-29"
+    }
+  ],
+  "first_date": "2000-08-24",
+  "last_date": "2013-01-29",
+  "trading_day_count": 3080,
+  "available_years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038120/2013.csv"
+  ],
+  "latest_close": 9,
+  "latest_marcap": 836435340,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,64 @@
+{
+  "code": "006150",
+  "current_or_latest_name": "한메NS",
+  "name_history": [
+    {
+      "name": "신성기업",
+      "first_date": "1995-05-02",
+      "last_date": "2004-04-27"
+    },
+    {
+      "name": "한메NS",
+      "first_date": "2004-04-28",
+      "last_date": "2005-04-07"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2005-04-07"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2005-04-07",
+  "trading_day_count": 2614,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/006/006150/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/006/006150/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/006/006150/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/006/006150/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/006/006150/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/006/006150/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/006/006150/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/006/006150/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/006/006150/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/006/006150/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/006/006150/2005.csv"
+  ],
+  "latest_close": 165,
+  "latest_marcap": 56651430,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

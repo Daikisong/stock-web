@@ -1,0 +1,82 @@
+{
+  "code": "108320",
+  "current_or_latest_name": "LX세미콘",
+  "name_history": [
+    {
+      "name": "LX세미콘",
+      "first_date": "2021-07-09",
+      "last_date": "2026-02-20"
+    },
+    {
+      "name": "실리콘웍스",
+      "first_date": "2010-06-08",
+      "last_date": "2021-07-08"
+    }
+  ],
+  "markets": [
+    "KOSDAQ",
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2010-06-08",
+      "last_date": "2022-11-02"
+    },
+    {
+      "market": "KOSPI",
+      "first_date": "2022-11-03",
+      "last_date": "2026-02-20"
+    }
+  ],
+  "first_date": "2010-06-08",
+  "last_date": "2026-02-20",
+  "trading_day_count": 3866,
+  "available_years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/108/108320/2026.csv"
+  ],
+  "latest_close": 56300,
+  "latest_marcap": 915680090000,
+  "latest_market": "KOSPI",
+  "status_inferred": "active_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

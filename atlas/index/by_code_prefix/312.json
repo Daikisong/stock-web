@@ -1,0 +1,23 @@
+{
+  "prefix": "312",
+  "codes": [
+    {
+      "code": "312610",
+      "name": "에이에프더블류",
+      "profile_path": "atlas/symbol_profiles/312/312610.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-07-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

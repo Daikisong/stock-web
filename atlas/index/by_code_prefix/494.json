@@ -1,0 +1,17 @@
+{
+  "prefix": "494",
+  "codes": [
+    {
+      "code": "494120",
+      "name": "큐리오시스",
+      "profile_path": "atlas/symbol_profiles/494/494120.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-11-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

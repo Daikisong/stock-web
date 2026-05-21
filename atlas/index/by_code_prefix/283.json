@@ -1,0 +1,18 @@
+{
+  "prefix": "283",
+  "codes": [
+    {
+      "code": "283100",
+      "name": "노보믹스",
+      "profile_path": "atlas/symbol_profiles/283/283100.json",
+      "available_years": [
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2023-04-19",
+      "last_date": "2025-05-27",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

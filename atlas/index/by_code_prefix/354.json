@@ -1,0 +1,63 @@
+{
+  "prefix": "354",
+  "codes": [
+    {
+      "code": "354200",
+      "name": "엔젠바이오",
+      "profile_path": "atlas/symbol_profiles/354/354200.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-12-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "354230",
+      "name": "폭스소프트",
+      "profile_path": "atlas/symbol_profiles/354/354230.json",
+      "available_years": [
+        2020,
+        2021
+      ],
+      "first_date": "2020-06-25",
+      "last_date": "2021-08-31",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "354320",
+      "name": "알멕",
+      "profile_path": "atlas/symbol_profiles/354/354320.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-06-30",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "354390",
+      "name": "바스칸바이오제약",
+      "profile_path": "atlas/symbol_profiles/354/354390.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-07-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "code": "226360",
+  "current_or_latest_name": "KH 건설",
+  "name_history": [
+    {
+      "name": "KH E&T",
+      "first_date": "2021-04-09",
+      "last_date": "2022-04-19"
+    },
+    {
+      "name": "KH 건설",
+      "first_date": "2022-04-20",
+      "last_date": "2026-01-13"
+    },
+    {
+      "name": "이엑스티",
+      "first_date": "2017-12-18",
+      "last_date": "2021-04-08"
+    },
+    {
+      "name": "케이비드림4호스팩",
+      "first_date": "2017-04-19",
+      "last_date": "2017-12-15"
+    },
+    {
+      "name": "현대드림4호스팩",
+      "first_date": "2015-10-22",
+      "last_date": "2017-04-18"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2015-10-22",
+      "last_date": "2026-01-13"
+    }
+  ],
+  "first_date": "2015-10-22",
+  "last_date": "2026-01-13",
+  "trading_day_count": 2509,
+  "available_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/226/226360/2026.csv"
+  ],
+  "latest_close": 49,
+  "latest_marcap": 1296771868,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

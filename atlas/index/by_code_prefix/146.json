@@ -1,0 +1,34 @@
+{
+  "prefix": "146",
+  "codes": [
+    {
+      "code": "146060",
+      "name": "율촌",
+      "profile_path": "atlas/symbol_profiles/146/146060.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-09-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "146320",
+      "name": "비씨엔씨",
+      "profile_path": "atlas/symbol_profiles/146/146320.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-03-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "prefix": "310",
+  "codes": [
+    {
+      "code": "310200",
+      "name": "애니플러스",
+      "profile_path": "atlas/symbol_profiles/310/310200.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "310210",
+      "name": "보로노이",
+      "profile_path": "atlas/symbol_profiles/310/310210.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-06-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "310840",
+      "name": "엔에이치스팩13호",
+      "profile_path": "atlas/symbol_profiles/310/310840.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2018-12-24",
+      "last_date": "2021-09-17",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "310870",
+      "name": "디와이씨",
+      "profile_path": "atlas/symbol_profiles/310/310870.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

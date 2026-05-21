@@ -1,0 +1,305 @@
+{
+  "prefix": "217",
+  "codes": [
+    {
+      "code": "217190",
+      "name": "제너셈",
+      "profile_path": "atlas/symbol_profiles/217/217190.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-09-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217270",
+      "name": "넵튠",
+      "profile_path": "atlas/symbol_profiles/217/217270.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-06-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217320",
+      "name": "썬테크",
+      "profile_path": "atlas/symbol_profiles/217/217320.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-04-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217330",
+      "name": "싸이토젠",
+      "profile_path": "atlas/symbol_profiles/217/217330.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-11-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217480",
+      "name": "에스디생명공학",
+      "profile_path": "atlas/symbol_profiles/217/217480.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-03-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217500",
+      "name": "러셀",
+      "profile_path": "atlas/symbol_profiles/217/217500.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-06-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217590",
+      "name": "티엠씨",
+      "profile_path": "atlas/symbol_profiles/217/217590.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-12-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217600",
+      "name": "켐온",
+      "profile_path": "atlas/symbol_profiles/217/217600.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2015-06-26",
+      "last_date": "2022-12-15",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "217620",
+      "name": "선샤인푸드",
+      "profile_path": "atlas/symbol_profiles/217/217620.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-06-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217730",
+      "name": "강스템바이오텍",
+      "profile_path": "atlas/symbol_profiles/217/217730.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-12-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217810",
+      "name": "엔에이치스팩7호",
+      "profile_path": "atlas/symbol_profiles/217/217810.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-06-12",
+      "last_date": "2018-01-18",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "217820",
+      "name": "원익피앤이",
+      "profile_path": "atlas/symbol_profiles/217/217820.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-12-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217880",
+      "name": "틸론",
+      "profile_path": "atlas/symbol_profiles/217/217880.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-05-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217910",
+      "name": "에스제이켐",
+      "profile_path": "atlas/symbol_profiles/217/217910.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-04-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "217950",
+      "name": "파마리서치바이오",
+      "profile_path": "atlas/symbol_profiles/217/217950.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-11-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "code": "060670",
+  "current_or_latest_name": "유퍼트",
+  "name_history": [
+    {
+      "name": "썬코리아전자",
+      "first_date": "2003-06-17",
+      "last_date": "2006-12-18"
+    },
+    {
+      "name": "썬트로닉스",
+      "first_date": "2006-12-19",
+      "last_date": "2009-04-17"
+    },
+    {
+      "name": "유퍼트",
+      "first_date": "2009-04-20",
+      "last_date": "2010-04-12"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2003-06-17",
+      "last_date": "2010-04-12"
+    }
+  ],
+  "first_date": "2003-06-17",
+  "last_date": "2010-04-12",
+  "trading_day_count": 1695,
+  "available_years": [
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/060/060670/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/060/060670/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/060/060670/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/060/060670/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/060/060670/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/060/060670/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/060/060670/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/060/060670/2010.csv"
+  ],
+  "latest_close": 5,
+  "latest_marcap": 20144315,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

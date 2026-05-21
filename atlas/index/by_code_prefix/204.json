@@ -1,0 +1,241 @@
+{
+  "prefix": "204",
+  "codes": [
+    {
+      "code": "204020",
+      "name": "그리티",
+      "profile_path": "atlas/symbol_profiles/204/204020.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-07-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "204210",
+      "name": "스타에스엠리츠",
+      "profile_path": "atlas/symbol_profiles/204/204210.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-09-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "204270",
+      "name": "제이앤티씨",
+      "profile_path": "atlas/symbol_profiles/204/204270.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-03-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "204320",
+      "name": "HL만도",
+      "profile_path": "atlas/symbol_profiles/204/204320.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-10-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "204440",
+      "name": "대우스팩2호",
+      "profile_path": "atlas/symbol_profiles/204/204440.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "first_date": "2014-10-22",
+      "last_date": "2017-05-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "204610",
+      "name": "티쓰리",
+      "profile_path": "atlas/symbol_profiles/204/204610.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-11-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "204620",
+      "name": "글로벌텍스프리",
+      "profile_path": "atlas/symbol_profiles/204/204620.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-11-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "204630",
+      "name": "스튜디오산타클로스",
+      "profile_path": "atlas/symbol_profiles/204/204630.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-12-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "204650",
+      "name": "케이티비스팩1호",
+      "profile_path": "atlas/symbol_profiles/204/204650.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "first_date": "2014-11-24",
+      "last_date": "2017-07-06",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "204690",
+      "name": "다린",
+      "profile_path": "atlas/symbol_profiles/204/204690.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "first_date": "2014-09-18",
+      "last_date": "2017-08-01",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "204760",
+      "name": "현대에이블스팩1호",
+      "profile_path": "atlas/symbol_profiles/204/204760.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "first_date": "2014-11-10",
+      "last_date": "2017-06-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "204840",
+      "name": "지엘팜텍",
+      "profile_path": "atlas/symbol_profiles/204/204840.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-11-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "204990",
+      "name": "코썬바이오",
+      "profile_path": "atlas/symbol_profiles/204/204990.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2015-04-03",
+      "last_date": "2020-08-10",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

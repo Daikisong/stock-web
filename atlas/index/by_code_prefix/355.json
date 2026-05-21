@@ -1,0 +1,50 @@
+{
+  "prefix": "355",
+  "codes": [
+    {
+      "code": "355150",
+      "name": "코스텍시스",
+      "profile_path": "atlas/symbol_profiles/355/355150.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-09-18",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "355390",
+      "name": "크라우드웍스",
+      "profile_path": "atlas/symbol_profiles/355/355390.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-08-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "355690",
+      "name": "에이텀",
+      "profile_path": "atlas/symbol_profiles/355/355690.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-12-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "prefix": "367",
+  "codes": [
+    {
+      "code": "367000",
+      "name": "플래티어",
+      "profile_path": "atlas/symbol_profiles/367/367000.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-08-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "367340",
+      "name": "DB금융스팩8호",
+      "profile_path": "atlas/symbol_profiles/367/367340.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2020-12-09",
+      "last_date": "2023-07-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "367360",
+      "name": "DB금융스팩9호",
+      "profile_path": "atlas/symbol_profiles/367/367360.json",
+      "available_years": [
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2021-03-16",
+      "last_date": "2023-11-23",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "367460",
+      "name": "유안타제7호스팩",
+      "profile_path": "atlas/symbol_profiles/367/367460.json",
+      "available_years": [
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2020-12-28",
+      "last_date": "2022-12-07",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "367480",
+      "name": "유안타제8호스팩",
+      "profile_path": "atlas/symbol_profiles/367/367480.json",
+      "available_years": [
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2021-04-05",
+      "last_date": "2023-09-07",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

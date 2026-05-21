@@ -1,0 +1,145 @@
+{
+  "prefix": "307",
+  "codes": [
+    {
+      "code": "307070",
+      "name": "SK4호스팩",
+      "profile_path": "atlas/symbol_profiles/307/307070.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2018-12-07",
+      "last_date": "2021-07-12",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "307160",
+      "name": "하나머스트제6호스팩",
+      "profile_path": "atlas/symbol_profiles/307/307160.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2018-11-30",
+      "last_date": "2021-07-07",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "307180",
+      "name": "아이엘",
+      "profile_path": "atlas/symbol_profiles/307/307180.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "307280",
+      "name": "원바이오젠",
+      "profile_path": "atlas/symbol_profiles/307/307280.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "307750",
+      "name": "국전약품",
+      "profile_path": "atlas/symbol_profiles/307/307750.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "307870",
+      "name": "비투엔",
+      "profile_path": "atlas/symbol_profiles/307/307870.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "307930",
+      "name": "컴퍼니케이",
+      "profile_path": "atlas/symbol_profiles/307/307930.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-05-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "307950",
+      "name": "현대오토에버",
+      "profile_path": "atlas/symbol_profiles/307/307950.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-03-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

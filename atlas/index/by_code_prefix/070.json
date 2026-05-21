@@ -1,0 +1,137 @@
+{
+  "prefix": "070",
+  "codes": [
+    {
+      "code": "070080",
+      "name": "하이드로젠파워",
+      "profile_path": "atlas/symbol_profiles/070/070080.json",
+      "available_years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "first_date": "2002-12-13",
+      "last_date": "2010-11-05",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "070300",
+      "name": "엑스큐어",
+      "profile_path": "atlas/symbol_profiles/070/070300.json",
+      "available_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2010-06-09",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "070480",
+      "name": "에버테크노",
+      "profile_path": "atlas/symbol_profiles/070/070480.json",
+      "available_years": [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "first_date": "2007-05-22",
+      "last_date": "2014-07-16",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "070540",
+      "name": "코크렙II",
+      "profile_path": "atlas/symbol_profiles/070/070540.json",
+      "available_years": [
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "first_date": "2002-11-11",
+      "last_date": "2005-09-14",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "070590",
+      "name": "한솔인티큐브",
+      "profile_path": "atlas/symbol_profiles/070/070590.json",
+      "available_years": [
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2004-01-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "070960",
+      "name": "모나용평",
+      "profile_path": "atlas/symbol_profiles/070/070960.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-05-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

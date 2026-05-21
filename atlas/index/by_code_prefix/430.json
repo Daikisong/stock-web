@@ -1,0 +1,73 @@
+{
+  "prefix": "430",
+  "codes": [
+    {
+      "code": "430220",
+      "name": "신영스팩8호",
+      "profile_path": "atlas/symbol_profiles/430/430220.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-08-26",
+      "last_date": "2025-08-21",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "430230",
+      "name": "하나금융24호스팩",
+      "profile_path": "atlas/symbol_profiles/430/430230.json",
+      "available_years": [
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2022-09-29",
+      "last_date": "2024-09-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "430460",
+      "name": "한화플러스제3호스팩",
+      "profile_path": "atlas/symbol_profiles/430/430460.json",
+      "available_years": [
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2022-09-29",
+      "last_date": "2024-12-12",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "430690",
+      "name": "한싹",
+      "profile_path": "atlas/symbol_profiles/430/430690.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-10-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "430700",
+      "name": "유안타제9호스팩",
+      "profile_path": "atlas/symbol_profiles/430/430700.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-08-04",
+      "last_date": "2025-03-14",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

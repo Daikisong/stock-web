@@ -1,0 +1,227 @@
+{
+  "prefix": "222",
+  "codes": [
+    {
+      "code": "222040",
+      "name": "코스맥스엔비티",
+      "profile_path": "atlas/symbol_profiles/222/222040.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-12-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "222080",
+      "name": "씨아이에스",
+      "profile_path": "atlas/symbol_profiles/222/222080.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-09-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "222110",
+      "name": "팬젠",
+      "profile_path": "atlas/symbol_profiles/222/222110.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-03-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "222160",
+      "name": "NPX",
+      "profile_path": "atlas/symbol_profiles/222/222160.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-03-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "222390",
+      "name": "케이비제8호스팩",
+      "profile_path": "atlas/symbol_profiles/222/222390.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-08-05",
+      "last_date": "2018-03-12",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "222420",
+      "name": "쎄노텍",
+      "profile_path": "atlas/symbol_profiles/222/222420.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-08-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "222520",
+      "name": "솔트웍스",
+      "profile_path": "atlas/symbol_profiles/222/222520.json",
+      "available_years": [
+        2015,
+        2016
+      ],
+      "first_date": "2015-07-08",
+      "last_date": "2016-12-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "222670",
+      "name": "플럼라인생명과학",
+      "profile_path": "atlas/symbol_profiles/222/222670.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-07-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "222800",
+      "name": "심텍",
+      "profile_path": "atlas/symbol_profiles/222/222800.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-08-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "222810",
+      "name": "세토피아",
+      "profile_path": "atlas/symbol_profiles/222/222810.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-08-13",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "222980",
+      "name": "한국맥널티",
+      "profile_path": "atlas/symbol_profiles/222/222980.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-12-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

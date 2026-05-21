@@ -1,0 +1,237 @@
+{
+  "prefix": "140",
+  "codes": [
+    {
+      "code": "140070",
+      "name": "서플러스글로벌",
+      "profile_path": "atlas/symbol_profiles/140/140070.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-01-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "140290",
+      "name": "청광건설",
+      "profile_path": "atlas/symbol_profiles/140/140290.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2013-12-20",
+      "last_date": "2023-05-04",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "140410",
+      "name": "메지온",
+      "profile_path": "atlas/symbol_profiles/140/140410.json",
+      "available_years": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2012-01-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "140430",
+      "name": "카티스",
+      "profile_path": "atlas/symbol_profiles/140/140430.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-05-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "140520",
+      "name": "대창스틸",
+      "profile_path": "atlas/symbol_profiles/140/140520.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-12-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "140610",
+      "name": "엔솔바이오사이언스",
+      "profile_path": "atlas/symbol_profiles/140/140610.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-09-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "140660",
+      "name": "위월드",
+      "profile_path": "atlas/symbol_profiles/140/140660.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2013-12-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "140670",
+      "name": "알에스오토메이션",
+      "profile_path": "atlas/symbol_profiles/140/140670.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-08-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "140860",
+      "name": "파크시스템스",
+      "profile_path": "atlas/symbol_profiles/140/140860.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-12-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "140890",
+      "name": "트러스제7호",
+      "profile_path": "atlas/symbol_profiles/140/140890.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "first_date": "2011-09-30",
+      "last_date": "2019-05-03",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "140910",
+      "name": "에이리츠",
+      "profile_path": "atlas/symbol_profiles/140/140910.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-07-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

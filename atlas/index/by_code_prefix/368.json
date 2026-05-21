@@ -1,0 +1,64 @@
+{
+  "prefix": "368",
+  "codes": [
+    {
+      "code": "368030",
+      "name": "창대정밀",
+      "profile_path": "atlas/symbol_profiles/368/368030.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-12-23",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "368600",
+      "name": "아이씨에이치",
+      "profile_path": "atlas/symbol_profiles/368/368600.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-07-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "368770",
+      "name": "파이버프로",
+      "profile_path": "atlas/symbol_profiles/368/368770.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-01-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "368970",
+      "name": "오에스피",
+      "profile_path": "atlas/symbol_profiles/368/368970.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-10-14",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

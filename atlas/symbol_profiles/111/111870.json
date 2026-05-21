@@ -1,0 +1,91 @@
+{
+  "code": "111870",
+  "current_or_latest_name": "KH 미래물산",
+  "name_history": [
+    {
+      "name": "KH 미래물산",
+      "first_date": "2024-05-10",
+      "last_date": "2026-01-13"
+    },
+    {
+      "name": "KH 일렉트론",
+      "first_date": "2021-04-27",
+      "last_date": "2022-04-25"
+    },
+    {
+      "name": "KH 전자",
+      "first_date": "2022-04-26",
+      "last_date": "2024-05-09"
+    },
+    {
+      "name": "삼본전자",
+      "first_date": "2019-04-23",
+      "last_date": "2021-04-26"
+    },
+    {
+      "name": "삼본정밀전자",
+      "first_date": "2010-11-05",
+      "last_date": "2019-04-22"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2010-11-05",
+      "last_date": "2026-01-13"
+    }
+  ],
+  "first_date": "2010-11-05",
+  "last_date": "2026-01-13",
+  "trading_day_count": 3736,
+  "available_years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/111/111870/2026.csv"
+  ],
+  "latest_close": 355,
+  "latest_marcap": 2499999105,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

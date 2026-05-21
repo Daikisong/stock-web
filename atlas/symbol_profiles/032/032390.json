@@ -1,0 +1,70 @@
+{
+  "code": "032390",
+  "current_or_latest_name": "KTF",
+  "name_history": [
+    {
+      "name": "KTF",
+      "first_date": "2001-06-26",
+      "last_date": "2009-06-22"
+    },
+    {
+      "name": "한통프리텔",
+      "first_date": "1999-12-07",
+      "last_date": "2001-06-25"
+    }
+  ],
+  "markets": [
+    "KOSDAQ",
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1999-12-07",
+      "last_date": "2004-04-28"
+    },
+    {
+      "market": "KOSPI",
+      "first_date": "2004-04-29",
+      "last_date": "2009-06-22"
+    }
+  ],
+  "first_date": "1999-12-07",
+  "last_date": "2009-06-22",
+  "trading_day_count": 2351,
+  "available_years": [
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/032/032390/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032390/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032390/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032390/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032390/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032390/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032390/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032390/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032390/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032390/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/032/032390/2009.csv"
+  ],
+  "latest_close": 22750,
+  "latest_marcap": 4283235570250,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

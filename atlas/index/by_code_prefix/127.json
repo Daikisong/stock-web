@@ -1,0 +1,87 @@
+{
+  "prefix": "127",
+  "codes": [
+    {
+      "code": "127120",
+      "name": "제이에스링크",
+      "profile_path": "atlas/symbol_profiles/127/127120.json",
+      "available_years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2011-12-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "127160",
+      "name": "매직마이크로",
+      "profile_path": "atlas/symbol_profiles/127/127160.json",
+      "available_years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "first_date": "2013-12-20",
+      "last_date": "2022-09-21",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "127710",
+      "name": "아시아경제",
+      "profile_path": "atlas/symbol_profiles/127/127710.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2015-07-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "127980",
+      "name": "화인써키트",
+      "profile_path": "atlas/symbol_profiles/127/127980.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-02-17",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

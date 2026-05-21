@@ -1,0 +1,41 @@
+{
+  "code": "038760",
+  "current_or_latest_name": "KTB전환형41",
+  "name_history": [
+    {
+      "name": "KTB전환형41",
+      "first_date": "2000-03-31",
+      "last_date": "2001-02-05"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2000-03-31",
+      "last_date": "2001-02-05"
+    }
+  ],
+  "first_date": "2000-03-31",
+  "last_date": "2001-02-05",
+  "trading_day_count": 202,
+  "available_years": [
+    2000,
+    2001
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/038/038760/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/038/038760/2001.csv"
+  ],
+  "latest_close": 3720,
+  "latest_marcap": 23652504000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

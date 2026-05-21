@@ -1,0 +1,88 @@
+{
+  "prefix": "373",
+  "codes": [
+    {
+      "code": "373110",
+      "name": "엑셀세라퓨틱스",
+      "profile_path": "atlas/symbol_profiles/373/373110.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-07-15",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "373160",
+      "name": "데이원컴퍼니",
+      "profile_path": "atlas/symbol_profiles/373/373160.json",
+      "available_years": [
+        2025,
+        2026
+      ],
+      "first_date": "2025-01-24",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "373170",
+      "name": "엠아이큐브솔루션",
+      "profile_path": "atlas/symbol_profiles/373/373170.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-08-04",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "373200",
+      "name": "엑스플러스",
+      "profile_path": "atlas/symbol_profiles/373/373200.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-02-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "profile_path": "atlas/symbol_profiles/373/373220.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-01-27",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "373340",
+      "name": "유진스팩6호",
+      "profile_path": "atlas/symbol_profiles/373/373340.json",
+      "available_years": [
+        2021,
+        2022,
+        2023
+      ],
+      "first_date": "2021-04-08",
+      "last_date": "2023-12-12",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

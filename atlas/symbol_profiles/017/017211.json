@@ -1,0 +1,41 @@
+{
+  "code": "017211",
+  "current_or_latest_name": "코닉스1",
+  "name_history": [
+    {
+      "name": "코닉스1",
+      "first_date": "1996-08-03",
+      "last_date": "2000-12-26"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1996-08-03",
+      "last_date": "2000-12-26"
+    }
+  ],
+  "first_date": "1996-08-03",
+  "last_date": "2000-12-26",
+  "trading_day_count": 348,
+  "available_years": [
+    1996,
+    2000
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/017/017211/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/017/017211/2000.csv"
+  ],
+  "latest_close": 2390,
+  "latest_marcap": 3585000000,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

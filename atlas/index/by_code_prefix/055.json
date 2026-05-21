@@ -1,0 +1,124 @@
+{
+  "prefix": "055",
+  "codes": [
+    {
+      "code": "055000",
+      "name": "동서정보기술",
+      "profile_path": "atlas/symbol_profiles/055/055000.json",
+      "available_years": [
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "first_date": "2001-12-18",
+      "last_date": "2004-04-02",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "055250",
+      "name": "다휘",
+      "profile_path": "atlas/symbol_profiles/055/055250.json",
+      "available_years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010
+      ],
+      "first_date": "2001-12-06",
+      "last_date": "2010-09-30",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "055490",
+      "name": "테이팩스",
+      "profile_path": "atlas/symbol_profiles/055/055490.json",
+      "available_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2017-10-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "055550",
+      "name": "신한지주",
+      "profile_path": "atlas/symbol_profiles/055/055550.json",
+      "available_years": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2001-09-10",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "055810",
+      "name": "KTC텔레콤",
+      "profile_path": "atlas/symbol_profiles/055/055810.json",
+      "available_years": [
+        2003,
+        2004,
+        2005
+      ],
+      "first_date": "2003-11-07",
+      "last_date": "2005-08-12",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "055970",
+      "name": "에너윈",
+      "profile_path": "atlas/symbol_profiles/055/055970.json",
+      "available_years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008
+      ],
+      "first_date": "2003-08-01",
+      "last_date": "2008-05-02",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

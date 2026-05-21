@@ -1,0 +1,41 @@
+{
+  "code": "060580",
+  "current_or_latest_name": "마이차익안정-MF",
+  "name_history": [
+    {
+      "name": "마이차익안정-MF",
+      "first_date": "2001-10-04",
+      "last_date": "2002-09-13"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2001-10-04",
+      "last_date": "2002-09-13"
+    }
+  ],
+  "first_date": "2001-10-04",
+  "last_date": "2002-09-13",
+  "trading_day_count": 233,
+  "available_years": [
+    2001,
+    2002
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/060/060580/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/060/060580/2002.csv"
+  ],
+  "latest_close": 5170,
+  "latest_marcap": 96210970240,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

@@ -1,0 +1,84 @@
+{
+  "code": "066110",
+  "current_or_latest_name": "한프",
+  "name_history": [
+    {
+      "name": "백산OPC",
+      "first_date": "2002-07-16",
+      "last_date": "2016-03-16"
+    },
+    {
+      "name": "한프",
+      "first_date": "2016-03-17",
+      "last_date": "2022-04-05"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2002-07-16",
+      "last_date": "2022-04-05"
+    }
+  ],
+  "first_date": "2002-07-16",
+  "last_date": "2022-04-05",
+  "trading_day_count": 4877,
+  "available_years": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/066/066110/2022.csv"
+  ],
+  "latest_close": 69,
+  "latest_marcap": 5302254768,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

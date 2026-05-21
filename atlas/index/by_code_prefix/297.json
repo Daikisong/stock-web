@@ -1,0 +1,59 @@
+{
+  "prefix": "297",
+  "codes": [
+    {
+      "code": "297090",
+      "name": "씨에스베어링",
+      "profile_path": "atlas/symbol_profiles/297/297090.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-11-21",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "297570",
+      "name": "알로이스",
+      "profile_path": "atlas/symbol_profiles/297/297570.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-07-20",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "297890",
+      "name": "HB솔루션",
+      "profile_path": "atlas/symbol_profiles/297/297890.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-06-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

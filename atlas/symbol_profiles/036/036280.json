@@ -1,0 +1,79 @@
+{
+  "code": "036280",
+  "current_or_latest_name": "뉴켐진스템셀",
+  "name_history": [
+    {
+      "name": "ST&I글로벌",
+      "first_date": "2008-04-28",
+      "last_date": "2008-10-15"
+    },
+    {
+      "name": "뉴켐진스템셀",
+      "first_date": "2009-03-24",
+      "last_date": "2009-04-23"
+    },
+    {
+      "name": "온누리에어",
+      "first_date": "2008-10-16",
+      "last_date": "2009-03-23"
+    },
+    {
+      "name": "파라웰빙스",
+      "first_date": "2007-05-07",
+      "last_date": "2008-04-25"
+    },
+    {
+      "name": "한성에코넷",
+      "first_date": "1999-12-21",
+      "last_date": "2007-05-04"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "1999-12-21",
+      "last_date": "2009-04-23"
+    }
+  ],
+  "first_date": "1999-12-21",
+  "last_date": "2009-04-23",
+  "trading_day_count": 2301,
+  "available_years": [
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/036/036280/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036280/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036280/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036280/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036280/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036280/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036280/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036280/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036280/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036280/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/036/036280/2009.csv"
+  ],
+  "latest_close": 110,
+  "latest_marcap": 3070462450,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

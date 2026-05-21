@@ -1,0 +1,43 @@
+{
+  "code": "089190",
+  "current_or_latest_name": "동북아29호",
+  "name_history": [
+    {
+      "name": "동북아29호",
+      "first_date": "2006-05-19",
+      "last_date": "2008-11-04"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2006-05-19",
+      "last_date": "2008-11-04"
+    }
+  ],
+  "first_date": "2006-05-19",
+  "last_date": "2008-11-04",
+  "trading_day_count": 607,
+  "available_years": [
+    2006,
+    2007,
+    2008
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/089/089190/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/089/089190/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/089/089190/2008.csv"
+  ],
+  "latest_close": 8750,
+  "latest_marcap": 18689632500,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

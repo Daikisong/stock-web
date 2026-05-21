@@ -1,0 +1,52 @@
+{
+  "code": "079340",
+  "current_or_latest_name": "하이럭스",
+  "name_history": [
+    {
+      "name": "나모텍",
+      "first_date": "2005-07-19",
+      "last_date": "2008-07-01"
+    },
+    {
+      "name": "하이럭스",
+      "first_date": "2008-07-02",
+      "last_date": "2009-06-23"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2005-07-19",
+      "last_date": "2009-06-23"
+    }
+  ],
+  "first_date": "2005-07-19",
+  "last_date": "2009-06-23",
+  "trading_day_count": 975,
+  "available_years": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/079/079340/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/079/079340/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/079/079340/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/079/079340/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/079/079340/2009.csv"
+  ],
+  "latest_close": 15,
+  "latest_marcap": 90609960,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

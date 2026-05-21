@@ -1,0 +1,46 @@
+{
+  "prefix": "438",
+  "codes": [
+    {
+      "code": "438220",
+      "name": "대신밸런스제13호스팩",
+      "profile_path": "atlas/symbol_profiles/438/438220.json",
+      "available_years": [
+        2022,
+        2023,
+        2024
+      ],
+      "first_date": "2022-11-28",
+      "last_date": "2024-11-19",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "438580",
+      "name": "엔에이치스팩25호",
+      "profile_path": "atlas/symbol_profiles/438/438580.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_date": "2022-11-03",
+      "last_date": "2025-06-10",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "438700",
+      "name": "버넥트",
+      "profile_path": "atlas/symbol_profiles/438/438700.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

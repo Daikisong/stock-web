@@ -1,0 +1,43 @@
+{
+  "code": "311840",
+  "current_or_latest_name": "대원모방",
+  "name_history": [
+    {
+      "name": "대원모방",
+      "first_date": "2018-12-27",
+      "last_date": "2020-02-26"
+    }
+  ],
+  "markets": [
+    "KONEX"
+  ],
+  "market_history": [
+    {
+      "market": "KONEX",
+      "first_date": "2018-12-27",
+      "last_date": "2020-02-26"
+    }
+  ],
+  "first_date": "2018-12-27",
+  "last_date": "2020-02-26",
+  "trading_day_count": 286,
+  "available_years": [
+    2018,
+    2019,
+    2020
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/311/311840/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/311/311840/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/311/311840/2020.csv"
+  ],
+  "latest_close": 23100,
+  "latest_marcap": 36804768000,
+  "latest_market": "KONEX",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

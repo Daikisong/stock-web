@@ -1,0 +1,71 @@
+{
+  "code": "016970",
+  "current_or_latest_name": "씨크롭",
+  "name_history": [
+    {
+      "name": "산내들인슈",
+      "first_date": "1996-04-10",
+      "last_date": "2000-04-17"
+    },
+    {
+      "name": "씨크롭",
+      "first_date": "2000-04-18",
+      "last_date": "2006-07-12"
+    },
+    {
+      "name": "연합인슈",
+      "first_date": "1995-05-02",
+      "last_date": "1996-04-09"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2006-07-12"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2006-07-12",
+  "trading_day_count": 2931,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/016/016970/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016970/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016970/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016970/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016970/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016970/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016970/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016970/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016970/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016970/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016970/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/016/016970/2006.csv"
+  ],
+  "latest_close": 15,
+  "latest_marcap": 47981820,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

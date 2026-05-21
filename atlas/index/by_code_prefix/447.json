@@ -1,0 +1,20 @@
+{
+  "prefix": "447",
+  "codes": [
+    {
+      "code": "447690",
+      "name": "아이오바이오",
+      "profile_path": "atlas/symbol_profiles/447/447690.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-12-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

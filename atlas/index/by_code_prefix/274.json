@@ -1,0 +1,36 @@
+{
+  "prefix": "274",
+  "codes": [
+    {
+      "code": "274090",
+      "name": "켄코아에어로스페이스",
+      "profile_path": "atlas/symbol_profiles/274/274090.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-03-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "274400",
+      "name": "이노시뮬레이션",
+      "profile_path": "atlas/symbol_profiles/274/274400.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-06",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "prefix": "321",
+  "codes": [
+    {
+      "code": "321260",
+      "name": "프로이천",
+      "profile_path": "atlas/symbol_profiles/321/321260.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-05-31",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "321370",
+      "name": "센서뷰",
+      "profile_path": "atlas/symbol_profiles/321/321370.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-07-19",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "321550",
+      "name": "티움바이오",
+      "profile_path": "atlas/symbol_profiles/321/321550.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-11-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "321820",
+      "name": "아티스트컴퍼니",
+      "profile_path": "atlas/symbol_profiles/321/321820.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-02-03",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

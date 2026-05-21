@@ -1,0 +1,156 @@
+{
+  "prefix": "199",
+  "codes": [
+    {
+      "code": "199150",
+      "name": "데이터스트림즈",
+      "profile_path": "atlas/symbol_profiles/199/199150.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-06-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "199290",
+      "name": "바이오프로테크",
+      "profile_path": "atlas/symbol_profiles/199/199290.json",
+      "available_years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2016-12-08",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "199430",
+      "name": "케이엔알시스템",
+      "profile_path": "atlas/symbol_profiles/199/199430.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-03-07",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "199480",
+      "name": "뱅크웨어글로벌",
+      "profile_path": "atlas/symbol_profiles/199/199480.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-08-12",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "199550",
+      "name": "레이저옵텍",
+      "profile_path": "atlas/symbol_profiles/199/199550.json",
+      "available_years": [
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2024-02-01",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "199730",
+      "name": "바이오인프라",
+      "profile_path": "atlas/symbol_profiles/199/199730.json",
+      "available_years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2023-03-02",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "199800",
+      "name": "툴젠",
+      "profile_path": "atlas/symbol_profiles/199/199800.json",
+      "available_years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2014-06-25",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "199820",
+      "name": "제일일렉트릭",
+      "profile_path": "atlas/symbol_profiles/199/199820.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-11-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "199870",
+      "name": "세기리텍",
+      "profile_path": "atlas/symbol_profiles/199/199870.json",
+      "available_years": [
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "first_date": "2015-12-24",
+      "last_date": "2018-03-27",
+      "status_inferred": "inactive_or_delisted_like"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "code": "103130",
+  "current_or_latest_name": "웅진에너지",
+  "name_history": [
+    {
+      "name": "웅진에너지",
+      "first_date": "2010-06-30",
+      "last_date": "2020-05-29"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "2010-06-30",
+      "last_date": "2020-05-29"
+    }
+  ],
+  "first_date": "2010-06-30",
+  "last_date": "2020-05-29",
+  "trading_day_count": 2445,
+  "available_years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/103/103130/2010.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103130/2011.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103130/2012.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103130/2013.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103130/2014.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103130/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103130/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103130/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103130/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103130/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/103/103130/2020.csv"
+  ],
+  "latest_close": 52,
+  "latest_marcap": 1609260744,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

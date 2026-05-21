@@ -1,0 +1,61 @@
+{
+  "code": "160980",
+  "current_or_latest_name": "싸이맥스",
+  "name_history": [
+    {
+      "name": "싸이맥스",
+      "first_date": "2015-06-17",
+      "last_date": "2026-02-20"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2015-06-17",
+      "last_date": "2026-02-20"
+    }
+  ],
+  "first_date": "2015-06-17",
+  "last_date": "2026-02-20",
+  "trading_day_count": 2621,
+  "available_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2015.csv",
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2016.csv",
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2017.csv",
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2018.csv",
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2019.csv",
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2020.csv",
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2021.csv",
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2023.csv",
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/160/160980/2026.csv"
+  ],
+  "latest_close": 21450,
+  "latest_marcap": 234325012350,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "active_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

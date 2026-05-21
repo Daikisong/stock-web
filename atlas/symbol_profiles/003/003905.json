@@ -1,0 +1,62 @@
+{
+  "code": "003905",
+  "current_or_latest_name": "해태유업(1우)",
+  "name_history": [
+    {
+      "name": "해태유업(1우 )",
+      "first_date": "2001-06-28",
+      "last_date": "2001-07-04"
+    },
+    {
+      "name": "해태유업(1우)",
+      "first_date": "1995-05-02",
+      "last_date": "2004-03-10"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2004-03-10"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2004-03-10",
+  "trading_day_count": 2346,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/003/003905/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003905/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003905/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003905/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003905/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003905/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003905/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003905/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003905/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003905/2004.csv"
+  ],
+  "latest_close": 75,
+  "latest_marcap": 15669750,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

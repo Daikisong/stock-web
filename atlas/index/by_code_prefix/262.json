@@ -1,0 +1,63 @@
+{
+  "prefix": "262",
+  "codes": [
+    {
+      "code": "262260",
+      "name": "에이프로",
+      "profile_path": "atlas/symbol_profiles/262/262260.json",
+      "available_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2020-07-16",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "262760",
+      "name": "엔케이맥스",
+      "profile_path": "atlas/symbol_profiles/262/262760.json",
+      "available_years": [
+        2018,
+        2019
+      ],
+      "first_date": "2018-08-09",
+      "last_date": "2019-07-03",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "262830",
+      "name": "대신밸런스제4호스팩",
+      "profile_path": "atlas/symbol_profiles/262/262830.json",
+      "available_years": [
+        2017,
+        2018,
+        2019
+      ],
+      "first_date": "2017-03-03",
+      "last_date": "2019-10-08",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "262840",
+      "name": "아이퀘스트",
+      "profile_path": "atlas/symbol_profiles/262/262840.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-02-05",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}

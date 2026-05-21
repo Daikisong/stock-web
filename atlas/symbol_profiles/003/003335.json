@@ -1,0 +1,71 @@
+{
+  "code": "003335",
+  "current_or_latest_name": "하나증권(1우)",
+  "name_history": [
+    {
+      "name": "보람증권(1우)",
+      "first_date": "1995-05-02",
+      "last_date": "1999-06-04"
+    },
+    {
+      "name": "하나증권(1우 )",
+      "first_date": "2001-06-28",
+      "last_date": "2001-07-04"
+    },
+    {
+      "name": "하나증권(1우)",
+      "first_date": "1999-06-07",
+      "last_date": "2006-10-25"
+    }
+  ],
+  "markets": [
+    "KOSPI"
+  ],
+  "market_history": [
+    {
+      "market": "KOSPI",
+      "first_date": "1995-05-02",
+      "last_date": "2006-10-25"
+    }
+  ],
+  "first_date": "1995-05-02",
+  "last_date": "2006-10-25",
+  "trading_day_count": 3001,
+  "available_years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/003/003335/1995.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003335/1996.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003335/1997.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003335/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003335/1999.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003335/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003335/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003335/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003335/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003335/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003335/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/003/003335/2006.csv"
+  ],
+  "latest_close": 10000,
+  "latest_marcap": 36895230000,
+  "latest_market": "KOSPI",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

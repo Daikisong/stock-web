@@ -1,0 +1,59 @@
+{
+  "code": "041550",
+  "current_or_latest_name": "쎄라텍",
+  "name_history": [
+    {
+      "name": "쎄라텍",
+      "first_date": "2000-07-11",
+      "last_date": "2010-08-24"
+    }
+  ],
+  "markets": [
+    "KOSDAQ"
+  ],
+  "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2000-07-11",
+      "last_date": "2010-08-24"
+    }
+  ],
+  "first_date": "2000-07-11",
+  "last_date": "2010-08-24",
+  "trading_day_count": 2505,
+  "available_years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "year_files": [
+    "atlas/ohlcv_min_by_symbol_year/041/041550/2000.csv",
+    "atlas/ohlcv_min_by_symbol_year/041/041550/2001.csv",
+    "atlas/ohlcv_min_by_symbol_year/041/041550/2002.csv",
+    "atlas/ohlcv_min_by_symbol_year/041/041550/2003.csv",
+    "atlas/ohlcv_min_by_symbol_year/041/041550/2004.csv",
+    "atlas/ohlcv_min_by_symbol_year/041/041550/2005.csv",
+    "atlas/ohlcv_min_by_symbol_year/041/041550/2006.csv",
+    "atlas/ohlcv_min_by_symbol_year/041/041550/2007.csv",
+    "atlas/ohlcv_min_by_symbol_year/041/041550/2008.csv",
+    "atlas/ohlcv_min_by_symbol_year/041/041550/2009.csv",
+    "atlas/ohlcv_min_by_symbol_year/041/041550/2010.csv"
+  ],
+  "latest_close": 30,
+  "latest_marcap": 1438832430,
+  "latest_market": "KOSDAQ",
+  "status_inferred": "inactive_or_delisted_like",
+  "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
+  "price_data_source": "FinanceData/marcap",
+  "source_repo_url": "https://github.com/FinanceData/marcap",
+  "price_adjustment_status": "raw_unadjusted_marcap",
+  "caveat": "Raw/unadjusted OHLC from FinanceData/marcap. Corporate actions are not adjusted unless explicitly added later."
+}

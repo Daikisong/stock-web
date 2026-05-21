@@ -1,0 +1,118 @@
+{
+  "prefix": "311",
+  "codes": [
+    {
+      "code": "311060",
+      "name": "엘에이티",
+      "profile_path": "atlas/symbol_profiles/311/311060.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2018-12-28",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "311270",
+      "name": "키움제5호스팩",
+      "profile_path": "atlas/symbol_profiles/311/311270.json",
+      "available_years": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "first_date": "2018-12-26",
+      "last_date": "2021-07-30",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "311320",
+      "name": "지오엘리먼트",
+      "profile_path": "atlas/symbol_profiles/311/311320.json",
+      "available_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2021-11-11",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "311390",
+      "name": "네오크레마",
+      "profile_path": "atlas/symbol_profiles/311/311390.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-08-22",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "311690",
+      "name": "CJ 바이오사이언스",
+      "profile_path": "atlas/symbol_profiles/311/311690.json",
+      "available_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2019-12-26",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    },
+    {
+      "code": "311840",
+      "name": "대원모방",
+      "profile_path": "atlas/symbol_profiles/311/311840.json",
+      "available_years": [
+        2018,
+        2019,
+        2020
+      ],
+      "first_date": "2018-12-27",
+      "last_date": "2020-02-26",
+      "status_inferred": "inactive_or_delisted_like"
+    },
+    {
+      "code": "311960",
+      "name": "인터로이드",
+      "profile_path": "atlas/symbol_profiles/311/311960.json",
+      "available_years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "first_date": "2022-11-29",
+      "last_date": "2026-02-20",
+      "status_inferred": "active_like"
+    }
+  ]
+}
