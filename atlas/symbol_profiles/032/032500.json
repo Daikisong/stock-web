@@ -5,7 +5,7 @@
     {
       "name": "케이엠더블유",
       "first_date": "2000-03-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-03-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-03-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-03-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6385,
-  "raw_trading_day_count": 6389,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6466,
+  "raw_trading_day_count": 6470,
   "available_years": [
     2000,
     2001,
@@ -169,14 +169,14 @@
     "atlas/ohlcv_min_by_symbol_year/032/032500/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/032/032500/2026.csv"
   ],
-  "latest_close": 20950,
-  "latest_marcap": 863297627800,
+  "latest_close": 22950,
+  "latest_marcap": 968299537950,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 20950,
-  "raw_latest_marcap": 863297627800,
+  "raw_latest_close": 22950,
+  "raw_latest_marcap": 968299537950,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6385,
+    "tradable_ohlcv": 6466,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "LX하우시스",
       "first_date": "2021-07-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2009-04-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-04-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-04-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4151,
-  "raw_trading_day_count": 4151,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4232,
+  "raw_trading_day_count": 4232,
   "available_years": [
     2009,
     2010,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/108/108670/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/108/108670/2026.csv"
   ],
-  "latest_close": 32000,
-  "latest_marcap": 286965440000,
+  "latest_close": 31300,
+  "latest_marcap": 280688071000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 32000,
-  "raw_latest_marcap": 286965440000,
+  "raw_latest_close": 31300,
+  "raw_latest_marcap": 280688071000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4151,
+    "tradable_ohlcv": 4232,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

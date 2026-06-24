@@ -5,7 +5,7 @@
     {
       "name": "DXVX",
       "first_date": "2023-01-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "디엑스앤브이엑스",
@@ -36,15 +36,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-11-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-12-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-12-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1715,
-  "raw_trading_day_count": 2744,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1796,
+  "raw_trading_day_count": 2825,
   "available_years": [
     2014,
     2015,
@@ -111,14 +111,14 @@
     "atlas/ohlcv_min_by_symbol_year/180/180400/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/180/180400/2026.csv"
   ],
-  "latest_close": 5110,
-  "latest_marcap": 502974397520,
+  "latest_close": 2270,
+  "latest_marcap": 223434810640,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5110,
-  "raw_latest_marcap": 502974397520,
+  "raw_latest_close": 2270,
+  "raw_latest_marcap": 223434810640,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1715,
+    "tradable_ohlcv": 1796,
     "non_tradable_zero_volume": 1029,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

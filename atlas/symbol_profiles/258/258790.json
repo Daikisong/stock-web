@@ -5,7 +5,7 @@
     {
       "name": "소프트캠프",
       "first_date": "2019-12-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "케이비제11호스팩",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-04-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-04-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-04-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2013,
-  "raw_trading_day_count": 2159,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2078,
+  "raw_trading_day_count": 2240,
   "available_years": [
     2017,
     2018,
@@ -89,23 +89,24 @@
     "atlas/ohlcv_min_by_symbol_year/258/258790/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/258/258790/2026.csv"
   ],
-  "latest_close": 1309,
-  "latest_marcap": 32713590756,
+  "latest_close": 3945,
+  "latest_marcap": 19718119920,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1309,
-  "raw_latest_marcap": 32713590756,
+  "raw_latest_close": 3945,
+  "raw_latest_marcap": 19718119920,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2013,
-    "non_tradable_zero_volume": 146,
+    "tradable_ohlcv": 2078,
+    "non_tradable_zero_volume": 162,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 2,
   "corporate_action_candidate_dates": [
-    "2019-12-30"
+    "2019-12-30",
+    "2026-05-28"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

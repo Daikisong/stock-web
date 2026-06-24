@@ -5,7 +5,7 @@
     {
       "name": "시노펙스",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "신양피앤피",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6722,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6803,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/025/025320/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/025/025320/2026.csv"
   ],
-  "latest_close": 7130,
-  "latest_marcap": 657061606390,
+  "latest_close": 4985,
+  "latest_marcap": 459429828205,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 7130,
-  "raw_latest_marcap": 657061606390,
+  "raw_latest_close": 4985,
+  "raw_latest_marcap": 459429828205,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6722,
+    "tradable_ohlcv": 6803,
     "non_tradable_zero_volume": 700,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

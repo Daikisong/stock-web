@@ -5,7 +5,7 @@
     {
       "name": "에이치브이엠",
       "first_date": "2024-06-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2024-06-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-06-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-06-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 399,
-  "raw_trading_day_count": 399,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 480,
+  "raw_trading_day_count": 480,
   "available_years": [
     2024,
     2025,
@@ -49,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/295/295310/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/295/295310/2026.csv"
   ],
-  "latest_close": 83000,
-  "latest_marcap": 987860273000,
+  "latest_close": 60400,
+  "latest_marcap": 727613492400,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 83000,
-  "raw_latest_marcap": 987860273000,
+  "raw_latest_close": 60400,
+  "raw_latest_marcap": 727613492400,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 399,
+    "tradable_ohlcv": 480,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

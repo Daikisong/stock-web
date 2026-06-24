@@ -20,7 +20,7 @@
     {
       "name": "LG생활건강우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "2001-04-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2001-04-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2001-04-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6114,
-  "raw_trading_day_count": 6125,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6195,
+  "raw_trading_day_count": 6206,
   "available_years": [
     2001,
     2002,
@@ -179,14 +179,14 @@
     "atlas/ohlcv_min_by_symbol_year/051/051905/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/051/051905/2026.csv"
   ],
-  "latest_close": 119500,
-  "latest_marcap": 250913791500,
+  "latest_close": 96600,
+  "latest_marcap": 202498619400,
   "latest_market": "KOSPI",
-  "raw_latest_close": 119500,
-  "raw_latest_marcap": 250913791500,
+  "raw_latest_close": 96600,
+  "raw_latest_marcap": 202498619400,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6114,
+    "tradable_ohlcv": 6195,
     "non_tradable_zero_volume": 10,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "토니모리",
       "first_date": "2015-07-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2015-07-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-07-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-07-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2604,
-  "raw_trading_day_count": 2604,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2685,
+  "raw_trading_day_count": 2685,
   "available_years": [
     2015,
     2016,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/214/214420/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/214/214420/2026.csv"
   ],
-  "latest_close": 9100,
-  "latest_marcap": 218898670900,
+  "latest_close": 5140,
+  "latest_marcap": 123641666860,
   "latest_market": "KOSPI",
-  "raw_latest_close": 9100,
-  "raw_latest_marcap": 218898670900,
+  "raw_latest_close": 5140,
+  "raw_latest_marcap": 123641666860,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2604,
+    "tradable_ohlcv": 2685,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

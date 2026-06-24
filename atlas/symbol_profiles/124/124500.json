@@ -10,7 +10,7 @@
     {
       "name": "아이티센글로벌",
       "first_date": "2025-04-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "아이티센시스템즈",
@@ -31,15 +31,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-12-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-07-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2982,
-  "raw_trading_day_count": 3102,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3063,
+  "raw_trading_day_count": 3183,
   "available_years": [
     2013,
     2014,
@@ -120,14 +120,14 @@
     "atlas/ohlcv_min_by_symbol_year/124/124500/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/124/124500/2026.csv"
   ],
-  "latest_close": 47700,
-  "latest_marcap": 1106855937900,
+  "latest_close": 29650,
+  "latest_marcap": 688014225550,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 47700,
-  "raw_latest_marcap": 1106855937900,
+  "raw_latest_close": 29650,
+  "raw_latest_marcap": 688014225550,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2982,
+    "tradable_ohlcv": 3063,
     "non_tradable_zero_volume": 120,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

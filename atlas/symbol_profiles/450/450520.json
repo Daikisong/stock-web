@@ -5,7 +5,7 @@
     {
       "name": "인스웨이브",
       "first_date": "2025-04-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "인스웨이브시스템즈",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-09-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-09-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-09-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 582,
-  "raw_trading_day_count": 582,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 663,
+  "raw_trading_day_count": 663,
   "available_years": [
     2023,
     2024,
@@ -59,14 +59,14 @@
     "atlas/ohlcv_min_by_symbol_year/450/450520/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/450/450520/2026.csv"
   ],
-  "latest_close": 3315,
-  "latest_marcap": 48745676070,
+  "latest_close": 2040,
+  "latest_marcap": 29997339120,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3315,
-  "raw_latest_marcap": 48745676070,
+  "raw_latest_close": 2040,
+  "raw_latest_marcap": 29997339120,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 582,
+    "tradable_ohlcv": 663,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

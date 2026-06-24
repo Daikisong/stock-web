@@ -5,7 +5,7 @@
     {
       "name": "프롬바이오",
       "first_date": "2021-09-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-09-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-09-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-09-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1076,
-  "raw_trading_day_count": 1076,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1157,
+  "raw_trading_day_count": 1157,
   "available_years": [
     2021,
     2022,
@@ -64,14 +64,14 @@
     "atlas/ohlcv_min_by_symbol_year/377/377220/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/377/377220/2026.csv"
   ],
-  "latest_close": 1343,
-  "latest_marcap": 38020330000,
+  "latest_close": 701,
+  "latest_marcap": 19845310000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1343,
-  "raw_latest_marcap": 38020330000,
+  "raw_latest_close": 701,
+  "raw_latest_marcap": 19845310000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1076,
+    "tradable_ohlcv": 1157,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

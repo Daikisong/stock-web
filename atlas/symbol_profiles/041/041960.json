@@ -10,7 +10,7 @@
     {
       "name": "코미팜",
       "first_date": "2004-09-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한국미생물",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2001-10-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2001-10-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2001-10-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5988,
-  "raw_trading_day_count": 5998,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6069,
+  "raw_trading_day_count": 6079,
   "available_years": [
     2001,
     2002,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/041/041960/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/041/041960/2026.csv"
   ],
-  "latest_close": 8490,
-  "latest_marcap": 627296342550,
+  "latest_close": 7880,
+  "latest_marcap": 582225580600,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8490,
-  "raw_latest_marcap": 627296342550,
+  "raw_latest_close": 7880,
+  "raw_latest_marcap": 582225580600,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5988,
+    "tradable_ohlcv": 6069,
     "non_tradable_zero_volume": 10,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

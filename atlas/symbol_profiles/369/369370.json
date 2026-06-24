@@ -20,7 +20,7 @@
     {
       "name": "블리츠웨이엔터테인먼트",
       "first_date": "2025-04-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-12-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-12-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-12-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1204,
-  "raw_trading_day_count": 1263,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1285,
+  "raw_trading_day_count": 1344,
   "available_years": [
     2020,
     2021,
@@ -84,14 +84,14 @@
     "atlas/ohlcv_min_by_symbol_year/369/369370/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/369/369370/2026.csv"
   ],
-  "latest_close": 1668,
-  "latest_marcap": 83186347548,
+  "latest_close": 869,
+  "latest_marcap": 43338690659,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1668,
-  "raw_latest_marcap": 83186347548,
+  "raw_latest_close": 869,
+  "raw_latest_marcap": 43338690659,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1204,
+    "tradable_ohlcv": 1285,
     "non_tradable_zero_volume": 59,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "루켄테크놀러지스",
       "first_date": "2017-07-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2017-07-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-07-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-07-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1656,
-  "raw_trading_day_count": 2101,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1737,
+  "raw_trading_day_count": 2182,
   "available_years": [
     2017,
     2018,
@@ -84,14 +84,14 @@
     "atlas/ohlcv_min_by_symbol_year/162/162120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/162/162120/2026.csv"
   ],
-  "latest_close": 2585,
-  "latest_marcap": 28839816170,
+  "latest_close": 3540,
+  "latest_marcap": 39494371080,
   "latest_market": "KONEX",
-  "raw_latest_close": 2585,
-  "raw_latest_marcap": 28839816170,
+  "raw_latest_close": 3540,
+  "raw_latest_marcap": 39494371080,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1656,
+    "tradable_ohlcv": 1737,
     "non_tradable_zero_volume": 445,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

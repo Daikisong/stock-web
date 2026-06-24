@@ -40,7 +40,7 @@
     {
       "name": "오션인더블유",
       "first_date": "2024-12-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "초록뱀컴퍼니",
@@ -55,15 +55,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2001-08-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2001-08-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2001-08-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5928,
-  "raw_trading_day_count": 6057,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5984,
+  "raw_trading_day_count": 6138,
   "available_years": [
     2001,
     2002,
@@ -204,15 +204,15 @@
     "atlas/ohlcv_min_by_symbol_year/052/052300/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/052/052300/2026.csv"
   ],
-  "latest_close": 2365,
-  "latest_marcap": 39886063195,
+  "latest_close": 1406,
+  "latest_marcap": 22839243968,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2365,
-  "raw_latest_marcap": 39886063195,
+  "raw_latest_close": 1406,
+  "raw_latest_marcap": 22839243968,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5928,
-    "non_tradable_zero_volume": 129,
+    "tradable_ohlcv": 5984,
+    "non_tradable_zero_volume": 154,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

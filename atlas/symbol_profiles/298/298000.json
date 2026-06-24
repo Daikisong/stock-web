@@ -5,7 +5,7 @@
     {
       "name": "효성화학",
       "first_date": "2018-07-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2018-07-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-07-13",
-  "last_date": "2025-02-28",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-07-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1629,
-  "raw_trading_day_count": 1866,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1635,
+  "raw_trading_day_count": 1947,
   "available_years": [
     2018,
     2019,
@@ -32,7 +32,8 @@
     2022,
     2023,
     2024,
-    2025
+    2025,
+    2026
   ],
   "raw_available_years": [
     2018,
@@ -53,7 +54,8 @@
     "atlas/ohlcv_tradable_by_symbol_year/298/298000/2022.csv",
     "atlas/ohlcv_tradable_by_symbol_year/298/298000/2023.csv",
     "atlas/ohlcv_tradable_by_symbol_year/298/298000/2024.csv",
-    "atlas/ohlcv_tradable_by_symbol_year/298/298000/2025.csv"
+    "atlas/ohlcv_tradable_by_symbol_year/298/298000/2025.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/298/298000/2026.csv"
   ],
   "raw_year_files": [
     "atlas/ohlcv_raw_by_symbol_year/298/298000/2018.csv",
@@ -74,17 +76,18 @@
     "atlas/ohlcv_min_by_symbol_year/298/298000/2022.csv",
     "atlas/ohlcv_min_by_symbol_year/298/298000/2023.csv",
     "atlas/ohlcv_min_by_symbol_year/298/298000/2024.csv",
-    "atlas/ohlcv_min_by_symbol_year/298/298000/2025.csv"
+    "atlas/ohlcv_min_by_symbol_year/298/298000/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/298/298000/2026.csv"
   ],
-  "latest_close": 38900,
-  "latest_marcap": 147501447900,
+  "latest_close": 68400,
+  "latest_marcap": 259359872400,
   "latest_market": "KOSPI",
-  "raw_latest_close": 38900,
-  "raw_latest_marcap": 147501447900,
+  "raw_latest_close": 68400,
+  "raw_latest_marcap": 259359872400,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 1629,
-    "non_tradable_zero_volume": 237,
+    "tradable_ohlcv": 1635,
+    "non_tradable_zero_volume": 312,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

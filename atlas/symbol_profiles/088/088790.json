@@ -5,7 +5,7 @@
     {
       "name": "진도",
       "first_date": "2010-05-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "진도에프앤",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2006-03-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2006-03-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-03-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4892,
-  "raw_trading_day_count": 4907,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4973,
+  "raw_trading_day_count": 4988,
   "available_years": [
     2006,
     2007,
@@ -144,14 +144,14 @@
     "atlas/ohlcv_min_by_symbol_year/088/088790/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/088/088790/2026.csv"
   ],
-  "latest_close": 2190,
-  "latest_marcap": 27260559360,
+  "latest_close": 2355,
+  "latest_marcap": 29314437120,
   "latest_market": "KOSPI",
-  "raw_latest_close": 2190,
-  "raw_latest_marcap": 27260559360,
+  "raw_latest_close": 2355,
+  "raw_latest_marcap": 29314437120,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4892,
+    "tradable_ohlcv": 4973,
     "non_tradable_zero_volume": 15,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

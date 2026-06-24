@@ -5,7 +5,7 @@
     {
       "name": "웨이버스",
       "first_date": "2022-04-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "유안타제5호스팩",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-11-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-11-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-11-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1476,
-  "raw_trading_day_count": 1528,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1557,
+  "raw_trading_day_count": 1609,
   "available_years": [
     2019,
     2020,
@@ -79,14 +79,14 @@
     "atlas/ohlcv_min_by_symbol_year/336/336060/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/336/336060/2026.csv"
   ],
-  "latest_close": 1000,
-  "latest_marcap": 48155200000,
+  "latest_close": 604,
+  "latest_marcap": 29085740800,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1000,
-  "raw_latest_marcap": 48155200000,
+  "raw_latest_close": 604,
+  "raw_latest_marcap": 29085740800,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1476,
+    "tradable_ohlcv": 1557,
     "non_tradable_zero_volume": 52,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

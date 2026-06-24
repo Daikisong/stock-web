@@ -10,7 +10,7 @@
     {
       "name": "멤레이비티",
       "first_date": "2025-12-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "아로마소프트",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2007-07-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-07-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-07-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4577,
-  "raw_trading_day_count": 4579,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4642,
+  "raw_trading_day_count": 4660,
   "available_years": [
     2007,
     2008,
@@ -149,26 +149,27 @@
     "atlas/ohlcv_min_by_symbol_year/072/072770/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/072/072770/2026.csv"
   ],
-  "latest_close": 748,
-  "latest_marcap": 62102098608,
+  "latest_close": 804,
+  "latest_marcap": 33375726792,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 748,
-  "raw_latest_marcap": 62102098608,
+  "raw_latest_close": 804,
+  "raw_latest_marcap": 33375726792,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4577,
-    "non_tradable_zero_volume": 2,
+    "tradable_ohlcv": 4642,
+    "non_tradable_zero_volume": 18,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2009-10-01",
     "2013-06-07",
     "2016-03-16",
-    "2021-12-13"
+    "2021-12-13",
+    "2026-05-22"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

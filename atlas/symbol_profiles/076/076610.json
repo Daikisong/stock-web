@@ -5,7 +5,7 @@
     {
       "name": "해성옵틱스",
       "first_date": "2013-11-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2013-11-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-11-06",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-11-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3003,
-  "raw_trading_day_count": 3016,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3084,
+  "raw_trading_day_count": 3097,
   "available_years": [
     2013,
     2014,
@@ -104,14 +104,14 @@
     "atlas/ohlcv_min_by_symbol_year/076/076610/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/076/076610/2026.csv"
   ],
-  "latest_close": 927,
-  "latest_marcap": 49293632880,
+  "latest_close": 1125,
+  "latest_marcap": 63368452125,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 927,
-  "raw_latest_marcap": 49293632880,
+  "raw_latest_close": 1125,
+  "raw_latest_marcap": 63368452125,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3003,
+    "tradable_ohlcv": 3084,
     "non_tradable_zero_volume": 13,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

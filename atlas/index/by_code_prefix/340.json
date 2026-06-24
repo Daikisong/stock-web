@@ -64,7 +64,7 @@
         2026
       ],
       "first_date": "2019-12-19",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -92,7 +92,7 @@
         2026
       ],
       "first_date": "2019-12-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -108,7 +108,7 @@
         2026
       ],
       "first_date": "2025-06-11",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -134,7 +134,7 @@
         2026
       ],
       "first_date": "2020-11-20",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -154,7 +154,7 @@
         2026
       ],
       "first_date": "2023-05-19",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -178,7 +178,7 @@
         2026
       ],
       "first_date": "2021-02-25",
-      "last_date": "2026-02-20",
+      "last_date": "2026-03-31",
       "status_inferred": "active_like"
     }
   ]

@@ -5,7 +5,7 @@
     {
       "name": "넥슨게임즈",
       "first_date": "2022-04-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "넷게임즈",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-09-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-09-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-09-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2432,
-  "raw_trading_day_count": 2550,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2513,
+  "raw_trading_day_count": 2631,
   "available_years": [
     2015,
     2016,
@@ -104,14 +104,14 @@
     "atlas/ohlcv_min_by_symbol_year/225/225570/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/225/225570/2026.csv"
   ],
-  "latest_close": 12230,
-  "latest_marcap": 805469928020,
+  "latest_close": 9200,
+  "latest_marcap": 605913600800,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 12230,
-  "raw_latest_marcap": 805469928020,
+  "raw_latest_close": 9200,
+  "raw_latest_marcap": 605913600800,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2432,
+    "tradable_ohlcv": 2513,
     "non_tradable_zero_volume": 118,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

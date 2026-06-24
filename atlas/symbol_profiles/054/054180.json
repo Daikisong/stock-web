@@ -10,7 +10,7 @@
     {
       "name": "메디콕스",
       "first_date": "2020-09-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "씨오텍",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2001-10-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2001-10-16",
   "last_date": "2025-07-02",
   "raw_first_date": "2001-10-16",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 5581,
-  "raw_trading_day_count": 6008,
+  "raw_trading_day_count": 6089,
   "available_years": [
     2001,
     2002,
@@ -189,7 +189,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 5581,
-    "non_tradable_zero_volume": 427,
+    "non_tradable_zero_volume": 508,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

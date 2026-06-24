@@ -5,7 +5,7 @@
     {
       "name": "씨유메디칼",
       "first_date": "2011-12-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2011-12-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-12-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2011-12-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3484,
-  "raw_trading_day_count": 3484,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3549,
+  "raw_trading_day_count": 3565,
   "available_years": [
     2011,
     2012,
@@ -114,27 +114,28 @@
     "atlas/ohlcv_min_by_symbol_year/115/115480/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/115/115480/2026.csv"
   ],
-  "latest_close": 564,
-  "latest_marcap": 34192250712,
+  "latest_close": 1837,
+  "latest_marcap": 22273461507,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 564,
-  "raw_latest_marcap": 34192250712,
+  "raw_latest_close": 1837,
+  "raw_latest_marcap": 22273461507,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3484,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 3549,
+    "non_tradable_zero_volume": 16,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_count": 6,
   "corporate_action_candidate_dates": [
     "2011-12-28",
     "2016-04-12",
     "2016-05-10",
     "2021-08-19",
-    "2024-11-15"
+    "2024-11-15",
+    "2026-05-20"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

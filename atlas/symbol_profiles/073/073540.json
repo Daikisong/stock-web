@@ -5,7 +5,7 @@
     {
       "name": "에프알텍",
       "first_date": "2007-05-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2007-05-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-05-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-05-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4621,
-  "raw_trading_day_count": 4624,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4702,
+  "raw_trading_day_count": 4705,
   "available_years": [
     2007,
     2008,
@@ -134,14 +134,14 @@
     "atlas/ohlcv_min_by_symbol_year/073/073540/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/073/073540/2026.csv"
   ],
-  "latest_close": 2020,
-  "latest_marcap": 23028000000,
+  "latest_close": 2270,
+  "latest_marcap": 25878000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2020,
-  "raw_latest_marcap": 23028000000,
+  "raw_latest_close": 2270,
+  "raw_latest_marcap": 25878000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4621,
+    "tradable_ohlcv": 4702,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

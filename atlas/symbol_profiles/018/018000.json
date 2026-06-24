@@ -5,7 +5,7 @@
     {
       "name": "유니슨",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "유니슨산업",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7328,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7409,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/018/018000/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/018/018000/2026.csv"
   ],
-  "latest_close": 1108,
-  "latest_marcap": 271634778136,
+  "latest_close": 975,
+  "latest_marcap": 253010826900,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1108,
-  "raw_latest_marcap": 271634778136,
+  "raw_latest_close": 975,
+  "raw_latest_marcap": 253010826900,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 7328,
+    "tradable_ohlcv": 7409,
     "non_tradable_zero_volume": 94,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "평화홀딩스",
       "first_date": "2006-05-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7685,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7766,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/010/010770/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/010/010770/2026.csv"
   ],
-  "latest_close": 3935,
-  "latest_marcap": 57551208710,
+  "latest_close": 3900,
+  "latest_marcap": 57039317400,
   "latest_market": "KOSPI",
-  "raw_latest_close": 3935,
-  "raw_latest_marcap": 57551208710,
+  "raw_latest_close": 3900,
+  "raw_latest_marcap": 57039317400,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7685,
+    "tradable_ohlcv": 7766,
     "non_tradable_zero_volume": 80,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

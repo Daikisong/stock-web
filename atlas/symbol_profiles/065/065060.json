@@ -5,7 +5,7 @@
     {
       "name": "지엔코",
       "first_date": "2002-05-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-05-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-05-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-05-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5814,
-  "raw_trading_day_count": 5857,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5878,
+  "raw_trading_day_count": 5938,
   "available_years": [
     2002,
     2003,
@@ -159,21 +159,21 @@
     "atlas/ohlcv_min_by_symbol_year/065/065060/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/065/065060/2026.csv"
   ],
-  "latest_close": 684,
-  "latest_marcap": 16279749936,
+  "latest_close": 3240,
+  "latest_marcap": 19408850640,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 684,
-  "raw_latest_marcap": 16279749936,
+  "raw_latest_close": 3240,
+  "raw_latest_marcap": 19408850640,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5814,
-    "non_tradable_zero_volume": 43,
+    "tradable_ohlcv": 5878,
+    "non_tradable_zero_volume": 60,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 8,
+  "corporate_action_candidate_count": 10,
   "corporate_action_candidate_dates": [
     "2008-02-27",
     "2008-05-14",
@@ -182,7 +182,9 @@
     "2010-06-25",
     "2017-07-31",
     "2025-05-20",
-    "2025-07-29"
+    "2025-07-29",
+    "2026-05-07",
+    "2026-06-01"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

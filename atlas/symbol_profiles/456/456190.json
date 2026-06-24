@@ -5,7 +5,7 @@
     {
       "name": "큐라켐",
       "first_date": "2023-05-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2023-05-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-07-18",
-  "last_date": "2026-02-02",
+  "last_date": "2026-06-08",
   "raw_first_date": "2023-05-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 41,
-  "raw_trading_day_count": 671,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 48,
+  "raw_trading_day_count": 752,
   "available_years": [
     2023,
     2024,
@@ -54,15 +54,15 @@
     "atlas/ohlcv_min_by_symbol_year/456/456190/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/456/456190/2026.csv"
   ],
-  "latest_close": 6790,
-  "latest_marcap": 11911601940,
+  "latest_close": 7420,
+  "latest_marcap": 13016802120,
   "latest_market": "KONEX",
-  "raw_latest_close": 6790,
-  "raw_latest_marcap": 11911601940,
+  "raw_latest_close": 7420,
+  "raw_latest_marcap": 13016802120,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 41,
-    "non_tradable_zero_volume": 630,
+    "tradable_ohlcv": 48,
+    "non_tradable_zero_volume": 704,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

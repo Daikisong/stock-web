@@ -5,7 +5,7 @@
     {
       "name": "더코디",
       "first_date": "2022-11-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코디엠",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-12-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-12-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-12-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2433,
-  "raw_trading_day_count": 2487,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2514,
+  "raw_trading_day_count": 2568,
   "available_years": [
     2015,
     2016,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/224/224060/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/224/224060/2026.csv"
   ],
-  "latest_close": 4080,
-  "latest_marcap": 21055745760,
+  "latest_close": 3715,
+  "latest_marcap": 19172082230,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4080,
-  "raw_latest_marcap": 21055745760,
+  "raw_latest_close": 3715,
+  "raw_latest_marcap": 19172082230,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2433,
+    "tradable_ohlcv": 2514,
     "non_tradable_zero_volume": 54,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "AP위성",
       "first_date": "2016-11-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "AP위성통신",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2016-03-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-03-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-03-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2443,
-  "raw_trading_day_count": 2445,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2524,
+  "raw_trading_day_count": 2526,
   "available_years": [
     2016,
     2017,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/211/211270/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/211/211270/2026.csv"
   ],
-  "latest_close": 18590,
-  "latest_marcap": 280380031360,
+  "latest_close": 10060,
+  "latest_marcap": 151727978240,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 18590,
-  "raw_latest_marcap": 280380031360,
+  "raw_latest_close": 10060,
+  "raw_latest_marcap": 151727978240,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2443,
+    "tradable_ohlcv": 2524,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "솔디펜스",
       "first_date": "2025-04-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "유니맥스글로벌",
@@ -50,15 +50,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-04-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-04-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-04-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1747,
-  "raw_trading_day_count": 2654,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1828,
+  "raw_trading_day_count": 2735,
   "available_years": [
     2015,
     2016,
@@ -123,14 +123,14 @@
     "atlas/ohlcv_min_by_symbol_year/215/215090/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/215/215090/2026.csv"
   ],
-  "latest_close": 3265,
-  "latest_marcap": 75603233165,
+  "latest_close": 1466,
+  "latest_marcap": 33946199026,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3265,
-  "raw_latest_marcap": 75603233165,
+  "raw_latest_close": 1466,
+  "raw_latest_marcap": 33946199026,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1747,
+    "tradable_ohlcv": 1828,
     "non_tradable_zero_volume": 906,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

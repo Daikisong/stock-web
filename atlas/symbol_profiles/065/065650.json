@@ -20,7 +20,7 @@
     {
       "name": "하이퍼코퍼레이션",
       "first_date": "2024-05-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2003-01-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2003-01-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2003-01-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5681,
-  "raw_trading_day_count": 5698,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5739,
+  "raw_trading_day_count": 5779,
   "available_years": [
     2003,
     2004,
@@ -169,28 +169,30 @@
     "atlas/ohlcv_min_by_symbol_year/065/065650/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/065/065650/2026.csv"
   ],
-  "latest_close": 1699,
-  "latest_marcap": 22656531984,
+  "latest_close": 2120,
+  "latest_marcap": 23205492440,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1699,
-  "raw_latest_marcap": 22656531984,
+  "raw_latest_close": 2120,
+  "raw_latest_marcap": 23205492440,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5681,
-    "non_tradable_zero_volume": 17,
+    "tradable_ohlcv": 5739,
+    "non_tradable_zero_volume": 40,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_count": 8,
   "corporate_action_candidate_dates": [
     "2004-08-13",
     "2006-03-16",
     "2020-04-17",
     "2024-05-10",
     "2024-07-12",
-    "2025-06-26"
+    "2025-06-26",
+    "2026-03-26",
+    "2026-06-09"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

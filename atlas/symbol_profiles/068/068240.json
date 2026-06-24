@@ -5,7 +5,7 @@
     {
       "name": "다원시스",
       "first_date": "2010-09-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-09-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-09-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-16",
   "raw_first_date": "2010-09-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3796,
-  "raw_trading_day_count": 3796,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3810,
+  "raw_trading_day_count": 3877,
   "available_years": [
     2010,
     2011,
@@ -119,15 +119,15 @@
     "atlas/ohlcv_min_by_symbol_year/068/068240/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/068/068240/2026.csv"
   ],
-  "latest_close": 2935,
-  "latest_marcap": 112009687595,
+  "latest_close": 2530,
+  "latest_marcap": 96553495610,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2935,
-  "raw_latest_marcap": 112009687595,
+  "raw_latest_close": 2530,
+  "raw_latest_marcap": 96553495610,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3796,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 3810,
+    "non_tradable_zero_volume": 67,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -5,7 +5,7 @@
     {
       "name": "아이씨에이치",
       "first_date": "2022-07-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2022-07-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2022-07-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2022-07-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 869,
-  "raw_trading_day_count": 869,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 950,
+  "raw_trading_day_count": 950,
   "available_years": [
     2022,
     2023,
@@ -59,24 +59,25 @@
     "atlas/ohlcv_min_by_symbol_year/368/368600/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/368/368600/2026.csv"
   ],
-  "latest_close": 1182,
-  "latest_marcap": 20730324972,
+  "latest_close": 600,
+  "latest_marcap": 15477249000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1182,
-  "raw_latest_marcap": 20730324972,
+  "raw_latest_close": 600,
+  "raw_latest_marcap": 15477249000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 869,
+    "tradable_ohlcv": 950,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2022-11-03",
-    "2022-11-23"
+    "2022-11-23",
+    "2026-02-25"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

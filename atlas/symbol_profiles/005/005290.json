@@ -5,7 +5,7 @@
     {
       "name": "동진쎄미켐",
       "first_date": "1999-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-12-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-12-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6445,
-  "raw_trading_day_count": 6448,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6526,
+  "raw_trading_day_count": 6529,
   "available_years": [
     1999,
     2000,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/005/005290/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005290/2026.csv"
   ],
-  "latest_close": 54700,
-  "latest_marcap": 2812372821800,
+  "latest_close": 63800,
+  "latest_marcap": 3251894038800,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 54700,
-  "raw_latest_marcap": 2812372821800,
+  "raw_latest_close": 63800,
+  "raw_latest_marcap": 3251894038800,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6445,
+    "tradable_ohlcv": 6526,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -15,7 +15,7 @@
     {
       "name": "차바이오텍",
       "first_date": "2014-06-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-12-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-12-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-12-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4946,
-  "raw_trading_day_count": 4969,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5027,
+  "raw_trading_day_count": 5050,
   "available_years": [
     2005,
     2006,
@@ -154,14 +154,14 @@
     "atlas/ohlcv_min_by_symbol_year/085/085660/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/085/085660/2026.csv"
   ],
-  "latest_close": 21400,
-  "latest_marcap": 1958982493200,
+  "latest_close": 11580,
+  "latest_marcap": 1076625556680,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 21400,
-  "raw_latest_marcap": 1958982493200,
+  "raw_latest_close": 11580,
+  "raw_latest_marcap": 1076625556680,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4946,
+    "tradable_ohlcv": 5027,
     "non_tradable_zero_volume": 23,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

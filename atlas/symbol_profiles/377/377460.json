@@ -1,11 +1,16 @@
 {
   "code": "377460",
-  "current_or_latest_name": "위니아에이드",
+  "current_or_latest_name": "큐에이드",
   "name_history": [
     {
       "name": "위니아에이드",
       "first_date": "2022-06-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-24"
+    },
+    {
+      "name": "큐에이드",
+      "first_date": "2026-04-27",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2022-06-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2022-06-23",
   "last_date": "2023-11-27",
   "raw_first_date": "2022-06-23",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 337,
-  "raw_trading_day_count": 895,
+  "raw_trading_day_count": 976,
   "available_years": [
     2022,
     2023
@@ -58,7 +63,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 337,
-    "non_tradable_zero_volume": 558,
+    "non_tradable_zero_volume": 639,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

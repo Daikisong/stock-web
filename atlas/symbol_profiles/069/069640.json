@@ -10,7 +10,7 @@
     {
       "name": "한세엠케이",
       "first_date": "2017-09-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2011-06-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-06-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2011-06-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3607,
-  "raw_trading_day_count": 3607,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3677,
+  "raw_trading_day_count": 3688,
   "available_years": [
     2011,
     2012,
@@ -119,25 +119,26 @@
     "atlas/ohlcv_min_by_symbol_year/069/069640/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/069/069640/2026.csv"
   ],
-  "latest_close": 628,
-  "latest_marcap": 28138483256,
+  "latest_close": 994,
+  "latest_marcap": 22268831494,
   "latest_market": "KOSPI",
-  "raw_latest_close": 628,
-  "raw_latest_marcap": 28138483256,
+  "raw_latest_close": 994,
+  "raw_latest_marcap": 22268831494,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3607,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 3677,
+    "non_tradable_zero_volume": 11,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2013-09-10",
     "2022-07-15",
-    "2025-07-15"
+    "2025-07-15",
+    "2026-05-13"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

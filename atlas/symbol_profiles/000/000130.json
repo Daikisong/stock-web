@@ -1,7 +1,17 @@
 {
   "code": "000130",
-  "current_or_latest_name": "한일은행",
+  "current_or_latest_name": "신한제17호스팩",
   "name_history": [
+    {
+      "name": "신한제17호스팩",
+      "first_date": "2026-04-01",
+      "last_date": "2026-06-22"
+    },
+    {
+      "name": "엔에이치스팩33호",
+      "first_date": "2026-03-27",
+      "last_date": "2026-06-22"
+    },
     {
       "name": "한일은행",
       "first_date": "1995-05-02",
@@ -9,9 +19,15 @@
     }
   ],
   "markets": [
+    "KOSDAQ",
     "KOSPI"
   ],
   "market_history": [
+    {
+      "market": "KOSDAQ",
+      "first_date": "2026-03-27",
+      "last_date": "2026-06-22"
+    },
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
@@ -19,64 +35,70 @@
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "1998-12-07",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "1999-01-08",
-  "trading_day_count": 1036,
-  "raw_trading_day_count": 1079,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1094,
+  "raw_trading_day_count": 1192,
   "available_years": [
     1995,
     1996,
     1997,
-    1998
+    1998,
+    2026
   ],
   "raw_available_years": [
     1995,
     1996,
     1997,
     1998,
-    1999
+    1999,
+    2026
   ],
   "year_files": [
     "atlas/ohlcv_tradable_by_symbol_year/000/000130/1995.csv",
     "atlas/ohlcv_tradable_by_symbol_year/000/000130/1996.csv",
     "atlas/ohlcv_tradable_by_symbol_year/000/000130/1997.csv",
-    "atlas/ohlcv_tradable_by_symbol_year/000/000130/1998.csv"
+    "atlas/ohlcv_tradable_by_symbol_year/000/000130/1998.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/000/000130/2026.csv"
   ],
   "raw_year_files": [
     "atlas/ohlcv_raw_by_symbol_year/000/000130/1995.csv",
     "atlas/ohlcv_raw_by_symbol_year/000/000130/1996.csv",
     "atlas/ohlcv_raw_by_symbol_year/000/000130/1997.csv",
     "atlas/ohlcv_raw_by_symbol_year/000/000130/1998.csv",
-    "atlas/ohlcv_raw_by_symbol_year/000/000130/1999.csv"
+    "atlas/ohlcv_raw_by_symbol_year/000/000130/1999.csv",
+    "atlas/ohlcv_raw_by_symbol_year/000/000130/2026.csv"
   ],
   "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/000/000130/1995.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000130/1996.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000130/1997.csv",
-    "atlas/ohlcv_min_by_symbol_year/000/000130/1998.csv"
+    "atlas/ohlcv_min_by_symbol_year/000/000130/1998.csv",
+    "atlas/ohlcv_min_by_symbol_year/000/000130/2026.csv"
   ],
-  "latest_close": 7800,
-  "latest_marcap": 2671833574800,
-  "latest_market": "KOSPI",
-  "raw_latest_close": 7800,
-  "raw_latest_marcap": 2671833574800,
-  "raw_latest_market": "KOSPI",
+  "latest_close": 2000,
+  "latest_marcap": 15400000000,
+  "latest_market": "KOSDAQ",
+  "raw_latest_close": 1993,
+  "raw_latest_marcap": 10642620000,
+  "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1036,
+    "tradable_ohlcv": 1149,
     "non_tradable_zero_volume": 43,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 2,
   "corporate_action_candidate_dates": [
-    "1998-10-29"
+    "1998-10-29",
+    "2026-03-27"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
-  "status_inferred": "inactive_or_delisted_like",
+  "status_inferred": "active_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",
   "source_repo_url": "https://github.com/FinanceData/marcap",

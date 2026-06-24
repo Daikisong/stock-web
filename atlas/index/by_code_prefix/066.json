@@ -159,7 +159,7 @@
         2026
       ],
       "first_date": "2003-02-11",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -311,7 +311,7 @@
         2026
       ],
       "first_date": "2006-11-24",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -437,7 +437,7 @@
         2026
       ],
       "first_date": "2017-12-04",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -556,7 +556,7 @@
         2026
       ],
       "first_date": "2002-12-24",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -640,7 +640,7 @@
         2026
       ],
       "first_date": "2002-04-22",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -702,12 +702,12 @@
         2026
       ],
       "first_date": "2002-04-22",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "066590",
-      "name": "우수AMS",
+      "name": "스모트로닉",
       "profile_path": "atlas/symbol_profiles/066/066590.json",
       "available_years": [
         2003,
@@ -762,7 +762,7 @@
         2026
       ],
       "first_date": "2003-02-12",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -824,7 +824,7 @@
         2026
       ],
       "first_date": "2002-09-05",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -886,7 +886,7 @@
         2026
       ],
       "first_date": "2002-12-30",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -966,7 +966,7 @@
         2026
       ],
       "first_date": "2004-05-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1057,7 +1057,7 @@
         2026
       ],
       "first_date": "2016-07-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-18",
       "status_inferred": "active_like"
     },
     {
@@ -1141,7 +1141,7 @@
         2026
       ],
       "first_date": "2004-05-14",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1197,7 +1197,7 @@
         2026
       ],
       "first_date": "2005-01-07",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1285,7 +1285,7 @@
         2026
       ],
       "first_date": "2003-01-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1345,7 +1345,7 @@
         2026
       ],
       "first_date": "2003-01-17",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

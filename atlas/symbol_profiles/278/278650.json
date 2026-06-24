@@ -5,7 +5,7 @@
     {
       "name": "HLB바이오스텝",
       "first_date": "2023-04-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "노터스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-11-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-11-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-11-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1528,
-  "raw_trading_day_count": 1529,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1595,
+  "raw_trading_day_count": 1610,
   "available_years": [
     2019,
     2020,
@@ -79,24 +79,25 @@
     "atlas/ohlcv_min_by_symbol_year/278/278650/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/278/278650/2026.csv"
   ],
-  "latest_close": 1244,
-  "latest_marcap": 108234890516,
+  "latest_close": 3010,
+  "latest_marcap": 52471511960,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1244,
-  "raw_latest_marcap": 108234890516,
+  "raw_latest_close": 3010,
+  "raw_latest_marcap": 52471511960,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1528,
-    "non_tradable_zero_volume": 1,
+    "tradable_ohlcv": 1595,
+    "non_tradable_zero_volume": 15,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2022-05-31",
-    "2022-06-22"
+    "2022-06-22",
+    "2026-05-18"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

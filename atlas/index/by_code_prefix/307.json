@@ -68,7 +68,7 @@
         2026
       ],
       "first_date": "2018-12-21",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -98,12 +98,12 @@
         2026
       ],
       "first_date": "2018-12-05",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "307750",
-      "name": "국전약품",
+      "name": "국전",
       "profile_path": "atlas/symbol_profiles/307/307750.json",
       "available_years": [
         2018,
@@ -128,7 +128,7 @@
         2026
       ],
       "first_date": "2018-12-19",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -158,7 +158,7 @@
         2026
       ],
       "first_date": "2018-12-12",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -186,7 +186,7 @@
         2026
       ],
       "first_date": "2019-05-23",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -214,7 +214,7 @@
         2026
       ],
       "first_date": "2019-03-28",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

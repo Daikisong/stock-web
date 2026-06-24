@@ -5,7 +5,7 @@
     {
       "name": "손오공",
       "first_date": "2005-01-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-01-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-01-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-01-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5211,
-  "raw_trading_day_count": 5211,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5269,
+  "raw_trading_day_count": 5292,
   "available_years": [
     2005,
     2006,
@@ -144,26 +144,27 @@
     "atlas/ohlcv_min_by_symbol_year/066/066910/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/066/066910/2026.csv"
   ],
-  "latest_close": 675,
-  "latest_marcap": 45179885700,
+  "latest_close": 2695,
+  "latest_marcap": 36076973240,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 675,
-  "raw_latest_marcap": 45179885700,
+  "raw_latest_close": 2695,
+  "raw_latest_marcap": 36076973240,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5211,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 5269,
+    "non_tradable_zero_volume": 23,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2009-06-11",
     "2009-09-30",
     "2019-09-24",
-    "2025-03-28"
+    "2025-03-28",
+    "2026-06-09"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "한빛소프트",
       "first_date": "2002-01-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-01-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-01-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-01-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5949,
-  "raw_trading_day_count": 5949,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6030,
+  "raw_trading_day_count": 6030,
   "available_years": [
     2002,
     2003,
@@ -159,14 +159,14 @@
     "atlas/ohlcv_min_by_symbol_year/047/047080/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/047/047080/2026.csv"
   ],
-  "latest_close": 1230,
-  "latest_marcap": 30531505260,
+  "latest_close": 1121,
+  "latest_marcap": 27825867802,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1230,
-  "raw_latest_marcap": 30531505260,
+  "raw_latest_close": 1121,
+  "raw_latest_marcap": 27825867802,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5949,
+    "tradable_ohlcv": 6030,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

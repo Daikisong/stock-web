@@ -5,7 +5,7 @@
     {
       "name": "KT",
       "first_date": "2002-04-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한국통신공사",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1998-12-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1998-12-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1998-12-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6694,
-  "raw_trading_day_count": 6694,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6775,
+  "raw_trading_day_count": 6775,
   "available_years": [
     1998,
     1999,
@@ -184,14 +184,14 @@
     "atlas/ohlcv_min_by_symbol_year/030/030200/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/030/030200/2026.csv"
   ],
-  "latest_close": 68900,
-  "latest_marcap": 17364294096500,
+  "latest_close": 52300,
+  "latest_marcap": 13180734125500,
   "latest_market": "KOSPI",
-  "raw_latest_close": 68900,
-  "raw_latest_marcap": 17364294096500,
+  "raw_latest_close": 52300,
+  "raw_latest_marcap": 13180734125500,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6694,
+    "tradable_ohlcv": 6775,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

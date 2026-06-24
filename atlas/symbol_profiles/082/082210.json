@@ -5,7 +5,7 @@
     {
       "name": "옵트론텍",
       "first_date": "2009-03-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "해빛정보",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-06-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-06-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-06-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5076,
-  "raw_trading_day_count": 5098,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5157,
+  "raw_trading_day_count": 5179,
   "available_years": [
     2005,
     2006,
@@ -149,14 +149,14 @@
     "atlas/ohlcv_min_by_symbol_year/082/082210/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/082/082210/2026.csv"
   ],
-  "latest_close": 2350,
-  "latest_marcap": 78002078900,
+  "latest_close": 1337,
+  "latest_marcap": 46745972210,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2350,
-  "raw_latest_marcap": 78002078900,
+  "raw_latest_close": 1337,
+  "raw_latest_marcap": 46745972210,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5076,
+    "tradable_ohlcv": 5157,
     "non_tradable_zero_volume": 22,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

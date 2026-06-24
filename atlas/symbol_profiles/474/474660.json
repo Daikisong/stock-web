@@ -5,7 +5,7 @@
     {
       "name": "신한제12호스팩",
       "first_date": "2024-04-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,18 +15,19 @@
     {
       "market": "KOSDAQ",
       "first_date": "2024-04-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-04-15",
-  "last_date": "2025-11-26",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-04-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 393,
-  "raw_trading_day_count": 449,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 458,
+  "raw_trading_day_count": 530,
   "available_years": [
     2024,
-    2025
+    2025,
+    2026
   ],
   "raw_available_years": [
     2024,
@@ -35,7 +36,8 @@
   ],
   "year_files": [
     "atlas/ohlcv_tradable_by_symbol_year/474/474660/2024.csv",
-    "atlas/ohlcv_tradable_by_symbol_year/474/474660/2025.csv"
+    "atlas/ohlcv_tradable_by_symbol_year/474/474660/2025.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/474/474660/2026.csv"
   ],
   "raw_year_files": [
     "atlas/ohlcv_raw_by_symbol_year/474/474660/2024.csv",
@@ -44,17 +46,18 @@
   ],
   "compat_year_files": [
     "atlas/ohlcv_min_by_symbol_year/474/474660/2024.csv",
-    "atlas/ohlcv_min_by_symbol_year/474/474660/2025.csv"
+    "atlas/ohlcv_min_by_symbol_year/474/474660/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/474/474660/2026.csv"
   ],
-  "latest_close": 2100,
-  "latest_marcap": 11592000000,
+  "latest_close": 2060,
+  "latest_marcap": 11371200000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2100,
-  "raw_latest_marcap": 11592000000,
+  "raw_latest_close": 2060,
+  "raw_latest_marcap": 11371200000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 393,
-    "non_tradable_zero_volume": 56,
+    "tradable_ohlcv": 458,
+    "non_tradable_zero_volume": 72,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

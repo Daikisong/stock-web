@@ -5,7 +5,7 @@
     {
       "name": "무진메디",
       "first_date": "2020-06-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2020-06-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-06-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-06-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1385,
-  "raw_trading_day_count": 1388,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1466,
+  "raw_trading_day_count": 1469,
   "available_years": [
     2020,
     2021,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/322/322970/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/322/322970/2026.csv"
   ],
-  "latest_close": 1995,
-  "latest_marcap": 20053696110,
+  "latest_close": 1920,
+  "latest_marcap": 19364522880,
   "latest_market": "KONEX",
-  "raw_latest_close": 1995,
-  "raw_latest_marcap": 20053696110,
+  "raw_latest_close": 1920,
+  "raw_latest_marcap": 19364522880,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1385,
+    "tradable_ohlcv": 1466,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

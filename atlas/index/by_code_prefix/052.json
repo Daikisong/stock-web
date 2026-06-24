@@ -62,7 +62,7 @@
         2026
       ],
       "first_date": "2001-07-05",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -203,7 +203,7 @@
         2026
       ],
       "first_date": "2005-01-21",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -267,7 +267,7 @@
         2026
       ],
       "first_date": "2001-05-17",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -425,7 +425,7 @@
         2026
       ],
       "first_date": "2001-08-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -519,7 +519,7 @@
         2026
       ],
       "first_date": "2001-07-10",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -619,7 +619,7 @@
         2026
       ],
       "first_date": "2001-10-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -683,7 +683,7 @@
         2026
       ],
       "first_date": "2001-08-07",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -739,7 +739,7 @@
         2026
       ],
       "first_date": "2005-01-03",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -914,7 +914,7 @@
         2026
       ],
       "first_date": "2001-07-10",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1043,7 +1043,7 @@
       ],
       "first_date": "2002-01-24",
       "last_date": "2026-02-20",
-      "status_inferred": "active_like"
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "052690",
@@ -1090,7 +1090,7 @@
         2026
       ],
       "first_date": "2009-12-14",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1150,7 +1150,7 @@
         2026
       ],
       "first_date": "2003-08-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1209,7 +1209,7 @@
         2026
       ],
       "first_date": "2002-08-22",
-      "last_date": "2026-02-20",
+      "last_date": "2026-03-23",
       "status_inferred": "active_like"
     },
     {
@@ -1273,7 +1273,7 @@
         2026
       ],
       "first_date": "2001-08-14",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1355,7 +1355,7 @@
         2026
       ],
       "first_date": "2009-10-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1445,7 +1445,7 @@
         2026
       ],
       "first_date": "2005-01-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1465,7 +1465,7 @@
         2026
       ],
       "first_date": "2023-01-26",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {

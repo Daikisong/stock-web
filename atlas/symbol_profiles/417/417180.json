@@ -5,7 +5,7 @@
     {
       "name": "핑거스토리",
       "first_date": "2022-12-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2022-12-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2022-12-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2022-12-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 780,
-  "raw_trading_day_count": 780,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 846,
+  "raw_trading_day_count": 861,
   "available_years": [
     2022,
     2023,
@@ -59,23 +59,24 @@
     "atlas/ohlcv_min_by_symbol_year/417/417180/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/417/417180/2026.csv"
   ],
-  "latest_close": 1746,
-  "latest_marcap": 30639895758,
+  "latest_close": 4405,
+  "latest_marcap": 15460334220,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1746,
-  "raw_latest_marcap": 30639895758,
+  "raw_latest_close": 4405,
+  "raw_latest_marcap": 15460334220,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 780,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 846,
+    "non_tradable_zero_volume": 15,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 2,
   "corporate_action_candidate_dates": [
-    "2023-12-05"
+    "2023-12-05",
+    "2026-05-20"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

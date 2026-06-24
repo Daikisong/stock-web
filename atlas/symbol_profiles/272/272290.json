@@ -5,7 +5,7 @@
     {
       "name": "이녹스첨단소재",
       "first_date": "2017-07-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-07-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-07-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2112,
-  "raw_trading_day_count": 2112,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2193,
+  "raw_trading_day_count": 2193,
   "available_years": [
     2017,
     2018,
@@ -90,14 +90,14 @@
     "atlas/ohlcv_min_by_symbol_year/272/272290/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/272/272290/2026.csv"
   ],
-  "latest_close": 36000,
-  "latest_marcap": 717395688000,
+  "latest_close": 27200,
+  "latest_marcap": 542300244800,
   "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 36000,
-  "raw_latest_marcap": 717395688000,
+  "raw_latest_close": 27200,
+  "raw_latest_marcap": 542300244800,
   "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 2112,
+    "tradable_ohlcv": 2193,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

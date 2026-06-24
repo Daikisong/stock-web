@@ -5,7 +5,7 @@
     {
       "name": "HLB파나진",
       "first_date": "2023-08-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코람스틸",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-08-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-08-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-08-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6105,
-  "raw_trading_day_count": 6291,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6186,
+  "raw_trading_day_count": 6372,
   "available_years": [
     2000,
     2001,
@@ -184,14 +184,14 @@
     "atlas/ohlcv_min_by_symbol_year/046/046210/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/046/046210/2026.csv"
   ],
-  "latest_close": 1906,
-  "latest_marcap": 86667066524,
+  "latest_close": 1450,
+  "latest_marcap": 66015542000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1906,
-  "raw_latest_marcap": 86667066524,
+  "raw_latest_close": 1450,
+  "raw_latest_marcap": 66015542000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6105,
+    "tradable_ohlcv": 6186,
     "non_tradable_zero_volume": 186,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

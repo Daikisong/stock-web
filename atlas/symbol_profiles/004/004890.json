@@ -5,7 +5,7 @@
     {
       "name": "동일산업",
       "first_date": "2005-06-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2005-06-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-06-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-06-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5082,
-  "raw_trading_day_count": 5094,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5163,
+  "raw_trading_day_count": 5175,
   "available_years": [
     2005,
     2006,
@@ -144,14 +144,14 @@
     "atlas/ohlcv_min_by_symbol_year/004/004890/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/004/004890/2026.csv"
   ],
-  "latest_close": 40500,
-  "latest_marcap": 98221207500,
+  "latest_close": 34900,
+  "latest_marcap": 84640003500,
   "latest_market": "KOSPI",
-  "raw_latest_close": 40500,
-  "raw_latest_marcap": 98221207500,
+  "raw_latest_close": 34900,
+  "raw_latest_marcap": 84640003500,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 5082,
+    "tradable_ohlcv": 5163,
     "non_tradable_zero_volume": 12,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

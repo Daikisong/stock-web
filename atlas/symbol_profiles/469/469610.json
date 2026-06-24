@@ -5,7 +5,7 @@
     {
       "name": "이노테크",
       "first_date": "2025-11-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-11-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-11-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-11-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 70,
-  "raw_trading_day_count": 70,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 151,
+  "raw_trading_day_count": 151,
   "available_years": [
     2025,
     2026
@@ -44,14 +44,14 @@
     "atlas/ohlcv_min_by_symbol_year/469/469610/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/469/469610/2026.csv"
   ],
-  "latest_close": 24700,
-  "latest_marcap": 219259430000,
+  "latest_close": 15720,
+  "latest_marcap": 140582388000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 24700,
-  "raw_latest_marcap": 219259430000,
+  "raw_latest_close": 15720,
+  "raw_latest_marcap": 140582388000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 70,
+    "tradable_ohlcv": 151,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

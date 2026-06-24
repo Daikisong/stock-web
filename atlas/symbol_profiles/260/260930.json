@@ -5,7 +5,7 @@
     {
       "name": "씨티케이",
       "first_date": "2021-07-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "씨티케이코스메틱스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-12-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-12-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-12-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2011,
-  "raw_trading_day_count": 2011,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2092,
+  "raw_trading_day_count": 2092,
   "available_years": [
     2017,
     2018,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/260/260930/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/260/260930/2026.csv"
   ],
-  "latest_close": 4285,
-  "latest_marcap": 82878717435,
+  "latest_close": 2725,
+  "latest_marcap": 52705835475,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4285,
-  "raw_latest_marcap": 82878717435,
+  "raw_latest_close": 2725,
+  "raw_latest_marcap": 52705835475,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2011,
+    "tradable_ohlcv": 2092,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

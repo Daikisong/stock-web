@@ -15,7 +15,7 @@
     {
       "name": "디와이디",
       "first_date": "2021-12-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "디와이디대양",
@@ -40,15 +40,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-07-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-07-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-07-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2504,
-  "raw_trading_day_count": 2596,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2585,
+  "raw_trading_day_count": 2677,
   "available_years": [
     2015,
     2016,
@@ -119,28 +119,29 @@
     "atlas/ohlcv_min_by_symbol_year/219/219550/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/219/219550/2026.csv"
   ],
-  "latest_close": 1521,
-  "latest_marcap": 47573334549,
+  "latest_close": 1249,
+  "latest_marcap": 48302896744,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1521,
-  "raw_latest_marcap": 47573334549,
+  "raw_latest_close": 1249,
+  "raw_latest_marcap": 48302896744,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2504,
+    "tradable_ohlcv": 2585,
     "non_tradable_zero_volume": 92,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_count": 7,
   "corporate_action_candidate_dates": [
     "2017-02-08",
     "2021-05-27",
     "2021-12-28",
     "2022-05-18",
     "2023-02-28",
-    "2025-12-08"
+    "2025-12-08",
+    "2026-02-27"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

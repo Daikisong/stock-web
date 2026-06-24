@@ -5,7 +5,7 @@
     {
       "name": "씨이랩",
       "first_date": "2013-12-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-02-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-12-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-12-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2319,
-  "raw_trading_day_count": 2982,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2400,
+  "raw_trading_day_count": 3063,
   "available_years": [
     2013,
     2014,
@@ -110,14 +110,14 @@
     "atlas/ohlcv_min_by_symbol_year/189/189330/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/189/189330/2026.csv"
   ],
-  "latest_close": 4460,
-  "latest_marcap": 41844986640,
+  "latest_close": 9520,
+  "latest_marcap": 89319343680,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4460,
-  "raw_latest_marcap": 41844986640,
+  "raw_latest_close": 9520,
+  "raw_latest_marcap": 89319343680,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2319,
+    "tradable_ohlcv": 2400,
     "non_tradable_zero_volume": 663,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

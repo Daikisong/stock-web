@@ -15,7 +15,7 @@
     {
       "name": "바른손이앤에이",
       "first_date": "2014-04-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "온에듀",
@@ -50,15 +50,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-08-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-08-13",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-08-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6508,
-  "raw_trading_day_count": 6538,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6574,
+  "raw_trading_day_count": 6619,
   "available_years": [
     1999,
     2000,
@@ -209,21 +209,21 @@
     "atlas/ohlcv_min_by_symbol_year/035/035620/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/035/035620/2026.csv"
   ],
-  "latest_close": 285,
-  "latest_marcap": 21215307375,
+  "latest_close": 926,
+  "latest_marcap": 17232784068,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 285,
-  "raw_latest_marcap": 21215307375,
+  "raw_latest_close": 926,
+  "raw_latest_marcap": 17232784068,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6508,
-    "non_tradable_zero_volume": 30,
+    "tradable_ohlcv": 6574,
+    "non_tradable_zero_volume": 45,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 10,
+  "corporate_action_candidate_count": 11,
   "corporate_action_candidate_dates": [
     "2000-02-23",
     "2000-03-06",
@@ -234,7 +234,8 @@
     "2003-11-14",
     "2005-04-28",
     "2005-06-24",
-    "2014-08-13"
+    "2014-08-13",
+    "2026-05-06"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

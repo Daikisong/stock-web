@@ -10,7 +10,7 @@
     {
       "name": "주성엔지니어링",
       "first_date": "2008-01-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-12-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-12-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6444,
-  "raw_trading_day_count": 6445,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6525,
+  "raw_trading_day_count": 6526,
   "available_years": [
     1999,
     2000,
@@ -185,14 +185,14 @@
     "atlas/ohlcv_min_by_symbol_year/036/036930/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/036/036930/2026.csv"
   ],
-  "latest_close": 55800,
-  "latest_marcap": 2637572311800,
+  "latest_close": 197900,
+  "latest_marcap": 9198613845900,
   "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 55800,
-  "raw_latest_marcap": 2637572311800,
+  "raw_latest_close": 197900,
+  "raw_latest_marcap": 9198613845900,
   "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 6444,
+    "tradable_ohlcv": 6525,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

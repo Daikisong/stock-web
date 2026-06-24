@@ -5,7 +5,7 @@
     {
       "name": "MH에탄올",
       "first_date": "2008-04-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "무학주정",
@@ -26,15 +26,15 @@
     {
       "market": "KOSPI",
       "first_date": "1996-12-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7300,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7381,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -200,14 +200,14 @@
     "atlas/ohlcv_min_by_symbol_year/023/023150/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/023/023150/2026.csv"
   ],
-  "latest_close": 4380,
-  "latest_marcap": 32317943880,
+  "latest_close": 4040,
+  "latest_marcap": 29809245040,
   "latest_market": "KOSPI",
-  "raw_latest_close": 4380,
-  "raw_latest_marcap": 32317943880,
+  "raw_latest_close": 4040,
+  "raw_latest_marcap": 29809245040,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7300,
+    "tradable_ohlcv": 7381,
     "non_tradable_zero_volume": 122,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "에이스테크",
       "first_date": "2010-03-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2006-03-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2006-03-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-03-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4872,
-  "raw_trading_day_count": 4908,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4953,
+  "raw_trading_day_count": 4989,
   "available_years": [
     2006,
     2007,
@@ -144,14 +144,14 @@
     "atlas/ohlcv_min_by_symbol_year/088/088800/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/088/088800/2026.csv"
   ],
-  "latest_close": 3030,
-  "latest_marcap": 228784495020,
+  "latest_close": 2320,
+  "latest_marcap": 175174926880,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3030,
-  "raw_latest_marcap": 228784495020,
+  "raw_latest_close": 2320,
+  "raw_latest_marcap": 175174926880,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4872,
+    "tradable_ohlcv": 4953,
     "non_tradable_zero_volume": 36,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

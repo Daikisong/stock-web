@@ -28,12 +28,12 @@
         2026
       ],
       "first_date": "2018-07-23",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "204210",
-      "name": "스타에스엠리츠",
+      "name": "JK리버스톤리츠",
       "profile_path": "atlas/symbol_profiles/204/204210.json",
       "available_years": [
         2016,
@@ -45,7 +45,8 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "raw_available_years": [
         2016,
@@ -61,8 +62,8 @@
         2026
       ],
       "first_date": "2016-09-22",
-      "last_date": "2025-02-11",
-      "status_inferred": "active_like"
+      "last_date": "2026-06-11",
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "204270",
@@ -87,7 +88,7 @@
         2026
       ],
       "first_date": "2020-03-04",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -125,7 +126,7 @@
         2026
       ],
       "first_date": "2014-10-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -167,7 +168,7 @@
         2026
       ],
       "first_date": "2022-11-17",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -205,7 +206,7 @@
         2026
       ],
       "first_date": "2014-11-19",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -223,7 +224,8 @@
         2021,
         2022,
         2023,
-        2024
+        2024,
+        2026
       ],
       "raw_available_years": [
         2014,
@@ -241,8 +243,8 @@
         2026
       ],
       "first_date": "2014-12-29",
-      "last_date": "2024-04-08",
-      "status_inferred": "active_like"
+      "last_date": "2026-03-17",
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "204650",
@@ -334,7 +336,7 @@
         2026
       ],
       "first_date": "2014-11-20",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {

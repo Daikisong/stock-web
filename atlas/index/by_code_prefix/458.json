@@ -20,6 +20,20 @@
       "status_inferred": "inactive_or_delisted_like"
     },
     {
+      "code": "458350",
+      "name": "에스팀",
+      "profile_path": "atlas/symbol_profiles/458/458350.json",
+      "available_years": [
+        2026
+      ],
+      "raw_available_years": [
+        2026
+      ],
+      "first_date": "2026-03-06",
+      "last_date": "2026-06-22",
+      "status_inferred": "active_like"
+    },
+    {
       "code": "458610",
       "name": "한국제12호스팩",
       "profile_path": "atlas/symbol_profiles/458/458610.json",
@@ -36,8 +50,8 @@
         2026
       ],
       "first_date": "2023-08-30",
-      "last_date": "2026-02-20",
-      "status_inferred": "active_like"
+      "last_date": "2026-04-02",
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "458650",
@@ -54,12 +68,12 @@
         2026
       ],
       "first_date": "2024-10-31",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "458870",
-      "name": "씨어스테크놀로지",
+      "name": "씨어스",
       "profile_path": "atlas/symbol_profiles/458/458870.json",
       "available_years": [
         2024,
@@ -72,7 +86,7 @@
         2026
       ],
       "first_date": "2024-06-19",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

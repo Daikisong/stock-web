@@ -5,7 +5,7 @@
     {
       "name": "HK이노엔",
       "first_date": "2021-08-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-08-09",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-08-09",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1108,
-  "raw_trading_day_count": 1108,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1189,
+  "raw_trading_day_count": 1189,
   "available_years": [
     2021,
     2022,
@@ -70,14 +70,14 @@
     "atlas/ohlcv_min_by_symbol_year/195/195940/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/195/195940/2026.csv"
   ],
-  "latest_close": 56900,
-  "latest_marcap": 1611970797900,
+  "latest_close": 39150,
+  "latest_marcap": 1109115232650,
   "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 56900,
-  "raw_latest_marcap": 1611970797900,
+  "raw_latest_close": 39150,
+  "raw_latest_marcap": 1109115232650,
   "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 1108,
+    "tradable_ohlcv": 1189,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

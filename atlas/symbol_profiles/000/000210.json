@@ -5,7 +5,7 @@
     {
       "name": "DL",
       "first_date": "2021-01-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "대림산업",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7748,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7829,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000210/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000210/2026.csv"
   ],
-  "latest_close": 50200,
-  "latest_marcap": 1051985376800,
+  "latest_close": 48650,
+  "latest_marcap": 1019503756600,
   "latest_market": "KOSPI",
-  "raw_latest_close": 50200,
-  "raw_latest_marcap": 1051985376800,
+  "raw_latest_close": 48650,
+  "raw_latest_marcap": 1019503756600,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7748,
+    "tradable_ohlcv": 7829,
     "non_tradable_zero_volume": 17,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

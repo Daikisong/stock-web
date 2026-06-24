@@ -5,7 +5,7 @@
     {
       "name": "한국쉘석유",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7758,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7839,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/002/002960/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/002/002960/2026.csv"
   ],
-  "latest_close": 472000,
-  "latest_marcap": 613600000000,
+  "latest_close": 486000,
+  "latest_marcap": 631800000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 472000,
-  "raw_latest_marcap": 613600000000,
+  "raw_latest_close": 486000,
+  "raw_latest_marcap": 631800000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7758,
+    "tradable_ohlcv": 7839,
     "non_tradable_zero_volume": 6,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "앱튼",
       "first_date": "2025-08-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "지엔원에너지",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-08-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-08-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-08-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1978,
-  "raw_trading_day_count": 2082,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2043,
+  "raw_trading_day_count": 2163,
   "available_years": [
     2017,
     2018,
@@ -104,26 +104,27 @@
     "atlas/ohlcv_min_by_symbol_year/270/270520/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/270/270520/2026.csv"
   ],
-  "latest_close": 219,
-  "latest_marcap": 43053023193,
+  "latest_close": 798,
+  "latest_marcap": 15687813372,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 219,
-  "raw_latest_marcap": 43053023193,
+  "raw_latest_close": 798,
+  "raw_latest_marcap": 15687813372,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1978,
-    "non_tradable_zero_volume": 103,
+    "tradable_ohlcv": 2043,
+    "non_tradable_zero_volume": 119,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2020-03-09",
     "2023-11-13",
     "2023-12-11",
-    "2025-06-27"
+    "2025-06-27",
+    "2026-05-08"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

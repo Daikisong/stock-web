@@ -10,7 +10,7 @@
     {
       "name": "세중",
       "first_date": "2011-07-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "세중나모",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-06-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-06-09",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-06-09",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6312,
-  "raw_trading_day_count": 6337,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6393,
+  "raw_trading_day_count": 6418,
   "available_years": [
     2000,
     2001,
@@ -184,14 +184,14 @@
     "atlas/ohlcv_min_by_symbol_year/039/039310/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/039/039310/2026.csv"
   ],
-  "latest_close": 1353,
-  "latest_marcap": 24518615451,
+  "latest_close": 976,
+  "latest_marcap": 17686746992,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1353,
-  "raw_latest_marcap": 24518615451,
+  "raw_latest_close": 976,
+  "raw_latest_marcap": 17686746992,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6312,
+    "tradable_ohlcv": 6393,
     "non_tradable_zero_volume": 25,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

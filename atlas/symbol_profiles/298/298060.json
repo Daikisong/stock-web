@@ -1,11 +1,16 @@
 {
   "code": "298060",
-  "current_or_latest_name": "에스씨엠생명과학",
+  "current_or_latest_name": "풍전약품",
   "name_history": [
     {
       "name": "에스씨엠생명과학",
       "first_date": "2020-06-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-23"
+    },
+    {
+      "name": "풍전약품",
+      "first_date": "2026-04-24",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-06-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-06-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-06-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1392,
-  "raw_trading_day_count": 1393,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1457,
+  "raw_trading_day_count": 1474,
   "available_years": [
     2020,
     2021,
@@ -69,26 +74,27 @@
     "atlas/ohlcv_min_by_symbol_year/298/298060/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/298/298060/2026.csv"
   ],
-  "latest_close": 880,
-  "latest_marcap": 38898794880,
+  "latest_close": 2675,
+  "latest_marcap": 23648698625,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 880,
-  "raw_latest_marcap": 38898794880,
+  "raw_latest_close": 2675,
+  "raw_latest_marcap": 23648698625,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1392,
-    "non_tradable_zero_volume": 1,
+    "tradable_ohlcv": 1457,
+    "non_tradable_zero_volume": 17,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2023-09-27",
     "2023-10-12",
     "2025-04-14",
-    "2025-08-18"
+    "2025-08-18",
+    "2026-05-19"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

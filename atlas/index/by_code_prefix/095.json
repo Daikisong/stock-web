@@ -3,7 +3,7 @@
   "codes": [
     {
       "code": "095190",
-      "name": "이엠코리아",
+      "name": "신화프리텍",
       "profile_path": "atlas/symbol_profiles/095/095190.json",
       "available_years": [
         2007,
@@ -50,7 +50,7 @@
         2026
       ],
       "first_date": "2007-10-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -102,7 +102,7 @@
         2026
       ],
       "first_date": "2007-09-12",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -184,7 +184,7 @@
         2026
       ],
       "first_date": "2007-10-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -236,7 +236,7 @@
         2026
       ],
       "first_date": "2007-10-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -272,7 +272,7 @@
         2026
       ],
       "first_date": "2015-08-21",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -322,7 +322,7 @@
         2026
       ],
       "first_date": "2008-05-20",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -374,7 +374,7 @@
         2026
       ],
       "first_date": "2007-07-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -422,7 +422,7 @@
         2026
       ],
       "first_date": "2009-09-15",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -474,7 +474,7 @@
         2026
       ],
       "first_date": "2007-05-31",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -526,7 +526,7 @@
         2026
       ],
       "first_date": "2007-10-16",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

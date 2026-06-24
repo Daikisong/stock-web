@@ -5,7 +5,7 @@
     {
       "name": "비트컴퓨터",
       "first_date": "1997-07-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-07-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-07-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-07-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7004,
-  "raw_trading_day_count": 7127,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7085,
+  "raw_trading_day_count": 7208,
   "available_years": [
     1997,
     1998,
@@ -184,14 +184,14 @@
     "atlas/ohlcv_min_by_symbol_year/032/032850/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/032/032850/2026.csv"
   ],
-  "latest_close": 5450,
-  "latest_marcap": 90596946850,
+  "latest_close": 3920,
+  "latest_marcap": 65163308560,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5450,
-  "raw_latest_marcap": 90596946850,
+  "raw_latest_close": 3920,
+  "raw_latest_marcap": 65163308560,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 7004,
+    "tradable_ohlcv": 7085,
     "non_tradable_zero_volume": 123,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

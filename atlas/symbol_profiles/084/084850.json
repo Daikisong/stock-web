@@ -5,7 +5,7 @@
     {
       "name": "아이티엠반도체",
       "first_date": "2019-11-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -16,20 +16,20 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-11-07",
-      "last_date": "2022-11-18"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-11"
     }
   ],
   "first_date": "2019-11-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-11-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1543,
-  "raw_trading_day_count": 1543,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1624,
+  "raw_trading_day_count": 1624,
   "available_years": [
     2019,
     2020,
@@ -80,14 +80,14 @@
     "atlas/ohlcv_min_by_symbol_year/084/084850/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/084/084850/2026.csv"
   ],
-  "latest_close": 10040,
-  "latest_marcap": 227736657360,
-  "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 10040,
-  "raw_latest_marcap": 227736657360,
-  "raw_latest_market": "KOSDAQ GLOBAL",
+  "latest_close": 9800,
+  "latest_marcap": 222292753200,
+  "latest_market": "KOSDAQ",
+  "raw_latest_close": 9800,
+  "raw_latest_marcap": 222292753200,
+  "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1543,
+    "tradable_ohlcv": 1624,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

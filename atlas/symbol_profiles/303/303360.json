@@ -10,7 +10,7 @@
     {
       "name": "프로티아",
       "first_date": "2023-11-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-06-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-12-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-12-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1702,
-  "raw_trading_day_count": 1759,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1783,
+  "raw_trading_day_count": 1840,
   "available_years": [
     2018,
     2019,
@@ -90,14 +90,14 @@
     "atlas/ohlcv_min_by_symbol_year/303/303360/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/303/303360/2026.csv"
   ],
-  "latest_close": 5360,
-  "latest_marcap": 69021872400,
+  "latest_close": 3990,
+  "latest_marcap": 51390062850,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5360,
-  "raw_latest_marcap": 69021872400,
+  "raw_latest_close": 3990,
+  "raw_latest_marcap": 51390062850,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1702,
+    "tradable_ohlcv": 1783,
     "non_tradable_zero_volume": 57,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "삐아",
       "first_date": "2024-04-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2024-04-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-04-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-04-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 441,
-  "raw_trading_day_count": 441,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 522,
+  "raw_trading_day_count": 522,
   "available_years": [
     2024,
     2025,
@@ -49,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/451/451250/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/451/451250/2026.csv"
   ],
-  "latest_close": 8890,
-  "latest_marcap": 90908046530,
+  "latest_close": 7530,
+  "latest_marcap": 77000853810,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8890,
-  "raw_latest_marcap": 90908046530,
+  "raw_latest_close": 7530,
+  "raw_latest_marcap": 77000853810,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 441,
+    "tradable_ohlcv": 522,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

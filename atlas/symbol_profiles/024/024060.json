@@ -5,7 +5,7 @@
     {
       "name": "흥구석유",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6644,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6725,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -189,14 +189,14 @@
     "atlas/ohlcv_min_by_symbol_year/024/024060/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/024/024060/2026.csv"
   ],
-  "latest_close": 19040,
-  "latest_marcap": 285600000000,
+  "latest_close": 10090,
+  "latest_marcap": 151350000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 19040,
-  "raw_latest_marcap": 285600000000,
+  "raw_latest_close": 10090,
+  "raw_latest_marcap": 151350000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6644,
+    "tradable_ohlcv": 6725,
     "non_tradable_zero_volume": 778,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

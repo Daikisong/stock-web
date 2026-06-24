@@ -5,7 +5,7 @@
     {
       "name": "LF",
       "first_date": "2014-04-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "LG패션",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2006-12-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2006-12-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-12-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4738,
-  "raw_trading_day_count": 4738,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4819,
+  "raw_trading_day_count": 4819,
   "available_years": [
     2006,
     2007,
@@ -149,14 +149,14 @@
     "atlas/ohlcv_min_by_symbol_year/093/093050/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/093/093050/2026.csv"
   ],
-  "latest_close": 23300,
-  "latest_marcap": 681292000000,
+  "latest_close": 21150,
+  "latest_marcap": 618426000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 23300,
-  "raw_latest_marcap": 681292000000,
+  "raw_latest_close": 21150,
+  "raw_latest_marcap": 618426000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4738,
+    "tradable_ohlcv": 4819,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

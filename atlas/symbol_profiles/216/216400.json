@@ -10,7 +10,7 @@
     {
       "name": "인바이츠바이오코아",
       "first_date": "2021-04-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KONEX",
       "first_date": "2015-06-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-06-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-06-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2543,
-  "raw_trading_day_count": 2613,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2624,
+  "raw_trading_day_count": 2694,
   "available_years": [
     2015,
     2016,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/216/216400/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/216/216400/2026.csv"
   ],
-  "latest_close": 4040,
-  "latest_marcap": 31153712600,
+  "latest_close": 1530,
+  "latest_marcap": 11798311950,
   "latest_market": "KONEX",
-  "raw_latest_close": 4040,
-  "raw_latest_marcap": 31153712600,
+  "raw_latest_close": 1530,
+  "raw_latest_marcap": 11798311950,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 2543,
+    "tradable_ohlcv": 2624,
     "non_tradable_zero_volume": 70,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

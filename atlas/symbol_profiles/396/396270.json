@@ -5,7 +5,7 @@
     {
       "name": "넥스트칩",
       "first_date": "2022-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2022-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2022-07-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2022-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 889,
-  "raw_trading_day_count": 889,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 970,
+  "raw_trading_day_count": 970,
   "available_years": [
     2022,
     2023,
@@ -59,14 +59,14 @@
     "atlas/ohlcv_min_by_symbol_year/396/396270/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/396/396270/2026.csv"
   ],
-  "latest_close": 3235,
-  "latest_marcap": 106329697785,
+  "latest_close": 3015,
+  "latest_marcap": 99155604465,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3235,
-  "raw_latest_marcap": 106329697785,
+  "raw_latest_close": 3015,
+  "raw_latest_marcap": 99155604465,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 889,
+    "tradable_ohlcv": 970,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

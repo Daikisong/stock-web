@@ -22,7 +22,7 @@
         2026
       ],
       "first_date": "2021-11-17",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -52,7 +52,7 @@
         2026
       ],
       "first_date": "2018-12-07",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -82,7 +82,7 @@
         2026
       ],
       "first_date": "2018-08-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -155,7 +155,7 @@
         2026
       ],
       "first_date": "2020-07-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -185,12 +185,12 @@
         2026
       ],
       "first_date": "2018-12-21",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "290560",
-      "name": "신시웨이",
+      "name": "파라택시스이더리움",
       "profile_path": "atlas/symbol_profiles/290/290560.json",
       "available_years": [
         2023,
@@ -205,7 +205,7 @@
         2026
       ],
       "first_date": "2023-11-03",
-      "last_date": "2026-01-29",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -235,12 +235,12 @@
         2026
       ],
       "first_date": "2018-11-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "290660",
-      "name": "네오펙트",
+      "name": "다이나믹솔루션",
       "profile_path": "atlas/symbol_profiles/290/290660.json",
       "available_years": [
         2018,
@@ -265,7 +265,7 @@
         2026
       ],
       "first_date": "2018-11-28",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-04",
       "status_inferred": "active_like"
     },
     {
@@ -295,7 +295,7 @@
         2026
       ],
       "first_date": "2018-11-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -321,7 +321,7 @@
         2026
       ],
       "first_date": "2020-11-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -351,7 +351,7 @@
         2026
       ],
       "first_date": "2018-10-04",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -381,7 +381,7 @@
         2026
       ],
       "first_date": "2018-08-28",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

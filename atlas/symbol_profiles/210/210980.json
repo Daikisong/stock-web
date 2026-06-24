@@ -5,7 +5,7 @@
     {
       "name": "SK디앤디",
       "first_date": "2016-04-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "에스케이디앤디",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2015-06-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-06-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-06-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2596,
-  "raw_trading_day_count": 2617,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2677,
+  "raw_trading_day_count": 2698,
   "available_years": [
     2015,
     2016,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/210/210980/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/210/210980/2026.csv"
   ],
-  "latest_close": 13380,
-  "latest_marcap": 249100571160,
+  "latest_close": 11260,
+  "latest_marcap": 209631721320,
   "latest_market": "KOSPI",
-  "raw_latest_close": 13380,
-  "raw_latest_marcap": 249100571160,
+  "raw_latest_close": 11260,
+  "raw_latest_marcap": 209631721320,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2596,
+    "tradable_ohlcv": 2677,
     "non_tradable_zero_volume": 21,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

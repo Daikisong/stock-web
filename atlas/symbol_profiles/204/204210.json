@@ -1,7 +1,12 @@
 {
   "code": "204210",
-  "current_or_latest_name": "스타에스엠리츠",
+  "current_or_latest_name": "JK리버스톤리츠",
   "name_history": [
+    {
+      "name": "JK리버스톤리츠",
+      "first_date": "2026-05-19",
+      "last_date": "2026-06-11"
+    },
     {
       "name": "모두투어리츠",
       "first_date": "2016-09-22",
@@ -15,7 +20,7 @@
     {
       "name": "스타에스엠리츠",
       "first_date": "2024-06-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-18"
     }
   ],
   "markets": [
@@ -25,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "2016-09-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-11"
     }
   ],
   "first_date": "2016-09-22",
-  "last_date": "2025-02-11",
+  "last_date": "2026-06-11",
   "raw_first_date": "2016-09-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2059,
-  "raw_trading_day_count": 2309,
+  "raw_last_date": "2026-06-11",
+  "trading_day_count": 2066,
+  "raw_trading_day_count": 2383,
   "available_years": [
     2016,
     2017,
@@ -44,7 +49,8 @@
     2022,
     2023,
     2024,
-    2025
+    2025,
+    2026
   ],
   "raw_available_years": [
     2016,
@@ -69,7 +75,8 @@
     "atlas/ohlcv_tradable_by_symbol_year/204/204210/2022.csv",
     "atlas/ohlcv_tradable_by_symbol_year/204/204210/2023.csv",
     "atlas/ohlcv_tradable_by_symbol_year/204/204210/2024.csv",
-    "atlas/ohlcv_tradable_by_symbol_year/204/204210/2025.csv"
+    "atlas/ohlcv_tradable_by_symbol_year/204/204210/2025.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/204/204210/2026.csv"
   ],
   "raw_year_files": [
     "atlas/ohlcv_raw_by_symbol_year/204/204210/2016.csv",
@@ -94,27 +101,30 @@
     "atlas/ohlcv_min_by_symbol_year/204/204210/2022.csv",
     "atlas/ohlcv_min_by_symbol_year/204/204210/2023.csv",
     "atlas/ohlcv_min_by_symbol_year/204/204210/2024.csv",
-    "atlas/ohlcv_min_by_symbol_year/204/204210/2025.csv"
+    "atlas/ohlcv_min_by_symbol_year/204/204210/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/204/204210/2026.csv"
   ],
-  "latest_close": 2035,
-  "latest_marcap": 15927568525,
+  "latest_close": 971,
+  "latest_marcap": 7599837365,
   "latest_market": "KOSPI",
-  "raw_latest_close": 2035,
-  "raw_latest_marcap": 15927568525,
+  "raw_latest_close": 971,
+  "raw_latest_marcap": 7599837365,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2059,
-    "non_tradable_zero_volume": 250,
+    "tradable_ohlcv": 2066,
+    "non_tradable_zero_volume": 317,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 0,
-  "corporate_action_candidate_dates": [],
-  "has_major_raw_discontinuity": false,
-  "calibration_caveat": "",
-  "status_inferred": "active_like",
+  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_dates": [
+    "2026-06-02"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
+  "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",
   "source_repo_url": "https://github.com/FinanceData/marcap",

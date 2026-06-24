@@ -5,7 +5,7 @@
     {
       "name": "에이치케이",
       "first_date": "2015-04-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한광",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-09-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-09-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-09-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6273,
-  "raw_trading_day_count": 6275,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6354,
+  "raw_trading_day_count": 6356,
   "available_years": [
     2000,
     2001,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/044/044780/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/044/044780/2026.csv"
   ],
-  "latest_close": 1347,
-  "latest_marcap": 24927295089,
+  "latest_close": 1254,
+  "latest_marcap": 23206256898,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1347,
-  "raw_latest_marcap": 24927295089,
+  "raw_latest_close": 1254,
+  "raw_latest_marcap": 23206256898,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6273,
+    "tradable_ohlcv": 6354,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

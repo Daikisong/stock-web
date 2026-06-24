@@ -1,11 +1,16 @@
 {
   "code": "234070",
-  "current_or_latest_name": "에이원알폼",
+  "current_or_latest_name": "에이원큐브텍",
   "name_history": [
     {
       "name": "에이원알폼",
       "first_date": "2015-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-17"
+    },
+    {
+      "name": "에이원큐브텍",
+      "first_date": "2026-04-20",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KONEX",
       "first_date": "2015-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-12-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-12-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1652,
-  "raw_trading_day_count": 2492,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1718,
+  "raw_trading_day_count": 2573,
   "available_years": [
     2015,
     2016,
@@ -91,15 +96,15 @@
     "atlas/ohlcv_min_by_symbol_year/234/234070/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/234/234070/2026.csv"
   ],
-  "latest_close": 926,
-  "latest_marcap": 6445610978,
+  "latest_close": 899,
+  "latest_marcap": 6257671997,
   "latest_market": "KONEX",
-  "raw_latest_close": 926,
-  "raw_latest_marcap": 6445610978,
+  "raw_latest_close": 899,
+  "raw_latest_marcap": 6257671997,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1652,
-    "non_tradable_zero_volume": 840,
+    "tradable_ohlcv": 1718,
+    "non_tradable_zero_volume": 855,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

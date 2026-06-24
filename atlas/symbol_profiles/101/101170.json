@@ -10,7 +10,7 @@
     {
       "name": "우림피티에스",
       "first_date": "2021-10-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2009-04-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-04-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-04-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4145,
-  "raw_trading_day_count": 4145,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4226,
+  "raw_trading_day_count": 4226,
   "available_years": [
     2009,
     2010,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/101/101170/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/101/101170/2026.csv"
   ],
-  "latest_close": 15580,
-  "latest_marcap": 210330000000,
+  "latest_close": 8390,
+  "latest_marcap": 113265000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 15580,
-  "raw_latest_marcap": 210330000000,
+  "raw_latest_close": 8390,
+  "raw_latest_marcap": 113265000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4145,
+    "tradable_ohlcv": 4226,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

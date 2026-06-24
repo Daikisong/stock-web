@@ -5,7 +5,7 @@
     {
       "name": "탑선",
       "first_date": "2017-10-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2017-10-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-10-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-10-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2024,
-  "raw_trading_day_count": 2040,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2105,
+  "raw_trading_day_count": 2121,
   "available_years": [
     2017,
     2018,
@@ -84,14 +84,14 @@
     "atlas/ohlcv_min_by_symbol_year/180/180060/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/180/180060/2026.csv"
   ],
-  "latest_close": 6990,
-  "latest_marcap": 65340185340,
+  "latest_close": 5940,
+  "latest_marcap": 55525136040,
   "latest_market": "KONEX",
-  "raw_latest_close": 6990,
-  "raw_latest_marcap": 65340185340,
+  "raw_latest_close": 5940,
+  "raw_latest_marcap": 55525136040,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 2024,
+    "tradable_ohlcv": 2105,
     "non_tradable_zero_volume": 16,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

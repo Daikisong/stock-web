@@ -5,7 +5,7 @@
     {
       "name": "지아이이노베이션",
       "first_date": "2023-03-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-03-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-03-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-03-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 704,
-  "raw_trading_day_count": 704,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 785,
+  "raw_trading_day_count": 785,
   "available_years": [
     2023,
     2024,
@@ -54,14 +54,14 @@
     "atlas/ohlcv_min_by_symbol_year/358/358570/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/358/358570/2026.csv"
   ],
-  "latest_close": 14620,
-  "latest_marcap": 933823128420,
+  "latest_close": 11350,
+  "latest_marcap": 729371327850,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 14620,
-  "raw_latest_marcap": 933823128420,
+  "raw_latest_close": 11350,
+  "raw_latest_marcap": 729371327850,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 704,
+    "tradable_ohlcv": 785,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -1,11 +1,16 @@
 {
   "code": "458870",
-  "current_or_latest_name": "씨어스테크놀로지",
+  "current_or_latest_name": "씨어스",
   "name_history": [
+    {
+      "name": "씨어스",
+      "first_date": "2026-04-15",
+      "last_date": "2026-06-22"
+    },
     {
       "name": "씨어스테크놀로지",
       "first_date": "2024-06-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-14"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2024-06-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-06-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-06-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 406,
-  "raw_trading_day_count": 406,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 487,
+  "raw_trading_day_count": 487,
   "available_years": [
     2024,
     2025,
@@ -49,24 +54,27 @@
     "atlas/ohlcv_min_by_symbol_year/458/458870/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/458/458870/2026.csv"
   ],
-  "latest_close": 151000,
-  "latest_marcap": 1912547880000,
+  "latest_close": 30650,
+  "latest_marcap": 1166531031000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 151000,
-  "raw_latest_marcap": 1912547880000,
+  "raw_latest_close": 30650,
+  "raw_latest_marcap": 1166531031000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 406,
+    "tradable_ohlcv": 487,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 0,
-  "corporate_action_candidate_dates": [],
-  "has_major_raw_discontinuity": false,
-  "calibration_caveat": "",
+  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_dates": [
+    "2026-03-24",
+    "2026-04-13"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "active_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

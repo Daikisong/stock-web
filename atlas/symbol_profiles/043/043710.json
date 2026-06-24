@@ -1,6 +1,6 @@
 {
   "code": "043710",
-  "current_or_latest_name": "서울리거",
+  "current_or_latest_name": "코스리거글로벌",
   "name_history": [
     {
       "name": "다스텍",
@@ -15,7 +15,12 @@
     {
       "name": "서울리거",
       "first_date": "2016-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-30"
+    },
+    {
+      "name": "코스리거글로벌",
+      "first_date": "2026-05-04",
+      "last_date": "2026-06-22"
     },
     {
       "name": "플레이텍",
@@ -30,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-07-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-07-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-07-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5524,
-  "raw_trading_day_count": 5828,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5590,
+  "raw_trading_day_count": 5909,
   "available_years": [
     2002,
     2003,
@@ -174,21 +179,21 @@
     "atlas/ohlcv_min_by_symbol_year/043/043710/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/043/043710/2026.csv"
   ],
-  "latest_close": 900,
-  "latest_marcap": 77906259000,
+  "latest_close": 3910,
+  "latest_marcap": 67691882820,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 900,
-  "raw_latest_marcap": 77906259000,
+  "raw_latest_close": 3910,
+  "raw_latest_marcap": 67691882820,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5524,
-    "non_tradable_zero_volume": 304,
+    "tradable_ohlcv": 5590,
+    "non_tradable_zero_volume": 319,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 11,
+  "corporate_action_candidate_count": 12,
   "corporate_action_candidate_dates": [
     "2005-05-12",
     "2006-05-19",
@@ -200,7 +205,8 @@
     "2014-05-26",
     "2014-12-08",
     "2023-01-02",
-    "2025-02-18"
+    "2025-02-18",
+    "2026-05-07"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

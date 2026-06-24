@@ -10,7 +10,7 @@
     {
       "name": "KX하이텍",
       "first_date": "2022-07-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "비아이이엠티",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-01-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-01-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-01-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5039,
-  "raw_trading_day_count": 5204,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5120,
+  "raw_trading_day_count": 5285,
   "available_years": [
     2005,
     2006,
@@ -154,14 +154,14 @@
     "atlas/ohlcv_min_by_symbol_year/052/052900/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/052/052900/2026.csv"
   ],
-  "latest_close": 1456,
-  "latest_marcap": 95185207936,
+  "latest_close": 1339,
+  "latest_marcap": 97846971079,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1456,
-  "raw_latest_marcap": 95185207936,
+  "raw_latest_close": 1339,
+  "raw_latest_marcap": 97846971079,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5039,
+    "tradable_ohlcv": 5120,
     "non_tradable_zero_volume": 165,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

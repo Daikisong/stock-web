@@ -5,7 +5,7 @@
     {
       "name": "신세계 I&C",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "신세계I&C",
@@ -31,15 +31,15 @@
     {
       "market": "KOSPI",
       "first_date": "2006-05-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-11-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-11-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6225,
-  "raw_trading_day_count": 6229,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6306,
+  "raw_trading_day_count": 6310,
   "available_years": [
     2000,
     2001,
@@ -185,14 +185,14 @@
     "atlas/ohlcv_min_by_symbol_year/035/035510/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/035/035510/2026.csv"
   ],
-  "latest_close": 18420,
-  "latest_marcap": 257528178000,
+  "latest_close": 13620,
+  "latest_marcap": 190419858000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 18420,
-  "raw_latest_marcap": 257528178000,
+  "raw_latest_close": 13620,
+  "raw_latest_marcap": 190419858000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6225,
+    "tradable_ohlcv": 6306,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

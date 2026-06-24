@@ -5,7 +5,7 @@
     {
       "name": "젠큐릭스",
       "first_date": "2015-10-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-06-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-10-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-10-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2347,
-  "raw_trading_day_count": 2531,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2428,
+  "raw_trading_day_count": 2612,
   "available_years": [
     2015,
     2016,
@@ -100,14 +100,14 @@
     "atlas/ohlcv_min_by_symbol_year/229/229000/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/229/229000/2026.csv"
   ],
-  "latest_close": 1845,
-  "latest_marcap": 43224964425,
+  "latest_close": 2160,
+  "latest_marcap": 50604836400,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1845,
-  "raw_latest_marcap": 43224964425,
+  "raw_latest_close": 2160,
+  "raw_latest_marcap": 50604836400,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2347,
+    "tradable_ohlcv": 2428,
     "non_tradable_zero_volume": 184,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "그린생명과학",
       "first_date": "2023-06-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2009-12-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-12-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-12-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3977,
-  "raw_trading_day_count": 3978,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4058,
+  "raw_trading_day_count": 4059,
   "available_years": [
     2009,
     2010,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/114/114450/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/114/114450/2026.csv"
   ],
-  "latest_close": 2945,
-  "latest_marcap": 58900000000,
+  "latest_close": 1938,
+  "latest_marcap": 38760000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2945,
-  "raw_latest_marcap": 58900000000,
+  "raw_latest_close": 1938,
+  "raw_latest_marcap": 38760000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3977,
+    "tradable_ohlcv": 4058,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

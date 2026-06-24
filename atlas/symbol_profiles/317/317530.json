@@ -1,11 +1,16 @@
 {
   "code": "317530",
-  "current_or_latest_name": "캐리소프트",
+  "current_or_latest_name": "에피소드컴퍼니",
   "name_history": [
+    {
+      "name": "에피소드컴퍼니",
+      "first_date": "2026-04-24",
+      "last_date": "2026-06-22"
+    },
     {
       "name": "캐리소프트",
       "first_date": "2019-10-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-23"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-10-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-10-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-10-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1550,
-  "raw_trading_day_count": 1550,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1631,
+  "raw_trading_day_count": 1631,
   "available_years": [
     2019,
     2020,
@@ -74,14 +79,14 @@
     "atlas/ohlcv_min_by_symbol_year/317/317530/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/317/317530/2026.csv"
   ],
-  "latest_close": 4325,
-  "latest_marcap": 75665364650,
+  "latest_close": 2665,
+  "latest_marcap": 46623860530,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4325,
-  "raw_latest_marcap": 75665364650,
+  "raw_latest_close": 2665,
+  "raw_latest_marcap": 46623860530,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1550,
+    "tradable_ohlcv": 1631,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

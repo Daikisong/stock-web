@@ -10,7 +10,7 @@
     {
       "name": "라온로보틱스",
       "first_date": "2026-01-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "라온테크",
@@ -31,15 +31,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-06-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-12-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-12-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2391,
-  "raw_trading_day_count": 2496,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2472,
+  "raw_trading_day_count": 2577,
   "available_years": [
     2015,
     2016,
@@ -110,14 +110,14 @@
     "atlas/ohlcv_min_by_symbol_year/232/232680/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/232/232680/2026.csv"
   ],
-  "latest_close": 16250,
-  "latest_marcap": 211489443750,
+  "latest_close": 11970,
+  "latest_marcap": 158692275000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 16250,
-  "raw_latest_marcap": 211489443750,
+  "raw_latest_close": 11970,
+  "raw_latest_marcap": 158692275000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2391,
+    "tradable_ohlcv": 2472,
     "non_tradable_zero_volume": 105,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

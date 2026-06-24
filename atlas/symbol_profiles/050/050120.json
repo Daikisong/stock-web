@@ -5,7 +5,7 @@
     {
       "name": "ES큐브",
       "first_date": "2021-04-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "KJ온라인",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-04-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-04-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-04-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5867,
-  "raw_trading_day_count": 5879,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5948,
+  "raw_trading_day_count": 5960,
   "available_years": [
     2002,
     2003,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/050/050120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/050/050120/2026.csv"
   ],
-  "latest_close": 2735,
-  "latest_marcap": 37097775210,
+  "latest_close": 2830,
+  "latest_marcap": 38386363380,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2735,
-  "raw_latest_marcap": 37097775210,
+  "raw_latest_close": 2830,
+  "raw_latest_marcap": 38386363380,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5867,
+    "tradable_ohlcv": 5948,
     "non_tradable_zero_volume": 12,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

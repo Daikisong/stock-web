@@ -5,7 +5,7 @@
     {
       "name": "우리넷",
       "first_date": "2010-01-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-01-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-01-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-01-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3955,
-  "raw_trading_day_count": 3955,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4036,
+  "raw_trading_day_count": 4036,
   "available_years": [
     2010,
     2011,
@@ -119,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/115/115440/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/115/115440/2026.csv"
   ],
-  "latest_close": 7200,
-  "latest_marcap": 77718902400,
+  "latest_close": 9180,
+  "latest_marcap": 99091600560,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 7200,
-  "raw_latest_marcap": 77718902400,
+  "raw_latest_close": 9180,
+  "raw_latest_marcap": 99091600560,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3955,
+    "tradable_ohlcv": 4036,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

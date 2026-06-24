@@ -5,7 +5,7 @@
     {
       "name": "마음AI",
       "first_date": "2023-04-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "마인즈랩",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-11-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-11-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-11-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1038,
-  "raw_trading_day_count": 1038,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1119,
+  "raw_trading_day_count": 1119,
   "available_years": [
     2021,
     2022,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/377/377480/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/377/377480/2026.csv"
   ],
-  "latest_close": 16850,
-  "latest_marcap": 119808133750,
+  "latest_close": 11330,
+  "latest_marcap": 80559415750,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 16850,
-  "raw_latest_marcap": 119808133750,
+  "raw_latest_close": 11330,
+  "raw_latest_marcap": 80559415750,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1038,
+    "tradable_ohlcv": 1119,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

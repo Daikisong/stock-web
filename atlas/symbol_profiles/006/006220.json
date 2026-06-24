@@ -5,7 +5,7 @@
     {
       "name": "제주은행",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7553,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7634,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/006/006220/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/006/006220/2026.csv"
   ],
-  "latest_close": 16820,
-  "latest_marcap": 635771728740,
+  "latest_close": 10090,
+  "latest_marcap": 381387440130,
   "latest_market": "KOSPI",
-  "raw_latest_close": 16820,
-  "raw_latest_marcap": 635771728740,
+  "raw_latest_close": 10090,
+  "raw_latest_marcap": 381387440130,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7553,
+    "tradable_ohlcv": 7634,
     "non_tradable_zero_volume": 212,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

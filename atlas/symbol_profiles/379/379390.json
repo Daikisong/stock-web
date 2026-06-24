@@ -5,7 +5,7 @@
     {
       "name": "이성씨엔아이",
       "first_date": "2021-06-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2021-06-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-06-04",
-  "last_date": "2026-02-19",
+  "last_date": "2026-06-15",
   "raw_first_date": "2021-06-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 565,
-  "raw_trading_day_count": 1154,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 599,
+  "raw_trading_day_count": 1235,
   "available_years": [
     2021,
     2022,
@@ -64,15 +64,15 @@
     "atlas/ohlcv_min_by_symbol_year/379/379390/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/379/379390/2026.csv"
   ],
-  "latest_close": 5200,
-  "latest_marcap": 14775592000,
+  "latest_close": 5630,
+  "latest_marcap": 15997419800,
   "latest_market": "KONEX",
-  "raw_latest_close": 5200,
-  "raw_latest_marcap": 14775592000,
+  "raw_latest_close": 5630,
+  "raw_latest_marcap": 15997419800,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 565,
-    "non_tradable_zero_volume": 589,
+    "tradable_ohlcv": 599,
+    "non_tradable_zero_volume": 636,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

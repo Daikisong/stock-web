@@ -5,7 +5,7 @@
     {
       "name": "팬스타엔터프라이즈",
       "first_date": "2016-01-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "헤스본",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-01-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-01-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-01-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5795,
-  "raw_trading_day_count": 5949,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5861,
+  "raw_trading_day_count": 6030,
   "available_years": [
     2002,
     2003,
@@ -164,21 +164,21 @@
     "atlas/ohlcv_min_by_symbol_year/054/054300/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/054/054300/2026.csv"
   ],
-  "latest_close": 810,
-  "latest_marcap": 93750930900,
+  "latest_close": 857,
+  "latest_marcap": 49595399865,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 810,
-  "raw_latest_marcap": 93750930900,
+  "raw_latest_close": 857,
+  "raw_latest_marcap": 49595399865,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5795,
-    "non_tradable_zero_volume": 154,
+    "tradable_ohlcv": 5861,
+    "non_tradable_zero_volume": 169,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 11,
+  "corporate_action_candidate_count": 12,
   "corporate_action_candidate_dates": [
     "2003-12-08",
     "2006-10-12",
@@ -190,7 +190,8 @@
     "2013-12-19",
     "2016-01-19",
     "2017-12-07",
-    "2025-05-30"
+    "2025-05-30",
+    "2026-04-30"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

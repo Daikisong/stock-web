@@ -3,7 +3,7 @@
   "codes": [
     {
       "code": "123010",
-      "name": "아이윈플러스",
+      "name": "알엔티엑스",
       "profile_path": "atlas/symbol_profiles/123/123010.json",
       "available_years": [
         2014,
@@ -36,7 +36,7 @@
         2026
       ],
       "first_date": "2014-10-31",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -82,7 +82,7 @@
         2026
       ],
       "first_date": "2010-08-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -248,7 +248,7 @@
         2026
       ],
       "first_date": "2011-08-03",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -294,7 +294,7 @@
         2026
       ],
       "first_date": "2010-08-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -340,7 +340,7 @@
         2026
       ],
       "first_date": "2010-11-10",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -404,7 +404,7 @@
         2026
       ],
       "first_date": "2011-11-25",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -450,7 +450,7 @@
         2026
       ],
       "first_date": "2010-06-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -496,7 +496,7 @@
         2026
       ],
       "first_date": "2010-05-31",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -542,7 +542,7 @@
         2026
       ],
       "first_date": "2010-07-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -588,7 +588,7 @@
         2026
       ],
       "first_date": "2010-10-05",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -634,7 +634,7 @@
         2026
       ],
       "first_date": "2010-11-05",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -668,7 +668,7 @@
         2026
       ],
       "first_date": "2016-07-13",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {

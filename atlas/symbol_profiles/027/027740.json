@@ -5,7 +5,7 @@
     {
       "name": "마니커",
       "first_date": "2000-12-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSPI",
       "first_date": "2002-10-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-12-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-12-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6179,
-  "raw_trading_day_count": 6214,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6246,
+  "raw_trading_day_count": 6295,
   "available_years": [
     2000,
     2001,
@@ -175,21 +175,21 @@
     "atlas/ohlcv_min_by_symbol_year/027/027740/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/027/027740/2026.csv"
   ],
-  "latest_close": 892,
-  "latest_marcap": 56652015376,
+  "latest_close": 1115,
+  "latest_marcap": 35407509610,
   "latest_market": "KOSPI",
-  "raw_latest_close": 892,
-  "raw_latest_marcap": 56652015376,
+  "raw_latest_close": 1115,
+  "raw_latest_marcap": 35407509610,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6179,
-    "non_tradable_zero_volume": 35,
+    "tradable_ohlcv": 6246,
+    "non_tradable_zero_volume": 49,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 8,
+  "corporate_action_candidate_count": 9,
   "corporate_action_candidate_dates": [
     "2002-10-29",
     "2003-04-15",
@@ -198,7 +198,8 @@
     "2016-11-07",
     "2020-10-12",
     "2021-11-04",
-    "2021-12-23"
+    "2021-12-23",
+    "2026-05-18"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

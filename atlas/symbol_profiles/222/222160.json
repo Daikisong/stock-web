@@ -5,7 +5,7 @@
     {
       "name": "NPX",
       "first_date": "2024-01-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "바이옵트로",
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-11-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-03-29",
   "last_date": "2024-02-14",
   "raw_first_date": "2016-03-10",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 1685,
-  "raw_trading_day_count": 2441,
+  "raw_trading_day_count": 2522,
   "available_years": [
     2016,
     2017,
@@ -102,7 +102,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 1685,
-    "non_tradable_zero_volume": 756,
+    "non_tradable_zero_volume": 837,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

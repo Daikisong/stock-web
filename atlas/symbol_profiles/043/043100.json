@@ -15,7 +15,7 @@
     {
       "name": "알파AI",
       "first_date": "2025-11-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "알파녹스",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-08-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-08-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-04-07",
   "raw_first_date": "2000-08-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5945,
-  "raw_trading_day_count": 6296,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5976,
+  "raw_trading_day_count": 6377,
   "available_years": [
     2000,
     2001,
@@ -184,15 +184,15 @@
     "atlas/ohlcv_min_by_symbol_year/043/043100/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/043/043100/2026.csv"
   ],
-  "latest_close": 1976,
-  "latest_marcap": 39737518080,
+  "latest_close": 520,
+  "latest_marcap": 10457241600,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1976,
-  "raw_latest_marcap": 39737518080,
+  "raw_latest_close": 520,
+  "raw_latest_marcap": 10457241600,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5945,
-    "non_tradable_zero_volume": 351,
+    "tradable_ohlcv": 5976,
+    "non_tradable_zero_volume": 401,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

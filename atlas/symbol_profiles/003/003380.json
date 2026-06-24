@@ -15,7 +15,7 @@
     {
       "name": "하림지주",
       "first_date": "2018-07-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -31,15 +31,15 @@
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2228,
-  "raw_trading_day_count": 3108,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2309,
+  "raw_trading_day_count": 3189,
   "available_years": [
     1996,
     1997,
@@ -125,14 +125,14 @@
     "atlas/ohlcv_min_by_symbol_year/003/003380/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/003/003380/2026.csv"
   ],
-  "latest_close": 16660,
-  "latest_marcap": 1866013645860,
+  "latest_close": 10000,
+  "latest_marcap": 1120056210000,
   "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 16660,
-  "raw_latest_marcap": 1866013645860,
+  "raw_latest_close": 10000,
+  "raw_latest_marcap": 1120056210000,
   "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 2228,
+    "tradable_ohlcv": 2309,
     "non_tradable_zero_volume": 880,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

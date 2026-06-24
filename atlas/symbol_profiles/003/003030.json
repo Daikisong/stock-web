@@ -15,7 +15,7 @@
     {
       "name": "세아제강지주",
       "first_date": "2018-10-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7715,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7796,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -204,14 +204,14 @@
     "atlas/ohlcv_min_by_symbol_year/003/003030/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/003/003030/2026.csv"
   ],
-  "latest_close": 153100,
-  "latest_marcap": 634087686700,
+  "latest_close": 122000,
+  "latest_marcap": 505282154000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 153100,
-  "raw_latest_marcap": 634087686700,
+  "raw_latest_close": 122000,
+  "raw_latest_marcap": 505282154000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7715,
+    "tradable_ohlcv": 7796,
     "non_tradable_zero_volume": 49,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "베노티앤알",
       "first_date": "2023-07-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "베노홀딩스",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-12-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-12-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-12-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2694,
-  "raw_trading_day_count": 2747,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2775,
+  "raw_trading_day_count": 2828,
   "available_years": [
     2014,
     2015,
@@ -114,14 +114,14 @@
     "atlas/ohlcv_min_by_symbol_year/206/206400/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/206/206400/2026.csv"
   ],
-  "latest_close": 1404,
-  "latest_marcap": 52664261832,
+  "latest_close": 830,
+  "latest_marcap": 31133431140,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1404,
-  "raw_latest_marcap": 52664261832,
+  "raw_latest_close": 830,
+  "raw_latest_marcap": 31133431140,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2694,
+    "tradable_ohlcv": 2775,
     "non_tradable_zero_volume": 53,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

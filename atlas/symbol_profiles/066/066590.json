@@ -1,11 +1,16 @@
 {
   "code": "066590",
-  "current_or_latest_name": "우수AMS",
+  "current_or_latest_name": "스모트로닉",
   "name_history": [
+    {
+      "name": "스모트로닉",
+      "first_date": "2026-04-01",
+      "last_date": "2026-06-22"
+    },
     {
       "name": "우수AMS",
       "first_date": "2007-04-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-03-31"
     },
     {
       "name": "우수기계",
@@ -20,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2003-02-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2003-02-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2003-02-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5681,
-  "raw_trading_day_count": 5683,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5762,
+  "raw_trading_day_count": 5764,
   "available_years": [
     2003,
     2004,
@@ -159,14 +164,14 @@
     "atlas/ohlcv_min_by_symbol_year/066/066590/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/066/066590/2026.csv"
   ],
-  "latest_close": 3080,
-  "latest_marcap": 119128045960,
+  "latest_close": 2085,
+  "latest_marcap": 80643498645,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3080,
-  "raw_latest_marcap": 119128045960,
+  "raw_latest_close": 2085,
+  "raw_latest_marcap": 80643498645,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5681,
+    "tradable_ohlcv": 5762,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

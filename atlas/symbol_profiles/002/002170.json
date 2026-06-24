@@ -1,11 +1,16 @@
 {
   "code": "002170",
-  "current_or_latest_name": "삼양통상",
+  "current_or_latest_name": "SYTS",
   "name_history": [
+    {
+      "name": "SYTS",
+      "first_date": "2026-04-20",
+      "last_date": "2026-06-22"
+    },
     {
       "name": "삼양통상",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-17"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7714,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7795,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -194,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/002/002170/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/002/002170/2026.csv"
   ],
-  "latest_close": 61100,
-  "latest_marcap": 183300000000,
+  "latest_close": 54700,
+  "latest_marcap": 164100000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 61100,
-  "raw_latest_marcap": 183300000000,
+  "raw_latest_close": 54700,
+  "raw_latest_marcap": 164100000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7714,
+    "tradable_ohlcv": 7795,
     "non_tradable_zero_volume": 50,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

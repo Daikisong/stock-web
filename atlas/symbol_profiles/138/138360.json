@@ -5,7 +5,7 @@
     {
       "name": "앤로보틱스",
       "first_date": "2026-02-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "에이씨티",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2013-11-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-11-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-11-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2059,
-  "raw_trading_day_count": 3014,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2140,
+  "raw_trading_day_count": 3095,
   "available_years": [
     2013,
     2014,
@@ -105,14 +105,14 @@
     "atlas/ohlcv_min_by_symbol_year/138/138360/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/138/138360/2026.csv"
   ],
-  "latest_close": 2040,
-  "latest_marcap": 157063112880,
+  "latest_close": 2100,
+  "latest_marcap": 161682616200,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2040,
-  "raw_latest_marcap": 157063112880,
+  "raw_latest_close": 2100,
+  "raw_latest_marcap": 161682616200,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2059,
+    "tradable_ohlcv": 2140,
     "non_tradable_zero_volume": 955,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

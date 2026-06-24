@@ -5,7 +5,7 @@
     {
       "name": "화천기공",
       "first_date": "1999-11-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1999-11-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-11-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-11-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6467,
-  "raw_trading_day_count": 6471,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6548,
+  "raw_trading_day_count": 6552,
   "available_years": [
     1999,
     2000,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000850/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000850/2026.csv"
   ],
-  "latest_close": 44300,
-  "latest_marcap": 97460000000,
+  "latest_close": 32550,
+  "latest_marcap": 71610000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 44300,
-  "raw_latest_marcap": 97460000000,
+  "raw_latest_close": 32550,
+  "raw_latest_marcap": 71610000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6467,
+    "tradable_ohlcv": 6548,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

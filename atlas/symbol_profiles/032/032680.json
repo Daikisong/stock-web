@@ -10,7 +10,7 @@
     {
       "name": "소프트센",
       "first_date": "2014-04-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-07-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-07-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-07-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6896,
-  "raw_trading_day_count": 7116,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6963,
+  "raw_trading_day_count": 7197,
   "available_years": [
     1997,
     1998,
@@ -189,21 +189,21 @@
     "atlas/ohlcv_min_by_symbol_year/032/032680/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/032/032680/2026.csv"
   ],
-  "latest_close": 269,
-  "latest_marcap": 28403915516,
+  "latest_close": 830,
+  "latest_marcap": 17310381230,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 269,
-  "raw_latest_marcap": 28403915516,
+  "raw_latest_close": 830,
+  "raw_latest_marcap": 17310381230,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6896,
-    "non_tradable_zero_volume": 220,
+    "tradable_ohlcv": 6963,
+    "non_tradable_zero_volume": 234,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 12,
+  "corporate_action_candidate_count": 13,
   "corporate_action_candidate_dates": [
     "1998-10-22",
     "1999-09-09",
@@ -216,7 +216,8 @@
     "2009-04-14",
     "2013-11-19",
     "2014-08-20",
-    "2023-05-03"
+    "2023-05-03",
+    "2026-05-26"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "에스엠벡셀",
       "first_date": "2022-04-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "정일공업",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7057,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7138,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -201,14 +201,14 @@
     "atlas/ohlcv_min_by_symbol_year/010/010580/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/010/010580/2026.csv"
   ],
-  "latest_close": 2145,
-  "latest_marcap": 238635025200,
+  "latest_close": 1820,
+  "latest_marcap": 202478203200,
   "latest_market": "KOSPI",
-  "raw_latest_close": 2145,
-  "raw_latest_marcap": 238635025200,
+  "raw_latest_close": 1820,
+  "raw_latest_marcap": 202478203200,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7057,
+    "tradable_ohlcv": 7138,
     "non_tradable_zero_volume": 708,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

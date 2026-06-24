@@ -15,7 +15,7 @@
     {
       "name": "선샤인푸드",
       "first_date": "2025-01-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-07"
     },
     {
       "name": "한화ACPC스팩",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-06-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-07"
     }
   ],
   "first_date": "2015-06-10",
-  "last_date": "2024-03-26",
+  "last_date": "2026-05-07",
   "raw_first_date": "2015-06-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2137,
-  "raw_trading_day_count": 2626,
+  "raw_last_date": "2026-05-07",
+  "trading_day_count": 2144,
+  "raw_trading_day_count": 2677,
   "available_years": [
     2015,
     2016,
@@ -49,7 +49,8 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2026
   ],
   "raw_available_years": [
     2015,
@@ -75,7 +76,8 @@
     "atlas/ohlcv_tradable_by_symbol_year/217/217620/2021.csv",
     "atlas/ohlcv_tradable_by_symbol_year/217/217620/2022.csv",
     "atlas/ohlcv_tradable_by_symbol_year/217/217620/2023.csv",
-    "atlas/ohlcv_tradable_by_symbol_year/217/217620/2024.csv"
+    "atlas/ohlcv_tradable_by_symbol_year/217/217620/2024.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/217/217620/2026.csv"
   ],
   "raw_year_files": [
     "atlas/ohlcv_raw_by_symbol_year/217/217620/2015.csv",
@@ -101,29 +103,33 @@
     "atlas/ohlcv_min_by_symbol_year/217/217620/2021.csv",
     "atlas/ohlcv_min_by_symbol_year/217/217620/2022.csv",
     "atlas/ohlcv_min_by_symbol_year/217/217620/2023.csv",
-    "atlas/ohlcv_min_by_symbol_year/217/217620/2024.csv"
+    "atlas/ohlcv_min_by_symbol_year/217/217620/2024.csv",
+    "atlas/ohlcv_min_by_symbol_year/217/217620/2026.csv"
   ],
-  "latest_close": 381,
-  "latest_marcap": 22001687010,
+  "latest_close": 5,
+  "latest_marcap": 35175435,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3810,
-  "raw_latest_marcap": 26803681470,
+  "raw_latest_close": 5,
+  "raw_latest_marcap": 35175435,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2137,
-    "non_tradable_zero_volume": 489,
+    "tradable_ohlcv": 2144,
+    "non_tradable_zero_volume": 533,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
-    "2017-08-31"
+    "2017-08-31",
+    "2026-04-27",
+    "2026-05-06",
+    "2026-05-07"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
-  "status_inferred": "active_like",
+  "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",
   "source_repo_url": "https://github.com/FinanceData/marcap",

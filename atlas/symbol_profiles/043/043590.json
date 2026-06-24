@@ -5,7 +5,7 @@
     {
       "name": "웰킵스하이텍",
       "first_date": "2023-04-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "크로바하이텍",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2001-12-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2001-12-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2001-12-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5153,
-  "raw_trading_day_count": 5961,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5223,
+  "raw_trading_day_count": 6042,
   "available_years": [
     2001,
     2002,
@@ -163,26 +163,27 @@
     "atlas/ohlcv_min_by_symbol_year/043/043590/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/043/043590/2026.csv"
   ],
-  "latest_close": 769,
-  "latest_marcap": 20868169978,
+  "latest_close": 1030,
+  "latest_marcap": 13975432430,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 769,
-  "raw_latest_marcap": 20868169978,
+  "raw_latest_close": 1030,
+  "raw_latest_marcap": 13975432430,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5153,
-    "non_tradable_zero_volume": 808,
+    "tradable_ohlcv": 5223,
+    "non_tradable_zero_volume": 819,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2003-12-19",
     "2018-10-01",
     "2022-05-25",
-    "2024-01-19"
+    "2024-01-19",
+    "2026-05-22"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

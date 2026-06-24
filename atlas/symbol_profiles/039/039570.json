@@ -5,7 +5,7 @@
     {
       "name": "HDC랩스",
       "first_date": "2021-12-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "HDC아이콘트롤스",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2015-09-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-09-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-09-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2550,
-  "raw_trading_day_count": 2551,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2631,
+  "raw_trading_day_count": 2632,
   "available_years": [
     2015,
     2016,
@@ -104,14 +104,14 @@
     "atlas/ohlcv_min_by_symbol_year/039/039570/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/039/039570/2026.csv"
   ],
-  "latest_close": 8500,
-  "latest_marcap": 220639608500,
+  "latest_close": 7740,
+  "latest_marcap": 200911831740,
   "latest_market": "KOSPI",
-  "raw_latest_close": 8500,
-  "raw_latest_marcap": 220639608500,
+  "raw_latest_close": 7740,
+  "raw_latest_marcap": 200911831740,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2550,
+    "tradable_ohlcv": 2631,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

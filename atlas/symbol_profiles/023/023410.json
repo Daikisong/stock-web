@@ -5,7 +5,7 @@
     {
       "name": "유진기업",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6791,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6872,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -189,14 +189,14 @@
     "atlas/ohlcv_min_by_symbol_year/023/023410/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/023/023410/2026.csv"
   ],
-  "latest_close": 4995,
-  "latest_marcap": 386167760685,
+  "latest_close": 3345,
+  "latest_marcap": 258604836735,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4995,
-  "raw_latest_marcap": 386167760685,
+  "raw_latest_close": 3345,
+  "raw_latest_marcap": 258604836735,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6791,
+    "tradable_ohlcv": 6872,
     "non_tradable_zero_volume": 631,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

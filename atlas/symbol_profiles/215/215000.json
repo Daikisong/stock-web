@@ -5,7 +5,7 @@
     {
       "name": "골프존",
       "first_date": "2015-04-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -16,20 +16,20 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-04-03",
-      "last_date": "2022-11-18"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-11"
     }
   ],
   "first_date": "2015-04-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-04-03",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2670,
-  "raw_trading_day_count": 2671,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2751,
+  "raw_trading_day_count": 2752,
   "available_years": [
     2015,
     2016,
@@ -100,14 +100,14 @@
     "atlas/ohlcv_min_by_symbol_year/215/215000/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/215/215000/2026.csv"
   ],
-  "latest_close": 60800,
-  "latest_marcap": 381545232000,
-  "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 60800,
-  "raw_latest_marcap": 381545232000,
-  "raw_latest_market": "KOSDAQ GLOBAL",
+  "latest_close": 39650,
+  "latest_marcap": 248820204750,
+  "latest_market": "KOSDAQ",
+  "raw_latest_close": 39650,
+  "raw_latest_marcap": 248820204750,
+  "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2670,
+    "tradable_ohlcv": 2751,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

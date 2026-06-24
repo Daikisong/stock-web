@@ -5,7 +5,7 @@
     {
       "name": "이수화학",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7743,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7824,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/005/005950/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005950/2026.csv"
   ],
-  "latest_close": 9240,
-  "latest_marcap": 242958121560,
+  "latest_close": 13070,
+  "latest_marcap": 343664788830,
   "latest_market": "KOSPI",
-  "raw_latest_close": 9240,
-  "raw_latest_marcap": 242958121560,
+  "raw_latest_close": 13070,
+  "raw_latest_marcap": 343664788830,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7743,
+    "tradable_ohlcv": 7824,
     "non_tradable_zero_volume": 21,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

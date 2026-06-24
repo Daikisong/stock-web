@@ -5,7 +5,7 @@
     {
       "name": "아모그린텍",
       "first_date": "2019-03-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-03-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-03-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-03-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1694,
-  "raw_trading_day_count": 1694,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1775,
+  "raw_trading_day_count": 1775,
   "available_years": [
     2019,
     2020,
@@ -74,14 +74,14 @@
     "atlas/ohlcv_min_by_symbol_year/125/125210/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/125/125210/2026.csv"
   ],
-  "latest_close": 7990,
-  "latest_marcap": 131809352100,
+  "latest_close": 8050,
+  "latest_marcap": 132799159500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 7990,
-  "raw_latest_marcap": 131809352100,
+  "raw_latest_close": 8050,
+  "raw_latest_marcap": 132799159500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1694,
+    "tradable_ohlcv": 1775,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -15,7 +15,7 @@
     {
       "name": "오늘이엔엠",
       "first_date": "2025-02-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "휴림네트웍스",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-08-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-08-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-08-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2184,
-  "raw_trading_day_count": 2825,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2250,
+  "raw_trading_day_count": 2906,
   "available_years": [
     2014,
     2015,
@@ -111,21 +111,21 @@
     "atlas/ohlcv_min_by_symbol_year/192/192410/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/192/192410/2026.csv"
   ],
-  "latest_close": 890,
-  "latest_marcap": 41528799970,
+  "latest_close": 4260,
+  "latest_marcap": 107291972340,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 890,
-  "raw_latest_marcap": 41528799970,
+  "raw_latest_close": 4260,
+  "raw_latest_marcap": 107291972340,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2184,
-    "non_tradable_zero_volume": 641,
+    "tradable_ohlcv": 2250,
+    "non_tradable_zero_volume": 656,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 14,
+  "corporate_action_candidate_count": 15,
   "corporate_action_candidate_dates": [
     "2015-02-27",
     "2017-08-31",
@@ -140,7 +140,8 @@
     "2024-07-04",
     "2024-09-20",
     "2025-09-02",
-    "2025-10-22"
+    "2025-10-22",
+    "2026-03-20"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

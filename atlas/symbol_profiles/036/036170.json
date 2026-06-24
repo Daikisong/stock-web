@@ -25,7 +25,7 @@
     {
       "name": "에이치엠넥스",
       "first_date": "2025-04-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코삼",
@@ -45,15 +45,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-12-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-12-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6393,
-  "raw_trading_day_count": 6448,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6474,
+  "raw_trading_day_count": 6529,
   "available_years": [
     1999,
     2000,
@@ -204,14 +204,14 @@
     "atlas/ohlcv_min_by_symbol_year/036/036170/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/036/036170/2026.csv"
   ],
-  "latest_close": 1734,
-  "latest_marcap": 106407995484,
+  "latest_close": 3600,
+  "latest_marcap": 220916253600,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1734,
-  "raw_latest_marcap": 106407995484,
+  "raw_latest_close": 3600,
+  "raw_latest_marcap": 220916253600,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6393,
+    "tradable_ohlcv": 6474,
     "non_tradable_zero_volume": 55,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

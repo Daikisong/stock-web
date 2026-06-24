@@ -10,7 +10,7 @@
     {
       "name": "현대바이오",
       "first_date": "2018-09-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "현대아이비티",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-08-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-08-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-08-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5426,
-  "raw_trading_day_count": 5809,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5507,
+  "raw_trading_day_count": 5890,
   "available_years": [
     2002,
     2003,
@@ -176,14 +176,14 @@
     "atlas/ohlcv_min_by_symbol_year/048/048410/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/048/048410/2026.csv"
   ],
-  "latest_close": 13670,
-  "latest_marcap": 1312879923200,
+  "latest_close": 8530,
+  "latest_marcap": 823192529160,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 13670,
-  "raw_latest_marcap": 1312879923200,
+  "raw_latest_close": 8530,
+  "raw_latest_marcap": 823192529160,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5426,
+    "tradable_ohlcv": 5507,
     "non_tradable_zero_volume": 383,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

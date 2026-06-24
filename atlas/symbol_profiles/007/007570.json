@@ -5,7 +5,7 @@
     {
       "name": "일양약품",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2025-09-10",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7649,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7708,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -55,7 +55,8 @@
     2022,
     2023,
     2024,
-    2025
+    2025,
+    2026
   ],
   "raw_available_years": [
     1995,
@@ -122,7 +123,8 @@
     "atlas/ohlcv_tradable_by_symbol_year/007/007570/2022.csv",
     "atlas/ohlcv_tradable_by_symbol_year/007/007570/2023.csv",
     "atlas/ohlcv_tradable_by_symbol_year/007/007570/2024.csv",
-    "atlas/ohlcv_tradable_by_symbol_year/007/007570/2025.csv"
+    "atlas/ohlcv_tradable_by_symbol_year/007/007570/2025.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/007/007570/2026.csv"
   ],
   "raw_year_files": [
     "atlas/ohlcv_raw_by_symbol_year/007/007570/1995.csv",
@@ -189,17 +191,18 @@
     "atlas/ohlcv_min_by_symbol_year/007/007570/2022.csv",
     "atlas/ohlcv_min_by_symbol_year/007/007570/2023.csv",
     "atlas/ohlcv_min_by_symbol_year/007/007570/2024.csv",
-    "atlas/ohlcv_min_by_symbol_year/007/007570/2025.csv"
+    "atlas/ohlcv_min_by_symbol_year/007/007570/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/007/007570/2026.csv"
   ],
-  "latest_close": 13050,
-  "latest_marcap": 249067915200,
+  "latest_close": 7870,
+  "latest_marcap": 150204175680,
   "latest_market": "KOSPI",
-  "raw_latest_close": 13050,
-  "raw_latest_marcap": 249067915200,
+  "raw_latest_close": 7870,
+  "raw_latest_marcap": 150204175680,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7649,
-    "non_tradable_zero_volume": 115,
+    "tradable_ohlcv": 7708,
+    "non_tradable_zero_volume": 137,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

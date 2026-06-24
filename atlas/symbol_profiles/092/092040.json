@@ -5,7 +5,7 @@
     {
       "name": "아미코젠",
       "first_date": "2013-09-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2013-09-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-09-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-09-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3050,
-  "raw_trading_day_count": 3050,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3131,
+  "raw_trading_day_count": 3131,
   "available_years": [
     2013,
     2014,
@@ -104,21 +104,21 @@
     "atlas/ohlcv_min_by_symbol_year/092/092040/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/092/092040/2026.csv"
   ],
-  "latest_close": 1598,
-  "latest_marcap": 89056560774,
+  "latest_close": 1474,
+  "latest_marcap": 104146040438,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1598,
-  "raw_latest_marcap": 89056560774,
+  "raw_latest_close": 1474,
+  "raw_latest_marcap": 104146040438,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3050,
+    "tradable_ohlcv": 3131,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 7,
+  "corporate_action_candidate_count": 8,
   "corporate_action_candidate_dates": [
     "2014-08-22",
     "2014-09-26",
@@ -126,7 +126,8 @@
     "2018-04-23",
     "2023-12-13",
     "2023-12-26",
-    "2024-01-05"
+    "2024-01-05",
+    "2026-02-26"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

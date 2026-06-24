@@ -10,7 +10,7 @@
     {
       "name": "대성홀딩스",
       "first_date": "2009-10-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1999-12-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-12-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-12-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6305,
-  "raw_trading_day_count": 6447,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6386,
+  "raw_trading_day_count": 6528,
   "available_years": [
     1999,
     2000,
@@ -179,14 +179,14 @@
     "atlas/ohlcv_min_by_symbol_year/016/016710/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/016/016710/2026.csv"
   ],
-  "latest_close": 9210,
-  "latest_marcap": 148183917390,
+  "latest_close": 7070,
+  "latest_marcap": 113752475130,
   "latest_market": "KOSPI",
-  "raw_latest_close": 9210,
-  "raw_latest_marcap": 148183917390,
+  "raw_latest_close": 7070,
+  "raw_latest_marcap": 113752475130,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6305,
+    "tradable_ohlcv": 6386,
     "non_tradable_zero_volume": 142,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

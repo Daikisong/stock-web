@@ -15,7 +15,7 @@
     {
       "name": "오리엔트정공",
       "first_date": "2011-08-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-09-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-09-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-09-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5395,
-  "raw_trading_day_count": 5780,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5476,
+  "raw_trading_day_count": 5861,
   "available_years": [
     2002,
     2003,
@@ -169,14 +169,14 @@
     "atlas/ohlcv_min_by_symbol_year/065/065500/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/065/065500/2026.csv"
   ],
-  "latest_close": 2775,
-  "latest_marcap": 88086580800,
+  "latest_close": 1291,
+  "latest_marcap": 42916599392,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2775,
-  "raw_latest_marcap": 88086580800,
+  "raw_latest_close": 1291,
+  "raw_latest_marcap": 42916599392,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5395,
+    "tradable_ohlcv": 5476,
     "non_tradable_zero_volume": 385,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "미스터블루",
       "first_date": "2015-11-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-12-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-12-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-12-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2704,
-  "raw_trading_day_count": 2745,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2785,
+  "raw_trading_day_count": 2826,
   "available_years": [
     2014,
     2015,
@@ -104,14 +104,14 @@
     "atlas/ohlcv_min_by_symbol_year/207/207760/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/207/207760/2026.csv"
   ],
-  "latest_close": 1183,
-  "latest_marcap": 98283383289,
+  "latest_close": 529,
+  "latest_marcap": 43949205207,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1183,
-  "raw_latest_marcap": 98283383289,
+  "raw_latest_close": 529,
+  "raw_latest_marcap": 43949205207,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2704,
+    "tradable_ohlcv": 2785,
     "non_tradable_zero_volume": 41,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

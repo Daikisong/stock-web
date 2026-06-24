@@ -5,7 +5,7 @@
     {
       "name": "대호특수강",
       "first_date": "2021-04-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "대호피앤씨",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-08-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-08-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-08-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6895,
-  "raw_trading_day_count": 7375,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6976,
+  "raw_trading_day_count": 7456,
   "available_years": [
     1996,
     1997,
@@ -204,14 +204,14 @@
     "atlas/ohlcv_min_by_symbol_year/021/021040/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/021/021040/2026.csv"
   ],
-  "latest_close": 1251,
-  "latest_marcap": 27152672274,
+  "latest_close": 972,
+  "latest_marcap": 21097040328,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1251,
-  "raw_latest_marcap": 27152672274,
+  "raw_latest_close": 972,
+  "raw_latest_marcap": 21097040328,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6895,
+    "tradable_ohlcv": 6976,
     "non_tradable_zero_volume": 480,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

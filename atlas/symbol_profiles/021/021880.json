@@ -10,7 +10,7 @@
     {
       "name": "메이슨캐피탈",
       "first_date": "2016-07-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "신보캐피탈",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-09-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-09-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-04",
   "raw_first_date": "1996-09-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6511,
-  "raw_trading_day_count": 7370,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6580,
+  "raw_trading_day_count": 7451,
   "available_years": [
     1996,
     1997,
@@ -209,15 +209,15 @@
     "atlas/ohlcv_min_by_symbol_year/021/021880/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/021/021880/2026.csv"
   ],
-  "latest_close": 264,
-  "latest_marcap": 56016683712,
+  "latest_close": 136,
+  "latest_marcap": 28857079488,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 264,
-  "raw_latest_marcap": 56016683712,
+  "raw_latest_close": 136,
+  "raw_latest_marcap": 28857079488,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6511,
-    "non_tradable_zero_volume": 859,
+    "tradable_ohlcv": 6580,
+    "non_tradable_zero_volume": 871,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

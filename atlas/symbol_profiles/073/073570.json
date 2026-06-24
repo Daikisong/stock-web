@@ -10,7 +10,7 @@
     {
       "name": "리튬포어스",
       "first_date": "2023-06-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "어반리튬",
@@ -40,15 +40,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2004-01-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2004-01-06",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2004-01-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5314,
-  "raw_trading_day_count": 5462,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5382,
+  "raw_trading_day_count": 5543,
   "available_years": [
     2004,
     2005,
@@ -174,21 +174,21 @@
     "atlas/ohlcv_min_by_symbol_year/073/073570/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/073/073570/2026.csv"
   ],
-  "latest_close": 683,
-  "latest_marcap": 41107475803,
+  "latest_close": 1927,
+  "latest_marcap": 23195931056,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 683,
-  "raw_latest_marcap": 41107475803,
+  "raw_latest_close": 1927,
+  "raw_latest_marcap": 23195931056,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5314,
-    "non_tradable_zero_volume": 148,
+    "tradable_ohlcv": 5382,
+    "non_tradable_zero_volume": 161,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 14,
+  "corporate_action_candidate_count": 15,
   "corporate_action_candidate_dates": [
     "2006-04-12",
     "2006-05-08",
@@ -203,7 +203,8 @@
     "2020-04-24",
     "2022-11-18",
     "2022-12-12",
-    "2025-06-09"
+    "2025-06-09",
+    "2026-05-20"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

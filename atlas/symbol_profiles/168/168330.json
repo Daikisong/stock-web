@@ -5,7 +5,7 @@
     {
       "name": "내츄럴엔도텍",
       "first_date": "2013-10-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2013-10-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-10-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-10-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2633,
-  "raw_trading_day_count": 3020,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2714,
+  "raw_trading_day_count": 3101,
   "available_years": [
     2013,
     2014,
@@ -104,14 +104,14 @@
     "atlas/ohlcv_min_by_symbol_year/168/168330/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/168/168330/2026.csv"
   ],
-  "latest_close": 2970,
-  "latest_marcap": 94312053000,
+  "latest_close": 2065,
+  "latest_marcap": 65573868500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2970,
-  "raw_latest_marcap": 94312053000,
+  "raw_latest_close": 2065,
+  "raw_latest_marcap": 65573868500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2633,
+    "tradable_ohlcv": 2714,
     "non_tradable_zero_volume": 387,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "파트론",
       "first_date": "2006-12-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -16,20 +16,20 @@
     {
       "market": "KOSDAQ",
       "first_date": "2006-12-13",
-      "last_date": "2022-11-18"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-11"
     }
   ],
   "first_date": "2006-12-13",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-12-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4730,
-  "raw_trading_day_count": 4730,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4811,
+  "raw_trading_day_count": 4811,
   "available_years": [
     2006,
     2007,
@@ -145,14 +145,14 @@
     "atlas/ohlcv_min_by_symbol_year/091/091700/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/091/091700/2026.csv"
   ],
-  "latest_close": 7890,
-  "latest_marcap": 433950000000,
-  "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 7890,
-  "raw_latest_marcap": 433950000000,
-  "raw_latest_market": "KOSDAQ GLOBAL",
+  "latest_close": 6140,
+  "latest_marcap": 307000000000,
+  "latest_market": "KOSDAQ",
+  "raw_latest_close": 6140,
+  "raw_latest_marcap": 307000000000,
+  "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4730,
+    "tradable_ohlcv": 4811,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

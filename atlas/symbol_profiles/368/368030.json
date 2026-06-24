@@ -5,7 +5,7 @@
     {
       "name": "창대정밀",
       "first_date": "2024-12-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-13"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2024-12-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-13"
     }
   ],
   "first_date": "2024-12-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-05-13",
   "raw_first_date": "2024-12-23",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-05-13",
   "trading_day_count": 0,
-  "raw_trading_day_count": 280,
+  "raw_trading_day_count": 335,
   "available_years": [],
   "raw_available_years": [
     2024,
@@ -45,7 +45,7 @@
   "raw_latest_market": "KONEX",
   "row_status_counts": {
     "tradable_ohlcv": 0,
-    "non_tradable_zero_volume": 280,
+    "non_tradable_zero_volume": 335,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
@@ -55,7 +55,7 @@
   "corporate_action_candidate_dates": [],
   "has_major_raw_discontinuity": false,
   "calibration_caveat": "",
-  "status_inferred": "active_like",
+  "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",
   "source_repo_url": "https://github.com/FinanceData/marcap",

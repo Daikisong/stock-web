@@ -5,7 +5,7 @@
     {
       "name": "틸론",
       "first_date": "2015-05-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2015-05-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-05-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-05-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2277,
-  "raw_trading_day_count": 2635,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2358,
+  "raw_trading_day_count": 2716,
   "available_years": [
     2015,
     2016,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/217/217880/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/217/217880/2026.csv"
   ],
-  "latest_close": 1439,
-  "latest_marcap": 15436570310,
+  "latest_close": 1091,
+  "latest_marcap": 11703473390,
   "latest_market": "KONEX",
-  "raw_latest_close": 1439,
-  "raw_latest_marcap": 15436570310,
+  "raw_latest_close": 1091,
+  "raw_latest_marcap": 11703473390,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 2277,
+    "tradable_ohlcv": 2358,
     "non_tradable_zero_volume": 358,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

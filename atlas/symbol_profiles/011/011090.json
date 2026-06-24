@@ -10,7 +10,7 @@
     {
       "name": "에넥스",
       "first_date": "1995-07-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-07-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-07-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-07-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7682,
-  "raw_trading_day_count": 7710,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7747,
+  "raw_trading_day_count": 7791,
   "available_years": [
     1995,
     1996,
@@ -199,28 +199,29 @@
     "atlas/ohlcv_min_by_symbol_year/011/011090/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/011/011090/2026.csv"
   ],
-  "latest_close": 498,
-  "latest_marcap": 29875837218,
+  "latest_close": 1402,
+  "latest_marcap": 16623589708,
   "latest_market": "KOSPI",
-  "raw_latest_close": 498,
-  "raw_latest_marcap": 29875837218,
+  "raw_latest_close": 1402,
+  "raw_latest_marcap": 16623589708,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7682,
-    "non_tradable_zero_volume": 28,
+    "tradable_ohlcv": 7747,
+    "non_tradable_zero_volume": 44,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_count": 7,
   "corporate_action_candidate_dates": [
     "1996-01-03",
     "1997-02-11",
     "1998-05-04",
     "1999-01-08",
     "2008-05-08",
-    "2013-02-07"
+    "2013-02-07",
+    "2026-05-20"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

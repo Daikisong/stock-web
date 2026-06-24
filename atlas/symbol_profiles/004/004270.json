@@ -10,7 +10,7 @@
     {
       "name": "남성",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7716,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7782,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,23 +199,24 @@
     "atlas/ohlcv_min_by_symbol_year/004/004270/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/004/004270/2026.csv"
   ],
-  "latest_close": 786,
-  "latest_marcap": 28462757760,
+  "latest_close": 7080,
+  "latest_marcap": 25638209280,
   "latest_market": "KOSPI",
-  "raw_latest_close": 786,
-  "raw_latest_marcap": 28462757760,
+  "raw_latest_close": 7080,
+  "raw_latest_marcap": 25638209280,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7716,
-    "non_tradable_zero_volume": 49,
+    "tradable_ohlcv": 7782,
+    "non_tradable_zero_volume": 64,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 2,
   "corporate_action_candidate_dates": [
-    "2015-05-22"
+    "2015-05-22",
+    "2026-05-06"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

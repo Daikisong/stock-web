@@ -10,7 +10,7 @@
     {
       "name": "엔솔바이오사이언스",
       "first_date": "2018-10-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KONEX",
       "first_date": "2018-09-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-09-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-09-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1826,
-  "raw_trading_day_count": 1826,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1907,
+  "raw_trading_day_count": 1907,
   "available_years": [
     2018,
     2019,
@@ -84,14 +84,14 @@
     "atlas/ohlcv_min_by_symbol_year/140/140610/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/140/140610/2026.csv"
   ],
-  "latest_close": 15200,
-  "latest_marcap": 205619884800,
+  "latest_close": 12400,
+  "latest_marcap": 172224505200,
   "latest_market": "KONEX",
-  "raw_latest_close": 15200,
-  "raw_latest_marcap": 205619884800,
+  "raw_latest_close": 12400,
+  "raw_latest_marcap": 172224505200,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1826,
+    "tradable_ohlcv": 1907,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

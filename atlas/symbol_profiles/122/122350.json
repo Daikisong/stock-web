@@ -5,7 +5,7 @@
     {
       "name": "삼기",
       "first_date": "2020-10-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "삼기오토모티브",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-03-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-03-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-03-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3876,
-  "raw_trading_day_count": 3920,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3957,
+  "raw_trading_day_count": 4001,
   "available_years": [
     2010,
     2011,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/122/122350/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/122/122350/2026.csv"
   ],
-  "latest_close": 1761,
-  "latest_marcap": 67515732708,
+  "latest_close": 915,
+  "latest_marcap": 35080576620,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1761,
-  "raw_latest_marcap": 67515732708,
+  "raw_latest_close": 915,
+  "raw_latest_marcap": 35080576620,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3876,
+    "tradable_ohlcv": 3957,
     "non_tradable_zero_volume": 43,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "E1",
       "first_date": "2004-04-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "LG가스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1997-08-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-08-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-08-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7020,
-  "raw_trading_day_count": 7083,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7101,
+  "raw_trading_day_count": 7164,
   "available_years": [
     1997,
     1998,
@@ -189,14 +189,14 @@
     "atlas/ohlcv_min_by_symbol_year/017/017940/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/017/017940/2026.csv"
   ],
-  "latest_close": 112500,
-  "latest_marcap": 771750000000,
+  "latest_close": 79600,
+  "latest_marcap": 546056000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 112500,
-  "raw_latest_marcap": 771750000000,
+  "raw_latest_close": 79600,
+  "raw_latest_marcap": 546056000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7020,
+    "tradable_ohlcv": 7101,
     "non_tradable_zero_volume": 63,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

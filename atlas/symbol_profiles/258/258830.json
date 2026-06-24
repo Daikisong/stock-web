@@ -5,7 +5,7 @@
     {
       "name": "세종메디칼",
       "first_date": "2018-05-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-05-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-05-29",
   "last_date": "2024-03-29",
   "raw_first_date": "2018-05-29",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 1429,
-  "raw_trading_day_count": 1897,
+  "raw_trading_day_count": 1978,
   "available_years": [
     2018,
     2019,
@@ -77,11 +77,11 @@
   "latest_marcap": 22810685704,
   "latest_market": "KOSDAQ",
   "raw_latest_close": 412,
-  "raw_latest_marcap": 27103976612,
+  "raw_latest_marcap": 31223976612,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 1429,
-    "non_tradable_zero_volume": 468,
+    "non_tradable_zero_volume": 549,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

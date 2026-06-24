@@ -5,7 +5,7 @@
     {
       "name": "HMM",
       "first_date": "2020-04-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "현대상선",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-10-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-10-13",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-10-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7607,
-  "raw_trading_day_count": 7639,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7688,
+  "raw_trading_day_count": 7720,
   "available_years": [
     1995,
     1996,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/011/011200/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/011/011200/2026.csv"
   ],
-  "latest_close": 23150,
-  "latest_marcap": 21835959005500,
+  "latest_close": 19550,
+  "latest_marcap": 18440302313500,
   "latest_market": "KOSPI",
-  "raw_latest_close": 23150,
-  "raw_latest_marcap": 21835959005500,
+  "raw_latest_close": 19550,
+  "raw_latest_marcap": 18440302313500,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7607,
+    "tradable_ohlcv": 7688,
     "non_tradable_zero_volume": 32,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

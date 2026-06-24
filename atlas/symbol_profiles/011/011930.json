@@ -15,7 +15,7 @@
     {
       "name": "신성이엔지",
       "first_date": "1996-07-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "신성홀딩스",
@@ -36,15 +36,15 @@
     {
       "market": "KOSPI",
       "first_date": "1996-07-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7370,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7438,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -210,21 +210,21 @@
     "atlas/ohlcv_min_by_symbol_year/011/011930/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/011/011930/2026.csv"
   ],
-  "latest_close": 2320,
-  "latest_marcap": 477567710320,
+  "latest_close": 20400,
+  "latest_marcap": 414246112800,
   "latest_market": "KOSPI",
-  "raw_latest_close": 2320,
-  "raw_latest_marcap": 477567710320,
+  "raw_latest_close": 20400,
+  "raw_latest_marcap": 414246112800,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7370,
-    "non_tradable_zero_volume": 52,
+    "tradable_ohlcv": 7438,
+    "non_tradable_zero_volume": 65,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 10,
+  "corporate_action_candidate_count": 11,
   "corporate_action_candidate_dates": [
     "1997-01-03",
     "1997-06-21",
@@ -235,7 +235,8 @@
     "2013-01-07",
     "2015-01-07",
     "2016-05-31",
-    "2017-01-02"
+    "2017-01-02",
+    "2026-05-15"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

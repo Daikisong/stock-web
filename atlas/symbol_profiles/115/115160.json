@@ -5,7 +5,7 @@
     {
       "name": "휴맥스",
       "first_date": "2009-11-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2009-11-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-11-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-11-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4004,
-  "raw_trading_day_count": 4004,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4070,
+  "raw_trading_day_count": 4085,
   "available_years": [
     2009,
     2010,
@@ -124,23 +124,24 @@
     "atlas/ohlcv_min_by_symbol_year/115/115160/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/115/115160/2026.csv"
   ],
-  "latest_close": 780,
-  "latest_marcap": 34296696720,
+  "latest_close": 5910,
+  "latest_marcap": 25484759220,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 780,
-  "raw_latest_marcap": 34296696720,
+  "raw_latest_close": 5910,
+  "raw_latest_marcap": 25484759220,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4004,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 4070,
+    "non_tradable_zero_volume": 15,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 2,
   "corporate_action_candidate_dates": [
-    "2021-06-28"
+    "2021-06-28",
+    "2026-04-30"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

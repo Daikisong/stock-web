@@ -5,7 +5,7 @@
     {
       "name": "한전산업",
       "first_date": "2010-12-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2010-12-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-12-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-12-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3718,
-  "raw_trading_day_count": 3732,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3799,
+  "raw_trading_day_count": 3813,
   "available_years": [
     2010,
     2011,
@@ -119,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/130/130660/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/130/130660/2026.csv"
   ],
-  "latest_close": 25550,
-  "latest_marcap": 832930000000,
+  "latest_close": 12310,
+  "latest_marcap": 401306000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 25550,
-  "raw_latest_marcap": 832930000000,
+  "raw_latest_close": 12310,
+  "raw_latest_marcap": 401306000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3718,
+    "tradable_ohlcv": 3799,
     "non_tradable_zero_volume": 14,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

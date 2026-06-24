@@ -25,7 +25,7 @@
     {
       "name": "티엔엔터테인먼트",
       "first_date": "2023-09-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2011-06-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-06-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2011-06-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3479,
-  "raw_trading_day_count": 3612,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3560,
+  "raw_trading_day_count": 3693,
   "available_years": [
     2011,
     2012,
@@ -134,14 +134,14 @@
     "atlas/ohlcv_min_by_symbol_year/131/131100/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/131/131100/2026.csv"
   ],
-  "latest_close": 1425,
-  "latest_marcap": 45951581700,
+  "latest_close": 800,
+  "latest_marcap": 25797379200,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1425,
-  "raw_latest_marcap": 45951581700,
+  "raw_latest_close": 800,
+  "raw_latest_marcap": 25797379200,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3479,
+    "tradable_ohlcv": 3560,
     "non_tradable_zero_volume": 133,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,25 +5,31 @@
     {
       "name": "펌텍코리아",
       "first_date": "2019-07-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
-    "KOSDAQ"
+    "KOSDAQ",
+    "KOSDAQ GLOBAL"
   ],
   "market_history": [
     {
       "market": "KOSDAQ",
       "first_date": "2019-07-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-11"
+    },
+    {
+      "market": "KOSDAQ GLOBAL",
+      "first_date": "2026-06-12",
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-07-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-07-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1628,
-  "raw_trading_day_count": 1628,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1709,
+  "raw_trading_day_count": 1709,
   "available_years": [
     2019,
     2020,
@@ -74,14 +80,14 @@
     "atlas/ohlcv_min_by_symbol_year/251/251970/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/251/251970/2026.csv"
   ],
-  "latest_close": 57000,
-  "latest_marcap": 706800000000,
-  "latest_market": "KOSDAQ",
-  "raw_latest_close": 57000,
-  "raw_latest_marcap": 706800000000,
-  "raw_latest_market": "KOSDAQ",
+  "latest_close": 34400,
+  "latest_marcap": 426560000000,
+  "latest_market": "KOSDAQ GLOBAL",
+  "raw_latest_close": 34400,
+  "raw_latest_marcap": 426560000000,
+  "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 1628,
+    "tradable_ohlcv": 1709,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

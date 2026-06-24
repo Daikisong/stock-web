@@ -10,7 +10,7 @@
     {
       "name": "아티스트스튜디오",
       "first_date": "2024-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-12-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-12-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-12-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2588,
-  "raw_trading_day_count": 2737,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2669,
+  "raw_trading_day_count": 2818,
   "available_years": [
     2014,
     2015,
@@ -110,14 +110,14 @@
     "atlas/ohlcv_min_by_symbol_year/200/200350/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/200/200350/2026.csv"
   ],
-  "latest_close": 5110,
-  "latest_marcap": 51079687750,
+  "latest_close": 2370,
+  "latest_marcap": 23690579250,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5110,
-  "raw_latest_marcap": 51079687750,
+  "raw_latest_close": 2370,
+  "raw_latest_marcap": 23690579250,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2588,
+    "tradable_ohlcv": 2669,
     "non_tradable_zero_volume": 149,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

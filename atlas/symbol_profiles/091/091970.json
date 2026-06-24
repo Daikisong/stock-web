@@ -5,7 +5,7 @@
     {
       "name": "나노캠텍",
       "first_date": "2007-01-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2007-01-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-01-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-01-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4352,
-  "raw_trading_day_count": 4699,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4417,
+  "raw_trading_day_count": 4780,
   "available_years": [
     2007,
     2008,
@@ -131,26 +131,27 @@
     "atlas/ohlcv_min_by_symbol_year/091/091970/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/091/091970/2026.csv"
   ],
-  "latest_close": 610,
-  "latest_marcap": 22981080830,
+  "latest_close": 3650,
+  "latest_marcap": 27501947000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 610,
-  "raw_latest_marcap": 22981080830,
+  "raw_latest_close": 3650,
+  "raw_latest_marcap": 27501947000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4352,
-    "non_tradable_zero_volume": 347,
+    "tradable_ohlcv": 4417,
+    "non_tradable_zero_volume": 363,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2011-02-08",
     "2011-02-14",
     "2016-11-16",
-    "2023-03-03"
+    "2023-03-03",
+    "2026-05-27"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

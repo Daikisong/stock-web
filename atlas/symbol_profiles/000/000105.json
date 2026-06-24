@@ -5,7 +5,7 @@
     {
       "name": "유진스팩12호",
       "first_date": "2025-12-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "유한양행(1우 )",
@@ -25,7 +25,7 @@
     {
       "name": "유한양행우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -36,20 +36,20 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-12-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6510,
-  "raw_trading_day_count": 7811,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6591,
+  "raw_trading_day_count": 7973,
   "available_years": [
     1995,
     1996,
@@ -220,14 +220,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000105/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000105/2026.csv"
   ],
-  "latest_close": 96700,
-  "latest_marcap": 114196898000,
+  "latest_close": 60800,
+  "latest_marcap": 71801152000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 2045,
-  "raw_latest_marcap": 11574700000,
+  "raw_latest_close": 1999,
+  "raw_latest_marcap": 11314340000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6556,
+    "tradable_ohlcv": 6718,
     "non_tradable_zero_volume": 1255,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

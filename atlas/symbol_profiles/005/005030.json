@@ -5,7 +5,7 @@
     {
       "name": "부산주공",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
   "last_date": "2023-04-11",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 6917,
-  "raw_trading_day_count": 7765,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -189,11 +189,11 @@
   "latest_marcap": 35443488168,
   "latest_market": "KOSPI",
   "raw_latest_close": 486,
-  "raw_latest_marcap": 38288532168,
+  "raw_latest_marcap": 45092532168,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
     "tradable_ohlcv": 6917,
-    "non_tradable_zero_volume": 848,
+    "non_tradable_zero_volume": 929,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

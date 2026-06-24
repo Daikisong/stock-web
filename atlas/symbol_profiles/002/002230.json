@@ -5,7 +5,7 @@
     {
       "name": "피에스텍",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6778,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6859,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -189,14 +189,14 @@
     "atlas/ohlcv_min_by_symbol_year/002/002230/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/002/002230/2026.csv"
   ],
-  "latest_close": 11600,
-  "latest_marcap": 223576312000,
+  "latest_close": 5280,
+  "latest_marcap": 98764089600,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 11600,
-  "raw_latest_marcap": 223576312000,
+  "raw_latest_close": 5280,
+  "raw_latest_marcap": 98764089600,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6778,
+    "tradable_ohlcv": 6859,
     "non_tradable_zero_volume": 644,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

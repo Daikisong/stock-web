@@ -10,7 +10,7 @@
     {
       "name": "한화생명",
       "first_date": "2012-10-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2010-03-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-03-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-03-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3922,
-  "raw_trading_day_count": 3922,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4003,
+  "raw_trading_day_count": 4003,
   "available_years": [
     2010,
     2011,
@@ -124,14 +124,14 @@
     "atlas/ohlcv_min_by_symbol_year/088/088350/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/088/088350/2026.csv"
   ],
-  "latest_close": 6600,
-  "latest_marcap": 5732298000000,
+  "latest_close": 5000,
+  "latest_marcap": 4342650000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 6600,
-  "raw_latest_marcap": 5732298000000,
+  "raw_latest_close": 5000,
+  "raw_latest_marcap": 4342650000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3922,
+    "tradable_ohlcv": 4003,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "강동씨앤엘",
       "first_date": "2024-07-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "고려시멘트",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-08-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-08-13",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-08-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2704,
-  "raw_trading_day_count": 2826,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2785,
+  "raw_trading_day_count": 2907,
   "available_years": [
     2014,
     2015,
@@ -114,14 +114,14 @@
     "atlas/ohlcv_min_by_symbol_year/198/198440/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/198/198440/2026.csv"
   ],
-  "latest_close": 1102,
-  "latest_marcap": 67146949392,
+  "latest_close": 2120,
+  "latest_marcap": 129175619520,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1102,
-  "raw_latest_marcap": 67146949392,
+  "raw_latest_close": 2120,
+  "raw_latest_marcap": 129175619520,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2704,
+    "tradable_ohlcv": 2785,
     "non_tradable_zero_volume": 122,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

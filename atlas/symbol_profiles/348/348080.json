@@ -5,7 +5,7 @@
     {
       "name": "큐라티스",
       "first_date": "2023-06-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-06-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-06-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-06-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 653,
-  "raw_trading_day_count": 653,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 734,
+  "raw_trading_day_count": 734,
   "available_years": [
     2023,
     2024,
@@ -54,24 +54,25 @@
     "atlas/ohlcv_min_by_symbol_year/348/348080/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/348/348080/2026.csv"
   ],
-  "latest_close": 967,
-  "latest_marcap": 79087829798,
+  "latest_close": 381,
+  "latest_marcap": 43986366561,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 967,
-  "raw_latest_marcap": 79087829798,
+  "raw_latest_close": 381,
+  "raw_latest_marcap": 43986366561,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 653,
+    "tradable_ohlcv": 734,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2023-07-03",
-    "2025-04-01"
+    "2025-04-01",
+    "2026-03-17"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

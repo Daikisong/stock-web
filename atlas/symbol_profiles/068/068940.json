@@ -5,7 +5,7 @@
     {
       "name": "셀피글로벌",
       "first_date": "2022-09-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "아이씨케이",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-10-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-10-19",
   "last_date": "2023-03-21",
   "raw_first_date": "2010-10-19",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 3051,
-  "raw_trading_day_count": 3774,
+  "raw_trading_day_count": 3855,
   "available_years": [
     2010,
     2011,
@@ -128,7 +128,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 3051,
-    "non_tradable_zero_volume": 723,
+    "non_tradable_zero_volume": 804,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

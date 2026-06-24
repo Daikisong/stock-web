@@ -15,7 +15,7 @@
     {
       "name": "글로본",
       "first_date": "2016-01-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "베리타스",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6645,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6726,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -209,14 +209,14 @@
     "atlas/ohlcv_min_by_symbol_year/019/019660/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/019/019660/2026.csv"
   ],
-  "latest_close": 2265,
-  "latest_marcap": 31583914245,
+  "latest_close": 1779,
+  "latest_marcap": 24806968407,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2265,
-  "raw_latest_marcap": 31583914245,
+  "raw_latest_close": 1779,
+  "raw_latest_marcap": 24806968407,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6645,
+    "tradable_ohlcv": 6726,
     "non_tradable_zero_volume": 777,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -52,7 +52,7 @@
         2026
       ],
       "first_date": "2006-06-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -160,7 +160,7 @@
         2026
       ],
       "first_date": "2006-10-20",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -214,7 +214,7 @@
         2026
       ],
       "first_date": "2006-07-03",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -268,7 +268,7 @@
         2026
       ],
       "first_date": "2006-07-03",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -312,7 +312,7 @@
         2026
       ],
       "first_date": "2011-10-17",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -366,7 +366,7 @@
         2026
       ],
       "first_date": "2006-12-26",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -404,7 +404,7 @@
         2026
       ],
       "first_date": "2014-08-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -458,7 +458,7 @@
         2026
       ],
       "first_date": "2006-06-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -512,7 +512,7 @@
         2026
       ],
       "first_date": "2006-06-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -564,12 +564,12 @@
         2026
       ],
       "first_date": "2007-01-26",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "090470",
-      "name": "제이스텍",
+      "name": "제이스로보틱스",
       "profile_path": "atlas/symbol_profiles/090/090470.json",
       "available_years": [
         2007,
@@ -616,7 +616,7 @@
         2026
       ],
       "first_date": "2007-01-10",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -701,7 +701,7 @@
         2026
       ],
       "first_date": "2006-12-05",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -819,7 +819,7 @@
         2026
       ],
       "first_date": "2013-12-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {

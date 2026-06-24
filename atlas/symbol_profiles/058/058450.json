@@ -20,7 +20,7 @@
     {
       "name": "한주에이알티",
       "first_date": "2024-06-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-01-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-01-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-01-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5468,
-  "raw_trading_day_count": 5944,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5536,
+  "raw_trading_day_count": 6025,
   "available_years": [
     2002,
     2003,
@@ -171,28 +171,29 @@
     "atlas/ohlcv_min_by_symbol_year/058/058450/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/058/058450/2026.csv"
   ],
-  "latest_close": 865,
-  "latest_marcap": 16219965325,
+  "latest_close": 4900,
+  "latest_marcap": 24565522800,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 865,
-  "raw_latest_marcap": 16219965325,
+  "raw_latest_close": 4900,
+  "raw_latest_marcap": 24565522800,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5468,
-    "non_tradable_zero_volume": 476,
+    "tradable_ohlcv": 5536,
+    "non_tradable_zero_volume": 489,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_count": 7,
   "corporate_action_candidate_dates": [
     "2007-01-03",
     "2018-11-26",
     "2020-05-12",
     "2023-04-12",
     "2023-12-12",
-    "2026-02-13"
+    "2026-02-13",
+    "2026-04-27"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

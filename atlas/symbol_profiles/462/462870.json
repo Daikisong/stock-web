@@ -5,7 +5,7 @@
     {
       "name": "시프트업",
       "first_date": "2024-07-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2024-07-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-07-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-07-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 390,
-  "raw_trading_day_count": 390,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 471,
+  "raw_trading_day_count": 471,
   "available_years": [
     2024,
     2025,
@@ -49,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/462/462870/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/462/462870/2026.csv"
   ],
-  "latest_close": 33600,
-  "latest_marcap": 1981104384000,
+  "latest_close": 32300,
+  "latest_marcap": 1894535182000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 33600,
-  "raw_latest_marcap": 1981104384000,
+  "raw_latest_close": 32300,
+  "raw_latest_marcap": 1894535182000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 390,
+    "tradable_ohlcv": 471,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

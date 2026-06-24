@@ -5,7 +5,7 @@
     {
       "name": "골드앤에스",
       "first_date": "2021-04-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "더블유에프엠",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-12-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-12-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-12-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5792,
-  "raw_trading_day_count": 6458,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5862,
+  "raw_trading_day_count": 6539,
   "available_years": [
     1999,
     2000,
@@ -188,21 +188,21 @@
     "atlas/ohlcv_min_by_symbol_year/035/035290/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/035/035290/2026.csv"
   ],
-  "latest_close": 631,
-  "latest_marcap": 15041929440,
+  "latest_close": 2500,
+  "latest_marcap": 11919120000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 631,
-  "raw_latest_marcap": 15041929440,
+  "raw_latest_close": 2500,
+  "raw_latest_marcap": 11919120000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5792,
-    "non_tradable_zero_volume": 666,
+    "tradable_ohlcv": 5862,
+    "non_tradable_zero_volume": 677,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 9,
+  "corporate_action_candidate_count": 10,
   "corporate_action_candidate_dates": [
     "2000-04-17",
     "2000-06-29",
@@ -212,7 +212,8 @@
     "2014-03-06",
     "2022-04-26",
     "2022-11-23",
-    "2025-12-23"
+    "2025-12-23",
+    "2026-05-29"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

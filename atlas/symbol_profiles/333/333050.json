@@ -1,16 +1,21 @@
 {
   "code": "333050",
-  "current_or_latest_name": "모코엠시스",
+  "current_or_latest_name": "이노테나",
   "name_history": [
     {
       "name": "모코엠시스",
       "first_date": "2022-10-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-17"
     },
     {
       "name": "신한제6호스팩",
       "first_date": "2019-10-31",
       "last_date": "2022-10-18"
+    },
+    {
+      "name": "이노테나",
+      "first_date": "2026-04-20",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-10-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-10-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-10-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1464,
-  "raw_trading_day_count": 1548,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1530,
+  "raw_trading_day_count": 1629,
   "available_years": [
     2019,
     2020,
@@ -79,23 +84,24 @@
     "atlas/ohlcv_min_by_symbol_year/333/333050/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/333/333050/2026.csv"
   ],
-  "latest_close": 1236,
-  "latest_marcap": 30422070936,
+  "latest_close": 4990,
+  "latest_marcap": 24564098350,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1236,
-  "raw_latest_marcap": 30422070936,
+  "raw_latest_close": 4990,
+  "raw_latest_marcap": 24564098350,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1464,
-    "non_tradable_zero_volume": 84,
+    "tradable_ohlcv": 1530,
+    "non_tradable_zero_volume": 99,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 2,
   "corporate_action_candidate_dates": [
-    "2022-10-19"
+    "2022-10-19",
+    "2026-05-20"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

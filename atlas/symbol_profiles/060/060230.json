@@ -40,7 +40,7 @@
     {
       "name": "제이케이시냅스",
       "first_date": "2025-10-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "튜브미디어",
@@ -60,15 +60,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-06-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-06-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-18",
   "raw_first_date": "2002-06-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5752,
-  "raw_trading_day_count": 5839,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5815,
+  "raw_trading_day_count": 5920,
   "available_years": [
     2002,
     2003,
@@ -204,21 +204,21 @@
     "atlas/ohlcv_min_by_symbol_year/060/060230/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/060/060230/2026.csv"
   ],
-  "latest_close": 1792,
-  "latest_marcap": 16361737728,
+  "latest_close": 299,
+  "latest_marcap": 16833846809,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1792,
-  "raw_latest_marcap": 16361737728,
+  "raw_latest_close": 299,
+  "raw_latest_marcap": 16833846809,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5752,
-    "non_tradable_zero_volume": 87,
+    "tradable_ohlcv": 5815,
+    "non_tradable_zero_volume": 105,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 12,
+  "corporate_action_candidate_count": 13,
   "corporate_action_candidate_dates": [
     "2004-06-10",
     "2004-09-15",
@@ -231,7 +231,8 @@
     "2017-01-02",
     "2019-01-24",
     "2022-06-07",
-    "2025-11-04"
+    "2025-11-04",
+    "2026-03-20"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

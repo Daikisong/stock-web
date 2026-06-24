@@ -5,7 +5,7 @@
     {
       "name": "메디안디노스틱",
       "first_date": "2017-06-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2017-06-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-06-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-19",
   "raw_first_date": "2017-06-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1168,
-  "raw_trading_day_count": 2122,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1223,
+  "raw_trading_day_count": 2203,
   "available_years": [
     2017,
     2018,
@@ -84,15 +84,15 @@
     "atlas/ohlcv_min_by_symbol_year/233/233250/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/233/233250/2026.csv"
   ],
-  "latest_close": 10450,
-  "latest_marcap": 18251280300,
+  "latest_close": 7800,
+  "latest_marcap": 13622965200,
   "latest_market": "KONEX",
-  "raw_latest_close": 10450,
-  "raw_latest_marcap": 18251280300,
+  "raw_latest_close": 7800,
+  "raw_latest_marcap": 13622965200,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1168,
-    "non_tradable_zero_volume": 954,
+    "tradable_ohlcv": 1223,
+    "non_tradable_zero_volume": 980,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

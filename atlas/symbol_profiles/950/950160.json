@@ -5,7 +5,7 @@
     {
       "name": "코오롱티슈진",
       "first_date": "2018-11-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코오롱티슈진(Reg.S)",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-11-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-11-06",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-11-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1193,
-  "raw_trading_day_count": 2034,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1274,
+  "raw_trading_day_count": 2115,
   "available_years": [
     2017,
     2018,
@@ -88,14 +88,14 @@
     "atlas/ohlcv_min_by_symbol_year/950/950160/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/950/950160/2026.csv"
   ],
-  "latest_close": 90600,
-  "latest_marcap": 7539846609000,
+  "latest_close": 101600,
+  "latest_marcap": 8625039900000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 90600,
-  "raw_latest_marcap": 7539846609000,
+  "raw_latest_close": 101600,
+  "raw_latest_marcap": 8625039900000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1193,
+    "tradable_ohlcv": 1274,
     "non_tradable_zero_volume": 841,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "디젠스",
       "first_date": "2012-11-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2012-11-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2012-11-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2012-11-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3250,
-  "raw_trading_day_count": 3250,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3331,
+  "raw_trading_day_count": 3331,
   "available_years": [
     2012,
     2013,
@@ -109,14 +109,14 @@
     "atlas/ohlcv_min_by_symbol_year/113/113810/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/113/113810/2026.csv"
   ],
-  "latest_close": 711,
-  "latest_marcap": 23198544261,
+  "latest_close": 515,
+  "latest_marcap": 16803446265,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 711,
-  "raw_latest_marcap": 23198544261,
+  "raw_latest_close": 515,
+  "raw_latest_marcap": 16803446265,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3250,
+    "tradable_ohlcv": 3331,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

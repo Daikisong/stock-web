@@ -5,7 +5,7 @@
     {
       "name": "셀트리온",
       "first_date": "2008-08-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "오알켐",
@@ -26,15 +26,15 @@
     {
       "market": "KOSPI",
       "first_date": "2018-02-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-07-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-07-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5064,
-  "raw_trading_day_count": 5081,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5145,
+  "raw_trading_day_count": 5162,
   "available_years": [
     2005,
     2006,
@@ -155,14 +155,14 @@
     "atlas/ohlcv_min_by_symbol_year/068/068270/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/068/068270/2026.csv"
   ],
-  "latest_close": 242000,
-  "latest_marcap": 55913679162000,
+  "latest_close": 168500,
+  "latest_marcap": 37345221834000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 242000,
-  "raw_latest_marcap": 55913679162000,
+  "raw_latest_close": 168500,
+  "raw_latest_marcap": 37345221834000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 5064,
+    "tradable_ohlcv": 5145,
     "non_tradable_zero_volume": 17,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

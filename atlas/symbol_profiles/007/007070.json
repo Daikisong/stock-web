@@ -5,7 +5,7 @@
     {
       "name": "GS리테일",
       "first_date": "2011-12-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2011-12-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-12-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2011-12-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3461,
-  "raw_trading_day_count": 3478,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3542,
+  "raw_trading_day_count": 3559,
   "available_years": [
     2011,
     2012,
@@ -114,14 +114,14 @@
     "atlas/ohlcv_min_by_symbol_year/007/007070/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/007/007070/2026.csv"
   ],
-  "latest_close": 22500,
-  "latest_marcap": 1881166837500,
+  "latest_close": 22100,
+  "latest_marcap": 1847723871500,
   "latest_market": "KOSPI",
-  "raw_latest_close": 22500,
-  "raw_latest_marcap": 1881166837500,
+  "raw_latest_close": 22100,
+  "raw_latest_marcap": 1847723871500,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3461,
+    "tradable_ohlcv": 3542,
     "non_tradable_zero_volume": 17,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

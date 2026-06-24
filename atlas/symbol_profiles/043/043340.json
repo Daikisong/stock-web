@@ -5,7 +5,7 @@
     {
       "name": "에쎈테크",
       "first_date": "2000-08-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-08-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-08-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-08-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6262,
-  "raw_trading_day_count": 6282,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6329,
+  "raw_trading_day_count": 6363,
   "available_years": [
     2000,
     2001,
@@ -169,28 +169,29 @@
     "atlas/ohlcv_min_by_symbol_year/043/043340/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/043/043340/2026.csv"
   ],
-  "latest_close": 588,
-  "latest_marcap": 55860000000,
+  "latest_close": 774,
+  "latest_marcap": 36765000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 588,
-  "raw_latest_marcap": 55860000000,
+  "raw_latest_close": 774,
+  "raw_latest_marcap": 36765000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6262,
-    "non_tradable_zero_volume": 20,
+    "tradable_ohlcv": 6329,
+    "non_tradable_zero_volume": 34,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_count": 7,
   "corporate_action_candidate_dates": [
     "2005-12-19",
     "2010-03-22",
     "2012-09-25",
     "2013-01-25",
     "2015-01-14",
-    "2023-12-22"
+    "2023-12-22",
+    "2026-05-19"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

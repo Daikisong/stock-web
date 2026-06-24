@@ -5,7 +5,7 @@
     {
       "name": "웹젠",
       "first_date": "2003-05-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2003-05-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2003-05-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5612,
-  "raw_trading_day_count": 5614,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5693,
+  "raw_trading_day_count": 5695,
   "available_years": [
     2003,
     2004,
@@ -160,14 +160,14 @@
     "atlas/ohlcv_min_by_symbol_year/069/069080/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/069/069080/2026.csv"
   ],
-  "latest_close": 14180,
-  "latest_marcap": 490640535120,
+  "latest_close": 11320,
+  "latest_marcap": 350541629000,
   "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 14180,
-  "raw_latest_marcap": 490640535120,
+  "raw_latest_close": 11320,
+  "raw_latest_marcap": 350541629000,
   "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 5612,
+    "tradable_ohlcv": 5693,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -1,6 +1,6 @@
 {
   "code": "007820",
-  "current_or_latest_name": "에스엠코어",
+  "current_or_latest_name": "엠엑스로보틱스",
   "name_history": [
     {
       "name": "신흥기계",
@@ -10,7 +10,12 @@
     {
       "name": "에스엠코어",
       "first_date": "2016-04-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-20"
+    },
+    {
+      "name": "엠엑스로보틱스",
+      "first_date": "2026-04-21",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2011-11-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-11-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2011-11-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3511,
-  "raw_trading_day_count": 3511,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3592,
+  "raw_trading_day_count": 3592,
   "available_years": [
     2011,
     2012,
@@ -119,14 +124,14 @@
     "atlas/ohlcv_min_by_symbol_year/007/007820/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/007/007820/2026.csv"
   ],
-  "latest_close": 5660,
-  "latest_marcap": 113392134360,
+  "latest_close": 3135,
+  "latest_marcap": 62806420710,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5660,
-  "raw_latest_marcap": 113392134360,
+  "raw_latest_close": 3135,
+  "raw_latest_marcap": 62806420710,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3511,
+    "tradable_ohlcv": 3592,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "아이지넷",
       "first_date": "2025-02-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-02-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-02-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-02-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 256,
-  "raw_trading_day_count": 256,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 337,
+  "raw_trading_day_count": 337,
   "available_years": [
     2025,
     2026
@@ -44,14 +44,14 @@
     "atlas/ohlcv_min_by_symbol_year/462/462980/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/462/462980/2026.csv"
   ],
-  "latest_close": 2020,
-  "latest_marcap": 36833562740,
+  "latest_close": 1471,
+  "latest_marcap": 26822856827,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2020,
-  "raw_latest_marcap": 36833562740,
+  "raw_latest_close": 1471,
+  "raw_latest_marcap": 26822856827,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 256,
+    "tradable_ohlcv": 337,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

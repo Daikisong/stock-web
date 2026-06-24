@@ -10,7 +10,7 @@
     {
       "name": "동국홀딩스",
       "first_date": "2023-06-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7751,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7810,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,28 +199,29 @@
     "atlas/ohlcv_min_by_symbol_year/001/001230/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/001/001230/2026.csv"
   ],
-  "latest_close": 9040,
-  "latest_marcap": 287476366320,
+  "latest_close": 1831,
+  "latest_marcap": 284734626165,
   "latest_market": "KOSPI",
-  "raw_latest_close": 9040,
-  "raw_latest_marcap": 287476366320,
+  "raw_latest_close": 1831,
+  "raw_latest_marcap": 284734626165,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7751,
-    "non_tradable_zero_volume": 13,
+    "tradable_ohlcv": 7810,
+    "non_tradable_zero_volume": 35,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_count": 7,
   "corporate_action_candidate_dates": [
     "1999-01-27",
     "1999-07-13",
     "1999-09-21",
     "2014-07-15",
     "2023-06-16",
-    "2023-11-13"
+    "2023-11-13",
+    "2026-05-29"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

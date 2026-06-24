@@ -10,7 +10,7 @@
     {
       "name": "피에스케이홀딩스",
       "first_date": "2019-05-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-01-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-01-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-01-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6873,
-  "raw_trading_day_count": 7272,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6954,
+  "raw_trading_day_count": 7353,
   "available_years": [
     1997,
     1998,
@@ -189,14 +189,14 @@
     "atlas/ohlcv_min_by_symbol_year/031/031980/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/031/031980/2026.csv"
   ],
-  "latest_close": 90600,
-  "latest_marcap": 1953552987000,
+  "latest_close": 128000,
+  "latest_marcap": 2759986560000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 90600,
-  "raw_latest_marcap": 1953552987000,
+  "raw_latest_close": 128000,
+  "raw_latest_marcap": 2759986560000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6873,
+    "tradable_ohlcv": 6954,
     "non_tradable_zero_volume": 399,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

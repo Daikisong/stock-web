@@ -15,7 +15,7 @@
     {
       "name": "넥스턴앤롤코리아",
       "first_date": "2025-11-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2006-11-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2006-11-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-11-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4745,
-  "raw_trading_day_count": 4760,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4826,
+  "raw_trading_day_count": 4841,
   "available_years": [
     2006,
     2007,
@@ -149,14 +149,14 @@
     "atlas/ohlcv_min_by_symbol_year/089/089140/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/089/089140/2026.csv"
   ],
-  "latest_close": 2605,
-  "latest_marcap": 38856789570,
+  "latest_close": 1853,
+  "latest_marcap": 28380981602,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2605,
-  "raw_latest_marcap": 38856789570,
+  "raw_latest_close": 1853,
+  "raw_latest_marcap": 28380981602,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4745,
+    "tradable_ohlcv": 4826,
     "non_tradable_zero_volume": 15,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

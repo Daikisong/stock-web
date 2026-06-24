@@ -5,7 +5,7 @@
     {
       "name": "크리스에프앤씨",
       "first_date": "2018-10-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-10-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-10-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-10-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1805,
-  "raw_trading_day_count": 1814,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1886,
+  "raw_trading_day_count": 1895,
   "available_years": [
     2018,
     2019,
@@ -79,14 +79,14 @@
     "atlas/ohlcv_min_by_symbol_year/110/110790/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/110/110790/2026.csv"
   ],
-  "latest_close": 4055,
-  "latest_marcap": 95012542800,
+  "latest_close": 3045,
+  "latest_marcap": 71347273200,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4055,
-  "raw_latest_marcap": 95012542800,
+  "raw_latest_close": 3045,
+  "raw_latest_marcap": 71347273200,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1805,
+    "tradable_ohlcv": 1886,
     "non_tradable_zero_volume": 9,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

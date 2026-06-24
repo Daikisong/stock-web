@@ -10,7 +10,7 @@
     {
       "name": "에이프로젠",
       "first_date": "2022-08-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "에이프로젠 KIC",
@@ -40,15 +40,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-07-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-07-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-07-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7492,
-  "raw_trading_day_count": 7710,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7557,
+  "raw_trading_day_count": 7791,
   "available_years": [
     1995,
     1996,
@@ -219,21 +219,21 @@
     "atlas/ohlcv_min_by_symbol_year/007/007460/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/007/007460/2026.csv"
   ],
-  "latest_close": 448,
-  "latest_marcap": 147528653440,
+  "latest_close": 2610,
+  "latest_marcap": 61582775130,
   "latest_market": "KOSPI",
-  "raw_latest_close": 448,
-  "raw_latest_marcap": 147528653440,
+  "raw_latest_close": 2610,
+  "raw_latest_marcap": 61582775130,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7492,
-    "non_tradable_zero_volume": 218,
+    "tradable_ohlcv": 7557,
+    "non_tradable_zero_volume": 234,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 11,
+  "corporate_action_candidate_count": 12,
   "corporate_action_candidate_dates": [
     "1996-01-03",
     "2001-12-24",
@@ -245,7 +245,8 @@
     "2017-12-08",
     "2019-01-08",
     "2022-08-05",
-    "2023-01-19"
+    "2023-01-19",
+    "2026-05-08"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

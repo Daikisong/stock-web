@@ -5,7 +5,7 @@
     {
       "name": "삼륭물산",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-11-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6546,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6627,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -189,14 +189,14 @@
     "atlas/ohlcv_min_by_symbol_year/014/014970/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/014/014970/2026.csv"
   ],
-  "latest_close": 7010,
-  "latest_marcap": 106026250000,
+  "latest_close": 4865,
+  "latest_marcap": 72123625000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 7010,
-  "raw_latest_marcap": 106026250000,
+  "raw_latest_close": 4865,
+  "raw_latest_marcap": 72123625000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6546,
+    "tradable_ohlcv": 6627,
     "non_tradable_zero_volume": 875,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

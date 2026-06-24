@@ -5,7 +5,7 @@
     {
       "name": "에스알바이오텍",
       "first_date": "2017-06-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2017-06-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-03-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-06-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1675,
-  "raw_trading_day_count": 2129,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1756,
+  "raw_trading_day_count": 2210,
   "available_years": [
     2018,
     2019,
@@ -81,14 +81,14 @@
     "atlas/ohlcv_min_by_symbol_year/270/270210/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/270/270210/2026.csv"
   ],
-  "latest_close": 27300,
-  "latest_marcap": 45439566900,
+  "latest_close": 10950,
+  "latest_marcap": 18740355600,
   "latest_market": "KONEX",
-  "raw_latest_close": 27300,
-  "raw_latest_marcap": 45439566900,
+  "raw_latest_close": 10950,
+  "raw_latest_marcap": 18740355600,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1675,
+    "tradable_ohlcv": 1756,
     "non_tradable_zero_volume": 454,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

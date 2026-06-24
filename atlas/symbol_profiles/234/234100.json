@@ -10,7 +10,7 @@
     {
       "name": "폴라리스세원",
       "first_date": "2022-04-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-10-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-12-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-12-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2353,
-  "raw_trading_day_count": 2487,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2418,
+  "raw_trading_day_count": 2568,
   "available_years": [
     2015,
     2016,
@@ -105,27 +105,28 @@
     "atlas/ohlcv_min_by_symbol_year/234/234100/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/234/234100/2026.csv"
   ],
-  "latest_close": 1187,
-  "latest_marcap": 84035092961,
+  "latest_close": 2545,
+  "latest_marcap": 37161163620,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1187,
-  "raw_latest_marcap": 84035092961,
+  "raw_latest_close": 2545,
+  "raw_latest_marcap": 37161163620,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2353,
-    "non_tradable_zero_volume": 134,
+    "tradable_ohlcv": 2418,
+    "non_tradable_zero_volume": 150,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_count": 6,
   "corporate_action_candidate_dates": [
     "2017-10-20",
     "2018-06-04",
     "2018-07-17",
     "2022-08-03",
-    "2025-01-02"
+    "2025-01-02",
+    "2026-05-26"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

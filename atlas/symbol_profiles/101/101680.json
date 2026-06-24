@@ -5,7 +5,7 @@
     {
       "name": "한국정밀기계",
       "first_date": "2009-05-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2009-05-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-05-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-05-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3165,
-  "raw_trading_day_count": 4132,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3246,
+  "raw_trading_day_count": 4213,
   "available_years": [
     2009,
     2010,
@@ -121,14 +121,14 @@
     "atlas/ohlcv_min_by_symbol_year/101/101680/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/101/101680/2026.csv"
   ],
-  "latest_close": 2820,
-  "latest_marcap": 23699280000,
+  "latest_close": 2150,
+  "latest_marcap": 18068600000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2820,
-  "raw_latest_marcap": 23699280000,
+  "raw_latest_close": 2150,
+  "raw_latest_marcap": 18068600000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3165,
+    "tradable_ohlcv": 3246,
     "non_tradable_zero_volume": 967,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

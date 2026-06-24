@@ -10,7 +10,7 @@
     {
       "name": "에스코넥",
       "first_date": "2009-07-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2007-12-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-12-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-12-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4449,
-  "raw_trading_day_count": 4476,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4515,
+  "raw_trading_day_count": 4557,
   "available_years": [
     2007,
     2008,
@@ -139,26 +139,27 @@
     "atlas/ohlcv_min_by_symbol_year/096/096630/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/096/096630/2026.csv"
   ],
-  "latest_close": 920,
-  "latest_marcap": 73031086720,
+  "latest_close": 2195,
+  "latest_marcap": 34848528985,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 920,
-  "raw_latest_marcap": 73031086720,
+  "raw_latest_close": 2195,
+  "raw_latest_marcap": 34848528985,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4449,
-    "non_tradable_zero_volume": 27,
+    "tradable_ohlcv": 4515,
+    "non_tradable_zero_volume": 42,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2009-07-13",
     "2009-08-10",
     "2011-03-04",
-    "2011-05-30"
+    "2011-05-30",
+    "2026-05-06"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

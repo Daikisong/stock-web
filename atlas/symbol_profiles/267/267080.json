@@ -5,7 +5,7 @@
     {
       "name": "세븐브로이맥주",
       "first_date": "2024-01-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2024-01-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-01-17",
   "last_date": "2025-05-28",
   "raw_first_date": "2024-01-17",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 328,
-  "raw_trading_day_count": 508,
+  "raw_trading_day_count": 589,
   "available_years": [
     2024,
     2025
@@ -54,7 +54,7 @@
   "raw_latest_market": "KONEX",
   "row_status_counts": {
     "tradable_ohlcv": 328,
-    "non_tradable_zero_volume": 180,
+    "non_tradable_zero_volume": 261,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

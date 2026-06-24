@@ -5,7 +5,7 @@
     {
       "name": "캡스톤파트너스",
       "first_date": "2023-11-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-11-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-11-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-11-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 550,
-  "raw_trading_day_count": 550,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 631,
+  "raw_trading_day_count": 631,
   "available_years": [
     2023,
     2024,
@@ -54,14 +54,14 @@
     "atlas/ohlcv_min_by_symbol_year/452/452300/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/452/452300/2026.csv"
   ],
-  "latest_close": 3480,
-  "latest_marcap": 49309877400,
+  "latest_close": 2525,
+  "latest_marcap": 35778000125,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3480,
-  "raw_latest_marcap": 49309877400,
+  "raw_latest_close": 2525,
+  "raw_latest_marcap": 35778000125,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 550,
+    "tradable_ohlcv": 631,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

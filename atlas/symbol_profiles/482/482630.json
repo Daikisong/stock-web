@@ -5,7 +5,7 @@
     {
       "name": "삼양엔씨켐",
       "first_date": "2025-02-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-02-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-02-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-02-03",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 257,
-  "raw_trading_day_count": 257,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 338,
+  "raw_trading_day_count": 338,
   "available_years": [
     2025,
     2026
@@ -44,23 +44,24 @@
     "atlas/ohlcv_min_by_symbol_year/482/482630/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/482/482630/2026.csv"
   ],
-  "latest_close": 22650,
-  "latest_marcap": 247884771000,
+  "latest_close": 20550,
+  "latest_marcap": 449804154000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 22650,
-  "raw_latest_marcap": 247884771000,
+  "raw_latest_close": 20550,
+  "raw_latest_marcap": 449804154000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 257,
+    "tradable_ohlcv": 338,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 2,
   "corporate_action_candidate_dates": [
-    "2026-02-20"
+    "2026-02-20",
+    "2026-03-23"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

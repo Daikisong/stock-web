@@ -5,7 +5,7 @@
     {
       "name": "다산네트웍스",
       "first_date": "2002-04-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "다산인터네트",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-06-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-06-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-06-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6323,
-  "raw_trading_day_count": 6328,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6404,
+  "raw_trading_day_count": 6409,
   "available_years": [
     2000,
     2001,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/039/039560/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/039/039560/2026.csv"
   ],
-  "latest_close": 4080,
-  "latest_marcap": 161625042480,
+  "latest_close": 2945,
+  "latest_marcap": 126306538260,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4080,
-  "raw_latest_marcap": 161625042480,
+  "raw_latest_close": 2945,
+  "raw_latest_marcap": 126306538260,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6323,
+    "tradable_ohlcv": 6404,
     "non_tradable_zero_volume": 5,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

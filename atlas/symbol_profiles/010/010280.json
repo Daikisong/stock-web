@@ -15,7 +15,7 @@
     {
       "name": "아이티센엔텍",
       "first_date": "2025-02-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-04-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-05-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-04-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6344,
-  "raw_trading_day_count": 6373,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6409,
+  "raw_trading_day_count": 6454,
   "available_years": [
     2000,
     2001,
@@ -179,25 +179,26 @@
     "atlas/ohlcv_min_by_symbol_year/010/010280/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/010/010280/2026.csv"
   ],
-  "latest_close": 1077,
-  "latest_marcap": 70138317522,
+  "latest_close": 4950,
+  "latest_marcap": 64472547150,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1077,
-  "raw_latest_marcap": 70138317522,
+  "raw_latest_close": 4950,
+  "raw_latest_marcap": 64472547150,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6344,
-    "non_tradable_zero_volume": 29,
+    "tradable_ohlcv": 6409,
+    "non_tradable_zero_volume": 45,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2002-05-13",
     "2004-12-01",
-    "2021-08-17"
+    "2021-08-17",
+    "2026-04-30"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

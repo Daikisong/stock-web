@@ -15,7 +15,7 @@
     {
       "name": "형지I&C",
       "first_date": "2015-10-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2004-07-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2004-07-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2004-07-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5330,
-  "raw_trading_day_count": 5342,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5394,
+  "raw_trading_day_count": 5423,
   "available_years": [
     2004,
     2005,
@@ -159,21 +159,21 @@
     "atlas/ohlcv_min_by_symbol_year/011/011080/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/011/011080/2026.csv"
   ],
-  "latest_close": 665,
-  "latest_marcap": 28570143630,
+  "latest_close": 2765,
+  "latest_marcap": 11879164430,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 665,
-  "raw_latest_marcap": 28570143630,
+  "raw_latest_close": 2765,
+  "raw_latest_marcap": 11879164430,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5330,
-    "non_tradable_zero_volume": 12,
+    "tradable_ohlcv": 5394,
+    "non_tradable_zero_volume": 29,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 7,
+  "corporate_action_candidate_count": 8,
   "corporate_action_candidate_dates": [
     "2007-01-25",
     "2007-02-28",
@@ -181,7 +181,8 @@
     "2014-05-16",
     "2022-10-20",
     "2022-12-15",
-    "2025-06-11"
+    "2025-06-11",
+    "2026-05-07"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

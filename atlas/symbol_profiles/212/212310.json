@@ -10,7 +10,7 @@
     {
       "name": "오건에코텍",
       "first_date": "2024-01-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "휴벡셀",
@@ -25,15 +25,15 @@
     {
       "market": "KONEX",
       "first_date": "2016-07-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-07-26",
   "last_date": "2025-04-07",
   "raw_first_date": "2016-07-26",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 1927,
-  "raw_trading_day_count": 2347,
+  "raw_trading_day_count": 2428,
   "available_years": [
     2016,
     2017,
@@ -100,11 +100,11 @@
   "latest_marcap": 6722852950,
   "latest_market": "KONEX",
   "raw_latest_close": 635,
-  "raw_latest_marcap": 7337979990,
+  "raw_latest_marcap": 7514663025,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
     "tradable_ohlcv": 1927,
-    "non_tradable_zero_volume": 420,
+    "non_tradable_zero_volume": 501,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

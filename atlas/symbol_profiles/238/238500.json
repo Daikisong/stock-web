@@ -1,6 +1,6 @@
 {
   "code": "238500",
-  "current_or_latest_name": "로보쓰리에이아이",
+  "current_or_latest_name": "솔루믹스",
   "name_history": [
     {
       "name": "로보쓰리",
@@ -10,12 +10,17 @@
     {
       "name": "로보쓰리에이아이",
       "first_date": "2024-04-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-24"
     },
     {
       "name": "로보쓰리에이아이앤로보틱스",
       "first_date": "2023-04-26",
       "last_date": "2024-04-17"
+    },
+    {
+      "name": "솔루믹스",
+      "first_date": "2026-04-27",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +30,15 @@
     {
       "market": "KONEX",
       "first_date": "2016-04-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-04-20",
   "last_date": "2025-04-04",
   "raw_first_date": "2016-04-20",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 2074,
-  "raw_trading_day_count": 2413,
+  "raw_trading_day_count": 2494,
   "available_years": [
     2016,
     2017,
@@ -99,12 +104,12 @@
   "latest_close": 190,
   "latest_marcap": 7983469780,
   "latest_market": "KONEX",
-  "raw_latest_close": 190,
-  "raw_latest_marcap": 9883469780,
+  "raw_latest_close": 475,
+  "raw_latest_marcap": 9883469400,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
     "tradable_ohlcv": 2074,
-    "non_tradable_zero_volume": 339,
+    "non_tradable_zero_volume": 420,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -5,7 +5,7 @@
     {
       "name": "인카금융서비스",
       "first_date": "2015-11-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2022-02-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-11-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-11-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2224,
-  "raw_trading_day_count": 2517,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2305,
+  "raw_trading_day_count": 2598,
   "available_years": [
     2015,
     2016,
@@ -100,14 +100,14 @@
     "atlas/ohlcv_min_by_symbol_year/211/211050/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/211/211050/2026.csv"
   ],
-  "latest_close": 15460,
-  "latest_marcap": 761616137220,
+  "latest_close": 9750,
+  "latest_marcap": 480320655750,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 15460,
-  "raw_latest_marcap": 761616137220,
+  "raw_latest_close": 9750,
+  "raw_latest_marcap": 480320655750,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2224,
+    "tradable_ohlcv": 2305,
     "non_tradable_zero_volume": 293,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

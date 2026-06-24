@@ -5,7 +5,7 @@
     {
       "name": "무림SP",
       "first_date": "2006-08-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "무림제지",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-01-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-01-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-01-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6428,
-  "raw_trading_day_count": 6442,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6509,
+  "raw_trading_day_count": 6523,
   "available_years": [
     2000,
     2001,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/001/001810/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/001/001810/2026.csv"
   ],
-  "latest_close": 1450,
-  "latest_marcap": 32099375000,
+  "latest_close": 1093,
+  "latest_marcap": 24196287500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1450,
-  "raw_latest_marcap": 32099375000,
+  "raw_latest_close": 1093,
+  "raw_latest_marcap": 24196287500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6428,
+    "tradable_ohlcv": 6509,
     "non_tradable_zero_volume": 14,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

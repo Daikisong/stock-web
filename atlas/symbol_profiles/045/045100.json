@@ -5,7 +5,7 @@
     {
       "name": "한양이엔지",
       "first_date": "2000-08-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-08-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-08-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-08-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6266,
-  "raw_trading_day_count": 6280,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6347,
+  "raw_trading_day_count": 6361,
   "available_years": [
     2000,
     2001,
@@ -169,14 +169,14 @@
     "atlas/ohlcv_min_by_symbol_year/045/045100/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/045/045100/2026.csv"
   ],
-  "latest_close": 29750,
-  "latest_marcap": 535500000000,
+  "latest_close": 31050,
+  "latest_marcap": 543375000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 29750,
-  "raw_latest_marcap": 535500000000,
+  "raw_latest_close": 31050,
+  "raw_latest_marcap": 543375000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6266,
+    "tradable_ohlcv": 6347,
     "non_tradable_zero_volume": 14,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

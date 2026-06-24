@@ -5,7 +5,7 @@
     {
       "name": "백금T&A",
       "first_date": "2007-01-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "백금정보통신",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-02-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-02-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-02-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5927,
-  "raw_trading_day_count": 5931,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6008,
+  "raw_trading_day_count": 6012,
   "available_years": [
     2002,
     2003,
@@ -164,14 +164,14 @@
     "atlas/ohlcv_min_by_symbol_year/046/046310/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/046/046310/2026.csv"
   ],
-  "latest_close": 3835,
-  "latest_marcap": 62965488235,
+  "latest_close": 2000,
+  "latest_marcap": 32837282000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3835,
-  "raw_latest_marcap": 62965488235,
+  "raw_latest_close": 2000,
+  "raw_latest_marcap": 32837282000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5927,
+    "tradable_ohlcv": 6008,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

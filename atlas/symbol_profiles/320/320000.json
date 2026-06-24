@@ -15,7 +15,7 @@
     {
       "name": "한울반도체",
       "first_date": "2024-07-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-09-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-09-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-09-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1516,
-  "raw_trading_day_count": 1577,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1582,
+  "raw_trading_day_count": 1658,
   "available_years": [
     2019,
     2020,
@@ -84,24 +84,25 @@
     "atlas/ohlcv_min_by_symbol_year/320/320000/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/320/320000/2026.csv"
   ],
-  "latest_close": 1918,
-  "latest_marcap": 63096875632,
+  "latest_close": 23150,
+  "latest_marcap": 154382951500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1918,
-  "raw_latest_marcap": 63096875632,
+  "raw_latest_close": 23150,
+  "raw_latest_marcap": 154382951500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1516,
-    "non_tradable_zero_volume": 61,
+    "tradable_ohlcv": 1582,
+    "non_tradable_zero_volume": 76,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2020-08-06",
-    "2024-07-18"
+    "2024-07-18",
+    "2026-05-08"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

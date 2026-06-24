@@ -5,7 +5,7 @@
     {
       "name": "지놈앤컴퍼니",
       "first_date": "2018-12-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-12-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-12-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-12-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1747,
-  "raw_trading_day_count": 1755,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1828,
+  "raw_trading_day_count": 1836,
   "available_years": [
     2018,
     2019,
@@ -85,24 +85,25 @@
     "atlas/ohlcv_min_by_symbol_year/314/314130/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/314/314130/2026.csv"
   ],
-  "latest_close": 7270,
-  "latest_marcap": 253671971870,
+  "latest_close": 4745,
+  "latest_marcap": 214029830040,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 7270,
-  "raw_latest_marcap": 253671971870,
+  "raw_latest_close": 4745,
+  "raw_latest_marcap": 214029830040,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1747,
+    "tradable_ohlcv": 1828,
     "non_tradable_zero_volume": 8,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2024-08-06",
-    "2024-08-27"
+    "2024-08-27",
+    "2026-05-21"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

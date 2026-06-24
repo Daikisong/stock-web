@@ -5,7 +5,7 @@
     {
       "name": "씨아이에스",
       "first_date": "2017-01-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한국3호스팩",
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2025-06-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-09-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-09-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2529,
-  "raw_trading_day_count": 2567,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2610,
+  "raw_trading_day_count": 2648,
   "available_years": [
     2015,
     2016,
@@ -105,14 +105,14 @@
     "atlas/ohlcv_min_by_symbol_year/222/222080/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/222/222080/2026.csv"
   ],
-  "latest_close": 13830,
-  "latest_marcap": 1071181905000,
+  "latest_close": 9910,
+  "latest_marcap": 770801227040,
   "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 13830,
-  "raw_latest_marcap": 1071181905000,
+  "raw_latest_close": 9910,
+  "raw_latest_marcap": 770801227040,
   "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 2529,
+    "tradable_ohlcv": 2610,
     "non_tradable_zero_volume": 38,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

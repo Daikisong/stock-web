@@ -1,11 +1,16 @@
 {
   "code": "005610",
-  "current_or_latest_name": "SPC삼립",
+  "current_or_latest_name": "삼립",
   "name_history": [
     {
       "name": "SPC삼립",
       "first_date": "2016-11-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-22"
+    },
+    {
+      "name": "삼립",
+      "first_date": "2026-04-23",
+      "last_date": "2026-06-22"
     },
     {
       "name": "삼립 지.에프",
@@ -30,15 +35,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7664,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7745,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -209,14 +214,14 @@
     "atlas/ohlcv_min_by_symbol_year/005/005610/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005610/2026.csv"
   ],
-  "latest_close": 51100,
-  "latest_marcap": 440942359900,
+  "latest_close": 38250,
+  "latest_marcap": 330059594250,
   "latest_market": "KOSPI",
-  "raw_latest_close": 51100,
-  "raw_latest_marcap": 440942359900,
+  "raw_latest_close": 38250,
+  "raw_latest_marcap": 330059594250,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7664,
+    "tradable_ohlcv": 7745,
     "non_tradable_zero_volume": 100,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

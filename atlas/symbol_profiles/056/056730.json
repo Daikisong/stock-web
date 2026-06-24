@@ -5,7 +5,7 @@
     {
       "name": "CNT85",
       "first_date": "2021-07-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "씨앤티85",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-01-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-01-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-01-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4856,
-  "raw_trading_day_count": 5953,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4923,
+  "raw_trading_day_count": 6034,
   "available_years": [
     2002,
     2003,
@@ -170,21 +170,21 @@
     "atlas/ohlcv_min_by_symbol_year/056/056730/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/056/056730/2026.csv"
   ],
-  "latest_close": 547,
-  "latest_marcap": 40538818742,
+  "latest_close": 2000,
+  "latest_marcap": 29644474000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 547,
-  "raw_latest_marcap": 40538818742,
+  "raw_latest_close": 2000,
+  "raw_latest_marcap": 29644474000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4856,
-    "non_tradable_zero_volume": 1096,
+    "tradable_ohlcv": 4923,
+    "non_tradable_zero_volume": 1110,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 12,
+  "corporate_action_candidate_count": 13,
   "corporate_action_candidate_dates": [
     "2005-12-12",
     "2006-01-16",
@@ -197,7 +197,8 @@
     "2017-07-28",
     "2017-11-03",
     "2023-03-30",
-    "2024-01-19"
+    "2024-01-19",
+    "2026-05-18"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

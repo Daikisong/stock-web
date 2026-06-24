@@ -5,7 +5,7 @@
     {
       "name": "파라다이스",
       "first_date": "2002-11-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSPI",
       "first_date": "2024-06-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-11-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-11-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5749,
-  "raw_trading_day_count": 5749,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5830,
+  "raw_trading_day_count": 5830,
   "available_years": [
     2002,
     2003,
@@ -165,14 +165,14 @@
     "atlas/ohlcv_min_by_symbol_year/034/034230/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/034/034230/2026.csv"
   ],
-  "latest_close": 20400,
-  "latest_marcap": 1885073403600,
+  "latest_close": 13960,
+  "latest_marcap": 1293106172720,
   "latest_market": "KOSPI",
-  "raw_latest_close": 20400,
-  "raw_latest_marcap": 1885073403600,
+  "raw_latest_close": 13960,
+  "raw_latest_marcap": 1293106172720,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 5749,
+    "tradable_ohlcv": 5830,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

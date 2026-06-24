@@ -1,11 +1,16 @@
 {
   "code": "221800",
-  "current_or_latest_name": "유투바이오",
+  "current_or_latest_name": "지구홀딩스",
   "name_history": [
     {
       "name": "유투바이오",
       "first_date": "2015-06-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-24"
+    },
+    {
+      "name": "지구홀딩스",
+      "first_date": "2026-04-27",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +26,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-11-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-06-29",
-  "last_date": "2026-02-19",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-06-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1929,
-  "raw_trading_day_count": 2613,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2009,
+  "raw_trading_day_count": 2694,
   "available_years": [
     2015,
     2016,
@@ -100,15 +105,15 @@
     "atlas/ohlcv_min_by_symbol_year/221/221800/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/221/221800/2026.csv"
   ],
-  "latest_close": 19070,
-  "latest_marcap": 303832279180,
+  "latest_close": 7330,
+  "latest_marcap": 119617177830,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 19070,
-  "raw_latest_marcap": 303832279180,
+  "raw_latest_close": 7330,
+  "raw_latest_marcap": 119617177830,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1929,
-    "non_tradable_zero_volume": 684,
+    "tradable_ohlcv": 2009,
+    "non_tradable_zero_volume": 685,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

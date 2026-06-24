@@ -5,25 +5,31 @@
     {
       "name": "코스메카코리아",
       "first_date": "2016-10-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
-    "KOSDAQ"
+    "KOSDAQ",
+    "KOSDAQ GLOBAL"
   ],
   "market_history": [
     {
       "market": "KOSDAQ",
       "first_date": "2016-10-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-11"
+    },
+    {
+      "market": "KOSDAQ GLOBAL",
+      "first_date": "2026-06-12",
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-10-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-10-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2284,
-  "raw_trading_day_count": 2284,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2365,
+  "raw_trading_day_count": 2365,
   "available_years": [
     2016,
     2017,
@@ -89,14 +95,14 @@
     "atlas/ohlcv_min_by_symbol_year/241/241710/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/241/241710/2026.csv"
   ],
-  "latest_close": 101400,
-  "latest_marcap": 1082952000000,
-  "latest_market": "KOSDAQ",
-  "raw_latest_close": 101400,
-  "raw_latest_marcap": 1082952000000,
-  "raw_latest_market": "KOSDAQ",
+  "latest_close": 66400,
+  "latest_marcap": 709152000000,
+  "latest_market": "KOSDAQ GLOBAL",
+  "raw_latest_close": 66400,
+  "raw_latest_marcap": 709152000000,
+  "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 2284,
+    "tradable_ohlcv": 2365,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

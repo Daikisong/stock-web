@@ -5,7 +5,7 @@
     {
       "name": "전진바이오팜",
       "first_date": "2018-12-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-12-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-12-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-12-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1761,
-  "raw_trading_day_count": 1762,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1842,
+  "raw_trading_day_count": 1843,
   "available_years": [
     2018,
     2019,
@@ -79,14 +79,14 @@
     "atlas/ohlcv_min_by_symbol_year/110/110020/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/110/110020/2026.csv"
   ],
-  "latest_close": 2260,
-  "latest_marcap": 20472802120,
+  "latest_close": 1641,
+  "latest_marcap": 14865428442,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2260,
-  "raw_latest_marcap": 20472802120,
+  "raw_latest_close": 1641,
+  "raw_latest_marcap": 14865428442,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1761,
+    "tradable_ohlcv": 1842,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

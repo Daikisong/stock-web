@@ -10,7 +10,7 @@
     {
       "name": "한화솔루션",
       "first_date": "2020-01-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한화종합화학",
@@ -35,15 +35,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7741,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7822,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -214,14 +214,14 @@
     "atlas/ohlcv_min_by_symbol_year/009/009830/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/009/009830/2026.csv"
   ],
-  "latest_close": 53000,
-  "latest_marcap": 9110304408000,
+  "latest_close": 37850,
+  "latest_marcap": 6506132487600,
   "latest_market": "KOSPI",
-  "raw_latest_close": 53000,
-  "raw_latest_marcap": 9110304408000,
+  "raw_latest_close": 37850,
+  "raw_latest_marcap": 6506132487600,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7741,
+    "tradable_ohlcv": 7822,
     "non_tradable_zero_volume": 23,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

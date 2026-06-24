@@ -5,7 +5,7 @@
     {
       "name": "뉴인텍",
       "first_date": "1997-02-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-02-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-02-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-02-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6852,
-  "raw_trading_day_count": 7243,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6916,
+  "raw_trading_day_count": 7324,
   "available_years": [
     1997,
     1998,
@@ -184,21 +184,21 @@
     "atlas/ohlcv_min_by_symbol_year/012/012340/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/012/012340/2026.csv"
   ],
-  "latest_close": 686,
-  "latest_marcap": 36721262382,
+  "latest_close": 986,
+  "latest_marcap": 11142107632,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 686,
-  "raw_latest_marcap": 36721262382,
+  "raw_latest_close": 986,
+  "raw_latest_marcap": 11142107632,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6852,
-    "non_tradable_zero_volume": 391,
+    "tradable_ohlcv": 6916,
+    "non_tradable_zero_volume": 408,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 10,
+  "corporate_action_candidate_count": 11,
   "corporate_action_candidate_dates": [
     "1998-12-22",
     "1999-10-26",
@@ -209,7 +209,8 @@
     "2016-08-11",
     "2019-10-08",
     "2019-11-21",
-    "2023-09-01"
+    "2023-09-01",
+    "2026-05-06"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

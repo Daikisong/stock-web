@@ -5,7 +5,7 @@
     {
       "name": "스튜디오미르",
       "first_date": "2023-02-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-02-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-02-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-02-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 740,
-  "raw_trading_day_count": 740,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 821,
+  "raw_trading_day_count": 821,
   "available_years": [
     2023,
     2024,
@@ -54,14 +54,14 @@
     "atlas/ohlcv_min_by_symbol_year/408/408900/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/408/408900/2026.csv"
   ],
-  "latest_close": 2615,
-  "latest_marcap": 85648909335,
+  "latest_close": 1251,
+  "latest_marcap": 40973914179,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2615,
-  "raw_latest_marcap": 85648909335,
+  "raw_latest_close": 1251,
+  "raw_latest_marcap": 40973914179,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 740,
+    "tradable_ohlcv": 821,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

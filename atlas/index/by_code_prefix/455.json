@@ -14,7 +14,7 @@
         2026
       ],
       "first_date": "2025-06-17",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -54,8 +54,8 @@
         2026
       ],
       "first_date": "2023-09-07",
-      "last_date": "2026-02-20",
-      "status_inferred": "active_like"
+      "last_date": "2026-04-14",
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "455900",
@@ -72,7 +72,7 @@
         2026
       ],
       "first_date": "2024-03-26",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -92,8 +92,8 @@
         2026
       ],
       "first_date": "2023-07-21",
-      "last_date": "2026-02-20",
-      "status_inferred": "active_like"
+      "last_date": "2026-03-03",
+      "status_inferred": "inactive_or_delisted_like"
     }
   ]
 }

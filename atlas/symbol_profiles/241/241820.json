@@ -5,7 +5,7 @@
     {
       "name": "피씨엘",
       "first_date": "2017-02-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-02-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-02-23",
   "last_date": "2025-03-21",
   "raw_first_date": "2017-02-23",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 1979,
-  "raw_trading_day_count": 2203,
+  "raw_trading_day_count": 2284,
   "available_years": [
     2017,
     2018,
@@ -89,7 +89,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 1979,
-    "non_tradable_zero_volume": 224,
+    "non_tradable_zero_volume": 305,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

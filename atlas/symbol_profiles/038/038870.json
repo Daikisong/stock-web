@@ -1,6 +1,6 @@
 {
   "code": "038870",
-  "current_or_latest_name": "에코바이오",
+  "current_or_latest_name": "에코심플렉스",
   "name_history": [
     {
       "name": "아이젠텍",
@@ -10,7 +10,12 @@
     {
       "name": "에코바이오",
       "first_date": "2016-04-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-16"
+    },
+    {
+      "name": "에코심플렉스",
+      "first_date": "2026-04-17",
+      "last_date": "2026-06-22"
     },
     {
       "name": "에코에너지",
@@ -35,15 +40,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2001-05-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2001-05-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2001-05-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6057,
-  "raw_trading_day_count": 6102,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6138,
+  "raw_trading_day_count": 6183,
   "available_years": [
     2001,
     2002,
@@ -184,14 +189,14 @@
     "atlas/ohlcv_min_by_symbol_year/038/038870/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/038/038870/2026.csv"
   ],
-  "latest_close": 3050,
-  "latest_marcap": 42745594450,
+  "latest_close": 1710,
+  "latest_marcap": 23965562790,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3050,
-  "raw_latest_marcap": 42745594450,
+  "raw_latest_close": 1710,
+  "raw_latest_marcap": 23965562790,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6057,
+    "tradable_ohlcv": 6138,
     "non_tradable_zero_volume": 45,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

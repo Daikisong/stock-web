@@ -5,7 +5,7 @@
     {
       "name": "에치에프알",
       "first_date": "2018-11-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "하나금융7호스팩",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-12-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-12-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-12-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2436,
-  "raw_trading_day_count": 2495,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2517,
+  "raw_trading_day_count": 2576,
   "available_years": [
     2015,
     2016,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/230/230240/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/230/230240/2026.csv"
   ],
-  "latest_close": 17140,
-  "latest_marcap": 228116260000,
+  "latest_close": 23000,
+  "latest_marcap": 306107000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 17140,
-  "raw_latest_marcap": 228116260000,
+  "raw_latest_close": 23000,
+  "raw_latest_marcap": 306107000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2436,
+    "tradable_ohlcv": 2517,
     "non_tradable_zero_volume": 59,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

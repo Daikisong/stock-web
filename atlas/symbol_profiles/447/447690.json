@@ -5,7 +5,7 @@
     {
       "name": "아이오바이오",
       "first_date": "2022-12-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2022-12-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2022-12-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2022-12-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 753,
-  "raw_trading_day_count": 766,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 834,
+  "raw_trading_day_count": 847,
   "available_years": [
     2022,
     2023,
@@ -59,14 +59,14 @@
     "atlas/ohlcv_min_by_symbol_year/447/447690/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/447/447690/2026.csv"
   ],
-  "latest_close": 3100,
-  "latest_marcap": 8153793600,
+  "latest_close": 2955,
+  "latest_marcap": 8193493980,
   "latest_market": "KONEX",
-  "raw_latest_close": 3100,
-  "raw_latest_marcap": 8153793600,
+  "raw_latest_close": 2955,
+  "raw_latest_marcap": 8193493980,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 753,
+    "tradable_ohlcv": 834,
     "non_tradable_zero_volume": 13,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

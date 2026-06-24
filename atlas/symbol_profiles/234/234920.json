@@ -5,7 +5,7 @@
     {
       "name": "자이글",
       "first_date": "2016-09-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2016-09-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-09-06",
   "last_date": "2025-10-29",
   "raw_first_date": "2016-09-06",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 2239,
-  "raw_trading_day_count": 2318,
+  "raw_trading_day_count": 2399,
   "available_years": [
     2016,
     2017,
@@ -94,7 +94,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 2239,
-    "non_tradable_zero_volume": 79,
+    "non_tradable_zero_volume": 160,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

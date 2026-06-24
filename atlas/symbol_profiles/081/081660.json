@@ -5,7 +5,7 @@
     {
       "name": "미스토홀딩스",
       "first_date": "2025-04-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "휠라코리아",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2010-09-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-09-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-09-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3786,
-  "raw_trading_day_count": 3789,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3867,
+  "raw_trading_day_count": 3870,
   "available_years": [
     2010,
     2011,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/081/081660/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/081/081660/2026.csv"
   ],
-  "latest_close": 52100,
-  "latest_marcap": 2766084864000,
+  "latest_close": 38200,
+  "latest_marcap": 2028108288000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 52100,
-  "raw_latest_marcap": 2766084864000,
+  "raw_latest_close": 38200,
+  "raw_latest_marcap": 2028108288000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3786,
+    "tradable_ohlcv": 3867,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

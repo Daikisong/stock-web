@@ -5,7 +5,7 @@
     {
       "name": "드림씨아이에스",
       "first_date": "2020-05-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-05-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-05-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-05-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1411,
-  "raw_trading_day_count": 1411,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1492,
+  "raw_trading_day_count": 1492,
   "available_years": [
     2020,
     2021,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/223/223250/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/223/223250/2026.csv"
   ],
-  "latest_close": 6000,
-  "latest_marcap": 147464940000,
+  "latest_close": 3540,
+  "latest_marcap": 87085571760,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6000,
-  "raw_latest_marcap": 147464940000,
+  "raw_latest_close": 3540,
+  "raw_latest_marcap": 87085571760,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1411,
+    "tradable_ohlcv": 1492,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

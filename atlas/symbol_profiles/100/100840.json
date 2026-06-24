@@ -10,7 +10,7 @@
     {
       "name": "SNT에너지",
       "first_date": "2021-03-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2008-02-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2008-02-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2008-02-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4439,
-  "raw_trading_day_count": 4439,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4520,
+  "raw_trading_day_count": 4520,
   "available_years": [
     2008,
     2009,
@@ -134,14 +134,14 @@
     "atlas/ohlcv_min_by_symbol_year/100/100840/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/100/100840/2026.csv"
   ],
-  "latest_close": 49300,
-  "latest_marcap": 1019562601900,
+  "latest_close": 31550,
+  "latest_marcap": 652478703650,
   "latest_market": "KOSPI",
-  "raw_latest_close": 49300,
-  "raw_latest_marcap": 1019562601900,
+  "raw_latest_close": 31550,
+  "raw_latest_marcap": 652478703650,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4439,
+    "tradable_ohlcv": 4520,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

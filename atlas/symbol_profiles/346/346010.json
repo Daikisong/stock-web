@@ -5,7 +5,7 @@
     {
       "name": "타이드",
       "first_date": "2022-12-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2022-12-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2022-12-28",
-  "last_date": "2026-02-19",
+  "last_date": "2026-04-06",
   "raw_first_date": "2022-12-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 497,
-  "raw_trading_day_count": 766,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 517,
+  "raw_trading_day_count": 847,
   "available_years": [
     2022,
     2023,
@@ -59,15 +59,15 @@
     "atlas/ohlcv_min_by_symbol_year/346/346010/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/346/346010/2026.csv"
   ],
-  "latest_close": 1377,
-  "latest_marcap": 6692305374,
+  "latest_close": 1000,
+  "latest_marcap": 4860062000,
   "latest_market": "KONEX",
-  "raw_latest_close": 1171,
-  "raw_latest_marcap": 5691132602,
+  "raw_latest_close": 1000,
+  "raw_latest_marcap": 4860062000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 497,
-    "non_tradable_zero_volume": 269,
+    "tradable_ohlcv": 517,
+    "non_tradable_zero_volume": 330,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

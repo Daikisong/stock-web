@@ -5,7 +5,7 @@
     {
       "name": "엑시큐어하이트론",
       "first_date": "2025-01-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "하이트론",
@@ -31,15 +31,15 @@
     {
       "market": "KOSPI",
       "first_date": "1998-11-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-05",
   "last_date": "2025-11-21",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 6836,
-  "raw_trading_day_count": 7422,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -210,7 +210,7 @@
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
     "tradable_ohlcv": 6836,
-    "non_tradable_zero_volume": 586,
+    "non_tradable_zero_volume": 667,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

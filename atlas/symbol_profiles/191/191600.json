@@ -5,7 +5,7 @@
     {
       "name": "블루탑",
       "first_date": "2021-04-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "티케이씨",
@@ -20,15 +20,15 @@
     {
       "market": "KONEX",
       "first_date": "2016-08-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-10-17",
-  "last_date": "2026-02-11",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-08-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1427,
-  "raw_trading_day_count": 2339,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1494,
+  "raw_trading_day_count": 2420,
   "available_years": [
     2016,
     2017,
@@ -94,15 +94,15 @@
     "atlas/ohlcv_min_by_symbol_year/191/191600/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/191/191600/2026.csv"
   ],
-  "latest_close": 7200,
-  "latest_marcap": 20584281600,
+  "latest_close": 6490,
+  "latest_marcap": 18554442720,
   "latest_market": "KONEX",
-  "raw_latest_close": 6570,
-  "raw_latest_marcap": 18783156960,
+  "raw_latest_close": 6490,
+  "raw_latest_marcap": 18554442720,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1427,
-    "non_tradable_zero_volume": 912,
+    "tradable_ohlcv": 1494,
+    "non_tradable_zero_volume": 926,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

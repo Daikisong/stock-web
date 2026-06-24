@@ -15,7 +15,7 @@
     {
       "name": "엔투텍",
       "first_date": "2020-10-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-11-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-11-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-11-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2436,
-  "raw_trading_day_count": 2515,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2501,
+  "raw_trading_day_count": 2596,
   "available_years": [
     2015,
     2016,
@@ -104,27 +104,28 @@
     "atlas/ohlcv_min_by_symbol_year/227/227950/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/227/227950/2026.csv"
   ],
-  "latest_close": 488,
-  "latest_marcap": 84200030936,
+  "latest_close": 1070,
+  "latest_marcap": 36923783630,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 488,
-  "raw_latest_marcap": 84200030936,
+  "raw_latest_close": 1070,
+  "raw_latest_marcap": 36923783630,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2436,
-    "non_tradable_zero_volume": 79,
+    "tradable_ohlcv": 2501,
+    "non_tradable_zero_volume": 95,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_count": 6,
   "corporate_action_candidate_dates": [
     "2018-11-08",
     "2019-12-17",
     "2020-04-29",
     "2020-10-30",
-    "2025-06-13"
+    "2025-06-13",
+    "2026-05-28"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

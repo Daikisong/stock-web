@@ -1,6 +1,6 @@
 {
   "code": "900100",
-  "current_or_latest_name": "애머릿지",
+  "current_or_latest_name": "파이온엑스",
   "name_history": [
     {
       "name": "뉴프라이드",
@@ -15,7 +15,12 @@
     {
       "name": "애머릿지",
       "first_date": "2021-06-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-15"
+    },
+    {
+      "name": "파이온엑스",
+      "first_date": "2026-05-18",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-04-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-04-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-05-28",
   "raw_first_date": "2010-04-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3264,
-  "raw_trading_day_count": 3897,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3329,
+  "raw_trading_day_count": 3978,
   "available_years": [
     2010,
     2011,
@@ -126,15 +131,15 @@
     "atlas/ohlcv_min_by_symbol_year/900/900100/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/900/900100/2026.csv"
   ],
-  "latest_close": 474,
-  "latest_marcap": 21821676408,
+  "latest_close": 389,
+  "latest_marcap": 20523835278,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 474,
-  "raw_latest_marcap": 21821676408,
+  "raw_latest_close": 389,
+  "raw_latest_marcap": 20523835278,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3264,
-    "non_tradable_zero_volume": 633,
+    "tradable_ohlcv": 3329,
+    "non_tradable_zero_volume": 649,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

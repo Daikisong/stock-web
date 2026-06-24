@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T16:31:47.737033+00:00",
+  "generated_at": "2026-06-24T10:21:31.403323+00:00",
   "status": "pass",
   "total_paths": 18,
   "ok_paths": 18,
@@ -13,7 +13,7 @@
     {
       "path": "atlas/source_manifest.json",
       "exists": true,
-      "bytes": 3386
+      "bytes": 3388
     },
     {
       "path": "atlas/schema.json",
@@ -23,17 +23,17 @@
     {
       "path": "atlas/universe/all_symbols.csv",
       "exists": true,
-      "bytes": 756190
+      "bytes": 758995
     },
     {
       "path": "atlas/corporate_actions/corporate_action_candidates.csv",
       "exists": true,
-      "bytes": 2024220
+      "bytes": 2073216
     },
     {
       "path": "atlas/index/by_code_prefix/005.json",
       "exists": true,
-      "bytes": 93206
+      "bytes": 93203
     },
     {
       "path": "atlas/symbol_profiles/005/005930.json",
@@ -96,5 +96,5 @@
       "bytes": 164
     }
   ],
-  "bundle_preview": "CHATGPT_MARCAP_BUNDLE\ngenerated_at=2026-05-21T16:28:40.024733+00:00\nsource_name=FinanceData/marcap\nsource_repo_url=https://github.com/FinanceData/marcap\nprice_adjustment_status=raw_unadjusted_marcap\nmin_date=1995-05-02\nmax_date=2026-02-20\nraw_row_count=15214118\ntradable_row_count=14354401\nnon_tradable_zero_volume_row_count=852418\ninvalid_zero_ohlc_row_count=673\ncorporate_action_candidate_count=14435\nsymbol_count=5414\nactive_like_symbol_count=2868\ninactive_or_delisted_like_symbol_count=2546\nSELFTEST|005930|삼성전자|244|2024-01-02|2024-12-30|true|true|504|2.34|11.69|15.32|-8.18|-8.18|-19.22|true|usable_with_caveat|\nSELFTEST|000660|SK하이닉스|244|2024-01-02|2024-12-30|true|true|504|11.62|41.81|81.65|-5.7|-5.7|-5.7|true|usable_with_caveat|\nSELFTEST|298040|효성중공업|244|2024-01-02|2024-12-30|true|true|504|14.23|112.63|179.33|-7.03|-7.03|-7.03|true|clean_tradable_path|\nSELFTEST|267260|HD현대일렉트릭|244|2024-01-02|2024-12-30|true|true|504|39.04|219.93|336.48|-5.24|-5.24|-5.24|true|clean_tradable_path|\nSELFTES"
+  "bundle_preview": "CHATGPT_MARCAP_BUNDLE\ngenerated_at=2026-06-24T10:18:51.007932+00:00\nsource_name=FinanceData/marcap\nsource_repo_url=https://github.com/FinanceData/marcap\nprice_adjustment_status=raw_unadjusted_marcap\nmin_date=1995-05-02\nmax_date=2026-06-22\nraw_row_count=15447330\ntradable_row_count=14573529\nnon_tradable_zero_volume_row_count=865074\ninvalid_zero_ohlc_row_count=674\ncorporate_action_candidate_count=14720\nsymbol_count=5432\nactive_like_symbol_count=2855\ninactive_or_delisted_like_symbol_count=2577\nSELFTEST|005930|삼성전자|244|2024-01-02|2024-12-30|true|true|504|2.34|11.69|15.32|-8.18|-8.18|-19.22|true|usable_with_caveat|\nSELFTEST|000660|SK하이닉스|244|2024-01-02|2024-12-30|true|true|504|11.62|41.81|81.65|-5.7|-5.7|-5.7|true|usable_with_caveat|\nSELFTEST|298040|효성중공업|244|2024-01-02|2024-12-30|true|true|504|14.23|112.63|179.33|-7.03|-7.03|-7.03|true|clean_tradable_path|\nSELFTEST|267260|HD현대일렉트릭|244|2024-01-02|2024-12-30|true|true|504|39.04|219.93|336.48|-5.24|-5.24|-5.24|true|clean_tradable_path|\nSELFTES"
 }

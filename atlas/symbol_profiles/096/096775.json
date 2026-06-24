@@ -20,7 +20,7 @@
     {
       "name": "SK이노베이션우",
       "first_date": "2011-01-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "2007-07-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-07-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-07-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4579,
-  "raw_trading_day_count": 4579,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4660,
+  "raw_trading_day_count": 4660,
   "available_years": [
     2007,
     2008,
@@ -149,14 +149,14 @@
     "atlas/ohlcv_min_by_symbol_year/096/096775/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/096/096775/2026.csv"
   ],
-  "latest_close": 75100,
-  "latest_marcap": 93756792600,
+  "latest_close": 60800,
+  "latest_marcap": 75904300800,
   "latest_market": "KOSPI",
-  "raw_latest_close": 75100,
-  "raw_latest_marcap": 93756792600,
+  "raw_latest_close": 60800,
+  "raw_latest_marcap": 75904300800,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4579,
+    "tradable_ohlcv": 4660,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

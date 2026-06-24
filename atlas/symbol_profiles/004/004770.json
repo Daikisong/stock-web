@@ -10,7 +10,7 @@
     {
       "name": "써니전자",
       "first_date": "1999-04-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7734,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7815,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -206,7 +206,7 @@
   "raw_latest_marcap": 57024945428,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7734,
+    "tradable_ohlcv": 7815,
     "non_tradable_zero_volume": 30,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

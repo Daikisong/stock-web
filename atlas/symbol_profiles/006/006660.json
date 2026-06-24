@@ -5,7 +5,7 @@
     {
       "name": "삼성공조",
       "first_date": "2000-06-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "삼성라디에터",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7696,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7777,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/006/006660/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/006/006660/2026.csv"
   ],
-  "latest_close": 13930,
-  "latest_marcap": 113199554020,
+  "latest_close": 10640,
+  "latest_marcap": 86463980960,
   "latest_market": "KOSPI",
-  "raw_latest_close": 13930,
-  "raw_latest_marcap": 113199554020,
+  "raw_latest_close": 10640,
+  "raw_latest_marcap": 86463980960,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7696,
+    "tradable_ohlcv": 7777,
     "non_tradable_zero_volume": 69,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

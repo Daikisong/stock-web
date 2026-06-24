@@ -15,7 +15,7 @@
     {
       "name": "휴엠앤씨",
       "first_date": "2022-04-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "휴온스블러썸",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-09-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-09-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-09-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1454,
-  "raw_trading_day_count": 2055,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1535,
+  "raw_trading_day_count": 2136,
   "available_years": [
     2017,
     2018,
@@ -96,14 +96,14 @@
     "atlas/ohlcv_min_by_symbol_year/263/263920/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/263/263920/2026.csv"
   ],
-  "latest_close": 4035,
-  "latest_marcap": 39579419910,
+  "latest_close": 2980,
+  "latest_marcap": 29230897480,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4035,
-  "raw_latest_marcap": 39579419910,
+  "raw_latest_close": 2980,
+  "raw_latest_marcap": 29230897480,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1454,
+    "tradable_ohlcv": 1535,
     "non_tradable_zero_volume": 601,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "대창",
       "first_date": "2010-03-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "대창공업",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7755,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7836,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/012/012800/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/012/012800/2026.csv"
   ],
-  "latest_close": 1460,
-  "latest_marcap": 133065128540,
+  "latest_close": 1217,
+  "latest_marcap": 110917987283,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1460,
-  "raw_latest_marcap": 133065128540,
+  "raw_latest_close": 1217,
+  "raw_latest_marcap": 110917987283,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7755,
+    "tradable_ohlcv": 7836,
     "non_tradable_zero_volume": 9,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

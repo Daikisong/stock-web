@@ -30,7 +30,7 @@
     {
       "name": "한화투자증권우",
       "first_date": "2012-09-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -40,15 +40,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7747,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7828,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -219,14 +219,14 @@
     "atlas/ohlcv_min_by_symbol_year/003/003535/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/003/003535/2026.csv"
   ],
-  "latest_close": 11160,
-  "latest_marcap": 53568000000,
+  "latest_close": 6600,
+  "latest_marcap": 31680000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 11160,
-  "raw_latest_marcap": 53568000000,
+  "raw_latest_close": 6600,
+  "raw_latest_marcap": 31680000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7747,
+    "tradable_ohlcv": 7828,
     "non_tradable_zero_volume": 17,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

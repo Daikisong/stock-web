@@ -5,7 +5,7 @@
     {
       "name": "대성창투",
       "first_date": "2010-04-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "바이넥스트",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-11-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-11-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-11-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6456,
-  "raw_trading_day_count": 6463,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6537,
+  "raw_trading_day_count": 6544,
   "available_years": [
     1999,
     2000,
@@ -189,14 +189,14 @@
     "atlas/ohlcv_min_by_symbol_year/027/027830/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/027/027830/2026.csv"
   ],
-  "latest_close": 1807,
-  "latest_marcap": 97578000000,
+  "latest_close": 1066,
+  "latest_marcap": 57564000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1807,
-  "raw_latest_marcap": 97578000000,
+  "raw_latest_close": 1066,
+  "raw_latest_marcap": 57564000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6456,
+    "tradable_ohlcv": 6537,
     "non_tradable_zero_volume": 7,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "링크제니시스",
       "first_date": "2016-07-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-02-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-07-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-07-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2220,
-  "raw_trading_day_count": 2344,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2301,
+  "raw_trading_day_count": 2425,
   "available_years": [
     2016,
     2017,
@@ -95,14 +95,14 @@
     "atlas/ohlcv_min_by_symbol_year/219/219420/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/219/219420/2026.csv"
   ],
-  "latest_close": 5450,
-  "latest_marcap": 62508813150,
+  "latest_close": 4130,
+  "latest_marcap": 47369063910,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5450,
-  "raw_latest_marcap": 62508813150,
+  "raw_latest_close": 4130,
+  "raw_latest_marcap": 47369063910,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2220,
+    "tradable_ohlcv": 2301,
     "non_tradable_zero_volume": 123,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

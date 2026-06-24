@@ -5,7 +5,7 @@
     {
       "name": "비엔케이제2호스팩",
       "first_date": "2024-03-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-02"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2024-03-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-02"
     }
   ],
   "first_date": "2024-03-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-11",
   "raw_first_date": "2024-03-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 406,
-  "raw_trading_day_count": 477,
+  "raw_last_date": "2026-04-02",
+  "trading_day_count": 418,
+  "raw_trading_day_count": 505,
   "available_years": [
     2024,
     2025,
@@ -49,15 +49,15 @@
     "atlas/ohlcv_min_by_symbol_year/473/473370/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/473/473370/2026.csv"
   ],
-  "latest_close": 2695,
-  "latest_marcap": 11345950000,
+  "latest_close": 2765,
+  "latest_marcap": 11640650000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2695,
-  "raw_latest_marcap": 11345950000,
+  "raw_latest_close": 2765,
+  "raw_latest_marcap": 11640650000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 406,
-    "non_tradable_zero_volume": 71,
+    "tradable_ohlcv": 418,
+    "non_tradable_zero_volume": 87,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
@@ -67,7 +67,7 @@
   "corporate_action_candidate_dates": [],
   "has_major_raw_discontinuity": false,
   "calibration_caveat": "",
-  "status_inferred": "active_like",
+  "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",
   "source_repo_url": "https://github.com/FinanceData/marcap",

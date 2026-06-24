@@ -5,7 +5,7 @@
     {
       "name": "디와이파워",
       "first_date": "2015-01-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2015-01-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-01-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-01-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2724,
-  "raw_trading_day_count": 2724,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2805,
+  "raw_trading_day_count": 2805,
   "available_years": [
     2015,
     2016,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/210/210540/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/210/210540/2026.csv"
   ],
-  "latest_close": 15560,
-  "latest_marcap": 171808976480,
+  "latest_close": 11130,
+  "latest_marcap": 122894210040,
   "latest_market": "KOSPI",
-  "raw_latest_close": 15560,
-  "raw_latest_marcap": 171808976480,
+  "raw_latest_close": 11130,
+  "raw_latest_marcap": 122894210040,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2724,
+    "tradable_ohlcv": 2805,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

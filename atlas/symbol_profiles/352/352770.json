@@ -5,7 +5,7 @@
     {
       "name": "셀레스트라",
       "first_date": "2025-04-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "클리노믹스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-12-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-12-04",
   "last_date": "2025-04-03",
   "raw_first_date": "2020-12-04",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 1062,
-  "raw_trading_day_count": 1276,
+  "raw_trading_day_count": 1357,
   "available_years": [
     2020,
     2021,
@@ -79,7 +79,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 1062,
-    "non_tradable_zero_volume": 214,
+    "non_tradable_zero_volume": 295,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -5,7 +5,7 @@
     {
       "name": "SIMPAC",
       "first_date": "2001-11-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "쌍용정공",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7750,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7831,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/009/009160/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/009/009160/2026.csv"
   ],
-  "latest_close": 5240,
-  "latest_marcap": 342543872320,
+  "latest_close": 4170,
+  "latest_marcap": 272596936560,
   "latest_market": "KOSPI",
-  "raw_latest_close": 5240,
-  "raw_latest_marcap": 342543872320,
+  "raw_latest_close": 4170,
+  "raw_latest_marcap": 272596936560,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7750,
+    "tradable_ohlcv": 7831,
     "non_tradable_zero_volume": 14,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

@@ -20,7 +20,7 @@
     {
       "name": "콘텐트리중앙",
       "first_date": "2022-04-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한길무역",
@@ -41,15 +41,15 @@
     {
       "market": "KOSPI",
       "first_date": "2019-10-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-03-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-12",
   "raw_first_date": "2000-03-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6356,
-  "raw_trading_day_count": 6387,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6431,
+  "raw_trading_day_count": 6468,
   "available_years": [
     2000,
     2001,
@@ -195,15 +195,15 @@
     "atlas/ohlcv_min_by_symbol_year/036/036420/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/036/036420/2026.csv"
   ],
-  "latest_close": 7360,
-  "latest_marcap": 141770586880,
+  "latest_close": 4995,
+  "latest_marcap": 96215228460,
   "latest_market": "KOSPI",
-  "raw_latest_close": 7360,
-  "raw_latest_marcap": 141770586880,
+  "raw_latest_close": 4995,
+  "raw_latest_marcap": 96215228460,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6356,
-    "non_tradable_zero_volume": 31,
+    "tradable_ohlcv": 6431,
+    "non_tradable_zero_volume": 37,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

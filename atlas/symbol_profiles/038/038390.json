@@ -5,7 +5,7 @@
     {
       "name": "레드캡투어",
       "first_date": "2007-03-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "미디어솔루션",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-02-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-02-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-02-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6422,
-  "raw_trading_day_count": 6422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6503,
+  "raw_trading_day_count": 6503,
   "available_years": [
     2000,
     2001,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/038/038390/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/038/038390/2026.csv"
   ],
-  "latest_close": 11600,
-  "latest_marcap": 193961535200,
+  "latest_close": 9730,
+  "latest_marcap": 162693598060,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 11600,
-  "raw_latest_marcap": 193961535200,
+  "raw_latest_close": 9730,
+  "raw_latest_marcap": 162693598060,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6422,
+    "tradable_ohlcv": 6503,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

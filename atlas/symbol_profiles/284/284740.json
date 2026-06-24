@@ -5,7 +5,7 @@
     {
       "name": "쿠쿠홈시스",
       "first_date": "2018-01-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2018-01-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-01-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-01-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1986,
-  "raw_trading_day_count": 1989,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2067,
+  "raw_trading_day_count": 2070,
   "available_years": [
     2018,
     2019,
@@ -79,14 +79,14 @@
     "atlas/ohlcv_min_by_symbol_year/284/284740/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/284/284740/2026.csv"
   ],
-  "latest_close": 26300,
-  "latest_marcap": 590101779000,
+  "latest_close": 21800,
+  "latest_marcap": 489133794000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 26300,
-  "raw_latest_marcap": 590101779000,
+  "raw_latest_close": 21800,
+  "raw_latest_marcap": 489133794000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 1986,
+    "tradable_ohlcv": 2067,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

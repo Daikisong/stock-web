@@ -5,7 +5,7 @@
     {
       "name": "하이즈항공",
       "first_date": "2015-11-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-11-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-11-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-11-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2510,
-  "raw_trading_day_count": 2510,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2591,
+  "raw_trading_day_count": 2591,
   "available_years": [
     2015,
     2016,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/221/221840/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/221/221840/2026.csv"
   ],
-  "latest_close": 2735,
-  "latest_marcap": 51146034335,
+  "latest_close": 1885,
+  "latest_marcap": 35250557485,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2735,
-  "raw_latest_marcap": 51146034335,
+  "raw_latest_close": 1885,
+  "raw_latest_marcap": 35250557485,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2510,
+    "tradable_ohlcv": 2591,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

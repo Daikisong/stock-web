@@ -5,7 +5,7 @@
     {
       "name": "디알텍",
       "first_date": "2016-12-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한화에이스스팩1호",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-04-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-04-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-04-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2617,
-  "raw_trading_day_count": 2660,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2698,
+  "raw_trading_day_count": 2741,
   "available_years": [
     2015,
     2016,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/214/214680/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/214/214680/2026.csv"
   ],
-  "latest_close": 2265,
-  "latest_marcap": 189075531840,
+  "latest_close": 1181,
+  "latest_marcap": 98586403136,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2265,
-  "raw_latest_marcap": 189075531840,
+  "raw_latest_close": 1181,
+  "raw_latest_marcap": 98586403136,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2617,
+    "tradable_ohlcv": 2698,
     "non_tradable_zero_volume": 43,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "형지엘리트",
       "first_date": "2015-10-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2009-09-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-09-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-09-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4036,
-  "raw_trading_day_count": 4038,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4117,
+  "raw_trading_day_count": 4119,
   "available_years": [
     2009,
     2010,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/093/093240/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/093/093240/2026.csv"
   ],
-  "latest_close": 1344,
-  "latest_marcap": 82508508096,
+  "latest_close": 592,
+  "latest_marcap": 36343033328,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1344,
-  "raw_latest_marcap": 82508508096,
+  "raw_latest_close": 592,
+  "raw_latest_marcap": 36343033328,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4036,
+    "tradable_ohlcv": 4117,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

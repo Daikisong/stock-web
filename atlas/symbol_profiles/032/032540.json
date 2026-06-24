@@ -5,7 +5,7 @@
     {
       "name": "TJ미디어",
       "first_date": "2005-01-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "태진미디어",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-04-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-04-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-04-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7017,
-  "raw_trading_day_count": 7191,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7098,
+  "raw_trading_day_count": 7272,
   "available_years": [
     1997,
     1998,
@@ -189,26 +189,27 @@
     "atlas/ohlcv_min_by_symbol_year/032/032540/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/032/032540/2026.csv"
   ],
-  "latest_close": 5950,
-  "latest_marcap": 82893073550,
+  "latest_close": 3430,
+  "latest_marcap": 71678126590,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5950,
-  "raw_latest_marcap": 82893073550,
+  "raw_latest_close": 3430,
+  "raw_latest_marcap": 71678126590,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 7017,
+    "tradable_ohlcv": 7098,
     "non_tradable_zero_volume": 174,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "1998-07-04",
     "1999-09-20",
     "2000-05-09",
-    "2005-03-18"
+    "2005-03-18",
+    "2026-04-15"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

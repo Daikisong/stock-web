@@ -5,7 +5,7 @@
     {
       "name": "바이오톡스텍",
       "first_date": "2007-09-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2007-09-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-09-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-09-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4538,
-  "raw_trading_day_count": 4538,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4619,
+  "raw_trading_day_count": 4619,
   "available_years": [
     2007,
     2008,
@@ -134,14 +134,14 @@
     "atlas/ohlcv_min_by_symbol_year/086/086040/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/086/086040/2026.csv"
   ],
-  "latest_close": 3190,
-  "latest_marcap": 50906807930,
+  "latest_close": 2275,
+  "latest_marcap": 36305011925,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3190,
-  "raw_latest_marcap": 50906807930,
+  "raw_latest_close": 2275,
+  "raw_latest_marcap": 36305011925,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4538,
+    "tradable_ohlcv": 4619,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

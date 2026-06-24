@@ -5,7 +5,7 @@
     {
       "name": "HDC현대EP",
       "first_date": "2018-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "현대EP",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2006-09-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2006-09-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-09-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4777,
-  "raw_trading_day_count": 4784,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4858,
+  "raw_trading_day_count": 4865,
   "available_years": [
     2006,
     2007,
@@ -144,14 +144,14 @@
     "atlas/ohlcv_min_by_symbol_year/089/089470/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/089/089470/2026.csv"
   ],
-  "latest_close": 6020,
-  "latest_marcap": 192038000000,
+  "latest_close": 4020,
+  "latest_marcap": 128238000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 6020,
-  "raw_latest_marcap": 192038000000,
+  "raw_latest_close": 4020,
+  "raw_latest_marcap": 128238000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4777,
+    "tradable_ohlcv": 4858,
     "non_tradable_zero_volume": 7,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

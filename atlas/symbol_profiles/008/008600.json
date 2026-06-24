@@ -15,7 +15,7 @@
     {
       "name": "윌비스",
       "first_date": "2009-04-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-23",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7753,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7761,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -204,26 +204,27 @@
     "atlas/ohlcv_min_by_symbol_year/008/008600/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/008/008600/2026.csv"
   ],
-  "latest_close": 310,
-  "latest_marcap": 20843172090,
+  "latest_close": 2620,
+  "latest_marcap": 17615839860,
   "latest_market": "KOSPI",
-  "raw_latest_close": 310,
-  "raw_latest_marcap": 20843172090,
+  "raw_latest_close": 2620,
+  "raw_latest_marcap": 17615839860,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7753,
-    "non_tradable_zero_volume": 12,
+    "tradable_ohlcv": 7761,
+    "non_tradable_zero_volume": 85,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "1997-03-12",
     "1997-07-01",
     "1998-08-25",
-    "2011-05-17"
+    "2011-05-17",
+    "2026-03-20"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "에이디테크놀로지",
       "first_date": "2014-12-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-12-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-12-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-12-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2743,
-  "raw_trading_day_count": 2743,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2824,
+  "raw_trading_day_count": 2824,
   "available_years": [
     2014,
     2015,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/200/200710/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/200/200710/2026.csv"
   ],
-  "latest_close": 42850,
-  "latest_marcap": 575939222700,
+  "latest_close": 34450,
+  "latest_marcap": 463766141150,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 42850,
-  "raw_latest_marcap": 575939222700,
+  "raw_latest_close": 34450,
+  "raw_latest_marcap": 463766141150,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2743,
+    "tradable_ohlcv": 2824,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

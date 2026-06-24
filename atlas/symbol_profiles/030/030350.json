@@ -5,7 +5,7 @@
     {
       "name": "드래곤플라이",
       "first_date": "2009-07-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "위고글로벌",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-11-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-11-10",
   "last_date": "2025-03-21",
   "raw_first_date": "1997-11-10",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 6697,
-  "raw_trading_day_count": 7023,
+  "raw_trading_day_count": 7104,
   "available_years": [
     1997,
     1998,
@@ -199,7 +199,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 6697,
-    "non_tradable_zero_volume": 326,
+    "non_tradable_zero_volume": 407,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

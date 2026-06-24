@@ -10,7 +10,7 @@
     {
       "name": "제닉스로보틱스",
       "first_date": "2025-08-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2024-09-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-09-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-09-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 337,
-  "raw_trading_day_count": 337,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 418,
+  "raw_trading_day_count": 418,
   "available_years": [
     2024,
     2025,
@@ -54,14 +54,14 @@
     "atlas/ohlcv_min_by_symbol_year/381/381620/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/381/381620/2026.csv"
   ],
-  "latest_close": 12410,
-  "latest_marcap": 162793387200,
+  "latest_close": 7080,
+  "latest_marcap": 92874873600,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 12410,
-  "raw_latest_marcap": 162793387200,
+  "raw_latest_close": 7080,
+  "raw_latest_marcap": 92874873600,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 337,
+    "tradable_ohlcv": 418,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

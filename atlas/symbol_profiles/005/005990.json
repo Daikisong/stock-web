@@ -10,7 +10,7 @@
     {
       "name": "매일홀딩스",
       "first_date": "2017-06-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-05-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-05-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-05-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6578,
-  "raw_trading_day_count": 6603,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6659,
+  "raw_trading_day_count": 6684,
   "available_years": [
     1999,
     2000,
@@ -179,14 +179,14 @@
     "atlas/ohlcv_min_by_symbol_year/005/005990/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005990/2026.csv"
   ],
-  "latest_close": 11210,
-  "latest_marcap": 149073987840,
+  "latest_close": 10760,
+  "latest_marcap": 143089751040,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 11210,
-  "raw_latest_marcap": 149073987840,
+  "raw_latest_close": 10760,
+  "raw_latest_marcap": 143089751040,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6578,
+    "tradable_ohlcv": 6659,
     "non_tradable_zero_volume": 25,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

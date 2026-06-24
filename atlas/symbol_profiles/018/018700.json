@@ -1,11 +1,16 @@
 {
   "code": "018700",
-  "current_or_latest_name": "바른손",
+  "current_or_latest_name": "졸스",
   "name_history": [
     {
       "name": "바른손",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-11"
+    },
+    {
+      "name": "졸스",
+      "first_date": "2026-05-12",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6699,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6761,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -189,21 +194,21 @@
     "atlas/ohlcv_min_by_symbol_year/018/018700/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/018/018700/2026.csv"
   ],
-  "latest_close": 798,
-  "latest_marcap": 28025566086,
+  "latest_close": 1008,
+  "latest_marcap": 11800238688,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 798,
-  "raw_latest_marcap": 28025566086,
+  "raw_latest_close": 1008,
+  "raw_latest_marcap": 11800238688,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6699,
-    "non_tradable_zero_volume": 723,
+    "tradable_ohlcv": 6761,
+    "non_tradable_zero_volume": 742,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 10,
+  "corporate_action_candidate_count": 11,
   "corporate_action_candidate_dates": [
     "1999-03-23",
     "2000-06-26",
@@ -214,7 +219,8 @@
     "2006-08-29",
     "2011-01-10",
     "2015-08-19",
-    "2020-04-16"
+    "2020-04-16",
+    "2026-05-12"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

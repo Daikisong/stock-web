@@ -5,7 +5,7 @@
     {
       "name": "엠케이전자",
       "first_date": "1997-11-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-11-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-11-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-11-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6740,
-  "raw_trading_day_count": 7023,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6821,
+  "raw_trading_day_count": 7104,
   "available_years": [
     1997,
     1998,
@@ -184,14 +184,14 @@
     "atlas/ohlcv_min_by_symbol_year/033/033160/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/033/033160/2026.csv"
   ],
-  "latest_close": 10140,
-  "latest_marcap": 230414140320,
+  "latest_close": 27150,
+  "latest_marcap": 656879751900,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 10140,
-  "raw_latest_marcap": 230414140320,
+  "raw_latest_close": 27150,
+  "raw_latest_marcap": 656879751900,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6740,
+    "tradable_ohlcv": 6821,
     "non_tradable_zero_volume": 283,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

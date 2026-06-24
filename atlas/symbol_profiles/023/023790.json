@@ -5,7 +5,7 @@
     {
       "name": "동일스틸럭스",
       "first_date": "2024-12-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "동일철강",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6645,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6710,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -194,21 +194,21 @@
     "atlas/ohlcv_min_by_symbol_year/023/023790/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/023/023790/2026.csv"
   ],
-  "latest_close": 1189,
-  "latest_marcap": 31080004613,
+  "latest_close": 1610,
+  "latest_marcap": 21042390880,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1189,
-  "raw_latest_marcap": 31080004613,
+  "raw_latest_close": 1610,
+  "raw_latest_marcap": 21042390880,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6645,
-    "non_tradable_zero_volume": 777,
+    "tradable_ohlcv": 6710,
+    "non_tradable_zero_volume": 793,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 15,
+  "corporate_action_candidate_count": 16,
   "corporate_action_candidate_dates": [
     "1997-01-31",
     "1997-02-14",
@@ -224,7 +224,8 @@
     "2009-09-04",
     "2021-10-28",
     "2021-11-17",
-    "2025-08-21"
+    "2025-08-21",
+    "2026-05-26"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

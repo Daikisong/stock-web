@@ -5,7 +5,7 @@
     {
       "name": "더본코리아",
       "first_date": "2024-11-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2024-11-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-11-06",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-11-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 313,
-  "raw_trading_day_count": 313,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 394,
+  "raw_trading_day_count": 394,
   "available_years": [
     2024,
     2025,
@@ -49,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/475/475560/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/475/475560/2026.csv"
   ],
-  "latest_close": 23850,
-  "latest_marcap": 353647084500,
+  "latest_close": 15060,
+  "latest_marcap": 223309228200,
   "latest_market": "KOSPI",
-  "raw_latest_close": 23850,
-  "raw_latest_marcap": 353647084500,
+  "raw_latest_close": 15060,
+  "raw_latest_marcap": 223309228200,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 313,
+    "tradable_ohlcv": 394,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

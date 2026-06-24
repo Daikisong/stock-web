@@ -5,7 +5,7 @@
     {
       "name": "씨앤투스",
       "first_date": "2022-12-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "씨앤투스성진",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-01-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-01-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-01-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1240,
-  "raw_trading_day_count": 1240,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1321,
+  "raw_trading_day_count": 1321,
   "available_years": [
     2021,
     2022,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/352/352700/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/352/352700/2026.csv"
   ],
-  "latest_close": 2190,
-  "latest_marcap": 57546408810,
+  "latest_close": 1456,
+  "latest_marcap": 38259164944,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2190,
-  "raw_latest_marcap": 57546408810,
+  "raw_latest_close": 1456,
+  "raw_latest_marcap": 38259164944,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1240,
+    "tradable_ohlcv": 1321,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

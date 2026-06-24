@@ -1,6 +1,6 @@
 {
   "code": "104040",
-  "current_or_latest_name": "대성파인텍",
+  "current_or_latest_name": "디에스엠",
   "name_history": [
     {
       "name": "(주)대성파인텍",
@@ -10,7 +10,12 @@
     {
       "name": "대성파인텍",
       "first_date": "2009-01-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-17"
+    },
+    {
+      "name": "디에스엠",
+      "first_date": "2026-04-20",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2009-01-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-01-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-01-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4198,
-  "raw_trading_day_count": 4210,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4265,
+  "raw_trading_day_count": 4291,
   "available_years": [
     2009,
     2010,
@@ -129,26 +134,27 @@
     "atlas/ohlcv_min_by_symbol_year/104/104040/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/104/104040/2026.csv"
   ],
-  "latest_close": 737,
-  "latest_marcap": 98807987762,
+  "latest_close": 1610,
+  "latest_marcap": 43169839650,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 737,
-  "raw_latest_marcap": 98807987762,
+  "raw_latest_close": 1610,
+  "raw_latest_marcap": 43169839650,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4198,
-    "non_tradable_zero_volume": 12,
+    "tradable_ohlcv": 4265,
+    "non_tradable_zero_volume": 26,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2010-05-24",
     "2016-11-04",
     "2024-09-30",
-    "2025-09-15"
+    "2025-09-15",
+    "2026-05-18"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

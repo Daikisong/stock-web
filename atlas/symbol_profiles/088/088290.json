@@ -5,7 +5,7 @@
     {
       "name": "이원컴포텍",
       "first_date": "2009-12-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2009-12-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-12-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-12-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3991,
-  "raw_trading_day_count": 3993,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4056,
+  "raw_trading_day_count": 4074,
   "available_years": [
     2009,
     2010,
@@ -124,24 +124,25 @@
     "atlas/ohlcv_min_by_symbol_year/088/088290/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/088/088290/2026.csv"
   ],
-  "latest_close": 612,
-  "latest_marcap": 24406782768,
+  "latest_close": 2400,
+  "latest_marcap": 19142572800,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 612,
-  "raw_latest_marcap": 24406782768,
+  "raw_latest_close": 2400,
+  "raw_latest_marcap": 19142572800,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3991,
-    "non_tradable_zero_volume": 2,
+    "tradable_ohlcv": 4056,
+    "non_tradable_zero_volume": 18,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2011-11-15",
-    "2023-11-30"
+    "2023-11-30",
+    "2026-05-28"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "KB오토시스",
       "first_date": "2010-01-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한국베랄",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6595,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6676,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/024/024120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/024/024120/2026.csv"
   ],
-  "latest_close": 3670,
-  "latest_marcap": 42205000000,
+  "latest_close": 3090,
+  "latest_marcap": 35535000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3670,
-  "raw_latest_marcap": 42205000000,
+  "raw_latest_close": 3090,
+  "raw_latest_marcap": 35535000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6595,
+    "tradable_ohlcv": 6676,
     "non_tradable_zero_volume": 827,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

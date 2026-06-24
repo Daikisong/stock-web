@@ -10,7 +10,7 @@
     {
       "name": "현대사료",
       "first_date": "2018-06-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-06-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-06-01",
   "last_date": "2024-02-29",
   "raw_first_date": "2018-06-01",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 1402,
-  "raw_trading_day_count": 1894,
+  "raw_trading_day_count": 1975,
   "available_years": [
     2018,
     2019,
@@ -86,7 +86,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 1402,
-    "non_tradable_zero_volume": 492,
+    "non_tradable_zero_volume": 573,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

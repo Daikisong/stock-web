@@ -5,7 +5,7 @@
     {
       "name": "크라우드웍스",
       "first_date": "2023-08-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-08-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-08-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-08-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 585,
-  "raw_trading_day_count": 599,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 666,
+  "raw_trading_day_count": 680,
   "available_years": [
     2023,
     2024,
@@ -54,14 +54,14 @@
     "atlas/ohlcv_min_by_symbol_year/355/355390/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/355/355390/2026.csv"
   ],
-  "latest_close": 3035,
-  "latest_marcap": 41285639160,
+  "latest_close": 2520,
+  "latest_marcap": 40003346880,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3035,
-  "raw_latest_marcap": 41285639160,
+  "raw_latest_close": 2520,
+  "raw_latest_marcap": 40003346880,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 585,
+    "tradable_ohlcv": 666,
     "non_tradable_zero_volume": 14,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

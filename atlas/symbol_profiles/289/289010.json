@@ -5,7 +5,7 @@
     {
       "name": "아이스크림에듀",
       "first_date": "2019-07-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-07-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-07-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-07-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1623,
-  "raw_trading_day_count": 1623,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1704,
+  "raw_trading_day_count": 1704,
   "available_years": [
     2019,
     2020,
@@ -74,14 +74,14 @@
     "atlas/ohlcv_min_by_symbol_year/289/289010/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/289/289010/2026.csv"
   ],
-  "latest_close": 1553,
-  "latest_marcap": 21656982568,
+  "latest_close": 979,
+  "latest_marcap": 13652405624,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1553,
-  "raw_latest_marcap": 21656982568,
+  "raw_latest_close": 979,
+  "raw_latest_marcap": 13652405624,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1623,
+    "tradable_ohlcv": 1704,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "에스엘에스바이오",
       "first_date": "2017-08-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-10-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-06-29",
   "last_date": "2025-06-09",
   "raw_first_date": "2016-06-29",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 2043,
-  "raw_trading_day_count": 2366,
+  "raw_trading_day_count": 2447,
   "available_years": [
     2016,
     2017,
@@ -105,7 +105,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 2043,
-    "non_tradable_zero_volume": 323,
+    "non_tradable_zero_volume": 404,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

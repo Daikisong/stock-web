@@ -143,7 +143,7 @@
         2026
       ],
       "first_date": "2000-08-08",
-      "last_date": "2026-02-20",
+      "last_date": "2026-04-07",
       "status_inferred": "active_like"
     },
     {
@@ -197,7 +197,7 @@
         2026
       ],
       "first_date": "2006-09-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -263,7 +263,7 @@
         2026
       ],
       "first_date": "2000-07-19",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -390,7 +390,7 @@
         2026
       ],
       "first_date": "2001-11-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -490,7 +490,7 @@
         2026
       ],
       "first_date": "2000-08-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -570,7 +570,7 @@
         2026
       ],
       "first_date": "2001-07-20",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -634,7 +634,7 @@
         2026
       ],
       "first_date": "2001-12-13",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -776,7 +776,7 @@
         2026
       ],
       "first_date": "2001-12-20",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -842,7 +842,7 @@
         2026
       ],
       "first_date": "2000-07-20",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -944,7 +944,7 @@
         2026
       ],
       "first_date": "2000-08-24",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1021,7 +1021,7 @@
     },
     {
       "code": "043710",
-      "name": "서울리거",
+      "name": "코스리거글로벌",
       "profile_path": "atlas/symbol_profiles/043/043710.json",
       "available_years": [
         2002,
@@ -1078,7 +1078,7 @@
         2026
       ],
       "first_date": "2002-07-11",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1194,7 +1194,7 @@
         2026
       ],
       "first_date": "2005-11-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

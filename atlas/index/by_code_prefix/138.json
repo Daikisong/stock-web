@@ -42,7 +42,7 @@
         2026
       ],
       "first_date": "2011-05-13",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -86,7 +86,7 @@
         2026
       ],
       "first_date": "2011-11-28",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -124,7 +124,7 @@
         2026
       ],
       "first_date": "2014-02-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -209,7 +209,7 @@
         2026
       ],
       "first_date": "2013-11-08",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -275,8 +275,8 @@
         2026
       ],
       "first_date": "2011-06-15",
-      "last_date": "2026-02-20",
-      "status_inferred": "active_like"
+      "last_date": "2026-03-27",
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "138580",
@@ -347,7 +347,7 @@
         2026
       ],
       "first_date": "2011-07-13",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -429,7 +429,7 @@
         2026
       ],
       "first_date": "2011-03-30",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

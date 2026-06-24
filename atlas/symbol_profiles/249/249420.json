@@ -5,7 +5,7 @@
     {
       "name": "일동제약",
       "first_date": "2016-08-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2016-08-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-08-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-08-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2322,
-  "raw_trading_day_count": 2322,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2403,
+  "raw_trading_day_count": 2403,
   "available_years": [
     2016,
     2017,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/249/249420/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/249/249420/2026.csv"
   ],
-  "latest_close": 36150,
-  "latest_marcap": 1143722809800,
+  "latest_close": 17760,
+  "latest_marcap": 561895355520,
   "latest_market": "KOSPI",
-  "raw_latest_close": 36150,
-  "raw_latest_marcap": 1143722809800,
+  "raw_latest_close": 17760,
+  "raw_latest_marcap": 561895355520,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2322,
+    "tradable_ohlcv": 2403,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

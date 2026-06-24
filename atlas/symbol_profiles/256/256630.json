@@ -10,7 +10,7 @@
     {
       "name": "포인트엔지니어링",
       "first_date": "2019-07-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2121,
-  "raw_trading_day_count": 2157,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2188,
+  "raw_trading_day_count": 2238,
   "available_years": [
     2017,
     2018,
@@ -89,23 +89,24 @@
     "atlas/ohlcv_min_by_symbol_year/256/256630/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/256/256630/2026.csv"
   ],
-  "latest_close": 1006,
-  "latest_marcap": 58345054432,
+  "latest_close": 4345,
+  "latest_marcap": 50399453830,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1006,
-  "raw_latest_marcap": 58345054432,
+  "raw_latest_close": 4345,
+  "raw_latest_marcap": 50399453830,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2121,
-    "non_tradable_zero_volume": 36,
+    "tradable_ohlcv": 2188,
+    "non_tradable_zero_volume": 50,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 2,
   "corporate_action_candidate_dates": [
-    "2019-07-16"
+    "2019-07-16",
+    "2026-05-18"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "링크드",
       "first_date": "2024-04-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "영백씨엠",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-12-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-12-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-12-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2720,
-  "raw_trading_day_count": 2735,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2786,
+  "raw_trading_day_count": 2816,
   "available_years": [
     2014,
     2015,
@@ -109,24 +109,25 @@
     "atlas/ohlcv_min_by_symbol_year/193/193250/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/193/193250/2026.csv"
   ],
-  "latest_close": 399,
-  "latest_marcap": 25772372787,
+  "latest_close": 1377,
+  "latest_marcap": 18409020741,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 399,
-  "raw_latest_marcap": 25772372787,
+  "raw_latest_close": 1377,
+  "raw_latest_marcap": 18409020741,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2720,
-    "non_tradable_zero_volume": 15,
+    "tradable_ohlcv": 2786,
+    "non_tradable_zero_volume": 30,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2016-04-28",
-    "2016-05-23"
+    "2016-05-23",
+    "2026-05-22"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "네오리진",
       "first_date": "2021-03-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코닉글로리",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2007-04-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-04-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-04-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4615,
-  "raw_trading_day_count": 4647,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4696,
+  "raw_trading_day_count": 4728,
   "available_years": [
     2007,
     2008,
@@ -139,21 +139,21 @@
     "atlas/ohlcv_min_by_symbol_year/094/094860/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/094/094860/2026.csv"
   ],
-  "latest_close": 1500,
-  "latest_marcap": 37665021000,
+  "latest_close": 1369,
+  "latest_marcap": 72707609166,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1500,
-  "raw_latest_marcap": 37665021000,
+  "raw_latest_close": 1369,
+  "raw_latest_marcap": 72707609166,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4615,
+    "tradable_ohlcv": 4696,
     "non_tradable_zero_volume": 32,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 8,
+  "corporate_action_candidate_count": 9,
   "corporate_action_candidate_dates": [
     "2007-09-04",
     "2008-04-07",
@@ -162,7 +162,8 @@
     "2013-04-10",
     "2014-08-22",
     "2021-11-11",
-    "2024-02-05"
+    "2024-02-05",
+    "2026-05-22"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

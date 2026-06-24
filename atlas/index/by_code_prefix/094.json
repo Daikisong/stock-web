@@ -34,7 +34,7 @@
         2026
       ],
       "first_date": "2015-06-30",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -126,7 +126,7 @@
         2026
       ],
       "first_date": "2007-10-25",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -166,7 +166,7 @@
         2026
       ],
       "first_date": "2013-10-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -218,7 +218,7 @@
         2026
       ],
       "first_date": "2007-07-20",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -316,7 +316,7 @@
         2026
       ],
       "first_date": "2007-04-09",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -368,7 +368,7 @@
         2026
       ],
       "first_date": "2007-11-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -418,7 +418,7 @@
         2026
       ],
       "first_date": "2008-07-11",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -470,7 +470,7 @@
         2026
       ],
       "first_date": "2007-04-30",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -522,12 +522,12 @@
         2026
       ],
       "first_date": "2007-04-16",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "094940",
-      "name": "푸른기술",
+      "name": "푸른로보틱스",
       "profile_path": "atlas/symbol_profiles/094/094940.json",
       "available_years": [
         2007,
@@ -574,7 +574,7 @@
         2026
       ],
       "first_date": "2007-09-14",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -647,7 +647,7 @@
         2026
       ],
       "first_date": "2007-10-12",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

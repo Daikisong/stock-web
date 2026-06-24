@@ -10,7 +10,7 @@
     {
       "name": "옵투스제약",
       "first_date": "2022-06-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "하이제1호스팩",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-12-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-12-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-12-03",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3624,
-  "raw_trading_day_count": 3741,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3705,
+  "raw_trading_day_count": 3822,
   "available_years": [
     2010,
     2011,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/131/131030/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/131/131030/2026.csv"
   ],
-  "latest_close": 9010,
-  "latest_marcap": 158995775900,
+  "latest_close": 5970,
+  "latest_marcap": 105350142300,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 9010,
-  "raw_latest_marcap": 158995775900,
+  "raw_latest_close": 5970,
+  "raw_latest_marcap": 105350142300,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3624,
+    "tradable_ohlcv": 3705,
     "non_tradable_zero_volume": 117,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

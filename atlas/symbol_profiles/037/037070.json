@@ -5,7 +5,7 @@
     {
       "name": "파세코",
       "first_date": "2000-01-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-01-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-01-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-01-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6438,
-  "raw_trading_day_count": 6442,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6519,
+  "raw_trading_day_count": 6523,
   "available_years": [
     2000,
     2001,
@@ -169,14 +169,14 @@
     "atlas/ohlcv_min_by_symbol_year/037/037070/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/037/037070/2026.csv"
   ],
-  "latest_close": 8330,
-  "latest_marcap": 166600000000,
+  "latest_close": 6210,
+  "latest_marcap": 124200000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8330,
-  "raw_latest_marcap": 166600000000,
+  "raw_latest_close": 6210,
+  "raw_latest_marcap": 124200000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6438,
+    "tradable_ohlcv": 6519,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

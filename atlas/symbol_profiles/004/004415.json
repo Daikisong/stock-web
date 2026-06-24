@@ -20,7 +20,7 @@
     {
       "name": "서울식품우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7444,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7509,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -209,25 +209,26 @@
     "atlas/ohlcv_min_by_symbol_year/004/004415/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/004/004415/2026.csv"
   ],
-  "latest_close": 1254,
-  "latest_marcap": 2789523000,
+  "latest_close": 7370,
+  "latest_marcap": 1639456500,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1254,
-  "raw_latest_marcap": 2789523000,
+  "raw_latest_close": 7370,
+  "raw_latest_marcap": 1639456500,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7444,
-    "non_tradable_zero_volume": 319,
+    "tradable_ohlcv": 7509,
+    "non_tradable_zero_volume": 335,
     "invalid_zero_ohlc": 2,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2004-03-12",
     "2010-02-12",
-    "2017-10-25"
+    "2017-10-25",
+    "2026-05-21"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

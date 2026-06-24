@@ -5,7 +5,7 @@
     {
       "name": "CJ CGV",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "CJCGV",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2004-12-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2004-12-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2004-12-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5220,
-  "raw_trading_day_count": 5220,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5301,
+  "raw_trading_day_count": 5301,
   "available_years": [
     2004,
     2005,
@@ -154,14 +154,14 @@
     "atlas/ohlcv_min_by_symbol_year/079/079160/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/079/079160/2026.csv"
   ],
-  "latest_close": 5910,
-  "latest_marcap": 978590157810,
+  "latest_close": 4510,
+  "latest_marcap": 746776944210,
   "latest_market": "KOSPI",
-  "raw_latest_close": 5910,
-  "raw_latest_marcap": 978590157810,
+  "raw_latest_close": 4510,
+  "raw_latest_marcap": 746776944210,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 5220,
+    "tradable_ohlcv": 5301,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

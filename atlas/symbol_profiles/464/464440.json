@@ -5,7 +5,7 @@
     {
       "name": "한국제13호스팩",
       "first_date": "2023-11-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-17"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-11-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-17"
     }
   ],
   "first_date": "2023-11-13",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-17",
   "raw_first_date": "2023-11-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 551,
-  "raw_trading_day_count": 552,
+  "raw_last_date": "2026-06-17",
+  "trading_day_count": 628,
+  "raw_trading_day_count": 630,
   "available_years": [
     2023,
     2024,
@@ -54,15 +54,15 @@
     "atlas/ohlcv_min_by_symbol_year/464/464440/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/464/464440/2026.csv"
   ],
-  "latest_close": 2160,
-  "latest_marcap": 9331200000,
+  "latest_close": 2115,
+  "latest_marcap": 9136800000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2160,
-  "raw_latest_marcap": 9331200000,
+  "raw_latest_close": 2115,
+  "raw_latest_marcap": 9136800000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 551,
-    "non_tradable_zero_volume": 1,
+    "tradable_ohlcv": 628,
+    "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
@@ -72,7 +72,7 @@
   "corporate_action_candidate_dates": [],
   "has_major_raw_discontinuity": false,
   "calibration_caveat": "",
-  "status_inferred": "active_like",
+  "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",
   "source_repo_url": "https://github.com/FinanceData/marcap",

@@ -20,7 +20,7 @@
     {
       "name": "코아시아씨엠",
       "first_date": "2023-04-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코아시아옵틱스",
@@ -40,15 +40,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-06-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-06-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-06-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2655,
-  "raw_trading_day_count": 2876,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2736,
+  "raw_trading_day_count": 2957,
   "available_years": [
     2014,
     2015,
@@ -124,14 +124,14 @@
     "atlas/ohlcv_min_by_symbol_year/196/196450/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/196/196450/2026.csv"
   ],
-  "latest_close": 1279,
-  "latest_marcap": 57963745378,
+  "latest_close": 796,
+  "latest_marcap": 36074387272,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1279,
-  "raw_latest_marcap": 57963745378,
+  "raw_latest_close": 796,
+  "raw_latest_marcap": 36074387272,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2655,
+    "tradable_ohlcv": 2736,
     "non_tradable_zero_volume": 221,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

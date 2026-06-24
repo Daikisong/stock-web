@@ -10,7 +10,7 @@
     {
       "name": "초록뱀미디어",
       "first_date": "2021-04-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코닉테크",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-12-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-12-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-12-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5171,
-  "raw_trading_day_count": 5715,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5252,
+  "raw_trading_day_count": 5796,
   "available_years": [
     2002,
     2003,
@@ -166,14 +166,14 @@
     "atlas/ohlcv_min_by_symbol_year/047/047820/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/047/047820/2026.csv"
   ],
-  "latest_close": 4555,
-  "latest_marcap": 111387651150,
+  "latest_close": 3650,
+  "latest_marcap": 89256844500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4555,
-  "raw_latest_marcap": 111387651150,
+  "raw_latest_close": 3650,
+  "raw_latest_marcap": 89256844500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5171,
+    "tradable_ohlcv": 5252,
     "non_tradable_zero_volume": 544,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

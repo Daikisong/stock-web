@@ -10,7 +10,7 @@
     {
       "name": "타조이엔터테인먼트",
       "first_date": "2025-11-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KONEX",
       "first_date": "2024-10-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-10-30",
-  "last_date": "2026-01-08",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-10-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 57,
-  "raw_trading_day_count": 318,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 84,
+  "raw_trading_day_count": 399,
   "available_years": [
     2024,
     2025,
@@ -54,15 +54,15 @@
     "atlas/ohlcv_min_by_symbol_year/476/476710/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/476/476710/2026.csv"
   ],
-  "latest_close": 15980,
-  "latest_marcap": 15980000000,
+  "latest_close": 18140,
+  "latest_marcap": 18140000000,
   "latest_market": "KONEX",
-  "raw_latest_close": 15980,
-  "raw_latest_marcap": 15980000000,
+  "raw_latest_close": 18140,
+  "raw_latest_marcap": 18140000000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 57,
-    "non_tradable_zero_volume": 261,
+    "tradable_ohlcv": 84,
+    "non_tradable_zero_volume": 315,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

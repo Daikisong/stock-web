@@ -5,7 +5,7 @@
     {
       "name": "노브메타파마",
       "first_date": "2015-10-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2015-10-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-10-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-10-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2327,
-  "raw_trading_day_count": 2530,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2408,
+  "raw_trading_day_count": 2611,
   "available_years": [
     2015,
     2016,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/229/229500/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/229/229500/2026.csv"
   ],
-  "latest_close": 10750,
-  "latest_marcap": 138046705500,
+  "latest_close": 7700,
+  "latest_marcap": 98879965800,
   "latest_market": "KONEX",
-  "raw_latest_close": 10750,
-  "raw_latest_marcap": 138046705500,
+  "raw_latest_close": 7700,
+  "raw_latest_marcap": 98879965800,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 2327,
+    "tradable_ohlcv": 2408,
     "non_tradable_zero_volume": 203,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

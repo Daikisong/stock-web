@@ -5,7 +5,7 @@
     {
       "name": "수젠텍",
       "first_date": "2016-11-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-05-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-11-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-11-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2074,
-  "raw_trading_day_count": 2274,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2155,
+  "raw_trading_day_count": 2355,
   "available_years": [
     2016,
     2017,
@@ -95,14 +95,14 @@
     "atlas/ohlcv_min_by_symbol_year/253/253840/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/253/253840/2026.csv"
   ],
-  "latest_close": 5850,
-  "latest_marcap": 97947720000,
+  "latest_close": 4500,
+  "latest_marcap": 75344400000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5850,
-  "raw_latest_marcap": 97947720000,
+  "raw_latest_close": 4500,
+  "raw_latest_marcap": 75344400000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2074,
+    "tradable_ohlcv": 2155,
     "non_tradable_zero_volume": 200,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

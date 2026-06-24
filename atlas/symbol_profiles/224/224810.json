@@ -5,7 +5,7 @@
     {
       "name": "엄지하우스",
       "first_date": "2015-10-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2015-10-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-11-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-10-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1611,
-  "raw_trading_day_count": 2535,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1678,
+  "raw_trading_day_count": 2616,
   "available_years": [
     2015,
     2016,
@@ -94,15 +94,15 @@
     "atlas/ohlcv_min_by_symbol_year/224/224810/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/224/224810/2026.csv"
   ],
-  "latest_close": 2355,
-  "latest_marcap": 9891000000,
+  "latest_close": 1019,
+  "latest_marcap": 4279800000,
   "latest_market": "KONEX",
-  "raw_latest_close": 2355,
-  "raw_latest_marcap": 9891000000,
+  "raw_latest_close": 1019,
+  "raw_latest_marcap": 4279800000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1611,
-    "non_tradable_zero_volume": 924,
+    "tradable_ohlcv": 1678,
+    "non_tradable_zero_volume": 938,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -10,7 +10,7 @@
     {
       "name": "체시스",
       "first_date": "2002-12-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1999-08-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-08-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-08-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6535,
-  "raw_trading_day_count": 6540,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6601,
+  "raw_trading_day_count": 6621,
   "available_years": [
     1999,
     2000,
@@ -179,26 +179,27 @@
     "atlas/ohlcv_min_by_symbol_year/033/033250/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/033/033250/2026.csv"
   ],
-  "latest_close": 1037,
-  "latest_marcap": 33184000000,
+  "latest_close": 3775,
+  "latest_marcap": 24160000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1037,
-  "raw_latest_marcap": 33184000000,
+  "raw_latest_close": 3775,
+  "raw_latest_marcap": 24160000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6535,
-    "non_tradable_zero_volume": 5,
+    "tradable_ohlcv": 6601,
+    "non_tradable_zero_volume": 20,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2001-02-06",
     "2001-03-19",
     "2015-12-16",
-    "2021-02-02"
+    "2021-02-02",
+    "2026-05-07"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

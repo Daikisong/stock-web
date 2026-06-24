@@ -5,7 +5,7 @@
     {
       "name": "에이펙스인텍",
       "first_date": "2018-11-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2018-11-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-11-28",
-  "last_date": "2026-02-13",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-11-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1085,
-  "raw_trading_day_count": 1774,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1112,
+  "raw_trading_day_count": 1855,
   "available_years": [
     2018,
     2019,
@@ -79,15 +79,15 @@
     "atlas/ohlcv_min_by_symbol_year/207/207490/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/207/207490/2026.csv"
   ],
-  "latest_close": 6600,
-  "latest_marcap": 23760000000,
+  "latest_close": 6450,
+  "latest_marcap": 23220000000,
   "latest_market": "KONEX",
-  "raw_latest_close": 6600,
-  "raw_latest_marcap": 23760000000,
+  "raw_latest_close": 6450,
+  "raw_latest_marcap": 23220000000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1085,
-    "non_tradable_zero_volume": 689,
+    "tradable_ohlcv": 1112,
+    "non_tradable_zero_volume": 743,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -5,7 +5,7 @@
     {
       "name": "노드메이슨",
       "first_date": "2019-12-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2019-12-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-12-06",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-19",
   "raw_first_date": "2019-12-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1237,
-  "raw_trading_day_count": 1522,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1295,
+  "raw_trading_day_count": 1603,
   "available_years": [
     2019,
     2020,
@@ -74,15 +74,15 @@
     "atlas/ohlcv_min_by_symbol_year/317/317860/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/317/317860/2026.csv"
   ],
-  "latest_close": 4540,
-  "latest_marcap": 20489996100,
+  "latest_close": 4395,
+  "latest_marcap": 19835579925,
   "latest_market": "KONEX",
-  "raw_latest_close": 4540,
-  "raw_latest_marcap": 20489996100,
+  "raw_latest_close": 4395,
+  "raw_latest_marcap": 19835579925,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1237,
-    "non_tradable_zero_volume": 285,
+    "tradable_ohlcv": 1295,
+    "non_tradable_zero_volume": 308,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -20,7 +20,7 @@
     {
       "name": "삼성전자우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7761,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7842,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -209,14 +209,14 @@
     "atlas/ohlcv_min_by_symbol_year/005/005935/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005935/2026.csv"
   ],
-  "latest_close": 135100,
-  "latest_marcap": 110238177106400,
+  "latest_close": 224000,
+  "latest_marcap": 179731149472000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 135100,
-  "raw_latest_marcap": 110238177106400,
+  "raw_latest_close": 224000,
+  "raw_latest_marcap": 179731149472000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7761,
+    "tradable_ohlcv": 7842,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

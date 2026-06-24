@@ -5,7 +5,7 @@
     {
       "name": "나눔테크",
       "first_date": "2016-06-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2016-06-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-06-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-06-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2091,
-  "raw_trading_day_count": 2385,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2172,
+  "raw_trading_day_count": 2466,
   "available_years": [
     2016,
     2017,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/244/244880/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/244/244880/2026.csv"
   ],
-  "latest_close": 1899,
-  "latest_marcap": 9532980000,
+  "latest_close": 1649,
+  "latest_marcap": 8277980000,
   "latest_market": "KONEX",
-  "raw_latest_close": 1899,
-  "raw_latest_marcap": 9532980000,
+  "raw_latest_close": 1649,
+  "raw_latest_marcap": 8277980000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 2091,
+    "tradable_ohlcv": 2172,
     "non_tradable_zero_volume": 294,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

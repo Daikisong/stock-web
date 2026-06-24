@@ -5,7 +5,7 @@
     {
       "name": "HEM파마",
       "first_date": "2025-12-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "에이치이엠파마",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2024-11-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-11-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-11-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 314,
-  "raw_trading_day_count": 314,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 395,
+  "raw_trading_day_count": 395,
   "available_years": [
     2024,
     2025,
@@ -54,14 +54,14 @@
     "atlas/ohlcv_min_by_symbol_year/376/376270/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/376/376270/2026.csv"
   ],
-  "latest_close": 81300,
-  "latest_marcap": 583874405100,
+  "latest_close": 47750,
+  "latest_marcap": 343952179250,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 81300,
-  "raw_latest_marcap": 583874405100,
+  "raw_latest_close": 47750,
+  "raw_latest_marcap": 343952179250,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 314,
+    "tradable_ohlcv": 395,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

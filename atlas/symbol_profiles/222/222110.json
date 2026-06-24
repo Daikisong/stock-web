@@ -5,7 +5,7 @@
     {
       "name": "팬젠",
       "first_date": "2016-03-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2016-03-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-03-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-03-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2440,
-  "raw_trading_day_count": 2440,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2521,
+  "raw_trading_day_count": 2521,
   "available_years": [
     2016,
     2017,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/222/222110/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/222/222110/2026.csv"
   ],
-  "latest_close": 5200,
-  "latest_marcap": 70169824400,
+  "latest_close": 4850,
+  "latest_marcap": 65545368650,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5200,
-  "raw_latest_marcap": 70169824400,
+  "raw_latest_close": 4850,
+  "raw_latest_marcap": 65545368650,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2440,
+    "tradable_ohlcv": 2521,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

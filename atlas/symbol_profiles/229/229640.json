@@ -5,7 +5,7 @@
     {
       "name": "LS에코에너지",
       "first_date": "2024-01-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "LS전선아시아",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2016-09-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-09-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-09-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2309,
-  "raw_trading_day_count": 2309,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2390,
+  "raw_trading_day_count": 2390,
   "available_years": [
     2016,
     2017,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/229/229640/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/229/229640/2026.csv"
   ],
-  "latest_close": 44650,
-  "latest_marcap": 1367400847350,
+  "latest_close": 58100,
+  "latest_marcap": 1779305469900,
   "latest_market": "KOSPI",
-  "raw_latest_close": 44650,
-  "raw_latest_marcap": 1367400847350,
+  "raw_latest_close": 58100,
+  "raw_latest_marcap": 1779305469900,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2309,
+    "tradable_ohlcv": 2390,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

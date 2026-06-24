@@ -5,7 +5,7 @@
     {
       "name": "인스피언",
       "first_date": "2024-10-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2024-10-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-10-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-10-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 326,
-  "raw_trading_day_count": 326,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 407,
+  "raw_trading_day_count": 407,
   "available_years": [
     2024,
     2025,
@@ -49,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/465/465480/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/465/465480/2026.csv"
   ],
-  "latest_close": 5280,
-  "latest_marcap": 53527436160,
+  "latest_close": 3840,
+  "latest_marcap": 38929044480,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5280,
-  "raw_latest_marcap": 53527436160,
+  "raw_latest_close": 3840,
+  "raw_latest_marcap": 38929044480,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 326,
+    "tradable_ohlcv": 407,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

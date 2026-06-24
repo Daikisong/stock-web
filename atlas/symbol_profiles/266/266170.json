@@ -5,7 +5,7 @@
     {
       "name": "레드우즈",
       "first_date": "2026-01-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "뿌리깊은나무들",
@@ -25,15 +25,15 @@
     {
       "market": "KONEX",
       "first_date": "2017-06-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-06-09",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-25",
   "raw_first_date": "2017-06-09",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1924,
-  "raw_trading_day_count": 2133,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1940,
+  "raw_trading_day_count": 2214,
   "available_years": [
     2017,
     2018,
@@ -94,15 +94,15 @@
     "atlas/ohlcv_min_by_symbol_year/266/266170/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/266/266170/2026.csv"
   ],
-  "latest_close": 1301,
-  "latest_marcap": 954707626,
+  "latest_close": 1050,
+  "latest_marcap": 770517300,
   "latest_market": "KONEX",
-  "raw_latest_close": 1301,
-  "raw_latest_marcap": 954707626,
+  "raw_latest_close": 1050,
+  "raw_latest_marcap": 1366092000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1924,
-    "non_tradable_zero_volume": 209,
+    "tradable_ohlcv": 1940,
+    "non_tradable_zero_volume": 274,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

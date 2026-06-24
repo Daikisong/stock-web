@@ -16,7 +16,7 @@
         2026
       ],
       "first_date": "2024-10-21",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -34,7 +34,7 @@
         2026
       ],
       "first_date": "2024-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -52,7 +52,7 @@
         2026
       ],
       "first_date": "2024-11-19",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -68,7 +68,7 @@
         2026
       ],
       "first_date": "2025-06-10",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -77,7 +77,8 @@
       "profile_path": "atlas/symbol_profiles/474/474660.json",
       "available_years": [
         2024,
-        2025
+        2025,
+        2026
       ],
       "raw_available_years": [
         2024,
@@ -85,7 +86,7 @@
         2026
       ],
       "first_date": "2024-04-15",
-      "last_date": "2025-11-26",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -103,7 +104,7 @@
         2026
       ],
       "first_date": "2024-04-22",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

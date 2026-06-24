@@ -30,7 +30,7 @@
     {
       "name": "플레이그램",
       "first_date": "2021-11-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -40,15 +40,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7656,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7723,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -219,21 +219,21 @@
     "atlas/ohlcv_min_by_symbol_year/009/009810/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/009/009810/2026.csv"
   ],
-  "latest_close": 1208,
-  "latest_marcap": 36696020000,
+  "latest_close": 1781,
+  "latest_marcap": 27051163750,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1208,
-  "raw_latest_marcap": 36696020000,
+  "raw_latest_close": 1781,
+  "raw_latest_marcap": 27051163750,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7656,
-    "non_tradable_zero_volume": 108,
+    "tradable_ohlcv": 7723,
+    "non_tradable_zero_volume": 122,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 21,
+  "corporate_action_candidate_count": 22,
   "corporate_action_candidate_dates": [
     "1996-01-03",
     "1998-12-21",
@@ -255,7 +255,8 @@
     "2016-10-11",
     "2020-11-24",
     "2021-01-12",
-    "2026-02-10"
+    "2026-02-10",
+    "2026-05-19"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

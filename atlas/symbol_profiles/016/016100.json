@@ -5,7 +5,7 @@
     {
       "name": "리더스코스메틱",
       "first_date": "2016-04-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "산성앨엔에스",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2003-01-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2003-01-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2003-01-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5699,
-  "raw_trading_day_count": 5702,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5780,
+  "raw_trading_day_count": 5783,
   "available_years": [
     2003,
     2004,
@@ -164,14 +164,14 @@
     "atlas/ohlcv_min_by_symbol_year/016/016100/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/016/016100/2026.csv"
   ],
-  "latest_close": 1572,
-  "latest_marcap": 30026605368,
+  "latest_close": 1223,
+  "latest_marcap": 23360393362,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1572,
-  "raw_latest_marcap": 30026605368,
+  "raw_latest_close": 1223,
+  "raw_latest_marcap": 23360393362,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5699,
+    "tradable_ohlcv": 5780,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

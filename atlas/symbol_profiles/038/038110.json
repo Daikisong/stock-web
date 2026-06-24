@@ -10,7 +10,7 @@
     {
       "name": "에코플라스틱",
       "first_date": "2004-12-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-03-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-03-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-03-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6383,
-  "raw_trading_day_count": 6387,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6464,
+  "raw_trading_day_count": 6468,
   "available_years": [
     2000,
     2001,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/038/038110/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/038/038110/2026.csv"
   ],
-  "latest_close": 3440,
-  "latest_marcap": 141622632800,
+  "latest_close": 2130,
+  "latest_marcap": 87690758100,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3440,
-  "raw_latest_marcap": 141622632800,
+  "raw_latest_close": 2130,
+  "raw_latest_marcap": 87690758100,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6383,
+    "tradable_ohlcv": 6464,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -15,7 +15,7 @@
     {
       "name": "한온시스템",
       "first_date": "2015-08-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "1996-07-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-01-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7255,
-  "raw_trading_day_count": 7397,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7336,
+  "raw_trading_day_count": 7478,
   "available_years": [
     1997,
     1998,
@@ -196,14 +196,14 @@
     "atlas/ohlcv_min_by_symbol_year/018/018880/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/018/018880/2026.csv"
   ],
-  "latest_close": 4945,
-  "latest_marcap": 5074868319640,
+  "latest_close": 4350,
+  "latest_marcap": 4464242101200,
   "latest_market": "KOSPI",
-  "raw_latest_close": 4945,
-  "raw_latest_marcap": 5074868319640,
+  "raw_latest_close": 4350,
+  "raw_latest_marcap": 4464242101200,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7255,
+    "tradable_ohlcv": 7336,
     "non_tradable_zero_volume": 142,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

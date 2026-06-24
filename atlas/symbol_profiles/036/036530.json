@@ -15,7 +15,7 @@
     {
       "name": "SNT홀딩스",
       "first_date": "2021-03-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "삼영",
@@ -41,15 +41,15 @@
     {
       "market": "KOSPI",
       "first_date": "2002-10-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-03-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-03-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6383,
-  "raw_trading_day_count": 6399,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6464,
+  "raw_trading_day_count": 6480,
   "available_years": [
     2000,
     2001,
@@ -195,14 +195,14 @@
     "atlas/ohlcv_min_by_symbol_year/036/036530/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/036/036530/2026.csv"
   ],
-  "latest_close": 69100,
-  "latest_marcap": 1126598522600,
+  "latest_close": 49950,
+  "latest_marcap": 814379105700,
   "latest_market": "KOSPI",
-  "raw_latest_close": 69100,
-  "raw_latest_marcap": 1126598522600,
+  "raw_latest_close": 49950,
+  "raw_latest_marcap": 814379105700,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6383,
+    "tradable_ohlcv": 6464,
     "non_tradable_zero_volume": 16,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

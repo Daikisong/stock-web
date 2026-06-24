@@ -74,7 +74,7 @@
         2026
       ],
       "first_date": "2010-06-09",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "code": "070590",
-      "name": "한솔인티큐브",
+      "name": "인티큐브",
       "profile_path": "atlas/symbol_profiles/070/070590.json",
       "available_years": [
         2004,
@@ -180,7 +180,7 @@
         2026
       ],
       "first_date": "2004-01-08",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -214,7 +214,7 @@
         2026
       ],
       "first_date": "2016-05-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

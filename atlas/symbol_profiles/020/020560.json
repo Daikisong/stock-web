@@ -5,7 +5,7 @@
     {
       "name": "아시아나항공",
       "first_date": "1999-12-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSPI",
       "first_date": "2008-03-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-12-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-12-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6389,
-  "raw_trading_day_count": 6445,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6470,
+  "raw_trading_day_count": 6526,
   "available_years": [
     1999,
     2000,
@@ -180,14 +180,14 @@
     "atlas/ohlcv_min_by_symbol_year/020/020560/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/020/020560/2026.csv"
   ],
-  "latest_close": 7740,
-  "latest_marcap": 1594368103140,
+  "latest_close": 7130,
+  "latest_marcap": 1468713769430,
   "latest_market": "KOSPI",
-  "raw_latest_close": 7740,
-  "raw_latest_marcap": 1594368103140,
+  "raw_latest_close": 7130,
+  "raw_latest_marcap": 1468713769430,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6389,
+    "tradable_ohlcv": 6470,
     "non_tradable_zero_volume": 56,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

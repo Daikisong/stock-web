@@ -5,7 +5,7 @@
     {
       "name": "툴젠",
       "first_date": "2014-06-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-12-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-06-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-06-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2836,
-  "raw_trading_day_count": 2861,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2917,
+  "raw_trading_day_count": 2942,
   "available_years": [
     2014,
     2015,
@@ -105,14 +105,14 @@
     "atlas/ohlcv_min_by_symbol_year/199/199800/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/199/199800/2026.csv"
   ],
-  "latest_close": 53100,
-  "latest_marcap": 477381159900,
+  "latest_close": 45450,
+  "latest_marcap": 408942238050,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 53100,
-  "raw_latest_marcap": 477381159900,
+  "raw_latest_close": 45450,
+  "raw_latest_marcap": 408942238050,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2836,
+    "tradable_ohlcv": 2917,
     "non_tradable_zero_volume": 25,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

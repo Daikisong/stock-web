@@ -5,7 +5,7 @@
     {
       "name": "웨이브일렉트로",
       "first_date": "2007-09-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2007-09-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-09-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-09-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4545,
-  "raw_trading_day_count": 4545,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4626,
+  "raw_trading_day_count": 4626,
   "available_years": [
     2007,
     2008,
@@ -134,14 +134,14 @@
     "atlas/ohlcv_min_by_symbol_year/095/095270/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/095/095270/2026.csv"
   ],
-  "latest_close": 4835,
-  "latest_marcap": 69490583010,
+  "latest_close": 3765,
+  "latest_marcap": 54112108590,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4835,
-  "raw_latest_marcap": 69490583010,
+  "raw_latest_close": 3765,
+  "raw_latest_marcap": 54112108590,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4545,
+    "tradable_ohlcv": 4626,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

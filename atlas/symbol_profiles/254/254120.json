@@ -10,7 +10,7 @@
     {
       "name": "자비스",
       "first_date": "2019-11-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2016-12-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-12-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-12-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2204,
-  "raw_trading_day_count": 2259,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2285,
+  "raw_trading_day_count": 2340,
   "available_years": [
     2016,
     2017,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/254/254120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/254/254120/2026.csv"
   ],
-  "latest_close": 1297,
-  "latest_marcap": 39888288190,
+  "latest_close": 740,
+  "latest_marcap": 22758159800,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1297,
-  "raw_latest_marcap": 39888288190,
+  "raw_latest_close": 740,
+  "raw_latest_marcap": 22758159800,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2204,
+    "tradable_ohlcv": 2285,
     "non_tradable_zero_volume": 55,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

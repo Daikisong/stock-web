@@ -5,7 +5,7 @@
     {
       "name": "엔케이",
       "first_date": "2008-01-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2008-01-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2008-01-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2008-01-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4457,
-  "raw_trading_day_count": 4457,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4517,
+  "raw_trading_day_count": 4538,
   "available_years": [
     2008,
     2009,
@@ -129,26 +129,27 @@
     "atlas/ohlcv_min_by_symbol_year/085/085310/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/085/085310/2026.csv"
   ],
-  "latest_close": 1185,
-  "latest_marcap": 93473181570,
+  "latest_close": 9880,
+  "latest_marcap": 73290571120,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1185,
-  "raw_latest_marcap": 93473181570,
+  "raw_latest_close": 9880,
+  "raw_latest_marcap": 73290571120,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4457,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 4517,
+    "non_tradable_zero_volume": 21,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2011-02-11",
     "2011-03-04",
     "2014-08-25",
-    "2017-07-27"
+    "2017-07-27",
+    "2026-06-01"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "로보로보",
       "first_date": "2017-12-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "하나머스트4호스팩",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-04-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-04-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-04-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2582,
-  "raw_trading_day_count": 2658,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2663,
+  "raw_trading_day_count": 2739,
   "available_years": [
     2015,
     2016,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/215/215100/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/215/215100/2026.csv"
   ],
-  "latest_close": 9130,
-  "latest_marcap": 185781385020,
+  "latest_close": 4480,
+  "latest_marcap": 91161073920,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 9130,
-  "raw_latest_marcap": 185781385020,
+  "raw_latest_close": 4480,
+  "raw_latest_marcap": 91161073920,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2582,
+    "tradable_ohlcv": 2663,
     "non_tradable_zero_volume": 75,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

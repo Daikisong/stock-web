@@ -5,7 +5,7 @@
     {
       "name": "HD현대일렉트릭",
       "first_date": "2023-04-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "현대일렉트릭",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2017-05-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-05-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-05-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2154,
-  "raw_trading_day_count": 2154,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2235,
+  "raw_trading_day_count": 2235,
   "available_years": [
     2017,
     2018,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/267/267260/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/267/267260/2026.csv"
   ],
-  "latest_close": 1011000,
-  "latest_marcap": 36443653485000,
+  "latest_close": 1033000,
+  "latest_marcap": 37236690455000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1011000,
-  "raw_latest_marcap": 36443653485000,
+  "raw_latest_close": 1033000,
+  "raw_latest_marcap": 37236690455000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2154,
+    "tradable_ohlcv": 2235,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

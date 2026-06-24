@@ -5,7 +5,7 @@
     {
       "name": "이오플로우",
       "first_date": "2020-09-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-09-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-09-14",
   "last_date": "2025-03-21",
   "raw_first_date": "2020-09-14",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 1081,
-  "raw_trading_day_count": 1331,
+  "raw_trading_day_count": 1412,
   "available_years": [
     2020,
     2021,
@@ -70,11 +70,11 @@
   "latest_marcap": 51113511300,
   "latest_market": "KOSDAQ",
   "raw_latest_close": 1490,
-  "raw_latest_marcap": 61207866450,
+  "raw_latest_marcap": 62295566450,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 1081,
-    "non_tradable_zero_volume": 250,
+    "non_tradable_zero_volume": 331,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

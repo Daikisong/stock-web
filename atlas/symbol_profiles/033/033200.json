@@ -5,7 +5,7 @@
     {
       "name": "모아텍",
       "first_date": "1997-10-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-10-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-10-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-10-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6674,
-  "raw_trading_day_count": 7047,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6755,
+  "raw_trading_day_count": 7128,
   "available_years": [
     1997,
     1998,
@@ -184,26 +184,27 @@
     "atlas/ohlcv_min_by_symbol_year/033/033200/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/033/033200/2026.csv"
   ],
-  "latest_close": 3860,
-  "latest_marcap": 55318374100,
+  "latest_close": 3025,
+  "latest_marcap": 27843700225,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3860,
-  "raw_latest_marcap": 55318374100,
+  "raw_latest_close": 3025,
+  "raw_latest_marcap": 27843700225,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6674,
+    "tradable_ohlcv": 6755,
     "non_tradable_zero_volume": 373,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "1999-06-28",
     "1999-07-14",
     "1999-11-10",
-    "1999-11-30"
+    "1999-11-30",
+    "2026-05-13"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

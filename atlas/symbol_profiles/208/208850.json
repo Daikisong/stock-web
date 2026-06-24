@@ -5,7 +5,7 @@
     {
       "name": "이비테크",
       "first_date": "2016-06-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2016-06-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-06-27",
-  "last_date": "2026-02-12",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-06-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1678,
-  "raw_trading_day_count": 2371,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1727,
+  "raw_trading_day_count": 2452,
   "available_years": [
     2016,
     2017,
@@ -89,15 +89,15 @@
     "atlas/ohlcv_min_by_symbol_year/208/208850/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/208/208850/2026.csv"
   ],
-  "latest_close": 5000,
-  "latest_marcap": 14101250000,
+  "latest_close": 5400,
+  "latest_marcap": 15229350000,
   "latest_market": "KONEX",
-  "raw_latest_close": 5000,
-  "raw_latest_marcap": 14101250000,
+  "raw_latest_close": 5400,
+  "raw_latest_marcap": 15229350000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1678,
-    "non_tradable_zero_volume": 693,
+    "tradable_ohlcv": 1727,
+    "non_tradable_zero_volume": 725,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

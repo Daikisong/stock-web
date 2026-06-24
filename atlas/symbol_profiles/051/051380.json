@@ -5,7 +5,7 @@
     {
       "name": "피씨디렉트",
       "first_date": "2002-02-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-02-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-02-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-02-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5918,
-  "raw_trading_day_count": 5926,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5999,
+  "raw_trading_day_count": 6007,
   "available_years": [
     2002,
     2003,
@@ -159,14 +159,14 @@
     "atlas/ohlcv_min_by_symbol_year/051/051380/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/051/051380/2026.csv"
   ],
-  "latest_close": 1891,
-  "latest_marcap": 29008076152,
+  "latest_close": 1602,
+  "latest_marcap": 24574795344,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1891,
-  "raw_latest_marcap": 29008076152,
+  "raw_latest_close": 1602,
+  "raw_latest_marcap": 24574795344,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5918,
+    "tradable_ohlcv": 5999,
     "non_tradable_zero_volume": 8,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

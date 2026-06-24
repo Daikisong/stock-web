@@ -5,7 +5,7 @@
     {
       "name": "가비아",
       "first_date": "2005-10-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-10-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-10-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-10-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5018,
-  "raw_trading_day_count": 5018,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5099,
+  "raw_trading_day_count": 5099,
   "available_years": [
     2005,
     2006,
@@ -144,14 +144,14 @@
     "atlas/ohlcv_min_by_symbol_year/079/079940/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/079/079940/2026.csv"
   ],
-  "latest_close": 32600,
-  "latest_marcap": 437514298400,
+  "latest_close": 30900,
+  "latest_marcap": 414699135600,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 32600,
-  "raw_latest_marcap": 437514298400,
+  "raw_latest_close": 30900,
+  "raw_latest_marcap": 414699135600,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5018,
+    "tradable_ohlcv": 5099,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

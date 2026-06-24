@@ -124,12 +124,12 @@
         2026
       ],
       "first_date": "2002-01-15",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "054050",
-      "name": "농우바이오",
+      "name": "NH농우바이오",
       "profile_path": "atlas/symbol_profiles/054/054050.json",
       "available_years": [
         2002,
@@ -186,7 +186,7 @@
         2026
       ],
       "first_date": "2002-04-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -266,7 +266,7 @@
         2026
       ],
       "first_date": "2004-02-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -491,7 +491,7 @@
         2026
       ],
       "first_date": "2002-05-09",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -553,7 +553,7 @@
         2026
       ],
       "first_date": "2001-12-26",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -641,7 +641,7 @@
         2026
       ],
       "first_date": "2002-01-10",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -774,7 +774,7 @@
         2026
       ],
       "first_date": "2002-04-25",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -858,7 +858,7 @@
         2026
       ],
       "first_date": "2004-12-10",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -942,7 +942,7 @@
         2026
       ],
       "first_date": "2001-11-15",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1006,7 +1006,7 @@
         2026
       ],
       "first_date": "2001-12-04",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1158,7 +1158,7 @@
         2026
       ],
       "first_date": "2002-02-26",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1218,7 +1218,7 @@
         2026
       ],
       "first_date": "2003-11-14",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1308,7 +1308,7 @@
         2026
       ],
       "first_date": "2001-09-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1372,7 +1372,7 @@
         2026
       ],
       "first_date": "2001-11-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1434,7 +1434,7 @@
         2026
       ],
       "first_date": "2002-01-15",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1498,7 +1498,7 @@
         2026
       ],
       "first_date": "2001-12-13",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1552,7 +1552,7 @@
         2026
       ],
       "first_date": "2006-06-07",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

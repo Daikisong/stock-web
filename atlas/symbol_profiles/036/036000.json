@@ -5,7 +5,7 @@
     {
       "name": "예림당",
       "first_date": "2009-07-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "웨스텍코리아",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-11-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-11-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-11-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6460,
-  "raw_trading_day_count": 6463,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6541,
+  "raw_trading_day_count": 6544,
   "available_years": [
     1999,
     2000,
@@ -179,14 +179,14 @@
     "atlas/ohlcv_min_by_symbol_year/036/036000/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/036/036000/2026.csv"
   ],
-  "latest_close": 3395,
-  "latest_marcap": 78201370415,
+  "latest_close": 3300,
+  "latest_marcap": 76013114100,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3395,
-  "raw_latest_marcap": 78201370415,
+  "raw_latest_close": 3300,
+  "raw_latest_marcap": 76013114100,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6460,
+    "tradable_ohlcv": 6541,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

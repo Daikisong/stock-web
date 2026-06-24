@@ -5,7 +5,7 @@
     {
       "name": "RFHIC",
       "first_date": "2017-09-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "엔에이치스팩8호",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-06-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-06-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-06-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2410,
-  "raw_trading_day_count": 2612,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2491,
+  "raw_trading_day_count": 2693,
   "available_years": [
     2015,
     2016,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/218/218410/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/218/218410/2026.csv"
   ],
-  "latest_close": 63200,
-  "latest_marcap": 1675017534400,
+  "latest_close": 73500,
+  "latest_marcap": 1951677987000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 63200,
-  "raw_latest_marcap": 1675017534400,
+  "raw_latest_close": 73500,
+  "raw_latest_marcap": 1951677987000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2410,
+    "tradable_ohlcv": 2491,
     "non_tradable_zero_volume": 202,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

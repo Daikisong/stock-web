@@ -35,7 +35,7 @@
     {
       "name": "판타지오",
       "first_date": "2014-10-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -45,15 +45,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-06-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-07-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-06-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6917,
-  "raw_trading_day_count": 7134,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6982,
+  "raw_trading_day_count": 7215,
   "available_years": [
     1997,
     1998,
@@ -214,21 +214,21 @@
     "atlas/ohlcv_min_by_symbol_year/032/032800/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/032/032800/2026.csv"
   ],
-  "latest_close": 377,
-  "latest_marcap": 17325810866,
+  "latest_close": 1730,
+  "latest_marcap": 21558433060,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 377,
-  "raw_latest_marcap": 17325810866,
+  "raw_latest_close": 1730,
+  "raw_latest_marcap": 21558433060,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6917,
-    "non_tradable_zero_volume": 217,
+    "tradable_ohlcv": 6982,
+    "non_tradable_zero_volume": 233,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 22,
+  "corporate_action_candidate_count": 24,
   "corporate_action_candidate_dates": [
     "1998-01-03",
     "1998-05-11",
@@ -251,7 +251,9 @@
     "2022-08-23",
     "2023-06-08",
     "2024-05-07",
-    "2024-11-01"
+    "2024-11-01",
+    "2026-05-06",
+    "2026-06-11"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

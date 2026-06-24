@@ -5,7 +5,7 @@
     {
       "name": "에스텍",
       "first_date": "2003-11-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2003-11-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2003-11-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2003-11-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5486,
-  "raw_trading_day_count": 5496,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5567,
+  "raw_trading_day_count": 5577,
   "available_years": [
     2003,
     2004,
@@ -154,14 +154,14 @@
     "atlas/ohlcv_min_by_symbol_year/069/069510/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/069/069510/2026.csv"
   ],
-  "latest_close": 15720,
-  "latest_marcap": 171505200000,
+  "latest_close": 11730,
+  "latest_marcap": 127974300000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 15720,
-  "raw_latest_marcap": 171505200000,
+  "raw_latest_close": 11730,
+  "raw_latest_marcap": 127974300000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5486,
+    "tradable_ohlcv": 5567,
     "non_tradable_zero_volume": 10,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

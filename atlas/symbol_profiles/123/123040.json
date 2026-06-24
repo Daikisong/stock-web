@@ -5,7 +5,7 @@
     {
       "name": "엠에스오토텍",
       "first_date": "2010-08-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-08-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-08-06",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-08-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3823,
-  "raw_trading_day_count": 3823,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3904,
+  "raw_trading_day_count": 3904,
   "available_years": [
     2010,
     2011,
@@ -119,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/123/123040/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/123/123040/2026.csv"
   ],
-  "latest_close": 2305,
-  "latest_marcap": 144358229195,
+  "latest_close": 1793,
+  "latest_marcap": 112292540107,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2305,
-  "raw_latest_marcap": 144358229195,
+  "raw_latest_close": 1793,
+  "raw_latest_marcap": 112292540107,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3823,
+    "tradable_ohlcv": 3904,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "SJG세종",
       "first_date": "2024-09-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "세종공업",
@@ -31,15 +31,15 @@
     {
       "market": "KOSPI",
       "first_date": "2002-09-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-12-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-12-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6678,
-  "raw_trading_day_count": 6985,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6759,
+  "raw_trading_day_count": 7066,
   "available_years": [
     1997,
     1998,
@@ -200,14 +200,14 @@
     "atlas/ohlcv_min_by_symbol_year/033/033530/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/033/033530/2026.csv"
   ],
-  "latest_close": 10580,
-  "latest_marcap": 294345767380,
+  "latest_close": 6410,
+  "latest_marcap": 178332360010,
   "latest_market": "KOSPI",
-  "raw_latest_close": 10580,
-  "raw_latest_marcap": 294345767380,
+  "raw_latest_close": 6410,
+  "raw_latest_marcap": 178332360010,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6678,
+    "tradable_ohlcv": 6759,
     "non_tradable_zero_volume": 307,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

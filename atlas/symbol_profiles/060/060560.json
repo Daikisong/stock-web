@@ -5,7 +5,7 @@
     {
       "name": "HC홈센타",
       "first_date": "2025-07-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "동화씨엠테크",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-07-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-07-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-07-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5806,
-  "raw_trading_day_count": 5828,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5875,
+  "raw_trading_day_count": 5909,
   "available_years": [
     2002,
     2003,
@@ -179,21 +179,21 @@
     "atlas/ohlcv_min_by_symbol_year/060/060560/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/060/060560/2026.csv"
   ],
-  "latest_close": 709,
-  "latest_marcap": 90000465672,
+  "latest_close": 2030,
+  "latest_marcap": 51537642030,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 709,
-  "raw_latest_marcap": 90000465672,
+  "raw_latest_close": 2030,
+  "raw_latest_marcap": 51537642030,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5806,
-    "non_tradable_zero_volume": 22,
+    "tradable_ohlcv": 5875,
+    "non_tradable_zero_volume": 34,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 8,
+  "corporate_action_candidate_count": 9,
   "corporate_action_candidate_dates": [
     "2006-10-17",
     "2007-12-05",
@@ -202,7 +202,8 @@
     "2016-12-14",
     "2017-09-28",
     "2017-10-27",
-    "2021-03-19"
+    "2021-03-19",
+    "2026-04-30"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

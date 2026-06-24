@@ -1,11 +1,16 @@
 {
   "code": "000007",
-  "current_or_latest_name": "아크릴",
+  "current_or_latest_name": "인벤테라",
   "name_history": [
     {
       "name": "아크릴",
       "first_date": "2025-12-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
+    },
+    {
+      "name": "인벤테라",
+      "first_date": "2026-04-02",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-12-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-12-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-12-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 43,
-  "raw_trading_day_count": 43,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 124,
+  "raw_trading_day_count": 178,
   "available_years": [
     2025,
     2026
@@ -44,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000007/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000007/2026.csv"
   ],
-  "latest_close": 45400,
-  "latest_marcap": 364576709600,
+  "latest_close": 19140,
+  "latest_marcap": 153700401360,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 45400,
-  "raw_latest_marcap": 364576709600,
+  "raw_latest_close": 9410,
+  "raw_latest_marcap": 74016368740,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 43,
+    "tradable_ohlcv": 178,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

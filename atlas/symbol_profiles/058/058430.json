@@ -10,7 +10,7 @@
     {
       "name": "포스코스틸리온",
       "first_date": "2022-04-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "포항강판",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2002-08-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-08-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-08-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5804,
-  "raw_trading_day_count": 5804,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5874,
+  "raw_trading_day_count": 5885,
   "available_years": [
     2002,
     2003,
@@ -169,24 +169,26 @@
     "atlas/ohlcv_min_by_symbol_year/058/058430/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/058/058430/2026.csv"
   ],
-  "latest_close": 45900,
-  "latest_marcap": 275400000000,
+  "latest_close": 5280,
+  "latest_marcap": 316800000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 45900,
-  "raw_latest_marcap": 275400000000,
+  "raw_latest_close": 5280,
+  "raw_latest_marcap": 316800000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 5804,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 5874,
+    "non_tradable_zero_volume": 11,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 0,
-  "corporate_action_candidate_dates": [],
-  "has_major_raw_discontinuity": false,
-  "calibration_caveat": "",
+  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_dates": [
+    "2026-04-23"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "active_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

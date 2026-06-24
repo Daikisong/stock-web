@@ -5,7 +5,7 @@
     {
       "name": "유바이오로직스",
       "first_date": "2017-01-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-01-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-01-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-01-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2221,
-  "raw_trading_day_count": 2223,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2302,
+  "raw_trading_day_count": 2304,
   "available_years": [
     2017,
     2018,
@@ -84,14 +84,14 @@
     "atlas/ohlcv_min_by_symbol_year/206/206650/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/206/206650/2026.csv"
   ],
-  "latest_close": 13820,
-  "latest_marcap": 506811282740,
+  "latest_close": 8940,
+  "latest_marcap": 328306364580,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 13820,
-  "raw_latest_marcap": 506811282740,
+  "raw_latest_close": 8940,
+  "raw_latest_marcap": 328306364580,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2221,
+    "tradable_ohlcv": 2302,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

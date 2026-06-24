@@ -5,7 +5,7 @@
     {
       "name": "씨유테크",
       "first_date": "2021-10-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-10-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-10-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-10-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1069,
-  "raw_trading_day_count": 1069,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1150,
+  "raw_trading_day_count": 1150,
   "available_years": [
     2021,
     2022,
@@ -64,14 +64,14 @@
     "atlas/ohlcv_min_by_symbol_year/376/376290/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/376/376290/2026.csv"
   ],
-  "latest_close": 2895,
-  "latest_marcap": 51118462500,
+  "latest_close": 2415,
+  "latest_marcap": 42642862500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2895,
-  "raw_latest_marcap": 51118462500,
+  "raw_latest_close": 2415,
+  "raw_latest_marcap": 42642862500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1069,
+    "tradable_ohlcv": 1150,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

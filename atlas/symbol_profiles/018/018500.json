@@ -5,7 +5,7 @@
     {
       "name": "동원금속",
       "first_date": "1995-11-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-11-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-11-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-11-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7568,
-  "raw_trading_day_count": 7608,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7649,
+  "raw_trading_day_count": 7689,
   "available_years": [
     1995,
     1996,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/018/018500/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/018/018500/2026.csv"
   ],
-  "latest_close": 1660,
-  "latest_marcap": 77613188780,
+  "latest_close": 1407,
+  "latest_marcap": 65784190731,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1660,
-  "raw_latest_marcap": 77613188780,
+  "raw_latest_close": 1407,
+  "raw_latest_marcap": 65784190731,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7568,
+    "tradable_ohlcv": 7649,
     "non_tradable_zero_volume": 40,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

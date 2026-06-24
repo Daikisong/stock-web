@@ -44,7 +44,7 @@
         2026
       ],
       "first_date": "2019-09-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -72,7 +72,7 @@
         2026
       ],
       "first_date": "2019-04-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -118,7 +118,7 @@
         2026
       ],
       "first_date": "2019-08-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -146,7 +146,7 @@
         2026
       ],
       "first_date": "2019-11-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -162,12 +162,12 @@
         2026
       ],
       "first_date": "2025-10-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "317530",
-      "name": "캐리소프트",
+      "name": "에피소드컴퍼니",
       "profile_path": "atlas/symbol_profiles/317/317530.json",
       "available_years": [
         2019,
@@ -190,7 +190,7 @@
         2026
       ],
       "first_date": "2019-10-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -216,7 +216,7 @@
         2026
       ],
       "first_date": "2020-12-09",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -244,7 +244,7 @@
         2026
       ],
       "first_date": "2019-08-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -272,7 +272,7 @@
         2026
       ],
       "first_date": "2019-08-14",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -300,7 +300,7 @@
         2026
       ],
       "first_date": "2019-07-24",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -328,7 +328,7 @@
         2026
       ],
       "first_date": "2019-12-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-19",
       "status_inferred": "active_like"
     },
     {
@@ -356,7 +356,7 @@
         2026
       ],
       "first_date": "2019-10-24",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

@@ -5,7 +5,7 @@
     {
       "name": "현대오토에버",
       "first_date": "2019-03-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2019-03-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-03-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-03-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1695,
-  "raw_trading_day_count": 1695,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1776,
+  "raw_trading_day_count": 1776,
   "available_years": [
     2019,
     2020,
@@ -74,14 +74,14 @@
     "atlas/ohlcv_min_by_symbol_year/307/307950/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/307/307950/2026.csv"
   ],
-  "latest_close": 434000,
-  "latest_marcap": 11902008188000,
+  "latest_close": 624000,
+  "latest_marcap": 17112564768000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 434000,
-  "raw_latest_marcap": 11902008188000,
+  "raw_latest_close": 624000,
+  "raw_latest_marcap": 17112564768000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 1695,
+    "tradable_ohlcv": 1776,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

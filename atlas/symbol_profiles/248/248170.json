@@ -5,7 +5,7 @@
     {
       "name": "샘표식품",
       "first_date": "2016-08-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2016-08-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-08-09",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-08-09",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2337,
-  "raw_trading_day_count": 2337,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2418,
+  "raw_trading_day_count": 2418,
   "available_years": [
     2016,
     2017,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/248/248170/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/248/248170/2026.csv"
   ],
-  "latest_close": 29150,
-  "latest_marcap": 133165536900,
+  "latest_close": 21450,
+  "latest_marcap": 97989734700,
   "latest_market": "KOSPI",
-  "raw_latest_close": 29150,
-  "raw_latest_marcap": 133165536900,
+  "raw_latest_close": 21450,
+  "raw_latest_marcap": 97989734700,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2337,
+    "tradable_ohlcv": 2418,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

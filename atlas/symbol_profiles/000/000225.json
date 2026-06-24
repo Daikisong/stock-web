@@ -30,7 +30,7 @@
     {
       "name": "유유제약1우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -40,15 +40,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7530,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7611,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -219,14 +219,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000225/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000225/2026.csv"
   ],
-  "latest_close": 4745,
-  "latest_marcap": 10756582850,
+  "latest_close": 3595,
+  "latest_marcap": 8149613350,
   "latest_market": "KOSPI",
-  "raw_latest_close": 4745,
-  "raw_latest_marcap": 10756582850,
+  "raw_latest_close": 3595,
+  "raw_latest_marcap": 8149613350,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7530,
+    "tradable_ohlcv": 7611,
     "non_tradable_zero_volume": 235,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "킵스파마",
       "first_date": "2025-04-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-09-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-12-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-12-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2093,
-  "raw_trading_day_count": 2246,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2174,
+  "raw_trading_day_count": 2327,
   "available_years": [
     2016,
     2017,
@@ -100,14 +100,14 @@
     "atlas/ohlcv_min_by_symbol_year/256/256940/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/256/256940/2026.csv"
   ],
-  "latest_close": 8550,
-  "latest_marcap": 171668156850,
+  "latest_close": 6160,
+  "latest_marcap": 123681385520,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8550,
-  "raw_latest_marcap": 171668156850,
+  "raw_latest_close": 6160,
+  "raw_latest_marcap": 123681385520,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2093,
+    "tradable_ohlcv": 2174,
     "non_tradable_zero_volume": 153,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

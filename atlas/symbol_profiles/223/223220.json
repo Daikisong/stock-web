@@ -15,7 +15,7 @@
     {
       "name": "로지스몬",
       "first_date": "2022-01-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "아이피몬스터",
@@ -30,15 +30,15 @@
     {
       "market": "KONEX",
       "first_date": "2015-07-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-07-09",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-07-09",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1544,
-  "raw_trading_day_count": 2605,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1624,
+  "raw_trading_day_count": 2686,
   "available_years": [
     2015,
     2016,
@@ -109,21 +109,21 @@
     "atlas/ohlcv_min_by_symbol_year/223/223220/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/223/223220/2026.csv"
   ],
-  "latest_close": 936,
-  "latest_marcap": 1516900320,
+  "latest_close": 399,
+  "latest_marcap": 2275464681,
   "latest_market": "KONEX",
-  "raw_latest_close": 936,
-  "raw_latest_marcap": 1516900320,
+  "raw_latest_close": 399,
+  "raw_latest_marcap": 2275464681,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1544,
-    "non_tradable_zero_volume": 1061,
+    "tradable_ohlcv": 1624,
+    "non_tradable_zero_volume": 1062,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 9,
+  "corporate_action_candidate_count": 12,
   "corporate_action_candidate_dates": [
     "2015-07-28",
     "2015-11-16",
@@ -133,7 +133,10 @@
     "2020-09-11",
     "2022-03-17",
     "2025-12-09",
-    "2026-02-13"
+    "2026-02-13",
+    "2026-03-20",
+    "2026-03-24",
+    "2026-04-10"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

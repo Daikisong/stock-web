@@ -5,7 +5,7 @@
     {
       "name": "포메탈",
       "first_date": "2010-09-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-09-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-09-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-09-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3793,
-  "raw_trading_day_count": 3793,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3874,
+  "raw_trading_day_count": 3874,
   "available_years": [
     2010,
     2011,
@@ -119,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/119/119500/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/119/119500/2026.csv"
   ],
-  "latest_close": 5240,
-  "latest_marcap": 62079495680,
+  "latest_close": 2825,
+  "latest_marcap": 33468430400,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5240,
-  "raw_latest_marcap": 62079495680,
+  "raw_latest_close": 2825,
+  "raw_latest_marcap": 33468430400,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3793,
+    "tradable_ohlcv": 3874,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

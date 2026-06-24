@@ -260,7 +260,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -370,7 +370,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -501,7 +501,8 @@
         2021,
         2022,
         2023,
-        2024
+        2024,
+        2026
       ],
       "raw_available_years": [
         1995,
@@ -538,8 +539,8 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2024-06-18",
-      "status_inferred": "active_like"
+      "last_date": "2026-03-27",
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "008120",
@@ -743,7 +744,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -819,7 +820,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -938,7 +939,7 @@
         2026
       ],
       "first_date": "1997-07-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1128,7 +1129,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1218,7 +1219,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1292,7 +1293,7 @@
         2026
       ],
       "first_date": "1996-07-26",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1483,7 +1484,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1579,7 +1580,7 @@
         2026
       ],
       "first_date": "2011-02-23",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1699,7 +1700,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1775,7 +1776,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -2074,7 +2075,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-03-23",
       "status_inferred": "active_like"
     },
     {
@@ -2308,7 +2309,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -2508,7 +2509,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -2614,7 +2615,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -2690,7 +2691,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -2893,7 +2894,7 @@
         2026
       ],
       "first_date": "1996-07-09",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -2987,7 +2988,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -3210,7 +3211,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -3335,7 +3336,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {

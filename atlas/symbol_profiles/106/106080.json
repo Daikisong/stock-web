@@ -15,7 +15,7 @@
     {
       "name": "케이이엠텍",
       "first_date": "2025-02-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "하이소닉",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-02-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-02-09",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-11",
   "raw_first_date": "2010-02-09",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2860,
-  "raw_trading_day_count": 3946,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2872,
+  "raw_trading_day_count": 4027,
   "available_years": [
     2010,
     2011,
@@ -122,15 +122,15 @@
     "atlas/ohlcv_min_by_symbol_year/106/106080/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/106/106080/2026.csv"
   ],
-  "latest_close": 583,
-  "latest_marcap": 16795698304,
+  "latest_close": 330,
+  "latest_marcap": 9506999040,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 583,
-  "raw_latest_marcap": 16795698304,
+  "raw_latest_close": 1650,
+  "raw_latest_marcap": 9506998050,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2860,
-    "non_tradable_zero_volume": 1086,
+    "tradable_ohlcv": 2872,
+    "non_tradable_zero_volume": 1155,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

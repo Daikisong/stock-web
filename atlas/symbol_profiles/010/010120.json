@@ -10,7 +10,7 @@
     {
       "name": "LS ELECTRIC",
       "first_date": "2020-04-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "LS산전",
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7749,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7827,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -209,26 +209,27 @@
     "atlas/ohlcv_min_by_symbol_year/010/010120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/010/010120/2026.csv"
   ],
-  "latest_close": 691000,
-  "latest_marcap": 20730000000000,
+  "latest_close": 245000,
+  "latest_marcap": 36750000000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 691000,
-  "raw_latest_marcap": 20730000000000,
+  "raw_latest_close": 245000,
+  "raw_latest_marcap": 36750000000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7749,
-    "non_tradable_zero_volume": 15,
+    "tradable_ohlcv": 7827,
+    "non_tradable_zero_volume": 18,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "1995-09-28",
     "1999-04-08",
     "1999-07-26",
-    "2003-04-16"
+    "2003-04-16",
+    "2026-04-13"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

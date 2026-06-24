@@ -10,7 +10,7 @@
     {
       "name": "비보존 제약",
       "first_date": "2022-11-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "비보존 헬스케어",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-11-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-11-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-11-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4979,
-  "raw_trading_day_count": 4996,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5060,
+  "raw_trading_day_count": 5077,
   "available_years": [
     2005,
     2006,
@@ -154,28 +154,29 @@
     "atlas/ohlcv_min_by_symbol_year/082/082800/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/082/082800/2026.csv"
   ],
-  "latest_close": 3780,
-  "latest_marcap": 189395637480,
+  "latest_close": 2990,
+  "latest_marcap": 181551801340,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3780,
-  "raw_latest_marcap": 189395637480,
+  "raw_latest_close": 2990,
+  "raw_latest_marcap": 181551801340,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4979,
+    "tradable_ohlcv": 5060,
     "non_tradable_zero_volume": 17,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_count": 7,
   "corporate_action_candidate_dates": [
     "2007-02-16",
     "2009-06-25",
     "2009-12-18",
     "2019-12-18",
     "2022-04-21",
-    "2023-11-10"
+    "2023-11-10",
+    "2026-03-19"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

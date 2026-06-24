@@ -5,7 +5,7 @@
     {
       "name": "깨끗한나라우",
       "first_date": "2011-04-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "대한펄프(1우 )",
@@ -35,15 +35,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7614,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7695,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -214,14 +214,14 @@
     "atlas/ohlcv_min_by_symbol_year/004/004545/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/004/004545/2026.csv"
   ],
-  "latest_close": 11060,
-  "latest_marcap": 4049729600,
+  "latest_close": 9800,
+  "latest_marcap": 3588368000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 11060,
-  "raw_latest_marcap": 4049729600,
+  "raw_latest_close": 9800,
+  "raw_latest_marcap": 3588368000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7614,
+    "tradable_ohlcv": 7695,
     "non_tradable_zero_volume": 150,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

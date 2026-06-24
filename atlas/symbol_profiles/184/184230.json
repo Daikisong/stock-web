@@ -5,7 +5,7 @@
     {
       "name": "SGA솔루션즈",
       "first_date": "2015-10-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "레드비씨",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2013-12-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-12-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-12-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2932,
-  "raw_trading_day_count": 2984,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3004,
+  "raw_trading_day_count": 3065,
   "available_years": [
     2013,
     2014,
@@ -114,24 +114,25 @@
     "atlas/ohlcv_min_by_symbol_year/184/184230/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/184/184230/2026.csv"
   ],
-  "latest_close": 590,
-  "latest_marcap": 52378425870,
+  "latest_close": 1916,
+  "latest_marcap": 36189367764,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 590,
-  "raw_latest_marcap": 52378425870,
+  "raw_latest_close": 1916,
+  "raw_latest_marcap": 36189367764,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2932,
-    "non_tradable_zero_volume": 52,
+    "tradable_ohlcv": 3004,
+    "non_tradable_zero_volume": 61,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2015-06-16",
-    "2015-07-10"
+    "2015-07-10",
+    "2026-05-18"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

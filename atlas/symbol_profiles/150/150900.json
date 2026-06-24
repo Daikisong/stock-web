@@ -1,16 +1,26 @@
 {
   "code": "150900",
-  "current_or_latest_name": "파수",
+  "current_or_latest_name": "파수AI",
   "name_history": [
     {
       "name": "파수",
       "first_date": "2020-04-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-27"
+    },
+    {
+      "name": "파수AI",
+      "first_date": "2026-05-08",
+      "last_date": "2026-06-22"
     },
     {
       "name": "파수닷컴",
       "first_date": "2013-10-18",
       "last_date": "2020-04-13"
+    },
+    {
+      "name": "파수에이아이",
+      "first_date": "2026-04-28",
+      "last_date": "2026-05-07"
     }
   ],
   "markets": [
@@ -20,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2013-10-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-10-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-10-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3029,
-  "raw_trading_day_count": 3029,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3110,
+  "raw_trading_day_count": 3110,
   "available_years": [
     2013,
     2014,
@@ -109,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/150/150900/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/150/150900/2026.csv"
   ],
-  "latest_close": 3965,
-  "latest_marcap": 46406050730,
+  "latest_close": 3305,
+  "latest_marcap": 38681462210,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3965,
-  "raw_latest_marcap": 46406050730,
+  "raw_latest_close": 3305,
+  "raw_latest_marcap": 38681462210,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3029,
+    "tradable_ohlcv": 3110,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

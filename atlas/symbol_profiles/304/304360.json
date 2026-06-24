@@ -5,7 +5,7 @@
     {
       "name": "에스바이오메딕스",
       "first_date": "2023-05-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-05-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-05-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-05-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 678,
-  "raw_trading_day_count": 680,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 759,
+  "raw_trading_day_count": 761,
   "available_years": [
     2023,
     2024,
@@ -54,14 +54,14 @@
     "atlas/ohlcv_min_by_symbol_year/304/304360/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/304/304360/2026.csv"
   ],
-  "latest_close": 37950,
-  "latest_marcap": 470015607600,
+  "latest_close": 22050,
+  "latest_marcap": 273092072400,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 37950,
-  "raw_latest_marcap": 470015607600,
+  "raw_latest_close": 22050,
+  "raw_latest_marcap": 273092072400,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 678,
+    "tradable_ohlcv": 759,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

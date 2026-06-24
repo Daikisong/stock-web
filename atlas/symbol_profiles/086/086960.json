@@ -5,7 +5,7 @@
     {
       "name": "MDS테크",
       "first_date": "2006-09-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한컴MDS",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2006-09-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2006-09-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-09-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4768,
-  "raw_trading_day_count": 4783,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4830,
+  "raw_trading_day_count": 4864,
   "available_years": [
     2006,
     2007,
@@ -144,26 +144,27 @@
     "atlas/ohlcv_min_by_symbol_year/086/086960/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/086/086960/2026.csv"
   ],
-  "latest_close": 1409,
-  "latest_marcap": 143236882860,
+  "latest_close": 2360,
+  "latest_marcap": 99391678480,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1409,
-  "raw_latest_marcap": 143236882860,
+  "raw_latest_close": 2360,
+  "raw_latest_marcap": 99391678480,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4768,
-    "non_tradable_zero_volume": 15,
+    "tradable_ohlcv": 4830,
+    "non_tradable_zero_volume": 34,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2007-05-29",
     "2022-10-31",
     "2023-01-09",
-    "2023-01-26"
+    "2023-01-26",
+    "2026-05-08"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

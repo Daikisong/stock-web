@@ -5,7 +5,7 @@
     {
       "name": "라닉스",
       "first_date": "2019-09-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-09-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-09-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-09-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1577,
-  "raw_trading_day_count": 1577,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1658,
+  "raw_trading_day_count": 1658,
   "available_years": [
     2019,
     2020,
@@ -74,14 +74,14 @@
     "atlas/ohlcv_min_by_symbol_year/317/317120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/317/317120/2026.csv"
   ],
-  "latest_close": 1974,
-  "latest_marcap": 30123240000,
+  "latest_close": 1548,
+  "latest_marcap": 23622480000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1974,
-  "raw_latest_marcap": 30123240000,
+  "raw_latest_close": 1548,
+  "raw_latest_marcap": 23622480000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1577,
+    "tradable_ohlcv": 1658,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

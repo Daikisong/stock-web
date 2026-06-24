@@ -5,7 +5,7 @@
     {
       "name": "미래엔에듀파트너",
       "first_date": "2020-10-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "에듀케이션파트너",
@@ -25,15 +25,15 @@
     {
       "market": "KONEX",
       "first_date": "2014-12-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-12-18",
-  "last_date": "2026-01-23",
+  "last_date": "2026-06-15",
   "raw_first_date": "2014-12-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1614,
-  "raw_trading_day_count": 2741,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1629,
+  "raw_trading_day_count": 2822,
   "available_years": [
     2014,
     2015,
@@ -109,15 +109,15 @@
     "atlas/ohlcv_min_by_symbol_year/208/208890/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/208/208890/2026.csv"
   ],
-  "latest_close": 1100,
-  "latest_marcap": 4406072000,
+  "latest_close": 900,
+  "latest_marcap": 3604968000,
   "latest_market": "KONEX",
-  "raw_latest_close": 1080,
-  "raw_latest_marcap": 4325961600,
+  "raw_latest_close": 900,
+  "raw_latest_marcap": 3604968000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1614,
-    "non_tradable_zero_volume": 1127,
+    "tradable_ohlcv": 1629,
+    "non_tradable_zero_volume": 1193,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

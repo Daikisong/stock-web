@@ -5,7 +5,7 @@
     {
       "name": "서울반도체",
       "first_date": "2002-01-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-01-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-01-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5944,
-  "raw_trading_day_count": 5944,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6025,
+  "raw_trading_day_count": 6025,
   "available_years": [
     2002,
     2003,
@@ -165,14 +165,14 @@
     "atlas/ohlcv_min_by_symbol_year/046/046890/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/046/046890/2026.csv"
   ],
-  "latest_close": 7430,
-  "latest_marcap": 433209122000,
+  "latest_close": 12540,
+  "latest_marcap": 731149716000,
   "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 7430,
-  "raw_latest_marcap": 433209122000,
+  "raw_latest_close": 12540,
+  "raw_latest_marcap": 731149716000,
   "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 5944,
+    "tradable_ohlcv": 6025,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

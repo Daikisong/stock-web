@@ -5,7 +5,7 @@
     {
       "name": "누보",
       "first_date": "2022-03-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "대신밸런스제7호스팩",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-10-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-10-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-10-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1460,
-  "raw_trading_day_count": 1562,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1541,
+  "raw_trading_day_count": 1643,
   "available_years": [
     2019,
     2020,
@@ -79,14 +79,14 @@
     "atlas/ohlcv_min_by_symbol_year/332/332290/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/332/332290/2026.csv"
   ],
-  "latest_close": 1216,
-  "latest_marcap": 48523755264,
+  "latest_close": 977,
+  "latest_marcap": 38986602708,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1216,
-  "raw_latest_marcap": 48523755264,
+  "raw_latest_close": 977,
+  "raw_latest_marcap": 38986602708,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1460,
+    "tradable_ohlcv": 1541,
     "non_tradable_zero_volume": 102,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

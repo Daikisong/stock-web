@@ -15,7 +15,7 @@
     {
       "name": "넥센우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "흥아타이어(1우 )",
@@ -35,15 +35,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6620,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6701,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -214,14 +214,14 @@
     "atlas/ohlcv_min_by_symbol_year/005/005725/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005725/2026.csv"
   ],
-  "latest_close": 5060,
-  "latest_marcap": 18219036000,
+  "latest_close": 4300,
+  "latest_marcap": 15482580000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 5060,
-  "raw_latest_marcap": 18219036000,
+  "raw_latest_close": 4300,
+  "raw_latest_marcap": 15482580000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6620,
+    "tradable_ohlcv": 6701,
     "non_tradable_zero_volume": 1141,
     "invalid_zero_ohlc": 4,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "LK삼양",
       "first_date": "2024-04-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "삼양옵틱스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-06-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-06-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-06-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2129,
-  "raw_trading_day_count": 2137,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2210,
+  "raw_trading_day_count": 2218,
   "available_years": [
     2017,
     2018,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/225/225190/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/225/225190/2026.csv"
   ],
-  "latest_close": 2340,
-  "latest_marcap": 164896149600,
+  "latest_close": 1086,
+  "latest_marcap": 76528725840,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2340,
-  "raw_latest_marcap": 164896149600,
+  "raw_latest_close": 1086,
+  "raw_latest_marcap": 76528725840,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2129,
+    "tradable_ohlcv": 2210,
     "non_tradable_zero_volume": 8,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

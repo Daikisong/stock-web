@@ -5,7 +5,7 @@
     {
       "name": "웅진씽크빅",
       "first_date": "2007-05-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2007-05-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-05-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-05-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4603,
-  "raw_trading_day_count": 4616,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4671,
+  "raw_trading_day_count": 4697,
   "available_years": [
     2007,
     2008,
@@ -134,24 +134,25 @@
     "atlas/ohlcv_min_by_symbol_year/095/095720/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/095/095720/2026.csv"
   ],
-  "latest_close": 1160,
-  "latest_marcap": 133986942600,
+  "latest_close": 1227,
+  "latest_marcap": 69726833295,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1160,
-  "raw_latest_marcap": 133986942600,
+  "raw_latest_close": 1227,
+  "raw_latest_marcap": 69726833295,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4603,
-    "non_tradable_zero_volume": 13,
+    "tradable_ohlcv": 4671,
+    "non_tradable_zero_volume": 26,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2019-01-31",
-    "2019-04-08"
+    "2019-04-08",
+    "2026-05-15"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

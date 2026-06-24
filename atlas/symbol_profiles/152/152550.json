@@ -5,7 +5,7 @@
     {
       "name": "한국ANKOR유전",
       "first_date": "2012-03-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-30"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2012-03-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-30"
     }
   ],
   "first_date": "2012-03-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-04-28",
   "raw_first_date": "2012-03-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3423,
-  "raw_trading_day_count": 3428,
+  "raw_last_date": "2026-04-30",
+  "trading_day_count": 3469,
+  "raw_trading_day_count": 3476,
   "available_years": [
     2012,
     2013,
@@ -109,15 +109,15 @@
     "atlas/ohlcv_min_by_symbol_year/152/152550/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/152/152550/2026.csv"
   ],
-  "latest_close": 237,
-  "latest_marcap": 16594740000,
+  "latest_close": 58,
+  "latest_marcap": 4061160000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 237,
-  "raw_latest_marcap": 16594740000,
+  "raw_latest_close": 58,
+  "raw_latest_marcap": 4061160000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3423,
-    "non_tradable_zero_volume": 5,
+    "tradable_ohlcv": 3469,
+    "non_tradable_zero_volume": 7,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
@@ -129,7 +129,7 @@
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
-  "status_inferred": "active_like",
+  "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",
   "source_repo_url": "https://github.com/FinanceData/marcap",

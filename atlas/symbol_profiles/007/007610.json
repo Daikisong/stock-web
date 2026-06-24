@@ -5,7 +5,7 @@
     {
       "name": "선도전기",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2022-03-21",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6803,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6838,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -52,7 +52,8 @@
     2019,
     2020,
     2021,
-    2022
+    2022,
+    2026
   ],
   "raw_available_years": [
     1995,
@@ -116,7 +117,8 @@
     "atlas/ohlcv_tradable_by_symbol_year/007/007610/2019.csv",
     "atlas/ohlcv_tradable_by_symbol_year/007/007610/2020.csv",
     "atlas/ohlcv_tradable_by_symbol_year/007/007610/2021.csv",
-    "atlas/ohlcv_tradable_by_symbol_year/007/007610/2022.csv"
+    "atlas/ohlcv_tradable_by_symbol_year/007/007610/2022.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/007/007610/2026.csv"
   ],
   "raw_year_files": [
     "atlas/ohlcv_raw_by_symbol_year/007/007610/1995.csv",
@@ -180,26 +182,28 @@
     "atlas/ohlcv_min_by_symbol_year/007/007610/2019.csv",
     "atlas/ohlcv_min_by_symbol_year/007/007610/2020.csv",
     "atlas/ohlcv_min_by_symbol_year/007/007610/2021.csv",
-    "atlas/ohlcv_min_by_symbol_year/007/007610/2022.csv"
+    "atlas/ohlcv_min_by_symbol_year/007/007610/2022.csv",
+    "atlas/ohlcv_min_by_symbol_year/007/007610/2026.csv"
   ],
-  "latest_close": 3000,
-  "latest_marcap": 54000000000,
+  "latest_close": 4485,
+  "latest_marcap": 80730000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 3000,
-  "raw_latest_marcap": 54000000000,
+  "raw_latest_close": 4485,
+  "raw_latest_marcap": 80730000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6803,
-    "non_tradable_zero_volume": 962,
+    "tradable_ohlcv": 6838,
+    "non_tradable_zero_volume": 1008,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "1997-01-03",
-    "1998-04-27"
+    "1998-04-27",
+    "2026-04-29"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

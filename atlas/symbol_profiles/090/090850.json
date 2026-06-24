@@ -15,7 +15,7 @@
     {
       "name": "현대이지웰",
       "first_date": "2021-04-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2013-12-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-12-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-12-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2979,
-  "raw_trading_day_count": 2980,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3060,
+  "raw_trading_day_count": 3061,
   "available_years": [
     2013,
     2014,
@@ -114,14 +114,14 @@
     "atlas/ohlcv_min_by_symbol_year/090/090850/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/090/090850/2026.csv"
   ],
-  "latest_close": 6290,
-  "latest_marcap": 149364610690,
+  "latest_close": 4975,
+  "latest_marcap": 111827567425,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6290,
-  "raw_latest_marcap": 149364610690,
+  "raw_latest_close": 4975,
+  "raw_latest_marcap": 111827567425,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2979,
+    "tradable_ohlcv": 3060,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

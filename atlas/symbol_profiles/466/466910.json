@@ -5,7 +5,7 @@
     {
       "name": "엔에이치스팩30호",
       "first_date": "2023-12-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-18"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-12-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-18"
     }
   ],
   "first_date": "2023-12-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-04-22",
   "raw_first_date": "2023-12-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 465,
-  "raw_trading_day_count": 538,
+  "raw_last_date": "2026-05-18",
+  "trading_day_count": 507,
+  "raw_trading_day_count": 596,
   "available_years": [
     2023,
     2024,
@@ -54,15 +54,15 @@
     "atlas/ohlcv_min_by_symbol_year/466/466910/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/466/466910/2026.csv"
   ],
-  "latest_close": 3685,
-  "latest_marcap": 33533500000,
+  "latest_close": 5640,
+  "latest_marcap": 51324000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3685,
-  "raw_latest_marcap": 33533500000,
+  "raw_latest_close": 5640,
+  "raw_latest_marcap": 51324000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 465,
-    "non_tradable_zero_volume": 73,
+    "tradable_ohlcv": 507,
+    "non_tradable_zero_volume": 89,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
@@ -72,7 +72,7 @@
   "corporate_action_candidate_dates": [],
   "has_major_raw_discontinuity": false,
   "calibration_caveat": "",
-  "status_inferred": "active_like",
+  "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",
   "source_repo_url": "https://github.com/FinanceData/marcap",

@@ -5,7 +5,7 @@
     {
       "name": "쓰리에이로직스",
       "first_date": "2024-12-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2024-12-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-12-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-12-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 279,
-  "raw_trading_day_count": 279,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 360,
+  "raw_trading_day_count": 360,
   "available_years": [
     2024,
     2025,
@@ -49,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/177/177900/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/177/177900/2026.csv"
   ],
-  "latest_close": 6560,
-  "latest_marcap": 62876288000,
+  "latest_close": 5010,
+  "latest_marcap": 48234276000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6560,
-  "raw_latest_marcap": 62876288000,
+  "raw_latest_close": 5010,
+  "raw_latest_marcap": 48234276000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 279,
+    "tradable_ohlcv": 360,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

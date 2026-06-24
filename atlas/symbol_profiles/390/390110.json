@@ -5,7 +5,7 @@
     {
       "name": "애니메디솔루션",
       "first_date": "2022-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2022-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2022-12-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2022-12-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 608,
-  "raw_trading_day_count": 771,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 689,
+  "raw_trading_day_count": 852,
   "available_years": [
     2022,
     2023,
@@ -59,14 +59,14 @@
     "atlas/ohlcv_min_by_symbol_year/390/390110/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/390/390110/2026.csv"
   ],
-  "latest_close": 880,
-  "latest_marcap": 8058201360,
+  "latest_close": 340,
+  "latest_marcap": 3296995980,
   "latest_market": "KONEX",
-  "raw_latest_close": 880,
-  "raw_latest_marcap": 8058201360,
+  "raw_latest_close": 340,
+  "raw_latest_marcap": 3296995980,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 608,
+    "tradable_ohlcv": 689,
     "non_tradable_zero_volume": 163,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

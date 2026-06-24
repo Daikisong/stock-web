@@ -5,7 +5,7 @@
     {
       "name": "마이크로엔엑스",
       "first_date": "2022-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2022-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2022-12-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2022-12-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 758,
-  "raw_trading_day_count": 771,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 839,
+  "raw_trading_day_count": 852,
   "available_years": [
     2022,
     2023,
@@ -59,14 +59,14 @@
     "atlas/ohlcv_min_by_symbol_year/448/448780/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/448/448780/2026.csv"
   ],
-  "latest_close": 1843,
-  "latest_marcap": 4934964240,
+  "latest_close": 799,
+  "latest_marcap": 2139466320,
   "latest_market": "KONEX",
-  "raw_latest_close": 1843,
-  "raw_latest_marcap": 4934964240,
+  "raw_latest_close": 799,
+  "raw_latest_marcap": 2139466320,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 758,
+    "tradable_ohlcv": 839,
     "non_tradable_zero_volume": 13,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

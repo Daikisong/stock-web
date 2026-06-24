@@ -25,7 +25,7 @@
     {
       "name": "키다리스튜디오",
       "first_date": "2018-03-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -41,15 +41,15 @@
     {
       "market": "KOSPI",
       "first_date": "1996-07-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7362,
-  "raw_trading_day_count": 7421,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7443,
+  "raw_trading_day_count": 7502,
   "available_years": [
     1996,
     1997,
@@ -215,14 +215,14 @@
     "atlas/ohlcv_min_by_symbol_year/020/020120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/020/020120/2026.csv"
   ],
-  "latest_close": 3850,
-  "latest_marcap": 142695499100,
+  "latest_close": 3030,
+  "latest_marcap": 112303210980,
   "latest_market": "KOSPI",
-  "raw_latest_close": 3850,
-  "raw_latest_marcap": 142695499100,
+  "raw_latest_close": 3030,
+  "raw_latest_marcap": 112303210980,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7362,
+    "tradable_ohlcv": 7443,
     "non_tradable_zero_volume": 59,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

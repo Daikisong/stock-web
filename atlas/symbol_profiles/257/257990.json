@@ -5,7 +5,7 @@
     {
       "name": "나우코스",
       "first_date": "2020-12-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-29"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2020-12-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-29"
     }
   ],
   "first_date": "2020-12-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-05-13",
   "raw_first_date": "2020-12-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1249,
-  "raw_trading_day_count": 1259,
+  "raw_last_date": "2026-05-29",
+  "trading_day_count": 1285,
+  "raw_trading_day_count": 1325,
   "available_years": [
     2020,
     2021,
@@ -69,15 +69,15 @@
     "atlas/ohlcv_min_by_symbol_year/257/257990/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/257/257990/2026.csv"
   ],
-  "latest_close": 8150,
-  "latest_marcap": 48014844800,
+  "latest_close": 8200,
+  "latest_marcap": 48309414400,
   "latest_market": "KONEX",
-  "raw_latest_close": 8150,
-  "raw_latest_marcap": 48014844800,
+  "raw_latest_close": 8200,
+  "raw_latest_marcap": 48309414400,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1249,
-    "non_tradable_zero_volume": 10,
+    "tradable_ohlcv": 1285,
+    "non_tradable_zero_volume": 40,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
@@ -89,7 +89,7 @@
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
-  "status_inferred": "active_like",
+  "status_inferred": "inactive_or_delisted_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",
   "source_repo_url": "https://github.com/FinanceData/marcap",

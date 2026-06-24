@@ -5,7 +5,7 @@
     {
       "name": "대동고려삼",
       "first_date": "2013-12-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2013-12-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-12-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-12-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2279,
-  "raw_trading_day_count": 2984,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2357,
+  "raw_trading_day_count": 3065,
   "available_years": [
     2013,
     2014,
@@ -104,15 +104,15 @@
     "atlas/ohlcv_min_by_symbol_year/178/178600/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/178/178600/2026.csv"
   ],
-  "latest_close": 2060,
-  "latest_marcap": 9166176000,
+  "latest_close": 1992,
+  "latest_marcap": 8863603200,
   "latest_market": "KONEX",
-  "raw_latest_close": 2060,
-  "raw_latest_marcap": 9166176000,
+  "raw_latest_close": 1992,
+  "raw_latest_marcap": 8863603200,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 2279,
-    "non_tradable_zero_volume": 705,
+    "tradable_ohlcv": 2357,
+    "non_tradable_zero_volume": 708,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

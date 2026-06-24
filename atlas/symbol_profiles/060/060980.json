@@ -5,7 +5,7 @@
     {
       "name": "HL홀딩스",
       "first_date": "2022-09-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "만도",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2010-05-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-05-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-05-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3855,
-  "raw_trading_day_count": 3878,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3936,
+  "raw_trading_day_count": 3959,
   "available_years": [
     2010,
     2011,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/060/060980/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/060/060980/2026.csv"
   ],
-  "latest_close": 46800,
-  "latest_marcap": 431190723600,
+  "latest_close": 41700,
+  "latest_marcap": 378587919900,
   "latest_market": "KOSPI",
-  "raw_latest_close": 46800,
-  "raw_latest_marcap": 431190723600,
+  "raw_latest_close": 41700,
+  "raw_latest_marcap": 378587919900,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3855,
+    "tradable_ohlcv": 3936,
     "non_tradable_zero_volume": 23,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

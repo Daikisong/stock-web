@@ -5,7 +5,7 @@
     {
       "name": "한화플러스제5호스팩",
       "first_date": "2025-03-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-03-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-03-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-03-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 225,
-  "raw_trading_day_count": 225,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 306,
+  "raw_trading_day_count": 306,
   "available_years": [
     2025,
     2026
@@ -44,14 +44,14 @@
     "atlas/ohlcv_min_by_symbol_year/498/498390/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/498/498390/2026.csv"
   ],
-  "latest_close": 2045,
-  "latest_marcap": 10143200000,
+  "latest_close": 2040,
+  "latest_marcap": 10118400000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2045,
-  "raw_latest_marcap": 10143200000,
+  "raw_latest_close": 2040,
+  "raw_latest_marcap": 10118400000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 225,
+    "tradable_ohlcv": 306,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

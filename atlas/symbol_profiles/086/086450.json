@@ -5,7 +5,7 @@
     {
       "name": "동국제약",
       "first_date": "2007-05-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-05-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-05-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4605,
-  "raw_trading_day_count": 4618,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4686,
+  "raw_trading_day_count": 4699,
   "available_years": [
     2007,
     2008,
@@ -140,14 +140,14 @@
     "atlas/ohlcv_min_by_symbol_year/086/086450/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/086/086450/2026.csv"
   ],
-  "latest_close": 20500,
-  "latest_marcap": 927223610000,
+  "latest_close": 18470,
+  "latest_marcap": 835405857400,
   "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 20500,
-  "raw_latest_marcap": 927223610000,
+  "raw_latest_close": 18470,
+  "raw_latest_marcap": 835405857400,
   "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 4605,
+    "tradable_ohlcv": 4686,
     "non_tradable_zero_volume": 13,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

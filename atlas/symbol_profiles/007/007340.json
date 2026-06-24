@@ -5,7 +5,7 @@
     {
       "name": "DN오토모티브",
       "first_date": "2022-06-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "동아타이어",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7675,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7756,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -204,14 +204,14 @@
     "atlas/ohlcv_min_by_symbol_year/007/007340/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/007/007340/2026.csv"
   ],
-  "latest_close": 31400,
-  "latest_marcap": 1837241161000,
+  "latest_close": 39900,
+  "latest_marcap": 2334583513500,
   "latest_market": "KOSPI",
-  "raw_latest_close": 31400,
-  "raw_latest_marcap": 1837241161000,
+  "raw_latest_close": 39900,
+  "raw_latest_marcap": 2334583513500,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7675,
+    "tradable_ohlcv": 7756,
     "non_tradable_zero_volume": 89,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

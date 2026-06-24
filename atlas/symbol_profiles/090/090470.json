@@ -1,6 +1,6 @@
 {
   "code": "090470",
-  "current_or_latest_name": "제이스텍",
+  "current_or_latest_name": "제이스로보틱스",
   "name_history": [
     {
       "name": "AST젯텍",
@@ -13,9 +13,14 @@
       "last_date": "2011-10-26"
     },
     {
+      "name": "제이스로보틱스",
+      "first_date": "2026-04-27",
+      "last_date": "2026-06-22"
+    },
+    {
       "name": "제이스텍",
       "first_date": "2015-12-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-24"
     },
     {
       "name": "젯텍",
@@ -30,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2007-01-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-01-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-01-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4712,
-  "raw_trading_day_count": 4713,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4793,
+  "raw_trading_day_count": 4794,
   "available_years": [
     2007,
     2008,
@@ -149,14 +154,14 @@
     "atlas/ohlcv_min_by_symbol_year/090/090470/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/090/090470/2026.csv"
   ],
-  "latest_close": 6580,
-  "latest_marcap": 114995988520,
+  "latest_close": 5080,
+  "latest_marcap": 88781097520,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6580,
-  "raw_latest_marcap": 114995988520,
+  "raw_latest_close": 5080,
+  "raw_latest_marcap": 88781097520,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4712,
+    "tradable_ohlcv": 4793,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

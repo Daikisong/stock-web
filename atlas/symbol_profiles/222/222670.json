@@ -5,7 +5,7 @@
     {
       "name": "플럼라인생명과학",
       "first_date": "2015-07-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2015-07-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-07-28",
   "last_date": "2026-02-19",
   "raw_first_date": "2015-07-28",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 2565,
-  "raw_trading_day_count": 2592,
+  "raw_trading_day_count": 2673,
   "available_years": [
     2015,
     2016,
@@ -102,7 +102,7 @@
   "raw_latest_market": "KONEX",
   "row_status_counts": {
     "tradable_ohlcv": 2565,
-    "non_tradable_zero_volume": 27,
+    "non_tradable_zero_volume": 108,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

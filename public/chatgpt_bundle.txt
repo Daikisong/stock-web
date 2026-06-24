@@ -1,5 +1,5 @@
 CHATGPT_MARCAP_BUNDLE
-generated_at=2026-05-21T16:34:14.929104+00:00
+generated_at=2026-06-24T10:22:33.180947+00:00
 public_base_url=
 source_name=FinanceData/marcap
 source_repo_url=https://github.com/FinanceData/marcap

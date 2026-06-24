@@ -5,7 +5,7 @@
     {
       "name": "KCC글라스",
       "first_date": "2021-07-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "케이씨씨글라스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2020-01-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-01-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-01-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1493,
-  "raw_trading_day_count": 1493,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1574,
+  "raw_trading_day_count": 1574,
   "available_years": [
     2020,
     2021,
@@ -74,14 +74,14 @@
     "atlas/ohlcv_min_by_symbol_year/344/344820/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/344/344820/2026.csv"
   ],
-  "latest_close": 30300,
-  "latest_marcap": 483906513600,
+  "latest_close": 22400,
+  "latest_marcap": 357739468800,
   "latest_market": "KOSPI",
-  "raw_latest_close": 30300,
-  "raw_latest_marcap": 483906513600,
+  "raw_latest_close": 22400,
+  "raw_latest_marcap": 357739468800,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 1493,
+    "tradable_ohlcv": 1574,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -15,7 +15,7 @@
     {
       "name": "상지건설",
       "first_date": "2024-04-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "상지카일룸",
@@ -40,15 +40,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-10-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-10-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-10-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6175,
-  "raw_trading_day_count": 6249,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6256,
+  "raw_trading_day_count": 6330,
   "available_years": [
     2000,
     2001,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/042/042940/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/042/042940/2026.csv"
   ],
-  "latest_close": 10260,
-  "latest_marcap": 70062585120,
+  "latest_close": 7110,
+  "latest_marcap": 48552142320,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 10260,
-  "raw_latest_marcap": 70062585120,
+  "raw_latest_close": 7110,
+  "raw_latest_marcap": 48552142320,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6175,
+    "tradable_ohlcv": 6256,
     "non_tradable_zero_volume": 74,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "테크엘",
       "first_date": "2022-12-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-12-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-12-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-12-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4826,
-  "raw_trading_day_count": 5728,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4907,
+  "raw_trading_day_count": 5809,
   "available_years": [
     2002,
     2003,
@@ -155,14 +155,14 @@
     "atlas/ohlcv_min_by_symbol_year/064/064520/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/064/064520/2026.csv"
   ],
-  "latest_close": 1973,
-  "latest_marcap": 44098645326,
+  "latest_close": 1533,
+  "latest_marcap": 34264178046,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1973,
-  "raw_latest_marcap": 44098645326,
+  "raw_latest_close": 1533,
+  "raw_latest_marcap": 34264178046,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4826,
+    "tradable_ohlcv": 4907,
     "non_tradable_zero_volume": 902,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

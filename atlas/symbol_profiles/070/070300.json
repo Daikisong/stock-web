@@ -10,7 +10,7 @@
     {
       "name": "엑스큐어",
       "first_date": "2020-04-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한솔시큐어",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-06-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-06-09",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-06-09",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3705,
-  "raw_trading_day_count": 3865,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3786,
+  "raw_trading_day_count": 3946,
   "available_years": [
     2010,
     2011,
@@ -129,24 +129,26 @@
     "atlas/ohlcv_min_by_symbol_year/070/070300/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/070/070300/2026.csv"
   ],
-  "latest_close": 1819,
-  "latest_marcap": 42395574882,
+  "latest_close": 1265,
+  "latest_marcap": 44938782185,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1819,
-  "raw_latest_marcap": 42395574882,
+  "raw_latest_close": 1265,
+  "raw_latest_marcap": 44938782185,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3705,
+    "tradable_ohlcv": 3786,
     "non_tradable_zero_volume": 160,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2025-08-28",
-    "2025-09-10"
+    "2025-09-10",
+    "2026-05-22",
+    "2026-05-29"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

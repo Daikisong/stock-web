@@ -5,7 +5,7 @@
     {
       "name": "프럼파스트",
       "first_date": "2002-01-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-01-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-01-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-01-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5946,
-  "raw_trading_day_count": 5946,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6027,
+  "raw_trading_day_count": 6027,
   "available_years": [
     2002,
     2003,
@@ -159,14 +159,14 @@
     "atlas/ohlcv_min_by_symbol_year/035/035200/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/035/035200/2026.csv"
   ],
-  "latest_close": 3600,
-  "latest_marcap": 35030124000,
+  "latest_close": 2705,
+  "latest_marcap": 26321245950,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3600,
-  "raw_latest_marcap": 35030124000,
+  "raw_latest_close": 2705,
+  "raw_latest_marcap": 26321245950,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5946,
+    "tradable_ohlcv": 6027,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

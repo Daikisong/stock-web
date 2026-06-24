@@ -5,7 +5,7 @@
     {
       "name": "엔더블유시",
       "first_date": "2025-12-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,35 +15,41 @@
     {
       "market": "KONEX",
       "first_date": "2025-12-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
-  "first_date": "2025-12-22",
-  "last_date": "2026-02-20",
+  "first_date": "2026-03-25",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-12-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 0,
-  "raw_trading_day_count": 39,
-  "available_years": [],
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 29,
+  "raw_trading_day_count": 120,
+  "available_years": [
+    2026
+  ],
   "raw_available_years": [
     2025,
     2026
   ],
-  "year_files": [],
+  "year_files": [
+    "atlas/ohlcv_tradable_by_symbol_year/059/059180/2026.csv"
+  ],
   "raw_year_files": [
     "atlas/ohlcv_raw_by_symbol_year/059/059180/2025.csv",
     "atlas/ohlcv_raw_by_symbol_year/059/059180/2026.csv"
   ],
-  "compat_year_files": [],
-  "latest_close": null,
-  "latest_marcap": null,
-  "latest_market": null,
-  "raw_latest_close": 4825,
-  "raw_latest_marcap": 25640484250,
+  "compat_year_files": [
+    "atlas/ohlcv_min_by_symbol_year/059/059180/2026.csv"
+  ],
+  "latest_close": 4635,
+  "latest_marcap": 24630807150,
+  "latest_market": "KONEX",
+  "raw_latest_close": 4635,
+  "raw_latest_marcap": 24630807150,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 0,
-    "non_tradable_zero_volume": 39,
+    "tradable_ohlcv": 29,
+    "non_tradable_zero_volume": 91,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

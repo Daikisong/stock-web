@@ -5,7 +5,7 @@
     {
       "name": "LG유플러스",
       "first_date": "2010-07-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "LG텔레콤",
@@ -26,15 +26,15 @@
     {
       "market": "KOSPI",
       "first_date": "2008-04-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-09-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-09-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6268,
-  "raw_trading_day_count": 6268,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6349,
+  "raw_trading_day_count": 6349,
   "available_years": [
     2000,
     2001,
@@ -180,14 +180,14 @@
     "atlas/ohlcv_min_by_symbol_year/032/032640/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/032/032640/2026.csv"
   ],
-  "latest_close": 17500,
-  "latest_marcap": 7521996212500,
+  "latest_close": 14480,
+  "latest_marcap": 6145713559360,
   "latest_market": "KOSPI",
-  "raw_latest_close": 17500,
-  "raw_latest_marcap": 7521996212500,
+  "raw_latest_close": 14480,
+  "raw_latest_marcap": 6145713559360,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6268,
+    "tradable_ohlcv": 6349,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "KC그린홀딩스",
       "first_date": "2010-01-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "KC코트렐",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-04",
   "last_date": "2025-03-19",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 7388,
-  "raw_trading_day_count": 7765,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -209,7 +209,7 @@
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
     "tradable_ohlcv": 7388,
-    "non_tradable_zero_volume": 377,
+    "non_tradable_zero_volume": 458,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

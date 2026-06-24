@@ -5,7 +5,7 @@
     {
       "name": "에코마케팅",
       "first_date": "2016-08-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -16,7 +16,7 @@
     {
       "market": "KOSDAQ",
       "first_date": "2016-08-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSDAQ GLOBAL",
@@ -25,11 +25,11 @@
     }
   ],
   "first_date": "2016-08-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-10",
   "raw_first_date": "2016-08-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2338,
-  "raw_trading_day_count": 2338,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2411,
+  "raw_trading_day_count": 2419,
   "available_years": [
     2016,
     2017,
@@ -95,15 +95,15 @@
     "atlas/ohlcv_min_by_symbol_year/230/230360/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/230/230360/2026.csv"
   ],
-  "latest_close": 15930,
-  "latest_marcap": 493810214940,
+  "latest_close": 16000,
+  "latest_marcap": 495980128000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 15930,
-  "raw_latest_marcap": 493810214940,
+  "raw_latest_close": 16000,
+  "raw_latest_marcap": 495980128000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2338,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 2411,
+    "non_tradable_zero_volume": 8,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -10,7 +10,7 @@
     {
       "name": "엑스플러스",
       "first_date": "2024-04-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "하인크코리아",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-02-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-02-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-02-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1169,
-  "raw_trading_day_count": 1221,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1233,
+  "raw_trading_day_count": 1302,
   "available_years": [
     2021,
     2022,
@@ -74,25 +74,26 @@
     "atlas/ohlcv_min_by_symbol_year/373/373200/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/373/373200/2026.csv"
   ],
-  "latest_close": 762,
-  "latest_marcap": 83824066032,
+  "latest_close": 2875,
+  "latest_marcap": 71999306375,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 762,
-  "raw_latest_marcap": 83824066032,
+  "raw_latest_close": 2875,
+  "raw_latest_marcap": 71999306375,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1169,
-    "non_tradable_zero_volume": 52,
+    "tradable_ohlcv": 1233,
+    "non_tradable_zero_volume": 69,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2022-01-20",
     "2024-02-21",
-    "2024-03-25"
+    "2024-03-25",
+    "2026-05-21"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

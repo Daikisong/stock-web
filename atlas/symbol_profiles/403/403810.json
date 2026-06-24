@@ -5,7 +5,7 @@
     {
       "name": "아이엘로보틱스",
       "first_date": "2026-01-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "아이엘커누스",
@@ -20,15 +20,15 @@
     {
       "market": "KONEX",
       "first_date": "2025-11-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-11-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-11-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 54,
-  "raw_trading_day_count": 63,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 135,
+  "raw_trading_day_count": 144,
   "available_years": [
     2025,
     2026
@@ -49,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/403/403810/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/403/403810/2026.csv"
   ],
-  "latest_close": 2375,
-  "latest_marcap": 22864925375,
+  "latest_close": 2000,
+  "latest_marcap": 19874692000,
   "latest_market": "KONEX",
-  "raw_latest_close": 2375,
-  "raw_latest_marcap": 22864925375,
+  "raw_latest_close": 2000,
+  "raw_latest_marcap": 19874692000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 54,
+    "tradable_ohlcv": 135,
     "non_tradable_zero_volume": 9,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

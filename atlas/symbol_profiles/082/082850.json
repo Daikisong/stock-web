@@ -5,7 +5,7 @@
     {
       "name": "우리바이오",
       "first_date": "2019-04-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "우리이티아이",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-07-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-07-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-07-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5072,
-  "raw_trading_day_count": 5073,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5153,
+  "raw_trading_day_count": 5154,
   "available_years": [
     2005,
     2006,
@@ -149,14 +149,14 @@
     "atlas/ohlcv_min_by_symbol_year/082/082850/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/082/082850/2026.csv"
   ],
-  "latest_close": 1884,
-  "latest_marcap": 91292192952,
+  "latest_close": 1190,
+  "latest_marcap": 57663327820,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1884,
-  "raw_latest_marcap": 91292192952,
+  "raw_latest_close": 1190,
+  "raw_latest_marcap": 57663327820,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5072,
+    "tradable_ohlcv": 5153,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

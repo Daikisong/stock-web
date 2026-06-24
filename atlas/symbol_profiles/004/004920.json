@@ -15,7 +15,7 @@
     {
       "name": "씨아이테크",
       "first_date": "2015-04-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7735,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7816,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -204,14 +204,14 @@
     "atlas/ohlcv_min_by_symbol_year/004/004920/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/004/004920/2026.csv"
   ],
-  "latest_close": 1162,
-  "latest_marcap": 60633011264,
+  "latest_close": 948,
+  "latest_marcap": 49466518656,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1162,
-  "raw_latest_marcap": 60633011264,
+  "raw_latest_close": 948,
+  "raw_latest_marcap": 49466518656,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7735,
+    "tradable_ohlcv": 7816,
     "non_tradable_zero_volume": 29,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

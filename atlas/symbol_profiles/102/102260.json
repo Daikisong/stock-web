@@ -5,7 +5,7 @@
     {
       "name": "동성케미컬",
       "first_date": "2021-04-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "동성코퍼레이션",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2008-06-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2008-06-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2008-06-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4344,
-  "raw_trading_day_count": 4358,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4425,
+  "raw_trading_day_count": 4439,
   "available_years": [
     2008,
     2009,
@@ -139,14 +139,14 @@
     "atlas/ohlcv_min_by_symbol_year/102/102260/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/102/102260/2026.csv"
   ],
-  "latest_close": 4620,
-  "latest_marcap": 231816774420,
+  "latest_close": 3655,
+  "latest_marcap": 185197355105,
   "latest_market": "KOSPI",
-  "raw_latest_close": 4620,
-  "raw_latest_marcap": 231816774420,
+  "raw_latest_close": 3655,
+  "raw_latest_marcap": 185197355105,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4344,
+    "tradable_ohlcv": 4425,
     "non_tradable_zero_volume": 14,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

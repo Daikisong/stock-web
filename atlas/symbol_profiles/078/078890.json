@@ -5,7 +5,7 @@
     {
       "name": "가온그룹",
       "first_date": "2023-04-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "가온미디어",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-07-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-07-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-07-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5086,
-  "raw_trading_day_count": 5086,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5167,
+  "raw_trading_day_count": 5167,
   "available_years": [
     2005,
     2006,
@@ -149,14 +149,14 @@
     "atlas/ohlcv_min_by_symbol_year/078/078890/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/078/078890/2026.csv"
   ],
-  "latest_close": 6140,
-  "latest_marcap": 113129150020,
+  "latest_close": 5380,
+  "latest_marcap": 99126193340,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6140,
-  "raw_latest_marcap": 113129150020,
+  "raw_latest_close": 5380,
+  "raw_latest_marcap": 99126193340,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5086,
+    "tradable_ohlcv": 5167,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

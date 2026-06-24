@@ -5,7 +5,7 @@
     {
       "name": "삼성스팩11호",
       "first_date": "2025-09-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "삼양사(1신)",
@@ -21,7 +21,7 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-09-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSPI",
@@ -30,11 +30,11 @@
     }
   ],
   "first_date": "1995-12-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-12-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 250,
-  "raw_trading_day_count": 250,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 331,
+  "raw_trading_day_count": 331,
   "available_years": [
     1995,
     1996,
@@ -65,14 +65,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000071/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000071/2026.csv"
   ],
-  "latest_close": 2050,
-  "latest_marcap": 11808000000,
+  "latest_close": 2015,
+  "latest_marcap": 11606400000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2050,
-  "raw_latest_marcap": 11808000000,
+  "raw_latest_close": 2015,
+  "raw_latest_marcap": 11606400000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 250,
+    "tradable_ohlcv": 331,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

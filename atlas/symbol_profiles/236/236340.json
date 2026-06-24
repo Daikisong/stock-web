@@ -5,7 +5,7 @@
     {
       "name": "메디젠휴먼케어",
       "first_date": "2016-01-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2016-01-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-01-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-01-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2417,
-  "raw_trading_day_count": 2469,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2498,
+  "raw_trading_day_count": 2550,
   "available_years": [
     2016,
     2017,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/236/236340/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/236/236340/2026.csv"
   ],
-  "latest_close": 1610,
-  "latest_marcap": 4853581670,
+  "latest_close": 2400,
+  "latest_marcap": 7235152800,
   "latest_market": "KONEX",
-  "raw_latest_close": 1610,
-  "raw_latest_marcap": 4853581670,
+  "raw_latest_close": 2400,
+  "raw_latest_marcap": 7235152800,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 2417,
+    "tradable_ohlcv": 2498,
     "non_tradable_zero_volume": 52,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

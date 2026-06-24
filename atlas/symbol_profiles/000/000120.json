@@ -5,7 +5,7 @@
     {
       "name": "CJ대한통운",
       "first_date": "2012-04-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "대한통운",
@@ -15,7 +15,7 @@
     {
       "name": "삼양바이오팜",
       "first_date": "2025-11-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7732,
-  "raw_trading_day_count": 7824,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7813,
+  "raw_trading_day_count": 7986,
   "available_years": [
     1995,
     1996,
@@ -204,14 +204,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000120/2026.csv"
   ],
-  "latest_close": 138800,
-  "latest_marcap": 3166353347200,
+  "latest_close": 76800,
+  "latest_marcap": 1751988019200,
   "latest_market": "KOSPI",
-  "raw_latest_close": 95500,
-  "raw_latest_marcap": 710125585000,
+  "raw_latest_close": 46200,
+  "raw_latest_marcap": 343537194000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7791,
+    "tradable_ohlcv": 7953,
     "non_tradable_zero_volume": 33,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

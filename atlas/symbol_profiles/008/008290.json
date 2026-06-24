@@ -5,7 +5,7 @@
     {
       "name": "원풍물산",
       "first_date": "1997-07-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-07-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-07-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-07-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6696,
-  "raw_trading_day_count": 7116,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6763,
+  "raw_trading_day_count": 7197,
   "available_years": [
     1997,
     1998,
@@ -184,28 +184,29 @@
     "atlas/ohlcv_min_by_symbol_year/008/008290/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/008/008290/2026.csv"
   ],
-  "latest_close": 337,
-  "latest_marcap": 13713769823,
+  "latest_close": 461,
+  "latest_marcap": 9379892779,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 337,
-  "raw_latest_marcap": 13713769823,
+  "raw_latest_close": 461,
+  "raw_latest_marcap": 9379892779,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6696,
-    "non_tradable_zero_volume": 420,
+    "tradable_ohlcv": 6763,
+    "non_tradable_zero_volume": 434,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_count": 7,
   "corporate_action_candidate_dates": [
     "1999-01-07",
     "1999-01-26",
     "2001-07-30",
     "2007-12-26",
     "2008-08-22",
-    "2012-05-14"
+    "2012-05-14",
+    "2026-05-12"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

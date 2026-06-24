@@ -5,7 +5,7 @@
     {
       "name": "서울제약",
       "first_date": "2000-08-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-08-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-08-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-08-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6251,
-  "raw_trading_day_count": 6289,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6332,
+  "raw_trading_day_count": 6370,
   "available_years": [
     2000,
     2001,
@@ -169,14 +169,14 @@
     "atlas/ohlcv_min_by_symbol_year/018/018680/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/018/018680/2026.csv"
   ],
-  "latest_close": 2860,
-  "latest_marcap": 33345652340,
+  "latest_close": 2040,
+  "latest_marcap": 23785010760,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2860,
-  "raw_latest_marcap": 33345652340,
+  "raw_latest_close": 2040,
+  "raw_latest_marcap": 23785010760,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6251,
+    "tradable_ohlcv": 6332,
     "non_tradable_zero_volume": 38,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

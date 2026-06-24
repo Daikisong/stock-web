@@ -5,7 +5,7 @@
     {
       "name": "코리아써키트",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7759,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7840,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/007/007810/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/007/007810/2026.csv"
   ],
-  "latest_close": 60100,
-  "latest_marcap": 1419607135100,
+  "latest_close": 115600,
+  "latest_marcap": 2772390872000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 60100,
-  "raw_latest_marcap": 1419607135100,
+  "raw_latest_close": 115600,
+  "raw_latest_marcap": 2772390872000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7759,
+    "tradable_ohlcv": 7840,
     "non_tradable_zero_volume": 5,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "SK아이이테크놀로지",
       "first_date": "2021-05-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2021-05-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-05-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-05-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1171,
-  "raw_trading_day_count": 1171,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1252,
+  "raw_trading_day_count": 1252,
   "available_years": [
     2021,
     2022,
@@ -64,14 +64,14 @@
     "atlas/ohlcv_min_by_symbol_year/361/361610/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/361/361610/2026.csv"
   ],
-  "latest_close": 26550,
-  "latest_marcap": 2171447505000,
+  "latest_close": 17950,
+  "latest_marcap": 1468078445000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 26550,
-  "raw_latest_marcap": 2171447505000,
+  "raw_latest_close": 17950,
+  "raw_latest_marcap": 1468078445000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 1171,
+    "tradable_ohlcv": 1252,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

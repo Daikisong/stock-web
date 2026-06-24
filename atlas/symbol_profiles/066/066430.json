@@ -25,7 +25,7 @@
     {
       "name": "아이로보틱스",
       "first_date": "2025-06-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "와이오엠",
@@ -55,15 +55,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-12-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-12-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-12-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5263,
-  "raw_trading_day_count": 5715,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5344,
+  "raw_trading_day_count": 5796,
   "available_years": [
     2002,
     2003,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/066/066430/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/066/066430/2026.csv"
   ],
-  "latest_close": 2800,
-  "latest_marcap": 109629732800,
+  "latest_close": 2935,
+  "latest_marcap": 114915452060,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2800,
-  "raw_latest_marcap": 109629732800,
+  "raw_latest_close": 2935,
+  "raw_latest_marcap": 114915452060,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5263,
+    "tradable_ohlcv": 5344,
     "non_tradable_zero_volume": 452,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

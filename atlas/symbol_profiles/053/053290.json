@@ -5,7 +5,7 @@
     {
       "name": "NE능률",
       "first_date": "2017-11-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "능률교육",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-12-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-12-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-12-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5723,
-  "raw_trading_day_count": 5724,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5804,
+  "raw_trading_day_count": 5805,
   "available_years": [
     2002,
     2003,
@@ -169,14 +169,14 @@
     "atlas/ohlcv_min_by_symbol_year/053/053290/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/053/053290/2026.csv"
   ],
-  "latest_close": 1922,
-  "latest_marcap": 31763562054,
+  "latest_close": 1298,
+  "latest_marcap": 21451146486,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1922,
-  "raw_latest_marcap": 31763562054,
+  "raw_latest_close": 1298,
+  "raw_latest_marcap": 21451146486,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5723,
+    "tradable_ohlcv": 5804,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "한글과컴퓨터",
       "first_date": "1996-09-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -16,20 +16,20 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-09-24",
-      "last_date": "2025-06-12"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2025-06-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-11"
     }
   ],
   "first_date": "1996-09-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-09-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7226,
-  "raw_trading_day_count": 7351,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7307,
+  "raw_trading_day_count": 7432,
   "available_years": [
     1996,
     1997,
@@ -195,14 +195,14 @@
     "atlas/ohlcv_min_by_symbol_year/030/030520/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/030/030520/2026.csv"
   ],
-  "latest_close": 23550,
-  "latest_marcap": 569432971200,
-  "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 23550,
-  "raw_latest_marcap": 569432971200,
-  "raw_latest_market": "KOSDAQ GLOBAL",
+  "latest_close": 18910,
+  "latest_marcap": 457238959040,
+  "latest_market": "KOSDAQ",
+  "raw_latest_close": 18910,
+  "raw_latest_marcap": 457238959040,
+  "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 7226,
+    "tradable_ohlcv": 7307,
     "non_tradable_zero_volume": 125,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

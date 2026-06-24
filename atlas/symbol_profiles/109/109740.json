@@ -5,7 +5,7 @@
     {
       "name": "디에스케이",
       "first_date": "2009-09-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2009-09-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-09-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-09-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3921,
-  "raw_trading_day_count": 4041,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4002,
+  "raw_trading_day_count": 4122,
   "available_years": [
     2009,
     2010,
@@ -124,14 +124,14 @@
     "atlas/ohlcv_min_by_symbol_year/109/109740/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/109/109740/2026.csv"
   ],
-  "latest_close": 6550,
-  "latest_marcap": 168403054500,
+  "latest_close": 6530,
+  "latest_marcap": 167888846700,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6550,
-  "raw_latest_marcap": 168403054500,
+  "raw_latest_close": 6530,
+  "raw_latest_marcap": 167888846700,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3921,
+    "tradable_ohlcv": 4002,
     "non_tradable_zero_volume": 120,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

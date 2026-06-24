@@ -5,7 +5,7 @@
     {
       "name": "에이직랜드",
       "first_date": "2023-11-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-11-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-11-13",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-11-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 552,
-  "raw_trading_day_count": 552,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 633,
+  "raw_trading_day_count": 633,
   "available_years": [
     2023,
     2024,
@@ -54,14 +54,14 @@
     "atlas/ohlcv_min_by_symbol_year/445/445090/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/445/445090/2026.csv"
   ],
-  "latest_close": 31950,
-  "latest_marcap": 349074773100,
+  "latest_close": 27000,
+  "latest_marcap": 294992766000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 31950,
-  "raw_latest_marcap": 349074773100,
+  "raw_latest_close": 27000,
+  "raw_latest_marcap": 294992766000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 552,
+    "tradable_ohlcv": 633,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

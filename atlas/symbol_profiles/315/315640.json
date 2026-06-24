@@ -5,7 +5,7 @@
     {
       "name": "딥노이드",
       "first_date": "2021-08-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-08-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-08-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-08-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1103,
-  "raw_trading_day_count": 1103,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1184,
+  "raw_trading_day_count": 1184,
   "available_years": [
     2021,
     2022,
@@ -64,14 +64,14 @@
     "atlas/ohlcv_min_by_symbol_year/315/315640/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/315/315640/2026.csv"
   ],
-  "latest_close": 3520,
-  "latest_marcap": 103390256640,
+  "latest_close": 1933,
+  "latest_marcap": 56776524456,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3520,
-  "raw_latest_marcap": 103390256640,
+  "raw_latest_close": 1933,
+  "raw_latest_marcap": 56776524456,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1103,
+    "tradable_ohlcv": 1184,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

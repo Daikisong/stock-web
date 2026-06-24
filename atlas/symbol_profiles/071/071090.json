@@ -5,7 +5,7 @@
     {
       "name": "하이스틸",
       "first_date": "2003-02-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2003-02-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2003-02-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2003-02-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5642,
-  "raw_trading_day_count": 5680,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5723,
+  "raw_trading_day_count": 5761,
   "available_years": [
     2003,
     2004,
@@ -154,14 +154,14 @@
     "atlas/ohlcv_min_by_symbol_year/071/071090/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/071/071090/2026.csv"
   ],
-  "latest_close": 3980,
-  "latest_marcap": 80362054580,
+  "latest_close": 3275,
+  "latest_marcap": 66127067525,
   "latest_market": "KOSPI",
-  "raw_latest_close": 3980,
-  "raw_latest_marcap": 80362054580,
+  "raw_latest_close": 3275,
+  "raw_latest_marcap": 66127067525,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 5642,
+    "tradable_ohlcv": 5723,
     "non_tradable_zero_volume": 38,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

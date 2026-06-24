@@ -5,7 +5,7 @@
     {
       "name": "하이텍팜",
       "first_date": "2010-07-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-07-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-07-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-07-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3830,
-  "raw_trading_day_count": 3830,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3911,
+  "raw_trading_day_count": 3911,
   "available_years": [
     2010,
     2011,
@@ -119,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/106/106190/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/106/106190/2026.csv"
   ],
-  "latest_close": 16170,
-  "latest_marcap": 171938407410,
+  "latest_close": 13640,
+  "latest_marcap": 145036479720,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 16170,
-  "raw_latest_marcap": 171938407410,
+  "raw_latest_close": 13640,
+  "raw_latest_marcap": 145036479720,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3830,
+    "tradable_ohlcv": 3911,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

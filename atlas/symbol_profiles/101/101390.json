@@ -5,7 +5,7 @@
     {
       "name": "아이엠",
       "first_date": "2008-07-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2008-07-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2008-07-23",
-  "last_date": "2025-04-07",
+  "last_date": "2026-06-22",
   "raw_first_date": "2008-07-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4109,
-  "raw_trading_day_count": 4336,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4110,
+  "raw_trading_day_count": 4417,
   "available_years": [
     2008,
     2009,
@@ -42,7 +42,8 @@
     2022,
     2023,
     2024,
-    2025
+    2025,
+    2026
   ],
   "raw_available_years": [
     2008,
@@ -83,7 +84,8 @@
     "atlas/ohlcv_tradable_by_symbol_year/101/101390/2022.csv",
     "atlas/ohlcv_tradable_by_symbol_year/101/101390/2023.csv",
     "atlas/ohlcv_tradable_by_symbol_year/101/101390/2024.csv",
-    "atlas/ohlcv_tradable_by_symbol_year/101/101390/2025.csv"
+    "atlas/ohlcv_tradable_by_symbol_year/101/101390/2025.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/101/101390/2026.csv"
   ],
   "raw_year_files": [
     "atlas/ohlcv_raw_by_symbol_year/101/101390/2008.csv",
@@ -124,30 +126,32 @@
     "atlas/ohlcv_min_by_symbol_year/101/101390/2022.csv",
     "atlas/ohlcv_min_by_symbol_year/101/101390/2023.csv",
     "atlas/ohlcv_min_by_symbol_year/101/101390/2024.csv",
-    "atlas/ohlcv_min_by_symbol_year/101/101390/2025.csv"
+    "atlas/ohlcv_min_by_symbol_year/101/101390/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/101/101390/2026.csv"
   ],
-  "latest_close": 396,
-  "latest_marcap": 5140810224,
+  "latest_close": 45,
+  "latest_marcap": 761145930,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 396,
-  "raw_latest_marcap": 5510084184,
+  "raw_latest_close": 45,
+  "raw_latest_marcap": 761145930,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4109,
-    "non_tradable_zero_volume": 227,
+    "tradable_ohlcv": 4110,
+    "non_tradable_zero_volume": 307,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_count": 7,
   "corporate_action_candidate_dates": [
     "2009-12-21",
     "2010-12-01",
     "2018-07-18",
     "2021-06-03",
     "2021-12-28",
-    "2022-02-04"
+    "2022-02-04",
+    "2026-06-22"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "AJ네트웍스",
       "first_date": "2015-08-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2015-08-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-08-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-08-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2562,
-  "raw_trading_day_count": 2575,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2643,
+  "raw_trading_day_count": 2656,
   "available_years": [
     2015,
     2016,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/095/095570/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/095/095570/2026.csv"
   ],
-  "latest_close": 5410,
-  "latest_marcap": 244817426190,
+  "latest_close": 4205,
+  "latest_marcap": 190287851595,
   "latest_market": "KOSPI",
-  "raw_latest_close": 5410,
-  "raw_latest_marcap": 244817426190,
+  "raw_latest_close": 4205,
+  "raw_latest_marcap": 190287851595,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2562,
+    "tradable_ohlcv": 2643,
     "non_tradable_zero_volume": 13,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

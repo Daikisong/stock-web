@@ -5,7 +5,7 @@
     {
       "name": "영흥",
       "first_date": "2020-04-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "영흥철강",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2010-01-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-01-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-11",
   "raw_first_date": "2010-01-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3942,
-  "raw_trading_day_count": 3957,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4016,
+  "raw_trading_day_count": 4038,
   "available_years": [
     2010,
     2011,
@@ -124,25 +124,26 @@
     "atlas/ohlcv_min_by_symbol_year/012/012160/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/012/012160/2026.csv"
   ],
-  "latest_close": 622,
-  "latest_marcap": 63015051384,
+  "latest_close": 376,
+  "latest_marcap": 29366922392,
   "latest_market": "KOSPI",
-  "raw_latest_close": 622,
-  "raw_latest_marcap": 63015051384,
+  "raw_latest_close": 376,
+  "raw_latest_marcap": 29366922392,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3942,
-    "non_tradable_zero_volume": 15,
+    "tradable_ohlcv": 4016,
+    "non_tradable_zero_volume": 22,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2011-11-10",
     "2013-12-10",
-    "2016-04-21"
+    "2016-04-21",
+    "2026-05-22"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

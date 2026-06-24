@@ -5,7 +5,7 @@
     {
       "name": "아미노로직스",
       "first_date": "2009-10-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "에이로직스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2004-06-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2004-06-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2004-06-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5349,
-  "raw_trading_day_count": 5362,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5430,
+  "raw_trading_day_count": 5443,
   "available_years": [
     2004,
     2005,
@@ -154,14 +154,14 @@
     "atlas/ohlcv_min_by_symbol_year/074/074430/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/074/074430/2026.csv"
   ],
-  "latest_close": 1572,
-  "latest_marcap": 138063798768,
+  "latest_close": 1026,
+  "latest_marcap": 90110341944,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1572,
-  "raw_latest_marcap": 138063798768,
+  "raw_latest_close": 1026,
+  "raw_latest_marcap": 90110341944,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5349,
+    "tradable_ohlcv": 5430,
     "non_tradable_zero_volume": 13,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

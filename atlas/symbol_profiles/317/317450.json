@@ -5,7 +5,7 @@
     {
       "name": "명인제약",
       "first_date": "2025-10-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2025-10-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-10-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-10-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 92,
-  "raw_trading_day_count": 92,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 173,
+  "raw_trading_day_count": 173,
   "available_years": [
     2025,
     2026
@@ -44,14 +44,14 @@
     "atlas/ohlcv_min_by_symbol_year/317/317450/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/317/317450/2026.csv"
   ],
-  "latest_close": 61900,
-  "latest_marcap": 903740000000,
+  "latest_close": 43000,
+  "latest_marcap": 627800000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 61900,
-  "raw_latest_marcap": 903740000000,
+  "raw_latest_close": 43000,
+  "raw_latest_marcap": 627800000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 92,
+    "tradable_ohlcv": 173,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

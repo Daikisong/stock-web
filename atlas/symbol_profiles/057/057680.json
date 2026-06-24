@@ -10,7 +10,7 @@
     {
       "name": "티사이언티픽",
       "first_date": "2020-08-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-06-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-06-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-06-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5843,
-  "raw_trading_day_count": 5844,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5910,
+  "raw_trading_day_count": 5925,
   "available_years": [
     2002,
     2003,
@@ -164,25 +164,26 @@
     "atlas/ohlcv_min_by_symbol_year/057/057680/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/057/057680/2026.csv"
   ],
-  "latest_close": 698,
-  "latest_marcap": 49731453698,
+  "latest_close": 1880,
+  "latest_marcap": 26789436000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 698,
-  "raw_latest_marcap": 49731453698,
+  "raw_latest_close": 1880,
+  "raw_latest_marcap": 26789436000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5843,
-    "non_tradable_zero_volume": 1,
+    "tradable_ohlcv": 5910,
+    "non_tradable_zero_volume": 15,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2011-03-10",
     "2018-11-20",
-    "2019-10-21"
+    "2019-10-21",
+    "2026-04-30"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

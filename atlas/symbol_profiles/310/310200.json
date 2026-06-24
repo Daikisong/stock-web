@@ -10,7 +10,7 @@
     {
       "name": "애니플러스",
       "first_date": "2020-02-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-12-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-12-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1670,
-  "raw_trading_day_count": 1757,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1751,
+  "raw_trading_day_count": 1838,
   "available_years": [
     2018,
     2019,
@@ -84,14 +84,14 @@
     "atlas/ohlcv_min_by_symbol_year/310/310200/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/310/310200/2026.csv"
   ],
-  "latest_close": 3230,
-  "latest_marcap": 168485960280,
+  "latest_close": 2105,
+  "latest_marcap": 109802769780,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3230,
-  "raw_latest_marcap": 168485960280,
+  "raw_latest_close": 2105,
+  "raw_latest_marcap": 109802769780,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1670,
+    "tradable_ohlcv": 1751,
     "non_tradable_zero_volume": 86,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

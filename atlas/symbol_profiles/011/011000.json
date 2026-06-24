@@ -20,7 +20,7 @@
     {
       "name": "진원생명과학",
       "first_date": "2014-04-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7617,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7697,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -209,15 +209,15 @@
     "atlas/ohlcv_min_by_symbol_year/011/011000/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/011/011000/2026.csv"
   ],
-  "latest_close": 1476,
-  "latest_marcap": 126065065536,
+  "latest_close": 628,
+  "latest_marcap": 57074465596,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1476,
-  "raw_latest_marcap": 126065065536,
+  "raw_latest_close": 628,
+  "raw_latest_marcap": 57074465596,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7617,
-    "non_tradable_zero_volume": 148,
+    "tradable_ohlcv": 7697,
+    "non_tradable_zero_volume": 149,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

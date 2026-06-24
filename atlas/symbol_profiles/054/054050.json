@@ -1,11 +1,16 @@
 {
   "code": "054050",
-  "current_or_latest_name": "농우바이오",
+  "current_or_latest_name": "NH농우바이오",
   "name_history": [
+    {
+      "name": "NH농우바이오",
+      "first_date": "2026-05-11",
+      "last_date": "2026-06-22"
+    },
     {
       "name": "농우바이오",
       "first_date": "2002-04-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-08"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-04-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-04-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-04-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5895,
-  "raw_trading_day_count": 5895,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5976,
+  "raw_trading_day_count": 5976,
   "available_years": [
     2002,
     2003,
@@ -159,14 +164,14 @@
     "atlas/ohlcv_min_by_symbol_year/054/054050/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/054/054050/2026.csv"
   ],
-  "latest_close": 8450,
-  "latest_marcap": 135458240450,
+  "latest_close": 6980,
+  "latest_marcap": 111893315780,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8450,
-  "raw_latest_marcap": 135458240450,
+  "raw_latest_close": 6980,
+  "raw_latest_marcap": 111893315780,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5895,
+    "tradable_ohlcv": 5976,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

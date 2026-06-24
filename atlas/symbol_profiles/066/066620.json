@@ -5,7 +5,7 @@
     {
       "name": "국보디자인",
       "first_date": "2002-09-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-09-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-09-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-09-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5790,
-  "raw_trading_day_count": 5790,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5871,
+  "raw_trading_day_count": 5871,
   "available_years": [
     2002,
     2003,
@@ -159,14 +159,14 @@
     "atlas/ohlcv_min_by_symbol_year/066/066620/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/066/066620/2026.csv"
   ],
-  "latest_close": 25700,
-  "latest_marcap": 192750000000,
+  "latest_close": 23200,
+  "latest_marcap": 174000000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 25700,
-  "raw_latest_marcap": 192750000000,
+  "raw_latest_close": 23200,
+  "raw_latest_marcap": 174000000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5790,
+    "tradable_ohlcv": 5871,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

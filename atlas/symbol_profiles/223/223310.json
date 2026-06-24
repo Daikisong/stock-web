@@ -15,7 +15,7 @@
     {
       "name": "사토시홀딩스",
       "first_date": "2025-08-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "이에스브이",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-12-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-12-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-12-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1691,
-  "raw_trading_day_count": 2489,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1754,
+  "raw_trading_day_count": 2570,
   "available_years": [
     2015,
     2016,
@@ -108,27 +108,28 @@
     "atlas/ohlcv_min_by_symbol_year/223/223310/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/223/223310/2026.csv"
   ],
-  "latest_close": 1820,
-  "latest_marcap": 47362249480,
+  "latest_close": 4405,
+  "latest_marcap": 22926448010,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1820,
-  "raw_latest_marcap": 47362249480,
+  "raw_latest_close": 4405,
+  "raw_latest_marcap": 22926448010,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1691,
-    "non_tradable_zero_volume": 798,
+    "tradable_ohlcv": 1754,
+    "non_tradable_zero_volume": 816,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_count": 6,
   "corporate_action_candidate_dates": [
     "2016-01-19",
     "2017-05-10",
     "2020-03-19",
     "2023-06-20",
-    "2024-05-02"
+    "2024-05-02",
+    "2026-05-15"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

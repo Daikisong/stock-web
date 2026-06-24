@@ -5,7 +5,7 @@
     {
       "name": "한국알콜",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6849,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6930,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -189,14 +189,14 @@
     "atlas/ohlcv_min_by_symbol_year/017/017890/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/017/017890/2026.csv"
   ],
-  "latest_close": 12760,
-  "latest_marcap": 271449936560,
+  "latest_close": 11750,
+  "latest_marcap": 249963695500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 12760,
-  "raw_latest_marcap": 271449936560,
+  "raw_latest_close": 11750,
+  "raw_latest_marcap": 249963695500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6849,
+    "tradable_ohlcv": 6930,
     "non_tradable_zero_volume": 573,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

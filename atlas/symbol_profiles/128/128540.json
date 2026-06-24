@@ -5,7 +5,7 @@
     {
       "name": "에코캡",
       "first_date": "2018-12-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-12-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-12-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-12-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1767,
-  "raw_trading_day_count": 1769,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1848,
+  "raw_trading_day_count": 1850,
   "available_years": [
     2018,
     2019,
@@ -79,14 +79,14 @@
     "atlas/ohlcv_min_by_symbol_year/128/128540/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/128/128540/2026.csv"
   ],
-  "latest_close": 2265,
-  "latest_marcap": 60453891900,
+  "latest_close": 1430,
+  "latest_marcap": 38167357800,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2265,
-  "raw_latest_marcap": 60453891900,
+  "raw_latest_close": 1430,
+  "raw_latest_marcap": 38167357800,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1767,
+    "tradable_ohlcv": 1848,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

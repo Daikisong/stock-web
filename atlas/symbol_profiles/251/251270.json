@@ -5,7 +5,7 @@
     {
       "name": "넷마블",
       "first_date": "2018-04-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "넷마블게임즈",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2017-05-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-05-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-05-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2152,
-  "raw_trading_day_count": 2152,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2233,
+  "raw_trading_day_count": 2233,
   "available_years": [
     2017,
     2018,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/251/251270/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/251/251270/2026.csv"
   ],
-  "latest_close": 57300,
-  "latest_marcap": 4925135664600,
+  "latest_close": 38400,
+  "latest_marcap": 3146287526400,
   "latest_market": "KOSPI",
-  "raw_latest_close": 57300,
-  "raw_latest_marcap": 4925135664600,
+  "raw_latest_close": 38400,
+  "raw_latest_marcap": 3146287526400,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2152,
+    "tradable_ohlcv": 2233,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "현대모비스",
       "first_date": "2000-11-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "현대정공",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7753,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7834,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/012/012330/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/012/012330/2026.csv"
   ],
-  "latest_close": 443000,
-  "latest_marcap": 40194534269000,
+  "latest_close": 569000,
+  "latest_marcap": 51626839727000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 443000,
-  "raw_latest_marcap": 40194534269000,
+  "raw_latest_close": 569000,
+  "raw_latest_marcap": 51626839727000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7753,
+    "tradable_ohlcv": 7834,
     "non_tradable_zero_volume": 12,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

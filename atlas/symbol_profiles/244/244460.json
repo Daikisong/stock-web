@@ -5,7 +5,7 @@
     {
       "name": "올리패스",
       "first_date": "2019-09-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-09-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-09-20",
   "last_date": "2025-04-07",
   "raw_first_date": "2019-09-20",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 1347,
-  "raw_trading_day_count": 1575,
+  "raw_trading_day_count": 1656,
   "available_years": [
     2019,
     2020,
@@ -75,11 +75,11 @@
   "latest_marcap": 7809700535,
   "latest_market": "KOSDAQ",
   "raw_latest_close": 1651,
-  "raw_latest_marcap": 13402000755,
+  "raw_latest_marcap": 13415218661,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 1347,
-    "non_tradable_zero_volume": 228,
+    "non_tradable_zero_volume": 309,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

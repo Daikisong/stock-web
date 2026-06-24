@@ -5,7 +5,7 @@
     {
       "name": "위더스제약",
       "first_date": "2020-07-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-07-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-07-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-07-03",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1381,
-  "raw_trading_day_count": 1381,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1462,
+  "raw_trading_day_count": 1462,
   "available_years": [
     2020,
     2021,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/330/330350/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/330/330350/2026.csv"
   ],
-  "latest_close": 8800,
-  "latest_marcap": 116178823200,
+  "latest_close": 8510,
+  "latest_marcap": 112329276800,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8800,
-  "raw_latest_marcap": 116178823200,
+  "raw_latest_close": 8510,
+  "raw_latest_marcap": 112329276800,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1381,
+    "tradable_ohlcv": 1462,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

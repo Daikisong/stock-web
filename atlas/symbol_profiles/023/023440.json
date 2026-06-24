@@ -5,7 +5,7 @@
     {
       "name": "제이스코홀딩스",
       "first_date": "2022-04-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "제일제강",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-23",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6466,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6486,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -194,15 +194,15 @@
     "atlas/ohlcv_min_by_symbol_year/023/023440/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/023/023440/2026.csv"
   ],
-  "latest_close": 750,
-  "latest_marcap": 66462033000,
+  "latest_close": 521,
+  "latest_marcap": 46964378481,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 750,
-  "raw_latest_marcap": 66462033000,
+  "raw_latest_close": 521,
+  "raw_latest_marcap": 46964378481,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6466,
-    "non_tradable_zero_volume": 956,
+    "tradable_ohlcv": 6486,
+    "non_tradable_zero_volume": 1017,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

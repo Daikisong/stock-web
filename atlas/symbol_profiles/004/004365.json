@@ -25,7 +25,7 @@
     {
       "name": "세방우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -35,15 +35,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7168,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7249,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -214,14 +214,14 @@
     "atlas/ohlcv_min_by_symbol_year/004/004365/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/004/004365/2026.csv"
   ],
-  "latest_close": 10040,
-  "latest_marcap": 37040070000,
+  "latest_close": 9440,
+  "latest_marcap": 34826520000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 10040,
-  "raw_latest_marcap": 37040070000,
+  "raw_latest_close": 9440,
+  "raw_latest_marcap": 34826520000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7168,
+    "tradable_ohlcv": 7249,
     "non_tradable_zero_volume": 597,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

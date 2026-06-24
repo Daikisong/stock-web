@@ -5,7 +5,7 @@
     {
       "name": "티앤엘",
       "first_date": "2020-11-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-11-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-11-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-11-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1286,
-  "raw_trading_day_count": 1286,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1367,
+  "raw_trading_day_count": 1367,
   "available_years": [
     2020,
     2021,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/340/340570/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/340/340570/2026.csv"
   ],
-  "latest_close": 54800,
-  "latest_marcap": 445414400000,
+  "latest_close": 55500,
+  "latest_marcap": 451104000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 54800,
-  "raw_latest_marcap": 445414400000,
+  "raw_latest_close": 55500,
+  "raw_latest_marcap": 451104000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1286,
+    "tradable_ohlcv": 1367,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "알톤",
       "first_date": "2024-04-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "알톤스포츠",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-07-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-07-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-07-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3766,
-  "raw_trading_day_count": 3848,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3847,
+  "raw_trading_day_count": 3929,
   "available_years": [
     2010,
     2011,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/123/123750/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/123/123750/2026.csv"
   ],
-  "latest_close": 2815,
-  "latest_marcap": 38901214085,
+  "latest_close": 1801,
+  "latest_marcap": 24888485459,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2815,
-  "raw_latest_marcap": 38901214085,
+  "raw_latest_close": 1801,
+  "raw_latest_marcap": 24888485459,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3766,
+    "tradable_ohlcv": 3847,
     "non_tradable_zero_volume": 82,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

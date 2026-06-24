@@ -20,7 +20,7 @@
     {
       "name": "포스코인터내셔널",
       "first_date": "2019-03-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "2001-03-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2001-03-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2001-03-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6147,
-  "raw_trading_day_count": 6147,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6228,
+  "raw_trading_day_count": 6228,
   "available_years": [
     2001,
     2002,
@@ -179,14 +179,14 @@
     "atlas/ohlcv_min_by_symbol_year/047/047050/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/047/047050/2026.csv"
   ],
-  "latest_close": 75300,
-  "latest_marcap": 13246985936400,
+  "latest_close": 53200,
+  "latest_marcap": 9359092321600,
   "latest_market": "KOSPI",
-  "raw_latest_close": 75300,
-  "raw_latest_marcap": 13246985936400,
+  "raw_latest_close": 53200,
+  "raw_latest_marcap": 9359092321600,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6147,
+    "tradable_ohlcv": 6228,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

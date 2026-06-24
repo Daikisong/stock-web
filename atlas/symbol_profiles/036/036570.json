@@ -1,11 +1,16 @@
 {
   "code": "036570",
-  "current_or_latest_name": "엔씨소프트",
+  "current_or_latest_name": "NC",
   "name_history": [
+    {
+      "name": "NC",
+      "first_date": "2026-04-15",
+      "last_date": "2026-06-22"
+    },
     {
       "name": "엔씨소프트",
       "first_date": "2000-07-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-14"
     }
   ],
   "markets": [
@@ -21,15 +26,15 @@
     {
       "market": "KOSPI",
       "first_date": "2003-05-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-07-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-07-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6315,
-  "raw_trading_day_count": 6315,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6396,
+  "raw_trading_day_count": 6396,
   "available_years": [
     2000,
     2001,
@@ -175,14 +180,14 @@
     "atlas/ohlcv_min_by_symbol_year/036/036570/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/036/036570/2026.csv"
   ],
-  "latest_close": 232000,
-  "latest_marcap": 4998213104000,
+  "latest_close": 260500,
+  "latest_marcap": 5612217731000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 232000,
-  "raw_latest_marcap": 4998213104000,
+  "raw_latest_close": 260500,
+  "raw_latest_marcap": 5612217731000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6315,
+    "tradable_ohlcv": 6396,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

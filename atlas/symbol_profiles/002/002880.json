@@ -1,6 +1,6 @@
 {
   "code": "002880",
-  "current_or_latest_name": "대유에이텍",
+  "current_or_latest_name": "디와이에이",
   "name_history": [
     {
       "name": "대유디엠씨",
@@ -10,7 +10,12 @@
     {
       "name": "대유에이텍",
       "first_date": "2010-07-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-14"
+    },
+    {
+      "name": "디와이에이",
+      "first_date": "2026-04-15",
+      "last_date": "2026-06-22"
     },
     {
       "name": "중앙디지텍",
@@ -35,15 +40,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6888,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6969,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -214,14 +219,14 @@
     "atlas/ohlcv_min_by_symbol_year/002/002880/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/002/002880/2026.csv"
   ],
-  "latest_close": 1006,
-  "latest_marcap": 47054638970,
+  "latest_close": 718,
+  "latest_marcap": 33583728410,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1006,
-  "raw_latest_marcap": 47054638970,
+  "raw_latest_close": 718,
+  "raw_latest_marcap": 33583728410,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6888,
+    "tradable_ohlcv": 6969,
     "non_tradable_zero_volume": 877,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

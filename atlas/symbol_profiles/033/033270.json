@@ -10,7 +10,7 @@
     {
       "name": "유나이티드제약",
       "first_date": "2008-04-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSPI",
       "first_date": "2007-10-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-11-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-11-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6472,
-  "raw_trading_day_count": 6476,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6553,
+  "raw_trading_day_count": 6557,
   "available_years": [
     1999,
     2000,
@@ -185,14 +185,14 @@
     "atlas/ohlcv_min_by_symbol_year/033/033270/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/033/033270/2026.csv"
   ],
-  "latest_close": 20700,
-  "latest_marcap": 338110115400,
+  "latest_close": 17600,
+  "latest_marcap": 280029640000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 20700,
-  "raw_latest_marcap": 338110115400,
+  "raw_latest_close": 17600,
+  "raw_latest_marcap": 280029640000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6472,
+    "tradable_ohlcv": 6553,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

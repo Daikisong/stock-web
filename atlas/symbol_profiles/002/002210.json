@@ -5,7 +5,7 @@
     {
       "name": "동성제약",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
   "last_date": "2025-06-24",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 7549,
-  "raw_trading_day_count": 7765,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -195,11 +195,11 @@
   "latest_marcap": 25900780311,
   "latest_market": "KOSPI",
   "raw_latest_close": 973,
-  "raw_latest_marcap": 25900780311,
+  "raw_latest_marcap": 94010780311,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
     "tradable_ohlcv": 7549,
-    "non_tradable_zero_volume": 216,
+    "non_tradable_zero_volume": 297,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

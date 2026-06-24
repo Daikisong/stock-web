@@ -5,7 +5,7 @@
     {
       "name": "CJ제일제당 우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "CJ제일제당(1우)",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2007-09-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-09-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-09-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4536,
-  "raw_trading_day_count": 4536,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4617,
+  "raw_trading_day_count": 4617,
   "available_years": [
     2007,
     2008,
@@ -139,14 +139,14 @@
     "atlas/ohlcv_min_by_symbol_year/097/097955/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/097/097955/2026.csv"
   ],
-  "latest_close": 141900,
-  "latest_marcap": 188362742700,
+  "latest_close": 121300,
+  "latest_marcap": 161017622900,
   "latest_market": "KOSPI",
-  "raw_latest_close": 141900,
-  "raw_latest_marcap": 188362742700,
+  "raw_latest_close": 121300,
+  "raw_latest_marcap": 161017622900,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4536,
+    "tradable_ohlcv": 4617,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

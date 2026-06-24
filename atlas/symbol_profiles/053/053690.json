@@ -5,7 +5,7 @@
     {
       "name": "한미글로벌",
       "first_date": "2011-04-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한미파슨스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2009-06-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-06-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-06-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4107,
-  "raw_trading_day_count": 4107,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4188,
+  "raw_trading_day_count": 4188,
   "available_years": [
     2009,
     2010,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/053/053690/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/053/053690/2026.csv"
   ],
-  "latest_close": 20900,
-  "latest_marcap": 229012795000,
+  "latest_close": 18290,
+  "latest_marcap": 200413589500,
   "latest_market": "KOSPI",
-  "raw_latest_close": 20900,
-  "raw_latest_marcap": 229012795000,
+  "raw_latest_close": 18290,
+  "raw_latest_marcap": 200413589500,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4107,
+    "tradable_ohlcv": 4188,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "메가스터디",
       "first_date": "2004-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2004-12-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2004-12-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2004-12-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5198,
-  "raw_trading_day_count": 5223,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5279,
+  "raw_trading_day_count": 5304,
   "available_years": [
     2004,
     2005,
@@ -149,14 +149,14 @@
     "atlas/ohlcv_min_by_symbol_year/072/072870/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/072/072870/2026.csv"
   ],
-  "latest_close": 11660,
-  "latest_marcap": 138998381940,
+  "latest_close": 12950,
+  "latest_marcap": 154376419050,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 11660,
-  "raw_latest_marcap": 138998381940,
+  "raw_latest_close": 12950,
+  "raw_latest_marcap": 154376419050,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5198,
+    "tradable_ohlcv": 5279,
     "non_tradable_zero_volume": 25,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "씨씨에스",
       "first_date": "2003-05-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2003-05-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2003-05-30",
   "last_date": "2025-06-20",
   "raw_first_date": "2003-05-30",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 4707,
-  "raw_trading_day_count": 5609,
+  "raw_trading_day_count": 5690,
   "available_years": [
     2003,
     2004,
@@ -153,7 +153,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 4707,
-    "non_tradable_zero_volume": 902,
+    "non_tradable_zero_volume": 983,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -5,7 +5,7 @@
     {
       "name": "바이오인프라생명과학",
       "first_date": "2020-07-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2020-07-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-07-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-07-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1368,
-  "raw_trading_day_count": 1368,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1449,
+  "raw_trading_day_count": 1449,
   "available_years": [
     2020,
     2021,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/266/266470/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/266/266470/2026.csv"
   ],
-  "latest_close": 214,
-  "latest_marcap": 5963328066,
+  "latest_close": 115,
+  "latest_marcap": 3204592185,
   "latest_market": "KONEX",
-  "raw_latest_close": 214,
-  "raw_latest_marcap": 5963328066,
+  "raw_latest_close": 115,
+  "raw_latest_marcap": 3204592185,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1368,
+    "tradable_ohlcv": 1449,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

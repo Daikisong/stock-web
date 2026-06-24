@@ -173,7 +173,7 @@
         2026
       ],
       "first_date": "2010-06-15",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -293,7 +293,7 @@
         2026
       ],
       "first_date": "2000-08-16",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -391,7 +391,7 @@
         2026
       ],
       "first_date": "2002-02-05",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -519,7 +519,7 @@
         2026
       ],
       "first_date": "2001-01-11",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -596,7 +596,7 @@
     },
     {
       "code": "046440",
-      "name": "KG모빌리언스",
+      "name": "KG파이낸셜",
       "profile_path": "atlas/symbol_profiles/046/046440.json",
       "available_years": [
         2004,
@@ -649,7 +649,7 @@
         2026
       ],
       "first_date": "2004-12-14",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -839,7 +839,7 @@
         2026
       ],
       "first_date": "2002-01-17",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -921,7 +921,7 @@
         2026
       ],
       "first_date": "2002-06-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -963,7 +963,7 @@
         2026
       ],
       "first_date": "2012-11-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

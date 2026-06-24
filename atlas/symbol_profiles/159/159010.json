@@ -5,7 +5,7 @@
     {
       "name": "아스플로",
       "first_date": "2021-10-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-10-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-10-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-10-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1070,
-  "raw_trading_day_count": 1070,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1151,
+  "raw_trading_day_count": 1151,
   "available_years": [
     2021,
     2022,
@@ -64,14 +64,14 @@
     "atlas/ohlcv_min_by_symbol_year/159/159010/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/159/159010/2026.csv"
   ],
-  "latest_close": 6700,
-  "latest_marcap": 89342751300,
+  "latest_close": 22600,
+  "latest_marcap": 301365101400,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6700,
-  "raw_latest_marcap": 89342751300,
+  "raw_latest_close": 22600,
+  "raw_latest_marcap": 301365101400,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1070,
+    "tradable_ohlcv": 1151,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

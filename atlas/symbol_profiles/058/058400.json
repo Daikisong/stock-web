@@ -5,7 +5,7 @@
     {
       "name": "KNN",
       "first_date": "2011-03-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "케이엔엔",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-11-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-11-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-11-03",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3739,
-  "raw_trading_day_count": 3763,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3820,
+  "raw_trading_day_count": 3844,
   "available_years": [
     2010,
     2011,
@@ -124,14 +124,14 @@
     "atlas/ohlcv_min_by_symbol_year/058/058400/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/058/058400/2026.csv"
   ],
-  "latest_close": 852,
-  "latest_marcap": 112830121440,
+  "latest_close": 583,
+  "latest_marcap": 77206526760,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 852,
-  "raw_latest_marcap": 112830121440,
+  "raw_latest_close": 583,
+  "raw_latest_marcap": 77206526760,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3739,
+    "tradable_ohlcv": 3820,
     "non_tradable_zero_volume": 24,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

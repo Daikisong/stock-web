@@ -5,7 +5,7 @@
     {
       "name": "나무가",
       "first_date": "2015-11-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-11-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-11-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-11-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2519,
-  "raw_trading_day_count": 2519,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2600,
+  "raw_trading_day_count": 2600,
   "available_years": [
     2015,
     2016,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/190/190510/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/190/190510/2026.csv"
   ],
-  "latest_close": 23150,
-  "latest_marcap": 325149088550,
+  "latest_close": 14100,
+  "latest_marcap": 198602969700,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 23150,
-  "raw_latest_marcap": 325149088550,
+  "raw_latest_close": 14100,
+  "raw_latest_marcap": 198602969700,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2519,
+    "tradable_ohlcv": 2600,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

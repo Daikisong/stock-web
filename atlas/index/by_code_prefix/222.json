@@ -34,7 +34,7 @@
         2026
       ],
       "first_date": "2015-12-16",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -70,7 +70,7 @@
         2026
       ],
       "first_date": "2015-09-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -104,7 +104,7 @@
         2026
       ],
       "first_date": "2016-03-11",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -192,7 +192,7 @@
         2026
       ],
       "first_date": "2015-08-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -280,7 +280,7 @@
         2026
       ],
       "first_date": "2015-08-07",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -297,7 +297,8 @@
         2021,
         2022,
         2023,
-        2024
+        2024,
+        2026
       ],
       "raw_available_years": [
         2015,
@@ -314,8 +315,8 @@
         2026
       ],
       "first_date": "2015-08-13",
-      "last_date": "2024-04-04",
-      "status_inferred": "active_like"
+      "last_date": "2026-03-13",
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "222980",
@@ -350,7 +351,7 @@
         2026
       ],
       "first_date": "2015-12-23",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

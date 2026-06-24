@@ -5,7 +5,7 @@
     {
       "name": "디와이씨",
       "first_date": "2021-12-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한국제8호스팩",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-12-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-12-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-12-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1658,
-  "raw_trading_day_count": 1758,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1739,
+  "raw_trading_day_count": 1839,
   "available_years": [
     2018,
     2019,
@@ -84,14 +84,14 @@
     "atlas/ohlcv_min_by_symbol_year/310/310870/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/310/310870/2026.csv"
   ],
-  "latest_close": 1240,
-  "latest_marcap": 25652216040,
+  "latest_close": 1412,
+  "latest_marcap": 30954714024,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1240,
-  "raw_latest_marcap": 25652216040,
+  "raw_latest_close": 1412,
+  "raw_latest_marcap": 30954714024,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1658,
+    "tradable_ohlcv": 1739,
     "non_tradable_zero_volume": 100,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

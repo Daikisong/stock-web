@@ -15,7 +15,7 @@
     {
       "name": "KT지니뮤직",
       "first_date": "2025-04-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "블루코드",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-07-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-07-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-07-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6309,
-  "raw_trading_day_count": 6309,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6390,
+  "raw_trading_day_count": 6390,
   "available_years": [
     2000,
     2001,
@@ -189,14 +189,14 @@
     "atlas/ohlcv_min_by_symbol_year/043/043610/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/043/043610/2026.csv"
   ],
-  "latest_close": 1874,
-  "latest_marcap": 108908330812,
+  "latest_close": 1437,
+  "latest_marcap": 83511884406,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1874,
-  "raw_latest_marcap": 108908330812,
+  "raw_latest_close": 1437,
+  "raw_latest_marcap": 83511884406,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6309,
+    "tradable_ohlcv": 6390,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

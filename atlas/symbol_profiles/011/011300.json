@@ -1,6 +1,6 @@
 {
   "code": "011300",
-  "current_or_latest_name": "성안머티리얼스",
+  "current_or_latest_name": "우성머티리얼스",
   "name_history": [
     {
       "name": "성    안",
@@ -15,7 +15,12 @@
     {
       "name": "성안머티리얼스",
       "first_date": "2024-04-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-17"
+    },
+    {
+      "name": "우성머티리얼스",
+      "first_date": "2026-04-20",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-11-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-01-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-11-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7276,
-  "raw_trading_day_count": 7608,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7344,
+  "raw_trading_day_count": 7689,
   "available_years": [
     1996,
     1997,
@@ -201,27 +206,28 @@
     "atlas/ohlcv_min_by_symbol_year/011/011300/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/011/011300/2026.csv"
   ],
-  "latest_close": 358,
-  "latest_marcap": 55757500464,
+  "latest_close": 2235,
+  "latest_marcap": 37583923155,
   "latest_market": "KOSPI",
-  "raw_latest_close": 358,
-  "raw_latest_marcap": 55757500464,
+  "raw_latest_close": 2235,
+  "raw_latest_marcap": 37583923155,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7276,
-    "non_tradable_zero_volume": 332,
+    "tradable_ohlcv": 7344,
+    "non_tradable_zero_volume": 345,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_count": 6,
   "corporate_action_candidate_dates": [
     "1997-01-03",
     "1997-07-23",
     "2010-05-14",
     "2025-01-23",
-    "2025-02-27"
+    "2025-02-27",
+    "2026-04-30"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

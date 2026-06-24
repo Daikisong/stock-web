@@ -5,7 +5,7 @@
     {
       "name": "필옵틱스",
       "first_date": "2017-06-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-06-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-06-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-06-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2138,
-  "raw_trading_day_count": 2138,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2219,
+  "raw_trading_day_count": 2219,
   "available_years": [
     2017,
     2018,
@@ -84,14 +84,14 @@
     "atlas/ohlcv_min_by_symbol_year/161/161580/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/161/161580/2026.csv"
   ],
-  "latest_close": 49050,
-  "latest_marcap": 1147904740350,
+  "latest_close": 41250,
+  "latest_marcap": 966992688750,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 49050,
-  "raw_latest_marcap": 1147904740350,
+  "raw_latest_close": 41250,
+  "raw_latest_marcap": 966992688750,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2138,
+    "tradable_ohlcv": 2219,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

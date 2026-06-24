@@ -5,7 +5,7 @@
     {
       "name": "프레스티지바이오파마",
       "first_date": "2021-03-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "피비파마",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2021-02-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-02-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-02-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1234,
-  "raw_trading_day_count": 1234,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1315,
+  "raw_trading_day_count": 1315,
   "available_years": [
     2021,
     2022,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/950/950210/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/950/950210/2026.csv"
   ],
-  "latest_close": 11760,
-  "latest_marcap": 706730782800,
+  "latest_close": 6440,
+  "latest_marcap": 387019238200,
   "latest_market": "KOSPI",
-  "raw_latest_close": 11760,
-  "raw_latest_marcap": 706730782800,
+  "raw_latest_close": 6440,
+  "raw_latest_marcap": 387019238200,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 1234,
+    "tradable_ohlcv": 1315,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

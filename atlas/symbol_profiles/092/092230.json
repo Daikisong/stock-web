@@ -10,7 +10,7 @@
     {
       "name": "KPX홀딩스",
       "first_date": "2008-09-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2006-10-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2006-10-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-10-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4763,
-  "raw_trading_day_count": 4774,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4844,
+  "raw_trading_day_count": 4855,
   "available_years": [
     2006,
     2007,
@@ -144,14 +144,14 @@
     "atlas/ohlcv_min_by_symbol_year/092/092230/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/092/092230/2026.csv"
   ],
-  "latest_close": 87400,
-  "latest_marcap": 369234060400,
+  "latest_close": 80700,
+  "latest_marcap": 340928932200,
   "latest_market": "KOSPI",
-  "raw_latest_close": 87400,
-  "raw_latest_marcap": 369234060400,
+  "raw_latest_close": 80700,
+  "raw_latest_marcap": 340928932200,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4763,
+    "tradable_ohlcv": 4844,
     "non_tradable_zero_volume": 11,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

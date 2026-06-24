@@ -5,7 +5,7 @@
     {
       "name": "엠디바이스",
       "first_date": "2025-03-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-03-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-03-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-03-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 234,
-  "raw_trading_day_count": 234,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 315,
+  "raw_trading_day_count": 315,
   "available_years": [
     2025,
     2026
@@ -44,14 +44,14 @@
     "atlas/ohlcv_min_by_symbol_year/226/226590/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/226/226590/2026.csv"
   ],
-  "latest_close": 21100,
-  "latest_marcap": 224309542400,
+  "latest_close": 13560,
+  "latest_marcap": 145319591040,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 21100,
-  "raw_latest_marcap": 224309542400,
+  "raw_latest_close": 13560,
+  "raw_latest_marcap": 145319591040,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 234,
+    "tradable_ohlcv": 315,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

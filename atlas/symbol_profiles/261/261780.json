@@ -1,11 +1,16 @@
 {
   "code": "261780",
-  "current_or_latest_name": "차백신연구소",
+  "current_or_latest_name": "아리바이오랩",
   "name_history": [
+    {
+      "name": "아리바이오랩",
+      "first_date": "2026-05-29",
+      "last_date": "2026-06-22"
+    },
     {
       "name": "차백신연구소",
       "first_date": "2021-10-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-28"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-10-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-10-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-10-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1060,
-  "raw_trading_day_count": 1060,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1141,
+  "raw_trading_day_count": 1141,
   "available_years": [
     2021,
     2022,
@@ -64,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/261/261780/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/261/261780/2026.csv"
   ],
-  "latest_close": 2625,
-  "latest_marcap": 70521270750,
+  "latest_close": 2425,
+  "latest_marcap": 65264015300,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2625,
-  "raw_latest_marcap": 70521270750,
+  "raw_latest_close": 2425,
+  "raw_latest_marcap": 65264015300,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1060,
+    "tradable_ohlcv": 1141,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

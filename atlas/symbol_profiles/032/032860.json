@@ -15,7 +15,7 @@
     {
       "name": "더라미",
       "first_date": "2023-09-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "마담포라",
@@ -50,15 +50,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-07-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-07-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-07-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5617,
-  "raw_trading_day_count": 7127,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5698,
+  "raw_trading_day_count": 7208,
   "available_years": [
     1997,
     1998,
@@ -216,14 +216,14 @@
     "atlas/ohlcv_min_by_symbol_year/032/032860/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/032/032860/2026.csv"
   ],
-  "latest_close": 1591,
-  "latest_marcap": 64269818033,
+  "latest_close": 614,
+  "latest_marcap": 24803059882,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1591,
-  "raw_latest_marcap": 64269818033,
+  "raw_latest_close": 614,
+  "raw_latest_marcap": 24803059882,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5617,
+    "tradable_ohlcv": 5698,
     "non_tradable_zero_volume": 1510,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

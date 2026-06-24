@@ -1,6 +1,6 @@
 {
   "code": "070590",
-  "current_or_latest_name": "한솔인티큐브",
+  "current_or_latest_name": "인티큐브",
   "name_history": [
     {
       "name": "엘텍",
@@ -10,12 +10,12 @@
     {
       "name": "인티큐브",
       "first_date": "2005-09-26",
-      "last_date": "2008-07-10"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한솔인티큐브",
       "first_date": "2008-07-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-03-30"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2004-01-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2004-01-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2004-01-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5339,
-  "raw_trading_day_count": 5460,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5420,
+  "raw_trading_day_count": 5541,
   "available_years": [
     2004,
     2005,
@@ -159,14 +159,14 @@
     "atlas/ohlcv_min_by_symbol_year/070/070590/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/070/070590/2026.csv"
   ],
-  "latest_close": 1807,
-  "latest_marcap": 25080294447,
+  "latest_close": 1614,
+  "latest_marcap": 22401546894,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1807,
-  "raw_latest_marcap": 25080294447,
+  "raw_latest_close": 1614,
+  "raw_latest_marcap": 22401546894,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5339,
+    "tradable_ohlcv": 5420,
     "non_tradable_zero_volume": 121,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,17 +5,17 @@
     {
       "name": "그린광학",
       "first_date": "2025-11-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "아로마티카",
       "first_date": "2025-11-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "페스카로",
       "first_date": "2025-12-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-11-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-11-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-11-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 64,
-  "raw_trading_day_count": 167,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 145,
+  "raw_trading_day_count": 410,
   "available_years": [
     2025,
     2026
@@ -54,14 +54,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000015/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000015/2026.csv"
   ],
-  "latest_close": 38150,
-  "latest_marcap": 446451939150,
+  "latest_close": 16890,
+  "latest_marcap": 197655917490,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 15050,
-  "raw_latest_marcap": 191361502500,
+  "raw_latest_close": 5460,
+  "raw_latest_marcap": 69424173000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 167,
+    "tradable_ohlcv": 410,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

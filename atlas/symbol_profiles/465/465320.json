@@ -5,7 +5,7 @@
     {
       "name": "교보15호스팩",
       "first_date": "2023-12-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-12-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-12-05",
   "last_date": "2025-09-11",
   "raw_first_date": "2023-12-05",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 430,
-  "raw_trading_day_count": 536,
+  "raw_trading_day_count": 617,
   "available_years": [
     2023,
     2024,
@@ -59,7 +59,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 430,
-    "non_tradable_zero_volume": 106,
+    "non_tradable_zero_volume": 187,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

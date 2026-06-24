@@ -5,7 +5,7 @@
     {
       "name": "바이오텐",
       "first_date": "2023-10-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2023-10-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-10-13",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-10-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 560,
-  "raw_trading_day_count": 573,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 640,
+  "raw_trading_day_count": 654,
   "available_years": [
     2023,
     2024,
@@ -54,15 +54,15 @@
     "atlas/ohlcv_min_by_symbol_year/289/289170/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/289/289170/2026.csv"
   ],
-  "latest_close": 3500,
-  "latest_marcap": 12518411500,
+  "latest_close": 3095,
+  "latest_marcap": 11069852455,
   "latest_market": "KONEX",
-  "raw_latest_close": 3500,
-  "raw_latest_marcap": 12518411500,
+  "raw_latest_close": 3095,
+  "raw_latest_marcap": 11069852455,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 560,
-    "non_tradable_zero_volume": 13,
+    "tradable_ohlcv": 640,
+    "non_tradable_zero_volume": 14,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

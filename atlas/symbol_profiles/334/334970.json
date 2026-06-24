@@ -5,7 +5,7 @@
     {
       "name": "프레스티지바이오로직스",
       "first_date": "2021-03-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-03-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-03-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-03-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1213,
-  "raw_trading_day_count": 1213,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1294,
+  "raw_trading_day_count": 1294,
   "available_years": [
     2021,
     2022,
@@ -64,14 +64,14 @@
     "atlas/ohlcv_min_by_symbol_year/334/334970/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/334/334970/2026.csv"
   ],
-  "latest_close": 2855,
-  "latest_marcap": 221983778635,
+  "latest_close": 1868,
+  "latest_marcap": 145241925916,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2855,
-  "raw_latest_marcap": 221983778635,
+  "raw_latest_close": 1868,
+  "raw_latest_marcap": 145241925916,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1213,
+    "tradable_ohlcv": 1294,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,12 +5,12 @@
     {
       "name": "디비금융제14호스팩",
       "first_date": "2025-07-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "엔비알모션",
       "first_date": "2026-01-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-07-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-07-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-07-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 142,
-  "raw_trading_day_count": 167,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 223,
+  "raw_trading_day_count": 329,
   "available_years": [
     2025,
     2026
@@ -49,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000004/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000004/2026.csv"
   ],
-  "latest_close": 16700,
-  "latest_marcap": 173754615600,
+  "latest_close": 8830,
+  "latest_marcap": 91871452440,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2075,
-  "raw_latest_marcap": 11028625000,
+  "raw_latest_close": 2000,
+  "raw_latest_marcap": 10630000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 167,
+    "tradable_ohlcv": 329,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

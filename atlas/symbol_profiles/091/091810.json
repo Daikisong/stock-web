@@ -1,11 +1,16 @@
 {
   "code": "091810",
-  "current_or_latest_name": "티웨이항공",
+  "current_or_latest_name": "트리니티항공",
   "name_history": [
+    {
+      "name": "트리니티항공",
+      "first_date": "2026-04-16",
+      "last_date": "2026-06-22"
+    },
     {
       "name": "티웨이항공",
       "first_date": "2018-08-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-15"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2018-08-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-08-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-08-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1838,
-  "raw_trading_day_count": 1853,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1919,
+  "raw_trading_day_count": 1934,
   "available_years": [
     2018,
     2019,
@@ -79,27 +84,28 @@
     "atlas/ohlcv_min_by_symbol_year/091/091810/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/091/091810/2026.csv"
   ],
-  "latest_close": 1348,
-  "latest_marcap": 452906479180,
+  "latest_close": 752,
+  "latest_marcap": 310553052720,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1348,
-  "raw_latest_marcap": 452906479180,
+  "raw_latest_close": 752,
+  "raw_latest_marcap": 310553052720,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 1838,
+    "tradable_ohlcv": 1919,
     "non_tradable_zero_volume": 15,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_count": 6,
   "corporate_action_candidate_dates": [
     "2020-11-27",
     "2022-05-12",
     "2023-02-23",
     "2025-09-15",
-    "2026-01-13"
+    "2026-01-13",
+    "2026-04-02"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

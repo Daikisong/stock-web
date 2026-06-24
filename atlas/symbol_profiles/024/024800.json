@@ -5,7 +5,7 @@
     {
       "name": "유성티엔에스",
       "first_date": "1999-12-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-12-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-12-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-12-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6443,
-  "raw_trading_day_count": 6455,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6524,
+  "raw_trading_day_count": 6536,
   "available_years": [
     1999,
     2000,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/024/024800/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/024/024800/2026.csv"
   ],
-  "latest_close": 3715,
-  "latest_marcap": 137647481580,
+  "latest_close": 4260,
+  "latest_marcap": 157840719120,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3715,
-  "raw_latest_marcap": 137647481580,
+  "raw_latest_close": 4260,
+  "raw_latest_marcap": 157840719120,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6443,
+    "tradable_ohlcv": 6524,
     "non_tradable_zero_volume": 12,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "메디포스트",
       "first_date": "2005-07-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-07-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-07-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-07-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5073,
-  "raw_trading_day_count": 5073,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5154,
+  "raw_trading_day_count": 5154,
   "available_years": [
     2005,
     2006,
@@ -144,14 +144,14 @@
     "atlas/ohlcv_min_by_symbol_year/078/078160/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/078/078160/2026.csv"
   ],
-  "latest_close": 21450,
-  "latest_marcap": 840938734350,
+  "latest_close": 9170,
+  "latest_marcap": 359506209510,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 21450,
-  "raw_latest_marcap": 840938734350,
+  "raw_latest_close": 9170,
+  "raw_latest_marcap": 359506209510,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5073,
+    "tradable_ohlcv": 5154,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

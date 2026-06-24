@@ -5,7 +5,7 @@
     {
       "name": "한국피아이엠",
       "first_date": "2023-08-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-04-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-08-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-08-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 293,
-  "raw_trading_day_count": 600,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 374,
+  "raw_trading_day_count": 681,
   "available_years": [
     2023,
     2024,
@@ -60,14 +60,14 @@
     "atlas/ohlcv_min_by_symbol_year/448/448900/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/448/448900/2026.csv"
   ],
-  "latest_close": 77100,
-  "latest_marcap": 462943634700,
+  "latest_close": 70300,
+  "latest_marcap": 427034327100,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 77100,
-  "raw_latest_marcap": 462943634700,
+  "raw_latest_close": 70300,
+  "raw_latest_marcap": 427034327100,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 293,
+    "tradable_ohlcv": 374,
     "non_tradable_zero_volume": 307,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

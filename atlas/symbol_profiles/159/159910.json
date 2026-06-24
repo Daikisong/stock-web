@@ -20,7 +20,7 @@
     {
       "name": "에코글로우",
       "first_date": "2025-05-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2012-12-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2012-12-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2012-12-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2767,
-  "raw_trading_day_count": 3227,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2829,
+  "raw_trading_day_count": 3308,
   "available_years": [
     2012,
     2013,
@@ -121,26 +121,27 @@
     "atlas/ohlcv_min_by_symbol_year/159/159910/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/159/159910/2026.csv"
   ],
-  "latest_close": 514,
-  "latest_marcap": 26900439290,
+  "latest_close": 2980,
+  "latest_marcap": 31191949060,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 514,
-  "raw_latest_marcap": 26900439290,
+  "raw_latest_close": 2980,
+  "raw_latest_marcap": 31191949060,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2767,
-    "non_tradable_zero_volume": 460,
+    "tradable_ohlcv": 2829,
+    "non_tradable_zero_volume": 479,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2015-05-19",
     "2022-04-05",
     "2023-12-27",
-    "2025-12-18"
+    "2025-12-18",
+    "2026-05-08"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

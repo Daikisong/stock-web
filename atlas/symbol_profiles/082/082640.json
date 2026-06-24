@@ -5,7 +5,7 @@
     {
       "name": "동양생명",
       "first_date": "2010-10-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "동양생명보험",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2009-10-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-10-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-10-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4031,
-  "raw_trading_day_count": 4031,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4112,
+  "raw_trading_day_count": 4112,
   "available_years": [
     2009,
     2010,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/082/082640/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/082/082640/2026.csv"
   ],
-  "latest_close": 8480,
-  "latest_marcap": 1368320800800,
+  "latest_close": 7630,
+  "latest_marcap": 1190757493030,
   "latest_market": "KOSPI",
-  "raw_latest_close": 8480,
-  "raw_latest_marcap": 1368320800800,
+  "raw_latest_close": 7630,
+  "raw_latest_marcap": 1190757493030,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4031,
+    "tradable_ohlcv": 4112,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "코스모화학",
       "first_date": "2003-07-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한국티타늄",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7697,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7778,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/005/005420/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005420/2026.csv"
   ],
-  "latest_close": 17050,
-  "latest_marcap": 654860287400,
+  "latest_close": 11600,
+  "latest_marcap": 445535444800,
   "latest_market": "KOSPI",
-  "raw_latest_close": 17050,
-  "raw_latest_marcap": 654860287400,
+  "raw_latest_close": 11600,
+  "raw_latest_marcap": 445535444800,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7697,
+    "tradable_ohlcv": 7778,
     "non_tradable_zero_volume": 67,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

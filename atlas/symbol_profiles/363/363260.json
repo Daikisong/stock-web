@@ -5,7 +5,7 @@
     {
       "name": "모비데이즈",
       "first_date": "2022-06-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "하나금융17호스팩",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-02-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-02-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-02-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1115,
-  "raw_trading_day_count": 1231,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1196,
+  "raw_trading_day_count": 1312,
   "available_years": [
     2021,
     2022,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/363/363260/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/363/363260/2026.csv"
   ],
-  "latest_close": 1565,
-  "latest_marcap": 50336298485,
+  "latest_close": 967,
+  "latest_marcap": 31102364623,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1565,
-  "raw_latest_marcap": 50336298485,
+  "raw_latest_close": 967,
+  "raw_latest_marcap": 31102364623,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1115,
+    "tradable_ohlcv": 1196,
     "non_tradable_zero_volume": 116,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

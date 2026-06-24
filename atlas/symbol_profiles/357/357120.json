@@ -5,7 +5,7 @@
     {
       "name": "코람코라이프인프라리츠",
       "first_date": "2023-09-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코람코에너지리츠",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2020-08-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-08-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-08-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1341,
-  "raw_trading_day_count": 1341,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1422,
+  "raw_trading_day_count": 1422,
   "available_years": [
     2020,
     2021,
@@ -74,14 +74,14 @@
     "atlas/ohlcv_min_by_symbol_year/357/357120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/357/357120/2026.csv"
   ],
-  "latest_close": 4555,
-  "latest_marcap": 443362537470,
+  "latest_close": 4020,
+  "latest_marcap": 391288123080,
   "latest_market": "KOSPI",
-  "raw_latest_close": 4555,
-  "raw_latest_marcap": 443362537470,
+  "raw_latest_close": 4020,
+  "raw_latest_marcap": 391288123080,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 1341,
+    "tradable_ohlcv": 1422,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

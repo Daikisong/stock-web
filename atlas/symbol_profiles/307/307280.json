@@ -10,7 +10,7 @@
     {
       "name": "원바이오젠",
       "first_date": "2021-02-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-12-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-12-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-12-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1674,
-  "raw_trading_day_count": 1769,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1755,
+  "raw_trading_day_count": 1850,
   "available_years": [
     2018,
     2019,
@@ -84,14 +84,14 @@
     "atlas/ohlcv_min_by_symbol_year/307/307280/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/307/307280/2026.csv"
   ],
-  "latest_close": 7600,
-  "latest_marcap": 53919165200,
+  "latest_close": 5690,
+  "latest_marcap": 40368427630,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 7600,
-  "raw_latest_marcap": 53919165200,
+  "raw_latest_close": 5690,
+  "raw_latest_marcap": 40368427630,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1674,
+    "tradable_ohlcv": 1755,
     "non_tradable_zero_volume": 95,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

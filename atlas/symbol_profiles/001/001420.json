@@ -5,7 +5,7 @@
     {
       "name": "태원물산",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7679,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7760,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/001/001420/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/001/001420/2026.csv"
   ],
-  "latest_close": 3005,
-  "latest_marcap": 22838000000,
+  "latest_close": 2370,
+  "latest_marcap": 18012000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 3005,
-  "raw_latest_marcap": 22838000000,
+  "raw_latest_close": 2370,
+  "raw_latest_marcap": 18012000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7679,
+    "tradable_ohlcv": 7760,
     "non_tradable_zero_volume": 86,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "한울앤제주",
       "first_date": "2025-04-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-05-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-05-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-05-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1144,
-  "raw_trading_day_count": 1161,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1209,
+  "raw_trading_day_count": 1242,
   "available_years": [
     2021,
     2022,
@@ -69,25 +69,26 @@
     "atlas/ohlcv_min_by_symbol_year/276/276730/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/276/276730/2026.csv"
   ],
-  "latest_close": 997,
-  "latest_marcap": 22083397459,
+  "latest_close": 22400,
+  "latest_marcap": 51177481600,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 997,
-  "raw_latest_marcap": 22083397459,
+  "raw_latest_close": 22400,
+  "raw_latest_marcap": 51177481600,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1144,
-    "non_tradable_zero_volume": 17,
+    "tradable_ohlcv": 1209,
+    "non_tradable_zero_volume": 33,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2024-08-27",
     "2024-12-24",
-    "2025-12-17"
+    "2025-12-17",
+    "2026-05-06"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

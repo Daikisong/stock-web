@@ -10,7 +10,7 @@
     {
       "name": "디에이치엑스컴퍼니",
       "first_date": "2025-01-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "리젠",
@@ -45,15 +45,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-01-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-01-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-04-03",
   "raw_first_date": "1997-01-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7094,
-  "raw_trading_day_count": 7272,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7123,
+  "raw_trading_day_count": 7353,
   "available_years": [
     1997,
     1998,
@@ -214,15 +214,15 @@
     "atlas/ohlcv_min_by_symbol_year/031/031860/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/031/031860/2026.csv"
   ],
-  "latest_close": 449,
-  "latest_marcap": 8524454927,
+  "latest_close": 693,
+  "latest_marcap": 13156898139,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 449,
-  "raw_latest_marcap": 8524454927,
+  "raw_latest_close": 693,
+  "raw_latest_marcap": 18714758139,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 7094,
-    "non_tradable_zero_volume": 178,
+    "tradable_ohlcv": 7123,
+    "non_tradable_zero_volume": 230,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

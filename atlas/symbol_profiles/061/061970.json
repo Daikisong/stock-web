@@ -5,7 +5,7 @@
     {
       "name": "LB세미콘",
       "first_date": "2023-04-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "엘비세미콘",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2011-01-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-01-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2011-01-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3701,
-  "raw_trading_day_count": 3701,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3782,
+  "raw_trading_day_count": 3782,
   "available_years": [
     2011,
     2012,
@@ -119,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/061/061970/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/061/061970/2026.csv"
   ],
-  "latest_close": 5150,
-  "latest_marcap": 299127480900,
+  "latest_close": 5250,
+  "latest_marcap": 304935781500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5150,
-  "raw_latest_marcap": 299127480900,
+  "raw_latest_close": 5250,
+  "raw_latest_marcap": 304935781500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3701,
+    "tradable_ohlcv": 3782,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -1,11 +1,16 @@
 {
   "code": "094940",
-  "current_or_latest_name": "푸른기술",
+  "current_or_latest_name": "푸른로보틱스",
   "name_history": [
     {
       "name": "푸른기술",
       "first_date": "2007-09-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-27"
+    },
+    {
+      "name": "푸른로보틱스",
+      "first_date": "2026-05-28",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2007-09-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-09-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-09-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4541,
-  "raw_trading_day_count": 4543,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4622,
+  "raw_trading_day_count": 4624,
   "available_years": [
     2007,
     2008,
@@ -134,14 +139,14 @@
     "atlas/ohlcv_min_by_symbol_year/094/094940/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/094/094940/2026.csv"
   ],
-  "latest_close": 10900,
-  "latest_marcap": 91139107400,
+  "latest_close": 6520,
+  "latest_marcap": 54516236720,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 10900,
-  "raw_latest_marcap": 91139107400,
+  "raw_latest_close": 6520,
+  "raw_latest_marcap": 54516236720,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4541,
+    "tradable_ohlcv": 4622,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "해성산업",
       "first_date": "1999-04-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-04-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-04-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-04-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6615,
-  "raw_trading_day_count": 6622,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6696,
+  "raw_trading_day_count": 6703,
   "available_years": [
     1999,
     2000,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/034/034810/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/034/034810/2026.csv"
   ],
-  "latest_close": 8400,
-  "latest_marcap": 273477598800,
+  "latest_close": 5700,
+  "latest_marcap": 180006866400,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8400,
-  "raw_latest_marcap": 273477598800,
+  "raw_latest_close": 5700,
+  "raw_latest_marcap": 180006866400,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6615,
+    "tradable_ohlcv": 6696,
     "non_tradable_zero_volume": 7,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

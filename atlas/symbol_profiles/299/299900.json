@@ -5,7 +5,7 @@
     {
       "name": "위지윅스튜디오",
       "first_date": "2018-12-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-12-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-12-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-12-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1758,
-  "raw_trading_day_count": 1758,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1839,
+  "raw_trading_day_count": 1839,
   "available_years": [
     2018,
     2019,
@@ -79,14 +79,14 @@
     "atlas/ohlcv_min_by_symbol_year/299/299900/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/299/299900/2026.csv"
   ],
-  "latest_close": 454,
-  "latest_marcap": 77656193336,
+  "latest_close": 258,
+  "latest_marcap": 44130612072,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 454,
-  "raw_latest_marcap": 77656193336,
+  "raw_latest_close": 258,
+  "raw_latest_marcap": 44130612072,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1758,
+    "tradable_ohlcv": 1839,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -15,7 +15,7 @@
     {
       "name": "폴라리스우노",
       "first_date": "2021-06-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-01-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-01-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-01-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3962,
-  "raw_trading_day_count": 3963,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4027,
+  "raw_trading_day_count": 4044,
   "available_years": [
     2010,
     2011,
@@ -129,26 +129,27 @@
     "atlas/ohlcv_min_by_symbol_year/114/114630/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/114/114630/2026.csv"
   ],
-  "latest_close": 535,
-  "latest_marcap": 47051938180,
+  "latest_close": 1959,
+  "latest_marcap": 33763850832,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 535,
-  "raw_latest_marcap": 47051938180,
+  "raw_latest_close": 1959,
+  "raw_latest_marcap": 33763850832,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3962,
-    "non_tradable_zero_volume": 1,
+    "tradable_ohlcv": 4027,
+    "non_tradable_zero_volume": 17,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2011-05-02",
     "2022-09-01",
     "2022-09-26",
-    "2024-02-08"
+    "2024-02-08",
+    "2026-04-29"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

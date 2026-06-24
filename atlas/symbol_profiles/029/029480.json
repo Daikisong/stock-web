@@ -5,7 +5,7 @@
     {
       "name": "광무",
       "first_date": "2022-03-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "릭스솔루션",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-08-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-09-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-08-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7132,
-  "raw_trading_day_count": 7375,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7213,
+  "raw_trading_day_count": 7456,
   "available_years": [
     1996,
     1997,
@@ -204,14 +204,14 @@
     "atlas/ohlcv_min_by_symbol_year/029/029480/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/029/029480/2026.csv"
   ],
-  "latest_close": 2550,
-  "latest_marcap": 157793653200,
+  "latest_close": 1582,
+  "latest_marcap": 94475666824,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2550,
-  "raw_latest_marcap": 157793653200,
+  "raw_latest_close": 1582,
+  "raw_latest_marcap": 94475666824,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 7132,
+    "tradable_ohlcv": 7213,
     "non_tradable_zero_volume": 243,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

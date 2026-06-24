@@ -5,7 +5,7 @@
     {
       "name": "메디쎄이",
       "first_date": "2015-10-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2015-10-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-10-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-19",
   "raw_first_date": "2015-10-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2121,
-  "raw_trading_day_count": 2536,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2199,
+  "raw_trading_day_count": 2617,
   "available_years": [
     2015,
     2016,
@@ -94,15 +94,15 @@
     "atlas/ohlcv_min_by_symbol_year/200/200580/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/200/200580/2026.csv"
   ],
-  "latest_close": 12290,
-  "latest_marcap": 45793510910,
+  "latest_close": 11900,
+  "latest_marcap": 44340340100,
   "latest_market": "KONEX",
-  "raw_latest_close": 12290,
-  "raw_latest_marcap": 45793510910,
+  "raw_latest_close": 11890,
+  "raw_latest_marcap": 44303079310,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 2121,
-    "non_tradable_zero_volume": 414,
+    "tradable_ohlcv": 2199,
+    "non_tradable_zero_volume": 417,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

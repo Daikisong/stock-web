@@ -5,7 +5,7 @@
     {
       "name": "이노벡스",
       "first_date": "2019-04-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2019-04-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-04-12",
   "last_date": "2026-01-23",
   "raw_first_date": "2019-04-12",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 1656,
-  "raw_trading_day_count": 1684,
+  "raw_trading_day_count": 1765,
   "available_years": [
     2019,
     2020,
@@ -82,7 +82,7 @@
   "raw_latest_market": "KONEX",
   "row_status_counts": {
     "tradable_ohlcv": 1656,
-    "non_tradable_zero_volume": 28,
+    "non_tradable_zero_volume": 109,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

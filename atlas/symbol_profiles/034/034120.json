@@ -5,7 +5,7 @@
     {
       "name": "SBS",
       "first_date": "1999-05-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSPI",
       "first_date": "2003-06-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-05-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-05-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6578,
-  "raw_trading_day_count": 6603,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6659,
+  "raw_trading_day_count": 6684,
   "available_years": [
     1999,
     2000,
@@ -180,14 +180,14 @@
     "atlas/ohlcv_min_by_symbol_year/034/034120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/034/034120/2026.csv"
   ],
-  "latest_close": 18870,
-  "latest_marcap": 350061861060,
+  "latest_close": 12000,
+  "latest_marcap": 222614856000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 18870,
-  "raw_latest_marcap": 350061861060,
+  "raw_latest_close": 12000,
+  "raw_latest_marcap": 222614856000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6578,
+    "tradable_ohlcv": 6659,
     "non_tradable_zero_volume": 25,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

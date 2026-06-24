@@ -5,7 +5,7 @@
     {
       "name": "오픈엣지테크놀로지",
       "first_date": "2022-09-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2022-09-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2022-09-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2022-09-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 831,
-  "raw_trading_day_count": 831,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 912,
+  "raw_trading_day_count": 912,
   "available_years": [
     2022,
     2023,
@@ -59,14 +59,14 @@
     "atlas/ohlcv_min_by_symbol_year/394/394280/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/394/394280/2026.csv"
   ],
-  "latest_close": 16780,
-  "latest_marcap": 440922270900,
+  "latest_close": 13190,
+  "latest_marcap": 347510730700,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 16780,
-  "raw_latest_marcap": 440922270900,
+  "raw_latest_close": 13190,
+  "raw_latest_marcap": 347510730700,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 831,
+    "tradable_ohlcv": 912,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

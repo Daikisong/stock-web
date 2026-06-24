@@ -5,7 +5,7 @@
     {
       "name": "위세아이텍",
       "first_date": "2018-04-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-02-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-04-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-04-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1890,
-  "raw_trading_day_count": 1935,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1971,
+  "raw_trading_day_count": 2016,
   "available_years": [
     2018,
     2019,
@@ -85,14 +85,14 @@
     "atlas/ohlcv_min_by_symbol_year/065/065370/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/065/065370/2026.csv"
   ],
-  "latest_close": 5720,
-  "latest_marcap": 42236216880,
+  "latest_close": 3295,
+  "latest_marcap": 24330128430,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5720,
-  "raw_latest_marcap": 42236216880,
+  "raw_latest_close": 3295,
+  "raw_latest_marcap": 24330128430,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1890,
+    "tradable_ohlcv": 1971,
     "non_tradable_zero_volume": 45,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

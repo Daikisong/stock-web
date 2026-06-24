@@ -5,7 +5,7 @@
     {
       "name": "유니온바이오메트릭스",
       "first_date": "2025-04-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "유니온커뮤니티",
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2016-12-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-07-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-07-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2688,
-  "raw_trading_day_count": 2841,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2769,
+  "raw_trading_day_count": 2922,
   "available_years": [
     2014,
     2015,
@@ -110,14 +110,14 @@
     "atlas/ohlcv_min_by_symbol_year/203/203450/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/203/203450/2026.csv"
   ],
-  "latest_close": 3255,
-  "latest_marcap": 45827167785,
+  "latest_close": 2680,
+  "latest_marcap": 37731738760,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3255,
-  "raw_latest_marcap": 45827167785,
+  "raw_latest_close": 2680,
+  "raw_latest_marcap": 37731738760,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2688,
+    "tradable_ohlcv": 2769,
     "non_tradable_zero_volume": 153,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

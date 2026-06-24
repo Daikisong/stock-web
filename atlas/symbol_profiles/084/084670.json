@@ -5,7 +5,7 @@
     {
       "name": "동양고속",
       "first_date": "2005-07-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2005-07-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-07-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-07-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5072,
-  "raw_trading_day_count": 5077,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5153,
+  "raw_trading_day_count": 5158,
   "available_years": [
     2005,
     2006,
@@ -144,14 +144,14 @@
     "atlas/ohlcv_min_by_symbol_year/084/084670/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/084/084670/2026.csv"
   ],
-  "latest_close": 52700,
-  "latest_marcap": 152596486300,
+  "latest_close": 31850,
+  "latest_marcap": 92223872650,
   "latest_market": "KOSPI",
-  "raw_latest_close": 52700,
-  "raw_latest_marcap": 152596486300,
+  "raw_latest_close": 31850,
+  "raw_latest_marcap": 92223872650,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 5072,
+    "tradable_ohlcv": 5153,
     "non_tradable_zero_volume": 5,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

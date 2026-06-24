@@ -10,25 +10,31 @@
     {
       "name": "제룡전기",
       "first_date": "2011-11-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
-    "KOSDAQ"
+    "KOSDAQ",
+    "KOSDAQ GLOBAL"
   ],
   "market_history": [
     {
       "market": "KOSDAQ",
       "first_date": "1997-08-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-11"
+    },
+    {
+      "market": "KOSDAQ GLOBAL",
+      "first_date": "2026-06-12",
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-08-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-08-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6624,
-  "raw_trading_day_count": 7091,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6705,
+  "raw_trading_day_count": 7172,
   "available_years": [
     1997,
     1998,
@@ -189,14 +195,14 @@
     "atlas/ohlcv_min_by_symbol_year/033/033100/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/033/033100/2026.csv"
   ],
-  "latest_close": 54400,
-  "latest_marcap": 873795049600,
-  "latest_market": "KOSDAQ",
-  "raw_latest_close": 54400,
-  "raw_latest_marcap": 873795049600,
-  "raw_latest_market": "KOSDAQ",
+  "latest_close": 50700,
+  "latest_marcap": 814364136300,
+  "latest_market": "KOSDAQ GLOBAL",
+  "raw_latest_close": 50700,
+  "raw_latest_marcap": 814364136300,
+  "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 6624,
+    "tradable_ohlcv": 6705,
     "non_tradable_zero_volume": 467,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

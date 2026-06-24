@@ -5,7 +5,7 @@
     {
       "name": "대동금속",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6673,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6754,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -189,25 +189,26 @@
     "atlas/ohlcv_min_by_symbol_year/020/020400/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/020/020400/2026.csv"
   ],
-  "latest_close": 7840,
-  "latest_marcap": 25003061440,
+  "latest_close": 3125,
+  "latest_marcap": 19932287500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 7840,
-  "raw_latest_marcap": 25003061440,
+  "raw_latest_close": 3125,
+  "raw_latest_marcap": 19932287500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6673,
+    "tradable_ohlcv": 6754,
     "non_tradable_zero_volume": 749,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "1996-12-06",
     "1997-04-22",
-    "2019-05-08"
+    "2019-05-08",
+    "2026-05-07"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

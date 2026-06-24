@@ -5,7 +5,7 @@
     {
       "name": "엠씨넥스",
       "first_date": "2012-07-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSPI",
       "first_date": "2021-07-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2012-07-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2012-07-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3332,
-  "raw_trading_day_count": 3333,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3413,
+  "raw_trading_day_count": 3414,
   "available_years": [
     2012,
     2013,
@@ -115,14 +115,14 @@
     "atlas/ohlcv_min_by_symbol_year/097/097520/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/097/097520/2026.csv"
   ],
-  "latest_close": 28450,
-  "latest_marcap": 495072675000,
+  "latest_close": 20250,
+  "latest_marcap": 352380375000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 28450,
-  "raw_latest_marcap": 495072675000,
+  "raw_latest_close": 20250,
+  "raw_latest_marcap": 352380375000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3332,
+    "tradable_ohlcv": 3413,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

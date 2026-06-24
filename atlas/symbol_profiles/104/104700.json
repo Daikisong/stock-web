@@ -5,7 +5,7 @@
     {
       "name": "한국철강",
       "first_date": "2008-09-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2008-09-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2008-09-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2008-09-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4287,
-  "raw_trading_day_count": 4290,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4368,
+  "raw_trading_day_count": 4371,
   "available_years": [
     2008,
     2009,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/104/104700/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/104/104700/2026.csv"
   ],
-  "latest_close": 9450,
-  "latest_marcap": 344452500000,
+  "latest_close": 9050,
+  "latest_marcap": 329872500000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 9450,
-  "raw_latest_marcap": 344452500000,
+  "raw_latest_close": 9050,
+  "raw_latest_marcap": 329872500000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4287,
+    "tradable_ohlcv": 4368,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

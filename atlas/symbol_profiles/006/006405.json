@@ -20,7 +20,7 @@
     {
       "name": "삼성SDI우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "삼성전관(1우)",
@@ -35,15 +35,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7762,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7843,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -214,14 +214,14 @@
     "atlas/ohlcv_min_by_symbol_year/006/006405/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/006/006405/2026.csv"
   ],
-  "latest_close": 209500,
-  "latest_marcap": 338949212000,
+  "latest_close": 230000,
+  "latest_marcap": 372116080000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 209500,
-  "raw_latest_marcap": 338949212000,
+  "raw_latest_close": 230000,
+  "raw_latest_marcap": 372116080000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7762,
+    "tradable_ohlcv": 7843,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

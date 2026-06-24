@@ -10,7 +10,7 @@
     {
       "name": "원익큐브",
       "first_date": "2013-09-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "후너스",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6787,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6868,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/014/014190/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/014/014190/2026.csv"
   ],
-  "latest_close": 2030,
-  "latest_marcap": 71861809180,
+  "latest_close": 1281,
+  "latest_marcap": 45341085951,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2030,
-  "raw_latest_marcap": 71861809180,
+  "raw_latest_close": 1281,
+  "raw_latest_marcap": 45341085951,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6787,
+    "tradable_ohlcv": 6868,
     "non_tradable_zero_volume": 635,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

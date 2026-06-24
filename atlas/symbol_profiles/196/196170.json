@@ -5,7 +5,7 @@
     {
       "name": "알테오젠",
       "first_date": "2014-12-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-12-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-12-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2745,
-  "raw_trading_day_count": 2745,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2826,
+  "raw_trading_day_count": 2826,
   "available_years": [
     2014,
     2015,
@@ -105,14 +105,14 @@
     "atlas/ohlcv_min_by_symbol_year/196/196170/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/196/196170/2026.csv"
   ],
-  "latest_close": 402000,
-  "latest_marcap": 21509326776000,
+  "latest_close": 350500,
+  "latest_marcap": 18782013221500,
   "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 402000,
-  "raw_latest_marcap": 21509326776000,
+  "raw_latest_close": 350500,
+  "raw_latest_marcap": 18782013221500,
   "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 2745,
+    "tradable_ohlcv": 2826,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

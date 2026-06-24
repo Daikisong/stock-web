@@ -5,7 +5,7 @@
     {
       "name": "HLB테라퓨틱스",
       "first_date": "2022-01-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "디지탈아리아",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-03-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-03-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-03-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3915,
-  "raw_trading_day_count": 3915,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3996,
+  "raw_trading_day_count": 3996,
   "available_years": [
     2010,
     2011,
@@ -134,14 +134,14 @@
     "atlas/ohlcv_min_by_symbol_year/115/115450/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/115/115450/2026.csv"
   ],
-  "latest_close": 2940,
-  "latest_marcap": 248083853220,
+  "latest_close": 2400,
+  "latest_marcap": 212592261600,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2940,
-  "raw_latest_marcap": 248083853220,
+  "raw_latest_close": 2400,
+  "raw_latest_marcap": 212592261600,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3915,
+    "tradable_ohlcv": 3996,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

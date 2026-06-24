@@ -5,7 +5,7 @@
     {
       "name": "세림B&G",
       "first_date": "2021-12-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한화플러스제1호스팩",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2019-12-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-12-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-12-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1443,
-  "raw_trading_day_count": 1508,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1524,
+  "raw_trading_day_count": 1589,
   "available_years": [
     2019,
     2020,
@@ -79,14 +79,14 @@
     "atlas/ohlcv_min_by_symbol_year/340/340440/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/340/340440/2026.csv"
   ],
-  "latest_close": 1326,
-  "latest_marcap": 37629710664,
+  "latest_close": 1156,
+  "latest_marcap": 32805388784,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1326,
-  "raw_latest_marcap": 37629710664,
+  "raw_latest_close": 1156,
+  "raw_latest_marcap": 32805388784,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1443,
+    "tradable_ohlcv": 1524,
     "non_tradable_zero_volume": 65,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

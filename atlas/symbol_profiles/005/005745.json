@@ -25,7 +25,7 @@
     {
       "name": "크라운해태홀딩스우",
       "first_date": "2017-04-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -35,15 +35,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6263,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6344,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -214,14 +214,14 @@
     "atlas/ohlcv_min_by_symbol_year/005/005745/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/005/005745/2026.csv"
   ],
-  "latest_close": 7900,
-  "latest_marcap": 4745735400,
+  "latest_close": 5610,
+  "latest_marcap": 3370072860,
   "latest_market": "KOSPI",
-  "raw_latest_close": 7900,
-  "raw_latest_marcap": 4745735400,
+  "raw_latest_close": 5610,
+  "raw_latest_marcap": 3370072860,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6263,
+    "tradable_ohlcv": 6344,
     "non_tradable_zero_volume": 1502,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

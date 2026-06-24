@@ -5,7 +5,7 @@
     {
       "name": "마이크로컨텍솔",
       "first_date": "2008-09-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2008-09-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2008-09-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2008-09-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4294,
-  "raw_trading_day_count": 4294,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4375,
+  "raw_trading_day_count": 4375,
   "available_years": [
     2008,
     2009,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/098/098120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/098/098120/2026.csv"
   ],
-  "latest_close": 31800,
-  "latest_marcap": 264345958800,
+  "latest_close": 27450,
+  "latest_marcap": 228185426700,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 31800,
-  "raw_latest_marcap": 264345958800,
+  "raw_latest_close": 27450,
+  "raw_latest_marcap": 228185426700,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4294,
+    "tradable_ohlcv": 4375,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

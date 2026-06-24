@@ -5,7 +5,7 @@
     {
       "name": "BGF에코머티리얼즈",
       "first_date": "2023-01-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코프라",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-11-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-11-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-11-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3756,
-  "raw_trading_day_count": 3756,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3837,
+  "raw_trading_day_count": 3837,
   "available_years": [
     2010,
     2011,
@@ -124,14 +124,14 @@
     "atlas/ohlcv_min_by_symbol_year/126/126600/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/126/126600/2026.csv"
   ],
-  "latest_close": 3855,
-  "latest_marcap": 241966395645,
+  "latest_close": 3025,
+  "latest_marcap": 189869869475,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3855,
-  "raw_latest_marcap": 241966395645,
+  "raw_latest_close": 3025,
+  "raw_latest_marcap": 189869869475,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3756,
+    "tradable_ohlcv": 3837,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

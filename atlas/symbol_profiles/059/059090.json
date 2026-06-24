@@ -5,7 +5,7 @@
     {
       "name": "미코",
       "first_date": "2013-08-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코미코",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-01-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-01-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-01-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5945,
-  "raw_trading_day_count": 5946,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6026,
+  "raw_trading_day_count": 6027,
   "available_years": [
     2002,
     2003,
@@ -164,14 +164,14 @@
     "atlas/ohlcv_min_by_symbol_year/059/059090/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/059/059090/2026.csv"
   ],
-  "latest_close": 16930,
-  "latest_marcap": 565746051540,
+  "latest_close": 20950,
+  "latest_marcap": 700081499100,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 16930,
-  "raw_latest_marcap": 565746051540,
+  "raw_latest_close": 20950,
+  "raw_latest_marcap": 700081499100,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5945,
+    "tradable_ohlcv": 6026,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

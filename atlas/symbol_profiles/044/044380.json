@@ -5,7 +5,7 @@
     {
       "name": "주연테크",
       "first_date": "2006-11-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2006-11-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2006-11-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-11-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4734,
-  "raw_trading_day_count": 4750,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4802,
+  "raw_trading_day_count": 4831,
   "available_years": [
     2006,
     2007,
@@ -139,27 +139,28 @@
     "atlas/ohlcv_min_by_symbol_year/044/044380/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/044/044380/2026.csv"
   ],
-  "latest_close": 384,
-  "latest_marcap": 24760927488,
+  "latest_close": 1304,
+  "latest_marcap": 16816796064,
   "latest_market": "KOSPI",
-  "raw_latest_close": 384,
-  "raw_latest_marcap": 24760927488,
+  "raw_latest_close": 1304,
+  "raw_latest_marcap": 16816796064,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4734,
-    "non_tradable_zero_volume": 16,
+    "tradable_ohlcv": 4802,
+    "non_tradable_zero_volume": 29,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_count": 6,
   "corporate_action_candidate_dates": [
     "2007-02-01",
     "2007-02-27",
     "2016-06-17",
     "2018-01-03",
-    "2020-05-07"
+    "2020-05-07",
+    "2026-05-18"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

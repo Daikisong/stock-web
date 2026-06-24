@@ -5,7 +5,7 @@
     {
       "name": "SK이터닉스",
       "first_date": "2024-03-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2024-03-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-03-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-03-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 459,
-  "raw_trading_day_count": 459,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 540,
+  "raw_trading_day_count": 540,
   "available_years": [
     2024,
     2025,
@@ -49,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/475/475150/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/475/475150/2026.csv"
   ],
-  "latest_close": 30050,
-  "latest_marcap": 1014308962100,
+  "latest_close": 40100,
+  "latest_marcap": 1366086860400,
   "latest_market": "KOSPI",
-  "raw_latest_close": 30050,
-  "raw_latest_marcap": 1014308962100,
+  "raw_latest_close": 40100,
+  "raw_latest_marcap": 1366086860400,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 459,
+    "tradable_ohlcv": 540,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

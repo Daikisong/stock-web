@@ -5,7 +5,7 @@
     {
       "name": "ISC",
       "first_date": "2007-10-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "아이에스시",
@@ -21,20 +21,20 @@
     {
       "market": "KOSDAQ",
       "first_date": "2007-10-01",
-      "last_date": "2025-06-12"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2025-06-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-11"
     }
   ],
   "first_date": "2007-10-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-10-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4535,
-  "raw_trading_day_count": 4535,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4616,
+  "raw_trading_day_count": 4616,
   "available_years": [
     2007,
     2008,
@@ -145,14 +145,14 @@
     "atlas/ohlcv_min_by_symbol_year/095/095340/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/095/095340/2026.csv"
   ],
-  "latest_close": 187000,
-  "latest_marcap": 3963849846000,
-  "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 187000,
-  "raw_latest_marcap": 3963849846000,
-  "raw_latest_market": "KOSDAQ GLOBAL",
+  "latest_close": 198200,
+  "latest_marcap": 4201256895600,
+  "latest_market": "KOSDAQ",
+  "raw_latest_close": 198200,
+  "raw_latest_marcap": 4201256895600,
+  "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4535,
+    "tradable_ohlcv": 4616,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

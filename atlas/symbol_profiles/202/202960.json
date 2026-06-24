@@ -5,7 +5,7 @@
     {
       "name": "판도라티비",
       "first_date": "2014-08-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2014-08-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-08-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-08-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2523,
-  "raw_trading_day_count": 2828,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2604,
+  "raw_trading_day_count": 2909,
   "available_years": [
     2014,
     2015,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/202/202960/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/202/202960/2026.csv"
   ],
-  "latest_close": 734,
-  "latest_marcap": 8746037188,
+  "latest_close": 386,
+  "latest_marcap": 4599414652,
   "latest_market": "KONEX",
-  "raw_latest_close": 734,
-  "raw_latest_marcap": 8746037188,
+  "raw_latest_close": 386,
+  "raw_latest_marcap": 4599414652,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 2523,
+    "tradable_ohlcv": 2604,
     "non_tradable_zero_volume": 305,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

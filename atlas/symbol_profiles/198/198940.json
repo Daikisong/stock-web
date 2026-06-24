@@ -10,7 +10,7 @@
     {
       "name": "한주라이트메탈",
       "first_date": "2023-01-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-01-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-08-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-08-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 931,
-  "raw_trading_day_count": 1373,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 998,
+  "raw_trading_day_count": 1454,
   "available_years": [
     2014,
     2015,
@@ -85,27 +85,28 @@
     "atlas/ohlcv_min_by_symbol_year/198/198940/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/198/198940/2026.csv"
   ],
-  "latest_close": 677,
-  "latest_marcap": 26350856106,
+  "latest_close": 2030,
+  "latest_marcap": 39506822670,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 677,
-  "raw_latest_marcap": 26350856106,
+  "raw_latest_close": 2030,
+  "raw_latest_marcap": 39506822670,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 931,
-    "non_tradable_zero_volume": 442,
+    "tradable_ohlcv": 998,
+    "non_tradable_zero_volume": 456,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_count": 6,
   "corporate_action_candidate_dates": [
     "2016-06-13",
     "2016-07-07",
     "2023-01-19",
     "2024-07-12",
-    "2024-07-19"
+    "2024-07-19",
+    "2026-05-21"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

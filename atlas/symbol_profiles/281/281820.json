@@ -5,7 +5,7 @@
     {
       "name": "케이씨텍",
       "first_date": "2017-12-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2017-12-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-12-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-12-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2013,
-  "raw_trading_day_count": 2013,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2094,
+  "raw_trading_day_count": 2094,
   "available_years": [
     2017,
     2018,
@@ -84,14 +84,14 @@
     "atlas/ohlcv_min_by_symbol_year/281/281820/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/281/281820/2026.csv"
   ],
-  "latest_close": 47500,
-  "latest_marcap": 982790342500,
+  "latest_close": 94000,
+  "latest_marcap": 1861074134000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 47500,
-  "raw_latest_marcap": 982790342500,
+  "raw_latest_close": 94000,
+  "raw_latest_marcap": 1861074134000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2013,
+    "tradable_ohlcv": 2094,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

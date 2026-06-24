@@ -5,7 +5,7 @@
     {
       "name": "다이나믹디자인",
       "first_date": "2021-08-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "세화아이엠씨",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2015-03-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-03-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-23",
   "raw_first_date": "2015-03-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2121,
-  "raw_trading_day_count": 2682,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2141,
+  "raw_trading_day_count": 2763,
   "available_years": [
     2015,
     2016,
@@ -96,15 +96,15 @@
     "atlas/ohlcv_min_by_symbol_year/145/145210/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/145/145210/2026.csv"
   ],
-  "latest_close": 396,
-  "latest_marcap": 16725720528,
+  "latest_close": 224,
+  "latest_marcap": 9461013632,
   "latest_market": "KOSPI",
-  "raw_latest_close": 396,
-  "raw_latest_marcap": 16725720528,
+  "raw_latest_close": 224,
+  "raw_latest_marcap": 9461013632,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2121,
-    "non_tradable_zero_volume": 560,
+    "tradable_ohlcv": 2141,
+    "non_tradable_zero_volume": 621,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

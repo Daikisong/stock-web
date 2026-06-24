@@ -54,7 +54,7 @@
         2026
       ],
       "first_date": "2005-10-28",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -254,7 +254,7 @@
         2026
       ],
       "first_date": "2000-06-09",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -380,7 +380,7 @@
         2026
       ],
       "first_date": "2003-11-14",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -460,7 +460,7 @@
         2026
       ],
       "first_date": "2010-11-19",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -550,7 +550,7 @@
         2026
       ],
       "first_date": "2000-04-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -610,7 +610,7 @@
         2026
       ],
       "first_date": "2003-07-04",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -798,7 +798,7 @@
         2026
       ],
       "first_date": "2001-11-15",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -896,7 +896,7 @@
         2026
       ],
       "first_date": "2000-12-14",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -954,7 +954,7 @@
         2026
       ],
       "first_date": "2004-02-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -994,12 +994,12 @@
         2026
       ],
       "first_date": "2013-07-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "041930",
-      "name": "동아화성",
+      "name": "SY동아",
       "profile_path": "atlas/symbol_profiles/041/041930.json",
       "available_years": [
         2001,
@@ -1058,7 +1058,7 @@
         2026
       ],
       "first_date": "2001-12-26",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1150,7 +1150,7 @@
         2026
       ],
       "first_date": "2001-10-30",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

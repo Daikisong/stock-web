@@ -5,7 +5,7 @@
     {
       "name": "AK홀딩스",
       "first_date": "2012-09-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "애경유화",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1999-08-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-08-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-08-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6528,
-  "raw_trading_day_count": 6540,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6609,
+  "raw_trading_day_count": 6621,
   "available_years": [
     1999,
     2000,
@@ -179,14 +179,14 @@
     "atlas/ohlcv_min_by_symbol_year/006/006840/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/006/006840/2026.csv"
   ],
-  "latest_close": 8800,
-  "latest_marcap": 116578536800,
+  "latest_close": 6170,
+  "latest_marcap": 81737451370,
   "latest_market": "KOSPI",
-  "raw_latest_close": 8800,
-  "raw_latest_marcap": 116578536800,
+  "raw_latest_close": 6170,
+  "raw_latest_marcap": 81737451370,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6528,
+    "tradable_ohlcv": 6609,
     "non_tradable_zero_volume": 12,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

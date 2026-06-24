@@ -5,7 +5,7 @@
     {
       "name": "강원랜드",
       "first_date": "2001-10-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSPI",
       "first_date": "2003-09-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2001-10-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2001-10-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5998,
-  "raw_trading_day_count": 6001,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6079,
+  "raw_trading_day_count": 6082,
   "available_years": [
     2001,
     2002,
@@ -170,14 +170,14 @@
     "atlas/ohlcv_min_by_symbol_year/035/035250/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/035/035250/2026.csv"
   ],
-  "latest_close": 19390,
-  "latest_marcap": 4148306295000,
+  "latest_close": 14810,
+  "latest_marcap": 3168458805000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 19390,
-  "raw_latest_marcap": 4148306295000,
+  "raw_latest_close": 14810,
+  "raw_latest_marcap": 3168458805000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 5998,
+    "tradable_ohlcv": 6079,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

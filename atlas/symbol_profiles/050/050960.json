@@ -5,7 +5,7 @@
     {
       "name": "수산아이앤티",
       "first_date": "2016-10-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2016-10-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-10-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-10-11",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2296,
-  "raw_trading_day_count": 2297,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2377,
+  "raw_trading_day_count": 2378,
   "available_years": [
     2016,
     2017,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/050/050960/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/050/050960/2026.csv"
   ],
-  "latest_close": 9280,
-  "latest_marcap": 62649280000,
+  "latest_close": 7560,
+  "latest_marcap": 51037560000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 9280,
-  "raw_latest_marcap": 62649280000,
+  "raw_latest_close": 7560,
+  "raw_latest_marcap": 51037560000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2296,
+    "tradable_ohlcv": 2377,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "희림",
       "first_date": "2000-02-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-02-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-02-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-02-03",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6397,
-  "raw_trading_day_count": 6420,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6478,
+  "raw_trading_day_count": 6501,
   "available_years": [
     2000,
     2001,
@@ -169,14 +169,14 @@
     "atlas/ohlcv_min_by_symbol_year/037/037440/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/037/037440/2026.csv"
   ],
-  "latest_close": 4560,
-  "latest_marcap": 63486486000,
+  "latest_close": 4175,
+  "latest_marcap": 58126333125,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4560,
-  "raw_latest_marcap": 63486486000,
+  "raw_latest_close": 4175,
+  "raw_latest_marcap": 58126333125,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6397,
+    "tradable_ohlcv": 6478,
     "non_tradable_zero_volume": 23,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

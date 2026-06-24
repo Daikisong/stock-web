@@ -5,7 +5,7 @@
     {
       "name": "한진칼우",
       "first_date": "2013-09-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2013-09-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-09-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-09-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3044,
-  "raw_trading_day_count": 3048,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3125,
+  "raw_trading_day_count": 3129,
   "available_years": [
     2013,
     2014,
@@ -104,14 +104,14 @@
     "atlas/ohlcv_min_by_symbol_year/018/018064/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/018/018064/2026.csv"
   ],
-  "latest_close": 41500,
-  "latest_marcap": 22275789000,
+  "latest_close": 28650,
+  "latest_marcap": 15378345900,
   "latest_market": "KOSPI",
-  "raw_latest_close": 41500,
-  "raw_latest_marcap": 22275789000,
+  "raw_latest_close": 28650,
+  "raw_latest_marcap": 15378345900,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3044,
+    "tradable_ohlcv": 3125,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

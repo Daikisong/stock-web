@@ -10,7 +10,7 @@
     {
       "name": "패션플랫폼",
       "first_date": "2018-02-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-10-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-10-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-10-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2502,
-  "raw_trading_day_count": 2546,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2569,
+  "raw_trading_day_count": 2627,
   "available_years": [
     2015,
     2016,
@@ -99,23 +99,24 @@
     "atlas/ohlcv_min_by_symbol_year/225/225590/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/225/225590/2026.csv"
   ],
-  "latest_close": 885,
-  "latest_marcap": 23573491005,
+  "latest_close": 3750,
+  "latest_marcap": 19205160000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 885,
-  "raw_latest_marcap": 23573491005,
+  "raw_latest_close": 3750,
+  "raw_latest_marcap": 19205160000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2502,
-    "non_tradable_zero_volume": 44,
+    "tradable_ohlcv": 2569,
+    "non_tradable_zero_volume": 58,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 2,
   "corporate_action_candidate_dates": [
-    "2018-02-13"
+    "2018-02-13",
+    "2026-05-21"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "한국정보통신",
       "first_date": "1998-01-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1998-01-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1998-01-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1998-01-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6846,
-  "raw_trading_day_count": 6969,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6927,
+  "raw_trading_day_count": 7050,
   "available_years": [
     1998,
     1999,
@@ -179,14 +179,14 @@
     "atlas/ohlcv_min_by_symbol_year/025/025770/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/025/025770/2026.csv"
   ],
-  "latest_close": 8550,
-  "latest_marcap": 320148517050,
+  "latest_close": 7540,
+  "latest_marcap": 282329803340,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8550,
-  "raw_latest_marcap": 320148517050,
+  "raw_latest_close": 7540,
+  "raw_latest_marcap": 282329803340,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6846,
+    "tradable_ohlcv": 6927,
     "non_tradable_zero_volume": 123,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

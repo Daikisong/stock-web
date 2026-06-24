@@ -1,6 +1,6 @@
 {
   "code": "038530",
-  "current_or_latest_name": "케이바이오",
+  "current_or_latest_name": "케이바이오랩스",
   "name_history": [
     {
       "name": "골드퍼시픽",
@@ -20,7 +20,12 @@
     {
       "name": "케이바이오",
       "first_date": "2023-06-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-17"
+    },
+    {
+      "name": "케이바이오랩스",
+      "first_date": "2026-04-20",
+      "last_date": "2026-06-22"
     },
     {
       "name": "코아크로스",
@@ -35,15 +40,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-06-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-06-09",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-06-09",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6206,
-  "raw_trading_day_count": 6337,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6269,
+  "raw_trading_day_count": 6418,
   "available_years": [
     2000,
     2001,
@@ -189,21 +194,21 @@
     "atlas/ohlcv_min_by_symbol_year/038/038530/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/038/038530/2026.csv"
   ],
-  "latest_close": 458,
-  "latest_marcap": 52997170926,
+  "latest_close": 814,
+  "latest_marcap": 18838295366,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 458,
-  "raw_latest_marcap": 52997170926,
+  "raw_latest_close": 814,
+  "raw_latest_marcap": 18838295366,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6206,
-    "non_tradable_zero_volume": 131,
+    "tradable_ohlcv": 6269,
+    "non_tradable_zero_volume": 149,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 10,
+  "corporate_action_candidate_count": 11,
   "corporate_action_candidate_dates": [
     "2004-03-19",
     "2005-06-29",
@@ -214,7 +219,8 @@
     "2018-11-22",
     "2019-04-12",
     "2020-06-12",
-    "2023-08-08"
+    "2023-08-08",
+    "2026-05-12"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

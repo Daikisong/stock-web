@@ -5,7 +5,7 @@
     {
       "name": "덱스터",
       "first_date": "2015-12-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-12-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-12-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-12-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2491,
-  "raw_trading_day_count": 2491,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2572,
+  "raw_trading_day_count": 2572,
   "available_years": [
     2015,
     2016,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/206/206560/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/206/206560/2026.csv"
   ],
-  "latest_close": 3750,
-  "latest_marcap": 95294010000,
+  "latest_close": 1294,
+  "latest_marcap": 32882786384,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3750,
-  "raw_latest_marcap": 95294010000,
+  "raw_latest_close": 1294,
+  "raw_latest_marcap": 32882786384,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2491,
+    "tradable_ohlcv": 2572,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

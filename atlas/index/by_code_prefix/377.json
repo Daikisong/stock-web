@@ -22,7 +22,7 @@
         2026
       ],
       "first_date": "2021-07-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -46,7 +46,7 @@
         2026
       ],
       "first_date": "2021-08-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -70,7 +70,7 @@
         2026
       ],
       "first_date": "2021-09-28",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -94,7 +94,7 @@
         2026
       ],
       "first_date": "2021-11-03",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -116,7 +116,7 @@
         2026
       ],
       "first_date": "2022-02-04",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -160,12 +160,12 @@
         2026
       ],
       "first_date": "2021-10-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "377460",
-      "name": "위니아에이드",
+      "name": "큐에이드",
       "profile_path": "atlas/symbol_profiles/377/377460.json",
       "available_years": [
         2022,
@@ -203,7 +203,7 @@
         2026
       ],
       "first_date": "2021-11-23",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -243,7 +243,7 @@
         2026
       ],
       "first_date": "2022-12-22",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

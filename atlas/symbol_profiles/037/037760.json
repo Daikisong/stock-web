@@ -10,7 +10,7 @@
     {
       "name": "쎄니트",
       "first_date": "2008-04-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "화이델SNT",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-04-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-04-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-04-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6355,
-  "raw_trading_day_count": 6377,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6436,
+  "raw_trading_day_count": 6458,
   "available_years": [
     2000,
     2001,
@@ -179,14 +179,14 @@
     "atlas/ohlcv_min_by_symbol_year/037/037760/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/037/037760/2026.csv"
   ],
-  "latest_close": 1848,
-  "latest_marcap": 62523238008,
+  "latest_close": 2430,
+  "latest_marcap": 82213998030,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1848,
-  "raw_latest_marcap": 62523238008,
+  "raw_latest_close": 2430,
+  "raw_latest_marcap": 82213998030,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6355,
+    "tradable_ohlcv": 6436,
     "non_tradable_zero_volume": 22,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

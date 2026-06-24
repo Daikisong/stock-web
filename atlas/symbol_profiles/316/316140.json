@@ -5,7 +5,7 @@
     {
       "name": "우리금융지주",
       "first_date": "2019-02-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2019-02-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2019-02-13",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-02-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1725,
-  "raw_trading_day_count": 1725,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1806,
+  "raw_trading_day_count": 1806,
   "available_years": [
     2019,
     2020,
@@ -74,14 +74,14 @@
     "atlas/ohlcv_min_by_symbol_year/316/316140/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/316/316140/2026.csv"
   ],
-  "latest_close": 40800,
-  "latest_marcap": 29950313856000,
+  "latest_close": 29850,
+  "latest_marcap": 21912178152000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 40800,
-  "raw_latest_marcap": 29950313856000,
+  "raw_latest_close": 29850,
+  "raw_latest_marcap": 21912178152000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 1725,
+    "tradable_ohlcv": 1806,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

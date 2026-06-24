@@ -15,7 +15,7 @@
     {
       "name": "앱토크롬",
       "first_date": "2025-09-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "에이프로젠 H&G",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2009-11-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-11-13",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-11-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3990,
-  "raw_trading_day_count": 4005,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4053,
+  "raw_trading_day_count": 4086,
   "available_years": [
     2009,
     2010,
@@ -144,21 +144,21 @@
     "atlas/ohlcv_min_by_symbol_year/109/109960/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/109/109960/2026.csv"
   ],
-  "latest_close": 192,
-  "latest_marcap": 42391539648,
+  "latest_close": 1790,
+  "latest_marcap": 27086697070,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 192,
-  "raw_latest_marcap": 42391539648,
+  "raw_latest_close": 1790,
+  "raw_latest_marcap": 27086697070,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3990,
-    "non_tradable_zero_volume": 15,
+    "tradable_ohlcv": 4053,
+    "non_tradable_zero_volume": 33,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 13,
+  "corporate_action_candidate_count": 15,
   "corporate_action_candidate_dates": [
     "2010-12-29",
     "2011-01-21",
@@ -172,7 +172,9 @@
     "2023-05-15",
     "2023-09-08",
     "2024-01-04",
-    "2024-11-14"
+    "2024-11-14",
+    "2026-06-01",
+    "2026-06-17"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

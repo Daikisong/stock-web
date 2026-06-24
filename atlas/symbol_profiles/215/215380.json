@@ -5,7 +5,7 @@
     {
       "name": "우정바이오",
       "first_date": "2018-04-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "우정비에스씨",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-05-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-05-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-05-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2590,
-  "raw_trading_day_count": 2642,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2671,
+  "raw_trading_day_count": 2723,
   "available_years": [
     2015,
     2016,
@@ -104,14 +104,14 @@
     "atlas/ohlcv_min_by_symbol_year/215/215380/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/215/215380/2026.csv"
   ],
-  "latest_close": 2335,
-  "latest_marcap": 39297059960,
+  "latest_close": 2530,
+  "latest_marcap": 42578827280,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2335,
-  "raw_latest_marcap": 39297059960,
+  "raw_latest_close": 2530,
+  "raw_latest_marcap": 42578827280,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2590,
+    "tradable_ohlcv": 2671,
     "non_tradable_zero_volume": 52,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

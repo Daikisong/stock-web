@@ -20,7 +20,7 @@
     {
       "name": "셀루메드",
       "first_date": "2013-04-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "온니테크",
@@ -40,15 +40,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-05-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-05-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-16",
   "raw_first_date": "2002-05-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5448,
-  "raw_trading_day_count": 5860,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5463,
+  "raw_trading_day_count": 5941,
   "available_years": [
     2002,
     2003,
@@ -181,15 +181,15 @@
     "atlas/ohlcv_min_by_symbol_year/049/049180/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/049/049180/2026.csv"
   ],
-  "latest_close": 1402,
-  "latest_marcap": 116646419628,
+  "latest_close": 1009,
+  "latest_marcap": 83948814126,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1402,
-  "raw_latest_marcap": 116646419628,
+  "raw_latest_close": 1009,
+  "raw_latest_marcap": 83975227728,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5448,
-    "non_tradable_zero_volume": 412,
+    "tradable_ohlcv": 5463,
+    "non_tradable_zero_volume": 478,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

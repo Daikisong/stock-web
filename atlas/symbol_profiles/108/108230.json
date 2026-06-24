@@ -5,7 +5,7 @@
     {
       "name": "톱텍",
       "first_date": "2009-09-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2009-09-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-09-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-09-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4018,
-  "raw_trading_day_count": 4047,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4099,
+  "raw_trading_day_count": 4128,
   "available_years": [
     2009,
     2010,
@@ -124,14 +124,14 @@
     "atlas/ohlcv_min_by_symbol_year/108/108230/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/108/108230/2026.csv"
   ],
-  "latest_close": 4830,
-  "latest_marcap": 183652273350,
+  "latest_close": 3170,
+  "latest_marcap": 120533686650,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4830,
-  "raw_latest_marcap": 183652273350,
+  "raw_latest_close": 3170,
+  "raw_latest_marcap": 120533686650,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4018,
+    "tradable_ohlcv": 4099,
     "non_tradable_zero_volume": 29,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

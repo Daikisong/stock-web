@@ -5,7 +5,7 @@
     {
       "name": "슈어소프트테크",
       "first_date": "2023-04-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-04-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-04-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-04-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 683,
-  "raw_trading_day_count": 683,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 764,
+  "raw_trading_day_count": 764,
   "available_years": [
     2023,
     2024,
@@ -54,14 +54,14 @@
     "atlas/ohlcv_min_by_symbol_year/298/298830/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/298/298830/2026.csv"
   ],
-  "latest_close": 8130,
-  "latest_marcap": 434617596870,
+  "latest_close": 4800,
+  "latest_marcap": 256600795200,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8130,
-  "raw_latest_marcap": 434617596870,
+  "raw_latest_close": 4800,
+  "raw_latest_marcap": 256600795200,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 683,
+    "tradable_ohlcv": 764,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

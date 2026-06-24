@@ -5,7 +5,7 @@
     {
       "name": "가이아코퍼레이션",
       "first_date": "2023-06-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2023-06-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-06-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-06-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 280,
-  "raw_trading_day_count": 650,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 327,
+  "raw_trading_day_count": 731,
   "available_years": [
     2023,
     2024,
@@ -54,15 +54,15 @@
     "atlas/ohlcv_min_by_symbol_year/296/296520/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/296/296520/2026.csv"
   ],
-  "latest_close": 470,
-  "latest_marcap": 2193493760,
+  "latest_close": 604,
+  "latest_marcap": 2818872832,
   "latest_market": "KONEX",
-  "raw_latest_close": 470,
-  "raw_latest_marcap": 2193493760,
+  "raw_latest_close": 604,
+  "raw_latest_marcap": 2818872832,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 280,
-    "non_tradable_zero_volume": 370,
+    "tradable_ohlcv": 327,
+    "non_tradable_zero_volume": 404,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

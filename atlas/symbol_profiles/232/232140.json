@@ -10,7 +10,7 @@
     {
       "name": "와이씨",
       "first_date": "2024-04-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "와이아이케이",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-12-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-12-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-12-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2425,
-  "raw_trading_day_count": 2489,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2506,
+  "raw_trading_day_count": 2570,
   "available_years": [
     2015,
     2016,
@@ -104,14 +104,14 @@
     "atlas/ohlcv_min_by_symbol_year/232/232140/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/232/232140/2026.csv"
   ],
-  "latest_close": 21300,
-  "latest_marcap": 1747565955000,
+  "latest_close": 14750,
+  "latest_marcap": 1210168912500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 21300,
-  "raw_latest_marcap": 1747565955000,
+  "raw_latest_close": 14750,
+  "raw_latest_marcap": 1210168912500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2425,
+    "tradable_ohlcv": 2506,
     "non_tradable_zero_volume": 64,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

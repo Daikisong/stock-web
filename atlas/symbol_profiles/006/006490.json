@@ -1,6 +1,6 @@
 {
   "code": "006490",
-  "current_or_latest_name": "인스코비",
+  "current_or_latest_name": "프리티",
   "name_history": [
     {
       "name": "로엔케이",
@@ -30,7 +30,12 @@
     {
       "name": "인스코비",
       "first_date": "2015-07-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-18"
+    },
+    {
+      "name": "프리티",
+      "first_date": "2026-06-19",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -40,15 +45,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7467,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7548,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -219,14 +224,14 @@
     "atlas/ohlcv_min_by_symbol_year/006/006490/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/006/006490/2026.csv"
   ],
-  "latest_close": 568,
-  "latest_marcap": 71503314456,
+  "latest_close": 301,
+  "latest_marcap": 44513720916,
   "latest_market": "KOSPI",
-  "raw_latest_close": 568,
-  "raw_latest_marcap": 71503314456,
+  "raw_latest_close": 301,
+  "raw_latest_marcap": 44513720916,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7467,
+    "tradable_ohlcv": 7548,
     "non_tradable_zero_volume": 298,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

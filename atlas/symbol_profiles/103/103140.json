@@ -5,7 +5,7 @@
     {
       "name": "풍산",
       "first_date": "2008-07-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2008-07-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2008-07-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2008-07-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4331,
-  "raw_trading_day_count": 4331,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4412,
+  "raw_trading_day_count": 4412,
   "available_years": [
     2008,
     2009,
@@ -129,14 +129,14 @@
     "atlas/ohlcv_min_by_symbol_year/103/103140/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/103/103140/2026.csv"
   ],
-  "latest_close": 115300,
-  "latest_marcap": 3231199253400,
+  "latest_close": 69000,
+  "latest_marcap": 1933675182000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 115300,
-  "raw_latest_marcap": 3231199253400,
+  "raw_latest_close": 69000,
+  "raw_latest_marcap": 1933675182000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4331,
+    "tradable_ohlcv": 4412,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

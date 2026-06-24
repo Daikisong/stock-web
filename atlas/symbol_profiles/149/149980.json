@@ -5,7 +5,7 @@
     {
       "name": "하이로닉",
       "first_date": "2013-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-12-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-07-01",
-  "last_date": "2025-04-07",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2819,
-  "raw_trading_day_count": 3102,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2852,
+  "raw_trading_day_count": 3183,
   "available_years": [
     2013,
     2014,
@@ -43,7 +43,8 @@
     2022,
     2023,
     2024,
-    2025
+    2025,
+    2026
   ],
   "raw_available_years": [
     2013,
@@ -74,7 +75,8 @@
     "atlas/ohlcv_tradable_by_symbol_year/149/149980/2022.csv",
     "atlas/ohlcv_tradable_by_symbol_year/149/149980/2023.csv",
     "atlas/ohlcv_tradable_by_symbol_year/149/149980/2024.csv",
-    "atlas/ohlcv_tradable_by_symbol_year/149/149980/2025.csv"
+    "atlas/ohlcv_tradable_by_symbol_year/149/149980/2025.csv",
+    "atlas/ohlcv_tradable_by_symbol_year/149/149980/2026.csv"
   ],
   "raw_year_files": [
     "atlas/ohlcv_raw_by_symbol_year/149/149980/2013.csv",
@@ -105,17 +107,18 @@
     "atlas/ohlcv_min_by_symbol_year/149/149980/2022.csv",
     "atlas/ohlcv_min_by_symbol_year/149/149980/2023.csv",
     "atlas/ohlcv_min_by_symbol_year/149/149980/2024.csv",
-    "atlas/ohlcv_min_by_symbol_year/149/149980/2025.csv"
+    "atlas/ohlcv_min_by_symbol_year/149/149980/2025.csv",
+    "atlas/ohlcv_min_by_symbol_year/149/149980/2026.csv"
   ],
-  "latest_close": 5090,
-  "latest_marcap": 94645307670,
+  "latest_close": 4670,
+  "latest_marcap": 98977675210,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5090,
-  "raw_latest_marcap": 107879307670,
+  "raw_latest_close": 4670,
+  "raw_latest_marcap": 98977675210,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2819,
-    "non_tradable_zero_volume": 283,
+    "tradable_ohlcv": 2852,
+    "non_tradable_zero_volume": 331,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

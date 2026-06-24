@@ -5,7 +5,7 @@
     {
       "name": "고려신용정보",
       "first_date": "2002-01-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-01-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-01-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-01-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5918,
-  "raw_trading_day_count": 5934,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5999,
+  "raw_trading_day_count": 6015,
   "available_years": [
     2002,
     2003,
@@ -159,14 +159,14 @@
     "atlas/ohlcv_min_by_symbol_year/049/049720/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/049/049720/2026.csv"
   ],
-  "latest_close": 10750,
-  "latest_marcap": 153725000000,
+  "latest_close": 9650,
+  "latest_marcap": 137995000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 10750,
-  "raw_latest_marcap": 153725000000,
+  "raw_latest_close": 9650,
+  "raw_latest_marcap": 137995000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5918,
+    "tradable_ohlcv": 5999,
     "non_tradable_zero_volume": 16,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

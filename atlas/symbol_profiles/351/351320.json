@@ -10,7 +10,7 @@
     {
       "name": "넥사다이내믹스",
       "first_date": "2025-05-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "에스에이티이엔지",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-06-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-06-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-06-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1317,
-  "raw_trading_day_count": 1390,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1398,
+  "raw_trading_day_count": 1471,
   "available_years": [
     2020,
     2021,
@@ -80,13 +80,13 @@
     "atlas/ohlcv_min_by_symbol_year/351/351320/2026.csv"
   ],
   "latest_close": 1191,
-  "latest_marcap": 34329088632,
+  "latest_marcap": 35371082622,
   "latest_market": "KOSDAQ",
   "raw_latest_close": 1191,
-  "raw_latest_marcap": 34329088632,
+  "raw_latest_marcap": 35371082622,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1317,
+    "tradable_ohlcv": 1398,
     "non_tradable_zero_volume": 73,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

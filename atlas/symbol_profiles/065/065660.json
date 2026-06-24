@@ -5,7 +5,7 @@
     {
       "name": "안트로젠",
       "first_date": "2016-02-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2016-02-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-02-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-02-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2457,
-  "raw_trading_day_count": 2458,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2538,
+  "raw_trading_day_count": 2539,
   "available_years": [
     2016,
     2017,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/065/065660/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/065/065660/2026.csv"
   ],
-  "latest_close": 36350,
-  "latest_marcap": 363721735000,
+  "latest_close": 24400,
+  "latest_marcap": 244148840000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 36350,
-  "raw_latest_marcap": 363721735000,
+  "raw_latest_close": 24400,
+  "raw_latest_marcap": 244148840000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2457,
+    "tradable_ohlcv": 2538,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "코맥스",
       "first_date": "2000-01-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-01-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-01-18",
   "last_date": "2024-03-21",
   "raw_first_date": "2000-01-18",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 5966,
-  "raw_trading_day_count": 6432,
+  "raw_trading_day_count": 6513,
   "available_years": [
     2000,
     2001,
@@ -167,11 +167,11 @@
   "latest_marcap": 45885746130,
   "latest_market": "KOSDAQ",
   "raw_latest_close": 2885,
-  "raw_latest_marcap": 45885746130,
+  "raw_latest_marcap": 125692107675,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 5966,
-    "non_tradable_zero_volume": 466,
+    "non_tradable_zero_volume": 547,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -38,7 +38,7 @@
         2026
       ],
       "first_date": "2023-11-17",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -75,7 +75,7 @@
         2026
       ],
       "first_date": "2024-07-03",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -109,7 +109,7 @@
         2026
       ],
       "first_date": "2023-09-25",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -129,8 +129,8 @@
         2026
       ],
       "first_date": "2023-07-27",
-      "last_date": "2026-02-19",
-      "status_inferred": "active_like"
+      "last_date": "2026-03-04",
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "450950",
@@ -145,7 +145,7 @@
         2026
       ],
       "first_date": "2025-01-24",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

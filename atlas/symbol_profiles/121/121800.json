@@ -5,7 +5,7 @@
     {
       "name": "비덴트",
       "first_date": "2017-04-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "세븐스타웍스",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2011-12-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-12-01",
   "last_date": "2023-03-31",
   "raw_first_date": "2011-12-01",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 2680,
-  "raw_trading_day_count": 3494,
+  "raw_trading_day_count": 3575,
   "available_years": [
     2011,
     2012,
@@ -123,7 +123,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 2680,
-    "non_tradable_zero_volume": 814,
+    "non_tradable_zero_volume": 895,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

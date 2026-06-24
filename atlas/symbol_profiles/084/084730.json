@@ -5,7 +5,7 @@
     {
       "name": "팅크웨어",
       "first_date": "2006-05-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2006-05-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2006-05-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-05-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4871,
-  "raw_trading_day_count": 4871,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4952,
+  "raw_trading_day_count": 4952,
   "available_years": [
     2006,
     2007,
@@ -139,14 +139,14 @@
     "atlas/ohlcv_min_by_symbol_year/084/084730/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/084/084730/2026.csv"
   ],
-  "latest_close": 9940,
-  "latest_marcap": 110427674560,
+  "latest_close": 6900,
+  "latest_marcap": 76655025600,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 9940,
-  "raw_latest_marcap": 110427674560,
+  "raw_latest_close": 6900,
+  "raw_latest_marcap": 76655025600,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4871,
+    "tradable_ohlcv": 4952,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

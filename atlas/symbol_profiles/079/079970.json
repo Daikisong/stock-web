@@ -5,7 +5,7 @@
     {
       "name": "투비소프트",
       "first_date": "2010-06-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-06-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-06-01",
   "last_date": "2025-03-21",
   "raw_first_date": "2010-06-01",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 3626,
-  "raw_trading_day_count": 3870,
+  "raw_trading_day_count": 3951,
   "available_years": [
     2010,
     2011,
@@ -124,7 +124,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 3626,
-    "non_tradable_zero_volume": 244,
+    "non_tradable_zero_volume": 325,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

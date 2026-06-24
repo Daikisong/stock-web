@@ -35,7 +35,7 @@
     {
       "name": "소노스퀘어",
       "first_date": "2025-04-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "학산건설",
@@ -50,15 +50,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-16",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6421,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6498,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -221,15 +221,15 @@
     "atlas/ohlcv_min_by_symbol_year/007/007720/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/007/007720/2026.csv"
   ],
-  "latest_close": 616,
-  "latest_marcap": 62093077200,
+  "latest_close": 299,
+  "latest_marcap": 30139334550,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 616,
-  "raw_latest_marcap": 62093077200,
+  "raw_latest_close": 299,
+  "raw_latest_marcap": 30139334550,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6421,
-    "non_tradable_zero_volume": 1001,
+    "tradable_ohlcv": 6498,
+    "non_tradable_zero_volume": 1005,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

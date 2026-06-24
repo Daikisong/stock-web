@@ -5,7 +5,7 @@
     {
       "name": "핸즈코퍼레이션",
       "first_date": "2016-12-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2016-12-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-12-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-23",
   "raw_first_date": "2016-12-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2259,
-  "raw_trading_day_count": 2259,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2279,
+  "raw_trading_day_count": 2340,
   "available_years": [
     2016,
     2017,
@@ -89,15 +89,15 @@
     "atlas/ohlcv_min_by_symbol_year/143/143210/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/143/143210/2026.csv"
   ],
-  "latest_close": 1168,
-  "latest_marcap": 25550872496,
+  "latest_close": 1199,
+  "latest_marcap": 26229020653,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1168,
-  "raw_latest_marcap": 25550872496,
+  "raw_latest_close": 1199,
+  "raw_latest_marcap": 26229020653,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2259,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 2279,
+    "non_tradable_zero_volume": 61,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

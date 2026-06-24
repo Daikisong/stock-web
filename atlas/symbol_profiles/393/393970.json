@@ -5,7 +5,7 @@
     {
       "name": "대진첨단소재",
       "first_date": "2025-03-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-03-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-03-06",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-06",
   "raw_first_date": "2025-03-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 235,
-  "raw_trading_day_count": 235,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 244,
+  "raw_trading_day_count": 316,
   "available_years": [
     2025,
     2026
@@ -44,15 +44,15 @@
     "atlas/ohlcv_min_by_symbol_year/393/393970/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/393/393970/2026.csv"
   ],
-  "latest_close": 3730,
-  "latest_marcap": 66546258600,
+  "latest_close": 2825,
+  "latest_marcap": 50428566500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3730,
-  "raw_latest_marcap": 66546258600,
+  "raw_latest_close": 2825,
+  "raw_latest_marcap": 50428566500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 235,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 244,
+    "non_tradable_zero_volume": 72,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -1,11 +1,16 @@
 {
   "code": "290560",
-  "current_or_latest_name": "신시웨이",
+  "current_or_latest_name": "파라택시스이더리움",
   "name_history": [
     {
       "name": "신시웨이",
       "first_date": "2023-11-03",
       "last_date": "2026-02-20"
+    },
+    {
+      "name": "파라택시스이더리움",
+      "first_date": "2026-02-23",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-11-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-11-03",
-  "last_date": "2026-01-29",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-11-03",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 545,
-  "raw_trading_day_count": 558,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 626,
+  "raw_trading_day_count": 639,
   "available_years": [
     2023,
     2024,
@@ -54,24 +59,26 @@
     "atlas/ohlcv_min_by_symbol_year/290/290560/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/290/290560/2026.csv"
   ],
-  "latest_close": 8400,
-  "latest_marcap": 31307824800,
+  "latest_close": 1091,
+  "latest_marcap": 24397738430,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8400,
-  "raw_latest_marcap": 31307824800,
+  "raw_latest_close": 1091,
+  "raw_latest_marcap": 24397738430,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 545,
+    "tradable_ohlcv": 626,
     "non_tradable_zero_volume": 13,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 0,
-  "corporate_action_candidate_dates": [],
-  "has_major_raw_discontinuity": false,
-  "calibration_caveat": "",
+  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_dates": [
+    "2026-02-23"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "active_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

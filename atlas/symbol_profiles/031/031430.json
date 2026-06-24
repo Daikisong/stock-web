@@ -5,7 +5,7 @@
     {
       "name": "신세계인터내셔날",
       "first_date": "2011-07-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2011-07-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-07-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2011-07-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3587,
-  "raw_trading_day_count": 3590,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3668,
+  "raw_trading_day_count": 3671,
   "available_years": [
     2011,
     2012,
@@ -114,14 +114,14 @@
     "atlas/ohlcv_min_by_symbol_year/031/031430/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/031/031430/2026.csv"
   ],
-  "latest_close": 12260,
-  "latest_marcap": 433305180000,
+  "latest_close": 13080,
+  "latest_marcap": 457616880000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 12260,
-  "raw_latest_marcap": 433305180000,
+  "raw_latest_close": 13080,
+  "raw_latest_marcap": 457616880000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3587,
+    "tradable_ohlcv": 3668,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "엔에스컴퍼니",
       "first_date": "2015-07-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2015-07-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-03-23",
-  "last_date": "2026-02-19",
+  "last_date": "2026-06-12",
   "raw_first_date": "2015-07-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 923,
-  "raw_trading_day_count": 2589,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 971,
+  "raw_trading_day_count": 2670,
   "available_years": [
     2016,
     2018,
@@ -88,15 +88,15 @@
     "atlas/ohlcv_min_by_symbol_year/224/224760/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/224/224760/2026.csv"
   ],
-  "latest_close": 3000,
-  "latest_marcap": 11819100000,
+  "latest_close": 2250,
+  "latest_marcap": 8864325000,
   "latest_market": "KONEX",
-  "raw_latest_close": 3000,
-  "raw_latest_marcap": 11819100000,
+  "raw_latest_close": 2585,
+  "raw_latest_marcap": 10184124500,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 923,
-    "non_tradable_zero_volume": 1666,
+    "tradable_ohlcv": 971,
+    "non_tradable_zero_volume": 1699,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

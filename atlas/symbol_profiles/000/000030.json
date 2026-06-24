@@ -5,7 +5,7 @@
     {
       "name": "대신밸류리츠",
       "first_date": "2025-07-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "상업은행",
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2680,
-  "raw_trading_day_count": 3075,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2761,
+  "raw_trading_day_count": 3156,
   "available_years": [
     1995,
     1996,
@@ -123,14 +123,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000030/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000030/2026.csv"
   ],
-  "latest_close": 4545,
-  "latest_marcap": 271700100000,
+  "latest_close": 3870,
+  "latest_marcap": 231348600000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 4545,
-  "raw_latest_marcap": 271700100000,
+  "raw_latest_close": 3870,
+  "raw_latest_marcap": 231348600000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2680,
+    "tradable_ohlcv": 2761,
     "non_tradable_zero_volume": 395,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

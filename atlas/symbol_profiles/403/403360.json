@@ -5,7 +5,7 @@
     {
       "name": "라피치",
       "first_date": "2022-04-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "예스피치",
@@ -20,15 +20,15 @@
     {
       "market": "KONEX",
       "first_date": "2021-12-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-12-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-12-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 886,
-  "raw_trading_day_count": 1023,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 959,
+  "raw_trading_day_count": 1104,
   "available_years": [
     2021,
     2022,
@@ -69,16 +69,16 @@
     "atlas/ohlcv_min_by_symbol_year/403/403360/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/403/403360/2026.csv"
   ],
-  "latest_close": 7610,
-  "latest_marcap": 26250344940,
+  "latest_close": 7100,
+  "latest_marcap": 25459300700,
   "latest_market": "KONEX",
-  "raw_latest_close": 7610,
-  "raw_latest_marcap": 26250344940,
+  "raw_latest_close": 7100,
+  "raw_latest_marcap": 25459300700,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 886,
-    "non_tradable_zero_volume": 136,
-    "invalid_zero_ohlc": 1,
+    "tradable_ohlcv": 959,
+    "non_tradable_zero_volume": 143,
+    "invalid_zero_ohlc": 2,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0

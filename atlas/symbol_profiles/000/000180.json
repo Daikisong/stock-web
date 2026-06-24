@@ -10,7 +10,7 @@
     {
       "name": "성창기업지주",
       "first_date": "2009-01-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7748,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7816,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,25 +199,26 @@
     "atlas/ohlcv_min_by_symbol_year/000/000180/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000180/2026.csv"
   ],
-  "latest_close": 1773,
-  "latest_marcap": 123669586800,
+  "latest_close": 5060,
+  "latest_marcap": 70588619200,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1773,
-  "raw_latest_marcap": 123669586800,
+  "raw_latest_close": 5060,
+  "raw_latest_marcap": 70588619200,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7748,
-    "non_tradable_zero_volume": 16,
+    "tradable_ohlcv": 7816,
+    "non_tradable_zero_volume": 29,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2001-10-18",
     "2015-12-30",
-    "2016-05-11"
+    "2016-05-11",
+    "2026-04-27"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

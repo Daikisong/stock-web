@@ -20,7 +20,7 @@
     {
       "name": "휴림에이텍",
       "first_date": "2023-08-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-10-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-10-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-10-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4287,
-  "raw_trading_day_count": 5012,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4351,
+  "raw_trading_day_count": 5093,
   "available_years": [
     2005,
     2006,
@@ -156,27 +156,28 @@
     "atlas/ohlcv_min_by_symbol_year/078/078590/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/078/078590/2026.csv"
   ],
-  "latest_close": 721,
-  "latest_marcap": 61239523646,
+  "latest_close": 2490,
+  "latest_marcap": 24879629310,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 721,
-  "raw_latest_marcap": 61239523646,
+  "raw_latest_close": 2490,
+  "raw_latest_marcap": 24879629310,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4287,
-    "non_tradable_zero_volume": 725,
+    "tradable_ohlcv": 4351,
+    "non_tradable_zero_volume": 742,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_count": 6,
   "corporate_action_candidate_dates": [
     "2009-11-19",
     "2018-10-31",
     "2019-04-23",
     "2023-09-21",
-    "2024-02-20"
+    "2024-02-20",
+    "2026-05-27"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

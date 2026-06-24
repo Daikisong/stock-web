@@ -202,7 +202,7 @@
         2026
       ],
       "first_date": "2009-12-23",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -275,7 +275,7 @@
     },
     {
       "code": "900100",
-      "name": "애머릿지",
+      "name": "파이온엑스",
       "profile_path": "atlas/symbol_profiles/900/900100.json",
       "available_years": [
         2010,
@@ -315,12 +315,12 @@
         2026
       ],
       "first_date": "2010-04-21",
-      "last_date": "2026-02-20",
+      "last_date": "2026-05-28",
       "status_inferred": "active_like"
     },
     {
       "code": "900110",
-      "name": "이스트아시아홀딩스",
+      "name": "딥커머스",
       "profile_path": "atlas/symbol_profiles/900/900110.json",
       "available_years": [
         2010,
@@ -361,7 +361,7 @@
         2026
       ],
       "first_date": "2010-04-23",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -407,7 +407,7 @@
         2026
       ],
       "first_date": "2010-03-31",
-      "last_date": "2026-02-20",
+      "last_date": "2026-05-11",
       "status_inferred": "active_like"
     },
     {
@@ -481,7 +481,7 @@
         2026
       ],
       "first_date": "2010-11-30",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -561,7 +561,7 @@
         2026
       ],
       "first_date": "2016-01-28",
-      "last_date": "2026-02-20",
+      "last_date": "2026-05-28",
       "status_inferred": "active_like"
     },
     {
@@ -595,7 +595,7 @@
         2026
       ],
       "first_date": "2016-06-30",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -629,7 +629,7 @@
         2026
       ],
       "first_date": "2016-08-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -695,7 +695,7 @@
         2026
       ],
       "first_date": "2016-10-25",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -729,7 +729,7 @@
         2026
       ],
       "first_date": "2016-11-04",
-      "last_date": "2026-02-20",
+      "last_date": "2026-05-22",
       "status_inferred": "active_like"
     },
     {
@@ -761,7 +761,7 @@
         2026
       ],
       "first_date": "2017-08-10",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -791,7 +791,7 @@
         2026
       ],
       "first_date": "2018-11-30",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

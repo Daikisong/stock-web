@@ -5,7 +5,7 @@
     {
       "name": "서진시스템",
       "first_date": "2017-03-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2017-03-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2017-03-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2017-03-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2178,
-  "raw_trading_day_count": 2182,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2259,
+  "raw_trading_day_count": 2263,
   "available_years": [
     2017,
     2018,
@@ -84,14 +84,14 @@
     "atlas/ohlcv_min_by_symbol_year/178/178320/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/178/178320/2026.csv"
   ],
-  "latest_close": 37750,
-  "latest_marcap": 2181938788250,
+  "latest_close": 66400,
+  "latest_marcap": 4226408936800,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 37750,
-  "raw_latest_marcap": 2181938788250,
+  "raw_latest_close": 66400,
+  "raw_latest_marcap": 4226408936800,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2178,
+    "tradable_ohlcv": 2259,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -18,7 +18,7 @@
         2026
       ],
       "first_date": "2023-05-31",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -36,7 +36,7 @@
         2026
       ],
       "first_date": "2024-10-22",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -72,7 +72,7 @@
         2026
       ],
       "first_date": "2024-01-24",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -90,7 +90,7 @@
         2026
       ],
       "first_date": "2024-12-16",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -110,8 +110,8 @@
         2026
       ],
       "first_date": "2023-09-04",
-      "last_date": "2026-02-20",
-      "status_inferred": "active_like"
+      "last_date": "2026-04-14",
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "457940",
@@ -130,8 +130,8 @@
         2026
       ],
       "first_date": "2023-08-11",
-      "last_date": "2026-02-20",
-      "status_inferred": "active_like"
+      "last_date": "2026-03-13",
+      "status_inferred": "inactive_or_delisted_like"
     }
   ]
 }

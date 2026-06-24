@@ -5,7 +5,7 @@
     {
       "name": "퀀타매트릭스",
       "first_date": "2020-12-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-12-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-12-09",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-12-09",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1271,
-  "raw_trading_day_count": 1273,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1352,
+  "raw_trading_day_count": 1354,
   "available_years": [
     2020,
     2021,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/317/317690/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/317/317690/2026.csv"
   ],
-  "latest_close": 4130,
-  "latest_marcap": 82793957190,
+  "latest_close": 2580,
+  "latest_marcap": 51948374820,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4130,
-  "raw_latest_marcap": 82793957190,
+  "raw_latest_close": 2580,
+  "raw_latest_marcap": 51948374820,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1271,
+    "tradable_ohlcv": 1352,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

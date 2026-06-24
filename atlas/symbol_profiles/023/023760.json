@@ -10,7 +10,7 @@
     {
       "name": "한국캐피탈",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6841,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6922,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/023/023760/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/023/023760/2026.csv"
   ],
-  "latest_close": 1176,
-  "latest_marcap": 371156861376,
+  "latest_close": 686,
+  "latest_marcap": 216508169136,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1176,
-  "raw_latest_marcap": 371156861376,
+  "raw_latest_close": 686,
+  "raw_latest_marcap": 216508169136,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6841,
+    "tradable_ohlcv": 6922,
     "non_tradable_zero_volume": 581,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

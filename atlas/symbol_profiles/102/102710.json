@@ -5,7 +5,7 @@
     {
       "name": "이엔에프테크놀로지",
       "first_date": "2009-05-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2009-05-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-05-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-05-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4125,
-  "raw_trading_day_count": 4125,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4206,
+  "raw_trading_day_count": 4206,
   "available_years": [
     2009,
     2010,
@@ -124,14 +124,14 @@
     "atlas/ohlcv_min_by_symbol_year/102/102710/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/102/102710/2026.csv"
   ],
-  "latest_close": 60200,
-  "latest_marcap": 860127727200,
+  "latest_close": 51500,
+  "latest_marcap": 735823554000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 60200,
-  "raw_latest_marcap": 860127727200,
+  "raw_latest_close": 51500,
+  "raw_latest_marcap": 735823554000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4125,
+    "tradable_ohlcv": 4206,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

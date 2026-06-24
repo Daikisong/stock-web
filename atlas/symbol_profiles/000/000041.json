@@ -5,17 +5,17 @@
     {
       "name": "교보18호스팩",
       "first_date": "2025-08-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "엘에스스팩1호",
       "first_date": "2025-07-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "하나35호스팩",
       "first_date": "2025-08-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "효성기계(1신)",
@@ -36,7 +36,7 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-07-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSPI",
@@ -45,11 +45,11 @@
     }
   ],
   "first_date": "1996-05-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 177,
-  "raw_trading_day_count": 594,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 258,
+  "raw_trading_day_count": 837,
   "available_years": [
     1996,
     2025,
@@ -75,14 +75,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000041/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000041/2026.csv"
   ],
-  "latest_close": 2030,
-  "latest_marcap": 12240900000,
+  "latest_close": 2005,
+  "latest_marcap": 12090150000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2055,
-  "raw_latest_marcap": 8446050000,
+  "raw_latest_close": 1996,
+  "raw_latest_marcap": 8203560000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 433,
+    "tradable_ohlcv": 676,
     "non_tradable_zero_volume": 161,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

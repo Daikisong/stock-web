@@ -5,7 +5,7 @@
     {
       "name": "블루산업개발",
       "first_date": "2025-10-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "영풍제지",
@@ -26,15 +26,15 @@
     {
       "market": "KOSPI",
       "first_date": "1996-07-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-05",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7328,
-  "raw_trading_day_count": 7421,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7382,
+  "raw_trading_day_count": 7502,
   "available_years": [
     1996,
     1997,
@@ -200,28 +200,29 @@
     "atlas/ohlcv_min_by_symbol_year/006/006740/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/006/006740/2026.csv"
   ],
-  "latest_close": 785,
-  "latest_marcap": 44725836580,
+  "latest_close": 5550,
+  "latest_marcap": 26351205750,
   "latest_market": "KOSPI",
-  "raw_latest_close": 785,
-  "raw_latest_marcap": 44725836580,
+  "raw_latest_close": 5550,
+  "raw_latest_marcap": 26351205750,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7328,
-    "non_tradable_zero_volume": 93,
+    "tradable_ohlcv": 7382,
+    "non_tradable_zero_volume": 120,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_count": 7,
   "corporate_action_candidate_dates": [
     "2000-04-07",
     "2000-05-09",
     "2015-02-25",
     "2023-04-19",
     "2023-05-12",
-    "2024-12-10"
+    "2024-12-10",
+    "2026-05-29"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

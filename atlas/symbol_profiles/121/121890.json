@@ -5,7 +5,7 @@
     {
       "name": "에스디시스템",
       "first_date": "2010-07-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-07-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-07-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-07-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2950,
-  "raw_trading_day_count": 3838,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3031,
+  "raw_trading_day_count": 3919,
   "available_years": [
     2010,
     2011,
@@ -113,14 +113,14 @@
     "atlas/ohlcv_min_by_symbol_year/121/121890/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/121/121890/2026.csv"
   ],
-  "latest_close": 1618,
-  "latest_marcap": 21505559628,
+  "latest_close": 2030,
+  "latest_marcap": 26981635380,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1618,
-  "raw_latest_marcap": 21505559628,
+  "raw_latest_close": 2030,
+  "raw_latest_marcap": 26981635380,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2950,
+    "tradable_ohlcv": 3031,
     "non_tradable_zero_volume": 888,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

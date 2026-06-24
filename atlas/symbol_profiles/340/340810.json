@@ -5,7 +5,7 @@
     {
       "name": "시선AI",
       "first_date": "2025-04-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "시선에이아이",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-05-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-05-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-05-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 670,
-  "raw_trading_day_count": 670,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 751,
+  "raw_trading_day_count": 751,
   "available_years": [
     2023,
     2024,
@@ -64,14 +64,14 @@
     "atlas/ohlcv_min_by_symbol_year/340/340810/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/340/340810/2026.csv"
   ],
-  "latest_close": 3105,
-  "latest_marcap": 40228634610,
+  "latest_close": 2430,
+  "latest_marcap": 33157291680,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3105,
-  "raw_latest_marcap": 40228634610,
+  "raw_latest_close": 2430,
+  "raw_latest_marcap": 33157291680,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 670,
+    "tradable_ohlcv": 751,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

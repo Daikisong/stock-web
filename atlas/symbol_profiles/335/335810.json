@@ -5,7 +5,7 @@
     {
       "name": "프리시젼바이오",
       "first_date": "2020-12-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-12-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-12-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-12-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1264,
-  "raw_trading_day_count": 1264,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1345,
+  "raw_trading_day_count": 1345,
   "available_years": [
     2020,
     2021,
@@ -69,23 +69,24 @@
     "atlas/ohlcv_min_by_symbol_year/335/335810/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/335/335810/2026.csv"
   ],
-  "latest_close": 2700,
-  "latest_marcap": 48486087000,
+  "latest_close": 1544,
+  "latest_marcap": 33890037264,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2700,
-  "raw_latest_marcap": 48486087000,
+  "raw_latest_close": 1544,
+  "raw_latest_marcap": 33890037264,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1264,
+    "tradable_ohlcv": 1345,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 2,
   "corporate_action_candidate_dates": [
-    "2025-11-20"
+    "2025-11-20",
+    "2026-02-26"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

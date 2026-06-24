@@ -5,7 +5,7 @@
     {
       "name": "네패스",
       "first_date": "2003-12-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "크린크레티브",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-12-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-12-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-12-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6449,
-  "raw_trading_day_count": 6453,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6530,
+  "raw_trading_day_count": 6534,
   "available_years": [
     1999,
     2000,
@@ -179,14 +179,14 @@
     "atlas/ohlcv_min_by_symbol_year/033/033640/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/033/033640/2026.csv"
   ],
-  "latest_close": 17780,
-  "latest_marcap": 409992611560,
+  "latest_close": 34200,
+  "latest_marcap": 788624708400,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 17780,
-  "raw_latest_marcap": 409992611560,
+  "raw_latest_close": 34200,
+  "raw_latest_marcap": 788624708400,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6449,
+    "tradable_ohlcv": 6530,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

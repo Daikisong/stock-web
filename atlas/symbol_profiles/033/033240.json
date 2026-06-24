@@ -5,7 +5,7 @@
     {
       "name": "자화전자",
       "first_date": "1999-01-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1999-01-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-01-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-01-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6686,
-  "raw_trading_day_count": 6689,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6767,
+  "raw_trading_day_count": 6770,
   "available_years": [
     1999,
     2000,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/033/033240/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/033/033240/2026.csv"
   ],
-  "latest_close": 42950,
-  "latest_marcap": 934447516200,
+  "latest_close": 32300,
+  "latest_marcap": 697857714600,
   "latest_market": "KOSPI",
-  "raw_latest_close": 42950,
-  "raw_latest_marcap": 934447516200,
+  "raw_latest_close": 32300,
+  "raw_latest_marcap": 697857714600,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6686,
+    "tradable_ohlcv": 6767,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

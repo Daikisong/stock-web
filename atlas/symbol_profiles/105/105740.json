@@ -5,7 +5,7 @@
     {
       "name": "디케이락",
       "first_date": "2010-11-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-11-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-11-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-11-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3756,
-  "raw_trading_day_count": 3756,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3837,
+  "raw_trading_day_count": 3837,
   "available_years": [
     2010,
     2011,
@@ -119,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/105/105740/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/105/105740/2026.csv"
   ],
-  "latest_close": 10820,
-  "latest_marcap": 110023310660,
+  "latest_close": 6870,
+  "latest_marcap": 69857684310,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 10820,
-  "raw_latest_marcap": 110023310660,
+  "raw_latest_close": 6870,
+  "raw_latest_marcap": 69857684310,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3756,
+    "tradable_ohlcv": 3837,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

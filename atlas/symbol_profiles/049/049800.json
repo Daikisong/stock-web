@@ -10,7 +10,7 @@
     {
       "name": "우진플라임",
       "first_date": "2012-04-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSPI",
       "first_date": "2006-05-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2001-07-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2001-07-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6060,
-  "raw_trading_day_count": 6062,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6141,
+  "raw_trading_day_count": 6143,
   "available_years": [
     2001,
     2002,
@@ -175,14 +175,14 @@
     "atlas/ohlcv_min_by_symbol_year/049/049800/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/049/049800/2026.csv"
   ],
-  "latest_close": 3070,
-  "latest_marcap": 61400000000,
+  "latest_close": 1819,
+  "latest_marcap": 36380000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 3070,
-  "raw_latest_marcap": 61400000000,
+  "raw_latest_close": 1819,
+  "raw_latest_marcap": 36380000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 6060,
+    "tradable_ohlcv": 6141,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

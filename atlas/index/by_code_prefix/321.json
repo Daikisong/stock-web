@@ -26,7 +26,7 @@
         2026
       ],
       "first_date": "2019-05-31",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -46,7 +46,7 @@
         2026
       ],
       "first_date": "2023-07-19",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -74,7 +74,7 @@
         2026
       ],
       "first_date": "2019-11-22",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -98,7 +98,7 @@
         2026
       ],
       "first_date": "2021-02-03",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

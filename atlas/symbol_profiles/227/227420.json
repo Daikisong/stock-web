@@ -5,7 +5,7 @@
     {
       "name": "도부",
       "first_date": "2024-11-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "도부마스크",
@@ -30,15 +30,15 @@
     {
       "market": "KONEX",
       "first_date": "2016-12-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-12-28",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-12-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1743,
-  "raw_trading_day_count": 2241,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1824,
+  "raw_trading_day_count": 2322,
   "available_years": [
     2016,
     2017,
@@ -101,14 +101,14 @@
     "atlas/ohlcv_min_by_symbol_year/227/227420/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/227/227420/2026.csv"
   ],
-  "latest_close": 794,
-  "latest_marcap": 30207340940,
+  "latest_close": 649,
+  "latest_marcap": 24690886990,
   "latest_market": "KONEX",
-  "raw_latest_close": 794,
-  "raw_latest_marcap": 30207340940,
+  "raw_latest_close": 649,
+  "raw_latest_marcap": 24690886990,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1743,
+    "tradable_ohlcv": 1824,
     "non_tradable_zero_volume": 498,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

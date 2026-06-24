@@ -5,7 +5,7 @@
     {
       "name": "싸이닉솔루션",
       "first_date": "2025-07-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-07-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-07-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-07-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 153,
-  "raw_trading_day_count": 153,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 234,
+  "raw_trading_day_count": 234,
   "available_years": [
     2025,
     2026
@@ -44,14 +44,14 @@
     "atlas/ohlcv_min_by_symbol_year/234/234030/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/234/234030/2026.csv"
   ],
-  "latest_close": 8890,
-  "latest_marcap": 209848450000,
+  "latest_close": 4080,
+  "latest_marcap": 96308400000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8890,
-  "raw_latest_marcap": 209848450000,
+  "raw_latest_close": 4080,
+  "raw_latest_marcap": 96308400000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 153,
+    "tradable_ohlcv": 234,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

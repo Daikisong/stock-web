@@ -15,7 +15,7 @@
     {
       "name": "대상홀딩스우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2005-08-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-08-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-08-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4896,
-  "raw_trading_day_count": 5061,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4977,
+  "raw_trading_day_count": 5142,
   "available_years": [
     2005,
     2006,
@@ -154,14 +154,14 @@
     "atlas/ohlcv_min_by_symbol_year/084/084695/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/084/084695/2026.csv"
   ],
-  "latest_close": 14500,
-  "latest_marcap": 13245489000,
+  "latest_close": 12550,
+  "latest_marcap": 11464199100,
   "latest_market": "KOSPI",
-  "raw_latest_close": 14500,
-  "raw_latest_marcap": 13245489000,
+  "raw_latest_close": 12550,
+  "raw_latest_marcap": 11464199100,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4896,
+    "tradable_ohlcv": 4977,
     "non_tradable_zero_volume": 165,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

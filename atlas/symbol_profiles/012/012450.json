@@ -20,7 +20,7 @@
     {
       "name": "한화에어로스페이스",
       "first_date": "2018-04-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한화테크윈",
@@ -35,15 +35,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7730,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7811,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -214,14 +214,14 @@
     "atlas/ohlcv_min_by_symbol_year/012/012450/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/012/012450/2026.csv"
   ],
-  "latest_close": 1242000,
-  "latest_marcap": 64041744042000,
+  "latest_close": 1125000,
+  "latest_marcap": 58008826125000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1242000,
-  "raw_latest_marcap": 64041744042000,
+  "raw_latest_close": 1125000,
+  "raw_latest_marcap": 58008826125000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7730,
+    "tradable_ohlcv": 7811,
     "non_tradable_zero_volume": 34,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

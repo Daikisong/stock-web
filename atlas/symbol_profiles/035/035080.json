@@ -5,7 +5,7 @@
     {
       "name": "그래디언트",
       "first_date": "2022-04-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "인터파크",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-07-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-07-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-07-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6550,
-  "raw_trading_day_count": 6567,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6631,
+  "raw_trading_day_count": 6648,
   "available_years": [
     1999,
     2000,
@@ -184,14 +184,14 @@
     "atlas/ohlcv_min_by_symbol_year/035/035080/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/035/035080/2026.csv"
   ],
-  "latest_close": 11770,
-  "latest_marcap": 160973558460,
+  "latest_close": 8030,
+  "latest_marcap": 91793210520,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 11770,
-  "raw_latest_marcap": 160973558460,
+  "raw_latest_close": 8030,
+  "raw_latest_marcap": 91793210520,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6550,
+    "tradable_ohlcv": 6631,
     "non_tradable_zero_volume": 17,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "HLB이노베이션",
       "first_date": "2023-03-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "풍산마이크로",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6208,
-  "raw_trading_day_count": 6807,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6270,
+  "raw_trading_day_count": 6888,
   "available_years": [
     1996,
     1997,
@@ -194,28 +194,29 @@
     "atlas/ohlcv_min_by_symbol_year/024/024850/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/024/024850/2026.csv"
   ],
-  "latest_close": 3040,
-  "latest_marcap": 448329572320,
+  "latest_close": 13260,
+  "latest_marcap": 421051993440,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3040,
-  "raw_latest_marcap": 448329572320,
+  "raw_latest_close": 13260,
+  "raw_latest_marcap": 421051993440,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6208,
-    "non_tradable_zero_volume": 599,
+    "tradable_ohlcv": 6270,
+    "non_tradable_zero_volume": 618,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 6,
+  "corporate_action_candidate_count": 7,
   "corporate_action_candidate_dates": [
     "1996-11-12",
     "1997-04-10",
     "1998-04-24",
     "2001-01-18",
     "2023-03-29",
-    "2024-12-18"
+    "2024-12-18",
+    "2026-05-04"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

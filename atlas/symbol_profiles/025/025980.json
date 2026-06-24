@@ -10,7 +10,7 @@
     {
       "name": "아난티",
       "first_date": "2018-05-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "에머슨퍼시픽",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6699,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6780,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -209,14 +209,14 @@
     "atlas/ohlcv_min_by_symbol_year/025/025980/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/025/025980/2026.csv"
   ],
-  "latest_close": 8800,
-  "latest_marcap": 833355916800,
+  "latest_close": 4670,
+  "latest_marcap": 454395623300,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8800,
-  "raw_latest_marcap": 833355916800,
+  "raw_latest_close": 4670,
+  "raw_latest_marcap": 454395623300,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6699,
+    "tradable_ohlcv": 6780,
     "non_tradable_zero_volume": 723,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

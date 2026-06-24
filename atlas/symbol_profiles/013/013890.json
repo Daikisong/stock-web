@@ -5,7 +5,7 @@
     {
       "name": "지누스",
       "first_date": "2000-05-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "진    웅",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3905,
-  "raw_trading_day_count": 4190,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3986,
+  "raw_trading_day_count": 4271,
   "available_years": [
     1995,
     1996,
@@ -139,14 +139,14 @@
     "atlas/ohlcv_min_by_symbol_year/013/013890/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/013/013890/2026.csv"
   ],
-  "latest_close": 12520,
-  "latest_marcap": 278627291520,
+  "latest_close": 9650,
+  "latest_marcap": 211584095450,
   "latest_market": "KOSPI",
-  "raw_latest_close": 12520,
-  "raw_latest_marcap": 278627291520,
+  "raw_latest_close": 9650,
+  "raw_latest_marcap": 211584095450,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3905,
+    "tradable_ohlcv": 3986,
     "non_tradable_zero_volume": 285,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

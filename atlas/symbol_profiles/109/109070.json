@@ -10,7 +10,7 @@
     {
       "name": "주성코퍼레이션",
       "first_date": "2024-01-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "컨버즈",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2009-03-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-03-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-03-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2674,
-  "raw_trading_day_count": 4175,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2755,
+  "raw_trading_day_count": 4256,
   "available_years": [
     2009,
     2010,
@@ -122,14 +122,14 @@
     "atlas/ohlcv_min_by_symbol_year/109/109070/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/109/109070/2026.csv"
   ],
-  "latest_close": 811,
-  "latest_marcap": 42829096530,
+  "latest_close": 1701,
+  "latest_marcap": 89830201230,
   "latest_market": "KOSPI",
-  "raw_latest_close": 811,
-  "raw_latest_marcap": 42829096530,
+  "raw_latest_close": 1701,
+  "raw_latest_marcap": 89830201230,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2674,
+    "tradable_ohlcv": 2755,
     "non_tradable_zero_volume": 1501,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

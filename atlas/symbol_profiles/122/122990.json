@@ -5,7 +5,7 @@
     {
       "name": "와이솔",
       "first_date": "2010-09-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-09-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-09-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-09-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3798,
-  "raw_trading_day_count": 3798,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3879,
+  "raw_trading_day_count": 3879,
   "available_years": [
     2010,
     2011,
@@ -119,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/122/122990/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/122/122990/2026.csv"
   ],
-  "latest_close": 6460,
-  "latest_marcap": 172088463260,
+  "latest_close": 7140,
+  "latest_marcap": 190203038340,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6460,
-  "raw_latest_marcap": 172088463260,
+  "raw_latest_close": 7140,
+  "raw_latest_marcap": 190203038340,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3798,
+    "tradable_ohlcv": 3879,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

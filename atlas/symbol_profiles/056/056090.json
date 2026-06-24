@@ -5,7 +5,7 @@
     {
       "name": "시지메드텍",
       "first_date": "2024-11-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "에디슨INNO",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-11-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-11-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-11-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2151,
-  "raw_trading_day_count": 2519,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2232,
+  "raw_trading_day_count": 2600,
   "available_years": [
     2015,
     2016,
@@ -106,14 +106,14 @@
     "atlas/ohlcv_min_by_symbol_year/056/056090/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/056/056090/2026.csv"
   ],
-  "latest_close": 2305,
-  "latest_marcap": 238012077980,
+  "latest_close": 1290,
+  "latest_marcap": 133204156440,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2305,
-  "raw_latest_marcap": 238012077980,
+  "raw_latest_close": 1290,
+  "raw_latest_marcap": 133204156440,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2151,
+    "tradable_ohlcv": 2232,
     "non_tradable_zero_volume": 368,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "JW생명과학",
       "first_date": "2016-10-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2016-10-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-10-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-10-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2281,
-  "raw_trading_day_count": 2285,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2362,
+  "raw_trading_day_count": 2366,
   "available_years": [
     2016,
     2017,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/234/234080/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/234/234080/2026.csv"
   ],
-  "latest_close": 13620,
-  "latest_marcap": 215666625480,
+  "latest_close": 11230,
+  "latest_marcap": 177822041420,
   "latest_market": "KOSPI",
-  "raw_latest_close": 13620,
-  "raw_latest_marcap": 215666625480,
+  "raw_latest_close": 11230,
+  "raw_latest_marcap": 177822041420,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2281,
+    "tradable_ohlcv": 2362,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

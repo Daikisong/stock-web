@@ -5,7 +5,7 @@
     {
       "name": "CR홀딩스",
       "first_date": "2023-07-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "시알홀딩스",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7724,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7805,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -204,14 +204,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000480/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000480/2026.csv"
   ],
-  "latest_close": 4995,
-  "latest_marcap": 234217997550,
+  "latest_close": 4695,
+  "latest_marcap": 220150850550,
   "latest_market": "KOSPI",
-  "raw_latest_close": 4995,
-  "raw_latest_marcap": 234217997550,
+  "raw_latest_close": 4695,
+  "raw_latest_marcap": 220150850550,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7724,
+    "tradable_ohlcv": 7805,
     "non_tradable_zero_volume": 40,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

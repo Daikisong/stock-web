@@ -5,7 +5,7 @@
     {
       "name": "코아스",
       "first_date": "2011-08-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코아스웰",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2005-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-08-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-08-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5029,
-  "raw_trading_day_count": 5069,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5110,
+  "raw_trading_day_count": 5150,
   "available_years": [
     2005,
     2006,
@@ -154,14 +154,14 @@
     "atlas/ohlcv_min_by_symbol_year/071/071950/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/071/071950/2026.csv"
   ],
-  "latest_close": 3590,
-  "latest_marcap": 42409032590,
+  "latest_close": 1940,
+  "latest_marcap": 24170838300,
   "latest_market": "KOSPI",
-  "raw_latest_close": 3590,
-  "raw_latest_marcap": 42409032590,
+  "raw_latest_close": 1940,
+  "raw_latest_marcap": 24170838300,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 5029,
+    "tradable_ohlcv": 5110,
     "non_tradable_zero_volume": 40,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

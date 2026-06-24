@@ -5,7 +5,7 @@
     {
       "name": "코디",
       "first_date": "2016-11-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코디에스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-01-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-01-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-01-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3410,
-  "raw_trading_day_count": 3971,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3469,
+  "raw_trading_day_count": 4052,
   "available_years": [
     2010,
     2011,
@@ -121,25 +121,26 @@
     "atlas/ohlcv_min_by_symbol_year/080/080530/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/080/080530/2026.csv"
   ],
-  "latest_close": 998,
-  "latest_marcap": 55399853250,
+  "latest_close": 2335,
+  "latest_marcap": 25923578625,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 998,
-  "raw_latest_marcap": 55399853250,
+  "raw_latest_close": 2335,
+  "raw_latest_marcap": 25923578625,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3410,
-    "non_tradable_zero_volume": 561,
+    "tradable_ohlcv": 3469,
+    "non_tradable_zero_volume": 583,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2011-03-31",
     "2020-05-25",
-    "2025-07-08"
+    "2025-07-08",
+    "2026-05-18"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

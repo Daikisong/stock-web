@@ -5,7 +5,7 @@
     {
       "name": "SK증권",
       "first_date": "1998-01-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "선경증권",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7752,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7819,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,27 +199,28 @@
     "atlas/ohlcv_min_by_symbol_year/001/001510/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/001/001510/2026.csv"
   ],
-  "latest_close": 1869,
-  "latest_marcap": 883271029599,
+  "latest_close": 2780,
+  "latest_marcap": 643000336300,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1869,
-  "raw_latest_marcap": 883271029599,
+  "raw_latest_close": 2780,
+  "raw_latest_marcap": 643000336300,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7752,
-    "non_tradable_zero_volume": 13,
+    "tradable_ohlcv": 7819,
+    "non_tradable_zero_volume": 27,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_count": 6,
   "corporate_action_candidate_dates": [
     "1998-03-28",
     "1999-01-08",
     "1999-08-27",
     "1999-10-21",
-    "2018-12-24"
+    "2018-12-24",
+    "2026-04-27"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "제이알글로벌리츠",
       "first_date": "2020-08-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2020-08-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-08-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-04-27",
   "raw_first_date": "2020-08-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1356,
-  "raw_trading_day_count": 1356,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1401,
+  "raw_trading_day_count": 1437,
   "available_years": [
     2020,
     2021,
@@ -69,15 +69,15 @@
     "atlas/ohlcv_min_by_symbol_year/348/348950/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/348/348950/2026.csv"
   ],
-  "latest_close": 2030,
-  "latest_marcap": 400673280000,
+  "latest_close": 1182,
+  "latest_marcap": 233298432000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 2030,
-  "raw_latest_marcap": 400673280000,
+  "raw_latest_close": 1182,
+  "raw_latest_marcap": 233298432000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 1356,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 1401,
+    "non_tradable_zero_volume": 36,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

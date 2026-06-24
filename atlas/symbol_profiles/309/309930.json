@@ -20,7 +20,7 @@
     {
       "name": "조이웍스앤코",
       "first_date": "2025-10-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-12-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-12-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-12-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1699,
-  "raw_trading_day_count": 1758,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1765,
+  "raw_trading_day_count": 1839,
   "available_years": [
     2018,
     2019,
@@ -94,23 +94,25 @@
     "atlas/ohlcv_min_by_symbol_year/309/309930/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/309/309930/2026.csv"
   ],
-  "latest_close": 955,
-  "latest_marcap": 23385130840,
+  "latest_close": 871,
+  "latest_marcap": 16771879319,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 955,
-  "raw_latest_marcap": 23385130840,
+  "raw_latest_close": 871,
+  "raw_latest_marcap": 16771879319,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1699,
-    "non_tradable_zero_volume": 59,
+    "tradable_ohlcv": 1765,
+    "non_tradable_zero_volume": 74,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
-    "2020-12-24"
+    "2020-12-24",
+    "2026-05-27",
+    "2026-06-22"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

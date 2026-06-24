@@ -5,7 +5,7 @@
     {
       "name": "카티스",
       "first_date": "2024-05-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2024-05-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-05-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-05-03",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 436,
-  "raw_trading_day_count": 436,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 501,
+  "raw_trading_day_count": 517,
   "available_years": [
     2024,
     2025,
@@ -49,24 +49,25 @@
     "atlas/ohlcv_min_by_symbol_year/140/140430/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/140/140430/2026.csv"
   ],
-  "latest_close": 687,
-  "latest_marcap": 36718459293,
+  "latest_close": 1990,
+  "latest_marcap": 21272118930,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 687,
-  "raw_latest_marcap": 36718459293,
+  "raw_latest_close": 1990,
+  "raw_latest_marcap": 21272118930,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 436,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 501,
+    "non_tradable_zero_volume": 16,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2025-11-27",
-    "2025-12-17"
+    "2025-12-17",
+    "2026-05-28"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "한국주철관",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7569,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7650,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000970/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000970/2026.csv"
   ],
-  "latest_close": 7050,
-  "latest_marcap": 160743525000,
+  "latest_close": 6490,
+  "latest_marcap": 147975245000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 7050,
-  "raw_latest_marcap": 160743525000,
+  "raw_latest_close": 6490,
+  "raw_latest_marcap": 147975245000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7569,
+    "tradable_ohlcv": 7650,
     "non_tradable_zero_volume": 196,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

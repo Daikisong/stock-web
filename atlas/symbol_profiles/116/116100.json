@@ -5,7 +5,7 @@
     {
       "name": "태양기계",
       "first_date": "2013-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2013-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-07-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2849,
-  "raw_trading_day_count": 3102,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2930,
+  "raw_trading_day_count": 3183,
   "available_years": [
     2013,
     2014,
@@ -104,14 +104,14 @@
     "atlas/ohlcv_min_by_symbol_year/116/116100/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/116/116100/2026.csv"
   ],
-  "latest_close": 577,
-  "latest_marcap": 4292871922,
+  "latest_close": 600,
+  "latest_marcap": 4463991600,
   "latest_market": "KONEX",
-  "raw_latest_close": 577,
-  "raw_latest_marcap": 4292871922,
+  "raw_latest_close": 600,
+  "raw_latest_marcap": 4463991600,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 2849,
+    "tradable_ohlcv": 2930,
     "non_tradable_zero_volume": 253,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

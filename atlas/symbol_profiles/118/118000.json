@@ -10,7 +10,7 @@
     {
       "name": "메타케어",
       "first_date": "2024-08-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "에스메디",
@@ -40,15 +40,15 @@
     {
       "market": "KOSPI",
       "first_date": "2009-12-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-12-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-12-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3953,
-  "raw_trading_day_count": 3973,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4020,
+  "raw_trading_day_count": 4054,
   "available_years": [
     2009,
     2010,
@@ -149,21 +149,21 @@
     "atlas/ohlcv_min_by_symbol_year/118/118000/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/118/118000/2026.csv"
   ],
-  "latest_close": 308,
-  "latest_marcap": 52907428112,
+  "latest_close": 1390,
+  "latest_marcap": 23877053040,
   "latest_market": "KOSPI",
-  "raw_latest_close": 308,
-  "raw_latest_marcap": 52907428112,
+  "raw_latest_close": 1390,
+  "raw_latest_marcap": 23877053040,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3953,
-    "non_tradable_zero_volume": 20,
+    "tradable_ohlcv": 4020,
+    "non_tradable_zero_volume": 34,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 7,
+  "corporate_action_candidate_count": 8,
   "corporate_action_candidate_dates": [
     "2014-03-11",
     "2015-06-15",
@@ -171,7 +171,8 @@
     "2020-01-15",
     "2020-09-04",
     "2021-07-29",
-    "2023-09-12"
+    "2023-09-12",
+    "2026-05-18"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

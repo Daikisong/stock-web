@@ -5,7 +5,7 @@
     {
       "name": "SG&G",
       "first_date": "2008-04-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "가로수닷컴",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-04-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-04-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-04-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6362,
-  "raw_trading_day_count": 6364,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6428,
+  "raw_trading_day_count": 6445,
   "available_years": [
     2000,
     2001,
@@ -174,24 +174,25 @@
     "atlas/ohlcv_min_by_symbol_year/040/040610/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/040/040610/2026.csv"
   ],
-  "latest_close": 2245,
-  "latest_marcap": 76525755020,
+  "latest_close": 2945,
+  "latest_marcap": 50193396110,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2245,
-  "raw_latest_marcap": 76525755020,
+  "raw_latest_close": 2945,
+  "raw_latest_marcap": 50193396110,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6362,
-    "non_tradable_zero_volume": 2,
+    "tradable_ohlcv": 6428,
+    "non_tradable_zero_volume": 17,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2001-07-30",
-    "2004-11-11"
+    "2004-11-11",
+    "2026-05-19"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

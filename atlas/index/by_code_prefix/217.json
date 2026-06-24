@@ -34,7 +34,7 @@
         2026
       ],
       "first_date": "2015-09-25",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -70,7 +70,7 @@
         2026
       ],
       "first_date": "2015-06-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -105,7 +105,7 @@
         2026
       ],
       "first_date": "2015-04-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -135,7 +135,7 @@
         2026
       ],
       "first_date": "2018-11-22",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -200,7 +200,7 @@
         2026
       ],
       "first_date": "2015-06-16",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -216,7 +216,7 @@
         2026
       ],
       "first_date": "2025-12-15",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -261,7 +261,8 @@
         2021,
         2022,
         2023,
-        2024
+        2024,
+        2026
       ],
       "raw_available_years": [
         2015,
@@ -278,8 +279,8 @@
         2026
       ],
       "first_date": "2015-06-10",
-      "last_date": "2024-03-26",
-      "status_inferred": "active_like"
+      "last_date": "2026-05-07",
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "217730",
@@ -314,7 +315,7 @@
         2026
       ],
       "first_date": "2015-12-21",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -370,7 +371,7 @@
         2026
       ],
       "first_date": "2015-12-07",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -406,7 +407,7 @@
         2026
       ],
       "first_date": "2015-05-28",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -436,7 +437,7 @@
         2026
       ],
       "first_date": "2018-04-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -472,7 +473,7 @@
         2026
       ],
       "first_date": "2015-11-05",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

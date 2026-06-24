@@ -10,7 +10,7 @@
     {
       "name": "엑시온그룹",
       "first_date": "2024-09-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "위즈위드",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2007-12-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2007-12-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2007-12-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4476,
-  "raw_trading_day_count": 4489,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4543,
+  "raw_trading_day_count": 4570,
   "available_years": [
     2007,
     2008,
@@ -144,25 +144,26 @@
     "atlas/ohlcv_min_by_symbol_year/069/069920/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/069/069920/2026.csv"
   ],
-  "latest_close": 703,
-  "latest_marcap": 32677274127,
+  "latest_close": 1152,
+  "latest_marcap": 10709592192,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 703,
-  "raw_latest_marcap": 32677274127,
+  "raw_latest_close": 1152,
+  "raw_latest_marcap": 10709592192,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4476,
-    "non_tradable_zero_volume": 13,
+    "tradable_ohlcv": 4543,
+    "non_tradable_zero_volume": 27,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2015-04-13",
     "2015-07-09",
-    "2024-07-18"
+    "2024-07-18",
+    "2026-05-07"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

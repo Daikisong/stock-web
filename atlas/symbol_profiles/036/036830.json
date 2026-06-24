@@ -10,7 +10,7 @@
     {
       "name": "솔브레인홀딩스",
       "first_date": "2020-06-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "테크노세미켐",
@@ -31,15 +31,15 @@
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-01-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-01-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6400,
-  "raw_trading_day_count": 6432,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6481,
+  "raw_trading_day_count": 6513,
   "available_years": [
     2000,
     2001,
@@ -185,14 +185,14 @@
     "atlas/ohlcv_min_by_symbol_year/036/036830/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/036/036830/2026.csv"
   ],
-  "latest_close": 53900,
-  "latest_marcap": 1129962618400,
+  "latest_close": 40800,
+  "latest_marcap": 836562424800,
   "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 53900,
-  "raw_latest_marcap": 1129962618400,
+  "raw_latest_close": 40800,
+  "raw_latest_marcap": 836562424800,
   "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 6400,
+    "tradable_ohlcv": 6481,
     "non_tradable_zero_volume": 32,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

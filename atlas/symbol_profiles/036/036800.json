@@ -10,7 +10,7 @@
     {
       "name": "나이스정보통신",
       "first_date": "2010-06-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "나이스카드정보",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-05-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-05-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-05-03",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6328,
-  "raw_trading_day_count": 6361,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6409,
+  "raw_trading_day_count": 6442,
   "available_years": [
     2000,
     2001,
@@ -179,14 +179,14 @@
     "atlas/ohlcv_min_by_symbol_year/036/036800/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/036/036800/2026.csv"
   ],
-  "latest_close": 27500,
-  "latest_marcap": 275000000000,
+  "latest_close": 28200,
+  "latest_marcap": 256620000000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 27500,
-  "raw_latest_marcap": 275000000000,
+  "raw_latest_close": 28200,
+  "raw_latest_marcap": 256620000000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6328,
+    "tradable_ohlcv": 6409,
     "non_tradable_zero_volume": 33,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

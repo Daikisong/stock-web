@@ -5,7 +5,7 @@
     {
       "name": "시디즈",
       "first_date": "2018-04-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "팀스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2011-01-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-01-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2011-01-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3686,
-  "raw_trading_day_count": 3705,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3767,
+  "raw_trading_day_count": 3786,
   "available_years": [
     2011,
     2012,
@@ -119,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/134/134790/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/134/134790/2026.csv"
   ],
-  "latest_close": 20650,
-  "latest_marcap": 41300000000,
+  "latest_close": 17340,
+  "latest_marcap": 34680000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 20650,
-  "raw_latest_marcap": 41300000000,
+  "raw_latest_close": 17340,
+  "raw_latest_marcap": 34680000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3686,
+    "tradable_ohlcv": 3767,
     "non_tradable_zero_volume": 19,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

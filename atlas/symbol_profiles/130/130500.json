@@ -5,7 +5,7 @@
     {
       "name": "GH신소재",
       "first_date": "2016-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "금호엔티",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2013-08-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-08-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-08-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3078,
-  "raw_trading_day_count": 3078,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3159,
+  "raw_trading_day_count": 3159,
   "available_years": [
     2013,
     2014,
@@ -109,14 +109,14 @@
     "atlas/ohlcv_min_by_symbol_year/130/130500/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/130/130500/2026.csv"
   ],
-  "latest_close": 2765,
-  "latest_marcap": 40217068780,
+  "latest_close": 1951,
+  "latest_marcap": 28377396452,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2765,
-  "raw_latest_marcap": 40217068780,
+  "raw_latest_close": 1951,
+  "raw_latest_marcap": 28377396452,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3078,
+    "tradable_ohlcv": 3159,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

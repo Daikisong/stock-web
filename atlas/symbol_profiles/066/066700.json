@@ -15,7 +15,7 @@
     {
       "name": "테라젠이텍스",
       "first_date": "2010-07-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2004-05-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2004-05-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2004-05-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5367,
-  "raw_trading_day_count": 5368,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5448,
+  "raw_trading_day_count": 5449,
   "available_years": [
     2004,
     2005,
@@ -159,14 +159,14 @@
     "atlas/ohlcv_min_by_symbol_year/066/066700/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/066/066700/2026.csv"
   ],
-  "latest_close": 2815,
-  "latest_marcap": 104583938440,
+  "latest_close": 2200,
+  "latest_marcap": 81735227200,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2815,
-  "raw_latest_marcap": 104583938440,
+  "raw_latest_close": 2200,
+  "raw_latest_marcap": 81735227200,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5367,
+    "tradable_ohlcv": 5448,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

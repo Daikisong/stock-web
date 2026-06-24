@@ -5,7 +5,7 @@
     {
       "name": "특수건설",
       "first_date": "1997-08-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-08-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-08-06",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-08-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6709,
-  "raw_trading_day_count": 7100,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6790,
+  "raw_trading_day_count": 7181,
   "available_years": [
     1997,
     1998,
@@ -184,14 +184,14 @@
     "atlas/ohlcv_min_by_symbol_year/026/026150/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/026/026150/2026.csv"
   ],
-  "latest_close": 7120,
-  "latest_marcap": 124929876720,
+  "latest_close": 4190,
+  "latest_marcap": 73519126890,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 7120,
-  "raw_latest_marcap": 124929876720,
+  "raw_latest_close": 4190,
+  "raw_latest_marcap": 73519126890,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6709,
+    "tradable_ohlcv": 6790,
     "non_tradable_zero_volume": 391,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

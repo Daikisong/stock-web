@@ -20,7 +20,7 @@
     {
       "name": "수성웹툰",
       "first_date": "2024-03-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "수성이노베이션",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-12-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-12-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-12-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4543,
-  "raw_trading_day_count": 4976,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4624,
+  "raw_trading_day_count": 5057,
   "available_years": [
     2005,
     2006,
@@ -164,14 +164,14 @@
     "atlas/ohlcv_min_by_symbol_year/084/084180/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/084/084180/2026.csv"
   ],
-  "latest_close": 1730,
-  "latest_marcap": 31268509590,
+  "latest_close": 479,
+  "latest_marcap": 8657581557,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1730,
-  "raw_latest_marcap": 31268509590,
+  "raw_latest_close": 479,
+  "raw_latest_marcap": 8657581557,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4543,
+    "tradable_ohlcv": 4624,
     "non_tradable_zero_volume": 433,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

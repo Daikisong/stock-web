@@ -5,7 +5,7 @@
     {
       "name": "네이처셀",
       "first_date": "2013-04-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "동보중공업",
@@ -35,15 +35,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6600,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6681,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -209,14 +209,14 @@
     "atlas/ohlcv_min_by_symbol_year/007/007390/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/007/007390/2026.csv"
   ],
-  "latest_close": 23700,
-  "latest_marcap": 1527110827200,
+  "latest_close": 27500,
+  "latest_marcap": 1771964040000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 23700,
-  "raw_latest_marcap": 1527110827200,
+  "raw_latest_close": 27500,
+  "raw_latest_marcap": 1771964040000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6600,
+    "tradable_ohlcv": 6681,
     "non_tradable_zero_volume": 822,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

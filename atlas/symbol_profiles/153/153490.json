@@ -1,11 +1,16 @@
 {
   "code": "153490",
-  "current_or_latest_name": "우리이앤엘",
+  "current_or_latest_name": "우리이앤엘하루틴",
   "name_history": [
     {
       "name": "우리이앤엘",
       "first_date": "2013-02-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-23"
+    },
+    {
+      "name": "우리이앤엘하루틴",
+      "first_date": "2026-04-24",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2013-02-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-02-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-02-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3201,
-  "raw_trading_day_count": 3201,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3282,
+  "raw_trading_day_count": 3282,
   "available_years": [
     2013,
     2014,
@@ -104,14 +109,14 @@
     "atlas/ohlcv_min_by_symbol_year/153/153490/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/153/153490/2026.csv"
   ],
-  "latest_close": 668,
-  "latest_marcap": 34388640000,
+  "latest_close": 677,
+  "latest_marcap": 34851960000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 668,
-  "raw_latest_marcap": 34388640000,
+  "raw_latest_close": 677,
+  "raw_latest_marcap": 34851960000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3201,
+    "tradable_ohlcv": 3282,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

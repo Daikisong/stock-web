@@ -15,7 +15,7 @@
     {
       "name": "롤링스톤",
       "first_date": "2025-10-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "미코나노바이오시스",
@@ -41,15 +41,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-10-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-06-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-23",
   "raw_first_date": "2015-06-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2475,
-  "raw_trading_day_count": 2618,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2495,
+  "raw_trading_day_count": 2699,
   "available_years": [
     2015,
     2016,
@@ -120,15 +120,15 @@
     "atlas/ohlcv_min_by_symbol_year/214/214610/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/214/214610/2026.csv"
   ],
-  "latest_close": 2840,
-  "latest_marcap": 23808634480,
+  "latest_close": 2290,
+  "latest_marcap": 19197807380,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2840,
-  "raw_latest_marcap": 23808634480,
+  "raw_latest_close": 2290,
+  "raw_latest_marcap": 19197807380,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2475,
-    "non_tradable_zero_volume": 143,
+    "tradable_ohlcv": 2495,
+    "non_tradable_zero_volume": 204,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -5,7 +5,7 @@
     {
       "name": "다산솔루에타",
       "first_date": "2023-04-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "솔루에타",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2013-12-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-12-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-12-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2980,
-  "raw_trading_day_count": 2980,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3061,
+  "raw_trading_day_count": 3061,
   "available_years": [
     2013,
     2014,
@@ -109,14 +109,14 @@
     "atlas/ohlcv_min_by_symbol_year/154/154040/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/154/154040/2026.csv"
   ],
-  "latest_close": 1193,
-  "latest_marcap": 21414462142,
+  "latest_close": 750,
+  "latest_marcap": 13462570500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1193,
-  "raw_latest_marcap": 21414462142,
+  "raw_latest_close": 750,
+  "raw_latest_marcap": 13462570500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2980,
+    "tradable_ohlcv": 3061,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

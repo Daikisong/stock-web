@@ -10,7 +10,7 @@
     {
       "name": "에이루트",
       "first_date": "2020-04-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "제이스테판",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-12-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-12-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-12-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3449,
-  "raw_trading_day_count": 3743,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3514,
+  "raw_trading_day_count": 3824,
   "available_years": [
     2010,
     2011,
@@ -129,21 +129,21 @@
     "atlas/ohlcv_min_by_symbol_year/096/096690/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/096/096690/2026.csv"
   ],
-  "latest_close": 1620,
-  "latest_marcap": 39102025860,
+  "latest_close": 5520,
+  "latest_marcap": 22206087840,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1620,
-  "raw_latest_marcap": 39102025860,
+  "raw_latest_close": 5520,
+  "raw_latest_marcap": 22206087840,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3449,
-    "non_tradable_zero_volume": 294,
+    "tradable_ohlcv": 3514,
+    "non_tradable_zero_volume": 310,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 17,
+  "corporate_action_candidate_count": 18,
   "corporate_action_candidate_dates": [
     "2012-02-21",
     "2012-03-14",
@@ -161,7 +161,8 @@
     "2021-08-10",
     "2021-08-12",
     "2024-05-03",
-    "2025-07-10"
+    "2025-07-10",
+    "2026-05-21"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

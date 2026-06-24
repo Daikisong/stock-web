@@ -5,7 +5,7 @@
     {
       "name": "한국파마",
       "first_date": "2020-08-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-08-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-08-10",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-08-10",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1354,
-  "raw_trading_day_count": 1355,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1435,
+  "raw_trading_day_count": 1436,
   "available_years": [
     2020,
     2021,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/032/032300/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/032/032300/2026.csv"
   ],
-  "latest_close": 13660,
-  "latest_marcap": 148985535660,
+  "latest_close": 8400,
+  "latest_marcap": 91616288400,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 13660,
-  "raw_latest_marcap": 148985535660,
+  "raw_latest_close": 8400,
+  "raw_latest_marcap": 91616288400,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1354,
+    "tradable_ohlcv": 1435,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

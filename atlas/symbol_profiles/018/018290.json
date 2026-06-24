@@ -5,7 +5,7 @@
     {
       "name": "브이티",
       "first_date": "2023-07-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "브이티지엠피",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6972,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7053,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/018/018290/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/018/018290/2026.csv"
   ],
-  "latest_close": 19250,
-  "latest_marcap": 672630381500,
+  "latest_close": 11580,
+  "latest_marcap": 404626484040,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 19250,
-  "raw_latest_marcap": 672630381500,
+  "raw_latest_close": 11580,
+  "raw_latest_marcap": 404626484040,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6972,
+    "tradable_ohlcv": 7053,
     "non_tradable_zero_volume": 450,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

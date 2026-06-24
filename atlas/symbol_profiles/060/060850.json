@@ -5,7 +5,7 @@
     {
       "name": "영림원소프트랩",
       "first_date": "2020-08-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-08-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-08-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-08-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1353,
-  "raw_trading_day_count": 1353,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1434,
+  "raw_trading_day_count": 1434,
   "available_years": [
     2020,
     2021,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/060/060850/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/060/060850/2026.csv"
   ],
-  "latest_close": 6220,
-  "latest_marcap": 50574820000,
+  "latest_close": 5460,
+  "latest_marcap": 44395260000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6220,
-  "raw_latest_marcap": 50574820000,
+  "raw_latest_close": 5460,
+  "raw_latest_marcap": 44395260000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1353,
+    "tradable_ohlcv": 1434,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

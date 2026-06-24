@@ -10,7 +10,7 @@
     {
       "name": "일월지엠엘",
       "first_date": "2023-04-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-06-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-06-30",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-06-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1667,
-  "raw_trading_day_count": 2612,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1748,
+  "raw_trading_day_count": 2693,
   "available_years": [
     2015,
     2016,
@@ -90,14 +90,14 @@
     "atlas/ohlcv_min_by_symbol_year/178/178780/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/178/178780/2026.csv"
   ],
-  "latest_close": 2735,
-  "latest_marcap": 50978198325,
+  "latest_close": 2250,
+  "latest_marcap": 41938188750,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2735,
-  "raw_latest_marcap": 50978198325,
+  "raw_latest_close": 2250,
+  "raw_latest_marcap": 41938188750,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1667,
+    "tradable_ohlcv": 1748,
     "non_tradable_zero_volume": 945,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

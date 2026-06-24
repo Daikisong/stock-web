@@ -5,7 +5,7 @@
     {
       "name": "시너지이노베이션",
       "first_date": "2017-08-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "코아로직",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2004-08-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2004-08-13",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2004-08-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5252,
-  "raw_trading_day_count": 5312,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5333,
+  "raw_trading_day_count": 5393,
   "available_years": [
     2004,
     2005,
@@ -154,14 +154,14 @@
     "atlas/ohlcv_min_by_symbol_year/048/048870/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/048/048870/2026.csv"
   ],
-  "latest_close": 2380,
-  "latest_marcap": 209694571940,
+  "latest_close": 1740,
+  "latest_marcap": 153306115620,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2380,
-  "raw_latest_marcap": 209694571940,
+  "raw_latest_close": 1740,
+  "raw_latest_marcap": 153306115620,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5252,
+    "tradable_ohlcv": 5333,
     "non_tradable_zero_volume": 60,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

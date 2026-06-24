@@ -25,7 +25,7 @@
     {
       "name": "엠젠솔루션",
       "first_date": "2023-04-10",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "엠젠플러스",
@@ -50,15 +50,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1997-06-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-07-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-06-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5748,
-  "raw_trading_day_count": 7134,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5815,
+  "raw_trading_day_count": 7215,
   "available_years": [
     1997,
     1998,
@@ -213,21 +213,21 @@
     "atlas/ohlcv_min_by_symbol_year/032/032790/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/032/032790/2026.csv"
   ],
-  "latest_close": 748,
-  "latest_marcap": 38417438576,
+  "latest_close": 1208,
+  "latest_marcap": 31021568048,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 748,
-  "raw_latest_marcap": 38417438576,
+  "raw_latest_close": 1208,
+  "raw_latest_marcap": 31021568048,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5748,
-    "non_tradable_zero_volume": 1386,
+    "tradable_ohlcv": 5815,
+    "non_tradable_zero_volume": 1400,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 17,
+  "corporate_action_candidate_count": 18,
   "corporate_action_candidate_dates": [
     "1998-01-14",
     "1998-02-17",
@@ -245,7 +245,8 @@
     "2015-01-09",
     "2015-09-15",
     "2022-10-26",
-    "2024-01-04"
+    "2024-01-04",
+    "2026-05-27"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -1,5 +1,5 @@
 PRICE_ATLAS_PROBE_REPORT
-generated_at=2026-05-21T16:31:47.737033+00:00
+generated_at=2026-06-24T10:21:31.403323+00:00
 status=pass
 total_paths=18
 ok_paths=18
@@ -7,11 +7,11 @@ failed_paths=0
 
 PATH|exists|bytes
 atlas/manifest.json|true|2315
-atlas/source_manifest.json|true|3386
+atlas/source_manifest.json|true|3388
 atlas/schema.json|true|2691
-atlas/universe/all_symbols.csv|true|756190
-atlas/corporate_actions/corporate_action_candidates.csv|true|2024220
-atlas/index/by_code_prefix/005.json|true|93206
+atlas/universe/all_symbols.csv|true|758995
+atlas/corporate_actions/corporate_action_candidates.csv|true|2073216
+atlas/index/by_code_prefix/005.json|true|93203
 atlas/symbol_profiles/005/005930.json|true|8190
 atlas/ohlcv_raw_by_symbol_year/086/086520/2024.csv|true|28373
 atlas/ohlcv_tradable_by_symbol_year/086/086520/2024.csv|true|23797
@@ -27,20 +27,20 @@ diagnostics/atlas_size_report.md|true|164
 
 BUNDLE_PREVIEW_BEGIN
 CHATGPT_MARCAP_BUNDLE
-generated_at=2026-05-21T16:28:40.024733+00:00
+generated_at=2026-06-24T10:18:51.007932+00:00
 source_name=FinanceData/marcap
 source_repo_url=https://github.com/FinanceData/marcap
 price_adjustment_status=raw_unadjusted_marcap
 min_date=1995-05-02
-max_date=2026-02-20
-raw_row_count=15214118
-tradable_row_count=14354401
-non_tradable_zero_volume_row_count=852418
-invalid_zero_ohlc_row_count=673
-corporate_action_candidate_count=14435
-symbol_count=5414
-active_like_symbol_count=2868
-inactive_or_delisted_like_symbol_count=2546
+max_date=2026-06-22
+raw_row_count=15447330
+tradable_row_count=14573529
+non_tradable_zero_volume_row_count=865074
+invalid_zero_ohlc_row_count=674
+corporate_action_candidate_count=14720
+symbol_count=5432
+active_like_symbol_count=2855
+inactive_or_delisted_like_symbol_count=2577
 SELFTEST|005930|삼성전자|244|2024-01-02|2024-12-30|true|true|504|2.34|11.69|15.32|-8.18|-8.18|-19.22|true|usable_with_caveat|
 SELFTEST|000660|SK하이닉스|244|2024-01-02|2024-12-30|true|true|504|11.62|41.81|81.65|-5.7|-5.7|-5.7|true|usable_with_caveat|
 SELFTEST|298040|효성중공업|244|2024-01-02|2024-12-30|true|true|504|14.23|112.63|179.33|-7.03|-7.03|-7.03|true|clean_tradable_path|

@@ -5,7 +5,7 @@
     {
       "name": "조아제약",
       "first_date": "1999-08-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1999-08-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1999-08-13",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1999-08-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6534,
-  "raw_trading_day_count": 6538,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6615,
+  "raw_trading_day_count": 6619,
   "available_years": [
     1999,
     2000,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/034/034940/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/034/034940/2026.csv"
   ],
-  "latest_close": 997,
-  "latest_marcap": 30886887519,
+  "latest_close": 659,
+  "latest_marcap": 20415705993,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 997,
-  "raw_latest_marcap": 30886887519,
+  "raw_latest_close": 659,
+  "raw_latest_marcap": 20415705993,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6534,
+    "tradable_ohlcv": 6615,
     "non_tradable_zero_volume": 4,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

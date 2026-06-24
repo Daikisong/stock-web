@@ -1,11 +1,16 @@
 {
   "code": "000390",
-  "current_or_latest_name": "삼화페인트",
+  "current_or_latest_name": "SP삼화",
   "name_history": [
+    {
+      "name": "SP삼화",
+      "first_date": "2026-04-30",
+      "last_date": "2026-06-22"
+    },
     {
       "name": "삼화페인트",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-04-29"
     }
   ],
   "markets": [
@@ -15,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7756,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7837,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -194,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000390/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000390/2026.csv"
   ],
-  "latest_close": 9730,
-  "latest_marcap": 264689753370,
+  "latest_close": 6330,
+  "latest_marcap": 172197958770,
   "latest_market": "KOSPI",
-  "raw_latest_close": 9730,
-  "raw_latest_marcap": 264689753370,
+  "raw_latest_close": 6330,
+  "raw_latest_marcap": 172197958770,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7756,
+    "tradable_ohlcv": 7837,
     "non_tradable_zero_volume": 8,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

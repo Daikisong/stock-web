@@ -5,7 +5,7 @@
     {
       "name": "서울가스",
       "first_date": "1996-11-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "서울도시가스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-08-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-09-11",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-08-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7526,
-  "raw_trading_day_count": 7677,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7607,
+  "raw_trading_day_count": 7758,
   "available_years": [
     1995,
     1996,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/017/017390/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/017/017390/2026.csv"
   ],
-  "latest_close": 69700,
-  "latest_marcap": 348500000000,
+  "latest_close": 54700,
+  "latest_marcap": 270765000000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 69700,
-  "raw_latest_marcap": 348500000000,
+  "raw_latest_close": 54700,
+  "raw_latest_marcap": 270765000000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7526,
+    "tradable_ohlcv": 7607,
     "non_tradable_zero_volume": 151,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

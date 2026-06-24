@@ -5,12 +5,12 @@
     {
       "name": "DL이앤씨2우(전환)",
       "first_date": "2022-04-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "DL이앤씨우",
       "first_date": "2021-01-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "가드랜드",
@@ -51,15 +51,15 @@
     {
       "market": "KOSPI",
       "first_date": "2021-01-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-01-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-01-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3537,
-  "raw_trading_day_count": 4599,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3618,
+  "raw_trading_day_count": 4761,
   "available_years": [
     2002,
     2003,
@@ -150,14 +150,14 @@
     "atlas/ohlcv_min_by_symbol_year/037/037550/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/037/037550/2026.csv"
   ],
-  "latest_close": 38000,
-  "latest_marcap": 80254138000,
+  "latest_close": 49300,
+  "latest_marcap": 104119184300,
   "latest_market": "KOSPI",
-  "raw_latest_close": 26000,
-  "raw_latest_marcap": 54961010000,
+  "raw_latest_close": 24650,
+  "raw_latest_marcap": 52107265250,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4469,
+    "tradable_ohlcv": 4631,
     "non_tradable_zero_volume": 130,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

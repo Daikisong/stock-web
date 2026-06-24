@@ -5,7 +5,7 @@
     {
       "name": "알파칩스",
       "first_date": "2010-09-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "알파홀딩스",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-09-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-09-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-09-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3150,
-  "raw_trading_day_count": 3793,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3231,
+  "raw_trading_day_count": 3874,
   "available_years": [
     2010,
     2011,
@@ -121,14 +121,14 @@
     "atlas/ohlcv_min_by_symbol_year/117/117670/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/117/117670/2026.csv"
   ],
-  "latest_close": 17430,
-  "latest_marcap": 116114163060,
+  "latest_close": 11060,
+  "latest_marcap": 73678866520,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 17430,
-  "raw_latest_marcap": 116114163060,
+  "raw_latest_close": 11060,
+  "raw_latest_marcap": 73678866520,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3150,
+    "tradable_ohlcv": 3231,
     "non_tradable_zero_volume": 643,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

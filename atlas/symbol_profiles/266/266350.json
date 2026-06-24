@@ -5,7 +5,7 @@
     {
       "name": "팡스카이",
       "first_date": "2024-06-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2024-06-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-06-28",
   "last_date": "2025-04-07",
   "raw_first_date": "2024-06-28",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 183,
-  "raw_trading_day_count": 399,
+  "raw_trading_day_count": 480,
   "available_years": [
     2024,
     2025
@@ -54,7 +54,7 @@
   "raw_latest_market": "KONEX",
   "row_status_counts": {
     "tradable_ohlcv": 183,
-    "non_tradable_zero_volume": 216,
+    "non_tradable_zero_volume": 297,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

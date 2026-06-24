@@ -16,7 +16,7 @@
         2026
       ],
       "first_date": "2024-03-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -32,7 +32,7 @@
         2026
       ],
       "first_date": "2025-07-28",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -50,7 +50,7 @@
         2026
       ],
       "first_date": "2024-03-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -68,12 +68,12 @@
         2026
       ],
       "first_date": "2024-04-24",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
       "code": "475400",
-      "name": "씨메스",
+      "name": "씨메스로보틱스",
       "profile_path": "atlas/symbol_profiles/475/475400.json",
       "available_years": [
         2024,
@@ -86,7 +86,7 @@
         2026
       ],
       "first_date": "2024-10-24",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -102,7 +102,7 @@
         2026
       ],
       "first_date": "2025-06-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -118,7 +118,7 @@
         2026
       ],
       "first_date": "2025-01-23",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -136,7 +136,7 @@
         2026
       ],
       "first_date": "2024-11-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -154,7 +154,7 @@
         2026
       ],
       "first_date": "2024-11-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -172,7 +172,7 @@
         2026
       ],
       "first_date": "2024-11-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -188,7 +188,7 @@
         2026
       ],
       "first_date": "2025-02-14",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -206,7 +206,7 @@
         2026
       ],
       "first_date": "2024-11-07",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

@@ -5,7 +5,7 @@
     {
       "name": "DH오토웨어",
       "first_date": "2023-02-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "대성엘텍",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-12",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6554,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6629,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -194,15 +194,15 @@
     "atlas/ohlcv_min_by_symbol_year/025/025440/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/025/025440/2026.csv"
   ],
-  "latest_close": 985,
-  "latest_marcap": 48049505640,
+  "latest_close": 730,
+  "latest_marcap": 35610293520,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 985,
-  "raw_latest_marcap": 48049505640,
+  "raw_latest_close": 730,
+  "raw_latest_marcap": 35610293520,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6554,
-    "non_tradable_zero_volume": 868,
+    "tradable_ohlcv": 6629,
+    "non_tradable_zero_volume": 874,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

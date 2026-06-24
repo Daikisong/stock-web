@@ -5,7 +5,7 @@
     {
       "name": "베셀",
       "first_date": "2013-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-06-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-07-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2830,
-  "raw_trading_day_count": 3102,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2911,
+  "raw_trading_day_count": 3183,
   "available_years": [
     2013,
     2014,
@@ -110,14 +110,14 @@
     "atlas/ohlcv_min_by_symbol_year/177/177350/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/177/177350/2026.csv"
   ],
-  "latest_close": 1123,
-  "latest_marcap": 22071180341,
+  "latest_close": 690,
+  "latest_marcap": 13561099230,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1123,
-  "raw_latest_marcap": 22071180341,
+  "raw_latest_close": 690,
+  "raw_latest_marcap": 13561099230,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2830,
+    "tradable_ohlcv": 2911,
     "non_tradable_zero_volume": 272,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

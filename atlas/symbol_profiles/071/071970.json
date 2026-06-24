@@ -5,7 +5,7 @@
     {
       "name": "HD현대마린엔진",
       "first_date": "2024-08-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "STX메탈",
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "2009-05-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-05-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-05-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3768,
-  "raw_trading_day_count": 4134,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3849,
+  "raw_trading_day_count": 4215,
   "available_years": [
     2009,
     2010,
@@ -139,14 +139,14 @@
     "atlas/ohlcv_min_by_symbol_year/071/071970/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/071/071970/2026.csv"
   ],
-  "latest_close": 90200,
-  "latest_marcap": 3059718849000,
+  "latest_close": 65200,
+  "latest_marcap": 2211681474000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 90200,
-  "raw_latest_marcap": 3059718849000,
+  "raw_latest_close": 65200,
+  "raw_latest_marcap": 2211681474000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3768,
+    "tradable_ohlcv": 3849,
     "non_tradable_zero_volume": 366,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

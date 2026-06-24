@@ -5,7 +5,7 @@
     {
       "name": "마크로젠",
       "first_date": "2000-02-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-02-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-02-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-02-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6407,
-  "raw_trading_day_count": 6408,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6488,
+  "raw_trading_day_count": 6489,
   "available_years": [
     2000,
     2001,
@@ -169,14 +169,14 @@
     "atlas/ohlcv_min_by_symbol_year/038/038290/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/038/038290/2026.csv"
   ],
-  "latest_close": 18520,
-  "latest_marcap": 200782728000,
+  "latest_close": 12600,
+  "latest_marcap": 136601640000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 18520,
-  "raw_latest_marcap": 200782728000,
+  "raw_latest_close": 12600,
+  "raw_latest_marcap": 136601640000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6407,
+    "tradable_ohlcv": 6488,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

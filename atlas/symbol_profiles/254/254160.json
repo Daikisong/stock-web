@@ -5,7 +5,7 @@
     {
       "name": "제이엠멀티",
       "first_date": "2021-12-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2021-12-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-12-13",
-  "last_date": "2026-02-13",
+  "last_date": "2026-06-19",
   "raw_first_date": "2021-12-13",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 824,
-  "raw_trading_day_count": 1024,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 897,
+  "raw_trading_day_count": 1105,
   "available_years": [
     2021,
     2022,
@@ -64,15 +64,15 @@
     "atlas/ohlcv_min_by_symbol_year/254/254160/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/254/254160/2026.csv"
   ],
-  "latest_close": 3450,
-  "latest_marcap": 17802000000,
+  "latest_close": 3300,
+  "latest_marcap": 17028000000,
   "latest_market": "KONEX",
-  "raw_latest_close": 3450,
-  "raw_latest_marcap": 17802000000,
+  "raw_latest_close": 3395,
+  "raw_latest_marcap": 17518200000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 824,
-    "non_tradable_zero_volume": 200,
+    "tradable_ohlcv": 897,
+    "non_tradable_zero_volume": 208,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

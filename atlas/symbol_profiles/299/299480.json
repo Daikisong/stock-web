@@ -10,7 +10,7 @@
     {
       "name": "지앤이헬스케어",
       "first_date": "2018-11-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KONEX",
       "first_date": "2018-06-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2018-06-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2018-06-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1454,
-  "raw_trading_day_count": 1876,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1533,
+  "raw_trading_day_count": 1957,
   "available_years": [
     2018,
     2019,
@@ -84,15 +84,15 @@
     "atlas/ohlcv_min_by_symbol_year/299/299480/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/299/299480/2026.csv"
   ],
-  "latest_close": 500,
-  "latest_marcap": 5550371500,
+  "latest_close": 329,
+  "latest_marcap": 3652144447,
   "latest_market": "KONEX",
-  "raw_latest_close": 500,
-  "raw_latest_marcap": 5550371500,
+  "raw_latest_close": 329,
+  "raw_latest_marcap": 3652144447,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1454,
-    "non_tradable_zero_volume": 422,
+    "tradable_ohlcv": 1533,
+    "non_tradable_zero_volume": 424,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

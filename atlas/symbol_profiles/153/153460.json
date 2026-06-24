@@ -5,7 +5,7 @@
     {
       "name": "네이블",
       "first_date": "2012-07-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2012-07-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2012-07-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2012-07-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3306,
-  "raw_trading_day_count": 3337,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3387,
+  "raw_trading_day_count": 3418,
   "available_years": [
     2012,
     2013,
@@ -109,14 +109,14 @@
     "atlas/ohlcv_min_by_symbol_year/153/153460/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/153/153460/2026.csv"
   ],
-  "latest_close": 7490,
-  "latest_marcap": 48909804860,
+  "latest_close": 6730,
+  "latest_marcap": 43946994220,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 7490,
-  "raw_latest_marcap": 48909804860,
+  "raw_latest_close": 6730,
+  "raw_latest_marcap": 43946994220,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3306,
+    "tradable_ohlcv": 3387,
     "non_tradable_zero_volume": 31,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "제이엔케이글로벌",
       "first_date": "2024-05-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "제이엔케이히터",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2011-01-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-01-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2011-01-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3701,
-  "raw_trading_day_count": 3701,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3782,
+  "raw_trading_day_count": 3782,
   "available_years": [
     2011,
     2012,
@@ -119,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/126/126880/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/126/126880/2026.csv"
   ],
-  "latest_close": 3875,
-  "latest_marcap": 89918999125,
+  "latest_close": 3010,
+  "latest_marcap": 69846758030,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3875,
-  "raw_latest_marcap": 89918999125,
+  "raw_latest_close": 3010,
+  "raw_latest_marcap": 69846758030,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3701,
+    "tradable_ohlcv": 3782,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

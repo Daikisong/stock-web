@@ -1,6 +1,6 @@
 {
   "code": "182400",
-  "current_or_latest_name": "엔케이맥스",
+  "current_or_latest_name": "엔케이젠바이오텍코리아",
   "name_history": [
     {
       "name": "에이티젠",
@@ -10,7 +10,12 @@
     {
       "name": "엔케이맥스",
       "first_date": "2019-07-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-03-13"
+    },
+    {
+      "name": "엔케이젠바이오텍코리아",
+      "first_date": "2026-03-16",
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-10-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-10-23",
   "last_date": "2024-03-25",
   "raw_first_date": "2015-10-23",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 2071,
-  "raw_trading_day_count": 2533,
+  "raw_trading_day_count": 2614,
   "available_years": [
     2015,
     2016,
@@ -97,11 +102,11 @@
   "latest_marcap": 172748038620,
   "latest_market": "KOSDAQ",
   "raw_latest_close": 3670,
-  "raw_latest_marcap": 261959223450,
+  "raw_latest_marcap": 265496721770,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 2071,
-    "non_tradable_zero_volume": 462,
+    "non_tradable_zero_volume": 543,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

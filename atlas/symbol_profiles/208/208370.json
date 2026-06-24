@@ -5,7 +5,7 @@
     {
       "name": "셀바스헬스케어",
       "first_date": "2016-09-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "하나머스트2호스팩",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-12-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-12-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-12-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2682,
-  "raw_trading_day_count": 2742,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2763,
+  "raw_trading_day_count": 2823,
   "available_years": [
     2014,
     2015,
@@ -104,14 +104,14 @@
     "atlas/ohlcv_min_by_symbol_year/208/208370/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/208/208370/2026.csv"
   ],
-  "latest_close": 4930,
-  "latest_marcap": 126900980520,
+  "latest_close": 3000,
+  "latest_marcap": 77221692000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4930,
-  "raw_latest_marcap": 126900980520,
+  "raw_latest_close": 3000,
+  "raw_latest_marcap": 77221692000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2682,
+    "tradable_ohlcv": 2763,
     "non_tradable_zero_volume": 60,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

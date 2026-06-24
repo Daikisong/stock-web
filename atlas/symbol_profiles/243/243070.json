@@ -5,7 +5,7 @@
     {
       "name": "휴온스",
       "first_date": "2016-06-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -16,7 +16,7 @@
     {
       "market": "KOSDAQ",
       "first_date": "2016-06-03",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSDAQ GLOBAL",
@@ -25,11 +25,11 @@
     }
   ],
   "first_date": "2016-06-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-06-03",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2383,
-  "raw_trading_day_count": 2383,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2464,
+  "raw_trading_day_count": 2464,
   "available_years": [
     2016,
     2017,
@@ -95,14 +95,14 @@
     "atlas/ohlcv_min_by_symbol_year/243/243070/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/243/243070/2026.csv"
   ],
-  "latest_close": 29150,
-  "latest_marcap": 349207234750,
+  "latest_close": 27650,
+  "latest_marcap": 331237737250,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 29150,
-  "raw_latest_marcap": 349207234750,
+  "raw_latest_close": 27650,
+  "raw_latest_marcap": 331237737250,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2383,
+    "tradable_ohlcv": 2464,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

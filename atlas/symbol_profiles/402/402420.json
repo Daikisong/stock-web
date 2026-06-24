@@ -5,7 +5,7 @@
     {
       "name": "켈스",
       "first_date": "2021-11-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2021-11-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-11-30",
-  "last_date": "2026-01-30",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-11-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 655,
-  "raw_trading_day_count": 1033,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 707,
+  "raw_trading_day_count": 1114,
   "available_years": [
     2021,
     2022,
@@ -64,15 +64,15 @@
     "atlas/ohlcv_min_by_symbol_year/402/402420/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/402/402420/2026.csv"
   ],
-  "latest_close": 1900,
-  "latest_marcap": 4462649700,
+  "latest_close": 1600,
+  "latest_marcap": 3758020800,
   "latest_market": "KONEX",
-  "raw_latest_close": 1894,
-  "raw_latest_marcap": 4448557122,
+  "raw_latest_close": 1600,
+  "raw_latest_marcap": 3758020800,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 655,
-    "non_tradable_zero_volume": 378,
+    "tradable_ohlcv": 707,
+    "non_tradable_zero_volume": 407,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

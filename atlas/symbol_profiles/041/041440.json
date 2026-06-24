@@ -15,7 +15,7 @@
     {
       "name": "현대에버다임",
       "first_date": "2021-04-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2003-11-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2003-11-14",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2003-11-14",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5496,
-  "raw_trading_day_count": 5496,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5577,
+  "raw_trading_day_count": 5577,
   "available_years": [
     2003,
     2004,
@@ -164,14 +164,14 @@
     "atlas/ohlcv_min_by_symbol_year/041/041440/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/041/041440/2026.csv"
   ],
-  "latest_close": 8850,
-  "latest_marcap": 158556104400,
+  "latest_close": 7290,
+  "latest_marcap": 130066080480,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8850,
-  "raw_latest_marcap": 158556104400,
+  "raw_latest_close": 7290,
+  "raw_latest_marcap": 130066080480,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5496,
+    "tradable_ohlcv": 5577,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

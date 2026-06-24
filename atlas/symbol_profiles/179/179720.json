@@ -10,7 +10,7 @@
     {
       "name": "머니무브",
       "first_date": "2024-04-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "옐로페이",
@@ -25,15 +25,15 @@
     {
       "market": "KONEX",
       "first_date": "2013-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-07-01",
-  "last_date": "2026-02-13",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2086,
-  "raw_trading_day_count": 3102,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2142,
+  "raw_trading_day_count": 3183,
   "available_years": [
     2013,
     2014,
@@ -114,15 +114,15 @@
     "atlas/ohlcv_min_by_symbol_year/179/179720/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/179/179720/2026.csv"
   ],
-  "latest_close": 12500,
-  "latest_marcap": 30697550000,
+  "latest_close": 8400,
+  "latest_marcap": 23100151200,
   "latest_market": "KONEX",
-  "raw_latest_close": 12500,
-  "raw_latest_marcap": 30697550000,
+  "raw_latest_close": 8400,
+  "raw_latest_marcap": 23100151200,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 2086,
-    "non_tradable_zero_volume": 1016,
+    "tradable_ohlcv": 2142,
+    "non_tradable_zero_volume": 1041,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -74,7 +74,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-03-13",
       "status_inferred": "active_like"
     },
     {
@@ -452,7 +452,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -528,7 +528,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -705,7 +705,7 @@
         2026
       ],
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1018,7 +1018,8 @@
         2021,
         2022,
         2023,
-        2024
+        2024,
+        2026
       ],
       "raw_available_years": [
         1995,
@@ -1055,7 +1056,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2024-11-26",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1243,7 +1244,7 @@
         2026
       ],
       "first_date": "1997-09-30",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1339,7 +1340,7 @@
         2026
       ],
       "first_date": "1996-07-09",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1415,7 +1416,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1523,7 +1524,7 @@
         2026
       ],
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1637,7 +1638,7 @@
         2026
       ],
       "first_date": "1996-05-08",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {

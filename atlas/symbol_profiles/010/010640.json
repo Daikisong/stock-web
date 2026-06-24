@@ -5,7 +5,7 @@
     {
       "name": "진양폴리",
       "first_date": "2008-01-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한국폴리",
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7393,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7474,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -209,27 +209,28 @@
     "atlas/ohlcv_min_by_symbol_year/010/010640/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/010/010640/2026.csv"
   ],
-  "latest_close": 2920,
-  "latest_marcap": 29200000000,
+  "latest_close": 1929,
+  "latest_marcap": 32214300000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 2920,
-  "raw_latest_marcap": 29200000000,
+  "raw_latest_close": 1929,
+  "raw_latest_marcap": 32214300000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7393,
+    "tradable_ohlcv": 7474,
     "non_tradable_zero_volume": 371,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 5,
+  "corporate_action_candidate_count": 6,
   "corporate_action_candidate_dates": [
     "1997-01-03",
     "2008-01-30",
     "2008-05-08",
     "2008-06-03",
-    "2009-04-30"
+    "2009-04-30",
+    "2026-04-06"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

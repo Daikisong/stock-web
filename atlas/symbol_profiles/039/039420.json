@@ -10,7 +10,7 @@
     {
       "name": "케이엘넷",
       "first_date": "2009-06-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한국물류정보",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-03-12",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-03-12",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-03-12",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5897,
-  "raw_trading_day_count": 5910,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5978,
+  "raw_trading_day_count": 5991,
   "available_years": [
     2002,
     2003,
@@ -169,14 +169,14 @@
     "atlas/ohlcv_min_by_symbol_year/039/039420/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/039/039420/2026.csv"
   ],
-  "latest_close": 2765,
-  "latest_marcap": 66787828450,
+  "latest_close": 2560,
+  "latest_marcap": 58744304640,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2765,
-  "raw_latest_marcap": 66787828450,
+  "raw_latest_close": 2560,
+  "raw_latest_marcap": 58744304640,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5897,
+    "tradable_ohlcv": 5978,
     "non_tradable_zero_volume": 13,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

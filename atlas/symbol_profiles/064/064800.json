@@ -10,7 +10,7 @@
     {
       "name": "포니링크",
       "first_date": "2024-07-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "필링크",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-08-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-08-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-08-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5785,
-  "raw_trading_day_count": 5800,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5852,
+  "raw_trading_day_count": 5881,
   "available_years": [
     2002,
     2003,
@@ -169,24 +169,25 @@
     "atlas/ohlcv_min_by_symbol_year/064/064800/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/064/064800/2026.csv"
   ],
-  "latest_close": 809,
-  "latest_marcap": 103396104082,
+  "latest_close": 2395,
+  "latest_marcap": 61219694305,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 809,
-  "raw_latest_marcap": 103396104082,
+  "raw_latest_close": 2395,
+  "raw_latest_marcap": 61219694305,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5785,
-    "non_tradable_zero_volume": 15,
+    "tradable_ohlcv": 5852,
+    "non_tradable_zero_volume": 29,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 2,
+  "corporate_action_candidate_count": 3,
   "corporate_action_candidate_dates": [
     "2005-09-15",
-    "2016-05-23"
+    "2016-05-23",
+    "2026-05-19"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

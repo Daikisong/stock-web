@@ -36,7 +36,7 @@
         2026
       ],
       "first_date": "2014-11-14",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -84,8 +84,8 @@
         2026
       ],
       "first_date": "2019-09-03",
-      "last_date": "2026-02-20",
-      "status_inferred": "active_like"
+      "last_date": "2026-05-19",
+      "status_inferred": "inactive_or_delisted_like"
     },
     {
       "code": "149940",
@@ -155,7 +155,7 @@
         2026
       ],
       "first_date": "2012-11-06",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -175,7 +175,8 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "raw_available_years": [
         2013,
@@ -194,7 +195,7 @@
         2026
       ],
       "first_date": "2013-07-01",
-      "last_date": "2025-04-07",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     }
   ]

@@ -20,7 +20,7 @@
     {
       "name": "에쓰씨엔지니어링",
       "first_date": "2006-07-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "1997-06-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1997-06-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1997-06-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7108,
-  "raw_trading_day_count": 7137,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7189,
+  "raw_trading_day_count": 7218,
   "available_years": [
     1997,
     1998,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/023/023960/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/023/023960/2026.csv"
   ],
-  "latest_close": 1563,
-  "latest_marcap": 59450228925,
+  "latest_close": 1049,
+  "latest_marcap": 39899737775,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1563,
-  "raw_latest_marcap": 59450228925,
+  "raw_latest_close": 1049,
+  "raw_latest_marcap": 39899737775,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7108,
+    "tradable_ohlcv": 7189,
     "non_tradable_zero_volume": 29,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

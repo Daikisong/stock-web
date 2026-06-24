@@ -5,7 +5,7 @@
     {
       "name": "우진비앤지",
       "first_date": "2008-05-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2008-05-20",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2008-05-20",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2008-05-20",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4381,
-  "raw_trading_day_count": 4381,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4447,
+  "raw_trading_day_count": 4462,
   "available_years": [
     2008,
     2009,
@@ -129,25 +129,26 @@
     "atlas/ohlcv_min_by_symbol_year/018/018620/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/018/018620/2026.csv"
   ],
-  "latest_close": 791,
-  "latest_marcap": 22851430763,
+  "latest_close": 2320,
+  "latest_marcap": 13404630560,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 791,
-  "raw_latest_marcap": 22851430763,
+  "raw_latest_close": 2320,
+  "raw_latest_marcap": 13404630560,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4381,
-    "non_tradable_zero_volume": 0,
+    "tradable_ohlcv": 4447,
+    "non_tradable_zero_volume": 15,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2014-10-07",
     "2014-11-05",
-    "2019-03-08"
+    "2019-03-08",
+    "2026-05-21"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

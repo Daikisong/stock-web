@@ -5,7 +5,7 @@
     {
       "name": "드림어스컴퍼니",
       "first_date": "2019-04-11",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "레인콤",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2003-12-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2003-12-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2003-12-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5469,
-  "raw_trading_day_count": 5471,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5550,
+  "raw_trading_day_count": 5552,
   "available_years": [
     2003,
     2004,
@@ -164,14 +164,14 @@
     "atlas/ohlcv_min_by_symbol_year/060/060570/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/060/060570/2026.csv"
   ],
-  "latest_close": 1392,
-  "latest_marcap": 103149389616,
+  "latest_close": 801,
+  "latest_marcap": 59355359973,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1392,
-  "raw_latest_marcap": 103149389616,
+  "raw_latest_close": 801,
+  "raw_latest_marcap": 59355359973,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5469,
+    "tradable_ohlcv": 5550,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

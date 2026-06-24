@@ -5,7 +5,7 @@
     {
       "name": "경창산업",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6767,
-  "raw_trading_day_count": 7422,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6848,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -189,14 +189,14 @@
     "atlas/ohlcv_min_by_symbol_year/024/024910/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/024/024910/2026.csv"
   ],
-  "latest_close": 2045,
-  "latest_marcap": 73249865225,
+  "latest_close": 1558,
+  "latest_marcap": 55806009790,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2045,
-  "raw_latest_marcap": 73249865225,
+  "raw_latest_close": 1558,
+  "raw_latest_marcap": 55806009790,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6767,
+    "tradable_ohlcv": 6848,
     "non_tradable_zero_volume": 655,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

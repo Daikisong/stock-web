@@ -5,7 +5,7 @@
     {
       "name": "NHN벅스",
       "first_date": "2017-04-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "네오위즈벅스",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2009-10-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2009-10-06",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2009-10-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4033,
-  "raw_trading_day_count": 4033,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4114,
+  "raw_trading_day_count": 4114,
   "available_years": [
     2009,
     2010,
@@ -139,14 +139,14 @@
     "atlas/ohlcv_min_by_symbol_year/104/104200/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/104/104200/2026.csv"
   ],
-  "latest_close": 6280,
-  "latest_marcap": 93117014000,
+  "latest_close": 3065,
+  "latest_marcap": 45446440750,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6280,
-  "raw_latest_marcap": 93117014000,
+  "raw_latest_close": 3065,
+  "raw_latest_marcap": 45446440750,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4033,
+    "tradable_ohlcv": 4114,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

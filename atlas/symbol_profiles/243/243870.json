@@ -10,7 +10,7 @@
     {
       "name": "아이티센코어",
       "first_date": "2025-01-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KONEX",
       "first_date": "2016-10-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-10-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-10-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1905,
-  "raw_trading_day_count": 2283,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1986,
+  "raw_trading_day_count": 2364,
   "available_years": [
     2016,
     2017,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/243/243870/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/243/243870/2026.csv"
   ],
-  "latest_close": 9150,
-  "latest_marcap": 26467573650,
+  "latest_close": 9170,
+  "latest_marcap": 26525426270,
   "latest_market": "KONEX",
-  "raw_latest_close": 9150,
-  "raw_latest_marcap": 26467573650,
+  "raw_latest_close": 9170,
+  "raw_latest_marcap": 26525426270,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1905,
+    "tradable_ohlcv": 1986,
     "non_tradable_zero_volume": 378,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

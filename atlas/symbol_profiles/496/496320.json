@@ -5,7 +5,7 @@
     {
       "name": "본시스템즈",
       "first_date": "2025-09-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2025-09-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-09-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-09-08",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 0,
-  "raw_trading_day_count": 109,
+  "raw_trading_day_count": 190,
   "available_years": [],
   "raw_available_years": [
     2025,
@@ -38,12 +38,12 @@
   "latest_close": null,
   "latest_marcap": null,
   "latest_market": null,
-  "raw_latest_close": 401000,
-  "raw_latest_marcap": 401000000000,
+  "raw_latest_close": 1023000,
+  "raw_latest_marcap": 1039340379000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
     "tradable_ohlcv": 0,
-    "non_tradable_zero_volume": 109,
+    "non_tradable_zero_volume": 190,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

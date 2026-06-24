@@ -5,7 +5,7 @@
     {
       "name": "우리손에프앤지",
       "first_date": "2016-07-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2016-07-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2016-07-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2016-07-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2346,
-  "raw_trading_day_count": 2346,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2427,
+  "raw_trading_day_count": 2427,
   "available_years": [
     2016,
     2017,
@@ -89,14 +89,14 @@
     "atlas/ohlcv_min_by_symbol_year/073/073560/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/073/073560/2026.csv"
   ],
-  "latest_close": 1760,
-  "latest_marcap": 121858251680,
+  "latest_close": 1549,
+  "latest_marcap": 107249109007,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1760,
-  "raw_latest_marcap": 121858251680,
+  "raw_latest_close": 1549,
+  "raw_latest_marcap": 107249109007,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2346,
+    "tradable_ohlcv": 2427,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

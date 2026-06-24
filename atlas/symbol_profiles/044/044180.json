@@ -5,7 +5,7 @@
     {
       "name": "KD",
       "first_date": "2019-07-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "KD건설",
@@ -50,15 +50,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-11-16",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-11-16",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-23",
   "raw_first_date": "2000-11-16",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5756,
-  "raw_trading_day_count": 6229,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5767,
+  "raw_trading_day_count": 6310,
   "available_years": [
     2000,
     2001,
@@ -204,15 +204,15 @@
     "atlas/ohlcv_min_by_symbol_year/044/044180/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/044/044180/2026.csv"
   ],
-  "latest_close": 368,
-  "latest_marcap": 9832150032,
+  "latest_close": 205,
+  "latest_marcap": 5477148795,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 368,
-  "raw_latest_marcap": 9832150032,
+  "raw_latest_close": 205,
+  "raw_latest_marcap": 5477148795,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5756,
-    "non_tradable_zero_volume": 473,
+    "tradable_ohlcv": 5767,
+    "non_tradable_zero_volume": 543,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

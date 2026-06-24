@@ -10,7 +10,7 @@
     {
       "name": "테라사이언스",
       "first_date": "2020-07-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2004-01-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2004-01-06",
   "last_date": "2024-03-19",
   "raw_first_date": "2004-01-06",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 4978,
-  "raw_trading_day_count": 5462,
+  "raw_trading_day_count": 5543,
   "available_years": [
     2004,
     2005,
@@ -156,7 +156,7 @@
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 4978,
-    "non_tradable_zero_volume": 484,
+    "non_tradable_zero_volume": 565,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

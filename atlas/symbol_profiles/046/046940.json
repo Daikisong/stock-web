@@ -10,7 +10,7 @@
     {
       "name": "우원개발",
       "first_date": "2010-08-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "우원인프라",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-06-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-06-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-06-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5830,
-  "raw_trading_day_count": 5844,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5911,
+  "raw_trading_day_count": 5925,
   "available_years": [
     2002,
     2003,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/046/046940/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/046/046940/2026.csv"
   ],
-  "latest_close": 4505,
-  "latest_marcap": 81424946750,
+  "latest_close": 3065,
+  "latest_marcap": 55397882750,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 4505,
-  "raw_latest_marcap": 81424946750,
+  "raw_latest_close": 3065,
+  "raw_latest_marcap": 55397882750,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5830,
+    "tradable_ohlcv": 5911,
     "non_tradable_zero_volume": 14,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "파버나인",
       "first_date": "2014-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-08-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-08-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2833,
-  "raw_trading_day_count": 2833,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2914,
+  "raw_trading_day_count": 2914,
   "available_years": [
     2014,
     2015,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/177/177830/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/177/177830/2026.csv"
   ],
-  "latest_close": 2820,
-  "latest_marcap": 38052941820,
+  "latest_close": 2385,
+  "latest_marcap": 27012493305,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2820,
-  "raw_latest_marcap": 38052941820,
+  "raw_latest_close": 2385,
+  "raw_latest_marcap": 27012493305,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2833,
+    "tradable_ohlcv": 2914,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

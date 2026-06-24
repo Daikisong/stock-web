@@ -1,11 +1,16 @@
 {
   "code": "900110",
-  "current_or_latest_name": "이스트아시아홀딩스",
+  "current_or_latest_name": "딥커머스",
   "name_history": [
     {
       "name": "동아체육용품",
       "first_date": "2010-04-23",
       "last_date": "2010-10-05"
+    },
+    {
+      "name": "딥커머스",
+      "first_date": "2026-05-15",
+      "last_date": "2026-06-22"
     },
     {
       "name": "이스트아시아스포츠",
@@ -15,7 +20,7 @@
     {
       "name": "이스트아시아홀딩스",
       "first_date": "2012-07-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-05-14"
     }
   ],
   "markets": [
@@ -25,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-04-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-04-23",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-04-23",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3528,
-  "raw_trading_day_count": 3895,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3591,
+  "raw_trading_day_count": 3976,
   "available_years": [
     2010,
     2011,
@@ -129,21 +134,21 @@
     "atlas/ohlcv_min_by_symbol_year/900/900110/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/900/900110/2026.csv"
   ],
-  "latest_close": 930,
-  "latest_marcap": 24446670990,
+  "latest_close": 1385,
+  "latest_marcap": 17023839685,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 930,
-  "raw_latest_marcap": 24446670990,
+  "raw_latest_close": 1385,
+  "raw_latest_marcap": 17023839685,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3528,
-    "non_tradable_zero_volume": 367,
+    "tradable_ohlcv": 3591,
+    "non_tradable_zero_volume": 385,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 7,
+  "corporate_action_candidate_count": 9,
   "corporate_action_candidate_dates": [
     "2016-05-31",
     "2021-01-15",
@@ -151,7 +156,9 @@
     "2022-11-01",
     "2023-11-30",
     "2025-01-24",
-    "2025-09-25"
+    "2025-09-25",
+    "2026-03-20",
+    "2026-06-16"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

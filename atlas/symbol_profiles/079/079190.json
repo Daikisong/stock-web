@@ -15,7 +15,7 @@
     {
       "name": "케스피온",
       "first_date": "2022-04-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-11-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-11-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-11-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4241,
-  "raw_trading_day_count": 4989,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4306,
+  "raw_trading_day_count": 5070,
   "available_years": [
     2005,
     2006,
@@ -148,26 +148,27 @@
     "atlas/ohlcv_min_by_symbol_year/079/079190/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/079/079190/2026.csv"
   ],
-  "latest_close": 360,
-  "latest_marcap": 13807985040,
+  "latest_close": 655,
+  "latest_marcap": 12561430835,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 360,
-  "raw_latest_marcap": 13807985040,
+  "raw_latest_close": 655,
+  "raw_latest_marcap": 12561430835,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4241,
-    "non_tradable_zero_volume": 748,
+    "tradable_ohlcv": 4306,
+    "non_tradable_zero_volume": 764,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2009-12-02",
     "2009-12-22",
     "2013-11-26",
-    "2015-10-29"
+    "2015-10-29",
+    "2026-05-04"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

@@ -5,7 +5,7 @@
     {
       "name": "칩스앤미디어",
       "first_date": "2013-10-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -21,15 +21,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-08-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-10-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-10-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2795,
-  "raw_trading_day_count": 3022,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2876,
+  "raw_trading_day_count": 3103,
   "available_years": [
     2013,
     2014,
@@ -110,14 +110,14 @@
     "atlas/ohlcv_min_by_symbol_year/094/094360/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/094/094360/2026.csv"
   ],
-  "latest_close": 18770,
-  "latest_marcap": 399411972980,
+  "latest_close": 13530,
+  "latest_marcap": 288936857220,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 18770,
-  "raw_latest_marcap": 399411972980,
+  "raw_latest_close": 13530,
+  "raw_latest_marcap": 288936857220,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2795,
+    "tradable_ohlcv": 2876,
     "non_tradable_zero_volume": 227,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

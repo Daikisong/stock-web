@@ -5,7 +5,7 @@
     {
       "name": "화인베스틸",
       "first_date": "2014-07-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2014-07-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-07-22",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-07-22",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2842,
-  "raw_trading_day_count": 2842,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2923,
+  "raw_trading_day_count": 2923,
   "available_years": [
     2014,
     2015,
@@ -99,14 +99,14 @@
     "atlas/ohlcv_min_by_symbol_year/133/133820/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/133/133820/2026.csv"
   ],
-  "latest_close": 1534,
-  "latest_marcap": 56933646068,
+  "latest_close": 1040,
+  "latest_marcap": 38599082080,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1534,
-  "raw_latest_marcap": 56933646068,
+  "raw_latest_close": 1040,
+  "raw_latest_marcap": 38599082080,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2842,
+    "tradable_ohlcv": 2923,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

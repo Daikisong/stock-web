@@ -5,7 +5,7 @@
     {
       "name": "로지시스",
       "first_date": "2015-07-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2015-07-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-07-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-07-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2591,
-  "raw_trading_day_count": 2591,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2672,
+  "raw_trading_day_count": 2672,
   "available_years": [
     2015,
     2016,
@@ -94,14 +94,14 @@
     "atlas/ohlcv_min_by_symbol_year/067/067730/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/067/067730/2026.csv"
   ],
-  "latest_close": 2600,
-  "latest_marcap": 25152197200,
+  "latest_close": 2165,
+  "latest_marcap": 20944041130,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2600,
-  "raw_latest_marcap": 25152197200,
+  "raw_latest_close": 2165,
+  "raw_latest_marcap": 20944041130,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2591,
+    "tradable_ohlcv": 2672,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

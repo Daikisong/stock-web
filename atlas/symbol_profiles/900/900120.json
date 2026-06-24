@@ -5,7 +5,7 @@
     {
       "name": "씨엑스아이",
       "first_date": "2023-11-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "씨케이에이치",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-03-31",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-03-31",
-  "last_date": "2026-02-20",
+  "last_date": "2026-05-11",
   "raw_first_date": "2010-03-31",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3895,
-  "raw_trading_day_count": 3912,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3948,
+  "raw_trading_day_count": 3993,
   "available_years": [
     2010,
     2011,
@@ -129,25 +129,26 @@
     "atlas/ohlcv_min_by_symbol_year/900/900120/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/900/900120/2026.csv"
   ],
-  "latest_close": 442,
-  "latest_marcap": 13285540528,
+  "latest_close": 391,
+  "latest_marcap": 14603186473,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 442,
-  "raw_latest_marcap": 13285540528,
+  "raw_latest_close": 391,
+  "raw_latest_marcap": 14603186473,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3895,
-    "non_tradable_zero_volume": 17,
+    "tradable_ohlcv": 3948,
+    "non_tradable_zero_volume": 45,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 4,
   "corporate_action_candidate_dates": [
     "2022-08-11",
     "2023-12-27",
-    "2025-08-01"
+    "2025-08-01",
+    "2026-04-10"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

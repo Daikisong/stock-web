@@ -5,7 +5,7 @@
     {
       "name": "오리콤",
       "first_date": "2000-10-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-10-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-10-24",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-10-24",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6220,
-  "raw_trading_day_count": 6246,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6301,
+  "raw_trading_day_count": 6327,
   "available_years": [
     2000,
     2001,
@@ -169,14 +169,14 @@
     "atlas/ohlcv_min_by_symbol_year/010/010470/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/010/010470/2026.csv"
   ],
-  "latest_close": 6110,
-  "latest_marcap": 73167555500,
+  "latest_close": 4790,
+  "latest_marcap": 57360489500,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6110,
-  "raw_latest_marcap": 73167555500,
+  "raw_latest_close": 4790,
+  "raw_latest_marcap": 57360489500,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6220,
+    "tradable_ohlcv": 6301,
     "non_tradable_zero_volume": 26,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -64,7 +64,7 @@
         2026
       ],
       "first_date": "2000-01-11",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -164,7 +164,7 @@
         2026
       ],
       "first_date": "2006-08-08",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -220,7 +220,7 @@
         2026
       ],
       "first_date": "2005-10-25",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -310,7 +310,7 @@
         2026
       ],
       "first_date": "2000-03-23",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -473,7 +473,7 @@
         2026
       ],
       "first_date": "2000-02-22",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -624,7 +624,7 @@
         2026
       ],
       "first_date": "2000-02-25",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -690,7 +690,7 @@
         2026
       ],
       "first_date": "2000-02-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -824,7 +824,7 @@
         2026
       ],
       "first_date": "2000-06-22",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -904,7 +904,7 @@
         2026
       ],
       "first_date": "2001-02-01",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -929,7 +929,7 @@
     },
     {
       "code": "038530",
-      "name": "케이바이오",
+      "name": "케이바이오랩스",
       "profile_path": "atlas/symbol_profiles/038/038530.json",
       "available_years": [
         2000,
@@ -990,7 +990,7 @@
         2026
       ],
       "first_date": "2000-06-09",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1056,7 +1056,7 @@
         2026
       ],
       "first_date": "2000-08-18",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1138,7 +1138,7 @@
         2026
       ],
       "first_date": "2000-05-04",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1204,7 +1204,7 @@
         2026
       ],
       "first_date": "2000-04-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1408,7 +1408,7 @@
     },
     {
       "code": "038870",
-      "name": "에코바이오",
+      "name": "에코심플렉스",
       "profile_path": "atlas/symbol_profiles/038/038870.json",
       "available_years": [
         2001,
@@ -1467,7 +1467,7 @@
         2026
       ],
       "first_date": "2001-05-29",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {
@@ -1532,7 +1532,7 @@
         2026
       ],
       "first_date": "2000-04-27",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-09",
       "status_inferred": "active_like"
     },
     {
@@ -1646,7 +1646,7 @@
         2026
       ],
       "first_date": "2000-05-04",
-      "last_date": "2026-02-20",
+      "last_date": "2026-06-22",
       "status_inferred": "active_like"
     },
     {

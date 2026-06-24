@@ -5,7 +5,7 @@
     {
       "name": "지슨",
       "first_date": "2025-08-14",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "키움제8호스팩",
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2023-05-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2023-05-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2023-05-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 587,
-  "raw_trading_day_count": 672,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 668,
+  "raw_trading_day_count": 753,
   "available_years": [
     2023,
     2024,
@@ -59,14 +59,14 @@
     "atlas/ohlcv_min_by_symbol_year/446/446840/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/446/446840/2026.csv"
   ],
-  "latest_close": 1565,
-  "latest_marcap": 85798124895,
+  "latest_close": 986,
+  "latest_marcap": 54311919838,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1565,
-  "raw_latest_marcap": 85798124895,
+  "raw_latest_close": 986,
+  "raw_latest_marcap": 54311919838,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 587,
+    "tradable_ohlcv": 668,
     "non_tradable_zero_volume": 85,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

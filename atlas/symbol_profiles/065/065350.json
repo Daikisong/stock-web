@@ -5,7 +5,7 @@
     {
       "name": "신성델타테크",
       "first_date": "2004-08-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2004-08-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2004-08-06",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2004-08-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5315,
-  "raw_trading_day_count": 5317,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5396,
+  "raw_trading_day_count": 5398,
   "available_years": [
     2004,
     2005,
@@ -149,14 +149,14 @@
     "atlas/ohlcv_min_by_symbol_year/065/065350/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/065/065350/2026.csv"
   ],
-  "latest_close": 76400,
-  "latest_marcap": 2099773627200,
+  "latest_close": 39750,
+  "latest_marcap": 1092486933000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 76400,
-  "raw_latest_marcap": 2099773627200,
+  "raw_latest_close": 39750,
+  "raw_latest_marcap": 1092486933000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5315,
+    "tradable_ohlcv": 5396,
     "non_tradable_zero_volume": 2,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

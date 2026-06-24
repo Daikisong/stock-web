@@ -5,7 +5,7 @@
     {
       "name": "SK텔레콤",
       "first_date": "1997-04-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "한국이동통신",
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7739,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7820,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -204,14 +204,14 @@
     "atlas/ohlcv_min_by_symbol_year/017/017670/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/017/017670/2026.csv"
   ],
-  "latest_close": 80800,
-  "latest_marcap": 17355036282400,
+  "latest_close": 94200,
+  "latest_marcap": 20233222992600,
   "latest_market": "KOSPI",
-  "raw_latest_close": 80800,
-  "raw_latest_marcap": 17355036282400,
+  "raw_latest_close": 94200,
+  "raw_latest_marcap": 20233222992600,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7739,
+    "tradable_ohlcv": 7820,
     "non_tradable_zero_volume": 26,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

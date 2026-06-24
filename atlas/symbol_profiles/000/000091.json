@@ -10,7 +10,7 @@
     {
       "name": "신영스팩11호",
       "first_date": "2025-11-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "유 니 온(1신)",
@@ -31,7 +31,7 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-11-24",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSPI",
@@ -40,11 +40,11 @@
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 310,
-  "raw_trading_day_count": 379,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 391,
+  "raw_trading_day_count": 460,
   "available_years": [
     1995,
     1996,
@@ -75,14 +75,14 @@
     "atlas/ohlcv_min_by_symbol_year/000/000091/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000091/2026.csv"
   ],
-  "latest_close": 2085,
-  "latest_marcap": 12651780000,
+  "latest_close": 2020,
+  "latest_marcap": 12257360000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2085,
-  "raw_latest_marcap": 12651780000,
+  "raw_latest_close": 2020,
+  "raw_latest_marcap": 12257360000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 310,
+    "tradable_ohlcv": 391,
     "non_tradable_zero_volume": 69,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

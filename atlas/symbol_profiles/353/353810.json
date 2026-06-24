@@ -5,7 +5,7 @@
     {
       "name": "이지바이오",
       "first_date": "2020-06-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-06-05",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-06-05",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-06-05",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1389,
-  "raw_trading_day_count": 1401,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1470,
+  "raw_trading_day_count": 1482,
   "available_years": [
     2020,
     2021,
@@ -69,14 +69,14 @@
     "atlas/ohlcv_min_by_symbol_year/353/353810/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/353/353810/2026.csv"
   ],
-  "latest_close": 7800,
-  "latest_marcap": 258038976000,
+  "latest_close": 6100,
+  "latest_marcap": 201799712000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 7800,
-  "raw_latest_marcap": 258038976000,
+  "raw_latest_close": 6100,
+  "raw_latest_marcap": 201799712000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1389,
+    "tradable_ohlcv": 1470,
     "non_tradable_zero_volume": 12,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

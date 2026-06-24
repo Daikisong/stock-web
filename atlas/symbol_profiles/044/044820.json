@@ -10,7 +10,7 @@
     {
       "name": "코스맥스비티아이",
       "first_date": "2014-04-07",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSPI",
       "first_date": "2006-11-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-02-07",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-02-07",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5900,
-  "raw_trading_day_count": 5929,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5981,
+  "raw_trading_day_count": 6010,
   "available_years": [
     2002,
     2003,
@@ -170,14 +170,14 @@
     "atlas/ohlcv_min_by_symbol_year/044/044820/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/044/044820/2026.csv"
   ],
-  "latest_close": 14350,
-  "latest_marcap": 137816266350,
+  "latest_close": 16850,
+  "latest_marcap": 161826068850,
   "latest_market": "KOSPI",
-  "raw_latest_close": 14350,
-  "raw_latest_marcap": 137816266350,
+  "raw_latest_close": 16850,
+  "raw_latest_marcap": 161826068850,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 5900,
+    "tradable_ohlcv": 5981,
     "non_tradable_zero_volume": 29,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "에이피알",
       "first_date": "2024-02-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "2024-02-27",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-02-27",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-02-27",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 472,
-  "raw_trading_day_count": 481,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 553,
+  "raw_trading_day_count": 562,
   "available_years": [
     2024,
     2025,
@@ -49,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/278/278470/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/278/278470/2026.csv"
   ],
-  "latest_close": 288500,
-  "latest_marcap": 10799465217500,
+  "latest_close": 373000,
+  "latest_marcap": 13964431815000,
   "latest_market": "KOSPI",
-  "raw_latest_close": 288500,
-  "raw_latest_marcap": 10799465217500,
+  "raw_latest_close": 373000,
+  "raw_latest_marcap": 13964431815000,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 472,
+    "tradable_ohlcv": 553,
     "non_tradable_zero_volume": 9,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

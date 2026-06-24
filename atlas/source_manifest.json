@@ -1,7 +1,7 @@
 {
   "source_name": "FinanceData/marcap",
   "source_repo_url": "https://github.com/FinanceData/marcap",
-  "source_commit_hash": "1dd8aee4e7fafc000f5e08847a116984a14e409b",
+  "source_commit_hash": "80b16ca6598eb5c80606d41a33edb7ffc9ce0552",
   "source_data_files_loaded": [
     "data/marcap-1995.parquet",
     "data/marcap-1996.parquet",
@@ -70,7 +70,7 @@
     2025,
     2026
   ],
-  "generated_at": "2026-05-21T16:28:39.424646+00:00",
+  "generated_at": "2026-06-24T10:18:50.361126+00:00",
   "raw_row_count_by_year": {
     "1995": 198903,
     "1996": 353896,
@@ -103,7 +103,7 @@
     "2023": 669537,
     "2024": 687708,
     "2025": 696524,
-    "2026": 95412
+    "2026": 328624
   },
   "tradable_row_count_by_year": {
     "1995": 180264,
@@ -137,19 +137,19 @@
     "2023": 642170,
     "2024": 656019,
     "2025": 663560,
-    "2026": 91251
+    "2026": 310379
   },
   "min_date": "1995-05-02",
-  "max_date": "2026-02-20",
-  "raw_row_count": 15214118,
-  "tradable_row_count": 14354401,
+  "max_date": "2026-06-22",
+  "raw_row_count": 15447330,
+  "tradable_row_count": 14573529,
   "row_status_counts": {
-    "tradable_ohlcv": 14361018,
-    "non_tradable_zero_volume": 852418,
-    "invalid_zero_ohlc": 673,
+    "tradable_ohlcv": 14581573,
+    "non_tradable_zero_volume": 865074,
+    "invalid_zero_ohlc": 674,
     "invalid_missing_ohlc": 2,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 7
   },
-  "corporate_action_candidate_count": 14435
+  "corporate_action_candidate_count": 14720
 }

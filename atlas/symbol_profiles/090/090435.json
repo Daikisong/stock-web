@@ -15,7 +15,7 @@
     {
       "name": "아모레퍼시픽우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2006-06-29",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2006-06-29",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-06-29",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4820,
-  "raw_trading_day_count": 4844,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4901,
+  "raw_trading_day_count": 4925,
   "available_years": [
     2006,
     2007,
@@ -149,14 +149,14 @@
     "atlas/ohlcv_min_by_symbol_year/090/090435/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/090/090435/2026.csv"
   ],
-  "latest_close": 54500,
-  "latest_marcap": 575401735000,
+  "latest_close": 34750,
+  "latest_marcap": 366884592500,
   "latest_market": "KOSPI",
-  "raw_latest_close": 54500,
-  "raw_latest_marcap": 575401735000,
+  "raw_latest_close": 34750,
+  "raw_latest_marcap": 366884592500,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 4820,
+    "tradable_ohlcv": 4901,
     "non_tradable_zero_volume": 23,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "지니너스",
       "first_date": "2021-11-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2021-11-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-11-08",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2021-11-08",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1049,
-  "raw_trading_day_count": 1049,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1130,
+  "raw_trading_day_count": 1130,
   "available_years": [
     2021,
     2022,
@@ -64,14 +64,14 @@
     "atlas/ohlcv_min_by_symbol_year/389/389030/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/389/389030/2026.csv"
   ],
-  "latest_close": 3075,
-  "latest_marcap": 102556923375,
+  "latest_close": 2345,
+  "latest_marcap": 92374875495,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3075,
-  "raw_latest_marcap": 102556923375,
+  "raw_latest_close": 2345,
+  "raw_latest_marcap": 92374875495,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1049,
+    "tradable_ohlcv": 1130,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

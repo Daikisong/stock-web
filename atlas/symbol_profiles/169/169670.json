@@ -5,7 +5,7 @@
     {
       "name": "코스텍시스템",
       "first_date": "2022-01-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2022-01-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2022-01-21",
-  "last_date": "2026-02-19",
+  "last_date": "2026-06-22",
   "raw_first_date": "2022-01-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 987,
-  "raw_trading_day_count": 996,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1063,
+  "raw_trading_day_count": 1077,
   "available_years": [
     2022,
     2023,
@@ -59,15 +59,15 @@
     "atlas/ohlcv_min_by_symbol_year/169/169670/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/169/169670/2026.csv"
   ],
-  "latest_close": 6000,
-  "latest_marcap": 17210406000,
+  "latest_close": 5080,
+  "latest_marcap": 14571477080,
   "latest_market": "KONEX",
-  "raw_latest_close": 5990,
-  "raw_latest_marcap": 17181721990,
+  "raw_latest_close": 5080,
+  "raw_latest_marcap": 14571477080,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 987,
-    "non_tradable_zero_volume": 9,
+    "tradable_ohlcv": 1063,
+    "non_tradable_zero_volume": 14,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

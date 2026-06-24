@@ -5,7 +5,7 @@
     {
       "name": "티씨머티리얼즈",
       "first_date": "2025-05-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-05-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2025-05-15",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2025-05-15",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 188,
-  "raw_trading_day_count": 188,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 269,
+  "raw_trading_day_count": 269,
   "available_years": [
     2025,
     2026
@@ -44,14 +44,14 @@
     "atlas/ohlcv_min_by_symbol_year/125/125020/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/125/125020/2026.csv"
   ],
-  "latest_close": 5570,
-  "latest_marcap": 195164723500,
+  "latest_close": 6340,
+  "latest_marcap": 222144407000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 5570,
-  "raw_latest_marcap": 195164723500,
+  "raw_latest_close": 6340,
+  "raw_latest_marcap": 222144407000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 188,
+    "tradable_ohlcv": 269,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

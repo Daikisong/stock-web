@@ -5,7 +5,7 @@
     {
       "name": "상상인",
       "first_date": "2018-04-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "텍셀",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2000-08-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2000-08-18",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2000-08-18",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 6254,
-  "raw_trading_day_count": 6289,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 6335,
+  "raw_trading_day_count": 6370,
   "available_years": [
     2000,
     2001,
@@ -179,14 +179,14 @@
     "atlas/ohlcv_min_by_symbol_year/038/038540/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/038/038540/2026.csv"
   ],
-  "latest_close": 2135,
-  "latest_marcap": 118125948255,
+  "latest_close": 2060,
+  "latest_marcap": 113976324780,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2135,
-  "raw_latest_marcap": 118125948255,
+  "raw_latest_close": 2060,
+  "raw_latest_marcap": 113976324780,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 6254,
+    "tradable_ohlcv": 6335,
     "non_tradable_zero_volume": 35,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

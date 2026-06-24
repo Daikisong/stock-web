@@ -5,7 +5,7 @@
     {
       "name": "블루콤",
       "first_date": "2011-01-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2011-01-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-01-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2011-01-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3704,
-  "raw_trading_day_count": 3704,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3785,
+  "raw_trading_day_count": 3785,
   "available_years": [
     2011,
     2012,
@@ -114,14 +114,14 @@
     "atlas/ohlcv_min_by_symbol_year/033/033560/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/033/033560/2026.csv"
   ],
-  "latest_close": 3095,
-  "latest_marcap": 52924500000,
+  "latest_close": 3725,
+  "latest_marcap": 63697500000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3095,
-  "raw_latest_marcap": 52924500000,
+  "raw_latest_close": 3725,
+  "raw_latest_marcap": 63697500000,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3704,
+    "tradable_ohlcv": 3785,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

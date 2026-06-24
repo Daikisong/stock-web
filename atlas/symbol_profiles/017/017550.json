@@ -5,7 +5,7 @@
     {
       "name": "수산세보틱스",
       "first_date": "2025-04-23",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "수산중공업",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7687,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7768,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -199,14 +199,14 @@
     "atlas/ohlcv_min_by_symbol_year/017/017550/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/017/017550/2026.csv"
   ],
-  "latest_close": 1924,
-  "latest_marcap": 120055926120,
+  "latest_close": 2110,
+  "latest_marcap": 131662164300,
   "latest_market": "KOSPI",
-  "raw_latest_close": 1924,
-  "raw_latest_marcap": 120055926120,
+  "raw_latest_close": 2110,
+  "raw_latest_marcap": 131662164300,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7687,
+    "tradable_ohlcv": 7768,
     "non_tradable_zero_volume": 77,
     "invalid_zero_ohlc": 1,
     "invalid_missing_ohlc": 0,

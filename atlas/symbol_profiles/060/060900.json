@@ -20,7 +20,7 @@
     {
       "name": "에이전트AI",
       "first_date": "2025-11-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "엘 에너지",
@@ -65,15 +65,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-09-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-09-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-09-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4924,
-  "raw_trading_day_count": 5782,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 4988,
+  "raw_trading_day_count": 5863,
   "available_years": [
     2002,
     2003,
@@ -206,21 +206,21 @@
     "atlas/ohlcv_min_by_symbol_year/060/060900/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/060/060900/2026.csv"
   ],
-  "latest_close": 389,
-  "latest_marcap": 31050551052,
+  "latest_close": 4630,
+  "latest_marcap": 18478667990,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 389,
-  "raw_latest_marcap": 31050551052,
+  "raw_latest_close": 4630,
+  "raw_latest_marcap": 18478667990,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4924,
-    "non_tradable_zero_volume": 858,
+    "tradable_ohlcv": 4988,
+    "non_tradable_zero_volume": 875,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 20,
+  "corporate_action_candidate_count": 21,
   "corporate_action_candidate_dates": [
     "2003-09-30",
     "2005-10-12",
@@ -241,7 +241,8 @@
     "2019-12-18",
     "2023-06-01",
     "2025-11-28",
-    "2026-01-12"
+    "2026-01-12",
+    "2026-04-30"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

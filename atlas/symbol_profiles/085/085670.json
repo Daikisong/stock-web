@@ -5,7 +5,7 @@
     {
       "name": "뉴프렉스",
       "first_date": "2006-01-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2006-01-17",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2006-01-17",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2006-01-17",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 4955,
-  "raw_trading_day_count": 4955,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5036,
+  "raw_trading_day_count": 5036,
   "available_years": [
     2006,
     2007,
@@ -139,14 +139,14 @@
     "atlas/ohlcv_min_by_symbol_year/085/085670/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/085/085670/2026.csv"
   ],
-  "latest_close": 6190,
-  "latest_marcap": 151350210590,
+  "latest_close": 3710,
+  "latest_marcap": 90897823310,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 6190,
-  "raw_latest_marcap": 151350210590,
+  "raw_latest_close": 3710,
+  "raw_latest_marcap": 90897823310,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 4955,
+    "tradable_ohlcv": 5036,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

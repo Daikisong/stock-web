@@ -20,7 +20,7 @@
     {
       "name": "한국금융지주우",
       "first_date": "2008-08-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSPI",
       "first_date": "2003-07-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2003-07-21",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2003-07-21",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5572,
-  "raw_trading_day_count": 5575,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5653,
+  "raw_trading_day_count": 5656,
   "available_years": [
     2003,
     2004,
@@ -169,14 +169,14 @@
     "atlas/ohlcv_min_by_symbol_year/071/071055/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/071/071055/2026.csv"
   ],
-  "latest_close": 183200,
-  "latest_marcap": 1073231583200,
+  "latest_close": 155600,
+  "latest_marcap": 911543855600,
   "latest_market": "KOSPI",
-  "raw_latest_close": 183200,
-  "raw_latest_marcap": 1073231583200,
+  "raw_latest_close": 155600,
+  "raw_latest_marcap": 911543855600,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 5572,
+    "tradable_ohlcv": 5653,
     "non_tradable_zero_volume": 3,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

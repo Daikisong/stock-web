@@ -1,11 +1,16 @@
 {
   "code": "000010",
-  "current_or_latest_name": "제이피아이헬스케어",
+  "current_or_latest_name": "보원케미칼",
   "name_history": [
+    {
+      "name": "보원케미칼",
+      "first_date": "2026-04-03",
+      "last_date": "2026-06-22"
+    },
     {
       "name": "제이피아이헬스케어",
       "first_date": "2025-08-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "조흥은행",
@@ -21,7 +26,7 @@
     {
       "market": "KOSDAQ",
       "first_date": "2025-08-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "market": "KOSPI",
@@ -30,11 +35,11 @@
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2524,
-  "raw_trading_day_count": 2544,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2605,
+  "raw_trading_day_count": 2678,
   "available_years": [
     1995,
     1996,
@@ -105,25 +110,29 @@
     "atlas/ohlcv_min_by_symbol_year/000/000010/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/000/000010/2026.csv"
   ],
-  "latest_close": 14650,
-  "latest_marcap": 74794110000,
+  "latest_close": 7710,
+  "latest_marcap": 39362634000,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 14650,
-  "raw_latest_marcap": 74794110000,
+  "raw_latest_close": 2775,
+  "raw_latest_marcap": 30923492775,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2524,
+    "tradable_ohlcv": 2658,
     "non_tradable_zero_volume": 20,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 3,
+  "corporate_action_candidate_count": 7,
   "corporate_action_candidate_dates": [
     "1999-02-22",
     "1999-03-09",
-    "2025-08-21"
+    "2025-08-21",
+    "2026-04-03",
+    "2026-05-08",
+    "2026-05-13",
+    "2026-05-15"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

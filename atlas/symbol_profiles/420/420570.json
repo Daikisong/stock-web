@@ -5,7 +5,7 @@
     {
       "name": "제이투케이바이오",
       "first_date": "2024-03-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2024-03-25",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2024-03-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2024-03-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 463,
-  "raw_trading_day_count": 463,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 544,
+  "raw_trading_day_count": 544,
   "available_years": [
     2024,
     2025,
@@ -49,14 +49,14 @@
     "atlas/ohlcv_min_by_symbol_year/420/420570/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/420/420570/2026.csv"
   ],
-  "latest_close": 8420,
-  "latest_marcap": 49235806860,
+  "latest_close": 7360,
+  "latest_marcap": 43037474880,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 8420,
-  "raw_latest_marcap": 49235806860,
+  "raw_latest_close": 7360,
+  "raw_latest_marcap": 43037474880,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 463,
+    "tradable_ohlcv": 544,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

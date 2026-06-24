@@ -5,7 +5,7 @@
     {
       "name": "이화공영",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "1996-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1996-07-30",
   "last_date": "2025-04-01",
   "raw_first_date": "1996-07-01",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 6423,
-  "raw_trading_day_count": 7422,
+  "raw_trading_day_count": 7503,
   "available_years": [
     1996,
     1997,
@@ -190,11 +190,11 @@
   "latest_marcap": 36010355776,
   "latest_market": "KOSDAQ",
   "raw_latest_close": 2215,
-  "raw_latest_marcap": 36027920805,
+  "raw_latest_marcap": 62588831935,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 6423,
-    "non_tradable_zero_volume": 999,
+    "non_tradable_zero_volume": 1080,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

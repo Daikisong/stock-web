@@ -5,7 +5,7 @@
     {
       "name": "한국미라클피플사",
       "first_date": "2019-10-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2019-10-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2021-09-10",
-  "last_date": "2026-02-12",
+  "last_date": "2026-06-22",
   "raw_first_date": "2019-10-28",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 298,
-  "raw_trading_day_count": 1551,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 336,
+  "raw_trading_day_count": 1632,
   "available_years": [
     2021,
     2022,
@@ -68,24 +68,26 @@
     "atlas/ohlcv_min_by_symbol_year/331/331660/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/331/331660/2026.csv"
   ],
-  "latest_close": 15540,
-  "latest_marcap": 17094000000,
+  "latest_close": 3750,
+  "latest_marcap": 20625000000,
   "latest_market": "KONEX",
-  "raw_latest_close": 15540,
-  "raw_latest_marcap": 17094000000,
+  "raw_latest_close": 3750,
+  "raw_latest_marcap": 20625000000,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 298,
-    "non_tradable_zero_volume": 1246,
+    "tradable_ohlcv": 336,
+    "non_tradable_zero_volume": 1289,
     "invalid_zero_ohlc": 7,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 0,
-  "corporate_action_candidate_dates": [],
-  "has_major_raw_discontinuity": false,
-  "calibration_caveat": "",
+  "corporate_action_candidate_count": 1,
+  "corporate_action_candidate_dates": [
+    "2026-05-06"
+  ],
+  "has_major_raw_discontinuity": true,
+  "calibration_caveat": "Corporate-action candidate windows are blocked by default.",
   "status_inferred": "active_like",
   "status_inference_note": "Inferred only from FinanceData/marcap row presence, not an official listing/delisting status.",
   "price_data_source": "FinanceData/marcap",

@@ -5,7 +5,7 @@
     {
       "name": "누리플랜",
       "first_date": "2010-10-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2010-10-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2010-10-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2010-10-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3688,
-  "raw_trading_day_count": 3769,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3769,
+  "raw_trading_day_count": 3850,
   "available_years": [
     2010,
     2011,
@@ -119,14 +119,14 @@
     "atlas/ohlcv_min_by_symbol_year/069/069140/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/069/069140/2026.csv"
   ],
-  "latest_close": 2675,
-  "latest_marcap": 38526858700,
+  "latest_close": 1600,
+  "latest_marcap": 24153286400,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 2675,
-  "raw_latest_marcap": 38526858700,
+  "raw_latest_close": 1600,
+  "raw_latest_marcap": 24153286400,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3688,
+    "tradable_ohlcv": 3769,
     "non_tradable_zero_volume": 81,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

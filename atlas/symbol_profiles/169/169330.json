@@ -10,7 +10,7 @@
     {
       "name": "엠브레인",
       "first_date": "2020-10-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2020-07-01",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2020-07-01",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2020-07-01",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1383,
-  "raw_trading_day_count": 1383,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1464,
+  "raw_trading_day_count": 1464,
   "available_years": [
     2020,
     2021,
@@ -74,14 +74,14 @@
     "atlas/ohlcv_min_by_symbol_year/169/169330/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/169/169330/2026.csv"
   ],
-  "latest_close": 1923,
-  "latest_marcap": 35223433314,
+  "latest_close": 1700,
+  "latest_marcap": 31138760600,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1923,
-  "raw_latest_marcap": 35223433314,
+  "raw_latest_close": 1700,
+  "raw_latest_marcap": 31138760600,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 1383,
+    "tradable_ohlcv": 1464,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

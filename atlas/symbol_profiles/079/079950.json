@@ -20,7 +20,7 @@
     {
       "name": "인베니아",
       "first_date": "2016-03-22",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2005-02-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2005-02-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2005-02-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5172,
-  "raw_trading_day_count": 5191,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5253,
+  "raw_trading_day_count": 5272,
   "available_years": [
     2005,
     2006,
@@ -159,26 +159,27 @@
     "atlas/ohlcv_min_by_symbol_year/079/079950/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/079/079950/2026.csv"
   ],
-  "latest_close": 1528,
-  "latest_marcap": 8862400000,
+  "latest_close": 987,
+  "latest_marcap": 13619711700,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1528,
-  "raw_latest_marcap": 8862400000,
+  "raw_latest_close": 987,
+  "raw_latest_marcap": 13619711700,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5172,
+    "tradable_ohlcv": 5253,
     "non_tradable_zero_volume": 19,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
     "suspicious_ohlc_repaired_candidate": 0
   },
-  "corporate_action_candidate_count": 4,
+  "corporate_action_candidate_count": 5,
   "corporate_action_candidate_dates": [
     "2005-04-14",
     "2005-05-04",
     "2009-03-12",
-    "2025-12-12"
+    "2025-12-12",
+    "2026-02-23"
   ],
   "has_major_raw_discontinuity": true,
   "calibration_caveat": "Corporate-action candidate windows are blocked by default.",

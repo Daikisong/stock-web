@@ -10,7 +10,7 @@
     {
       "name": "클래시스",
       "first_date": "2017-12-28",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ GLOBAL",
       "first_date": "2022-11-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-04-03",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-04-03",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2608,
-  "raw_trading_day_count": 2671,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2689,
+  "raw_trading_day_count": 2752,
   "available_years": [
     2015,
     2016,
@@ -105,14 +105,14 @@
     "atlas/ohlcv_min_by_symbol_year/214/214150/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/214/214150/2026.csv"
   ],
-  "latest_close": 69500,
-  "latest_marcap": 4552643300500,
+  "latest_close": 46250,
+  "latest_marcap": 3017149228750,
   "latest_market": "KOSDAQ GLOBAL",
-  "raw_latest_close": 69500,
-  "raw_latest_marcap": 4552643300500,
+  "raw_latest_close": 46250,
+  "raw_latest_marcap": 3017149228750,
   "raw_latest_market": "KOSDAQ GLOBAL",
   "row_status_counts": {
-    "tradable_ohlcv": 2608,
+    "tradable_ohlcv": 2689,
     "non_tradable_zero_volume": 63,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -10,7 +10,7 @@
     {
       "name": "오상자이엘",
       "first_date": "2009-08-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "자이엘",
@@ -30,15 +30,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2002-04-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2002-04-09",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2002-04-09",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5891,
-  "raw_trading_day_count": 5891,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5972,
+  "raw_trading_day_count": 5972,
   "available_years": [
     2002,
     2003,
@@ -174,14 +174,14 @@
     "atlas/ohlcv_min_by_symbol_year/053/053980/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/053/053980/2026.csv"
   ],
-  "latest_close": 3320,
-  "latest_marcap": 63022839560,
+  "latest_close": 2590,
+  "latest_marcap": 49165407970,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 3320,
-  "raw_latest_marcap": 63022839560,
+  "raw_latest_close": 2590,
+  "raw_latest_marcap": 49165407970,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5891,
+    "tradable_ohlcv": 5972,
     "non_tradable_zero_volume": 0,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

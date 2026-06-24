@@ -5,7 +5,7 @@
     {
       "name": "디에이테크놀로지",
       "first_date": "2014-11-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2014-11-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-11-19",
   "last_date": "2024-04-11",
   "raw_first_date": "2014-11-19",
-  "raw_last_date": "2026-02-20",
+  "raw_last_date": "2026-06-22",
   "trading_day_count": 2284,
-  "raw_trading_day_count": 2762,
+  "raw_trading_day_count": 2843,
   "available_years": [
     2014,
     2015,
@@ -96,12 +96,12 @@
   "latest_close": 203,
   "latest_marcap": 34390100080,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 203,
-  "raw_latest_marcap": 36245520080,
+  "raw_latest_close": 6090,
+  "raw_latest_marcap": 69131518050,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
     "tradable_ohlcv": 2284,
-    "non_tradable_zero_volume": 478,
+    "non_tradable_zero_volume": 559,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

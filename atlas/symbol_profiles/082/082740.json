@@ -15,7 +15,7 @@
     {
       "name": "한화엔진",
       "first_date": "2024-03-15",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -25,15 +25,15 @@
     {
       "market": "KOSPI",
       "first_date": "2011-01-04",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2011-01-04",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2011-01-04",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3710,
-  "raw_trading_day_count": 3720,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3791,
+  "raw_trading_day_count": 3801,
   "available_years": [
     2011,
     2012,
@@ -124,14 +124,14 @@
     "atlas/ohlcv_min_by_symbol_year/082/082740/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/082/082740/2026.csv"
   ],
-  "latest_close": 57400,
-  "latest_marcap": 4789865950800,
+  "latest_close": 56100,
+  "latest_marcap": 4681384666200,
   "latest_market": "KOSPI",
-  "raw_latest_close": 57400,
-  "raw_latest_marcap": 4789865950800,
+  "raw_latest_close": 56100,
+  "raw_latest_marcap": 4681384666200,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 3710,
+    "tradable_ohlcv": 3791,
     "non_tradable_zero_volume": 10,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

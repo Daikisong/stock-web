@@ -5,7 +5,7 @@
     {
       "name": "남광토건",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KOSPI",
       "first_date": "1995-05-02",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "1995-05-02",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "1995-05-02",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 7561,
-  "raw_trading_day_count": 7765,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 7642,
+  "raw_trading_day_count": 7846,
   "available_years": [
     1995,
     1996,
@@ -194,14 +194,14 @@
     "atlas/ohlcv_min_by_symbol_year/001/001260/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/001/001260/2026.csv"
   ],
-  "latest_close": 8940,
-  "latest_marcap": 87903193680,
+  "latest_close": 7760,
+  "latest_marcap": 76300758720,
   "latest_market": "KOSPI",
-  "raw_latest_close": 8940,
-  "raw_latest_marcap": 87903193680,
+  "raw_latest_close": 7760,
+  "raw_latest_marcap": 76300758720,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 7561,
+    "tradable_ohlcv": 7642,
     "non_tradable_zero_volume": 204,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

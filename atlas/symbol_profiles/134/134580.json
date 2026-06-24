@@ -10,7 +10,7 @@
     {
       "name": "탑코미디어",
       "first_date": "2022-01-13",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -20,15 +20,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2013-11-26",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-11-26",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2013-11-26",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 3001,
-  "raw_trading_day_count": 3002,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 3082,
+  "raw_trading_day_count": 3083,
   "available_years": [
     2013,
     2014,
@@ -109,14 +109,14 @@
     "atlas/ohlcv_min_by_symbol_year/134/134580/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/134/134580/2026.csv"
   ],
-  "latest_close": 1902,
-  "latest_marcap": 93757471398,
+  "latest_close": 1100,
+  "latest_marcap": 54223563900,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1902,
-  "raw_latest_marcap": 93757471398,
+  "raw_latest_close": 1100,
+  "raw_latest_marcap": 54223563900,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 3001,
+    "tradable_ohlcv": 3082,
     "non_tradable_zero_volume": 1,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

@@ -5,7 +5,7 @@
     {
       "name": "듀오백",
       "first_date": "2018-04-18",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "듀오백코리아",
@@ -25,15 +25,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2004-02-06",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2004-02-06",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2004-02-06",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 5429,
-  "raw_trading_day_count": 5442,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 5510,
+  "raw_trading_day_count": 5523,
   "available_years": [
     2004,
     2005,
@@ -159,14 +159,14 @@
     "atlas/ohlcv_min_by_symbol_year/073/073190/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/073/073190/2026.csv"
   ],
-  "latest_close": 1371,
-  "latest_marcap": 16408182840,
+  "latest_close": 938,
+  "latest_marcap": 11226021520,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1371,
-  "raw_latest_marcap": 16408182840,
+  "raw_latest_close": 938,
+  "raw_latest_marcap": 11226021520,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 5429,
+    "tradable_ohlcv": 5510,
     "non_tradable_zero_volume": 13,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

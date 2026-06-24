@@ -5,7 +5,7 @@
     {
       "name": "BGF",
       "first_date": "2017-12-08",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     },
     {
       "name": "BGF리테일",
@@ -20,15 +20,15 @@
     {
       "market": "KOSPI",
       "first_date": "2014-05-19",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2014-05-19",
-  "last_date": "2026-02-20",
+  "last_date": "2026-06-22",
   "raw_first_date": "2014-05-19",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2857,
-  "raw_trading_day_count": 2886,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2938,
+  "raw_trading_day_count": 2967,
   "available_years": [
     2014,
     2015,
@@ -104,14 +104,14 @@
     "atlas/ohlcv_min_by_symbol_year/027/027410/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/027/027410/2026.csv"
   ],
-  "latest_close": 4360,
-  "latest_marcap": 417325208760,
+  "latest_close": 4010,
+  "latest_marcap": 383824331910,
   "latest_market": "KOSPI",
-  "raw_latest_close": 4360,
-  "raw_latest_marcap": 417325208760,
+  "raw_latest_close": 4010,
+  "raw_latest_marcap": 383824331910,
   "raw_latest_market": "KOSPI",
   "row_status_counts": {
-    "tradable_ohlcv": 2857,
+    "tradable_ohlcv": 2938,
     "non_tradable_zero_volume": 29,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,

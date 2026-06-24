@@ -5,7 +5,7 @@
     {
       "name": "볼빅",
       "first_date": "2015-12-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -15,15 +15,15 @@
     {
       "market": "KONEX",
       "first_date": "2015-12-30",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2015-12-30",
-  "last_date": "2026-01-21",
+  "last_date": "2026-06-22",
   "raw_first_date": "2015-12-30",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 1721,
-  "raw_trading_day_count": 2486,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 1772,
+  "raw_trading_day_count": 2567,
   "available_years": [
     2015,
     2016,
@@ -94,15 +94,15 @@
     "atlas/ohlcv_min_by_symbol_year/206/206950/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/206/206950/2026.csv"
   ],
-  "latest_close": 1795,
-  "latest_marcap": 25268690675,
+  "latest_close": 1451,
+  "latest_marcap": 20426111515,
   "latest_market": "KONEX",
-  "raw_latest_close": 1795,
-  "raw_latest_marcap": 25268690675,
+  "raw_latest_close": 1451,
+  "raw_latest_marcap": 20426111515,
   "raw_latest_market": "KONEX",
   "row_status_counts": {
-    "tradable_ohlcv": 1721,
-    "non_tradable_zero_volume": 765,
+    "tradable_ohlcv": 1772,
+    "non_tradable_zero_volume": 795,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,

@@ -10,7 +10,7 @@
     {
       "name": "엔지켐생명과학",
       "first_date": "2014-07-09",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "markets": [
@@ -26,15 +26,15 @@
     {
       "market": "KOSDAQ",
       "first_date": "2018-02-21",
-      "last_date": "2026-02-20"
+      "last_date": "2026-06-22"
     }
   ],
   "first_date": "2013-09-25",
-  "last_date": "2026-02-20",
+  "last_date": "2026-03-23",
   "raw_first_date": "2013-09-25",
-  "raw_last_date": "2026-02-20",
-  "trading_day_count": 2884,
-  "raw_trading_day_count": 3044,
+  "raw_last_date": "2026-06-22",
+  "trading_day_count": 2904,
+  "raw_trading_day_count": 3125,
   "available_years": [
     2013,
     2014,
@@ -115,15 +115,15 @@
     "atlas/ohlcv_min_by_symbol_year/183/183490/2025.csv",
     "atlas/ohlcv_min_by_symbol_year/183/183490/2026.csv"
   ],
-  "latest_close": 1137,
-  "latest_marcap": 96719543994,
+  "latest_close": 990,
+  "latest_marcap": 84214906380,
   "latest_market": "KOSDAQ",
-  "raw_latest_close": 1137,
-  "raw_latest_marcap": 96719543994,
+  "raw_latest_close": 990,
+  "raw_latest_marcap": 83793832650,
   "raw_latest_market": "KOSDAQ",
   "row_status_counts": {
-    "tradable_ohlcv": 2884,
-    "non_tradable_zero_volume": 160,
+    "tradable_ohlcv": 2904,
+    "non_tradable_zero_volume": 221,
     "invalid_zero_ohlc": 0,
     "invalid_missing_ohlc": 0,
     "invalid_ohlc_inconsistent": 0,
