@@ -54,5 +54,15 @@
     "Corporate-action-contaminated windows are blocked from calibration by default.",
     "Raw reference rows remain visible under atlas/ohlcv_raw_by_symbol_year with row_status.",
     "atlas/ohlcv_min_by_symbol_year is a backward-compatible copy of calibration-safe tradable shards."
-  ]
+  ],
+  "research_daily": {
+    "root": "atlas/research_daily",
+    "manifest_path": "atlas/research_daily/manifest.json",
+    "calendar_path": "atlas/research_daily/trading_calendar.csv",
+    "first_research_trade_date": "2016-01-04",
+    "max_trade_date": "2026-06-22",
+    "snapshot_count": 2567,
+    "access_manifest_count": 2566,
+    "validation_passed": true
+  }
 }

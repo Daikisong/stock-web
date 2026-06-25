@@ -12,6 +12,7 @@ data/raw/
 data/cache/
 *.duckdb
 *.duckdb.wal
+atlas/research_daily/**/*.tmp
 FinanceData_marcap/
 marcap/
 

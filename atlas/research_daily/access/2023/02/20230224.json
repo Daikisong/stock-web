@@ -1,0 +1,20 @@
+{
+  "schema_version": "stock_web.research_daily_access.v1",
+  "trade_date": "2023-02-24",
+  "previous_trade_date": "2023-02-23",
+  "next_trade_date": "2023-02-27",
+  "blind_snapshot_date": "2023-02-23",
+  "blind_snapshot_path": "atlas/research_daily/snapshots/2023/02/20230223.csv",
+  "outcome_snapshot_date": "2023-02-24",
+  "outcome_snapshot_path": "atlas/research_daily/snapshots/2023/02/20230224.csv",
+  "blind_snapshot_sha256": "7aa316356679f0c10bc1ca4d4790039601149d03667fb32572a53fcacda684c7",
+  "outcome_snapshot_sha256": "606baad2f91afb5a609f4722da23be907697de6505c8ea1448aa5fb254b7ddb7",
+  "blind_snapshot_row_count": 2496,
+  "outcome_snapshot_row_count": 2496,
+  "blind_snapshot_bytes": 841713,
+  "outcome_snapshot_bytes": 843674,
+  "blind_max_source_date": "2023-02-23",
+  "outcome_max_source_date": "2023-02-24",
+  "source_manifest_sha256": "c56adf5a5fd06821bf024ddbe8c24f99b8439afcc1d6e46a519046075b7622ba",
+  "build_status": "complete"
+}

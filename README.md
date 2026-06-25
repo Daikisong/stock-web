@@ -6,9 +6,27 @@ This repo commits compact plain-text artifacts generated from FinanceData/marcap
 
 ## What To Read First
 
-1. `atlas/manifest.json` for source, date range, row quality counts, and shard roots.
-2. `diagnostics/chatgpt_bundle.txt` or `.json` for a compact ChatGPT verification bundle.
-3. `atlas/research_packs/smoke/smoke_005930_000660_298040_267260_086520.json` for a ready E2R smoke pack.
+1. `atlas/research_daily/README_LLM.md` for historical market-wide BLIND/outcome research.
+2. `atlas/research_daily/access/YYYY/MM/YYYYMMDD.json` for the safe files for a trade date.
+3. `atlas/manifest.json` for source, date range, row quality counts, and shard roots.
+4. `diagnostics/chatgpt_bundle.txt` or `.json` for a compact ChatGPT verification bundle.
+5. `atlas/research_packs/smoke/smoke_005930_000660_298040_267260_086520.json` for a ready E2R smoke pack.
+
+## Date-Centered Research Daily Layer
+
+Use this when ChatGPT needs the whole KOSPI/KOSDAQ/KOSDAQ GLOBAL market for one historical trading date without opening thousands of symbol files.
+
+Example for `2026-06-22`:
+
+- Access manifest: `atlas/research_daily/access/2026/06/20260622.json`
+- BLIND snapshot before prediction sealing: `atlas/research_daily/snapshots/2026/06/20260619.csv`
+- OUTCOME snapshot after sealing: `atlas/research_daily/snapshots/2026/06/20260622.csv`
+
+Raw URL examples:
+
+- https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/access/2026/06/20260622.json
+- https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/snapshots/2026/06/20260619.csv
+- https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/snapshots/2026/06/20260622.csv
 
 ## Price Shards
 
@@ -33,3 +51,13 @@ This repo commits compact plain-text artifacts generated from FinanceData/marcap
 - Corporate-action-contaminated windows are blocked from calibration by default.
 
 This is a collector-generated research data access layer, not investment advice.
+
+## Rebuild Commands
+
+```bash
+python scripts/build_price_atlas.py
+python scripts/validate_price_atlas.py
+python scripts/build_research_daily.py --incremental --validate
+python scripts/validate_research_daily.py --full
+pytest -q
+```

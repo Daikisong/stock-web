@@ -1,0 +1,18 @@
+# Research Daily Build Report
+
+- start_date: 2016-01-01
+- end_date: 2026-06-22
+- seed_snapshot_date: 2015-12-30
+- trade_date_count: 2566
+- snapshot_count: 2567
+- access_manifest_count: 2566
+- total_snapshot_rows: 5990522
+- total_size_mb: 1926.07
+- largest_file_path: atlas/research_daily/trading_calendar.csv
+- largest_file_bytes: 1178160
+- ambiguous_name_count: 0
+- corporate_action_blocked_rows: 3716
+- upper_limit_verified_rows: 5985664
+- upper_limit_blocked_rows: 4858
+- snapshot_changed: 0
+- access_changed: 0

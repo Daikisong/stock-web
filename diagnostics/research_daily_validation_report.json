@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-06-25T09:36:14+00:00",
+  "ok": true,
+  "full": true,
+  "trade_date_count": 2566,
+  "snapshot_validation_count": 2567,
+  "access_manifest_count": 2566,
+  "total_rows_checked": 5990522,
+  "missing_dates": [],
+  "missing_files": [],
+  "failure_count": 0,
+  "failures": [],
+  "data_quality_status_counts": {
+    "clean": 5985664,
+    "blocked_by_corporate_action": 3716,
+    "blocked_no_reference": 1142
+  },
+  "upper_limit_label_status_counts": {
+    "verified_normal_day": 5985664,
+    "blocked_corporate_action": 3716,
+    "blocked_new_listing": 1142
+  },
+  "smoke_20260622": {
+    "ok": true,
+    "failures": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-06-25T09:34:03+00:00",
+  "total_size_bytes": 2019631033,
+  "total_size_mb": 1926.07,
+  "file_count": 5138,
+  "largest_file_path": "atlas/research_daily/trading_calendar.csv",
+  "largest_file_bytes": 1178160,
+  "files_over_50_mib": [],
+  "files_over_100_mib": []
+}
