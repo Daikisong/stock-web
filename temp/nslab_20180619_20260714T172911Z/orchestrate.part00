@@ -1,0 +1,236 @@
+from __future__ import annotations
+
+import argparse
+import csv
+import hashlib
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from typing import Any
+
+EXPECTED_PROMPT_SHA = "b5ba21ce1f6e3a91dacf19e33e16d5db9dface141e90a67e78c8588ba1553029"
+EXPECTED_PROMPT_BYTES = 430485
+EXPECTED_PROMPT_TITLE = "# NSLAB GOLD PHASE MACHINE — DIRECT CSV RESEARCH RUNNER"
+RUN_STAMP = "20260714T172911Z"
+RUN_ID = "NSLAB-WEB-20180619-20260714T172911Z"
+TRADE_DATE = "2018-06-19"
+PREVIOUS_TRADE_DATE = "2018-06-18"
+NEXT_TRADE_DATE = "2018-06-20"
+CUTOFF_AT = "2018-06-19T08:59:59+09:00"
+WINDOW_START = "2018-06-18T15:30:00+09:00"
+AVAILABLE_FROM = "2018-06-20T00:00:00+09:00"
+EXPECTED_NEWS_SHA = "3b5712940be4426bc6e31434d85a364074f33a300bead25b7e264cd66e87807a"
+EXPECTED_NEWS_BYTES = 2379689
+EXPECTED_NEWS_ROWS = 819
+EXPECTED_BLIND_SHA = "43cd5a9efcf00e8d972666c84c2d750081d20244ef329dd4a9daf1796abb5071"
+EXPECTED_BLIND_BYTES = 718749
+EXPECTED_BLIND_ROWS = 2124
+EXPECTED_OUTCOME_SHA = "a8e6067cb4ab0880bc331bb818dca1b4d2c05fe0ade4f27aa20850a9c33c065a"
+EXPECTED_OUTCOME_BYTES = 720527
+EXPECTED_OUTCOME_ROWS = 2124
+
+
+def sha256_bytes(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def sha256_file(path: Path) -> str:
+    return sha256_bytes(path.read_bytes())
+
+
+def canonical_json(value: Any) -> str:
+    return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+
+
+def read_csv(path: Path) -> list[dict[str, str]]:
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def read_json(path: Path) -> Any:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def read_jsonl(path: Path) -> list[dict[str, Any]]:
+    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+
+
+def write_json(path: Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = "\n".join(canonical_json(row) for row in rows)
+    path.write_text(payload + ("\n" if payload else ""), encoding="utf-8")
+
+
+def run(command: list[str], *, env: dict[str, str] | None = None, cwd: Path | None = None) -> None:
+    print("RUN", " ".join(command), flush=True)
+    subprocess.run(command, env=env, cwd=cwd, check=True)
+
+
+def now_kst() -> str:
+    return datetime.now(timezone(timedelta(hours=9))).isoformat()
+
+
+def patch_dates(text: str) -> str:
+    replacements = {
+        "2022-08-18": "__OLD_PREV_ISO__",
+        "2022-08-19": "__OLD_TRADE_ISO__",
+        "2022-08-22": "__OLD_NEXT_ISO__",
+        "20220818": "__OLD_PREV_COMPACT__",
+        "20220819": "__OLD_TRADE_COMPACT__",
+        "20220822": "__OLD_NEXT_COMPACT__",
+    }
+    restored = {
+        "__OLD_PREV_ISO__": PREVIOUS_TRADE_DATE,
+        "__OLD_TRADE_ISO__": TRADE_DATE,
+        "__OLD_NEXT_ISO__": NEXT_TRADE_DATE,
+        "__OLD_PREV_COMPACT__": PREVIOUS_TRADE_DATE.replace("-", ""),
+        "__OLD_TRADE_COMPACT__": TRADE_DATE.replace("-", ""),
+        "__OLD_NEXT_COMPACT__": NEXT_TRADE_DATE.replace("-", ""),
+    }
+    for old, placeholder in replacements.items():
+        text = text.replace(old, placeholder)
+    for placeholder, new in restored.items():
+        text = text.replace(placeholder, new)
+    return text
+
+
+def patch_pipeline(pipeline: Path, metadata: dict[str, Any]) -> None:
+    for path in sorted(pipeline.glob("*.py")):
+        path.write_text(patch_dates(path.read_text(encoding="utf-8")), encoding="utf-8")
+
+    common_path = pipeline / "common.py"
+    common = common_path.read_text(encoding="utf-8")
+    scalar_updates = {
+        "TRADE_DATE": TRADE_DATE,
+        "PREVIOUS_TRADE_DATE": PREVIOUS_TRADE_DATE,
+        "NEXT_TRADE_DATE": NEXT_TRADE_DATE,
+        "CUTOFF_AT": CUTOFF_AT,
+        "WINDOW_START": WINDOW_START,
+        "AVAILABLE_FROM": AVAILABLE_FROM,
+        "INPUT_SHA256": metadata["news_sha256"],
+        "PROMPT_SHA256": metadata["prompt_sha256"],
+        "BLIND_SNAPSHOT_SHA256": metadata["blind_snapshot_sha256"],
+        "OUTCOME_SNAPSHOT_SHA256": metadata["outcome_snapshot_sha256"],
+        "MODEL_NAME": "openai/gpt-4.1-mini",
+    }
+    int_updates = {
+        "INPUT_BYTE_SIZE": metadata["news_byte_size"],
+        "INPUT_ROW_COUNT": metadata["csv_row_count"],
+        "PROMPT_BYTE_SIZE": metadata["prompt_byte_size"],
+        "BLIND_SNAPSHOT_ROWS": metadata["blind_snapshot_row_count"],
+        "OUTCOME_SNAPSHOT_BYTES": metadata["outcome_snapshot_byte_size"],
+        "OUTCOME_SNAPSHOT_ROWS": metadata["outcome_snapshot_row_count"],
+    }
+    for name, value in scalar_updates.items():
+        common, count = re.subn(rf'^{name}\s*=\s*"[^"]*"', f'{name} = {json.dumps(value)}', common, flags=re.M)
+        if count != 1:
+            raise RuntimeError(f"failed scalar patch {name}: {count}")
+    for name, value in int_updates.items():
+        common, count = re.subn(rf"^{name}\s*=\s*\d+", f"{name} = {value}", common, flags=re.M)
+        if count != 1:
+            raise RuntimeError(f"failed int patch {name}: {count}")
+    common = common.replace('"max_tokens": max_tokens,', '"max_tokens": min(max_tokens, 6000),')
+    common = common.replace('"X-GitHub-Api-Version": "2022-11-28"', '"X-GitHub-Api-Version": "2026-03-10"')
+    common_path.write_text(common, encoding="utf-8")
+
+    blind_path = pipeline / "blind.py"
+    blind = blind_path.read_text(encoding="utf-8")
+    if "import os\n" not in blind:
+        blind = blind.replace("import json\n", "import json\nimport os\n", 1)
+    needle = (
+        "def review_rows(\n"
+        "    news_rows: list[dict[str, str]],\n"
+        "    snapshot_rows: list[dict[str, str]],\n"
+        "    token: str,\n"
+        "    output: Path,\n"
+        ") -> list[dict[str, Any]]:\n"
+    )
+    replacement = needle + (
+        "    precomputed = os.environ.get(\"NSLAB_PRECOMPUTED_REVIEWS\")\n"
+        "    if precomputed:\n"
+        "        rows = read_jsonl(Path(precomputed))\n"
+        "        if len(rows) != len(news_rows):\n"
+        "            raise RuntimeError(f\"precomputed semantic review count mismatch: {len(rows)} != {len(news_rows)}\")\n"
+        "        expected = [f\"SRC-NEWS-{index:06d}\" for index in range(1, len(news_rows) + 1)]\n"
+        "        if [row.get(\"source_id\") for row in rows] != expected:\n"
+        "            raise RuntimeError(\"precomputed semantic review source order mismatch\")\n"
+        "        if any(row.get(\"full_title_body_reviewed\") is not True for row in rows):\n"
+        "            raise RuntimeError(\"precomputed semantic review full-text flag missing\")\n"
+        "        return rows\n"
+    )
+    if needle not in blind:
+        raise RuntimeError("blind review_rows signature not found")
+    blind = blind.replace(needle, replacement, 1)
+    blind_path.write_text(blind, encoding="utf-8")
+
+    for path in pipeline.glob("*.py"):
+        compile(path.read_text(encoding="utf-8"), str(path), "exec")
+
+
+def verify_input_root(input_root: Path) -> tuple[dict[str, Any], dict[str, Path]]:
+    prompt_src = input_root / "new_bot" / "docs" / "research_prompt.md"
+    news_src = input_root / "new_bot" / "docs" / "csv" / "news_20180619.csv"
+    example_src = input_root / "new_bot" / "docs" / "example2.md"
+    stock = input_root / "stock"
+    access_src = stock / "atlas" / "research_daily" / "access" / "2018" / "06" / "20180619.json"
+    manifest_src = stock / "atlas" / "research_daily" / "manifest.json"
+    schema_src = stock / "atlas" / "research_daily" / "schema.json"
+    calendar_src = stock / "atlas" / "research_daily" / "trading_calendar.csv"
+    blind_src = stock / "atlas" / "research_daily" / "snapshots" / "2018" / "06" / "20180618.csv"
+    raw_receipt_src = input_root / "raw_download_receipt.json"
+
+    for path in (prompt_src, news_src, example_src, access_src, manifest_src, schema_src, calendar_src, blind_src, raw_receipt_src):
+        if not path.exists():
+            raise RuntimeError(f"required current-run input missing: {path}")
+
+    prompt_raw = prompt_src.read_bytes()
+    news_raw = news_src.read_bytes()
+    blind_raw = blind_src.read_bytes()
+    prompt_sha = sha256_bytes(prompt_raw)
+    news_sha = sha256_bytes(news_raw)
+    blind_sha = sha256_bytes(blind_raw)
+    if prompt_sha != EXPECTED_PROMPT_SHA or len(prompt_raw) != EXPECTED_PROMPT_BYTES:
+        raise RuntimeError("current-run Raw prompt provenance mismatch")
+    prompt_text = prompt_raw.decode("utf-8")
+    if prompt_text.splitlines()[0] != EXPECTED_PROMPT_TITLE or "nslab.gold_phase_machine.direct_csv_research.locked" not in prompt_text:
+        raise RuntimeError("current-run Raw prompt title/revision mismatch")
+    if news_sha != EXPECTED_NEWS_SHA or len(news_raw) != EXPECTED_NEWS_BYTES:
+        raise RuntimeError("current-run Raw news provenance mismatch")
+    news_rows = read_csv(news_src)
+    if len(news_rows) != EXPECTED_NEWS_ROWS or not news_rows or list(news_rows[0]) != ["page", "row", "date", "time", "title", "body"]:
+        raise RuntimeError("news CSV full parse/schema mismatch")
+    parsed_times: list[datetime] = []
+    for index, row in enumerate(news_rows, start=1):
+        try:
+            parsed_times.append(datetime.fromisoformat(f"{row['date']}T{row['time']}+09:00"))
+        except Exception as exc:  # noqa: BLE001
+            raise RuntimeError(f"time parse failure row {index}: {exc}") from exc
+    access = read_json(access_src)
+    expected_access = {
+        "trade_date": TRADE_DATE,
+        "previous_trade_date": PREVIOUS_TRADE_DATE,
+        "next_trade_date": NEXT_TRADE_DATE,
+        "blind_snapshot_path": "atlas/research_daily/snapshots/2018/06/20180618.csv",
+        "outcome_snapshot_path": "atlas/research_daily/snapshots/2018/06/20180619.csv",
+        "build_status": "complete",
+    }
+    for key, value in expected_access.items():
+        if access.get(key) != value:
+            raise RuntimeError(f"access routing mismatch {key}: {access.get(key)!r}")
+    blind_rows = read_csv(blind_src)
+    if blind_sha != EXPECTED_BLIND_SHA or len(blind_raw) != EXPECTED_BLIND_BYTES or len(blind_rows) != EXPECTED_BLIND_ROWS:
+        raise RuntimeError("blind snapshot provenance mismatch")
+    if blind_sha != access.get("blind_snapshot_sha256") or len(blind_raw) != access.get("blind_snapshot_bytes") or len(blind_rows) != access.get("blind_snapshot_row_count"):
+        raise RuntimeError("blind snapshot/access parity mismatch")
+    if access.get("outcome_snapshot_sha256") != EXPECTED_OUTCOME_SHA or access.get("outcome_snapshot_bytes") != EXPECTED_OUTCOME_BYTES or access.get("outcome_snapshot_row_count") != EXPECTED_OUTCOME_ROWS:
+        raise RuntimeError("outcome routing metadata mismatch")
