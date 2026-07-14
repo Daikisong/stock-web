@@ -1,0 +1,219 @@
+        raise RuntimeError("blind manifest hash mismatch")
+    if receipt.get("blind_packet_manifest_verified") is not True or receipt.get("preseal_outcome_access_all_zero") is not True:
+        raise RuntimeError("blind seal receipt not clean")
+    for key in (
+        "preseal_outcome_download_count",
+        "preseal_outcome_header_read_count",
+        "preseal_outcome_sha256_count",
+        "preseal_outcome_row_count_count",
+        "preseal_outcome_parse_count",
+        "preseal_outcome_winner_census_count",
+    ):
+        if int(receipt.get(key, -1)) != 0:
+            raise RuntimeError(f"preseal counter nonzero: {key}")
+    for name, info in manifest.get("files", {}).items():
+        path = artifacts / name
+        if not path.exists() or sha256_file(path) != info.get("sha256") or path.stat().st_size != info.get("byte_size"):
+            raise RuntimeError(f"sealed file mismatch: {name}")
+    write_json(blind_root / "seal_independent_verification.json", {"status": "PASSED", "manifest_sha256": digest, "verified_at_kst": now_kst()})
+
+
+def extract_blocks(text: str) -> dict[str, list[str]]:
+    pattern = re.compile(r"<!-- NSLAB:BEGIN ([^>]+) -->\n(.*?)\n<!-- NSLAB:END \1 -->", re.S)
+    blocks: dict[str, list[str]] = {}
+    for match in pattern.finditer(text):
+        blocks.setdefault(match.group(1), []).append(match.group(2))
+    return blocks
+
+
+def parse_front_matter(text: str) -> dict[str, Any]:
+    if not text.startswith("---\n"):
+        raise RuntimeError("bundle does not start with YAML front matter")
+    end = text.find("\n---\n", 4)
+    if end < 0:
+        raise RuntimeError("front matter closing delimiter missing")
+    out: dict[str, Any] = {}
+    for line in text[4:end].splitlines():
+        if ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        value = value.strip().strip('"').strip("'")
+        if value.lower() == "true":
+            parsed: Any = True
+        elif value.lower() == "false":
+            parsed = False
+        elif re.fullmatch(r"-?\d+", value):
+            parsed = int(value)
+        else:
+            parsed = value
+        out[key.strip()] = parsed
+    return out
+
+
+def validate_final(path: Path, metadata: dict[str, Any], required_blocks_path: Path) -> dict[str, Any]:
+    text = path.read_text(encoding="utf-8")
+    front = parse_front_matter(text)
+    if front.get("schema_version") != "nslab.research_bundle.v11" or front.get("artifact_type") != "research_episode_bundle":
+        raise RuntimeError("front matter contract mismatch")
+    if front.get("trade_date") != TRADE_DATE or front.get("bundle_status") != "ACCEPT_FULL":
+        raise RuntimeError("front matter date/status mismatch")
+    if front.get("brain_eligible") is not True or front.get("direct_brain_ingest_ready") is not True:
+        raise RuntimeError("front matter brain readiness mismatch")
+    if front.get("input_sha256") and front.get("input_sha256") != metadata["news_sha256"]:
+        raise RuntimeError("front matter input hash mismatch")
+    blocks = extract_blocks(text)
+    required = read_json(required_blocks_path)
+    missing = [name for name in required if len(blocks.get(name, [])) != 1]
+    if missing:
+        raise RuntimeError(f"required marker block mismatch: {missing}")
+    parsed: dict[str, Any] = {}
+    for name in required:
+        payload = blocks[name][0].strip()
+        if name.endswith(".jsonl"):
+            parsed[name] = [json.loads(line) for line in payload.splitlines() if line.strip()]
+        elif name.endswith(".json"):
+            parsed[name] = json.loads(payload)
+        else:
+            parsed[name] = payload
+    news_sources = [row for row in parsed["source_ledger.jsonl"] if row.get("source_type") == "NEWS_CSV_ROW"]
+    if len(news_sources) != metadata["csv_row_count"] or len(parsed["row_disposition.jsonl"]) != metadata["csv_row_count"]:
+        raise RuntimeError("phase 1 denominator reparse mismatch")
+    if len(parsed["material_review_queue.jsonl"]) != len(parsed["material_review.jsonl"]):
+        raise RuntimeError("material population reparse mismatch")
+    if len(parsed["candidate_screening.jsonl"]) != len(parsed["material_review.jsonl"]):
+        raise RuntimeError("candidate screening/material population mismatch")
+    if len(parsed["outcome_ledger.jsonl"]) != metadata["outcome_snapshot_row_count"]:
+        raise RuntimeError("outcome ledger reparse mismatch")
+    if len(parsed["outcome_leader_census.jsonl"]) != len(parsed["outcome_to_news_audit.jsonl"]):
+        raise RuntimeError("outcome reverse-audit parity mismatch")
+    brain = parsed["brain_delta.jsonl"]
+    if not brain:
+        raise RuntimeError("brain_delta payload empty")
+    if len(parsed["record_provenance_closure_audit.jsonl"]) != len(brain):
+        raise RuntimeError("brain provenance closure count mismatch")
+    if any(row.get("semantic_verdict") != "PASS" for row in parsed["final_evidence_witness.jsonl"]):
+        raise RuntimeError("final evidence semantic witness failure")
+    semantic_tests = parsed["semantic_regression_tests.jsonl"]
+    if len(semantic_tests) < 13 or any(row.get("passed") is not True for row in semantic_tests):
+        raise RuntimeError("semantic regression test failure")
+    validation = parsed["validation_report.json"]
+    manifest = parsed["bundle_manifest.json"]
+    contract = parsed["direct_ingest_contract.json"]
+    if validation.get("status") != "passed":
+        raise RuntimeError("validation report status mismatch")
+    for key in (
+        "brain_delta_payload_missing_count",
+        "brain_delta_manifest_payload_count_mismatch_count",
+        "brain_delta_declared_without_payload_count",
+    ):
+        if validation.get(key) != 0:
+            raise RuntimeError(f"validation report hard gate mismatch: {key}")
+    if manifest.get("files", {}).get("brain_delta.jsonl", {}).get("row_count") != len(brain):
+        raise RuntimeError("bundle manifest brain count mismatch")
+    if contract.get("brain_delta_count") != len(brain) or contract.get("direct_brain_ingest_ready") is not True:
+        raise RuntimeError("direct ingest contract mismatch")
+    if contract.get("automated_import_expected_to_pass") is not True or contract.get("brain_eligible") is not True or contract.get("fatal_blockers") != []:
+        raise RuntimeError("direct ingest readiness mismatch")
+    report = {
+        "status": "ACCEPT_FULL_REOPEN_REPARSE_PASSED",
+        "path": str(path),
+        "sha256": sha256_file(path),
+        "byte_size": path.stat().st_size,
+        "csv_row_count": metadata["csv_row_count"],
+        "row_disposition_count": len(parsed["row_disposition.jsonl"]),
+        "material_review_count": len(parsed["material_review.jsonl"]),
+        "candidate_screening_count": len(parsed["candidate_screening.jsonl"]),
+        "final_watchlist_count": len(parsed["blind_prediction.json"].get("final_watchlist", [])),
+        "outcome_ledger_count": len(parsed["outcome_ledger.jsonl"]),
+        "outcome_leader_census_count": len(parsed["outcome_leader_census.jsonl"]),
+        "outcome_to_news_audit_count": len(parsed["outcome_to_news_audit.jsonl"]),
+        "parsed_brain_delta_jsonl_row_count": len(brain),
+        "brain_delta_payload_missing_count": 0,
+        "brain_delta_manifest_payload_count_mismatch_count": 0,
+        "brain_delta_declared_without_payload_count": 0,
+        "validated_at_kst": now_kst(),
+    }
+    write_json(path.parent / "independent_final_validation_receipt.json", report)
+    return report
+
+
+def postmortem(args: argparse.Namespace) -> None:
+    blind_root = Path(args.blind_root).resolve()
+    verify_seal(blind_root)
+    metadata = read_json(blind_root / "metadata.json")
+    outcome_src = Path(args.stock).resolve() / "atlas" / "research_daily" / "snapshots" / "2018" / "06" / "20180619.csv"
+    if not outcome_src.exists():
+        raise RuntimeError("post-seal outcome snapshot missing")
+    outcome_raw = outcome_src.read_bytes()
+    outcome_rows = read_csv(outcome_src)
+    if sha256_bytes(outcome_raw) != metadata["outcome_snapshot_sha256"] or len(outcome_raw) != metadata["outcome_snapshot_byte_size"] or len(outcome_rows) != metadata["outcome_snapshot_row_count"]:
+        raise RuntimeError("post-seal outcome snapshot provenance mismatch")
+    post_root = Path(args.output).resolve()
+    post_root.mkdir(parents=True, exist_ok=True)
+    outcome_name = f"outcome_snapshot_20180619_{RUN_STAMP}_{metadata['outcome_snapshot_sha256'][:8]}.csv"
+    outcome_path = post_root / outcome_name
+    shutil.copyfile(outcome_src, outcome_path)
+    write_json(
+        post_root / "outcome_receipt.json",
+        {
+            "sha256": sha256_bytes(outcome_raw),
+            "byte_size": len(outcome_raw),
+            "row_count": len(outcome_rows),
+            "opened_after_verified_blind_seal": True,
+            "verified_at_kst": now_kst(),
+        },
+    )
+    env = os.environ.copy()
+    token = env.get("GITHUB_TOKEN", "") or env.get("GITHUB_MODELS_TOKEN", "")
+    if not token:
+        raise RuntimeError("GITHUB_TOKEN missing")
+    run(
+        [
+            sys.executable,
+            str(blind_root / "pipeline" / "postmortem.py"),
+            "--blind-dir",
+            str(blind_root / "blind_output"),
+            "--outcome",
+            str(outcome_path),
+            "--output",
+            str(post_root),
+            "--token",
+            token,
+            "--run-id",
+            RUN_ID,
+        ],
+        env=env,
+    )
+    final_path = post_root / "20180619_nslab_episode_bundle.md"
+    if not final_path.exists():
+        raise RuntimeError("final bundle missing")
+    report = validate_final(final_path, metadata, Path(args.required_blocks).resolve())
+    print(json.dumps(report, ensure_ascii=False, sort_keys=True), flush=True)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    sub = parser.add_subparsers(dest="command", required=True)
+    blind_parser = sub.add_parser("blind")
+    blind_parser.add_argument("--input-root", required=True)
+    blind_parser.add_argument("--pipeline-source", required=True)
+    blind_parser.add_argument("--reviews", required=True)
+    blind_parser.add_argument("--work", required=True)
+    post_parser = sub.add_parser("postmortem")
+    post_parser.add_argument("--blind-root", required=True)
+    post_parser.add_argument("--stock", required=True)
+    post_parser.add_argument("--output", required=True)
+    post_parser.add_argument("--required-blocks", required=True)
+    verify_parser = sub.add_parser("verify-seal")
+    verify_parser.add_argument("--blind-root", required=True)
+    args = parser.parse_args()
+    if args.command == "blind":
+        prepare_blind(args)
+    elif args.command == "postmortem":
+        postmortem(args)
+    elif args.command == "verify-seal":
+        verify_seal(Path(args.blind_root).resolve())
+
+
+if __name__ == "__main__":
+    main()
