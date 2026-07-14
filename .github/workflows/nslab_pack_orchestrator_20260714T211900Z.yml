@@ -1,0 +1,29 @@
+name: NSLAB pack orchestrator 20260714T211900Z
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  pack:
+    if: github.head_ref == 'nslab-pack-orchestrator-20260714T211900Z'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: Daikisong/stock-web
+          ref: nslab-gold-20180619-20260714T172911Z
+          path: src
+          sparse-checkout: temp/nslab_20180619_20260714T172911Z
+          sparse-checkout-cone-mode: false
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nslab-orchestrator-scripts-20260714T211900Z
+          path: src/temp/nslab_20180619_20260714T172911Z/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
