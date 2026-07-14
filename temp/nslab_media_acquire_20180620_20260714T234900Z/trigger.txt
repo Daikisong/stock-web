@@ -1,1 +1,1 @@
-Trigger media-endpoint acquisition for current news_20180620.csv.
+Trigger expanded current-byte transport probe for news_20180620.csv.
