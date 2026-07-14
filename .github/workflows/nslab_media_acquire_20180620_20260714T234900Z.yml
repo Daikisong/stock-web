@@ -18,33 +18,75 @@ jobs:
   acquire:
     if: github.head_ref == 'nslab-media-acquire-20180620-20260714T234900Z'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
-      - name: Download current main bytes from GitHub media endpoints
+      - name: Probe exact-byte current main transport fallbacks
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p current_inputs/docs/csv
-          curl -fL --retry 3 --connect-timeout 30 --max-time 180 'https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/research_prompt.md' -o current_inputs/docs/research_prompt.md
-          curl -fL --retry 3 --connect-timeout 30 --max-time 180 'https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/csv/news_20180620.csv' -o current_inputs/docs/csv/news_20180620.csv
-          curl -fL --retry 3 --connect-timeout 30 --max-time 180 'https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/example2.md' -o current_inputs/docs/example2.md
+          mkdir -p current_inputs/docs/csv diagnostics
+          python - <<'PY'
+          import hashlib,json,urllib.request,urllib.error
+          from pathlib import Path
+          expected={
+            'prompt':('b5ba21ce1f6e3a91dacf19e33e16d5db9dface141e90a67e78c8588ba1553029','docs/research_prompt.md'),
+            'news':('78b4f43f6c589d55b8ef5b4d591710f632d787e94ff282d734e7c3bb37dc9f9d','docs/csv/news_20180620.csv'),
+          }
+          bases=[
+            'https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/{path}',
+            'https://media.githubusercontent.com/media/Daikisong/new_bot/main/{path}',
+            'https://github.com/Daikisong/new_bot/raw/refs/heads/main/{path}',
+            'https://cdn.jsdelivr.net/gh/Daikisong/new_bot@main/{path}',
+            'https://r.jina.ai/http://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/{path}',
+            'https://r.jina.ai/http://github.com/Daikisong/new_bot/raw/refs/heads/main/{path}',
+            'https://r.jina.ai/http://media.githubusercontent.com/media/Daikisong/new_bot/main/{path}',
+            'https://ghproxy.net/https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/{path}',
+            'https://raw.gitmirror.com/Daikisong/new_bot/main/{path}',
+          ]
+          report=[]; resolved={}
+          def variants(data):
+              yield ('raw',data)
+              markers=[b'Markdown Content:\n',b'Markdown Content:\r\n']
+              for marker in markers:
+                  if marker in data: yield ('after_markdown_marker',data.split(marker,1)[1])
+              if data.startswith(b'```') and data.rstrip().endswith(b'```'):
+                  lines=data.splitlines(keepends=True); yield ('fence_body',b''.join(lines[1:-1]))
+          for key,(want,path) in expected.items():
+              for idx,tmpl in enumerate(bases):
+                  url=tmpl.format(path=path)
+                  try:
+                      req=urllib.request.Request(url,headers={'User-Agent':'nslab-current-run-transport-probe','Cache-Control':'no-cache'})
+                      with urllib.request.urlopen(req,timeout=120) as r: data=r.read(); final=r.geturl(); status=r.status
+                      row={'key':key,'index':idx,'url':url,'final_url':final,'status':status,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()}
+                      for variant_name,candidate in variants(data):
+                          sha=hashlib.sha256(candidate).hexdigest(); row[f'{variant_name}_sha256']=sha; row[f'{variant_name}_bytes']=len(candidate)
+                          if sha==want and key not in resolved:
+                              resolved[key]=candidate; row['matched_variant']=variant_name
+                      report.append(row)
+                  except Exception as e:
+                      report.append({'key':key,'index':idx,'url':url,'error':type(e).__name__+': '+str(e)[:500]})
+          Path('diagnostics/transport_probe.json').write_text(json.dumps({'report':report,'resolved_keys':sorted(resolved)},indent=2,sort_keys=True)+'\n')
+          for row in report: print(json.dumps(row,sort_keys=True),flush=True)
+          if sorted(resolved)!=['news','prompt']: raise RuntimeError(f'exact current bytes unresolved: {sorted(resolved)}')
+          Path('current_inputs/docs/research_prompt.md').write_bytes(resolved['prompt']); Path('current_inputs/docs/csv/news_20180620.csv').write_bytes(resolved['news'])
+          PY
           python - <<'PY'
           import csv,hashlib,json
           from pathlib import Path
-          r=Path('current_inputs'); p=(r/'docs/research_prompt.md').read_bytes(); n=(r/'docs/csv/news_20180620.csv').read_bytes(); e=(r/'docs/example2.md').read_bytes()
-          ps=hashlib.sha256(p).hexdigest(); ns=hashlib.sha256(n).hexdigest(); es=hashlib.sha256(e).hexdigest()
-          assert ps=='b5ba21ce1f6e3a91dacf19e33e16d5db9dface141e90a67e78c8588ba1553029' and len(p)==430485
-          assert ns=='78b4f43f6c589d55b8ef5b4d591710f632d787e94ff282d734e7c3bb37dc9f9d'
+          r=Path('current_inputs'); p=(r/'docs/research_prompt.md').read_bytes(); n=(r/'docs/csv/news_20180620.csv').read_bytes()
+          assert hashlib.sha256(p).hexdigest()=='b5ba21ce1f6e3a91dacf19e33e16d5db9dface141e90a67e78c8588ba1553029' and len(p)==430485
+          assert hashlib.sha256(n).hexdigest()=='78b4f43f6c589d55b8ef5b4d591710f632d787e94ff282d734e7c3bb37dc9f9d'
           with (r/'docs/csv/news_20180620.csv').open(encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
           assert len(rows)==826
-          receipt={'status':'MEDIA_ENDPOINT_CURRENT_BYTES_VERIFIED','prompt_sha256':ps,'prompt_bytes':len(p),'news_sha256':ns,'news_bytes':len(n),'news_rows':len(rows),'example_sha256':es,'example_bytes':len(e)}
-          (r/'verification.json').write_text(json.dumps(receipt,indent=2,sort_keys=True)+'\n')
-          print(json.dumps(receipt,sort_keys=True))
+          (r/'verification.json').write_text(json.dumps({'status':'EXACT_CURRENT_BYTES_VERIFIED','prompt_sha256':hashlib.sha256(p).hexdigest(),'prompt_bytes':len(p),'news_sha256':hashlib.sha256(n).hexdigest(),'news_bytes':len(n),'news_rows':len(rows)},indent=2,sort_keys=True)+'\n')
           PY
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: nslab-media-inputs-20180620-20260714T234900Z
-          path: current_inputs/
+          name: nslab-media-probe-20180620-20260714T234900Z
+          path: |
+            diagnostics/
+            current_inputs/
           retention-days: 1
           compression-level: 0
-          if-no-files-found: error
+          if-no-files-found: warn
