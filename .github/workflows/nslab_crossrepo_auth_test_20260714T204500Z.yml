@@ -1,0 +1,29 @@
+name: NSLAB crossrepo auth test 20260714T204500Z
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    if: github.head_ref == 'nslab-crossauth-20260714T204500Z'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test authenticated private Raw from stock-web token
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os, urllib.request, urllib.error
+          url='https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/research_prompt.md'
+          req=urllib.request.Request(url,headers={'Authorization':f"Bearer {os.environ['GH_TOKEN']}",'User-Agent':'NSLAB-CrossRepo-Test/1.0','Cache-Control':'no-cache'})
+          try:
+              with urllib.request.urlopen(req,timeout=45) as r: data=r.read()
+              print('RESULT',r.status,len(data),r.geturl())
+          except urllib.error.HTTPError as e:
+              print('RESULT',e.code,0,e.geturl())
+          PY
