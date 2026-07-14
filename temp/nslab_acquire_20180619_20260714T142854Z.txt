@@ -1,1 +1,3 @@
 current-run fresh Raw acquisition trigger for NSLAB 20180619 at 20260714T142854Z
+runner=ubuntu-24.04-arm
+sync=2
