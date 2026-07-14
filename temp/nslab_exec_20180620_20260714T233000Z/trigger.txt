@@ -1,0 +1,1 @@
+Trigger complete current-run NSLAB gold execution for news_20180620.csv.
