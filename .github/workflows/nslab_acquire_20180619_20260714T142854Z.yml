@@ -1,0 +1,165 @@
+name: NSLAB acquire 20180619 20260714T142854Z
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  acquire:
+    if: github.head_ref == 'nslab-acquire-20180619-20260714T142854Z'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout fresh new_bot main inputs
+        uses: actions/checkout@v4
+        with:
+          repository: Daikisong/new_bot
+          ref: main
+          path: newbot
+          sparse-checkout: |
+            docs/research_prompt.md
+            docs/csv/news_20180619.csv
+            docs/example2.md
+          sparse-checkout-cone-mode: false
+
+      - name: Checkout blind-safe stock-web inputs only
+        uses: actions/checkout@v4
+        with:
+          repository: Daikisong/stock-web
+          ref: main
+          path: stock
+          sparse-checkout: |
+            atlas/research_daily/manifest.json
+            atlas/research_daily/schema.json
+            atlas/research_daily/trading_calendar.csv
+            atlas/research_daily/access/2018/06/20180619.json
+            atlas/research_daily/snapshots/2018/06/20180618.csv
+          sparse-checkout-cone-mode: false
+
+      - name: Fetch exact main Raw prompt and CSV bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p run
+          node <<'NODE'
+          const fs = require('fs');
+          const crypto = require('crypto');
+          const targets = [
+            ['https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/research_prompt.md', 'run/prompt_tmp.md'],
+            ['https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/csv/news_20180619.csv', 'run/news_20180619_tmp.csv']
+          ];
+          (async () => {
+            const receipt = {};
+            for (const [url, path] of targets) {
+              const response = await fetch(url + '?nslab_current_run=20260714T142854Z', {
+                redirect: 'follow',
+                headers: {
+                  'cache-control': 'no-cache, no-store, max-age=0',
+                  'pragma': 'no-cache',
+                  'user-agent': 'nslab-gold-current-run-20180619-20260714T142854Z'
+                }
+              });
+              if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
+              const bytes = Buffer.from(await response.arrayBuffer());
+              fs.writeFileSync(path, bytes);
+              receipt[path] = {url, byte_size: bytes.length, sha256: crypto.createHash('sha256').update(bytes).digest('hex')};
+            }
+            fs.writeFileSync('run/raw_download_receipt.json', JSON.stringify(receipt, null, 2) + '\n');
+          })().catch((err) => { console.error(err); process.exit(1); });
+          NODE
+
+      - name: Verify full parse provenance and rename current-run files
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import csv, hashlib, json, shutil
+          from pathlib import Path
+          root=Path('run')
+          prompt_tmp=root/'prompt_tmp.md'
+          news_tmp=root/'news_20180619_tmp.csv'
+          prompt_raw=prompt_tmp.read_bytes()
+          news_raw=news_tmp.read_bytes()
+          checkout_prompt=Path('newbot/docs/research_prompt.md').read_bytes()
+          checkout_news=Path('newbot/docs/csv/news_20180619.csv').read_bytes()
+          assert prompt_raw == checkout_prompt
+          assert news_raw == checkout_news
+          prompt_sha=hashlib.sha256(prompt_raw).hexdigest()
+          news_sha=hashlib.sha256(news_raw).hexdigest()
+          assert prompt_sha == 'b5ba21ce1f6e3a91dacf19e33e16d5db9dface141e90a67e78c8588ba1553029'
+          assert len(prompt_raw) == 430485
+          prompt_text=prompt_raw.decode('utf-8')
+          assert prompt_text.splitlines()[0] == '# NSLAB GOLD PHASE MACHINE — DIRECT CSV RESEARCH RUNNER'
+          assert 'nslab.gold_phase_machine.direct_csv_research.locked' in prompt_text
+          with news_tmp.open(encoding='utf-8-sig', newline='') as f:
+              news_rows=list(csv.DictReader(f))
+          assert news_rows and list(news_rows[0]) == ['page','row','date','time','title','body']
+          published=[f"{r['date']}T{r['time']}+09:00" for r in news_rows]
+          min_at,max_at=min(published),max(published)
+          control=sum(1 for c in news_raw.decode('utf-8-sig') if ord(c)<32 and c not in '\n\r\t')
+          assert control == 0
+          access=json.loads(Path('stock/atlas/research_daily/access/2018/06/20180619.json').read_text(encoding='utf-8'))
+          assert access['trade_date']=='2018-06-19'
+          assert access['previous_trade_date']=='2018-06-18'
+          assert access['next_trade_date']=='2018-06-20'
+          assert access['blind_snapshot_path']=='atlas/research_daily/snapshots/2018/06/20180618.csv'
+          assert access['outcome_snapshot_path']=='atlas/research_daily/snapshots/2018/06/20180619.csv'
+          blind_src=Path('stock/atlas/research_daily/snapshots/2018/06/20180618.csv')
+          blind_raw=blind_src.read_bytes()
+          blind_sha=hashlib.sha256(blind_raw).hexdigest()
+          with blind_src.open(encoding='utf-8-sig', newline='') as f:
+              blind_rows=list(csv.DictReader(f))
+          assert blind_sha == access['blind_snapshot_sha256']
+          assert len(blind_raw) == access['blind_snapshot_bytes']
+          assert len(blind_rows) == access['blind_snapshot_row_count']
+          assert max(r.get('max_source_date','') for r in blind_rows) <= '2018-06-18'
+          prompt_name=f'research_prompt_20260714T142854Z_{prompt_sha[:8]}.md'
+          news_name=f'news_20180619_20260714T142854Z_{news_sha[:8]}.csv'
+          blind_name=f'blind_snapshot_20180618_20260714T142854Z_{blind_sha[:8]}.csv'
+          prompt_tmp.rename(root/prompt_name)
+          news_tmp.rename(root/news_name)
+          shutil.copyfile(blind_src, root/blind_name)
+          for src,name in [
+              ('newbot/docs/example2.md','example2.md'),
+              ('stock/atlas/research_daily/access/2018/06/20180619.json','access_20180619.json'),
+              ('stock/atlas/research_daily/manifest.json','manifest.json'),
+              ('stock/atlas/research_daily/schema.json','schema.json'),
+              ('stock/atlas/research_daily/trading_calendar.csv','trading_calendar.csv')]:
+              shutil.copyfile(src, root/name)
+          cutoff='2018-06-19T08:59:59+09:00'
+          uncovered=[]
+          if max_at < cutoff:
+              from datetime import datetime,timedelta
+              start=(datetime.fromisoformat(max_at)+timedelta(seconds=1)).isoformat()
+              uncovered.append(f'{start}..{cutoff}')
+          receipt={
+              'run_id':'NSLAB-WEB-20180619-20260714T142854Z',
+              'prompt_file':prompt_name,'prompt_sha256':prompt_sha,'prompt_byte_size':len(prompt_raw),
+              'news_file':news_name,'news_sha256':news_sha,'news_byte_size':len(news_raw),
+              'csv_row_count':len(news_rows),'parsed_row_count':len(news_rows),'columns':list(news_rows[0]),
+              'min_published_at':min_at,'max_published_at':max_at,'time_unverified_rows':[],
+              'control_char_count':control,
+              'blind_snapshot_file':blind_name,'blind_snapshot_sha256':blind_sha,
+              'blind_snapshot_byte_size':len(blind_raw),'blind_snapshot_row_count':len(blind_rows),
+              'trade_date':'2018-06-19','previous_trade_date':'2018-06-18','next_trade_date':'2018-06-20',
+              'official_trade_day':True,'input_coverage_warning':None if not uncovered else f'CSV actual max timestamp {max_at} is before cutoff {cutoff}.',
+              'uncovered_time_ranges':uncovered,'preseal_outcome_content_access_count':0,
+              'access_sha256_status':'WEB_VIEW_ONLY_UNHASHED',
+              'acquisition_method':'web_raw_open_then_github_actions_raw_download'
+          }
+          (root/'fresh_input_receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          print(json.dumps(receipt,ensure_ascii=False,sort_keys=True))
+          PY
+          test ! -e stock/atlas/research_daily/snapshots/2018/06/20180619.csv
+
+      - name: Upload current-run fresh inputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-acquire-20180619-20260714T142854Z
+          path: run/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
