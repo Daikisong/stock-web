@@ -28,5 +28,5 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           lines=Path('job.log').read_text(encoding='utf-8-sig',errors='replace').splitlines()
-          print('\n'.join(lines[-65:]))
+          print('\n'.join(lines[-20:]))
           PY
