@@ -16,5 +16,10 @@
   "blind_max_source_date": "2018-06-19",
   "outcome_max_source_date": "2018-06-20",
   "source_manifest_sha256": "c56adf5a5fd06821bf024ddbe8c24f99b8439afcc1d6e46a519046075b7622ba",
-  "build_status": "complete"
+  "build_status": "complete",
+  "temporary_current_run_media_links": {
+    "prompt": "https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/research_prompt.md",
+    "news": "https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/csv/news_20180620.csv",
+    "example": "https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/example2.md"
+  }
 }
