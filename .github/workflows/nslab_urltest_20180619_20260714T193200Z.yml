@@ -1,0 +1,37 @@
+name: NSLAB Raw URL form diagnostic 20180619 20260714T193200Z
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    if: github.head_ref == 'nslab-urltest-20180619-20260714T193200Z'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test current-main Raw URL forms
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request, urllib.error
+          urls=[
+            'https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/research_prompt.md',
+            'https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/research_prompt.md?nslab=1',
+            'https://raw.githubusercontent.com/Daikisong/new_bot/refs%2Fheads%2Fmain/docs/research_prompt.md',
+            'https://raw.githubusercontent.com/Daikisong/new_bot/main/docs/research_prompt.md',
+            'https://github.com/Daikisong/new_bot/raw/refs/heads/main/docs/research_prompt.md',
+          ]
+          for url in urls:
+              try:
+                  req=urllib.request.Request(url,headers={'User-Agent':'NSLAB-URL-Test/1.0','Cache-Control':'no-cache'})
+                  with urllib.request.urlopen(req,timeout=30) as r:
+                      data=r.read()
+                  print('RESULT',r.status,len(data),r.geturl(),url)
+              except urllib.error.HTTPError as e:
+                  print('RESULT',e.code,0,e.geturl(),url)
+              except Exception as e:
+                  print('RESULT','ERR',0,type(e).__name__,str(e),url)
+          PY
