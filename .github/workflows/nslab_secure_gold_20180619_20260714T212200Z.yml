@@ -2,7 +2,7 @@ name: NSLAB secure gold 20180619 20260714T212200Z
 
 on:
   pull_request:
-    types: [opened, reopened, ready_for_review]
+    types: [opened, synchronize, reopened, ready_for_review]
     paths:
       - 'temp/nslab_secure_20180619_20260714T212200Z/trigger.txt'
 
@@ -10,6 +10,10 @@ permissions:
   contents: read
   actions: read
   models: read
+
+concurrency:
+  group: nslab-secure-gold-20180619-20260714T212200Z-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   gold:
@@ -26,6 +30,10 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           path: transport
           fetch-depth: 1
+          sparse-checkout: |
+            temp/nslab_secure_20180619_20260714T212200Z/trigger.txt
+            temp/nslab_secure_20180619_20260714T212200Z/payload
+          sparse-checkout-cone-mode: false
 
       - name: Checkout pinned orchestration scripts
         uses: actions/checkout@v4
