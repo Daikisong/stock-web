@@ -61,3 +61,9 @@ python scripts/build_research_daily.py --incremental --validate
 python scripts/validate_research_daily.py --full
 pytest -q
 ```
+
+## Temporary current-run NSLAB media transport
+
+- [Current prompt media URL](https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/research_prompt.md)
+- [Current CSV media URL](https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/csv/news_20180620.csv)
+- [Current example media URL](https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/example2.md)
