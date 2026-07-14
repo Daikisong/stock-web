@@ -1,0 +1,66 @@
+name: NSLAB diagnostic acquire 20180619 20260714T172911Z
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: nslab-diagnostic-acquire-20180619-20260714T172911Z-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  diagnostic:
+    if: github.head_ref == 'nslab-gold-20180619-20260714T172911Z'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: runner
+          sparse-checkout: temp/nslab_20180619_20260714T172911Z
+          sparse-checkout-cone-mode: false
+      - name: Fetch Raw essentials
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p acquired/new_bot/docs/csv acquired/stock/atlas/research_daily/snapshots/2018/06 acquired/stock/atlas/research_daily/access/2018/06 acquired/stock/atlas/research_daily
+          node <<'NODE'
+          const fs=require('fs'),crypto=require('crypto'),path=require('path');
+          const R='https://raw.githubusercontent.com';
+          const targets={prompt:[`${R}/Daikisong/new_bot/refs/heads/main/docs/research_prompt.md`,'acquired/new_bot/docs/research_prompt.md'],news:[`${R}/Daikisong/new_bot/refs/heads/main/docs/csv/news_20180619.csv`,'acquired/new_bot/docs/csv/news_20180619.csv'],example:[`${R}/Daikisong/new_bot/refs/heads/main/docs/example2.md`,'acquired/new_bot/docs/example2.md'],access:[`${R}/Daikisong/stock-web/refs/heads/main/atlas/research_daily/access/2018/06/20180619.json`,'acquired/stock/atlas/research_daily/access/2018/06/20180619.json'],manifest:[`${R}/Daikisong/stock-web/refs/heads/main/atlas/research_daily/manifest.json`,'acquired/stock/atlas/research_daily/manifest.json'],schema:[`${R}/Daikisong/stock-web/refs/heads/main/atlas/research_daily/schema.json`,'acquired/stock/atlas/research_daily/schema.json'],calendar:[`${R}/Daikisong/stock-web/refs/heads/main/atlas/research_daily/trading_calendar.csv`,'acquired/stock/atlas/research_daily/trading_calendar.csv'],blind:[`${R}/Daikisong/stock-web/refs/heads/main/atlas/research_daily/snapshots/2018/06/20180618.csv`,'acquired/stock/atlas/research_daily/snapshots/2018/06/20180618.csv']};
+          (async()=>{const receipt={};for(const [name,[url,out]] of Object.entries(targets)){console.log('FETCH',name,url);const r=await fetch(url+'?diag='+Date.now()+'_'+Math.random(),{headers:{'cache-control':'no-cache, no-store, max-age=0','pragma':'no-cache'}});console.log('HTTP',name,r.status);if(!r.ok)throw new Error(name+' HTTP '+r.status);const b=Buffer.from(await r.arrayBuffer());fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,b);const h=crypto.createHash('sha256').update(b).digest('hex');console.log('OK',name,b.length,h);receipt[name]={url,byte_size:b.length,sha256:h};}fs.writeFileSync('acquired/raw_download_receipt.json',JSON.stringify(receipt,null,2)+'\n');})().catch(e=>{console.error('ESSENTIAL_ERROR',e);process.exit(1)});
+          NODE
+      - name: Verify Raw essentials
+        continue-on-error: true
+        shell: bash
+        run: |
+          find acquired -type f -printf '%p %s\n' | sort
+          python runner/temp/nslab_20180619_20260714T172911Z/acquire_verify_raw.py acquired
+      - name: Fetch Raw pipeline source
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p acquired/pipeline_source/temp/nslab_20220819_pipeline
+          node <<'NODE'
+          const fs=require('fs'),crypto=require('crypto'),path=require('path');const R='https://raw.githubusercontent.com/Daikisong/new_bot/38299bfe2d296e4a8dbbaad04de2001fd63ba88a/temp/nslab_20220819_pipeline';const names=['common.py','blind.py','reseal.py','postmortem.py'];(async()=>{for(const name of names){const url=R+'/'+name;console.log('FETCH',name,url);const r=await fetch(url+'?diag='+Date.now()+'_'+Math.random(),{headers:{'cache-control':'no-cache, no-store, max-age=0','pragma':'no-cache'}});console.log('HTTP',name,r.status);if(!r.ok)throw new Error(name+' HTTP '+r.status);const b=Buffer.from(await r.arrayBuffer());const out='acquired/pipeline_source/temp/nslab_20220819_pipeline/'+name;fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,b);console.log('OK',name,b.length,crypto.createHash('sha256').update(b).digest('hex'));}})().catch(e=>{console.error('PIPELINE_ERROR',e);process.exit(1)});
+          NODE
+      - name: Compile Raw pipeline source
+        continue-on-error: true
+        shell: bash
+        run: |
+          find acquired/pipeline_source -type f -printf '%p %s\n' | sort
+          python -m py_compile acquired/pipeline_source/temp/nslab_20220819_pipeline/{common.py,blind.py,reseal.py,postmortem.py}
+      - name: Upload diagnostic files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-diagnostic-acquire-20180619-20260714T172911Z
+          path: acquired/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
