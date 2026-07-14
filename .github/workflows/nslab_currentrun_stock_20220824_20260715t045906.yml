@@ -50,7 +50,7 @@ jobs:
           assert access['next_trade_date']=='2022-08-25'
           assert access['blind_snapshot_path'].endswith('/20220823.csv')
           assert access['outcome_snapshot_path'].endswith('/20220824.csv')
-          assert sha==access['blind_snapshot_sha256']=='192e07718141d06dc16244ac6dc16244ac00cf74853145119d3b16328c5b69acc666'
+          assert sha==access['blind_snapshot_sha256']=='192e07718141d06dc0ac6dc16244ac00cf74853145119d3b16328c5b69acc666'
           assert len(rows)==access['blind_snapshot_row_count']==2433
           assert blind.stat().st_size==access['blind_snapshot_bytes']==825668
           name=f"blind_snapshot_20220823_20260715T045906KST_{sha[:8]}.csv"
