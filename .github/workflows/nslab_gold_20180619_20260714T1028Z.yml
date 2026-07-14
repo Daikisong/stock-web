@@ -9,6 +9,10 @@ permissions:
   actions: read
   models: read
 
+concurrency:
+  group: nslab-gold-20180619-20260714T1028Z
+  cancel-in-progress: true
+
 jobs:
   blind:
     if: github.head_ref == 'nslab-acquire-20180619-20260714T1016Z'
@@ -93,7 +97,7 @@ jobs:
         run: |
           set -euo pipefail
           python - <<'PY'
-          import csv, hashlib, json, os
+          import csv, hashlib, json
           from pathlib import Path
           root = Path('run/inputs')
           prompt_tmp = root/'prompt_tmp.md'
@@ -211,7 +215,6 @@ jobs:
           common.write_text(text, encoding='utf-8')
           blind = pdir/'blind.py'
           text = blind.read_text(encoding='utf-8')
-          text = text.replace('row_batches(model_inputs, max_items=18, max_chars=78000)', 'row_batches(model_inputs, max_items=20, max_chars=90000)')
           warning_rows = []
           if receipt.get('input_coverage_warning'):
               warning_rows.append({
@@ -372,7 +375,7 @@ jobs:
           python - <<'PY'
           import hashlib,json,re
           from pathlib import Path
-          receipt=json.loads(Path('run/fresh_input_receipt.json').read_text(encoding='utf-8'))
+          receipt=json.loads(Path('run/inputs/fresh_input_receipt.json').read_text(encoding='utf-8'))
           path=Path('run/final/20180619_nslab_episode_bundle.md')
           text=path.read_text(encoding='utf-8')
           assert text.startswith('---\n')
