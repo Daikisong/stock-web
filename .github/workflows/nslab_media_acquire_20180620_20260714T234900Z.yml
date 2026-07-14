@@ -1,0 +1,50 @@
+name: NSLAB media acquire 20180620 20260714T234900Z
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - 'temp/nslab_media_acquire_20180620_20260714T234900Z/trigger.txt'
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: nslab-media-acquire-20180620-20260714T234900Z-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  acquire:
+    if: github.head_ref == 'nslab-media-acquire-20180620-20260714T234900Z'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Download current main bytes from GitHub media endpoints
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p current_inputs/docs/csv
+          curl -fL --retry 3 --connect-timeout 30 --max-time 180 'https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/research_prompt.md' -o current_inputs/docs/research_prompt.md
+          curl -fL --retry 3 --connect-timeout 30 --max-time 180 'https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/csv/news_20180620.csv' -o current_inputs/docs/csv/news_20180620.csv
+          curl -fL --retry 3 --connect-timeout 30 --max-time 180 'https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/example2.md' -o current_inputs/docs/example2.md
+          python - <<'PY'
+          import csv,hashlib,json
+          from pathlib import Path
+          r=Path('current_inputs'); p=(r/'docs/research_prompt.md').read_bytes(); n=(r/'docs/csv/news_20180620.csv').read_bytes(); e=(r/'docs/example2.md').read_bytes()
+          ps=hashlib.sha256(p).hexdigest(); ns=hashlib.sha256(n).hexdigest(); es=hashlib.sha256(e).hexdigest()
+          assert ps=='b5ba21ce1f6e3a91dacf19e33e16d5db9dface141e90a67e78c8588ba1553029' and len(p)==430485
+          assert ns=='78b4f43f6c589d55b8ef5b4d591710f632d787e94ff282d734e7c3bb37dc9f9d'
+          with (r/'docs/csv/news_20180620.csv').open(encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
+          assert len(rows)==826
+          receipt={'status':'MEDIA_ENDPOINT_CURRENT_BYTES_VERIFIED','prompt_sha256':ps,'prompt_bytes':len(p),'news_sha256':ns,'news_bytes':len(n),'news_rows':len(rows),'example_sha256':es,'example_bytes':len(e)}
+          (r/'verification.json').write_text(json.dumps(receipt,indent=2,sort_keys=True)+'\n')
+          print(json.dumps(receipt,sort_keys=True))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nslab-media-inputs-20180620-20260714T234900Z
+          path: current_inputs/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
