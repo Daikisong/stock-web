@@ -1,1 +1,1 @@
-Trigger secure encrypted current-run NSLAB gold execution.
+Trigger optimized secure encrypted current-run NSLAB gold execution.
