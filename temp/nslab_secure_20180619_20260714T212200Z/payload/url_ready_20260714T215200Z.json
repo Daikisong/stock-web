@@ -1,0 +1,9 @@
+{
+  "cms_byte_size": 1381,
+  "cms_sha256": "fa3bde038fe7a0996db9885523eba8c0dfe92ec4324876d0077ba7102aabd325",
+  "descriptor_sha256": "5120733ef267d450c3d1fcd9cfbe2a0e7ce40d686939e6834c5595b687a94f5f",
+  "payload_file": "url_payload_20260714T215200Z.b64",
+  "ready": true,
+  "schema_version": "nslab.secure_artifact_url_ready.v1",
+  "transport_run_id": "NSLAB-SECURE-URL-20180619-20260714T215200Z"
+}
