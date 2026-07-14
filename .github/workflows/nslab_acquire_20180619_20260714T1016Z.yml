@@ -1,0 +1,48 @@
+name: NSLAB stock-web acquire 20180619 20260714T1016Z
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  acquire:
+    if: github.head_ref == 'nslab-acquire-20180619-20260714T1016Z'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Fetch fresh main Raw bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p acquired
+          python - <<'PY'
+          import hashlib, json, urllib.request
+          from pathlib import Path
+          targets = [
+              ('https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/research_prompt.md', 'prompt_tmp.md'),
+              ('https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/csv/news_20180619.csv', 'news_20180619_tmp.csv'),
+              ('https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/snapshots/2018/06/20180618.csv', 'blind_20180618_tmp.csv'),
+          ]
+          out = Path('acquired')
+          manifest = {}
+          for url, name in targets:
+              req = urllib.request.Request(url + '?nslab_run=20260714T1016Z', headers={
+                  'Cache-Control': 'no-cache', 'Pragma': 'no-cache',
+                  'User-Agent': 'nslab-gold-phase-machine/20180619-stock-web'
+              })
+              with urllib.request.urlopen(req, timeout=120) as response:
+                  data = response.read()
+              (out / name).write_bytes(data)
+              manifest[name] = {'url': url, 'byte_size': len(data), 'sha256': hashlib.sha256(data).hexdigest()}
+          (out / 'acquisition_manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + '\n', encoding='utf-8')
+          PY
+      - name: Upload freshly acquired bytes
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-stock-web-acquire-20180619-20260714T1016Z
+          path: acquired/
+          if-no-files-found: error
+          retention-days: 1
