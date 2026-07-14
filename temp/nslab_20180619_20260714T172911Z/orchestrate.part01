@@ -1,0 +1,227 @@
+    if max(row.get("max_source_date", "") for row in blind_rows) > PREVIOUS_TRADE_DATE:
+        raise RuntimeError("blind snapshot contains post-P source date")
+    raw_receipt = read_json(raw_receipt_src)
+    prompt_receipt = raw_receipt.get("prompt", {})
+    news_receipt = raw_receipt.get("news", {})
+    if prompt_receipt.get("sha256") != prompt_sha or prompt_receipt.get("byte_size") != len(prompt_raw):
+        raise RuntimeError("Raw prompt download receipt mismatch")
+    if news_receipt.get("sha256") != news_sha or news_receipt.get("byte_size") != len(news_raw):
+        raise RuntimeError("Raw news download receipt mismatch")
+
+    max_at = max(parsed_times).isoformat()
+    min_at = min(parsed_times).isoformat()
+    uncovered: list[str] = []
+    if min_at > WINDOW_START:
+        uncovered.append(f"{WINDOW_START}..{(min(parsed_times) - timedelta(seconds=1)).isoformat()}")
+    if max_at < CUTOFF_AT:
+        uncovered.append(f"{(max(parsed_times) + timedelta(seconds=1)).isoformat()}..{CUTOFF_AT}")
+    metadata = {
+        "schema_version": "nslab.fresh_acquisition_metadata.v3",
+        "run_id": RUN_ID,
+        "prompt_sha256": prompt_sha,
+        "prompt_byte_size": len(prompt_raw),
+        "news_sha256": news_sha,
+        "news_byte_size": len(news_raw),
+        "csv_row_count": len(news_rows),
+        "columns": list(news_rows[0]),
+        "min_published_at": min_at,
+        "max_published_at": max_at,
+        "time_unverified_rows": [],
+        "control_char_count": sum(1 for ch in news_raw.decode("utf-8-sig") if ord(ch) < 32 and ch not in "\n\r\t"),
+        "trade_date": TRADE_DATE,
+        "previous_trade_date": PREVIOUS_TRADE_DATE,
+        "next_trade_date": NEXT_TRADE_DATE,
+        "blind_snapshot_sha256": blind_sha,
+        "blind_snapshot_byte_size": len(blind_raw),
+        "blind_snapshot_row_count": len(blind_rows),
+        "outcome_snapshot_path": access["outcome_snapshot_path"],
+        "outcome_snapshot_sha256": access["outcome_snapshot_sha256"],
+        "outcome_snapshot_byte_size": access["outcome_snapshot_bytes"],
+        "outcome_snapshot_row_count": access["outcome_snapshot_row_count"],
+        "official_trade_day": True,
+        "input_coverage_warning": None if not uncovered else "CSV actual publication range does not fully cover the expected boundary seconds.",
+        "uncovered_time_ranges": uncovered,
+        "preseal_outcome_content_access_count": 0,
+        "access_sha256_status": "WEB_VIEW_ONLY_UNHASHED",
+        "acquisition_method": "web_raw_open_then_current_run_no_store_download_and_checkout_byte_parity",
+        "acquired_at_kst": now_kst(),
+    }
+    if metadata["control_char_count"] != 0:
+        raise RuntimeError("control characters detected in news CSV")
+    paths = {
+        "prompt": prompt_src,
+        "news": news_src,
+        "example": example_src,
+        "access": access_src,
+        "manifest": manifest_src,
+        "schema": schema_src,
+        "calendar": calendar_src,
+        "blind": blind_src,
+    }
+    return metadata, paths
+
+
+def normalize_precomputed_reviews(news_rows: list[dict[str, str]], reviews: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    expected_ids = [f"SRC-NEWS-{index:06d}" for index in range(1, len(news_rows) + 1)]
+    reviews.sort(key=lambda row: int(row.get("global_row_index", 0)))
+    actual_ids = [str(row.get("source_id")) for row in reviews]
+    if actual_ids != expected_ids:
+        raise RuntimeError(f"semantic review population/order mismatch: {len(actual_ids)} rows")
+    duplicate_first: dict[str, str] = {}
+    duplicate_map: dict[str, str] = {}
+    for index, row in enumerate(news_rows, start=1):
+        source_id = expected_ids[index - 1]
+        row_hash = sha256_bytes(canonical_json(row).encode("utf-8"))
+        if row_hash in duplicate_first:
+            duplicate_map[source_id] = duplicate_first[row_hash]
+        else:
+            duplicate_first[row_hash] = source_id
+    for review in reviews:
+        source_id = str(review.get("source_id"))
+        review["global_row_index"] = int(review.get("global_row_index") or int(source_id.rsplit("-", 1)[-1]))
+        review["semantic_review_protocol"] = "FULL_TITLE_BODY_E1_E2_E3_ADJUDICATION"
+        review["full_title_body_reviewed"] = True
+        if not review.get("review_decision"):
+            raise RuntimeError(f"review_decision missing: {source_id}")
+        if not review.get("exact_quote"):
+            raise RuntimeError(f"exact_quote missing: {source_id}")
+        if review.get("issuer_binding_status") is None and not review.get("rejection_reason"):
+            raise RuntimeError(f"issuer binding/rejection missing: {source_id}")
+        if not review.get("local_predicate_owner"):
+            review["why_no_local_predicate_owner"] = review.get("rejection_reason") or "NO_VERIFIABLE_LOCAL_PREDICATE_OWNER_IN_SOURCE_ROW"
+        if source_id in duplicate_map:
+            review["disposition"] = "DUPLICATE"
+            review["material_queue_member"] = False
+            review["duplicate_of_source_id"] = duplicate_map[source_id]
+            review["screening_recommendation"] = "AUDIT_ONLY"
+            review["review_decision"] = "DUPLICATE_RETAINED"
+            review["rejection_reason"] = "EXACT_DUPLICATE_OF_EARLIER_CSV_ROW"
+    return reviews
+
+
+def prepare_blind(args: argparse.Namespace) -> None:
+    input_root = Path(args.input_root).resolve()
+    pipeline_source = Path(args.pipeline_source).resolve() / "temp" / "nslab_20220819_pipeline"
+    work = Path(args.work).resolve()
+    reviews_src = Path(args.reviews).resolve()
+    if work.exists():
+        shutil.rmtree(work)
+    (work / "inputs").mkdir(parents=True)
+    (work / "pipeline").mkdir(parents=True)
+    shutil.copytree(pipeline_source, work / "pipeline", dirs_exist_ok=True)
+
+    metadata, source_paths = verify_input_root(input_root)
+    names = {
+        "prompt": f"research_prompt_{RUN_STAMP}_{metadata['prompt_sha256'][:8]}.md",
+        "news": f"news_20180619_{RUN_STAMP}_{metadata['news_sha256'][:8]}.csv",
+        "blind": f"blind_snapshot_20180618_{RUN_STAMP}_{metadata['blind_snapshot_sha256'][:8]}.csv",
+    }
+    destinations = {
+        "prompt": work / "inputs" / names["prompt"],
+        "news": work / "inputs" / names["news"],
+        "blind": work / "inputs" / names["blind"],
+        "example": work / "inputs" / "example2.md",
+        "access": work / "inputs" / "access_20180619.json",
+        "manifest": work / "inputs" / "manifest.json",
+        "schema": work / "inputs" / "schema.json",
+        "calendar": work / "inputs" / "trading_calendar.csv",
+    }
+    for key, destination in destinations.items():
+        shutil.copyfile(source_paths[key], destination)
+    metadata.update({"prompt_file": names["prompt"], "news_file": names["news"], "blind_snapshot_file": names["blind"]})
+    write_json(work / "metadata.json", metadata)
+    patch_pipeline(work / "pipeline", metadata)
+
+    news_rows = read_csv(destinations["news"])
+    reviews = normalize_precomputed_reviews(news_rows, read_jsonl(reviews_src))
+    review_dir = work / "semantic_review"
+    review_dir.mkdir(parents=True)
+    write_jsonl(review_dir / "reviews.jsonl", reviews)
+    write_json(
+        review_dir / "semantic_review_receipt.json",
+        {
+            "schema_version": "nslab.semantic_review_receipt.v3",
+            "input_row_count": len(news_rows),
+            "reviewed_row_count": len(reviews),
+            "full_title_body_reviewed_count": sum(1 for row in reviews if row.get("full_title_body_reviewed") is True),
+            "exact_quote_found_count": sum(1 for row in reviews if row.get("quote_found_in_source_row") is True),
+            "review_decision_missing_count": sum(1 for row in reviews if not row.get("review_decision")),
+            "exact_quote_missing_count": sum(1 for row in reviews if not row.get("exact_quote")),
+            "status": "FULL_POPULATION_CLOSED",
+        },
+    )
+
+    blind_output = work / "blind_output"
+    env = os.environ.copy()
+    env["NSLAB_PRECOMPUTED_REVIEWS"] = str((review_dir / "reviews.jsonl").resolve())
+    token = env.get("GITHUB_TOKEN", "") or env.get("GITHUB_MODELS_TOKEN", "")
+    if not token:
+        raise RuntimeError("GITHUB_TOKEN missing")
+    run(
+        [
+            sys.executable,
+            str(work / "pipeline" / "blind.py"),
+            "--prompt",
+            str(destinations["prompt"]),
+            "--news",
+            str(destinations["news"]),
+            "--access",
+            str(destinations["access"]),
+            "--manifest",
+            str(destinations["manifest"]),
+            "--schema",
+            str(destinations["schema"]),
+            "--blind-snapshot",
+            str(destinations["blind"]),
+            "--example",
+            str(destinations["example"]),
+            "--output",
+            str(blind_output),
+            "--token",
+            token,
+            "--run-id",
+            RUN_ID,
+        ],
+        env=env,
+    )
+
+    warnings: list[dict[str, Any]] = []
+    if metadata.get("input_coverage_warning"):
+        warnings.append(
+            {
+                "warning_id": "INPUT_COVERAGE_SHORT_OF_085959",
+                "message": metadata["input_coverage_warning"],
+                "impact": f"Recorded uncovered ranges {metadata.get('uncovered_time_ranges', [])}; all available CSV rows were still reviewed and closed.",
+                "ts": now_kst(),
+            }
+        )
+    warnings.append(
+        {
+            "warning_id": "RAW_BROWSER_PRIMARY_WITH_CURRENT_RUN_DOWNLOAD_MATERIALIZATION",
+            "message": "The exact main-branch Raw prompt and CSV URLs were opened in the web/browser first; current-run no-store download bytes were then verified against fresh main checkout bytes and the expected prompt contract.",
+            "impact": "No pre-existing local prompt, CSV, snapshot, or bundle was used as an input.",
+            "ts": now_kst(),
+        }
+    )
+    write_jsonl(blind_output / "artifacts" / "acquisition_warnings.jsonl", warnings)
+    run([sys.executable, str(work / "pipeline" / "reseal.py"), "--blind-dir", str(blind_output), "--run-id", RUN_ID])
+    verify_seal(work)
+    write_json(
+        work / "blind_completion_receipt.json",
+        {
+            "status": "BLIND_SEALED",
+            "run_id": RUN_ID,
+            "csv_row_count": len(news_rows),
+            "reviewed_row_count": len(reviews),
+            "preseal_outcome_content_access_count": 0,
+            "completed_at_kst": now_kst(),
+        },
+    )
+
+
+def verify_seal(blind_root: Path) -> None:
+    artifacts = blind_root / "blind_output" / "artifacts"
+    manifest = read_json(artifacts / "blind_packet_manifest.json")
+    receipt = read_json(artifacts / "blind_seal_receipt.json")
+    digest = sha256_bytes(canonical_json(manifest).encode("utf-8"))
+    if digest != receipt.get("blind_packet_manifest_sha256"):
