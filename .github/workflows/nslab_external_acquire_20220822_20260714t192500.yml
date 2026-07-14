@@ -1,0 +1,85 @@
+name: NSLAB external runner acquire 20220822 20260714t192500
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  acquire:
+    if: github.head_ref == 'nslab-runner-20220822-20260714t192500'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fresh new_bot main inputs
+        uses: actions/checkout@v4
+        with:
+          repository: Daikisong/new_bot
+          ref: main
+          path: new_bot_main
+          sparse-checkout: |
+            docs/research_prompt.md
+            docs/csv/news_20220822.csv
+            docs/example2.md
+          sparse-checkout-cone-mode: false
+      - name: Checkout fresh stock-web main routing and blind snapshot
+        uses: actions/checkout@v4
+        with:
+          repository: Daikisong/stock-web
+          ref: main
+          path: stock_web_main
+          sparse-checkout: |
+            atlas/research_daily/manifest.json
+            atlas/research_daily/schema.json
+            atlas/research_daily/trading_calendar.csv
+            atlas/research_daily/access/2022/08/20220822.json
+            atlas/research_daily/snapshots/2022/08/20220819.csv
+          sparse-checkout-cone-mode: false
+      - name: Verify and stage exact fresh bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf staged
+          mkdir -p staged
+          cp new_bot_main/docs/research_prompt.md staged/prompt_tmp.md
+          cp new_bot_main/docs/csv/news_20220822.csv staged/news_20220822_tmp.csv
+          cp new_bot_main/docs/example2.md staged/example2.md
+          cp stock_web_main/atlas/research_daily/manifest.json staged/manifest.json
+          cp stock_web_main/atlas/research_daily/schema.json staged/schema.json
+          cp stock_web_main/atlas/research_daily/trading_calendar.csv staged/trading_calendar.csv
+          cp stock_web_main/atlas/research_daily/access/2022/08/20220822.json staged/access_20220822.json
+          cp stock_web_main/atlas/research_daily/snapshots/2022/08/20220819.csv staged/blind_snapshot_20220819_tmp.csv
+          python - <<'PY'
+          import csv, hashlib, json
+          from datetime import datetime
+          from pathlib import Path
+          root=Path('staged')
+          p=root/'prompt_tmp.md'; n=root/'news_20220822_tmp.csv'; b=root/'blind_snapshot_20220819_tmp.csv'; a=root/'access_20220822.json'
+          pb=p.read_bytes(); nb=n.read_bytes(); bb=b.read_bytes(); access=json.loads(a.read_text(encoding='utf-8'))
+          assert hashlib.sha256(pb).hexdigest()=='b5ba21ce1f6e3a91dacf19e33e16d5db9dface141e90a67e78c8588ba1553029'
+          assert len(pb)==430485
+          assert pb.decode('utf-8').splitlines()[0]=='# NSLAB GOLD PHASE MACHINE — DIRECT CSV RESEARCH RUNNER'
+          rows=list(csv.DictReader(nb.decode('utf-8-sig').splitlines()))
+          assert rows and list(rows[0])==['page','row','date','time','title','body']
+          published=[datetime.fromisoformat(f"{r['date']}T{r['time']}") for r in rows]
+          blind=list(csv.DictReader(bb.decode('utf-8-sig').splitlines()))
+          assert access['trade_date']=='2022-08-22' and access['previous_trade_date']=='2022-08-19' and access['next_trade_date']=='2022-08-23'
+          assert hashlib.sha256(bb).hexdigest()==access['blind_snapshot_sha256']
+          assert len(bb)==access['blind_snapshot_bytes'] and len(blind)==access['blind_snapshot_row_count']
+          psha=hashlib.sha256(pb).hexdigest(); nsha=hashlib.sha256(nb).hexdigest(); bsha=hashlib.sha256(bb).hexdigest()
+          pn=f'research_prompt_20260714T192500KST_{psha[:8]}.md'; nn=f'news_20220822_20260714T192500KST_{nsha[:8]}.csv'; bn=f'blind_snapshot_20220819_20260714T192500KST_{bsha[:8]}.csv'
+          p.rename(root/pn); n.rename(root/nn); b.rename(root/bn)
+          meta={'schema_version':'nslab.fresh_acquisition_metadata.v1','run_id':'nslab_run_20260714T192500KST_20220822','prompt_file':pn,'prompt_sha256':psha,'prompt_byte_size':len(pb),'news_file':nn,'news_sha256':nsha,'news_byte_size':len(nb),'csv_row_count':len(rows),'columns':list(rows[0]),'min_published_at':min(published).isoformat(),'max_published_at':max(published).isoformat(),'time_unverified_rows':[],'trade_date':'2022-08-22','previous_trade_date':'2022-08-19','next_trade_date':'2022-08-23','blind_snapshot_file':bn,'blind_snapshot_sha256':bsha,'blind_snapshot_byte_size':len(bb),'blind_snapshot_row_count':len(blind),'outcome_snapshot_path':access['outcome_snapshot_path'],'outcome_snapshot_sha256':access['outcome_snapshot_sha256'],'outcome_snapshot_byte_size':access['outcome_snapshot_bytes'],'outcome_snapshot_row_count':access['outcome_snapshot_row_count'],'preseal_outcome_content_access_count':0}
+          (root/'metadata.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          print(json.dumps(meta,ensure_ascii=False,sort_keys=True))
+          PY
+          find staged -type f -print0 | sort -z | xargs -0 sha256sum > staged/all_file_sha256.txt
+      - name: Upload fresh acquisition payload
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-fresh-acquire-20220822-20260714t192500
+          path: staged/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
