@@ -1,0 +1,89 @@
+name: NSLAB stock-web fresh BLIND-safe acquisition 20220824 20260715t024535
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: nslab-stock-acquire-20220824-20260715t024535-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  acquire_stock:
+    if: github.head_ref == 'nslab-acquire-20220824-20260715t024535kst'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout exact current main BLIND-safe price files
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: stock_main
+          sparse-checkout: |
+            atlas/research_daily/manifest.json
+            atlas/research_daily/schema.json
+            atlas/research_daily/trading_calendar.csv
+            atlas/research_daily/access/2022/08/20220824.json
+            atlas/research_daily/snapshots/2022/08/20220823.csv
+          sparse-checkout-cone-mode: false
+          fetch-depth: 1
+
+      - name: Stage and verify current-run BLIND-safe price packet
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p packet/inputs
+          cp stock_main/atlas/research_daily/manifest.json packet/inputs/manifest.json
+          cp stock_main/atlas/research_daily/schema.json packet/inputs/schema.json
+          cp stock_main/atlas/research_daily/trading_calendar.csv packet/inputs/trading_calendar.csv
+          cp stock_main/atlas/research_daily/access/2022/08/20220824.json packet/inputs/access_20220824.json
+          cp stock_main/atlas/research_daily/snapshots/2022/08/20220823.csv packet/inputs/blind_snapshot_20220823_tmp.csv
+          python - <<'PY'
+          import csv, hashlib, json, subprocess
+          from pathlib import Path
+          root=Path('packet'); inp=root/'inputs'
+          access=json.loads((inp/'access_20220824.json').read_text(encoding='utf-8'))
+          assert access['trade_date']=='2022-08-24'
+          assert access['previous_trade_date']=='2022-08-23'
+          assert access['next_trade_date']=='2022-08-25'
+          assert access['blind_snapshot_path']=='atlas/research_daily/snapshots/2022/08/20220823.csv'
+          assert access['outcome_snapshot_path']=='atlas/research_daily/snapshots/2022/08/20220824.csv'
+          assert access['build_status']=='complete'
+          b=inp/'blind_snapshot_20220823_tmp.csv'
+          raw=b.read_bytes(); sha=hashlib.sha256(raw).hexdigest()
+          with b.open('r',encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
+          assert sha==access['blind_snapshot_sha256']
+          assert len(raw)==access['blind_snapshot_bytes']
+          assert len(rows)==access['blind_snapshot_row_count']
+          name=f"blind_snapshot_20220823_20260715T024535KST_{sha[:8]}.csv"
+          b.rename(inp/name)
+          head=subprocess.check_output(['git','-C','stock_main','rev-parse','HEAD'],text=True).strip()
+          metadata={
+            'schema_version':'nslab.stock_blind_safe_acquisition.v1',
+            'run_id':'nslab_run_20260715T024535KST_20220824',
+            'stock_main_commit':head,
+            'trade_date':'2022-08-24','previous_trade_date':'2022-08-23','next_trade_date':'2022-08-25',
+            'blind_snapshot_file':name,'blind_snapshot_sha256':sha,'blind_snapshot_byte_size':len(raw),'blind_snapshot_row_count':len(rows),
+            'outcome_snapshot_path':access['outcome_snapshot_path'],'outcome_snapshot_sha256':access['outcome_snapshot_sha256'],
+            'outcome_snapshot_byte_size':access['outcome_snapshot_bytes'],'outcome_snapshot_row_count':access['outcome_snapshot_row_count'],
+            'preseal_outcome_content_access_count':0,
+            'raw_url_opened_in_web_session':'https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/access/2022/08/20220824.json',
+            'acquisition_method':'web_browser_raw_open_then_same-main-private-repo-checkout-hash-verified'
+          }
+          (root/'stock_acquisition_metadata.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          assert not (inp/'20220824.csv').exists()
+          assert not (inp/'outcome_snapshot_20220824.csv').exists()
+          PY
+
+      - name: Upload current-run stock BLIND-safe packet
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-stock-blind-safe-20220824-20260715t024535
+          path: packet/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
