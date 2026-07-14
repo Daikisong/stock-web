@@ -1,0 +1,222 @@
+name: NSLAB secure gold 20180619 20260714T212200Z
+
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+    paths:
+      - 'temp/nslab_secure_20180619_20260714T212200Z/trigger.txt'
+
+permissions:
+  contents: read
+  actions: read
+  models: read
+
+jobs:
+  gold:
+    if: github.head_ref == 'nslab-secure-20180619-20260714T212200Z'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      RUN_ROOT: run_root/nslab_run_20260714T212200Z
+      TRANSPORT_DIR: temp/nslab_secure_20180619_20260714T212200Z/payload
+    steps:
+      - name: Checkout transport branch for authenticated polling
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: transport
+          fetch-depth: 1
+
+      - name: Checkout pinned orchestration scripts
+        uses: actions/checkout@v4
+        with:
+          repository: Daikisong/stock-web
+          ref: nslab-gold-20180619-20260714T172911Z
+          path: runner
+          sparse-checkout: temp/nslab_20180619_20260714T172911Z
+          sparse-checkout-cone-mode: false
+
+      - name: Generate ephemeral inbound key and publish certificate only
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p transport_keys
+          openssl req -x509 -newkey rsa:3072 -sha256 -nodes -days 1 \
+            -subj '/CN=NSLAB-20180619-current-run-inbound/' \
+            -keyout transport_keys/inbound_private.pem \
+            -out transport_keys/inbound_cert.pem >/dev/null 2>&1
+          openssl x509 -in transport_keys/inbound_cert.pem -noout -fingerprint -sha256 > transport_keys/inbound_cert_fingerprint.txt
+
+      - name: Upload ephemeral inbound certificate
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-inbound-cert-20180619-20260714T212200Z
+          path: |
+            transport_keys/inbound_cert.pem
+            transport_keys/inbound_cert_fingerprint.txt
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
+
+      - name: Poll head branch for encrypted current-run payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          found=0
+          for attempt in $(seq 1 240); do
+            git -C transport fetch --quiet origin "refs/heads/${GITHUB_HEAD_REF}:refs/remotes/origin/${GITHUB_HEAD_REF}"
+            git -C transport reset --quiet --hard "refs/remotes/origin/${GITHUB_HEAD_REF}"
+            if test -s "transport/${TRANSPORT_DIR}/ready.json"; then
+              found=1
+              break
+            fi
+            sleep 10
+          done
+          test "$found" = 1
+
+      - name: Reassemble decrypt and verify current-run input population
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          root=Path('transport')/os.environ['TRANSPORT_DIR']
+          manifest=json.loads((root/'ready.json').read_text(encoding='utf-8'))
+          chunks=manifest['chunks']
+          encoded=''.join((root/name).read_text(encoding='ascii').strip() for name in chunks)
+          cms=Path('transport_keys/input_payload.cms')
+          import base64
+          raw=base64.b64decode(encoded,validate=True)
+          assert hashlib.sha256(raw).hexdigest()==manifest['cms_sha256']
+          cms.write_bytes(raw)
+          outbound=root/'outbound_cert.pem'
+          assert outbound.exists() and outbound.stat().st_size>0
+          Path('transport_keys/outbound_cert.pem').write_bytes(outbound.read_bytes())
+          Path('transport_keys/transport_manifest.json').write_text(json.dumps(manifest,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          PY
+          openssl cms -decrypt -binary -inform DER \
+            -in transport_keys/input_payload.cms \
+            -recip transport_keys/inbound_cert.pem \
+            -inkey transport_keys/inbound_private.pem \
+            -out transport_keys/minimal_inputs.tar.xz
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          manifest=json.loads(Path('transport_keys/transport_manifest.json').read_text())
+          raw=Path('transport_keys/minimal_inputs.tar.xz').read_bytes()
+          assert hashlib.sha256(raw).hexdigest()==manifest['plaintext_sha256']
+          assert len(raw)==manifest['plaintext_byte_size']
+          PY
+          mkdir -p "$RUN_ROOT/acquired"
+          tar -xJf transport_keys/minimal_inputs.tar.xz -C "$RUN_ROOT/acquired"
+          python runner/temp/nslab_20180619_20260714T172911Z/acquire_verify_raw.py "$RUN_ROOT/acquired"
+          python -m py_compile "$RUN_ROOT/acquired/pipeline_source/temp/nslab_20220819_pipeline"/{common.py,blind.py,reseal.py,postmortem.py}
+          test ! -e "$RUN_ROOT/acquired/stock/atlas/research_daily/snapshots/2018/06/20180619.csv"
+
+      - name: Full 819-row title-body semantic adjudication population
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os, subprocess
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from pathlib import Path
+          root=Path(os.environ['RUN_ROOT']); out=root/'review_shards'; out.mkdir(parents=True,exist_ok=True)
+          base=['python','runner/temp/nslab_20180619_20260714T172911Z/review_shard.py','--pipeline',str(root/'acquired/pipeline_source/temp/nslab_20220819_pipeline'),'--news',str(root/'acquired/new_bot/docs/csv/news_20180619.csv'),'--blind',str(root/'acquired/stock/atlas/research_daily/snapshots/2018/06/20180618.csv'),'--shard-count','64']
+          def run(shard):
+              cmd=base+['--shard',str(shard),'--output',str(out/f'review_shard_{shard:03d}.jsonl')]
+              subprocess.run(cmd,check=True)
+              return shard
+          with ThreadPoolExecutor(max_workers=8) as pool:
+              futures={pool.submit(run,s):s for s in range(64)}
+              for future in as_completed(futures):
+                  print('SEMANTIC_SHARD_CLOSED',future.result(),flush=True)
+          PY
+
+      - name: Close PHASE 1 population and verified BLIND seal
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python runner/temp/nslab_20180619_20260714T172911Z/combine_reviews.py "$RUN_ROOT/review_shards" "$RUN_ROOT/combined"
+          cat runner/temp/nslab_20180619_20260714T172911Z/orchestrate.part0* > runner/temp/nslab_20180619_20260714T172911Z/orchestrate.py
+          sed -i 's/20260714T172911Z/20260714T212200Z/g' runner/temp/nslab_20180619_20260714T172911Z/orchestrate.py
+          python -m py_compile runner/temp/nslab_20180619_20260714T172911Z/orchestrate.py
+          python runner/temp/nslab_20180619_20260714T172911Z/orchestrate.py blind \
+            --input-root "$RUN_ROOT/acquired" \
+            --pipeline-source "$RUN_ROOT/acquired/pipeline_source" \
+            --reviews "$RUN_ROOT/combined/reviews.jsonl" \
+            --work "$RUN_ROOT/current_work"
+          python runner/temp/nslab_20180619_20260714T172911Z/orchestrate.py verify-seal --blind-root "$RUN_ROOT/current_work"
+          test ! -e "$RUN_ROOT/stock_outcome/atlas/research_daily/snapshots/2018/06/20180619.csv"
+
+      - name: Fresh D outcome acquisition only after verified seal
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUN_ROOT/stock_outcome/atlas/research_daily/snapshots/2018/06" "$RUN_ROOT/stock_outcome/run_inputs"
+          node <<'NODE'
+          const fs=require('fs'),crypto=require('crypto'),path=require('path');
+          const root=process.env.RUN_ROOT+'/stock_outcome';
+          const url='https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/snapshots/2018/06/20180619.csv';
+          const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+          (async()=>{let last='';for(let attempt=1;attempt<=7;attempt++){try{const r=await fetch(url+`?nslab_postseal=20260714T212200Z_${Date.now()}_${Math.random()}`,{redirect:'follow',cache:'no-store',signal:AbortSignal.timeout(120000),headers:{'cache-control':'no-cache, no-store, max-age=0','pragma':'no-cache','user-agent':'nslab-gold-postseal-20180619-20260714T212200Z'}});if(!r.ok)throw new Error(`HTTP ${r.status}`);const b=Buffer.from(await r.arrayBuffer()),sha=crypto.createHash('sha256').update(b).digest('hex');const out=`${root}/atlas/research_daily/snapshots/2018/06/20180619.csv`;fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,b);fs.writeFileSync(`${root}/run_inputs/outcome_snapshot_20180619_20260714T212200Z_${sha.slice(0,8)}.csv`,b);fs.writeFileSync(`${root}/outcome_raw_receipt.json`,JSON.stringify({url,byte_size:b.length,sha256:sha,fetched_at:new Date().toISOString(),attempt,opened_after_verified_blind_seal:true},null,2)+'\n');return;}catch(e){last=String(e);if(attempt<7)await sleep(1500*attempt);}}throw new Error(last);})().catch(e=>{console.error(e);process.exit(1)});
+          NODE
+
+      - name: Full-market postmortem brain delta and independent final reparse
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python runner/temp/nslab_20180619_20260714T172911Z/orchestrate.py postmortem \
+            --blind-root "$RUN_ROOT/current_work" \
+            --stock "$RUN_ROOT/stock_outcome" \
+            --output "$RUN_ROOT/final_output" \
+            --required-blocks runner/temp/nslab_20180619_20260714T172911Z/required_blocks.json
+          test -s "$RUN_ROOT/final_output/20180619_nslab_episode_bundle.md"
+
+      - name: Encrypt validated final bundle to requester certificate
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p encrypted_output/plain
+          cp "$RUN_ROOT/final_output/20180619_nslab_episode_bundle.md" encrypted_output/plain/
+          cp "$RUN_ROOT/final_output/independent_final_validation_receipt.json" encrypted_output/plain/
+          cp "$RUN_ROOT/final_output/final_reparse_receipt.json" encrypted_output/plain/
+          cp "$RUN_ROOT/final_output/outcome_receipt.json" encrypted_output/plain/
+          cp "$RUN_ROOT/current_work/blind_completion_receipt.json" encrypted_output/plain/
+          cp "$RUN_ROOT/current_work/seal_independent_verification.json" encrypted_output/plain/
+          cp "$RUN_ROOT/combined/semantic_review_population_receipt.json" encrypted_output/plain/
+          cp "$RUN_ROOT/acquired/acquisition_verification.json" encrypted_output/plain/
+          cp "$RUN_ROOT/acquired/raw_download_receipt.json" encrypted_output/plain/
+          cp "$RUN_ROOT/stock_outcome/outcome_raw_receipt.json" encrypted_output/plain/
+          tar -cJf encrypted_output/final_plain.tar.xz -C encrypted_output/plain .
+          openssl cms -encrypt -binary -aes-256-cbc \
+            -in encrypted_output/final_plain.tar.xz \
+            -outform DER \
+            -out encrypted_output/final_payload.cms \
+            transport_keys/outbound_cert.pem
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          plain=Path('encrypted_output/final_plain.tar.xz').read_bytes(); cms=Path('encrypted_output/final_payload.cms').read_bytes()
+          receipt={'schema_version':'nslab.encrypted_result_transport.v1','plaintext_sha256':hashlib.sha256(plain).hexdigest(),'plaintext_byte_size':len(plain),'cms_sha256':hashlib.sha256(cms).hexdigest(),'cms_byte_size':len(cms),'plaintext_not_uploaded':True}
+          Path('encrypted_output/encrypted_result_receipt.json').write_text(json.dumps(receipt,indent=2,sort_keys=True)+'\n')
+          PY
+          rm -rf encrypted_output/plain encrypted_output/final_plain.tar.xz transport_keys/inbound_private.pem
+
+      - name: Upload encrypted validated result only
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-encrypted-final-20180619-20260714T212200Z
+          path: |
+            encrypted_output/final_payload.cms
+            encrypted_output/encrypted_result_receipt.json
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
