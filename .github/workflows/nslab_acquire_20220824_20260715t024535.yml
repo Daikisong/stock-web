@@ -1,0 +1,93 @@
+name: NSLAB current-run acquire stock-web 20220824 20260715t024535
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  acquire:
+    if: github.head_ref == 'nslab-acq-20220824-20260715t024535kst'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Acquire exact main Raw routing calendar and P snapshot
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p packet/inputs
+          python - <<'PY'
+          import os, urllib.request, json, hashlib
+          from pathlib import Path
+          token=os.environ['GH_TOKEN']
+          items=[
+            ('manifest.json','https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/manifest.json','atlas/research_daily/manifest.json'),
+            ('schema.json','https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/schema.json','atlas/research_daily/schema.json'),
+            ('trading_calendar.csv','https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/trading_calendar.csv','atlas/research_daily/trading_calendar.csv'),
+            ('access_20220824.json','https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/access/2022/08/20220824.json','atlas/research_daily/access/2022/08/20220824.json'),
+            ('blind_snapshot_20220823_tmp.csv','https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/snapshots/2022/08/20220823.csv','atlas/research_daily/snapshots/2022/08/20220823.csv'),
+          ]
+          receipt=[]
+          for name,url,path in items:
+              method='RAW_URL_AUTHENTICATED'
+              try:
+                  req=urllib.request.Request(url,headers={'Authorization':f'Bearer {token}','Cache-Control':'no-cache','Pragma':'no-cache','User-Agent':'nslab-current-run'})
+                  with urllib.request.urlopen(req,timeout=120) as r: data=r.read()
+              except Exception:
+                  method='GITHUB_CONTENTS_RAW_FALLBACK_AFTER_RAW_OPEN'
+                  api=f'https://api.github.com/repos/Daikisong/stock-web/contents/{path}?ref=main'
+                  req=urllib.request.Request(api,headers={'Authorization':f'Bearer {token}','Accept':'application/vnd.github.raw+json','X-GitHub-Api-Version':'2022-11-28','User-Agent':'nslab-current-run'})
+                  with urllib.request.urlopen(req,timeout=120) as r: data=r.read()
+              out=Path('packet/inputs')/name; out.write_bytes(data)
+              receipt.append({'name':name,'raw_url':url,'repo_path':path,'method':method,'byte_size':len(data),'sha256':hashlib.sha256(data).hexdigest()})
+          Path('packet/stock_acquisition_receipt.json').write_text(json.dumps(receipt,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          PY
+
+      - name: Verify routing and P snapshot provenance then rename uniquely
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import csv, hashlib, json
+          from pathlib import Path
+          root=Path('packet'); inp=root/'inputs'
+          def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+          access=json.loads((inp/'access_20220824.json').read_text(encoding='utf-8'))
+          assert access['trade_date']=='2022-08-24'
+          assert access['previous_trade_date']=='2022-08-23'
+          assert access['next_trade_date']=='2022-08-25'
+          assert access['blind_snapshot_path'].endswith('/20220823.csv')
+          assert access['outcome_snapshot_path'].endswith('/20220824.csv')
+          assert access['build_status']=='complete'
+          b=inp/'blind_snapshot_20220823_tmp.csv'
+          with b.open('r',encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
+          assert sha(b)==access['blind_snapshot_sha256']
+          assert b.stat().st_size==access['blind_snapshot_bytes']
+          assert len(rows)==access['blind_snapshot_row_count']
+          blind_name=f"blind_snapshot_20220823_20260715T024535KST_{access['blind_snapshot_sha256'][:8]}.csv"
+          b.rename(inp/blind_name)
+          meta={
+            'trade_date':'2022-08-24','previous_trade_date':'2022-08-23','next_trade_date':'2022-08-25',
+            'blind_snapshot_file':blind_name,'blind_snapshot_sha256':access['blind_snapshot_sha256'],
+            'blind_snapshot_byte_size':access['blind_snapshot_bytes'],'blind_snapshot_row_count':access['blind_snapshot_row_count'],
+            'outcome_snapshot_path':access['outcome_snapshot_path'],'outcome_snapshot_sha256':access['outcome_snapshot_sha256'],
+            'outcome_snapshot_byte_size':access['outcome_snapshot_bytes'],'outcome_snapshot_row_count':access['outcome_snapshot_row_count'],
+            'preseal_outcome_content_access_count':0
+          }
+          (root/'stock_metadata.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          assert not (inp/'outcome_snapshot_20220824.csv').exists() and not (inp/'20220824.csv').exists()
+          PY
+
+      - name: Upload current-run stock inputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-current-stock-20220824-20260715t024535
+          path: packet/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
