@@ -1,19 +1,12 @@
-name: NSLAB cancel duplicate head workflow 20180619 20260714T172911Z
+name: NSLAB disabled duplicate head workflow 20180619 20260714T172911Z
 
 on:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
 
-permissions:
-  contents: read
-
-concurrency:
-  group: nslab-gold-20180619-20260714T172911Z-${{ github.event.pull_request.number }}
-  cancel-in-progress: true
-
 jobs:
-  cancel:
-    if: github.head_ref == 'nslab-gold-20180619-20260714T172911Z'
+  disabled:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo duplicate-head-workflow-cancelled
+      - run: echo duplicate-head-workflow-disabled
