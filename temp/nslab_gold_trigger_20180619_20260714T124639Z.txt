@@ -1,0 +1,1 @@
+current-run full gold trigger for news_20180619.csv; fresh Raw acquisition run 29334010817 artifact 8311378803; no prior local files reused
