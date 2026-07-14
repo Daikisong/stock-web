@@ -23,7 +23,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 0
+          fetch-depth: 1
+          sparse-checkout: |
+            temp/nslab_pack_pipeline_20180620_20260714T232000Z/pipeline_url.txt
+            temp/nslab_shared_20180620_20260714T232000Z
+          sparse-checkout-cone-mode: false
       - name: Download exact signed artifact and commit only pipeline source
         shell: bash
         run: |
@@ -42,6 +46,6 @@ jobs:
           python -m py_compile "$DEST"/nslab_20220819_pipeline/{common.py,blind.py,reseal.py,postmortem.py}
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add temp/nslab_shared_20180620_20260714T232000Z
+          git add --sparse temp/nslab_shared_20180620_20260714T232000Z
           git commit -m 'temp: materialize compile-verified NSLAB pipeline source'
           git push origin HEAD:${{ github.head_ref }}
