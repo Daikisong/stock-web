@@ -1,0 +1,63 @@
+name: NSLAB acquire 20180619 20260714T124639Z
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  acquire:
+    if: github.head_ref == 'nslab-acquire-20180619-20260714T124639Z'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Fetch fresh Raw bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p acquired
+          node <<'NODE'
+          const fs = require('fs');
+          const crypto = require('crypto');
+          const targets = [
+            ['https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/research_prompt.md', 'acquired/prompt_tmp.md'],
+            ['https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/csv/news_20180619.csv', 'acquired/news_20180619_tmp.csv'],
+            ['https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/snapshots/2018/06/20180618.csv', 'acquired/blind_20180618_tmp.csv'],
+            ['https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/access/2018/06/20180619.json', 'acquired/access_20180619.json'],
+            ['https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/manifest.json', 'acquired/manifest.json'],
+            ['https://raw.githubusercontent.com/Daikisong/stock-web/refs/heads/main/atlas/research_daily/schema.json', 'acquired/schema.json']
+          ];
+          (async () => {
+            const manifest = {};
+            for (const [url, path] of targets) {
+              const response = await fetch(url + '?nslab_run=20260714T124639Z', {
+                redirect: 'follow',
+                headers: {
+                  'cache-control': 'no-cache',
+                  'pragma': 'no-cache',
+                  'user-agent': 'nslab-gold-phase-machine/20180619/current-run'
+                }
+              });
+              if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
+              const bytes = Buffer.from(await response.arrayBuffer());
+              fs.writeFileSync(path, bytes);
+              manifest[path] = {
+                url,
+                byte_size: bytes.length,
+                sha256: crypto.createHash('sha256').update(bytes).digest('hex')
+              };
+            }
+            fs.writeFileSync('acquired/acquisition_manifest.json', JSON.stringify(manifest, null, 2) + '\n');
+          })().catch((error) => { console.error(error); process.exit(1); });
+          NODE
+
+      - name: Upload fresh bytes
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-acquire-20180619-20260714T124639Z
+          path: acquired/
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
