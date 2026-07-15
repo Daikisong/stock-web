@@ -1,0 +1,86 @@
+name: NSLAB anonymous public acquire 20180622 20260715T020500Z
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - 'temp/nslab_public_acquire_20180622_20260715T020500Z/trigger.txt'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  acquire:
+    if: github.head_ref == 'nslab-public-acquire-20180622-20260715T020500Z'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Anonymous checkout of exact current new_bot main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Daikisong/new_bot.git new_bot
+          git -C new_bot sparse-checkout set --no-cone docs/research_prompt.md docs/csv/news_20180622.csv docs/example2.md
+          test -s new_bot/docs/research_prompt.md
+          test -s new_bot/docs/csv/news_20180622.csv
+          test -s new_bot/docs/example2.md
+
+      - name: Checkout current stock-web main BLIND-safe inputs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: stock_web
+          fetch-depth: 1
+          sparse-checkout: |
+            atlas/research_daily/access/2018/06/20180622.json
+            atlas/research_daily/manifest.json
+            atlas/research_daily/schema.json
+            atlas/research_daily/trading_calendar.csv
+            atlas/research_daily/snapshots/2018/06/20180621.csv
+          sparse-checkout-cone-mode: false
+
+      - name: Verify and package fresh bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import csv, hashlib, json, shutil
+          from datetime import datetime, timedelta
+          from pathlib import Path
+          out=Path('packet'); out.mkdir()
+          prompt=Path('new_bot/docs/research_prompt.md'); news=Path('new_bot/docs/csv/news_20180622.csv'); example=Path('new_bot/docs/example2.md')
+          access_path=Path('stock_web/atlas/research_daily/access/2018/06/20180622.json'); manifest=Path('stock_web/atlas/research_daily/manifest.json'); schema=Path('stock_web/atlas/research_daily/schema.json'); calendar=Path('stock_web/atlas/research_daily/trading_calendar.csv'); blind=Path('stock_web/atlas/research_daily/snapshots/2018/06/20180621.csv')
+          pb=prompt.read_bytes(); nb=news.read_bytes(); bb=blind.read_bytes()
+          psha=hashlib.sha256(pb).hexdigest(); nsha=hashlib.sha256(nb).hexdigest(); bsha=hashlib.sha256(bb).hexdigest()
+          assert psha=='b5ba21ce1f6e3a91dacf19e33e16d5db9dface141e90a67e78c8588ba1553029' and len(pb)==430485
+          ptext=pb.decode('utf-8'); assert ptext.splitlines()[0]=='# NSLAB GOLD PHASE MACHINE — DIRECT CSV RESEARCH RUNNER' and 'nslab.gold_phase_machine.direct_csv_research.locked' in ptext
+          with news.open(encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
+          assert rows and list(rows[0])==['page','row','date','time','title','body']
+          parsed=[]; bad=[]
+          for i,r in enumerate(rows,1):
+              try: parsed.append(datetime.fromisoformat(f"{r['date']}T{r['time']}+09:00"))
+              except Exception: bad.append(i)
+          access=json.loads(access_path.read_text(encoding='utf-8'))
+          expected={'trade_date':'2018-06-22','previous_trade_date':'2018-06-21','next_trade_date':'2018-06-25','blind_snapshot_path':'atlas/research_daily/snapshots/2018/06/20180621.csv','outcome_snapshot_path':'atlas/research_daily/snapshots/2018/06/20180622.csv','build_status':'complete'}
+          for k,v in expected.items(): assert access.get(k)==v,(k,access.get(k),v)
+          with blind.open(encoding='utf-8-sig',newline='') as f: brows=list(csv.DictReader(f))
+          assert bsha==access['blind_snapshot_sha256'] and len(bb)==access['blind_snapshot_bytes'] and len(brows)==access['blind_snapshot_row_count']
+          assert max(str(r.get('max_source_date','')) for r in brows)<='2018-06-21'
+          window=datetime.fromisoformat('2018-06-21T15:30:00+09:00'); cutoff=datetime.fromisoformat('2018-06-22T08:59:59+09:00'); uncovered=[]
+          if min(parsed)>window: uncovered.append(f'{window.isoformat()}..{(min(parsed)-timedelta(seconds=1)).isoformat()}')
+          if max(parsed)<cutoff: uncovered.append(f'{(max(parsed)+timedelta(seconds=1)).isoformat()}..{cutoff.isoformat()}')
+          receipt={'schema_version':'nslab.current_run_acquisition.v1','status':'CURRENT_RUN_BYTES_VERIFIED','prompt_sha256':psha,'prompt_byte_size':len(pb),'news_sha256':nsha,'news_byte_size':len(nb),'csv_row_count':len(rows),'columns':list(rows[0]),'min_published_at':min(parsed).isoformat(),'max_published_at':max(parsed).isoformat(),'time_unverified_rows':bad,'blind_snapshot_sha256':bsha,'blind_snapshot_byte_size':len(bb),'blind_snapshot_row_count':len(brows),'trade_date':'2018-06-22','previous_trade_date':'2018-06-21','next_trade_date':'2018-06-25','outcome_snapshot_sha256_expected':access['outcome_snapshot_sha256'],'outcome_snapshot_byte_size_expected':access['outcome_snapshot_bytes'],'outcome_snapshot_row_count_expected':access['outcome_snapshot_row_count'],'uncovered_time_ranges':uncovered,'preseal_outcome_content_access_count':0,'acquisition_method':'WEB_RAW_OPEN_THEN_ANONYMOUS_GIT_DOWNLOAD'}
+          (out/'acquisition_receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          shutil.copyfile(prompt,out/f'research_prompt_20260715T020500Z_{psha[:8]}.md'); shutil.copyfile(news,out/f'news_20180622_20260715T020500Z_{nsha[:8]}.csv'); shutil.copyfile(example,out/'example2.md'); shutil.copyfile(access_path,out/'access_20180622.json'); shutil.copyfile(manifest,out/'manifest.json'); shutil.copyfile(schema,out/'schema.json'); shutil.copyfile(calendar,out/'trading_calendar.csv'); shutil.copyfile(blind,out/f'blind_snapshot_20180621_20260715T020500Z_{bsha[:8]}.csv')
+          print(json.dumps(receipt,ensure_ascii=False,sort_keys=True))
+          PY
+
+      - name: Upload fresh packet
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-public-acquire-20180622-20260715T020500Z
+          path: packet/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
