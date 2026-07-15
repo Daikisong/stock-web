@@ -7,13 +7,13 @@ on:
       - '.github/workflows/nslab_bridge_20220830_20260716t043009kst_c8f09d.yml'
 
 permissions:
-  contents: read
+  contents: write
   actions: read
   models: read
 
 concurrency:
   group: nslab-bridge-gold-20220830-20260716T043009KST-c8f09d
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   research:
@@ -164,3 +164,42 @@ jobs:
           retention-days: 1
           compression-level: 0
           if-no-files-found: warn
+
+  report:
+    if: always()
+    needs: [research]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout stock-web main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Persist bridge result and run id
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.run_id }}
+          RESEARCH_RESULT: ${{ needs.research.result }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          out='temp/nslab_bridge_result_20220830_20260716t043009kst_c8f09d'
+          rm -rf "$out" downloaded downloaded_all
+          mkdir -p "$out"
+          printf '{"run_id":%s,"research_result":"%s","workflow":"NSLAB bridge gold 20220830 20260716T043009KST c8f09d"}\n' "$RUN_ID" "$RESEARCH_RESULT" > "$out/workflow_status.json"
+          if [ "$RESEARCH_RESULT" = success ]; then
+            gh run download "$RUN_ID" --repo Daikisong/stock-web --name nslab-final-20220830-20260716T043009KST-c8f09d --dir downloaded
+            cp -a downloaded/. "$out/"
+          else
+            gh run view "$RUN_ID" --repo Daikisong/stock-web --log-failed > "$out/failed_log.txt" 2>&1 || true
+            gh run download "$RUN_ID" --repo Daikisong/stock-web --dir downloaded_all || true
+            if [ -d downloaded_all ]; then cp -a downloaded_all "$out/artifacts"; fi
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$out"
+          git commit -m "temp: persist NSLAB 20220830 bridge run ${RUN_ID} result" || exit 0
+          git pull --rebase origin main
+          git push origin HEAD:main
