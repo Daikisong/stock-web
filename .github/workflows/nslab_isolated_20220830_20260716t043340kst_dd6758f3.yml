@@ -1,0 +1,168 @@
+name: NSLAB isolated 20220830 20260716T043340KST dd6758f3
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'tmp/nslab_trigger_20220830_20260716t043340kst_dd6758f3.txt'
+
+permissions:
+  contents: read
+  actions: read
+  models: read
+
+concurrency:
+  group: nslab-stock-web-20220830-20260716T043340KST-dd6758f3
+  cancel-in-progress: true
+
+jobs:
+  research:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 360
+    steps:
+      - name: Checkout fresh new_bot main
+        uses: actions/checkout@v4
+        with:
+          repository: Daikisong/new_bot
+          ref: main
+          path: new_bot
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Materialize selected-date runner
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd new_bot
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          source = Path('temp/nslab_runner_20220826_20260715t130039.py')
+          if not source.is_file():
+              raise SystemExit(f'missing repository runner source: {source}')
+          text = source.read_text(encoding='utf-8')
+
+          def set_assign(name, value):
+              global text
+              pattern = rf'(?m)^{re.escape(name)}\s*=\s*.*$'
+              text, count = re.subn(pattern, f'{name} = {value!r}', text, count=1)
+              if count != 1:
+                  raise RuntimeError(f'assignment patch failed: {name}')
+
+          set_assign('TRADE_DATE', '2022-08-30')
+          set_assign('DATE8', '20220830')
+          set_assign('PREVIOUS_TRADE_DATE', '2022-08-29')
+          set_assign('NEXT_TRADE_DATE', '2022-08-31')
+          set_assign('STAMP', '20260716T043340KST_dd6758f3')
+
+          text = text.replace('atlas/research_daily/snapshots/2022/08/20220826.csv', '__NSLAB_OUTCOME_SNAPSHOT__')
+          text = text.replace('atlas/research_daily/snapshots/2022/08/20220825.csv', 'atlas/research_daily/snapshots/2022/08/20220829.csv')
+          text = text.replace('__NSLAB_OUTCOME_SNAPSHOT__', 'atlas/research_daily/snapshots/2022/08/20220830.csv')
+          text = text.replace('atlas/research_daily/access/2022/08/20220826.json', 'atlas/research_daily/access/2022/08/20220830.json')
+          text = text.replace('news_20220826', 'news_20220830')
+          text = text.replace('20220826_nslab_episode_bundle.md', '20220830_nslab_episode_bundle.md')
+          text = text.replace('outcome_snapshot_20220826_', 'outcome_snapshot_20220830_')
+          text = text.replace('20220826_20260715t130039', '20220830_20260716t043340kst_dd6758f3')
+          text = text.replace('2022-08-26T08:59:59+09:00', '2022-08-30T08:59:59+09:00')
+          text = text.replace('2022-08-25T15:30:00+09:00', '2022-08-29T15:30:00+09:00')
+          text = text.replace('2022-08-29T00:00:00+09:00', '2022-08-31T00:00:00+09:00')
+          text = text.replace('2022-08-26T08:59:59', '2022-08-30T08:59:59')
+
+          needle = '        "news_byte_size": len(news_raw),\n        "csv_row_count": len(news_rows),'
+          replacement = (
+              '        "news_byte_size": len(news_raw),\n'
+              '        "example_file": example_name,\n'
+              '        "example_sha256": example_sha,\n'
+              '        "example_byte_size": len(example_raw),\n'
+              '        "csv_row_count": len(news_rows),'
+          )
+          if needle not in text:
+              raise RuntimeError('example receipt insertion point missing')
+          text = text.replace(needle, replacement, 1)
+
+          forbidden = [
+              'news_20220826.csv',
+              'access/2022/08/20220826.json',
+              'snapshots/2022/08/20220825.csv',
+              '20220826_nslab_episode_bundle.md',
+          ]
+          present = [item for item in forbidden if item in text]
+          if present:
+              raise RuntimeError(f'stale selected-date route survived: {present}')
+          required = [
+              'news_20220830.csv',
+              'access/2022/08/20220830.json',
+              'snapshots/2022/08/20220829.csv',
+              'snapshots/2022/08/20220830.csv',
+              '20220830_nslab_episode_bundle.md',
+          ]
+          missing = [item for item in required if item not in text]
+          if missing:
+              raise RuntimeError(f'new selected-date route missing: {missing}')
+
+          target = Path('temp/nslab_runner_20220830_20260716t043340kst_dd6758f3.py')
+          target.write_text(text, encoding='utf-8')
+          print(target)
+          PY
+          python3 -m py_compile temp/nslab_runner_20220830_20260716t043340kst_dd6758f3.py
+
+      - name: Run full gold phase machine
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONUNBUFFERED: '1'
+        run: |
+          set -euo pipefail
+          cd new_bot
+          python3 temp/nslab_runner_20220830_20260716t043340kst_dd6758f3.py 2>&1 | tee ../nslab_runner_20220830_dd6758f3.log
+          test -s final_artifact_20220830_20260716t043340kst_dd6758f3/20220830_nslab_episode_bundle.md
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('final_artifact_20220830_20260716t043340kst_dd6758f3')
+          final = root / '20220830_nslab_episode_bundle.md'
+          receipt = json.loads((root / 'independent_final_validation_receipt.json').read_text(encoding='utf-8'))
+          acquisition = json.loads((root / 'acquisition_receipt.json').read_text(encoding='utf-8'))
+          assert receipt['status'] == 'ACCEPT_FULL'
+          assert receipt['csv_row_count'] == acquisition['csv_row_count'] > 0
+          assert receipt['outcome_ledger_count'] == acquisition['outcome_snapshot_row_count_expected'] == 2434
+          assert receipt['brain_delta_record_count'] > 0
+          assert receipt['brain_delta_payload_missing_count'] == 0
+          assert receipt['brain_delta_manifest_payload_count_mismatch_count'] == 0
+          assert receipt['brain_delta_declared_without_payload_count'] == 0
+          text = final.read_text(encoding='utf-8')
+          assert text.startswith('---\n')
+          assert '<!-- NSLAB:BEGIN brain_delta.jsonl -->' in text
+          assert '<!-- NSLAB:BEGIN validation_report.json -->' in text
+          assert '<!-- NSLAB:BEGIN direct_ingest_contract.json -->' in text
+          print(json.dumps(receipt, sort_keys=True))
+          PY
+
+      - name: Upload diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-diagnostic-20220830-20260716T043340KST-dd6758f3-${{ github.run_id }}
+          path: |
+            nslab_runner_20220830_dd6758f3.log
+            new_bot/temp/nslab_runner_20220830_20260716t043340kst_dd6758f3.py
+            new_bot/work_20220830_20260716t043340kst_dd6758f3/acquisition_receipt.json
+            new_bot/work_20220830_20260716t043340kst_dd6758f3/acquisition_warnings.jsonl
+            new_bot/work_20220830_20260716t043340kst_dd6758f3/blind/blind_completion_receipt.json
+            new_bot/work_20220830_20260716t043340kst_dd6758f3/blind/artifacts/blind_seal_receipt.json
+            new_bot/final_artifact_20220830_20260716t043340kst_dd6758f3/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
+
+      - name: Upload independently validated episode bundle
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-final-20220830-20260716T043340KST-dd6758f3
+          path: new_bot/final_artifact_20220830_20260716t043340kst_dd6758f3/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
