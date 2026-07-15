@@ -70,6 +70,12 @@ jobs:
           text = text.replace('2022-08-29T00:00:00+09:00', '2022-08-31T00:00:00+09:00')
           text = text.replace('2022-08-26T08:59:59', '2022-08-30T08:59:59')
 
+          sparse_old = 'run(["git", "-C", str(STOCK), "sparse-checkout", "set", *p_paths])'
+          sparse_new = 'run(["git", "-C", str(STOCK), "sparse-checkout", "set", "--no-cone", *p_paths])'
+          if sparse_old not in text:
+              raise RuntimeError('sparse-checkout patch point missing')
+          text = text.replace(sparse_old, sparse_new, 1)
+
           needle = '        "news_byte_size": len(news_raw),\n        "csv_row_count": len(news_rows),'
           replacement = (
               '        "news_byte_size": len(news_raw),\n'
