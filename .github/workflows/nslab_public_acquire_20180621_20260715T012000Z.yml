@@ -1,0 +1,65 @@
+name: NSLAB public acquire 20180621 20260715T012000Z
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - 'temp/nslab_public_acquire_20180621_20260715T012000Z/trigger.txt'
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: nslab-public-acquire-20180621-20260715T012000Z-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  acquire:
+    if: github.head_ref == 'nslab-public-acquire-20180621-20260715T012000Z'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Checkout current new_bot main exact inputs
+        uses: actions/checkout@v4
+        with:
+          repository: Daikisong/new_bot
+          ref: main
+          path: new_bot
+          fetch-depth: 1
+          sparse-checkout: |
+            docs/research_prompt.md
+            docs/csv/news_20180621.csv
+            docs/example2.md
+          sparse-checkout-cone-mode: false
+      - name: Verify and package fresh bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p acquired
+          cp new_bot/docs/research_prompt.md acquired/prompt_tmp.md
+          cp new_bot/docs/csv/news_20180621.csv acquired/news_20180621_tmp.csv
+          cp new_bot/docs/example2.md acquired/example2.md
+          python - <<'PY'
+          import csv, hashlib, json
+          from datetime import datetime
+          from pathlib import Path
+          p=Path('acquired/prompt_tmp.md'); n=Path('acquired/news_20180621_tmp.csv')
+          pr=p.read_bytes(); nr=n.read_bytes()
+          ps=hashlib.sha256(pr).hexdigest(); ns=hashlib.sha256(nr).hexdigest()
+          assert ps=='b5ba21ce1f6e3a91dacf19e33e16d5db9dface141e90a67e78c8588ba1553029', (ps,len(pr))
+          assert len(pr)==430485
+          assert pr.decode('utf-8').splitlines()[0]=='# NSLAB GOLD PHASE MACHINE — DIRECT CSV RESEARCH RUNNER'
+          with n.open('r',encoding='utf-8-sig',newline='') as h: rows=list(csv.DictReader(h))
+          assert rows and list(rows[0])==['page','row','date','time','title','body']
+          times=[datetime.fromisoformat(f"{r['date']}T{r['time']}+09:00") for r in rows]
+          receipt={'prompt_sha256':ps,'prompt_byte_size':len(pr),'news_sha256':ns,'news_byte_size':len(nr),'csv_row_count':len(rows),'min_published_at':min(times).isoformat(),'max_published_at':max(times).isoformat(),'source_commit':Path('new_bot/.git/HEAD').read_text(errors='ignore') if Path('new_bot/.git/HEAD').exists() else None,'status':'CURRENT_MAIN_BYTES_ACQUIRED'}
+          Path('acquired/acquisition_receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          print(json.dumps(receipt,sort_keys=True))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nslab-public-acquire-20180621-20260715T012000Z
+          path: acquired
+          if-no-files-found: error
+          retention-days: 1
