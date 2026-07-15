@@ -16,15 +16,40 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
-      - name: Anonymous checkout of exact current new_bot main
+      - name: Download exact current main files from web-opened Raw endpoints
         shell: bash
         run: |
           set -euo pipefail
-          git clone --depth 1 --filter=blob:none --sparse https://github.com/Daikisong/new_bot.git new_bot
-          git -C new_bot sparse-checkout set --no-cone docs/research_prompt.md docs/csv/news_20180622.csv docs/example2.md
-          test -s new_bot/docs/research_prompt.md
-          test -s new_bot/docs/csv/news_20180622.csv
-          test -s new_bot/docs/example2.md
+          mkdir -p new_bot/docs/csv
+          python - <<'PY'
+          import hashlib, pathlib, urllib.request, time
+          targets={
+            'new_bot/docs/research_prompt.md':[
+              'https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/research_prompt.md',
+              'https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/research_prompt.md',
+              'https://github.com/Daikisong/new_bot/raw/refs/heads/main/docs/research_prompt.md'],
+            'new_bot/docs/csv/news_20180622.csv':[
+              'https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/csv/news_20180622.csv',
+              'https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/csv/news_20180622.csv',
+              'https://github.com/Daikisong/new_bot/raw/refs/heads/main/docs/csv/news_20180622.csv'],
+            'new_bot/docs/example2.md':[
+              'https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/docs/example2.md',
+              'https://media.githubusercontent.com/media/Daikisong/new_bot/main/docs/example2.md',
+              'https://github.com/Daikisong/new_bot/raw/refs/heads/main/docs/example2.md']}
+          for out,urls in targets.items():
+              last=None
+              for url in urls:
+                  try:
+                      req=urllib.request.Request(url,headers={'User-Agent':'nslab-current-run-20180622','Cache-Control':'no-cache'})
+                      with urllib.request.urlopen(req,timeout=120) as r: data=r.read()
+                      if not data: raise RuntimeError('empty')
+                      pathlib.Path(out).write_bytes(data)
+                      print(out,len(data),hashlib.sha256(data).hexdigest(),r.geturl(),flush=True)
+                      break
+                  except Exception as exc:
+                      last=exc; print('FAIL',out,url,repr(exc),flush=True); time.sleep(1)
+              else: raise RuntimeError(f'failed all browser Raw fallbacks for {out}: {last!r}')
+          PY
 
       - name: Checkout current stock-web main BLIND-safe inputs
         uses: actions/checkout@v4
@@ -70,7 +95,7 @@ jobs:
           window=datetime.fromisoformat('2018-06-21T15:30:00+09:00'); cutoff=datetime.fromisoformat('2018-06-22T08:59:59+09:00'); uncovered=[]
           if min(parsed)>window: uncovered.append(f'{window.isoformat()}..{(min(parsed)-timedelta(seconds=1)).isoformat()}')
           if max(parsed)<cutoff: uncovered.append(f'{(max(parsed)+timedelta(seconds=1)).isoformat()}..{cutoff.isoformat()}')
-          receipt={'schema_version':'nslab.current_run_acquisition.v1','status':'CURRENT_RUN_BYTES_VERIFIED','prompt_sha256':psha,'prompt_byte_size':len(pb),'news_sha256':nsha,'news_byte_size':len(nb),'csv_row_count':len(rows),'columns':list(rows[0]),'min_published_at':min(parsed).isoformat(),'max_published_at':max(parsed).isoformat(),'time_unverified_rows':bad,'blind_snapshot_sha256':bsha,'blind_snapshot_byte_size':len(bb),'blind_snapshot_row_count':len(brows),'trade_date':'2018-06-22','previous_trade_date':'2018-06-21','next_trade_date':'2018-06-25','outcome_snapshot_sha256_expected':access['outcome_snapshot_sha256'],'outcome_snapshot_byte_size_expected':access['outcome_snapshot_bytes'],'outcome_snapshot_row_count_expected':access['outcome_snapshot_row_count'],'uncovered_time_ranges':uncovered,'preseal_outcome_content_access_count':0,'acquisition_method':'WEB_RAW_OPEN_THEN_ANONYMOUS_GIT_DOWNLOAD'}
+          receipt={'schema_version':'nslab.current_run_acquisition.v1','status':'CURRENT_RUN_BYTES_VERIFIED','prompt_sha256':psha,'prompt_byte_size':len(pb),'news_sha256':nsha,'news_byte_size':len(nb),'csv_row_count':len(rows),'columns':list(rows[0]),'min_published_at':min(parsed).isoformat(),'max_published_at':max(parsed).isoformat(),'time_unverified_rows':bad,'blind_snapshot_sha256':bsha,'blind_snapshot_byte_size':len(bb),'blind_snapshot_row_count':len(brows),'trade_date':'2018-06-22','previous_trade_date':'2018-06-21','next_trade_date':'2018-06-25','outcome_snapshot_sha256_expected':access['outcome_snapshot_sha256'],'outcome_snapshot_byte_size_expected':access['outcome_snapshot_bytes'],'outcome_snapshot_row_count_expected':access['outcome_snapshot_row_count'],'uncovered_time_ranges':uncovered,'preseal_outcome_content_access_count':0,'acquisition_method':'WEB_RAW_OPEN_THEN_DOWNLOAD_FALLBACK'}
           (out/'acquisition_receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
           shutil.copyfile(prompt,out/f'research_prompt_20260715T020500Z_{psha[:8]}.md'); shutil.copyfile(news,out/f'news_20180622_20260715T020500Z_{nsha[:8]}.csv'); shutil.copyfile(example,out/'example2.md'); shutil.copyfile(access_path,out/'access_20180622.json'); shutil.copyfile(manifest,out/'manifest.json'); shutil.copyfile(schema,out/'schema.json'); shutil.copyfile(calendar,out/'trading_calendar.csv'); shutil.copyfile(blind,out/f'blind_snapshot_20180621_20260715T020500Z_{bsha[:8]}.csv')
           print(json.dumps(receipt,ensure_ascii=False,sort_keys=True))
