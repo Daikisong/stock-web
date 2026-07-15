@@ -1,0 +1,143 @@
+name: NSLAB transport probe 20180622 20260715T033000Z
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'temp/nslab_transport_probe_20180622_20260715T033000Z/trigger.txt'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  probe:
+    if: github.head_ref == 'nslab-transport-probe-20180622-20260715T033000Z'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - name: Checkout current stock-web main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          sparse-checkout: |
+            atlas/research_daily/access/2018/06/20180622.json
+            atlas/research_daily/manifest.json
+            atlas/research_daily/schema.json
+            atlas/research_daily/trading_calendar.csv
+            atlas/research_daily/snapshots/2018/06/20180621.csv
+          sparse-checkout-cone-mode: false
+      - name: Resolve exact current new_bot blobs without repository token
+        shell: bash
+        run: |
+          set -u
+          mkdir -p fresh/new_bot/docs/csv diagnostics clone_area
+          python - <<'PY'
+          import base64, hashlib, json, subprocess, urllib.request, urllib.error
+          from pathlib import Path
+          targets={
+            'prompt':{'path':'docs/research_prompt.md','blob':'e33e16c05fddfcc92883fc99fb688871f45e1fc0'},
+            'news':{'path':'docs/csv/news_20180622.csv','blob':'c37e515994623403ef73c8af20d7def919d88bd2'},
+            'example':{'path':'docs/example2.md','blob':'1f1c7e42d996143c830ae3d6ab664594914fa957'},
+          }
+          def git_blob_sha(data):
+              return hashlib.sha1(f'blob {len(data)}\0'.encode()+data).hexdigest()
+          def variants(resp, data):
+              yield 'raw',data
+              ctype=(resp.headers.get('content-type') or '').lower()
+              if 'json' in ctype or data[:1] in (b'{',b'['):
+                  try:
+                      obj=json.loads(data)
+                      if isinstance(obj,dict) and isinstance(obj.get('content'),str):
+                          yield 'json_base64',base64.b64decode(obj['content'])
+                  except Exception: pass
+              for marker in (b'Markdown Content:\n',b'Markdown Content:\r\n'):
+                  if marker in data: yield 'after_markdown_marker',data.split(marker,1)[1]
+          report=[]; resolved={}
+          bases=[
+            'https://raw.githubusercontent.com/Daikisong/new_bot/refs/heads/main/{path}',
+            'https://github.com/Daikisong/new_bot/raw/refs/heads/main/{path}',
+            'https://media.githubusercontent.com/media/Daikisong/new_bot/main/{path}',
+            'https://cdn.jsdelivr.net/gh/Daikisong/new_bot@main/{path}',
+            'https://raw.githack.com/Daikisong/new_bot/main/{path}',
+            'https://api.github.com/repos/Daikisong/new_bot/contents/{path}?ref=main',
+          ]
+          for key,spec in targets.items():
+              urls=[x.format(path=spec['path']) for x in bases]
+              urls.append(f"https://api.github.com/repos/Daikisong/new_bot/git/blobs/{spec['blob']}")
+              for idx,url in enumerate(urls):
+                  try:
+                      headers={'User-Agent':'NSLAB-current-run-20180622','Cache-Control':'no-cache','Accept':'application/vnd.github.raw+json' if '/git/blobs/' in url else 'application/vnd.github+json'}
+                      req=urllib.request.Request(url,headers=headers)
+                      with urllib.request.urlopen(req,timeout=180) as resp: data=resp.read()
+                      row={'key':key,'index':idx,'url':url,'status':resp.status,'content_type':resp.headers.get('content-type'),'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'git_blob_sha':git_blob_sha(data)}
+                      for vname,candidate in variants(resp,data):
+                          g=git_blob_sha(candidate); row[vname+'_git_blob_sha']=g; row[vname+'_bytes']=len(candidate)
+                          if g==spec['blob'] and key not in resolved:
+                              resolved[key]=candidate; row['matched_variant']=vname
+                      report.append(row)
+                  except Exception as exc:
+                      report.append({'key':key,'index':idx,'url':url,'error':type(exc).__name__+': '+str(exc)[:500]})
+          try:
+              env={'GIT_TERMINAL_PROMPT':'0','HOME':'/tmp/nslab-home','PATH':'/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'}
+              Path(env['HOME']).mkdir(parents=True,exist_ok=True)
+              cp=subprocess.run(['git','-c','http.extraHeader=','clone','--depth','1','--filter=blob:none','--sparse','https://github.com/Daikisong/new_bot.git','clone_area/new_bot'],env=env,capture_output=True,text=True,timeout=300)
+              report.append({'key':'git_clone','returncode':cp.returncode,'stdout':cp.stdout[-1000:],'stderr':cp.stderr[-2000:]})
+              if cp.returncode==0:
+                  subprocess.run(['git','-C','clone_area/new_bot','sparse-checkout','set','--no-cone','docs/research_prompt.md','docs/csv/news_20180622.csv','docs/example2.md'],check=True,env=env,timeout=180)
+                  subprocess.run(['git','-C','clone_area/new_bot','checkout','main'],check=True,env=env,timeout=180)
+                  for key,spec in targets.items():
+                      data=(Path('clone_area/new_bot')/spec['path']).read_bytes()
+                      g=git_blob_sha(data); report.append({'key':key,'method':'git_clone','bytes':len(data),'git_blob_sha':g})
+                      if g==spec['blob'] and key not in resolved: resolved[key]=data
+          except Exception as exc:
+              report.append({'key':'git_clone','error':type(exc).__name__+': '+str(exc)[:1000]})
+          Path('diagnostics/transport_probe.json').write_text(json.dumps({'resolved_keys':sorted(resolved),'report':report},ensure_ascii=False,indent=2,sort_keys=True)+'\n')
+          for row in report: print(json.dumps(row,ensure_ascii=False,sort_keys=True),flush=True)
+          if 'prompt' in resolved: Path('fresh/new_bot/docs/research_prompt.md').write_bytes(resolved['prompt'])
+          if 'news' in resolved: Path('fresh/new_bot/docs/csv/news_20180622.csv').write_bytes(resolved['news'])
+          if 'example' in resolved: Path('fresh/new_bot/docs/example2.md').write_bytes(resolved['example'])
+          if sorted(resolved)!=['example','news','prompt']:
+              raise SystemExit('exact blobs unresolved: '+repr(sorted(resolved)))
+          PY
+      - name: Verify exact bytes and package stock preseal inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p fresh/stock/atlas/research_daily/access/2018/06 fresh/stock/atlas/research_daily/snapshots/2018/06 fresh/stock/atlas/research_daily
+          cp atlas/research_daily/access/2018/06/20180622.json fresh/stock/atlas/research_daily/access/2018/06/20180622.json
+          cp atlas/research_daily/manifest.json fresh/stock/atlas/research_daily/manifest.json
+          cp atlas/research_daily/schema.json fresh/stock/atlas/research_daily/schema.json
+          cp atlas/research_daily/trading_calendar.csv fresh/stock/atlas/research_daily/trading_calendar.csv
+          cp atlas/research_daily/snapshots/2018/06/20180621.csv fresh/stock/atlas/research_daily/snapshots/2018/06/20180621.csv
+          python - <<'PY'
+          import csv,hashlib,json
+          from datetime import datetime,timedelta
+          from pathlib import Path
+          r=Path('fresh'); p=(r/'new_bot/docs/research_prompt.md').read_bytes(); npath=r/'new_bot/docs/csv/news_20180622.csv'; n=npath.read_bytes(); bpath=r/'stock/atlas/research_daily/snapshots/2018/06/20180621.csv'; b=bpath.read_bytes()
+          assert hashlib.sha256(p).hexdigest()=='b5ba21ce1f6e3a91dacf19e33e16d5db9dface141e90a67e78c8588ba1553029' and len(p)==430485
+          with npath.open(encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
+          assert rows and list(rows[0])==['page','row','date','time','title','body']
+          ts=[]; bad=[]
+          for i,row in enumerate(rows,1):
+              try: ts.append(datetime.fromisoformat(f"{row['date']}T{row['time']}+09:00"))
+              except Exception: bad.append(i)
+          access=json.loads((r/'stock/atlas/research_daily/access/2018/06/20180622.json').read_text())
+          with bpath.open(encoding='utf-8-sig',newline='') as f: brows=list(csv.DictReader(f))
+          bs=hashlib.sha256(b).hexdigest(); assert bs==access['blind_snapshot_sha256'] and len(b)==access['blind_snapshot_bytes'] and len(brows)==access['blind_snapshot_row_count']
+          rec={'status':'CURRENT_RUN_RAW_ACQUISITION_VERIFIED','prompt_sha256':hashlib.sha256(p).hexdigest(),'prompt_byte_size':len(p),'news_sha256':hashlib.sha256(n).hexdigest(),'news_byte_size':len(n),'csv_row_count':len(rows),'columns':list(rows[0]),'min_published_at':min(ts).isoformat(),'max_published_at':max(ts).isoformat(),'time_unverified_rows':bad,'trade_date':'2018-06-22','previous_trade_date':'2018-06-21','next_trade_date':'2018-06-25','blind_snapshot_sha256':bs,'blind_snapshot_byte_size':len(b),'blind_snapshot_row_count':len(brows),'outcome_snapshot_sha256':access['outcome_snapshot_sha256'],'outcome_snapshot_byte_size':access['outcome_snapshot_bytes'],'outcome_snapshot_row_count':access['outcome_snapshot_row_count'],'preseal_outcome_content_access_count':0}
+          (r/'acquisition_verification.json').write_text(json.dumps(rec,ensure_ascii=False,indent=2,sort_keys=True)+'\n')
+          print(json.dumps(rec,ensure_ascii=False,sort_keys=True))
+          PY
+      - name: Upload probe and exact fresh inputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nslab-transport-probe-20180622-20260715T033000Z
+          path: |
+            diagnostics/
+            fresh/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
