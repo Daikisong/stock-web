@@ -1,0 +1,1 @@
+Trigger fresh exact Raw acquisition for NSLAB news_20180622.csv.
