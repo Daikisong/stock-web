@@ -1,0 +1,1 @@
+Trigger browser-Raw fallback current-main acquisition for news_20180622.csv retry 2.
