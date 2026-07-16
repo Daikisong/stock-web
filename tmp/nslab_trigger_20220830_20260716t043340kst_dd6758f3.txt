@@ -1,0 +1,2 @@
+NSLAB isolated research trigger for news_20220830.csv.
+retry=1 sparse_checkout_no_cone
